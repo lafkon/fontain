@@ -1,0 +1,29 @@
+eotutils - an implementation of EOT for linux
+
+libeot 
+    - handle converting to mtx from eot and vice-versa
+    - handle converting from uncompressed ttf to eot and vice-versa
+    - exract all eot header information
+    - handle converting between eot versions
+    - handle changing flags (removing xor waste of cpu cycles, compression, etc)
+    - repair / validate settings
+    - update root strings
+
+libmtx
+    - handle converting to ctf from mtx and vice-versa
+    - dump mtx header, validate according to spec
+    - handle tweaking compression settings
+
+libctf
+    - handle converting to ctf from ttf and vice-versa
+
+eot
+    - commandline libeot/mtx/ctf client
+        - eot convert --compress --encrypt ttf:input.ttf eot:output.eot
+        - eot convert ttf:input.ttr ctf:output.ctf
+        - eot repair broken.eot
+        - eot upgrade --version=2.1 input.eot
+        - eot convert --rootstring="http://foo.com" eot:file.eot eot:output.eot
+        - eot view eot:file.eot # invoke ftview?
+        - eot identify file.eot
+

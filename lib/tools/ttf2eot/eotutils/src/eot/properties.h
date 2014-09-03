@@ -1,0 +1,58 @@
+#pragma once
+#ifndef __PROPERTIES_H
+#define __PROPERTIES_H
+
+// Charsets
+#define ANSI_CHARSET  0
+#define DEFAULT_CHARSET 1
+#define SYMBOL_CHARSET 2
+#define SHIFTJIS_CHARSET 128
+#define HANGEUL_CHARSET 129
+#define HANGUL_CHARSET 129
+#define GB2312_CHARSET 134
+#define CHINESEBIG5_CHARSET 136
+#define GREEK_CHARSET 161
+#define TURKISH_CHARSET 162
+#define HEBREW_CHARSET 177
+#define ARABIC_CHARSET 178
+#define BALTIC_CHARSET 186
+#define RUSSIAN_CHARSET 204
+#define THAI_CHARSET 222
+#define EASTEUROPE_CHARSET 238
+#define OEM_CHARSET 255
+#define JOHAB_CHARSET 130
+#define VIETNAMESE_CHARSET 163
+#define MAC_CHARSET 77
+
+const char * charset2str(uint16_t charset);
+
+// Weights
+#define FW_DONTCARE 0
+#define FW_THIN 100
+#define FW_EXTRALIGHT 200
+#define FW_ULTRALIGHT FW_EXTRALIGHT
+#define FW_LIGHT 300
+#define FW_NORMAL 400
+#define FW_REGULAR 400
+#define FW_MEDIUM 500
+#define FW_SEMIBOLD 600
+#define FW_DEMIBOLD FW_SEMIBOLD
+#define FW_BOLD 700
+#define FW_EXTRABOLD 800
+#define FW_ULTRABOLD FW_EXTRABOLD
+#define FW_HEAVY 900
+#define FW_BLACK FW_HEAVY
+
+const char * weight2str(uint16_t weight);
+
+// Level (Flags)
+#define LEVEL_INSTALLABLE 0x0000
+#define LEVEL_RESTRICTED  0x0002
+#define LEVEL_PREVIEWPRINT 0x0004
+#define LEVEL_EDITABLE 0x0008
+#define LEVEL_NOSUBSETTING 0x0100
+#define LEVEL_BITMAPONLY 0x0200
+
+#else
+#warning properties.h included twice
+#endif
