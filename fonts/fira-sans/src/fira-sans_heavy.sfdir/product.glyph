@@ -1,0 +1,28 @@
+
+StartChar: product
+Encoding: 8719 8719 1117
+Width: 610
+Flags: MW
+HStem: -227 21G<80 80 345 345> -207 21G<265 265 530 530> 534 146<15 80 15 595 265 345 265 265 530 595 530 530>
+VStem: 80 185<-207 534 -207 534 -207 534> 345 185<-207 534 -207 534 -207 534>
+LayerCount: 2
+Fore
+SplineSet
+530 534 m 1x78
+ 530 -207 l 1x78
+ 345 -227 l 1xb8
+ 345 534 l 1
+ 265 534 l 1
+ 265 -207 l 1x78
+ 80 -227 l 1xb8
+ 80 534 l 1
+ 15 534 l 1
+ 15 680 l 1
+ 595 680 l 1
+ 595 534 l 1
+ 530 534 l 1x78
+EndSplineSet
+Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" product.osf
+Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" product.tf
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" product.tf product.osf
+EndChar

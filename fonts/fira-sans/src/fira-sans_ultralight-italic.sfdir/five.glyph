@@ -1,0 +1,36 @@
+
+StartChar: five
+Encoding: 53 53 884
+Width: 476
+Flags: MW
+HStem: -10 31<150.5 258.5 150.5 270> 388 30<231 293> 632 30<171 447 171 171>
+VStem: 383 35<200.5 290>
+LayerCount: 2
+Fore
+SplineSet
+447 632 m 1
+ 171 632 l 1
+ 135 382 l 1
+ 166 401 205 418 257 418 c 0
+ 359 418 418 348 418 244 c 0
+ 418 143 356 -10 184 -10 c 0
+ 105 -10 52 19 12 68 c 1
+ 38 88 l 1
+ 73 44 116 21 185 21 c 0
+ 332 21 383 157 383 244 c 0
+ 383 336 332 388 254 388 c 0
+ 202 388 169 375 126 350 c 1
+ 98 350 l 1
+ 141 662 l 1
+ 457 662 l 1
+ 447 632 l 1
+EndSplineSet
+Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" five.osf
+Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" five.tf
+Substitution2: "'frac' Diagonal Fractions lookup 16 subtable" five.numr
+Substitution2: "'dnom' Denominators lookup 14 subtable" five.dnom
+Substitution2: "'numr' Numerators lookup 13 subtable" five.numr
+Substitution2: "'sups' Superscript lookup 12 subtable" fivesuperior
+Substitution2: "'subs' Subscript lookup 11 subtable" fiveinferior
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" fiveinferior fivesuperior five.numr five.dnom five.tf five.osf
+EndChar

@@ -1,0 +1,42 @@
+
+StartChar: uring
+Encoding: 367 367 248
+Width: 562
+GlyphClass: 2
+Flags: MW
+HStem: -22 21G<121 207> 0 21G<338 532 338 338> 0 138<264 532 264 338> 516 20G<25 247 247 247 310 532 532 532> 586 113<268.5 289.5 268.5 331> 786 111<268.5 289.5>
+VStem: 25 222<162.5 180 180 536> 116 126<726.5 758 726.5 783.5> 310 222<172 536> 316 126<726.5 758>
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 0 0 basechar 0
+AnchorPoint: "Anchor-9" 279 536 basechar 0
+AnchorPoint: "Anchor-8" 542 0 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+279 897 m 0x5d40
+ 383 897 442 825 442 742 c 0
+ 442 660 383 586 279 586 c 0
+ 175 586 116 660 116 742 c 0
+ 116 825 175 897 279 897 c 0x5d40
+279 786 m 0
+ 258 786 242 774 242 742 c 0
+ 242 711 258 699 279 699 c 0
+ 300 699 316 711 316 742 c 0
+ 316 774 300 786 279 786 c 0
+532 0 m 1x5e80
+ 338 0 l 1x5e80
+ 331 53 l 1
+ 295 3 240 -22 174 -22 c 0x9e80
+ 68 -22 25 48 25 150 c 2
+ 25 536 l 1
+ 247 536 l 1
+ 247 180 l 2
+ 247 145 259 138 269 138 c 0
+ 278 138 296 146 310 172 c 1x3e80
+ 310 536 l 1
+ 532 536 l 1
+ 532 0 l 1x5e80
+EndSplineSet
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" uring.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uring.sc
+EndChar

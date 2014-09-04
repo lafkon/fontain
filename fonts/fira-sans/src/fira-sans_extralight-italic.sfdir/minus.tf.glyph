@@ -1,0 +1,20 @@
+
+StartChar: minus.tf
+Encoding: 1114562 -1 1162
+Width: 560
+Flags: MW
+HStem: 310 42<82 423 76 428>
+VStem: 76 352<310 352>
+LayerCount: 2
+Fore
+SplineSet
+82 352 m 1
+ 428 352 l 1
+ 423 310 l 1
+ 76 310 l 1
+ 82 352 l 1
+EndSplineSet
+Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" minus.tosf
+Substitution2: "'pnum' Proportional Numbers lookup 20 subtable" minus
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" minus minus.tosf
+EndChar

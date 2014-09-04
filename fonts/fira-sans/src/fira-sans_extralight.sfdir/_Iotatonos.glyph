@@ -1,0 +1,30 @@
+
+StartChar: Iotatonos
+Encoding: 906 906 718
+Width: 277
+GlyphClass: 2
+Flags: MW
+HStem: 0 21G<115 163 115 115> 664 20G<80 80 115 163 163 163> 674 20G<24 24>
+VStem: 115 48<0 684>
+AnchorPoint: "Anchor-7" 0 0 basechar 0
+AnchorPoint: "Anchor-6" 90 684 basechar 0
+AnchorPoint: "Anchor-5" 173 0 basechar 0
+AnchorPoint: "Anchor-4" 138 684 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+80 684 m 1xd0
+ 25 535 l 1
+ -9 541 l 1
+ 24 694 l 1xb0
+ 80 684 l 1xd0
+163 0 m 1
+ 115 0 l 1
+ 115 684 l 1
+ 163 684 l 1xd0
+ 163 0 l 1
+EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" iotatonos.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" iotatonos.sc
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
+EndChar

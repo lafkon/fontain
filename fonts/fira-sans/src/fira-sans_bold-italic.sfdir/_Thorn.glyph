@@ -1,0 +1,36 @@
+
+StartChar: Thorn
+Encoding: 222 222 84
+Width: 591
+GlyphClass: 2
+Flags: MW
+HStem: 0 21G<27 188 27 27> 114 119<221 279 221 279 204 279> 468 117<270 313 254 328> 673 20G<124 285 285 285>
+VStem: 419 167<350 411.5>
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 0 0 basechar 0
+AnchorPoint: "Anchor-9" 127 433 basechar 0
+AnchorPoint: "Anchor-8" 0 0 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+328 585 m 2
+ 489 585 586 522 586 386 c 0
+ 586 269 517 114 279 114 c 2
+ 204 114 l 1
+ 188 0 l 1
+ 27 0 l 1
+ 124 693 l 1
+ 285 693 l 1
+ 270 585 l 1
+ 328 585 l 2
+279 233 m 2
+ 391 233 419 318 419 382 c 0
+ 419 441 382 468 313 468 c 2
+ 254 468 l 1
+ 221 233 l 1
+ 279 233 l 2
+EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" thorn.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" thorn.sc
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
+EndChar

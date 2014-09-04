@@ -1,0 +1,37 @@
+
+StartChar: six
+Encoding: 54 54 885
+Width: 540
+Flags: MW
+HStem: -15 95<225 304.5 225 342.5> 355 93<318 330> 590 95<323.5 382.5>
+VStem: 43 126<158 210.5 158 238> 381 126<237 302>
+LayerCount: 2
+Fore
+SplineSet
+345 448 m 0
+ 438 448 507 386 507 269 c 0
+ 507 159 435 -15 250 -15 c 0
+ 104 -15 43 79 43 224 c 0
+ 43 252 45 283 50 316 c 0
+ 81 538 203 685 371 685 c 0
+ 430 685 476 667 511 640 c 1
+ 455 563 l 1
+ 430 581 399 590 366 590 c 0
+ 281 590 216 509 188 378 c 1
+ 238 428 291 448 345 448 c 0
+255 80 m 0
+ 354 80 381 204 381 270 c 0
+ 381 334 353 355 307 355 c 0
+ 259 355 212 326 175 282 c 1
+ 171 250 169 222 169 199 c 0
+ 169 117 195 80 255 80 c 0
+EndSplineSet
+Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" six.osf
+Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" six.tf
+Substitution2: "'frac' Diagonal Fractions lookup 16 subtable" six.numr
+Substitution2: "'dnom' Denominators lookup 14 subtable" six.dnom
+Substitution2: "'numr' Numerators lookup 13 subtable" six.numr
+Substitution2: "'sups' Superscript lookup 12 subtable" sixsuperior
+Substitution2: "'subs' Subscript lookup 11 subtable" sixinferior
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" sixinferior sixsuperior six.numr six.dnom six.tf six.osf
+EndChar

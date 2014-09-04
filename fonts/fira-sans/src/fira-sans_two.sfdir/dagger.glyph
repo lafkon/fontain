@@ -1,0 +1,28 @@
+
+StartChar: dagger
+Encoding: 8224 8224 1229
+Width: 496
+Flags: MW
+HStem: 0 21G<247 249 247 247> 490 170<70 249 247 425 247 249>
+VStem: 70 179<0 492 0 492> 247 178<0 492 490 492 490 660 490 660>
+LayerCount: 2
+Fore
+SplineSet
+249 492 m 1xe0
+ 425 492 l 1
+ 425 490 l 1xd0
+ 249 490 l 1xe0
+ 249 0 l 1
+ 247 0 l 1
+ 247 490 l 1xd0
+ 70 490 l 1
+ 70 492 l 1xe0
+ 247 492 l 1xd0
+ 247 660 l 1
+ 249 660 l 1
+ 249 492 l 1xe0
+EndSplineSet
+Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" dagger.osf
+Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" dagger.tf
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" dagger.tf dagger.osf
+EndChar

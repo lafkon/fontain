@@ -1,0 +1,37 @@
+
+StartChar: R
+Encoding: 82 82 86
+Width: 628
+GlyphClass: 2
+Flags: MW
+HStem: 0 21G<30 261 30 30 404 404 404 658> 238 153<261 284 261 306> 541 157<261 296 261 261>
+VStem: 30 231<0 238 391 541> 375 234<444 495>
+AnchorPoint: "Anchor-11" 313 0 basechar 0
+AnchorPoint: "Anchor-10" 0 0 basechar 0
+AnchorPoint: "Anchor-9" 315 698 basechar 0
+AnchorPoint: "Anchor-8" 0 0 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+284 238 m 1
+ 261 238 l 1
+ 261 0 l 1
+ 30 0 l 1
+ 30 698 l 1
+ 302 698 l 2
+ 507 698 609 629 609 471 c 0
+ 609 385 574 334 492 280 c 1
+ 658 0 l 1
+ 404 0 l 1
+ 284 238 l 1
+261 391 m 1
+ 306 391 l 2
+ 353 391 375 417 375 471 c 0
+ 375 519 345 541 296 541 c 2
+ 261 541 l 1
+ 261 391 l 1
+EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" r.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" r.sc
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
+EndChar

@@ -1,0 +1,24 @@
+
+StartChar: asciitilde
+Encoding: 126 126 1089
+Width: 460
+Flags: MW
+HStem: 273 33<288.5 328.5 288.5 331.5> 329 33<149 189.5>
+VStem: 69 338<301 333>
+LayerCount: 2
+Fore
+SplineSet
+167 362 m 0
+ 227 362 265 306 312 306 c 0
+ 345 306 361 324 385 349 c 1
+ 407 333 l 1
+ 377 297 352 273 311 273 c 0xe0
+ 255 273 212 329 167 329 c 0
+ 131 329 114 311 90 286 c 1
+ 69 301 l 1
+ 99 337 124 362 167 362 c 0
+EndSplineSet
+Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" asciitilde.osf
+Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" asciitilde.tf
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" asciitilde.tf asciitilde.osf
+EndChar

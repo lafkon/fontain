@@ -1,0 +1,27 @@
+
+StartChar: dieresis
+Encoding: 168 168 1255
+Width: 385
+Flags: MW
+HStem: 654 114<71.5 104 281 313.5>
+VStem: 30 115<695 727> 240 115<695 727>
+AnchorPoint: "Anchor-12" 193 677 basemark 0
+LayerCount: 2
+Fore
+SplineSet
+88 768 m 0
+ 120 768 145 743 145 711 c 0
+ 145 679 120 654 88 654 c 0
+ 55 654 30 679 30 711 c 0
+ 30 743 55 768 88 768 c 0
+297 768 m 0
+ 330 768 355 743 355 711 c 0
+ 355 679 330 654 297 654 c 0
+ 265 654 240 679 240 711 c 0
+ 240 743 265 768 297 768 c 0
+EndSplineSet
+Substitution2: "'case' Case-Sensitive Forms lookup 25 subtable" dieresis.case
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" dieresis.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" dieresis.sc
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" dieresis.sc dieresis.case
+EndChar

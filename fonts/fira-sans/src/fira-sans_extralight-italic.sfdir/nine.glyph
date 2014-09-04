@@ -1,0 +1,34 @@
+
+StartChar: nine
+Encoding: 57 57 888
+Width: 514
+Flags: MW
+HStem: 250 40<207 270.5> 636 39<238.5 350>
+VStem: 81 46<382 466 382 481> 429 46<465.5 528.5>
+LayerCount: 2
+Fore
+SplineSet
+307 675 m 0
+ 421 675 475 598 475 476 c 0
+ 475 276 408 66 86 -19 c 1
+ 77 18 l 1
+ 258 74 378 160 416 345 c 1
+ 367 285 305 250 236 250 c 0
+ 145 250 81 319 81 427 c 0
+ 81 535 145 675 307 675 c 0
+243 290 m 0
+ 313 290 370 330 423 399 c 1
+ 427 429 429 453 429 478 c 0
+ 429 579 392 636 308 636 c 0
+ 169 636 127 508 127 424 c 0
+ 127 340 171 290 243 290 c 0
+EndSplineSet
+Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" nine.osf
+Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" nine.tf
+Substitution2: "'frac' Diagonal Fractions lookup 16 subtable" nine.numr
+Substitution2: "'dnom' Denominators lookup 14 subtable" nine.dnom
+Substitution2: "'numr' Numerators lookup 13 subtable" nine.numr
+Substitution2: "'sups' Superscript lookup 12 subtable" ninesuperior
+Substitution2: "'subs' Subscript lookup 11 subtable" nineinferior
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" nineinferior ninesuperior nine.numr nine.dnom nine.tf nine.osf
+EndChar

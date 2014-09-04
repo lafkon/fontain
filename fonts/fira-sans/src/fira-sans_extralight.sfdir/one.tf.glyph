@@ -1,0 +1,27 @@
+
+StartChar: one.tf
+Encoding: 1114432 -1 898
+Width: 560
+Flags: MW
+HStem: 0 41<125 291 337 490 125 291> 542 20G<102 102> 632 52<291 337> 664 20G<298 337 337 337>
+VStem: 291 46<41 632 632 632>
+LayerCount: 2
+Fore
+SplineSet
+490 41 m 1xd8
+ 490 0 l 1
+ 125 0 l 1
+ 125 41 l 1
+ 291 41 l 1
+ 291 632 l 1xe8
+ 124 527 l 1
+ 102 562 l 1
+ 298 684 l 1
+ 337 684 l 1
+ 337 41 l 1
+ 490 41 l 1xd8
+EndSplineSet
+Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" one.tosf
+Substitution2: "'pnum' Proportional Numbers lookup 20 subtable" one
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" one one.tosf
+EndChar

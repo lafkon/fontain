@@ -1,0 +1,35 @@
+
+StartChar: Omacron
+Encoding: 332 332 78
+Width: 691
+GlyphClass: 2
+Flags: MW
+HStem: -17 120<300 392 300 443> 590 120<299 391.5> 779 110<194 499 194 499>
+VStem: 33 172<259 434.5 259 460> 194 305<779 889 779 889> 486 172<259 434.5>
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 107 693 basechar 0
+AnchorPoint: "Anchor-9" 347 693 basechar 0
+AnchorPoint: "Anchor-8" 0 0 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+194 779 m 1xe8
+ 194 889 l 1
+ 499 889 l 1
+ 499 779 l 1
+ 194 779 l 1xe8
+345 710 m 0xf4
+ 541 710 658 578 658 347 c 0
+ 658 120 541 -17 345 -17 c 0
+ 150 -17 33 116 33 347 c 0
+ 33 573 150 710 345 710 c 0xf4
+345 590 m 0
+ 253 590 205 522 205 347 c 0
+ 205 171 255 103 345 103 c 0
+ 439 103 486 171 486 347 c 0
+ 486 522 438 590 345 590 c 0
+EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" omacron.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" omacron.sc
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
+EndChar

@@ -1,0 +1,39 @@
+
+StartChar: Otilde
+Encoding: 213 213 81
+Width: 683
+GlyphClass: 2
+Flags: MW
+HStem: -15 101<273 397.5 273 439> 605 101<309.5 434.5> 770 94<466.5 493.5 466.5 503> 817 93<357.5 385>
+VStem: 49 135<193 318 193 356.5> 522 136<375.5 499.5>
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 40 534 basechar 0
+AnchorPoint: "Anchor-9" 404 691 basechar 0
+AnchorPoint: "Anchor-8" 0 0 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+479 770 m 0xec
+ 425 770 400 817 370 817 c 0
+ 345 817 328 799 308 770 c 1
+ 245 807 l 1
+ 276 864 321 910 375 910 c 0xdc
+ 432 910 451 864 482 864 c 0
+ 505 864 522 880 542 909 c 1
+ 607 872 l 1
+ 572 809 527 770 479 770 c 0xec
+401 706 m 0
+ 562 706 658 605 658 424 c 0
+ 658 240 572 -15 306 -15 c 0
+ 145 -15 49 86 49 266 c 0
+ 49 447 135 706 401 706 c 0
+393 605 m 0
+ 226 605 184 384 184 252 c 0
+ 184 134 233 86 313 86 c 0
+ 482 86 522 308 522 443 c 0
+ 522 556 476 605 393 605 c 0
+EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" otilde.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" otilde.sc
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
+EndChar

@@ -1,0 +1,24 @@
+
+StartChar: ogonek
+Encoding: 731 731 1262
+Width: 235
+Flags: MW
+HStem: -208 33<18.5 45> -202 21G<90 90> 0 21G<119 119>
+VStem: -56 36<-139 -98>
+LayerCount: 2
+Fore
+SplineSet
+119 0 m 1xb0
+ 34 -37 -20 -68 -20 -123 c 0
+ -20 -155 -4 -175 41 -175 c 0
+ 60 -175 74 -173 96 -169 c 1xb0
+ 90 -202 l 1x70
+ 70 -206 54 -208 36 -208 c 0
+ -28 -208 -56 -176 -56 -135 c 0
+ -56 -61 -1 -23 109 19 c 1
+ 119 0 l 1xb0
+EndSplineSet
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" ogonek.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" ogonek.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" ogonek.sc
+EndChar

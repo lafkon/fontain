@@ -1,0 +1,38 @@
+
+StartChar: Uogonek
+Encoding: 370 370 109
+Width: 647
+GlyphClass: 2
+Flags: MW
+HStem: -213 41<287.5 315> -206 21G<361 361> -11 43<229.5 288> 664 20G<164 211 211 211 554 601 601 601>
+VStem: 94.75 47.24 198 45<-135 -100>
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 0 0 basechar 0
+AnchorPoint: "Anchor-9" 385 684 basechar 0
+AnchorPoint: "Anchor-8" 374 0 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+601 684 m 1xbc
+ 535 210 l 2
+ 520 102 461 21 358 -3 c 1
+ 279 -40 243 -69 243 -119 c 0
+ 243 -151 265 -172 310 -172 c 0
+ 329 -172 344 -170 366 -166 c 1xbc
+ 361 -206 l 1x7c
+ 341 -210 325 -213 305 -213 c 0
+ 233 -213 198 -174 198 -124 c 0
+ 198 -76 228 -40 288 -11 c 1
+ 136 -11 80 83 98 213 c 2
+ 164 684 l 1
+ 211 684 l 1
+ 145 214 l 2
+ 130 102 170 32 289 32 c 0
+ 411 32 473 107 488 217 c 2
+ 554 684 l 1
+ 601 684 l 1xbc
+EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" uogonek.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uogonek.sc
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
+EndChar

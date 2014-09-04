@@ -1,0 +1,28 @@
+
+StartChar: product.tf
+Encoding: 1114568 -1 1168
+Width: 560
+Flags: MW
+HStem: -227 21G<55 55 320 320> -207 21G<240 240 505 505> 550 146<-10 55 -10 570 240 320 240 240 505 570 505 505>
+VStem: 55 185<-207 550 -207 550 -207 550> 320 185<-207 550 -207 550 -207 550>
+LayerCount: 2
+Fore
+SplineSet
+570 550 m 1x78
+ 505 550 l 1
+ 505 -207 l 1x78
+ 320 -227 l 1xb8
+ 320 550 l 1
+ 240 550 l 1
+ 240 -207 l 1x78
+ 55 -227 l 1xb8
+ 55 550 l 1
+ -10 550 l 1
+ -10 696 l 1
+ 570 696 l 1
+ 570 550 l 1x78
+EndSplineSet
+Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" product.tosf
+Substitution2: "'pnum' Proportional Numbers lookup 20 subtable" product
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" product product.tosf
+EndChar

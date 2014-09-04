@@ -1,0 +1,41 @@
+
+StartChar: Udieresis
+Encoding: 220 220 105
+Width: 644
+GlyphClass: 2
+Flags: MW
+HStem: -20 148<292 352 292 420> 676 20G<33 239 239 239 405 611 611 611> 759 185<173 226 418 471>
+VStem: 33 206<236 242 242 696> 104 190<826 877.5> 349 190<826 877.5> 405 206<242 696>
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 0 0 basechar 0
+AnchorPoint: "Anchor-9" 318 868 basechar 0
+AnchorPoint: "Anchor-8" 460 0 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+199 944 m 0xf2
+ 253 944 294 903 294 852 c 0xea
+ 294 800 253 759 199 759 c 0
+ 147 759 104 800 104 852 c 0
+ 104 903 147 944 199 944 c 0xf2
+444 944 m 0
+ 498 944 539 903 539 852 c 0xf2
+ 539 800 498 759 444 759 c 0
+ 392 759 349 800 349 852 c 0xf4
+ 349 903 392 944 444 944 c 0
+611 236 m 2
+ 611 94 518 -20 322 -20 c 0
+ 126 -20 33 84 33 236 c 2
+ 33 696 l 1
+ 239 696 l 1
+ 239 242 l 2
+ 239 165 262 128 322 128 c 0
+ 382 128 405 165 405 242 c 2
+ 405 696 l 1
+ 611 696 l 1
+ 611 236 l 2
+EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" udieresis.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" udieresis.sc
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
+EndChar

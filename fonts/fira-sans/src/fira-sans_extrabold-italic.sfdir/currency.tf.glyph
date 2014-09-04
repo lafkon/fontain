@@ -1,0 +1,41 @@
+
+StartChar: currency.tf
+Encoding: 1114511 -1 1076
+Width: 549
+Flags: MW
+HStem: 122 117<259 301.5> 443 118<259 301.5 259 310.5> 512 20G<166 166 396 396> 515 20G<14 14 547 547>
+VStem: 58 132<320.5 363.5> 370 134<320 363.5 320 374>
+LayerCount: 2
+Fore
+SplineSet
+504 342 m 0x9c
+ 504 298 492 258 471 224 c 1
+ 547 149 l 1
+ 473 75 l 1
+ 395 151 l 1
+ 362 132 323 122 280 122 c 0
+ 238 122 199 132 167 151 c 1
+ 88 75 l 1
+ 14 149 l 1
+ 90 225 l 1
+ 70 259 58 299 58 342 c 0
+ 58 385 69 424 90 458 c 1
+ 14 535 l 1
+ 88 610 l 1x9c
+ 166 532 l 1xac
+ 199 550 238 561 280 561 c 0xcc
+ 323 561 363 550 396 532 c 1
+ 473 610 l 1xac
+ 547 535 l 1
+ 472 459 l 1
+ 492 425 504 385 504 342 c 0x9c
+281 239 m 0
+ 340 239 370 277 370 342 c 0
+ 370 406 340 443 281 443 c 0xcc
+ 221 443 190 406 190 342 c 0
+ 190 277 221 239 281 239 c 0
+EndSplineSet
+Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" currency.tosf
+Substitution2: "'pnum' Proportional Numbers lookup 20 subtable" currency
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" currency currency.tosf
+EndChar

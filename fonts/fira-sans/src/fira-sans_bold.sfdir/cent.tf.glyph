@@ -1,0 +1,32 @@
+
+StartChar: cent.tf
+Encoding: 1114508 -1 1073
+Width: 560
+Flags: MW
+HStem: -13 21G<373 373> -11 21G<259 259> 522 20G<260 260> 524 20G<373 373>
+VStem: 59 166<203 321.5 203 334.5> 260 113<544 691>
+LayerCount: 2
+Fore
+SplineSet
+501 46 m 1x5c
+ 464 17 423 -4 373 -13 c 1x9c
+ 373 -161 l 1
+ 259 -161 l 1
+ 259 -11 l 1
+ 134 14 59 116 59 261 c 0
+ 59 408 135 516 260 542 c 1x6c
+ 260 691 l 1
+ 373 691 l 1
+ 373 544 l 1
+ 422 535 463 515 501 483 c 1
+ 432 388 l 1
+ 399 415 368 427 332 427 c 0
+ 264 427 225 381 225 262 c 0
+ 225 144 267 108 330 108 c 0
+ 368 108 394 120 429 147 c 1
+ 501 46 l 1x5c
+EndSplineSet
+Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" cent.tosf
+Substitution2: "'pnum' Proportional Numbers lookup 20 subtable" cent
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" cent cent.tosf
+EndChar

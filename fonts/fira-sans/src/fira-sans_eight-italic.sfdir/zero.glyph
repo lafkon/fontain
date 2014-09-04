@@ -1,0 +1,33 @@
+
+StartChar: zero
+Encoding: 48 48 879
+Width: 538
+Flags: MW
+HStem: -9.22 7.58 663.29 7.56
+VStem: 79.93 8.23 470.15 8.22
+LayerCount: 2
+Fore
+SplineSet
+325.64 670.85 m 0
+ 427.859 670.85 478.369 597.209 478.369 451.279 c 0
+ 478.369 285.569 429.219 -9.2207 232.079 -9.2207 c 0
+ 130.649 -9.2207 79.9297 63.8496 79.9297 208 c 0
+ 79.9297 376 128.29 670.85 325.64 670.85 c 0
+325.649 663.289 m 0
+ 203.149 663.289 124.799 542.22 97.1592 336.29 c 0
+ 90.3691 284.64 88.1592 243.5 88.1592 207.14 c 0
+ 88.1592 68.8594 135.509 -1.64062 232.079 -1.64062 c 0
+ 357.149 -0.860352 432.72 122.359 461.149 324.93 c 0
+ 468.72 377.569 470.149 421.289 470.149 452.359 c 0
+ 470.149 593.569 422.22 663.289 325.649 663.289 c 0
+EndSplineSet
+Substitution2: "'zero' Slashed Zero lookup 28 subtable" zero.zero
+Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" zero.osf
+Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" zero.tf
+Substitution2: "'frac' Diagonal Fractions lookup 16 subtable" zero.numr
+Substitution2: "'dnom' Denominators lookup 14 subtable" zero.dnom
+Substitution2: "'numr' Numerators lookup 13 subtable" zero.numr
+Substitution2: "'sups' Superscript lookup 12 subtable" zerosuperior
+Substitution2: "'subs' Subscript lookup 11 subtable" zeroinferior
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" zeroinferior zerosuperior zero.numr zero.dnom zero.tf zero.osf zero.zero
+EndChar

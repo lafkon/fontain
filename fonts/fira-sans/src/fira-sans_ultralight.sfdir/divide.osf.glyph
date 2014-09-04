@@ -1,0 +1,30 @@
+
+StartChar: divide.osf
+Encoding: 1114529 -1 1129
+Width: 489
+Flags: MW
+HStem: 86 65<234.5 254.5> 315 32<74 415 74 415> 511 64<234.5 254.5>
+VStem: 212 65<109.5 127 533.5 551.5>
+LayerCount: 2
+Fore
+SplineSet
+244 575 m 0
+ 265 575 277 561 277 542 c 0
+ 277 525 265 511 244 511 c 0
+ 225 511 212 525 212 542 c 0
+ 212 561 225 575 244 575 c 0
+74 347 m 1
+ 415 347 l 1
+ 415 315 l 1
+ 74 315 l 1
+ 74 347 l 1
+244 151 m 0
+ 265 151 277 136 277 118 c 0
+ 277 101 265 86 244 86 c 0
+ 225 86 212 101 212 118 c 0
+ 212 136 225 151 244 151 c 0
+EndSplineSet
+Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" divide.tosf
+Substitution2: "'lnum' Lining Figures lookup 19 subtable" divide
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" divide divide.tosf
+EndChar

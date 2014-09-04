@@ -1,0 +1,25 @@
+
+StartChar: degree.tf
+Encoding: 1114601 -1 1243
+Width: 560
+Flags: MW
+HStem: 441 269<203.5 280>
+VStem: 115 251<536 613.5 535.5 614>
+LayerCount: 2
+Fore
+SplineSet
+240 441 m 0
+ 167 441 115 496 115 576 c 0
+ 115 652 166 710 240 710 c 0
+ 320 710 366 652 366 575 c 0
+ 366 496 320 441 240 441 c 0
+240 443 m 0
+ 318 443 364 496 364 575 c 0
+ 364 652 318 708 240 708 c 0
+ 168 708 117 652 117 576 c 0
+ 117 496 169 443 240 443 c 0
+EndSplineSet
+Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" degree.tosf
+Substitution2: "'pnum' Proportional Numbers lookup 20 subtable" degree
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" degree degree.tosf
+EndChar

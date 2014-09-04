@@ -1,0 +1,38 @@
+
+StartChar: Epsilontonos
+Encoding: 904 904 716
+Width: 512
+GlyphClass: 2
+Flags: MW
+HStem: 0 50<171 466 171 466> 330 50<171 414 171 414> 511 20G<-23 -23> 635 50<171 452 171 171> 678 20G<11 11>
+VStem: 111 60<50 330 380 635>
+AnchorPoint: "Anchor-7" 287 0 basechar 0
+AnchorPoint: "Anchor-6" 90 685 basechar 0
+AnchorPoint: "Anchor-5" 444 0 basechar 0
+AnchorPoint: "Anchor-4" 289 685 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+80 685 m 1xf4
+ 20 523 l 1
+ -23 531 l 1
+ 11 698 l 1xec
+ 80 685 l 1xf4
+452 635 m 1xf4
+ 171 635 l 1
+ 171 380 l 1
+ 414 380 l 1
+ 414 330 l 1
+ 171 330 l 1
+ 171 50 l 1
+ 466 50 l 1
+ 466 0 l 1
+ 111 0 l 1
+ 111 685 l 1
+ 459 685 l 1
+ 452 635 l 1xf4
+EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" epsilontonos.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" epsilontonos.sc
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
+EndChar

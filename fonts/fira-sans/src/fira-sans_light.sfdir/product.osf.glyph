@@ -1,0 +1,28 @@
+
+StartChar: product.osf
+Encoding: 1114546 -1 1146
+Width: 596
+Flags: MW
+HStem: -205 21G<145 145 396 396> -198 21G<202 202 453 453> 615 50<70 145 70 526 202 396 202 202 453 526 453 453>
+VStem: 145 57<-198 615 -198 615 -198 615> 396 57<-198 615 -198 615 -198 615>
+LayerCount: 2
+Fore
+SplineSet
+453 615 m 1x78
+ 453 -198 l 1x78
+ 396 -205 l 1xb8
+ 396 615 l 1
+ 202 615 l 1
+ 202 -198 l 1x78
+ 145 -205 l 1xb8
+ 145 615 l 1
+ 70 615 l 1
+ 70 665 l 1
+ 526 665 l 1
+ 526 615 l 1
+ 453 615 l 1x78
+EndSplineSet
+Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" product.tosf
+Substitution2: "'lnum' Lining Figures lookup 19 subtable" product
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" product product.tosf
+EndChar

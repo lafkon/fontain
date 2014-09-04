@@ -1,0 +1,26 @@
+
+StartChar: ring
+Encoding: 730 730 1261
+Width: 255
+Flags: MW
+HStem: 633 36<111 146 111 158> 785 36<111 146.5>
+VStem: 30 43<708.5 745 708.5 754> 184 43<708.5 745>
+LayerCount: 2
+Fore
+SplineSet
+129 821 m 0
+ 187 821 227 781 227 727 c 0
+ 227 672 187 633 129 633 c 0
+ 70 633 30 672 30 727 c 0
+ 30 781 70 821 129 821 c 0
+129 785 m 0
+ 93 785 73 763 73 727 c 0
+ 73 690 93 669 129 669 c 0
+ 163 669 184 690 184 727 c 0
+ 184 763 164 785 129 785 c 0
+EndSplineSet
+Substitution2: "'case' Case-Sensitive Forms lookup 25 subtable" ring.case
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" ring.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" ring.sc
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" ring.sc ring.case
+EndChar

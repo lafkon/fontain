@@ -1,0 +1,33 @@
+
+StartChar: plusminus.tf
+Encoding: 1114567 -1 1167
+Width: 560
+Flags: MW
+HStem: 0 51<102 457 102 457> 316 50<103 253 103 253 307 457>
+VStem: 253 54<164 316 164 316 366 518>
+LayerCount: 2
+Fore
+SplineSet
+307 366 m 1
+ 457 366 l 1
+ 457 316 l 1
+ 307 316 l 1
+ 307 164 l 1
+ 253 164 l 1
+ 253 316 l 1
+ 103 316 l 1
+ 103 366 l 1
+ 253 366 l 1
+ 253 518 l 1
+ 307 518 l 1
+ 307 366 l 1
+102 51 m 1
+ 457 51 l 1
+ 457 0 l 1
+ 102 0 l 1
+ 102 51 l 1
+EndSplineSet
+Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" plusminus.tosf
+Substitution2: "'pnum' Proportional Numbers lookup 20 subtable" plusminus
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" plusminus plusminus.tosf
+EndChar

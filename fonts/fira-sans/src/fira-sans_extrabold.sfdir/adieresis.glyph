@@ -1,0 +1,50 @@
+
+StartChar: adieresis
+Encoding: 228 228 138
+Width: 550
+GlyphClass: 2
+Flags: MW
+HStem: -18 125<142 264> -15 21G<492 492> 236 95<274 290 290 320> 423 128<234 267.5> 637 172<130.5 179.5 369 418>
+VStem: 21 175<148 189.5 148 207.5> 67 175<699 747> 305 176<699 747> 320 174<150 164 164 236 236 236 331 349 349 358>
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 0 0 basechar 0
+AnchorPoint: "Anchor-9" 271 730 basechar 0
+AnchorPoint: "Anchor-8" 502 -15 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+155 637 m 0x7a80
+ 106 637 67 675 67 723 c 0
+ 67 771 106 809 155 809 c 0
+ 204 809 242 771 242 723 c 0
+ 242 675 204 637 155 637 c 0x7a80
+393 637 m 0x7b
+ 345 637 305 675 305 723 c 0
+ 305 771 345 809 393 809 c 0
+ 443 809 481 771 481 723 c 0
+ 481 675 443 637 393 637 c 0x7b
+494 164 m 2xbc80
+ 494 124 504 109 528 100 c 1
+ 492 -15 l 1x7a80
+ 426 -10 383 9 356 60 c 1
+ 318 2 258 -18 195 -18 c 0
+ 89 -18 21 51 21 149 c 0
+ 21 266 110 331 274 331 c 2
+ 320 331 l 1
+ 320 349 l 2
+ 320 407 298 423 237 423 c 0
+ 204 423 151 413 98 395 c 1
+ 59 510 l 1
+ 125 537 204 551 264 551 c 0
+ 426 551 494 486 494 358 c 2
+ 494 164 l 2xbc80
+249 107 m 0
+ 279 107 304 124 320 150 c 1
+ 320 236 l 1
+ 290 236 l 2
+ 226 236 196 213 196 166 c 0
+ 196 130 215 107 249 107 c 0
+EndSplineSet
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" adieresis.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" adieresis.sc
+EndChar

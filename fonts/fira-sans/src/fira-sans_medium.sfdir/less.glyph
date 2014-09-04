@@ -1,0 +1,23 @@
+
+StartChar: less
+Encoding: 60 60 1101
+Width: 510
+Flags: MW
+HStem: 545 20G<427 427>
+VStem: 42 427<198 392 198 392>
+LayerCount: 2
+Fore
+SplineSet
+469 470 m 1
+ 148 333 l 1
+ 469 198 l 1
+ 427 101 l 1
+ 42 273 l 1
+ 42 392 l 1
+ 427 565 l 1
+ 469 470 l 1
+EndSplineSet
+Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" less.osf
+Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" less.tf
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" less.tf less.osf
+EndChar

@@ -1,0 +1,24 @@
+
+StartChar: caron
+Encoding: 711 711 1254
+Width: 430
+Flags: MW
+HStem: 728 20G<96 96 469 469>
+VStem: 96 373<748 748>
+LayerCount: 2
+Fore
+SplineSet
+469 748 m 1
+ 312 611 l 1
+ 217 611 l 1
+ 96 748 l 1
+ 156 813 l 1
+ 274 722 l 1
+ 419 813 l 1
+ 469 748 l 1
+EndSplineSet
+Substitution2: "'case' Case-Sensitive Forms lookup 25 subtable" caron.case
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" caron.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" caron.sc
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" caron.sc caron.case
+EndChar

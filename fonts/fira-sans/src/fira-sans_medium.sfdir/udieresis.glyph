@@ -1,0 +1,42 @@
+
+StartChar: udieresis
+Encoding: 252 252 243
+Width: 577
+GlyphClass: 2
+Flags: MW
+HStem: -15 97<243 256> 0 21G<389 500 389 389> 509 20G<72 200 200 200 372 500 500 500> 647 138<155.5 195 377 416.5>
+VStem: 72 128<149 165 165 529> 105 140<696.5 735.5> 327 140<696.5 735.5> 372 128<157 529>
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 0 0 basechar 0
+AnchorPoint: "Anchor-9" 285 699 basechar 0
+AnchorPoint: "Anchor-8" 510 0 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+175 785 m 0x76
+ 215 785 245 755 245 716 c 0
+ 245 677 215 647 175 647 c 0
+ 136 647 105 677 105 716 c 0
+ 105 755 136 785 175 785 c 0x76
+396 785 m 0
+ 437 785 467 755 467 716 c 0
+ 467 677 437 647 396 647 c 0
+ 358 647 327 677 327 716 c 0
+ 327 755 358 785 396 785 c 0
+500 0 m 1x79
+ 389 0 l 1x79
+ 382 74 l 1
+ 343 14 292 -15 220 -15 c 0
+ 124 -15 72 47 72 149 c 2
+ 72 529 l 1
+ 200 529 l 1
+ 200 165 l 2
+ 200 103 221 82 265 82 c 0
+ 308 82 344 111 372 157 c 1xb9
+ 372 529 l 1
+ 500 529 l 1
+ 500 0 l 1x79
+EndSplineSet
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" udieresis.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" udieresis.sc
+EndChar

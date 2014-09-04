@@ -1,0 +1,25 @@
+
+StartChar: equal.tf
+Encoding: 1114552 -1 1152
+Width: 560
+Flags: MW
+HStem: 165 123<69 491 69 491> 375 123<69 491 69 491>
+VStem: 69 422<165 288 165 288 375 498 165 498>
+LayerCount: 2
+Fore
+SplineSet
+69 498 m 1
+ 491 498 l 1
+ 491 375 l 1
+ 69 375 l 1
+ 69 498 l 1
+69 288 m 1
+ 491 288 l 1
+ 491 165 l 1
+ 69 165 l 1
+ 69 288 l 1
+EndSplineSet
+Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" equal.tosf
+Substitution2: "'pnum' Proportional Numbers lookup 20 subtable" equal
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" equal equal.tosf
+EndChar

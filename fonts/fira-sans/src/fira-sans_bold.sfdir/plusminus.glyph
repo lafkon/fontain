@@ -1,0 +1,33 @@
+
+StartChar: plusminus
+Encoding: 177 177 1115
+Width: 531
+Flags: MW
+HStem: 0 122<48 470 48 470> 343 122<49 200 49 200 331 483>
+VStem: 200 131<188 343 188 343 465 622>
+LayerCount: 2
+Fore
+SplineSet
+331 465 m 1
+ 483 465 l 1
+ 483 343 l 1
+ 331 343 l 1
+ 331 188 l 1
+ 200 188 l 1
+ 200 343 l 1
+ 49 343 l 1
+ 49 465 l 1
+ 200 465 l 1
+ 200 622 l 1
+ 331 622 l 1
+ 331 465 l 1
+48 122 m 1
+ 470 122 l 1
+ 470 0 l 1
+ 48 0 l 1
+ 48 122 l 1
+EndSplineSet
+Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" plusminus.osf
+Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" plusminus.tf
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" plusminus.tf plusminus.osf
+EndChar

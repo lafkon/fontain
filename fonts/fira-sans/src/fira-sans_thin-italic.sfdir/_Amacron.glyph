@@ -1,0 +1,38 @@
+
+StartChar: Amacron
+Encoding: 256 256 7
+Width: 557
+GlyphClass: 2
+Flags: MW
+HStem: 0 21G<-10 15 -10 -10 469 469 469 493> 203 21<123 424 123 428 113 424> 662 19<335 335> 811 21<255 458 251 462>
+VStem: -10 503<0 0>
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 198 519 basechar 0
+AnchorPoint: "Anchor-9" 338 681 basechar 0
+AnchorPoint: "Anchor-8" 503 0 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+458 811 m 1
+ 251 811 l 1
+ 255 832 l 1
+ 462 832 l 1
+ 458 811 l 1
+428 203 m 1
+ 113 203 l 1
+ 15 0 l 1
+ -10 0 l 1
+ 324 681 l 1
+ 351 681 l 1
+ 493 0 l 1
+ 469 0 l 1
+ 428 203 l 1
+424 224 m 1
+ 335 662 l 1
+ 123 224 l 1
+ 424 224 l 1
+EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" amacron.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" amacron.sc
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
+EndChar

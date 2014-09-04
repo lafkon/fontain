@@ -1,0 +1,41 @@
+
+StartChar: utilde
+Encoding: 361 361 249
+Width: 577
+GlyphClass: 2
+Flags: MW
+HStem: -10 31<223.5 299.5> 0 21G 500 20G<109 143 143 143 430 464 464 464> 674 30<325.5 356 325.5 362> 715 20G<424 424> 717 30<212 244>
+VStem: 109 34<149 152 152 520> 430 34<139 520>
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 0 0 basechar 0
+AnchorPoint: "Anchor-9" 286 520 basechar 0
+AnchorPoint: "Anchor-8" 474 0 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+349 674 m 0xbb
+ 293 674 261 717 227 717 c 0
+ 197 717 188 707 168 681 c 1
+ 147 693 l 1
+ 168 727 192 747 227 747 c 0xa7
+ 267 747 305 704 346 704 c 0xb7
+ 366 704 381 715 403 747 c 1xa7
+ 424 735 l 1
+ 402 691 375 674 349 674 c 0xbb
+464 0 m 1x67
+ 434 0 l 1x67
+ 433 101 l 1
+ 399 40 342 -10 257 -10 c 0
+ 163 -10 109 46 109 149 c 2
+ 109 520 l 1
+ 143 520 l 1
+ 143 152 l 2
+ 143 61 185 21 262 21 c 0xa7
+ 339 21 390 70 430 139 c 1
+ 430 520 l 1
+ 464 520 l 1
+ 464 0 l 1x67
+EndSplineSet
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" utilde.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" utilde.sc
+EndChar

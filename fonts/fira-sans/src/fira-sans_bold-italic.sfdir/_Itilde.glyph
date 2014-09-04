@@ -1,0 +1,34 @@
+
+StartChar: Itilde
+Encoding: 296 296 53
+Width: 290
+GlyphClass: 2
+Flags: MW
+HStem: 0 21G<27 189 27 27> 673 20G<124 286 286 286> 761 112<269 295.5 269 305> 806 112<156.5 184>
+VStem: 27 390
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" -12 534 basechar 0
+AnchorPoint: "Anchor-9" 205 693 basechar 0
+AnchorPoint: "Anchor-8" 171 0 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+278 761 m 0xe8
+ 226 761 199 806 169 806 c 0
+ 144 806 128 789 108 760 c 1
+ 36 802 l 1
+ 69 865 118 918 176 918 c 0xd8
+ 233 918 254 873 284 873 c 0
+ 307 873 323 889 344 918 c 1
+ 417 877 l 1
+ 382 810 332 761 278 761 c 0xe8
+189 0 m 1xd8
+ 27 0 l 1
+ 124 693 l 1
+ 286 693 l 1
+ 189 0 l 1xd8
+EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" itilde.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" itilde.sc
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
+EndChar

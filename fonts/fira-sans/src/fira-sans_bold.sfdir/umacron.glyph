@@ -1,0 +1,37 @@
+
+StartChar: umacron
+Encoding: 363 363 246
+Width: 572
+GlyphClass: 2
+Flags: MW
+HStem: -17 117<155.5 282.5> 0 21G<373 510 373 373> 511 20G<57 215 215 215 352 510 510 510> 655 110<131 436 131 436>
+VStem: 57 158<150 170 170 531> 352 158<162 531>
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 0 0 basechar 0
+AnchorPoint: "Anchor-9" 284 531 basechar 0
+AnchorPoint: "Anchor-8" 520 0 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+131 655 m 1x7c
+ 131 765 l 1
+ 436 765 l 1
+ 436 655 l 1
+ 131 655 l 1x7c
+510 0 m 1
+ 373 0 l 1x7c
+ 366 67 l 1
+ 327 11 275 -17 205 -17 c 0
+ 106 -17 57 47 57 150 c 2
+ 57 531 l 1
+ 215 531 l 1
+ 215 170 l 2
+ 215 116 233 100 266 100 c 0
+ 299 100 329 122 352 162 c 1xbc
+ 352 531 l 1
+ 510 531 l 1
+ 510 0 l 1
+EndSplineSet
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" umacron.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" umacron.sc
+EndChar

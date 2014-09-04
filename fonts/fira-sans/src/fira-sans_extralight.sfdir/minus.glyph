@@ -1,0 +1,24 @@
+
+StartChar: minus
+Encoding: 8722 8722 1105
+Width: 491
+Flags: MW
+HStem: 310 42<72 419 72 419>
+VStem: 72 347<310 352 310 352>
+LayerCount: 2
+Fore
+SplineSet
+72 352 m 1
+ 419 352 l 1
+ 419 310 l 1
+ 72 310 l 1
+ 72 352 l 1
+EndSplineSet
+Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" minus.osf
+Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" minus.tf
+Substitution2: "'dnom' Denominators lookup 14 subtable" minus.dnom
+Substitution2: "'numr' Numerators lookup 13 subtable" minus.numr
+Substitution2: "'sups' Superscript lookup 12 subtable" uni207B
+Substitution2: "'subs' Subscript lookup 11 subtable" uni208B
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" uni208B uni207B minus.numr minus.dnom minus.tf minus.osf
+EndChar

@@ -1,0 +1,30 @@
+
+StartChar: divide.tf
+Encoding: 1114553 -1 1153
+Width: 560
+Flags: MW
+HStem: 126 14<253 257> 522 14<308 312>
+VStem: 130 309<330 332>
+LayerCount: 2
+Fore
+SplineSet
+310 536 m 0
+ 314 536 317 533 317 529 c 0
+ 317 525 314 522 310 522 c 0
+ 306 522 303 525 303 529 c 0
+ 303 533 306 536 310 536 c 0
+131 332 m 1
+ 439 332 l 1
+ 438 330 l 1
+ 130 330 l 1
+ 131 332 l 1
+255 140 m 0
+ 259 140 262 137 262 133 c 0
+ 262 129 259 126 255 126 c 0
+ 251 126 248 129 248 133 c 0
+ 248 137 251 140 255 140 c 0
+EndSplineSet
+Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" divide.tosf
+Substitution2: "'pnum' Proportional Numbers lookup 20 subtable" divide
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" divide divide.tosf
+EndChar

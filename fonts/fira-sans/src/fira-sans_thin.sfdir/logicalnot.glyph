@@ -1,0 +1,22 @@
+
+StartChar: logicalnot
+Encoding: 172 172 1103
+Width: 495
+Flags: MW
+HStem: 309 22<78 394 78 417>
+VStem: 394 23<198 309 309 309>
+LayerCount: 2
+Fore
+SplineSet
+417 198 m 1
+ 394 198 l 1
+ 394 309 l 1
+ 78 309 l 1
+ 78 331 l 1
+ 417 331 l 1
+ 417 198 l 1
+EndSplineSet
+Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" logicalnot.osf
+Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" logicalnot.tf
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" logicalnot.tf logicalnot.osf
+EndChar

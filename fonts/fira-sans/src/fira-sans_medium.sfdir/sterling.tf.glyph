@@ -1,0 +1,37 @@
+
+StartChar: sterling.tf
+Encoding: 1114512 -1 1077
+Width: 560
+Flags: MW
+HStem: 0 100<192 497> 326 72<62 129 62 129 255 457> 608 98<315.5 368>
+VStem: 129 126<220 224 224 326 194 326 398 508>
+LayerCount: 2
+Fore
+SplineSet
+255 224 m 2
+ 255 164 243 128 192 100 c 1
+ 512 100 l 1
+ 497 0 l 1
+ 46 0 l 1
+ 46 95 l 1
+ 119 119 129 148 129 220 c 2
+ 129 326 l 1
+ 62 326 l 1
+ 62 398 l 1
+ 129 398 l 1
+ 129 508 l 2
+ 129 622 199 706 335 706 c 0
+ 421 706 482 676 531 614 c 1
+ 450 555 l 1
+ 421 592 391 608 345 608 c 0
+ 286 608 255 572 255 508 c 2
+ 255 398 l 1
+ 457 398 l 1
+ 457 326 l 1
+ 255 326 l 1
+ 255 224 l 2
+EndSplineSet
+Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" sterling.tosf
+Substitution2: "'pnum' Proportional Numbers lookup 20 subtable" sterling
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" sterling sterling.tosf
+EndChar

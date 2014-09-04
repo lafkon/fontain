@@ -1,0 +1,40 @@
+
+StartChar: Utilde
+Encoding: 360 360 111
+Width: 641
+GlyphClass: 2
+Flags: MW
+HStem: -17 122<259 332.5 259 371.5> 673 20G<114 275 275 275 485 647 647 647> 761 112<445 471.5 445 481> 806 112<332.5 360>
+VStem: 45.96 161.96
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 0 0 basechar 0
+AnchorPoint: "Anchor-9" 381 693 basechar 0
+AnchorPoint: "Anchor-8" 404 0 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+454 761 m 0xe8
+ 402 761 375 806 345 806 c 0
+ 320 806 304 789 284 760 c 1
+ 212 802 l 1
+ 245 865 294 918 352 918 c 0xd8
+ 409 918 430 873 460 873 c 0
+ 483 873 499 889 520 918 c 1
+ 593 877 l 1
+ 558 810 508 761 454 761 c 0xe8
+582 229 m 2xd8
+ 562 88 460 -17 283 -17 c 0
+ 104 -17 29 86 49 232 c 2
+ 114 693 l 1
+ 275 693 l 1
+ 211 235 l 2
+ 198 147 223 105 295 105 c 0
+ 370 105 408 150 421 238 c 2
+ 485 693 l 1
+ 647 693 l 1
+ 582 229 l 2xd8
+EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" utilde.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" utilde.sc
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
+EndChar

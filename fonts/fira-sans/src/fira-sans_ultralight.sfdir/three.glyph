@@ -1,0 +1,38 @@
+
+StartChar: three
+Encoding: 51 51 880
+Width: 477
+Flags: MW
+HStem: -10 31<175.5 260 175.5 269> 336 30<177 209 209 212 172 209> 643 31<187 258.5>
+VStem: 356 35<464 551> 373 35<135.5 236.5>
+LayerCount: 2
+Fore
+SplineSet
+218 674 m 0xf0
+ 325 674 391 606 391 511 c 0xf0
+ 391 417 332 363 257 353 c 1
+ 341 352 408 292 408 184 c 0
+ 408 69 330 -10 208 -10 c 0
+ 130 -10 73 18 24 73 c 1
+ 48 93 l 1
+ 96 39 145 21 206 21 c 0
+ 314 21 373 88 373 183 c 0xe8
+ 373 290 308 336 212 336 c 2
+ 172 336 l 1
+ 177 366 l 1
+ 209 366 l 2
+ 281 366 356 409 356 510 c 0
+ 356 592 301 643 216 643 c 0
+ 158 643 112 625 62 579 c 1
+ 42 601 l 1
+ 91 649 144 674 218 674 c 0xf0
+EndSplineSet
+Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" three.osf
+Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" three.tf
+Substitution2: "'frac' Diagonal Fractions lookup 16 subtable" three.numr
+Substitution2: "'dnom' Denominators lookup 14 subtable" three.dnom
+Substitution2: "'numr' Numerators lookup 13 subtable" three.numr
+Substitution2: "'sups' Superscript lookup 12 subtable" threesuperior
+Substitution2: "'subs' Subscript lookup 11 subtable" threeinferior
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" threeinferior threesuperior three.numr three.dnom three.tf three.osf
+EndChar

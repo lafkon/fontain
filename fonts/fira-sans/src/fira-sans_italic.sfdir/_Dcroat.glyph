@@ -1,0 +1,40 @@
+
+StartChar: Dcroat
+Encoding: 272 272 23
+Width: 648
+GlyphClass: 2
+Flags: MW
+HStem: 0 75<177 238> 318 70<38 117 29 127 221 369> 613 76<252 310 310 324 252 252>
+VStem: 515 96<347.5 510.5>
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 0 0 basechar 0
+AnchorPoint: "Anchor-9" 370 689 basechar 0
+AnchorPoint: "Anchor-8" 0 0 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+310 689 m 2
+ 466 689 611 643 611 428 c 0
+ 611 207 510 0 238 0 c 2
+ 72 0 l 1
+ 117 318 l 1
+ 29 318 l 1
+ 38 388 l 1
+ 127 388 l 1
+ 169 689 l 1
+ 310 689 l 2
+252 75 m 2
+ 452 75 515 265 515 430 c 0
+ 515 591 420 613 324 613 c 2
+ 252 613 l 1
+ 221 388 l 1
+ 378 388 l 1
+ 369 318 l 1
+ 211 318 l 1
+ 177 75 l 1
+ 252 75 l 2
+EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" dcroat.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" dcroat.sc
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
+EndChar

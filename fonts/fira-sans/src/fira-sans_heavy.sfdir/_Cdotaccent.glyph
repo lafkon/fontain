@@ -1,0 +1,36 @@
+
+StartChar: Cdotaccent
+Encoding: 266 266 19
+Width: 584
+GlyphClass: 2
+Flags: MW
+HStem: -20 155<324.5 390.5 324.5 403> 568 148<321 384> 743 212<325.5 390.5>
+VStem: 20 214<276.5 423.5 276.5 466> 247 222<819 879>
+AnchorPoint: "Anchor-11" 339 0 basechar 0
+AnchorPoint: "Anchor-10" 0 0 basechar 0
+AnchorPoint: "Anchor-9" 358 696 basechar 0
+AnchorPoint: "Anchor-8" 0 0 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+358 955 m 0
+ 423 955 469 909 469 849 c 0
+ 469 789 423 743 358 743 c 0
+ 293 743 247 789 247 849 c 0
+ 247 909 293 955 358 955 c 0
+348 716 m 0xd0
+ 445 716 517 685 576 634 c 1
+ 478 519 l 1
+ 445 549 408 568 360 568 c 0
+ 282 568 234 497 234 350 c 0
+ 234 203 283 135 366 135 c 0
+ 415 135 453 161 494 193 c 1
+ 584 77 l 1
+ 533 26 452 -20 354 -20 c 0
+ 151 -20 20 109 20 350 c 0
+ 20 582 156 716 348 716 c 0xd0
+EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" cdotaccent.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" cdotaccent.sc
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
+EndChar

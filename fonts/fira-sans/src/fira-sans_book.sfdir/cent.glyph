@@ -1,0 +1,32 @@
+
+StartChar: cent
+Encoding: 162 162 1060
+Width: 476
+Flags: MW
+HStem: -153 213<252 312.5 247 325 252 252> -10 21G<252 252> -9 21G<325 325> -9 69<247 325> 468 68<253 253 253 312.5> 468 215<253 312.5> 516 20G<253 253 325 325>
+VStem: 59 90<190 330.5 190 336> 253 72<536 683>
+LayerCount: 2
+Fore
+SplineSet
+445 46 m 1x1380
+ 410 16 370 -2 325 -9 c 1x2380
+ 325 -153 l 1
+ 252 -153 l 1x8380
+ 252 -10 l 1
+ 132 6 59 104 59 259 c 0
+ 59 413 132 519 253 536 c 1x4380
+ 253 683 l 1
+ 325 683 l 1x2580
+ 325 536 l 1
+ 369 530 407 513 445 482 c 1
+ 403 427 l 1
+ 369 455 335 468 290 468 c 0
+ 204 468 149 401 149 260 c 0
+ 149 120 204 60 290 60 c 0
+ 335 60 367 74 405 103 c 1x1980
+ 445 46 l 1x1380
+EndSplineSet
+Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" cent.osf
+Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" cent.tf
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" cent.tf cent.osf
+EndChar

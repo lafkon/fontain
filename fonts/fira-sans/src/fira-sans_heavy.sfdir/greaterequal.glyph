@@ -1,0 +1,28 @@
+
+StartChar: greaterequal
+Encoding: 8805 8805 1097
+Width: 530
+Flags: MW
+HStem: 0 150<40 490 40 490> 676 20G<85 85>
+VStem: 25 480<320 521 354 564>
+LayerCount: 2
+Fore
+SplineSet
+505 521 m 1
+ 505 354 l 1
+ 85 180 l 1
+ 25 320 l 1
+ 334 438 l 1
+ 25 564 l 1
+ 85 696 l 1
+ 505 521 l 1
+40 150 m 1
+ 490 150 l 1
+ 490 0 l 1
+ 40 0 l 1
+ 40 150 l 1
+EndSplineSet
+Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" greaterequal.osf
+Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" greaterequal.tf
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" greaterequal.tf greaterequal.osf
+EndChar

@@ -1,0 +1,35 @@
+
+StartChar: Upsilontonos
+Encoding: 910 910 722
+Width: 494
+GlyphClass: 2
+Flags: MW
+HStem: 0 21G<200 223 200 200> 540 20G<-17 -17> 661 20G<59 59 80 105 105 105 505 532 532 532> 667 20G<32 32>
+VStem: -17 549<560 681>
+AnchorPoint: "Anchor-7" 0 0 basechar 0
+AnchorPoint: "Anchor-6" 21 519 basechar 0
+AnchorPoint: "Anchor-5" 0 0 basechar 0
+AnchorPoint: "Anchor-4" 303 681 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+59 681 m 1xe8
+ -1 557 l 1
+ -17 560 l 1
+ 32 687 l 1xd8
+ 59 681 l 1xe8
+261 271 m 1
+ 223 0 l 1
+ 200 0 l 1
+ 238 270 l 1
+ 80 681 l 1
+ 105 681 l 1
+ 251 293 l 1
+ 505 681 l 1
+ 532 681 l 1xe8
+ 261 271 l 1
+EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" upsilontonos.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" upsilontonos.sc
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
+EndChar

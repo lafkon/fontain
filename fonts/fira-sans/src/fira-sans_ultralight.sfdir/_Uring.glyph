@@ -1,0 +1,41 @@
+
+StartChar: Uring
+Encoding: 366 366 110
+Width: 644
+GlyphClass: 2
+Flags: MW
+HStem: -10 32<259.5 386.5 259.5 396.5> 662 20G<109 144 144 144 500 536 536 536> 765 26<307.5 344 307.5 352> 910 26<307.5 344.5>
+VStem: 109 35<209 212 212 682> 238 31<831.5 869 831.5 876> 383 31<831.5 869> 500 36<212 682>
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 0 0 basechar 0
+AnchorPoint: "Anchor-9" 325 682 basechar 0
+AnchorPoint: "Anchor-8" 408 0 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+326 936 m 0
+ 378 936 414 902 414 850 c 0
+ 414 799 378 765 326 765 c 0
+ 274 765 238 799 238 850 c 0
+ 238 902 274 936 326 936 c 0
+326 910 m 0
+ 289 910 269 888 269 850 c 0
+ 269 813 289 791 326 791 c 0
+ 362 791 383 813 383 850 c 0
+ 383 888 363 910 326 910 c 0
+536 209 m 2
+ 536 81 470 -10 323 -10 c 0
+ 173 -10 109 81 109 209 c 2
+ 109 682 l 1
+ 144 682 l 1
+ 144 212 l 2
+ 144 99 196 22 323 22 c 0
+ 450 22 500 101 500 212 c 2
+ 500 682 l 1
+ 536 682 l 1
+ 536 209 l 2
+EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" uring.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uring.sc
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
+EndChar

@@ -1,0 +1,23 @@
+
+StartChar: breve
+Encoding: 728 728 1253
+Width: 318
+Flags: MW
+HStem: 653 47<194 241 194 249.5>
+VStem: 100 41<731.5 771>
+LayerCount: 2
+Fore
+SplineSet
+216 653 m 0
+ 146 653 100 698 100 765 c 1
+ 141 771 l 1
+ 147 724 171 700 217 700 c 0
+ 265 700 302 727 321 773 c 1
+ 359 761 l 1
+ 342 694 283 653 216 653 c 0
+EndSplineSet
+Substitution2: "'case' Case-Sensitive Forms lookup 25 subtable" breve.case
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" breve.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" breve.sc
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" breve.sc breve.case
+EndChar

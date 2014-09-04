@@ -1,0 +1,36 @@
+
+StartChar: iogonek
+Encoding: 303 303 186
+Width: 282
+GlyphClass: 2
+Flags: MW
+HStem: -246 98<112 123.5> 0 21G<195 220 195 195> 511 20G<62 220 220 220> 631 180<112.5 167.5>
+VStem: -37 114<-117 -98> 47 187<695.5 746.5> 62 158<10 531 0 531>
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 0 0 basechar 0
+AnchorPoint: "Anchor-9" 141 531 basechar 0
+AnchorPoint: "Anchor-8" 205 0 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+140 631 m 0xf4
+ 85 631 47 670 47 721 c 0
+ 47 772 85 811 140 811 c 0
+ 195 811 234 772 234 721 c 0
+ 234 670 195 631 140 631 c 0xf4
+62 531 m 1xf2
+ 220 531 l 1
+ 220 0 l 1xf2
+ 195 0 l 1
+ 97 -37 77 -74 77 -102 c 0
+ 77 -132 94 -148 130 -148 c 0
+ 150 -148 168 -145 191 -140 c 1
+ 180 -238 l 1
+ 159 -243 137 -246 110 -246 c 0
+ 25 -246 -37 -201 -37 -129 c 0xf8
+ -37 -67 0 -23 62 10 c 1
+ 62 531 l 1xf2
+EndSplineSet
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" iogonek.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" iogonek.sc
+EndChar

@@ -1,0 +1,50 @@
+
+StartChar: perthousand
+Encoding: 8240 8240 1112
+Width: 1065
+Flags: MW
+HStem: -9 21G<145 147 145 145 512 590.5 832 910.5> -9 304<512 589.5 511.5 590.5 832 909.5> 670 20G
+VStem: 70 248<474 565> 427 248<99 190> 673 76<99 190 96.5 192.5> 747 248<99 190>
+LayerCount: 2
+Fore
+SplineSet
+603 690 m 1xb4
+ 147 -9 l 1
+ 145 -9 l 1
+ 601 690 l 1
+ 603 690 l 1xb4
+194 670 m 0
+ 271 670 318 615 318 520 c 0
+ 318 428 273 366 194 366 c 0
+ 116 366 70 426 70 517 c 0
+ 70 613 115 670 194 670 c 0
+194 668 m 0
+ 117 668 72 613 72 517 c 0
+ 72 426 118 368 194 368 c 0
+ 271 368 316 428 316 520 c 0
+ 316 615 269 668 194 668 c 0
+551 295 m 0x4a
+ 628 295 675 240 675 145 c 0
+ 675 53 630 -9 551 -9 c 0
+ 473 -9 427 51 427 142 c 0
+ 427 238 472 295 551 295 c 0x4a
+871 295 m 0
+ 948 295 995 240 995 145 c 0
+ 995 53 950 -9 871 -9 c 0
+ 793 -9 747 51 747 142 c 0
+ 747 238 792 295 871 295 c 0
+551 293 m 0
+ 474 293 429 238 429 142 c 0
+ 429 51 475 -7 551 -7 c 0
+ 628 -7 673 53 673 145 c 0x44
+ 673 240 626 293 551 293 c 0
+871 293 m 0x84
+ 794 293 749 238 749 142 c 0
+ 749 51 795 -7 871 -7 c 0
+ 948 -7 993 53 993 145 c 0
+ 993 240 946 293 871 293 c 0x84
+EndSplineSet
+Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" perthousand.osf
+Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" perthousand.tf
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" perthousand.tf perthousand.osf
+EndChar

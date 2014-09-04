@@ -1,0 +1,26 @@
+
+StartChar: zero.tf
+Encoding: 1114431 -1 897
+Width: 560
+Flags: MW
+HStem: -12 67<236.5 323 236.5 353.5> 633 67<236.5 323>
+VStem: 59 87<239.5 448.5 239.5 461> 414 87<239.5 448.5>
+LayerCount: 2
+Fore
+SplineSet
+280 700 m 0
+ 427 700 501 577 501 344 c 0
+ 501 111 427 -12 280 -12 c 0
+ 133 -12 59 111 59 344 c 0
+ 59 578 133 700 280 700 c 0
+280 633 m 0
+ 193 633 146 553 146 344 c 0
+ 146 135 193 55 280 55 c 0
+ 366 55 414 135 414 344 c 0
+ 414 553 366 633 280 633 c 0
+EndSplineSet
+Substitution2: "'zero' Slashed Zero lookup 28 subtable" zero.tf.zero
+Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" zero.tosf
+Substitution2: "'pnum' Proportional Numbers lookup 20 subtable" zero
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" zero zero.tosf zero.tf.zero
+EndChar

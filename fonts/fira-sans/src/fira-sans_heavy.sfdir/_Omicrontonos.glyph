@@ -1,0 +1,35 @@
+
+StartChar: Omicrontonos
+Encoding: 908 908 719
+Width: 690
+GlyphClass: 2
+Flags: MW
+HStem: -20 146<306 385 306 449.5> 570 146<306 384> 696 20
+VStem: 20 214<268.5 429.5 268.5 462> 456 214<268.5 429.5>
+AnchorPoint: "Anchor-7" 0 0 basechar 0
+AnchorPoint: "Anchor-6" 103 696 basechar 0
+AnchorPoint: "Anchor-5" 0 0 basechar 0
+AnchorPoint: "Anchor-4" 345 696 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+83 696 m 1xb8
+ -13 453 l 1
+ -134 474 l 1
+ -96 735 l 1
+ 83 696 l 1xb8
+345 716 m 0xd8
+ 554 716 670 580 670 349 c 0
+ 670 123 554 -20 345 -20 c 0
+ 136 -20 20 118 20 349 c 0
+ 20 575 136 716 345 716 c 0xd8
+345 570 m 0
+ 267 570 234 510 234 349 c 0
+ 234 188 267 126 345 126 c 0
+ 425 126 456 188 456 349 c 0
+ 456 510 423 570 345 570 c 0
+EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" omicrontonos.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" omicrontonos.sc
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
+EndChar

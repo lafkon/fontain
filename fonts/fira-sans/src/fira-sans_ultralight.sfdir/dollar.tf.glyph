@@ -1,0 +1,36 @@
+
+StartChar: dollar.tf
+Encoding: 1114510 -1 1075
+Width: 560
+Flags: MW
+HStem: -10 32<260 260> -9 31<290 290> 654 31<290 290 290 305> 654 32<260 260 260 305>
+VStem: 84 36<487.5 564.5 487.5 570> 260 30<-147 -10 -10 -10 686 840> 442 34<132 227.5>
+LayerCount: 2
+Fore
+SplineSet
+476 182 m 0x9e
+ 476 76 401 1 290 -9 c 1x5e
+ 290 -147 l 1
+ 260 -147 l 1
+ 260 -10 l 1
+ 173 -9 111 24 58 71 c 1
+ 80 94 l 1
+ 127 52 181 22 263 22 c 0
+ 369 22 442 83 442 181 c 0
+ 442 274 396 310 271 348 c 1
+ 135 392 84 436 84 526 c 0
+ 84 614 154 682 260 686 c 1x9e
+ 260 840 l 1
+ 290 840 l 1
+ 290 685 l 1
+ 364 681 410 654 456 614 c 1xae
+ 434 590 l 1
+ 384 636 339 654 271 654 c 0
+ 179 654 120 602 120 527 c 0
+ 120 448 163 416 283 379 c 0
+ 416 338 476 294 476 182 c 0x9e
+EndSplineSet
+Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" dollar.tosf
+Substitution2: "'pnum' Proportional Numbers lookup 20 subtable" dollar
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" dollar dollar.tosf
+EndChar

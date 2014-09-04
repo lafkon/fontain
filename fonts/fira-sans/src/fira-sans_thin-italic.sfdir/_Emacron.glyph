@@ -1,0 +1,38 @@
+
+StartChar: Emacron
+Encoding: 274 274 32
+Width: 494
+GlyphClass: 2
+Flags: MW
+HStem: 0 21<112 414> 349 21<161 413 158 416> 660 21<202 497 202 202> 811 21<260 471 264 467>
+VStem: 86 417
+AnchorPoint: "Anchor-11" 247 0 basechar 0
+AnchorPoint: "Anchor-10" 88 519 basechar 0
+AnchorPoint: "Anchor-9" 346 681 basechar 0
+AnchorPoint: "Anchor-8" 398 0 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+260 811 m 1
+ 264 832 l 1
+ 471 832 l 1
+ 467 811 l 1
+ 260 811 l 1
+497 660 m 1
+ 202 660 l 1
+ 161 370 l 1
+ 416 370 l 1
+ 413 349 l 1
+ 158 349 l 1
+ 112 21 l 1
+ 418 21 l 1
+ 414 0 l 1
+ 86 0 l 1
+ 182 681 l 1
+ 503 681 l 1
+ 497 660 l 1
+EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" emacron.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" emacron.sc
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
+EndChar

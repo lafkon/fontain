@@ -1,0 +1,33 @@
+
+StartChar: plusminus.osf
+Encoding: 1114545 -1 1145
+Width: 485
+Flags: MW
+HStem: 0 21<78 407 78 407> 320 21<78 232 78 232 255 408>
+VStem: 232 23<165 320 165 320 341 496>
+LayerCount: 2
+Fore
+SplineSet
+255 341 m 1
+ 408 341 l 1
+ 408 320 l 1
+ 255 320 l 1
+ 255 165 l 1
+ 232 165 l 1
+ 232 320 l 1
+ 78 320 l 1
+ 78 341 l 1
+ 232 341 l 1
+ 232 496 l 1
+ 255 496 l 1
+ 255 341 l 1
+78 21 m 1
+ 407 21 l 1
+ 407 0 l 1
+ 78 0 l 1
+ 78 21 l 1
+EndSplineSet
+Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" plusminus.tosf
+Substitution2: "'lnum' Lining Figures lookup 19 subtable" plusminus
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" plusminus plusminus.tosf
+EndChar

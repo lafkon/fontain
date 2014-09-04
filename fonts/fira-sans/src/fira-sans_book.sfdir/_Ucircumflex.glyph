@@ -1,0 +1,39 @@
+
+StartChar: Ucircumflex
+Encoding: 219 219 104
+Width: 660
+GlyphClass: 2
+Flags: MW
+HStem: -12 74<278 380.5 278 406> 668 20G<93 179 179 179 479 567 567 567> 841 68<330 330>
+VStem: 93 86<219 226 226 688> 479 88<226 688>
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 0 0 basechar 0
+AnchorPoint: "Anchor-9" 330 688 basechar 0
+AnchorPoint: "Anchor-8" 425 0 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+330 841 m 1
+ 205 760 l 1
+ 168 801 l 1
+ 303 909 l 1
+ 358 909 l 1
+ 491 801 l 1
+ 455 760 l 1
+ 330 841 l 1
+567 219 m 2
+ 567 84 483 -12 329 -12 c 0
+ 173 -12 93 84 93 219 c 2
+ 93 688 l 1
+ 179 688 l 1
+ 179 226 l 2
+ 179 118 227 62 329 62 c 0
+ 432 62 479 118 479 226 c 2
+ 479 688 l 1
+ 567 688 l 1
+ 567 219 l 2
+EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" ucircumflex.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" ucircumflex.sc
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
+EndChar

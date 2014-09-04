@@ -1,0 +1,37 @@
+
+StartChar: emacron
+Encoding: 275 275 165
+Width: 532
+GlyphClass: 2
+Flags: MW
+HStem: -16 107<246 296.5> 449 97<274 338> 658 100<199 479 186 493>
+VStem: 33 142 374 142<368 408>
+AnchorPoint: "Anchor-11" 253 0 basechar 0
+AnchorPoint: "Anchor-10" 0 0 basechar 0
+AnchorPoint: "Anchor-9" 315 530 basechar 0
+AnchorPoint: "Anchor-8" 385 8 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+479 658 m 1
+ 186 658 l 1
+ 199 758 l 1
+ 493 758 l 1
+ 479 658 l 1
+516 403 m 0
+ 516 254 345 211 175 194 c 1
+ 179 117 218 91 274 91 c 0
+ 320 91 362 107 411 140 c 1
+ 463 54 l 1
+ 405 12 336 -16 257 -16 c 0
+ 108 -16 33 72 33 206 c 0
+ 33 351 109 546 327 546 c 0
+ 452 546 516 481 516 403 c 0
+182 283 m 1
+ 319 295 374 340 374 396 c 0
+ 374 420 361 449 315 449 c 0
+ 233 449 195 364 182 283 c 1
+EndSplineSet
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" emacron.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" emacron.sc
+EndChar

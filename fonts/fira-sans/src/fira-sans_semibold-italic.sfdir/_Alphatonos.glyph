@@ -1,0 +1,38 @@
+
+StartChar: Alphatonos
+Encoding: 902 902 717
+Width: 577
+GlyphClass: 2
+Flags: MW
+HStem: 0 21G<-46 105 -46 -46 397 397 397 549> 155 109<207 368 207 380 165 368> 590 102<332 332> 672 20G<212 212 260 437 437 437>
+VStem: -46 595<0 0>
+AnchorPoint: "Anchor-7" 0 0 basechar 0
+AnchorPoint: "Anchor-6" 107 530 basechar 0
+AnchorPoint: "Anchor-5" 492 0 basechar 0
+AnchorPoint: "Anchor-4" 349 692 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+100 472 m 1xd8
+ 11 488 l 1
+ 80 720 l 1
+ 212 692 l 1
+ 100 472 l 1xd8
+380 155 m 1
+ 165 155 l 1
+ 105 0 l 1
+ -46 0 l 1
+ 260 692 l 1
+ 437 692 l 1
+ 549 0 l 1
+ 397 0 l 1
+ 380 155 l 1
+368 264 m 1
+ 332 590 l 1xe8
+ 207 264 l 1
+ 368 264 l 1
+EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" alphatonos.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" alphatonos.sc
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
+EndChar

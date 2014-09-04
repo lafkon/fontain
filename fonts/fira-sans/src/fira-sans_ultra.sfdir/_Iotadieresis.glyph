@@ -1,0 +1,35 @@
+
+StartChar: Iotadieresis
+Encoding: 938 938 722
+Width: 291
+GlyphClass: 2
+Flags: MW
+HStem: 0 21G<30 261 30 30> 678 20G<30 261 261 261> 754 201<-9 48.5 243.5 301.5>
+VStem: -85 207<827 883> 30 231<0 698> 168 207<827 883>
+AnchorPoint: "Anchor-7" 0 0 basechar 0
+AnchorPoint: "Anchor-6" 32 698 basechar 0
+AnchorPoint: "Anchor-5" 215 0 basechar 0
+AnchorPoint: "Anchor-4" 141 883 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+19 955 m 0xe8
+ 78 955 122 911 122 855 c 0xe8
+ 122 799 78 754 19 754 c 0
+ -37 754 -85 799 -85 855 c 0xf0
+ -85 911 -37 955 19 955 c 0xe8
+272 955 m 0xe4
+ 331 955 375 911 375 855 c 0xe4
+ 375 799 331 754 272 754 c 0
+ 215 754 168 799 168 855 c 0xe8
+ 168 911 215 955 272 955 c 0xe4
+261 0 m 1xe8
+ 30 0 l 1
+ 30 698 l 1
+ 261 698 l 1
+ 261 0 l 1xe8
+EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" iotadieresis.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" iotadieresis.sc
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
+EndChar

@@ -1,0 +1,32 @@
+
+StartChar: Lcaron
+Encoding: 317 317 60
+Width: 500
+GlyphClass: 2
+Flags: MW
+HStem: 0 108<189 432> 671 20G<140 271 271 271 446 446> 683 20G<346 346>
+VStem: 43 418<0 108>
+AnchorPoint: "Anchor-11" 238 0 basechar 0
+AnchorPoint: "Anchor-10" 0 0 basechar 0
+AnchorPoint: "Anchor-9" 205 691 basechar 0
+AnchorPoint: "Anchor-8" 0 0 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+446 691 m 1xd0
+ 372 490 l 1
+ 304 498 l 1
+ 346 703 l 1xb0
+ 446 691 l 1xd0
+189 108 m 1
+ 461 108 l 1
+ 432 0 l 1
+ 43 0 l 1
+ 140 691 l 1
+ 271 691 l 1xd0
+ 189 108 l 1
+EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" lcaron.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" lcaron.sc
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
+EndChar

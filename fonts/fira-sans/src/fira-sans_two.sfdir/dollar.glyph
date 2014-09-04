@@ -1,0 +1,38 @@
+
+StartChar: dollar
+Encoding: 36 36 1062
+Width: 528
+Flags: MW
+HStem: -144 137<254 256 254 254> -9 21G<209.5 254> -8.99001 21G
+VStem: 65 383<67 226> 254 194<-144 226 -9 226>
+LayerCount: 2
+Fore
+SplineSet
+261 669 m 1x30
+ 259 669 l 1
+ 259 805 l 1
+ 261 805 l 1
+ 261 669 l 1x30
+448 173 m 0x28
+ 448 66.6104 371.87 -8.14062 256 -8.99023 c 1x28
+ 256 -144 l 1
+ 254 -144 l 1x88
+ 254 -9 l 1x48
+ 165 -9 113 21 65 67 c 1
+ 66 69 l 1
+ 114 23 165 -7 254 -7 c 0x88
+ 369 -7 446 67 446 173 c 0
+ 446 278 387 317 263 357 c 0
+ 130 400 87 434 87 521 c 0
+ 87 605 153 669 256 669 c 0
+ 337 669 383 643 424 607 c 1
+ 423 605 l 1
+ 382 642 335 667 256 667 c 0
+ 154 667 89 603 89 521 c 0
+ 89 436 130 402 264 359 c 0
+ 389 319 448 279 448 173 c 0x28
+EndSplineSet
+Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" dollar.osf
+Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" dollar.tf
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" dollar.tf dollar.osf
+EndChar

@@ -1,0 +1,47 @@
+
+StartChar: aogonek
+Encoding: 261 261 141
+Width: 551
+GlyphClass: 2
+Flags: MW
+HStem: -270 115<416 420.5> -20 21G<137.5 221.5> -20 139<137.5 264.5> 230 103<273 290 290 311> 414 140<233.5 263.5>
+VStem: 15 193<154 190 154 209> 247 134<-126 -104> 311 193<154 173 173 230 230 230 333 346 346 357 154 373>
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 0 0 basechar 0
+AnchorPoint: "Anchor-9" 277 534 basechar 0
+AnchorPoint: "Anchor-8" 506 -16 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+496 -16 m 1xdd
+ 400 -48 381 -87 381 -111 c 0
+ 381 -141 400 -155 432 -155 c 0
+ 451 -155 471 -152 493 -147 c 1
+ 481 -262 l 1
+ 459 -267 434 -270 407 -270 c 0
+ 317 -270 247 -224 247 -144 c 0xde
+ 247 -64 304 -14 385 19 c 1
+ 373 29 361 42 352 58 c 1
+ 313 -1 252 -20 191 -20 c 0
+ 84 -20 15 51 15 150 c 0
+ 15 268 105 333 273 333 c 2
+ 311 333 l 1
+ 311 346 l 2
+ 311 400 293 414 234 414 c 0
+ 203 414 149 404 96 386 c 1
+ 53 512 l 1
+ 120 539 203 554 264 554 c 0
+ 434 554 504 489 504 357 c 2
+ 504 173 l 2
+ 504 135 512 120 536 111 c 1
+ 496 -16 l 1xdd
+252 119 m 0xbd
+ 277 119 298 133 311 151 c 1
+ 311 230 l 1
+ 290 230 l 2
+ 234 230 208 211 208 169 c 0
+ 208 139 225 119 252 119 c 0xbd
+EndSplineSet
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" aogonek.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" aogonek.sc
+EndChar

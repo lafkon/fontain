@@ -1,0 +1,50 @@
+
+StartChar: aring
+Encoding: 229 229 142
+Width: 550
+GlyphClass: 2
+Flags: MW
+HStem: -18 125<142 264> -15 21G<492 492> 236 95<274 290 290 320> 423 128<234 267.5> 599 91<262 286.5 262 320> 786 91<262 286.5>
+VStem: 21 175<148 189.5 148 207.5> 128 104<722 754.5 722 775.5> 317 104<722 754.5> 320 174<150 164 164 236 236 236 331 349 349 358>
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 0 0 basechar 0
+AnchorPoint: "Anchor-9" 274 533 basechar 0
+AnchorPoint: "Anchor-8" 502 -15 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+274 599 m 0x7d40
+ 183 599 128 664 128 738 c 0
+ 128 813 183 877 274 877 c 0
+ 366 877 421 813 421 738 c 0x7d80
+ 421 664 366 599 274 599 c 0x7d40
+274 786 m 0x7d80
+ 250 786 232 771 232 738 c 0
+ 232 706 250 690 274 690 c 0
+ 299 690 317 706 317 738 c 0
+ 317 771 299 786 274 786 c 0x7d80
+494 164 m 2xbe40
+ 494 124 504 109 528 100 c 1
+ 492 -15 l 1x7d40
+ 426 -10 383 9 356 60 c 1
+ 318 2 258 -18 195 -18 c 0
+ 89 -18 21 51 21 149 c 0
+ 21 266 110 331 274 331 c 2
+ 320 331 l 1
+ 320 349 l 2
+ 320 407 298 423 237 423 c 0
+ 204 423 151 413 98 395 c 1
+ 59 510 l 1
+ 125 537 204 551 264 551 c 0
+ 426 551 494 486 494 358 c 2
+ 494 164 l 2xbe40
+249 107 m 0
+ 279 107 304 124 320 150 c 1
+ 320 236 l 1
+ 290 236 l 2
+ 226 236 196 213 196 166 c 0
+ 196 130 215 107 249 107 c 0
+EndSplineSet
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" aring.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" aring.sc
+EndChar

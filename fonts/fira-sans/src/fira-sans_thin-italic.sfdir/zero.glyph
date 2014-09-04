@@ -1,0 +1,33 @@
+
+StartChar: zero
+Encoding: 48 48 879
+Width: 541
+Flags: MW
+HStem: -10 21<190.5 291.5 190.5 332.5> 652 21<271 371.5>
+VStem: 77 23<145 229.5 145 299> 461 23<434 518.5>
+LayerCount: 2
+Fore
+SplineSet
+327 673 m 0
+ 430 673 484 598 484 447 c 0
+ 484 278 430 -10 235 -10 c 0
+ 132 -10 77 66 77 215 c 0
+ 77 383 131 673 327 673 c 0
+327 652 m 0
+ 215 652 138 543 109 332 c 0
+ 103 286 100 247 100 212 c 0
+ 100 78 146 11 235 11 c 0
+ 348 11 423 121 452 329 c 0
+ 459 377 461 417 461 451 c 0
+ 461 586 416 652 327 652 c 0
+EndSplineSet
+Substitution2: "'zero' Slashed Zero lookup 28 subtable" zero.zero
+Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" zero.osf
+Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" zero.tf
+Substitution2: "'frac' Diagonal Fractions lookup 16 subtable" zero.numr
+Substitution2: "'dnom' Denominators lookup 14 subtable" zero.dnom
+Substitution2: "'numr' Numerators lookup 13 subtable" zero.numr
+Substitution2: "'sups' Superscript lookup 12 subtable" zerosuperior
+Substitution2: "'subs' Subscript lookup 11 subtable" zeroinferior
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" zeroinferior zerosuperior zero.numr zero.dnom zero.tf zero.osf zero.zero
+EndChar

@@ -1,0 +1,32 @@
+
+StartChar: IJ
+Encoding: 306 306 44
+Width: 614
+GlyphClass: 2
+Flags: MW
+HStem: 0 21G<54 239 54 54> 675 20G<54 239 239 239 378 563 563 563>
+VStem: 54 185<0 695> 378 185<115 695>
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 52 695 basechar 0
+AnchorPoint: "Anchor-9" 471 695 basechar 0
+AnchorPoint: "Anchor-8" 212 0 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+239 0 m 1
+ 54 0 l 1
+ 54 695 l 1
+ 239 695 l 1
+ 239 0 l 1
+563 108 m 2
+ 563 -76 446 -140 327 -179 c 1
+ 278 -49 l 1
+ 367 -14 378 35 378 115 c 2
+ 378 695 l 1
+ 563 695 l 1
+ 563 108 l 2
+EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" ij.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" ij.sc
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
+EndChar

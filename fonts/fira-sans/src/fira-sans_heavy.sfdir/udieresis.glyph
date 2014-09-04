@@ -1,0 +1,42 @@
+
+StartChar: udieresis
+Encoding: 252 252 243
+Width: 566
+GlyphClass: 2
+Flags: MW
+HStem: -20 21G<134 219.5> 0 21G<351 524 351 351> 0 124<258.5 524 258.5 351> 514 20G<37 235 235 235 326 524 524 524> 633 185<132 185 377 430>
+VStem: 37 198<155 176 176 534> 63 190<700 751.5> 308 190<700 751.5> 326 198<168 534>
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 0 0 basechar 0
+AnchorPoint: "Anchor-9" 277 742 basechar 0
+AnchorPoint: "Anchor-8" 534 0 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+158 818 m 0x5b
+ 212 818 253 777 253 726 c 0
+ 253 674 212 633 158 633 c 0
+ 106 633 63 674 63 726 c 0
+ 63 777 106 818 158 818 c 0x5b
+403 818 m 0
+ 457 818 498 777 498 726 c 0
+ 498 674 457 633 403 633 c 0
+ 351 633 308 674 308 726 c 0
+ 308 777 351 818 403 818 c 0
+524 0 m 1x5c80
+ 351 0 l 1x5c80
+ 344 58 l 1
+ 307 6 253 -20 186 -20 c 0x9c80
+ 82 -20 37 48 37 150 c 2
+ 37 534 l 1
+ 235 534 l 1
+ 235 176 l 2
+ 235 134 249 124 268 124 c 0
+ 286 124 308 137 326 168 c 1x3c80
+ 326 534 l 1
+ 524 534 l 1
+ 524 0 l 1x5c80
+EndSplineSet
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" udieresis.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" udieresis.sc
+EndChar

@@ -1,0 +1,25 @@
+
+StartChar: parenright
+Encoding: 41 41 1010
+Width: 316
+Flags: MW
+HStem: -154 1005<46 183>
+VStem: 184.06 125.97
+LayerCount: 2
+Fore
+SplineSet
+183 851 m 1
+ 262 712 335 586 302 346 c 1
+ 268 110 164 -15 46 -154 c 1
+ -30 -96 l 1
+ 79 37 146 154 174 354 c 0
+ 202 551 170 669 98 802 c 1
+ 183 851 l 1
+EndSplineSet
+Substitution2: "'case' Case-Sensitive Forms lookup 25 subtable" parenright.case
+Substitution2: "'dnom' Denominators lookup 14 subtable" parenright.dnom
+Substitution2: "'numr' Numerators lookup 13 subtable" parenright.numr
+Substitution2: "'sups' Superscript lookup 12 subtable" parenrightsuperior
+Substitution2: "'subs' Subscript lookup 11 subtable" uni208E
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" uni208E parenrightsuperior parenright.numr parenright.dnom parenright.case
+EndChar

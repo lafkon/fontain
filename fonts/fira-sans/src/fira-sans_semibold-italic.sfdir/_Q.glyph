@@ -1,0 +1,29 @@
+
+StartChar: Q
+Encoding: 81 81 85
+Width: 681
+GlyphClass: 2
+Flags: MW
+HStem: -16 57 -16 110<276 368> 598 110<311.5 430>
+VStem: 44 150<195 314 195 357.5> 511 150<380 498.5>
+LayerCount: 2
+Fore
+SplineSet
+661 425 m 0x78
+ 661 286 612 112 464 41 c 1
+ 553 38 605 14 650 -23 c 1xb8
+ 548 -137 l 1
+ 491 -66 431 -16 305 -16 c 0
+ 141 -16 44 87 44 266 c 0
+ 44 449 130 708 401 708 c 0
+ 565 708 661 606 661 425 c 0x78
+194 251 m 0
+ 194 139 238 94 314 94 c 0
+ 475 94 511 315 511 445 c 0
+ 511 552 469 598 391 598 c 0
+ 232 598 194 377 194 251 c 0
+EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" q.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" q.sc
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
+EndChar

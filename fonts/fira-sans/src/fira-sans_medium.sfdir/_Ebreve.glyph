@@ -1,0 +1,40 @@
+
+StartChar: Ebreve
+Encoding: 276 276 26
+Width: 530
+GlyphClass: 2
+Flags: MW
+HStem: 0 99<213 486 213 486> 302 98<213 435 213 435> 593 98<213 468 213 213> 754 92<260 306 260 330>
+VStem: 81 132<99 302 400 593>
+AnchorPoint: "Anchor-11" 284 0 basechar 0
+AnchorPoint: "Anchor-10" 74 691 basechar 0
+AnchorPoint: "Anchor-9" 284 691 basechar 0
+AnchorPoint: "Anchor-8" 456 0 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+283 754 m 0
+ 189 754 129 818 121 898 c 1
+ 196 913 l 1
+ 209 874 237 846 283 846 c 0
+ 329 846 359 874 371 913 c 1
+ 447 898 l 1
+ 439 818 377 754 283 754 c 0
+468 593 m 1
+ 213 593 l 1
+ 213 400 l 1
+ 435 400 l 1
+ 435 302 l 1
+ 213 302 l 1
+ 213 99 l 1
+ 486 99 l 1
+ 486 0 l 1
+ 81 0 l 1
+ 81 691 l 1
+ 482 691 l 1
+ 468 593 l 1
+EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" ebreve.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" ebreve.sc
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
+EndChar

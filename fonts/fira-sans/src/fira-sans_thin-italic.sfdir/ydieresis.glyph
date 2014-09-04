@@ -1,0 +1,40 @@
+
+StartChar: ydieresis
+Encoding: 255 255 260
+Width: 444
+GlyphClass: 2
+Flags: MW
+HStem: -195 21G<-4 -4> 0 16 1 21G<183 183> 499 20G<60 83 83 83 433 458 458 458> 673 39<181.5 190.5 347 356.5>
+VStem: 166 40 331 40
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 0 0 basechar 0
+AnchorPoint: "Anchor-9" 261 631 basechar 0
+AnchorPoint: "Anchor-8" 0 0 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+187 712 m 0xde
+ 200 712 207 702 206 691 c 1
+ 204 681 196 673 185 673 c 0
+ 172 673 164 682 166 694 c 0
+ 167 704 176 712 187 712 c 0xde
+353 712 m 0
+ 365 712 372 702 371 691 c 0
+ 370 681 362 673 351 673 c 0
+ 337 673 330 682 331 694 c 1
+ 333 704 341 712 353 712 c 0
+205 -2 m 2
+ 149 -116 110 -163 -4 -195 c 1
+ -6 -177 l 1
+ 102 -146 131 -103 183 1 c 1
+ 173 0 l 1xbc
+ 60 519 l 1
+ 83 519 l 1
+ 191 16 l 1
+ 433 519 l 1
+ 458 519 l 1
+ 205 -2 l 2
+EndSplineSet
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" ydieresis.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" ydieresis.sc
+EndChar

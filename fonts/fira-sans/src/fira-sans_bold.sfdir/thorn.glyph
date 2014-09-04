@@ -1,0 +1,35 @@
+
+StartChar: thorn
+Encoding: 254 254 221
+Width: 597
+GlyphClass: 2
+Flags: MW
+HStem: -222 21G<62 62> -204 21G<220 220> -17 116<323 330.5 284.5 414.5> 432 116<291.5 429> 722 20G<62 62> 739 20G<220 220>
+VStem: 62 158<-204 38 -204 146 146 370 481 742 742 742> 396 164<205.5 331>
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 0 0 basechar 0
+AnchorPoint: "Anchor-9" 116 434 basechar 0
+AnchorPoint: "Anchor-8" 0 0 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+359 548 m 0x77
+ 499 548 560 439 560 267 c 0
+ 560 103 480 -17 349 -17 c 0
+ 297 -17 253 1 220 38 c 1
+ 220 -204 l 1x77
+ 62 -222 l 1
+ 62 742 l 1xbb
+ 220 759 l 1
+ 220 481 l 1
+ 262 530 314 548 359 548 c 0x77
+301 99 m 0
+ 360 99 396 146 396 265 c 0
+ 396 397 364 432 309 432 c 0
+ 274 432 243 409 220 370 c 1
+ 220 146 l 1
+ 242 114 268 99 301 99 c 0
+EndSplineSet
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" thorn.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" thorn.sc
+EndChar

@@ -1,0 +1,42 @@
+
+StartChar: abreve
+Encoding: 259 259 136
+Width: 574
+GlyphClass: 2
+Flags: MW
+HStem: -22 21G<120 218.5> -22 158<120 264.5> -17 21G<489 489> 407 150<281 324> 622 149<360 403 360 427>
+VStem: 1 222<169.5 244.5 169.5 279> 202 111<833 850>
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 0 0 basechar 0
+AnchorPoint: "Anchor-9" 349 536 basechar 0
+AnchorPoint: "Anchor-8" 497 -17 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+364 622 m 0x3a
+ 237 622 195 727 202 833 c 1
+ 313 850 l 1
+ 315 803 339 771 381 771 c 0
+ 425 771 455 805 471 851 c 1
+ 578 832 l 1
+ 558 726 490 622 364 622 c 0x3a
+329 557 m 0
+ 406 557 501 537 575 490 c 1
+ 532 184 l 2
+ 531 175 530 166 530 159 c 0
+ 530 140 536 130 552 123 c 1
+ 489 -17 l 1x3c
+ 425 -14 361 14 337 71 c 1
+ 305 18 257 -22 180 -22 c 0
+ 60 -22 1 63 1 199 c 0x9c
+ 1 359 86 557 329 557 c 0
+318 407 m 0x5c
+ 244 407 223 289 223 200 c 0
+ 223 139 241 136 255 136 c 0
+ 274 136 298 150 318 187 c 1
+ 350 404 l 1
+ 338 406 330 407 318 407 c 0x5c
+EndSplineSet
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" abreve.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" abreve.sc
+EndChar

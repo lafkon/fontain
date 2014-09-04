@@ -1,0 +1,31 @@
+
+StartChar: U
+Encoding: 85 85 101
+Width: 640
+GlyphClass: 2
+Flags: MW
+HStem: -10 22<254.5 387.5 254.5 394> 661 20G<113 136 136 136 505 528 528 528>
+VStem: 113 23<207 210 210 681> 505 23<210 681>
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 0 0 basechar 0
+AnchorPoint: "Anchor-9" 324 681 basechar 0
+AnchorPoint: "Anchor-8" 404 0 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+528 207 m 2
+ 528 82 467 -10 321 -10 c 0
+ 172 -10 113 82 113 207 c 2
+ 113 681 l 1
+ 136 681 l 1
+ 136 210 l 2
+ 136 93 188 12 321 12 c 0
+ 454 12 505 95 505 210 c 2
+ 505 681 l 1
+ 528 681 l 1
+ 528 207 l 2
+EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" u.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" u.sc
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
+EndChar

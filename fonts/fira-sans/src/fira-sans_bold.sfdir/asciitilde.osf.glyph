@@ -1,0 +1,24 @@
+
+StartChar: asciitilde.osf
+Encoding: 1114528 -1 1128
+Width: 514
+Flags: MW
+HStem: 232 118<320.5 362.5 320.5 380> 293 117<152 194>
+VStem: 16 482<283 357>
+LayerCount: 2
+Fore
+SplineSet
+177 410 m 0x60
+ 266 410 296 350 345 350 c 0
+ 380 350 395 373 411 403 c 1
+ 498 357 l 1
+ 467 295 422 232 338 232 c 0xa0
+ 248 232 218 293 170 293 c 0
+ 134 293 119 267 103 237 c 1
+ 16 283 l 1
+ 47 345 93 410 177 410 c 0x60
+EndSplineSet
+Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" asciitilde.tosf
+Substitution2: "'lnum' Lining Figures lookup 19 subtable" asciitilde
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" asciitilde asciitilde.tosf
+EndChar

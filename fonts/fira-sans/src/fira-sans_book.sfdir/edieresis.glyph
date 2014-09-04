@@ -1,0 +1,44 @@
+
+StartChar: edieresis
+Encoding: 235 235 162
+Width: 547
+GlyphClass: 2
+Flags: MW
+HStem: -12 69<255 321.5 255 325> 234 62<148 406 148 487 148 406> 471 67<240.5 320.5> 656 106<160.5 191 365 395.5>
+VStem: 59 89<234 234 234 296 234 340.5> 122 107<694 724> 327 107<694 724> 406 83<296 304 304 357>
+AnchorPoint: "Anchor-11" 292 0 basechar 0
+AnchorPoint: "Anchor-10" 0 0 basechar 0
+AnchorPoint: "Anchor-9" 278 671 basechar 0
+AnchorPoint: "Anchor-8" 396 6 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+176 656 m 0xf6
+ 145 656 122 679 122 709 c 0
+ 122 739 145 762 176 762 c 0
+ 206 762 229 739 229 709 c 0
+ 229 679 206 656 176 656 c 0xf6
+380 656 m 0
+ 350 656 327 679 327 709 c 0
+ 327 739 350 762 380 762 c 0
+ 411 762 434 739 434 709 c 0
+ 434 679 411 656 380 656 c 0
+489 280 m 0xe9
+ 489 262 488 245 487 234 c 1
+ 148 234 l 1
+ 157 107 215 57 295 57 c 0
+ 348 57 387 72 433 104 c 1
+ 470 54 l 1
+ 419 13 361 -12 289 -12 c 0
+ 144 -12 59 91 59 258 c 0
+ 59 423 141 538 275 538 c 0
+ 416 538 489 439 489 280 c 0xe9
+406 296 m 1
+ 406 304 l 2
+ 406 410 364 471 277 471 c 0
+ 204 471 155 419 148 296 c 1
+ 406 296 l 1
+EndSplineSet
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" edieresis.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" edieresis.sc
+EndChar

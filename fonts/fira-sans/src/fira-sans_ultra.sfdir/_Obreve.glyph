@@ -1,0 +1,37 @@
+
+StartChar: Obreve
+Encoding: 334 334 73
+Width: 690
+GlyphClass: 2
+Flags: MW
+HStem: -22 162<309.5 381 309.5 453.5> 558 161<310 379.5> 743 149<321.5 366 321.5 408.5>
+VStem: 12 240<274 426.5 274 463> 438 239<274 426.5>
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 101 698 basechar 0
+AnchorPoint: "Anchor-9" 344 698 basechar 0
+AnchorPoint: "Anchor-8" 0 0 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+344 743 m 0
+ 215 743 159 847 151 944 c 1
+ 264 961 l 1
+ 274 925 299 892 344 892 c 0
+ 388 892 413 925 424 961 c 1
+ 536 944 l 1
+ 528 847 473 743 344 743 c 0
+345 719 m 0xd8
+ 562 719 677 581 677 350 c 0
+ 677 125 562 -22 345 -22 c 0
+ 127 -22 12 119 12 350 c 0
+ 12 576 127 719 345 719 c 0xd8
+345 558 m 0
+ 275 558 252 503 252 350 c 0
+ 252 198 274 140 345 140 c 0
+ 417 140 438 198 438 350 c 0
+ 438 503 414 558 345 558 c 0
+EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" obreve.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" obreve.sc
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
+EndChar

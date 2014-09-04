@@ -1,0 +1,39 @@
+
+StartChar: yen.tf
+Encoding: 1114513 -1 1078
+Width: 560
+Flags: MW
+HStem: 0 21G<270 292 270 270> 168 22<138 270 138 270 292 425> 308 21<138 260 138 270 138 260 302 425> 661 20G<49 75 75 75 485 511 511 511>
+VStem: 270 22<0 168 0 168 190 308>
+LayerCount: 2
+Fore
+SplineSet
+302 329 m 1
+ 425 329 l 1
+ 425 308 l 1
+ 292 308 l 1
+ 292 190 l 1
+ 425 190 l 1
+ 425 168 l 1
+ 292 168 l 1
+ 292 0 l 1
+ 270 0 l 1
+ 270 168 l 1
+ 138 168 l 1
+ 138 190 l 1
+ 270 190 l 1
+ 270 308 l 1
+ 138 308 l 1
+ 138 329 l 1
+ 260 329 l 1
+ 49 681 l 1
+ 75 681 l 1
+ 281 330 l 1
+ 485 681 l 1
+ 511 681 l 1
+ 302 329 l 1
+EndSplineSet
+Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" yen.tosf
+Substitution2: "'pnum' Proportional Numbers lookup 20 subtable" yen
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" yen yen.tosf
+EndChar

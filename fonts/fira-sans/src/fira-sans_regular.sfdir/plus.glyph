@@ -1,0 +1,32 @@
+
+StartChar: plus
+Encoding: 43 43 1113
+Width: 499
+Flags: MW
+HStem: 293 76<62 207 62 207 291 437>
+VStem: 207 84<144 293 144 293 369 519>
+LayerCount: 2
+Fore
+SplineSet
+291 369 m 1
+ 437 369 l 1
+ 437 293 l 1
+ 291 293 l 1
+ 291 144 l 1
+ 207 144 l 1
+ 207 293 l 1
+ 62 293 l 1
+ 62 369 l 1
+ 207 369 l 1
+ 207 519 l 1
+ 291 519 l 1
+ 291 369 l 1
+EndSplineSet
+Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" plus.osf
+Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" plus.tf
+Substitution2: "'dnom' Denominators lookup 14 subtable" plus.dnom
+Substitution2: "'numr' Numerators lookup 13 subtable" plus.numr
+Substitution2: "'sups' Superscript lookup 12 subtable" plussuperior
+Substitution2: "'subs' Subscript lookup 11 subtable" uni208A
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" uni208A plussuperior plus.numr plus.dnom plus.tf plus.osf
+EndChar

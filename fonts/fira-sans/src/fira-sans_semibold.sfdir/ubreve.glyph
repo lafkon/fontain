@@ -1,0 +1,39 @@
+
+StartChar: ubreve
+Encoding: 365 365 241
+Width: 574
+GlyphClass: 2
+Flags: MW
+HStem: -16 106<245.5 248.5> 0 21G<381 504 381 381> 510 20G<65 207 207 207 362 504 504 504> 635 100<261.5 308 261.5 334.5>
+VStem: 65 142<149 167 167 530> 362 142<159 530>
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 0 0 basechar 0
+AnchorPoint: "Anchor-9" 285 530 basechar 0
+AnchorPoint: "Anchor-8" 514 0 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+285 635 m 0x7c
+ 186 635 126 705 118 798 c 1
+ 199 813 l 1
+ 211 764 238 735 285 735 c 0
+ 331 735 359 764 372 813 c 1
+ 453 798 l 1
+ 445 705 384 635 285 635 c 0x7c
+504 0 m 1
+ 381 0 l 1x7c
+ 374 71 l 1
+ 336 12 284 -16 213 -16 c 0
+ 115 -16 65 47 65 149 c 2
+ 65 530 l 1
+ 207 530 l 1
+ 207 167 l 2
+ 207 109 226 90 265 90 c 0
+ 304 90 337 116 362 159 c 1xbc
+ 362 530 l 1
+ 504 530 l 1
+ 504 0 l 1
+EndSplineSet
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" ubreve.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" ubreve.sc
+EndChar

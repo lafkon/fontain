@@ -1,0 +1,36 @@
+
+StartChar: Umacron
+Encoding: 362 362 108
+Width: 637
+GlyphClass: 2
+Flags: MW
+HStem: -18 135<261.5 328 261.5 372.5> 675 20G<104 285 285 285 471 653 653 653> 778 121<235 562 252 545>
+VStem: 35.98 182.04
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 0 0 basechar 0
+AnchorPoint: "Anchor-9" 378 695 basechar 0
+AnchorPoint: "Anchor-8" 409 0 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+235 778 m 1
+ 252 899 l 1
+ 562 899 l 1
+ 545 778 l 1
+ 235 778 l 1
+589 232 m 2
+ 569 91 464 -18 281 -18 c 0
+ 94 -18 19 85 39 235 c 1
+ 104 695 l 1
+ 285 695 l 1
+ 221 238 l 2
+ 209 155 229 117 294 117 c 0
+ 362 117 395 158 407 241 c 2
+ 471 695 l 1
+ 653 695 l 1
+ 589 232 l 2
+EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" umacron.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" umacron.sc
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
+EndChar

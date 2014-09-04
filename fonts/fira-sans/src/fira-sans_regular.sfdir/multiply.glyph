@@ -1,0 +1,28 @@
+
+StartChar: multiply
+Encoding: 215 215 1108
+Width: 500
+Flags: MW
+HStem: 129 357<128 128 128 372>
+VStem: 72 356<185 185 185 429>
+LayerCount: 2
+Fore
+SplineSet
+428 429 m 1
+ 306 307 l 1
+ 428 185 l 1
+ 372 129 l 1
+ 250 251 l 1
+ 128 129 l 1
+ 72 185 l 1
+ 194 307 l 1
+ 72 429 l 1
+ 128 486 l 1
+ 250 363 l 1
+ 372 486 l 1
+ 428 429 l 1
+EndSplineSet
+Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" multiply.osf
+Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" multiply.tf
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" multiply.tf multiply.osf
+EndChar

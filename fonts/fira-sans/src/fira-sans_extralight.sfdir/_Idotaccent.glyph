@@ -1,0 +1,30 @@
+
+StartChar: Idotaccent
+Encoding: 304 304 49
+Width: 277
+GlyphClass: 2
+Flags: MW
+HStem: 0 21G<115 163 115 115> 664 20G<115 163 163 163> 800 70<127 149>
+VStem: 102 72<825.5 844.5> 115 48<0 684>
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 90 684 basechar 0
+AnchorPoint: "Anchor-9" 138 684 basechar 0
+AnchorPoint: "Anchor-8" 173 0 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+138 870 m 0xf0
+ 160 870 174 854 174 835 c 0
+ 174 816 160 800 138 800 c 0
+ 116 800 102 816 102 835 c 0
+ 102 854 116 870 138 870 c 0xf0
+163 0 m 1xe8
+ 115 0 l 1
+ 115 684 l 1
+ 163 684 l 1
+ 163 0 l 1xe8
+EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" i.sc.loclTRK
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" i.sc.loclTRK
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
+EndChar

@@ -1,0 +1,28 @@
+
+StartChar: one
+Encoding: 49 49 880
+Width: 386
+Flags: MW
+HStem: -0.00999451 21G
+VStem: 99.21 203.29
+LayerCount: 2
+Fore
+SplineSet
+210.43 0 m 1
+ 206.421 -0.0107422 l 1
+ 298.141 655.64 l 1
+ 101.07 539.279 l 1
+ 99.21 542.93 l 1
+ 298.93 660.14 l 1
+ 302.5 660.14 l 1
+ 210.43 0 l 1
+EndSplineSet
+Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" one.osf
+Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" one.tf
+Substitution2: "'frac' Diagonal Fractions lookup 16 subtable" one.numr
+Substitution2: "'dnom' Denominators lookup 14 subtable" one.dnom
+Substitution2: "'numr' Numerators lookup 13 subtable" one.numr
+Substitution2: "'sups' Superscript lookup 12 subtable" onesuperior
+Substitution2: "'subs' Subscript lookup 11 subtable" oneinferior
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" oneinferior onesuperior one.numr one.dnom one.tf one.osf
+EndChar

@@ -1,0 +1,25 @@
+
+StartChar: tilde
+Encoding: 732 732 1262
+Width: 337
+Flags: MW
+HStem: 674 30<208.5 239 208.5 245> 715 20G<307 307> 717 30<95 127>
+VStem: 30 277<693 735>
+LayerCount: 2
+Fore
+SplineSet
+232 674 m 0xd0
+ 176 674 144 717 110 717 c 0
+ 80 717 71 707 51 681 c 1
+ 30 693 l 1
+ 51 727 75 747 110 747 c 0x30
+ 150 747 188 704 229 704 c 0xb0
+ 249 704 264 715 286 747 c 1x30
+ 307 735 l 1
+ 285 691 258 674 232 674 c 0xd0
+EndSplineSet
+Substitution2: "'case' Case-Sensitive Forms lookup 25 subtable" tilde.case
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" tilde.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" tilde.sc
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" tilde.sc tilde.case
+EndChar

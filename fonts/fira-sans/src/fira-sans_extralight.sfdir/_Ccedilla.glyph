@@ -1,0 +1,40 @@
+
+StartChar: Ccedilla
+Encoding: 199 199 17
+Width: 547
+GlyphClass: 2
+Flags: MW
+HStem: -222 35<332 360.5 332 372.5> -202 21G<270 270> -95 28<313 353> -11 43<353 353> -10 42<320 320> 653 41<284.5 376>
+VStem: 70 50<236.5 453 236.5 459.5> 316.5 36.5 402 43<-156 -125>
+AnchorPoint: "Anchor-11" 342 0 basechar 0
+AnchorPoint: "Anchor-10" 0 0 basechar 0
+AnchorPoint: "Anchor-9" 343 684 basechar 0
+AnchorPoint: "Anchor-8" 0 0 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+353 -67 m 1x7780
+ 417 -72 445 -99 445 -140 c 0
+ 445 -193 399 -222 346 -222 c 0xb780
+ 313 -222 288 -213 270 -202 c 1x7780
+ 286 -172 l 1
+ 301 -180 319 -187 345 -187 c 0
+ 376 -187 402 -172 402 -140 c 0
+ 402 -110 376 -95 313 -95 c 1
+ 320 -10 l 1xaf80
+ 175 1 70 123 70 342 c 0
+ 70 577 193 694 344 694 c 0
+ 422 694 468 671 515 633 c 1
+ 489 601 l 1
+ 443 637 405 653 347 653 c 0
+ 222 653 120 564 120 342 c 0
+ 120 131 219 32 344 32 c 0
+ 416 32 456 58 496 90 c 1
+ 523 58 l 1
+ 483 21 429 -8 353 -11 c 1
+ 353 -67 l 1x7780
+EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" ccedilla.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" ccedilla.sc
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
+EndChar

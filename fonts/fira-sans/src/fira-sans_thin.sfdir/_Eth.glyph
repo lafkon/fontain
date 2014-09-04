@@ -1,0 +1,40 @@
+
+StartChar: Eth
+Encoding: 208 208 21
+Width: 615
+GlyphClass: 2
+Flags: MW
+HStem: 0 21<141 244> 343 20<26 118 26 118 141 333> 660 21<141 238 141 141>
+VStem: 118 23<21 343 21 343 21 343 363 660> 514 23<215 482.5>
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 0 0 basechar 0
+AnchorPoint: "Anchor-9" 290 681 basechar 0
+AnchorPoint: "Anchor-8" 0 0 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+240 681 m 2
+ 386 681 537 627 537 348 c 0
+ 537 63 380 0 244 0 c 2
+ 118 0 l 1
+ 118 343 l 1
+ 26 343 l 1
+ 26 363 l 1
+ 118 363 l 1
+ 118 681 l 1
+ 240 681 l 2
+245 21 m 2
+ 375 21 514 82 514 348 c 0
+ 514 617 371 660 238 660 c 2
+ 141 660 l 1
+ 141 363 l 1
+ 333 363 l 1
+ 333 343 l 1
+ 141 343 l 1
+ 141 21 l 1
+ 245 21 l 2
+EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" eth.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" eth.sc
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
+EndChar

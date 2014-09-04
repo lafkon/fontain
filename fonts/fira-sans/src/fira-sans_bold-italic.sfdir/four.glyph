@@ -1,0 +1,36 @@
+
+StartChar: four
+Encoding: 52 52 883
+Width: 555
+Flags: MW
+HStem: 0 21G<271 423 271 271> 146 118<194 291 460 518> 673 20G<270 270>
+VStem: 9 526<146 264>
+LayerCount: 2
+Fore
+SplineSet
+518 146 m 1
+ 444 146 l 1
+ 423 0 l 1
+ 271 0 l 1
+ 291 146 l 1
+ 9 146 l 1
+ 24 251 l 1
+ 270 693 l 1
+ 400 643 l 1
+ 194 264 l 1
+ 309 264 l 1
+ 349 424 l 1
+ 483 424 l 1
+ 460 264 l 1
+ 535 264 l 1
+ 518 146 l 1
+EndSplineSet
+Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" four.osf
+Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" four.tf
+Substitution2: "'frac' Diagonal Fractions lookup 16 subtable" four.numr
+Substitution2: "'dnom' Denominators lookup 14 subtable" four.dnom
+Substitution2: "'numr' Numerators lookup 13 subtable" four.numr
+Substitution2: "'sups' Superscript lookup 12 subtable" foursuperior
+Substitution2: "'subs' Subscript lookup 11 subtable" fourinferior
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" fourinferior foursuperior four.numr four.dnom four.tf four.osf
+EndChar

@@ -1,0 +1,43 @@
+
+StartChar: Adieresis
+Encoding: 196 196 5
+Width: 586
+GlyphClass: 2
+Flags: MW
+HStem: 0 21G<-9 144 -9 -9 439 439 439 595> 155 109<211 372 211 400 183 372> 583 109<291 291> 672 20G<204 383 383 383> 770 148<159 201.5 385.5 427.5>
+VStem: 105 150<823.5 864.5> 331 151<823.5 864.5>
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 145 692 basechar 0
+AnchorPoint: "Anchor-9" 292 834 basechar 0
+AnchorPoint: "Anchor-8" 532 0 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+180 770 m 0xde
+ 138 770 105 803 105 844 c 0
+ 105 885 138 918 180 918 c 0
+ 223 918 255 885 255 844 c 0
+ 255 803 223 770 180 770 c 0xde
+406 770 m 0
+ 365 770 331 803 331 844 c 0
+ 331 885 365 918 406 918 c 0
+ 449 918 482 885 482 844 c 0
+ 482 803 449 770 406 770 c 0
+400 155 m 1
+ 183 155 l 1
+ 144 0 l 1
+ -9 0 l 1
+ 204 692 l 1
+ 383 692 l 1
+ 595 0 l 1
+ 439 0 l 1
+ 400 155 l 1
+372 264 m 1
+ 291 583 l 1xee
+ 211 264 l 1
+ 372 264 l 1
+EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" adieresis.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" adieresis.sc
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
+EndChar

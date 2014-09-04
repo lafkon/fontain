@@ -1,0 +1,21 @@
+
+StartChar: dotaccent
+Encoding: 729 729 1258
+Width: 290
+Flags: MW
+HStem: 608 232<189.5 228.5>
+VStem: 90 238
+LayerCount: 2
+Fore
+SplineSet
+224 840 m 0
+ 294 840 337 789 328 722 c 0
+ 320 658 263 608 194 608 c 0
+ 123 608 81 659 90 727 c 0
+ 98 790 155 840 224 840 c 0
+EndSplineSet
+Substitution2: "'case' Case-Sensitive Forms lookup 25 subtable" dotaccent.case
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" dotaccent.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" dotaccent.sc
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" dotaccent.sc dotaccent.case
+EndChar

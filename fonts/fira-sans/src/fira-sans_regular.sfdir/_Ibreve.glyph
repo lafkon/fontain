@@ -1,0 +1,32 @@
+
+StartChar: Ibreve
+Encoding: 300 300 46
+Width: 296
+GlyphClass: 2
+Flags: MW
+HStem: 0 21G<100 196 100 100> 669 20G<100 196 196 196> 758 70<122.5 169.5 122.5 186.5>
+VStem: 100 96<0 689>
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 90 689 basechar 0
+AnchorPoint: "Anchor-9" 148 689 basechar 0
+AnchorPoint: "Anchor-8" 206 0 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+146 758 m 0
+ 66 758 4 807 -4 881 c 1
+ 57 894 l 1
+ 71 854 99 828 146 828 c 0
+ 193 828 224 854 238 894 c 1
+ 299 881 l 1
+ 291 807 227 758 146 758 c 0
+196 0 m 1
+ 100 0 l 1
+ 100 689 l 1
+ 196 689 l 1
+ 196 0 l 1
+EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" ibreve.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" ibreve.sc
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
+EndChar

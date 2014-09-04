@@ -1,0 +1,21 @@
+
+StartChar: macron
+Encoding: 175 175 1259
+Width: 250
+Flags: MW
+HStem: 671 20G<30 220 220 220>
+VStem: 30 190<689 691 689 691>
+LayerCount: 2
+Fore
+SplineSet
+30 689 m 1
+ 30 691 l 1
+ 220 691 l 1
+ 220 689 l 1
+ 30 689 l 1
+EndSplineSet
+Substitution2: "'case' Case-Sensitive Forms lookup 25 subtable" macron.case
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" macron.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" macron.sc
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" macron.sc macron.case
+EndChar

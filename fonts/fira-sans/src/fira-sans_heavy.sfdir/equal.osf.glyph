@@ -1,0 +1,25 @@
+
+StartChar: equal.osf
+Encoding: 1114530 -1 1130
+Width: 530
+Flags: MW
+HStem: 147 150<40 490 40 490> 367 150<40 490 40 490>
+VStem: 40 450<147 297 147 297 367 517 147 517>
+LayerCount: 2
+Fore
+SplineSet
+40 517 m 1
+ 490 517 l 1
+ 490 367 l 1
+ 40 367 l 1
+ 40 517 l 1
+40 297 m 1
+ 490 297 l 1
+ 490 147 l 1
+ 40 147 l 1
+ 40 297 l 1
+EndSplineSet
+Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" equal.tosf
+Substitution2: "'lnum' Lining Figures lookup 19 subtable" equal
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" equal equal.tosf
+EndChar

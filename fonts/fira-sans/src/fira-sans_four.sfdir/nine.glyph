@@ -1,0 +1,33 @@
+
+StartChar: nine
+Encoding: 57 57 886
+Width: 500
+Flags: MW
+HStem: -7.78999 21G
+VStem: 64.64 360.64
+LayerCount: 2
+Fore
+SplineSet
+244.57 670.28 m 0
+ 375.71 670.28 425.279 565.418 425.279 393.418 c 0
+ 425.279 150.778 315.709 47.9883 125.069 -11.4414 c 1
+ 123.499 -7.79102 l 1
+ 311.229 51.9092 417.069 148.979 421.239 384.77 c 1
+ 377.22 305.92 316.66 260.42 233.28 260.42 c 0
+ 136.851 260.42 64.6406 336.57 64.6406 459.851 c 0
+ 64.6406 590.07 140.851 670.28 244.57 670.28 c 0
+233.499 264.278 m 0
+ 316.099 264.278 376.948 311.058 421.278 391.348 c 1
+ 421.128 564.298 372.528 666.418 244.639 666.418 c 0
+ 143.849 666.418 68.7783 588.278 68.7783 459.778 c 0
+ 68.7783 338.559 138.849 264.278 233.499 264.278 c 0
+EndSplineSet
+Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" nine.osf
+Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" nine.tf
+Substitution2: "'frac' Diagonal Fractions lookup 16 subtable" nine.numr
+Substitution2: "'dnom' Denominators lookup 14 subtable" nine.dnom
+Substitution2: "'numr' Numerators lookup 13 subtable" nine.numr
+Substitution2: "'sups' Superscript lookup 12 subtable" ninesuperior
+Substitution2: "'subs' Subscript lookup 11 subtable" nineinferior
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" nineinferior ninesuperior nine.numr nine.dnom nine.tf nine.osf
+EndChar

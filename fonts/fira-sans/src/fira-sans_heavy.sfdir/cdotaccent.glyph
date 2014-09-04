@@ -1,0 +1,35 @@
+
+StartChar: cdotaccent
+Encoding: 267 267 152
+Width: 479
+GlyphClass: 2
+Flags: MW
+HStem: -20 153<285.5 327.5 285.5 340> 405 149<284 329> 617 212<259.5 324.5>
+VStem: 17 206<209.5 317 209.5 347.5> 181 222<693 753>
+AnchorPoint: "Anchor-11" 277 0 basechar 0
+AnchorPoint: "Anchor-10" 0 0 basechar 0
+AnchorPoint: "Anchor-9" 292 534 basechar 0
+AnchorPoint: "Anchor-8" 0 0 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+292 829 m 0xe8
+ 357 829 403 783 403 723 c 0
+ 403 663 357 617 292 617 c 0
+ 227 617 181 663 181 723 c 0
+ 181 783 227 829 292 829 c 0xe8
+295 554 m 0
+ 377 554 438 528 489 483 c 1
+ 407 368 l 1
+ 375 394 345 405 313 405 c 0
+ 255 405 223 371 223 263 c 0
+ 223 156 260 133 311 133 c 0
+ 344 133 367 144 401 170 c 1
+ 489 46 l 1
+ 440 6 380 -20 300 -20 c 0
+ 124 -20 17 96 17 263 c 0xf0
+ 17 432 126 554 295 554 c 0
+EndSplineSet
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" cdotaccent.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" cdotaccent.sc
+EndChar

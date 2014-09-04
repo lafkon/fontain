@@ -1,0 +1,40 @@
+
+StartChar: Odieresis
+Encoding: 214 214 75
+Width: 690
+GlyphClass: 2
+Flags: MW
+HStem: -18 133<303 388.5 303 446> 580 133<302.5 388> 763 172<202.5 251.5 441 490>
+VStem: 27 192<264 432 264 461> 139 175<825 873> 377 176<825 873> 471 193<264 432>
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 105 695 basechar 0
+AnchorPoint: "Anchor-9" 343 856 basechar 0
+AnchorPoint: "Anchor-8" 0 0 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+227 935 m 0xec
+ 276 935 314 897 314 849 c 0
+ 314 801 276 763 227 763 c 0
+ 178 763 139 801 139 849 c 0
+ 139 897 178 935 227 935 c 0xec
+465 935 m 0
+ 515 935 553 897 553 849 c 0
+ 553 801 515 763 465 763 c 0
+ 417 763 377 801 377 849 c 0
+ 377 897 417 935 465 935 c 0
+345 713 m 0xf2
+ 547 713 664 579 664 348 c 0
+ 664 122 547 -18 345 -18 c 0
+ 143 -18 27 117 27 348 c 0
+ 27 574 143 713 345 713 c 0xf2
+345 580 m 0
+ 260 580 219 516 219 348 c 0
+ 219 180 261 115 345 115 c 0
+ 432 115 471 180 471 348 c 0
+ 471 516 431 580 345 580 c 0
+EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" odieresis.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" odieresis.sc
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
+EndChar

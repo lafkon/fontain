@@ -1,0 +1,40 @@
+
+StartChar: percent.tf
+Encoding: 1114564 -1 1164
+Width: 900
+Flags: MW
+HStem: -15 80<632.5 690 632.5 710> 255 80<632.5 690> 357 79<202.5 260 202.5 280> 626 80<202.5 260>
+VStem: 61 98<508 555 508 585> 303 100<507 554.5> 490 99<136.5 184 136.5 213.5> 733 99<136 183.5>
+LayerCount: 2
+Fore
+SplineSet
+719 683 m 1
+ 256 -36 l 1
+ 174 17 l 1
+ 637 736 l 1
+ 719 683 l 1
+231 706 m 0
+ 329 706 403 639 403 531 c 0
+ 403 424 329 357 231 357 c 0
+ 135 357 61 424 61 531 c 0
+ 61 639 135 706 231 706 c 0
+231 626 m 0
+ 174 626 159 579 159 531 c 0
+ 159 485 174 436 231 436 c 0
+ 289 436 303 483 303 531 c 0
+ 303 578 289 626 231 626 c 0
+661 335 m 0xff
+ 759 335 832 267 832 160 c 0
+ 832 53 759 -15 661 -15 c 0
+ 564 -15 490 53 490 160 c 0
+ 490 267 564 335 661 335 c 0xff
+661 255 m 0
+ 604 255 589 208 589 160 c 0
+ 589 113 604 65 661 65 c 0
+ 719 65 733 112 733 160 c 0
+ 733 207 719 255 661 255 c 0
+EndSplineSet
+Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" percent.tosf
+Substitution2: "'pnum' Proportional Numbers lookup 20 subtable" percent
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" percent percent.tosf
+EndChar

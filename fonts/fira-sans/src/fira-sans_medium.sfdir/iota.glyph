@@ -1,0 +1,26 @@
+
+StartChar: iota
+Encoding: 953 953 752
+Width: 276
+GlyphClass: 2
+Flags: MW
+HStem: -15 21G<206 206> 509 20G<72 200 200 200>
+VStem: 72 128<146 162 162 529>
+AnchorPoint: "Anchor-7" 0 0 basechar 0
+AnchorPoint: "Anchor-6" 0 0 basechar 0
+AnchorPoint: "Anchor-5" 0 0 basechar 0
+AnchorPoint: "Anchor-4" 136 529 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+200 162 m 2
+ 200 112 212 94 244 79 c 1
+ 206 -15 l 1
+ 113 3 72 48 72 146 c 2
+ 72 529 l 1
+ 200 529 l 1
+ 200 162 l 2
+EndSplineSet
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" iota.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" iota.sc
+EndChar

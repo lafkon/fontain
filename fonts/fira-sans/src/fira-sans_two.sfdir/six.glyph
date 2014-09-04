@@ -1,0 +1,35 @@
+
+StartChar: six
+Encoding: 54 54 883
+Width: 505
+Flags: MW
+HStem: -9.00999 21G 420.99 249
+VStem: 80 360
+LayerCount: 2
+Fore
+SplineSet
+274 423 m 0
+ 374 423 440.001 355.99 440.001 221.99 c 0
+ 440.001 76.9902 380.001 -9.00977 270.001 -9.00977 c 0
+ 134.001 -9.00977 80.001 123.99 80.001 286.99 c 0
+ 80.001 505.99 154.001 669.99 300.001 669.99 c 0
+ 342.001 669.99 373.001 655.99 399.001 634.99 c 1
+ 398.001 632.99 l 1
+ 372.001 654.99 341.001 667.99 300.001 667.99 c 0
+ 156.221 667.99 82.2305 502.51 82 289 c 1
+ 123 359 184 423 274 423 c 0
+270.001 -7.00977 m 0
+ 379.001 -7.00977 438.002 78.9902 438.002 221.99 c 0
+ 438.002 354.99 373.002 420.99 274.002 420.99 c 0
+ 185.002 420.99 125.002 357.99 82.002 285.99 c 1
+ 82.2217 125.44 135.281 -7.00977 270.001 -7.00977 c 0
+EndSplineSet
+Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" six.osf
+Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" six.tf
+Substitution2: "'frac' Diagonal Fractions lookup 16 subtable" six.numr
+Substitution2: "'dnom' Denominators lookup 14 subtable" six.dnom
+Substitution2: "'numr' Numerators lookup 13 subtable" six.numr
+Substitution2: "'sups' Superscript lookup 12 subtable" sixsuperior
+Substitution2: "'subs' Subscript lookup 11 subtable" sixinferior
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" sixinferior sixsuperior six.numr six.dnom six.tf six.osf
+EndChar

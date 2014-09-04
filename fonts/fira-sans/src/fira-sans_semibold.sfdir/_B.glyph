@@ -1,0 +1,36 @@
+
+StartChar: B
+Encoding: 66 66 13
+Width: 615
+GlyphClass: 2
+Flags: MW
+HStem: 0 109<220 289> 311 100<220 292 292 303 220 292> 586 106<220 220 220 262 262 276>
+VStem: 73 147<109 311 411 586> 404 150<471.5 534> 431 153<166 245.5>
+LayerCount: 2
+Fore
+SplineSet
+427 366 m 1xf4
+ 505 351 584 314 584 201 c 0xf4
+ 584 46 459 0 289 0 c 2
+ 73 0 l 1
+ 73 692 l 1
+ 262 692 l 2
+ 443 692 554 643 554 515 c 0xf8
+ 554 428 491 381 427 366 c 1xf4
+220 586 m 1
+ 220 411 l 1
+ 292 411 l 2
+ 362 411 404 440 404 502 c 0xf8
+ 404 566 361 586 276 586 c 2
+ 220 586 l 1
+290 109 m 2xf4
+ 372 109 431 125 431 207 c 0
+ 431 284 377 311 303 311 c 2
+ 220 311 l 1
+ 220 109 l 1
+ 290 109 l 2xf4
+EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" b.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" b.sc
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
+EndChar

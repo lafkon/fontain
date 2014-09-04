@@ -1,0 +1,40 @@
+
+StartChar: Dcaron
+Encoding: 270 270 22
+Width: 642
+GlyphClass: 2
+Flags: MW
+HStem: 0 108<196 232> 584 108<262 262 262 309 309 320>
+VStem: 472 148<359 494.5>
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 0 0 basechar 0
+AnchorPoint: "Anchor-9" 353 692 basechar 0
+AnchorPoint: "Anchor-8" 0 0 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+555 875 m 1
+ 401 751 l 1
+ 314 751 l 1
+ 193 875 l 1
+ 251 935 l 1
+ 368 852 l 1
+ 509 935 l 1
+ 555 875 l 1
+309 692 m 2
+ 472 692 620 644 620 430 c 0
+ 620 205 523 0 232 0 c 2
+ 36 0 l 1
+ 133 692 l 1
+ 309 692 l 2
+262 584 m 1
+ 196 108 l 1
+ 254 108 l 2
+ 426 108 472 288 472 430 c 0
+ 472 559 404 584 320 584 c 2
+ 262 584 l 1
+EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" dcaron.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" dcaron.sc
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
+EndChar

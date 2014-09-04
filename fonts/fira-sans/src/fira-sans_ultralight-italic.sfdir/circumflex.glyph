@@ -1,0 +1,24 @@
+
+StartChar: circumflex
+Encoding: 710 710 1256
+Width: 329
+Flags: MW
+HStem: 650 120<227 339>
+VStem: 87 269<670 670>
+LayerCount: 2
+Fore
+SplineSet
+87 670 m 1
+ 227 770 l 1
+ 245 770 l 1
+ 356 670 l 1
+ 339 650 l 1
+ 232 735 l 1
+ 103 650 l 1
+ 87 670 l 1
+EndSplineSet
+Substitution2: "'case' Case-Sensitive Forms lookup 25 subtable" circumflex.case
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" circumflex.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" circumflex.sc
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" circumflex.sc circumflex.case
+EndChar

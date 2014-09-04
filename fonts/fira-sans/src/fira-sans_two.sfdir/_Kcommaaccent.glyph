@@ -1,0 +1,40 @@
+
+StartChar: Kcommaaccent
+Encoding: 310 310 57
+Width: 504
+GlyphClass: 2
+Flags: MW
+HStem: -117 10<292 294> 0 21G<486 489 486 486> 1 21G<130 132 130 130> 660 20G<130 132 132 132 470 473 473 473>
+VStem: 130 8<366 366 366 680> 288 10<-113 -110.5 -113 -110.5>
+AnchorPoint: "Anchor-11" 284 0 basechar 0
+AnchorPoint: "Anchor-10" 0 0 basechar 0
+AnchorPoint: "Anchor-9" 284 680 basechar 0
+AnchorPoint: "Anchor-8" 0 0 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+132 1 m 1xb8
+ 130 1 l 1
+ 130 680 l 1
+ 132 680 l 1
+ 132 1 l 1xb8
+138 366 m 1
+ 489 0 l 1
+ 486 0 l 1xdc
+ 135 366 l 1
+ 470 680 l 1
+ 473 680 l 1
+ 138 366 l 1
+293 -107 m 0
+ 296 -107 298 -109 298 -112 c 0
+ 298 -114 298 -115 297 -120 c 2
+ 272 -239 l 1
+ 271 -239 l 1
+ 294 -117 l 1
+ 290 -117 288 -115 288 -112 c 0
+ 288 -109 290 -107 293 -107 c 0
+EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" kcommaaccent.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" kcommaaccent.sc
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
+EndChar

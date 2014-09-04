@@ -1,0 +1,41 @@
+
+StartChar: eight
+Encoding: 56 56 887
+Width: 565
+Flags: MW
+HStem: -16 104<226 295.5 226 328.5> 590 97<291 356.5>
+VStem: 19 142<145.5 192 145.5 200> 92 134<470.5 512.5 470.5 544> 382 141<173 228> 407 136<506 543>
+LayerCount: 2
+Fore
+SplineSet
+412 360 m 1xe8
+ 486 322 523 269 523 202 c 0
+ 523 83 413 -16 244 -16 c 0
+ 101 -16 19 62 19 165 c 0xe8
+ 19 235 56 305 172 351 c 1
+ 115 386 92 434 92 489 c 0
+ 92 599 187 687 336 687 c 0
+ 453 687 543 629 543 528 c 0xd4
+ 543 463 507 405 412 360 c 1xe8
+332 590 m 0xd4
+ 250 590 226 532 226 493 c 0
+ 226 448 253 425 304 404 c 1
+ 321 398 l 1
+ 396 442 407 489 407 523 c 0
+ 407 563 381 590 332 590 c 0xd4
+256 88 m 0xe8
+ 335 88 382 140 382 206 c 0
+ 382 250 354 273 285 300 c 1
+ 256 310 l 1
+ 179 273 161 213 161 171 c 0
+ 161 120 196 88 256 88 c 0xe8
+EndSplineSet
+Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" eight.osf
+Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" eight.tf
+Substitution2: "'frac' Diagonal Fractions lookup 16 subtable" eight.numr
+Substitution2: "'dnom' Denominators lookup 14 subtable" eight.dnom
+Substitution2: "'numr' Numerators lookup 13 subtable" eight.numr
+Substitution2: "'sups' Superscript lookup 12 subtable" eightsuperior
+Substitution2: "'subs' Subscript lookup 11 subtable" eightinferior
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" eightinferior eightsuperior eight.numr eight.dnom eight.tf eight.osf
+EndChar

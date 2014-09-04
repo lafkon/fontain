@@ -1,0 +1,28 @@
+
+StartChar: equal
+Encoding: 61 61 1095
+Width: 519
+Flags: MW
+HStem: 147 150<43 464 22 485> 367 150<74 495 53 516>
+VStem: 22 494<147 517>
+LayerCount: 2
+Fore
+SplineSet
+74 517 m 1
+ 516 517 l 1
+ 495 367 l 1
+ 53 367 l 1
+ 74 517 l 1
+43 297 m 1
+ 485 297 l 1
+ 464 147 l 1
+ 22 147 l 1
+ 43 297 l 1
+EndSplineSet
+Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" equal.osf
+Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" equal.tf
+Substitution2: "'dnom' Denominators lookup 14 subtable" equal.dnom
+Substitution2: "'numr' Numerators lookup 13 subtable" equal.numr
+Substitution2: "'sups' Superscript lookup 12 subtable" equalsuperior
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" equalsuperior equal.numr equal.dnom equal.tf equal.osf
+EndChar

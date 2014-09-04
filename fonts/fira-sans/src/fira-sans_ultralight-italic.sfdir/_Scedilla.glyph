@@ -1,0 +1,46 @@
+
+StartChar: Scedilla
+Encoding: 350 350 93
+Width: 534
+GlyphClass: 2
+Flags: MW
+HStem: -218 30<190.5 219.5 190.5 229.5> -198 21G<132 132> -93 23 -10 32<206 206 231 231> 661 32<271.5 356>
+VStem: 112 35<486.5 559.5> 270 35 428 35<161.5 237.5>
+AnchorPoint: "Anchor-11" 224 0 basechar 0
+AnchorPoint: "Anchor-10" 0 0 basechar 0
+AnchorPoint: "Anchor-9" 327 682 basechar 0
+AnchorPoint: "Anchor-8" 0 0 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+324 693 m 0x7f
+ 403 693 455 664 500 619 c 1
+ 476 597 l 1
+ 432 643 388 661 324 661 c 0
+ 219 661 147 602 147 521 c 0
+ 147 452 189 416 292 383 c 0
+ 406 347 463 294 463 201 c 0
+ 463 109 397 -6 231 -10 c 1
+ 221 -70 l 1
+ 278 -74 305 -94 305 -134 c 0
+ 305 -183 256 -218 203 -218 c 0xbf
+ 170 -218 148 -208 132 -198 c 1x7f
+ 148 -173 l 1
+ 160 -182 178 -188 203 -188 c 0xbf
+ 236 -188 269 -172 270 -138 c 0
+ 271 -107 250 -94 188 -93 c 1
+ 206 -10 l 1
+ 123 -6 68 27 22 74 c 1
+ 47 97 l 1
+ 89 52 139 22 220 22 c 0
+ 376 22 428 123 428 200 c 0
+ 428 275 384 320 279 354 c 0
+ 160 392 112 438 112 520 c 0
+ 112 599 178 693 324 693 c 0x7f
+EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" scedilla.sc
+Substitution2: "'locl' Localized Forms in Latin lookup 5 subtable" Scommaaccent
+Substitution2: "'locl' Localized Forms in Latin lookup 4 subtable" Scommaaccent
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" Scommaaccent scedilla.sc
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
+EndChar

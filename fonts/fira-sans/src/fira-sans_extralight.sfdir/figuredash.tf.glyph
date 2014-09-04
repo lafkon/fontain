@@ -1,0 +1,20 @@
+
+StartChar: figuredash.tf
+Encoding: 1114495 -1 1032
+Width: 560
+Flags: MW
+HStem: 313 40<38 522 38 522>
+VStem: 38 484<313 353 313 353>
+LayerCount: 2
+Fore
+SplineSet
+38 353 m 1
+ 522 353 l 1
+ 522 313 l 1
+ 38 313 l 1
+ 38 353 l 1
+EndSplineSet
+Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" figuredash.tosf
+Substitution2: "'pnum' Proportional Numbers lookup 20 subtable" figuredash
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" figuredash figuredash.tosf
+EndChar

@@ -1,0 +1,35 @@
+
+StartChar: Idieresis
+Encoding: 207 207 48
+Width: 287
+GlyphClass: 2
+Flags: MW
+HStem: 0 21G<-7 219 -7 -7> 678 20G<90 316 316 316> 754 201<86 116.5 334.5 365>
+VStem: -1 204 246 205
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" -71 534 basechar 0
+AnchorPoint: "Anchor-9" 229 900 basechar 0
+AnchorPoint: "Anchor-8" 174 0 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+113 955 m 0
+ 172 955 212 910 203 853 c 1
+ 196 798 145 754 88 754 c 0
+ 32 754 -8 799 -1 858 c 1
+ 7 911 59 955 113 955 c 0
+362 955 m 0
+ 420 955 459 910 451 853 c 0
+ 443 798 393 754 337 754 c 0
+ 281 754 239 799 246 858 c 1
+ 254 911 307 955 362 955 c 0
+219 0 m 1
+ -7 0 l 1
+ 90 698 l 1
+ 316 698 l 1
+ 219 0 l 1
+EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" idieresis.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" idieresis.sc
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
+EndChar

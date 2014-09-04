@@ -1,0 +1,28 @@
+
+StartChar: seven
+Encoding: 55 55 886
+Width: 434
+Flags: MW
+HStem: -8 21G<102 102> 616 49<86 387 80 456>
+VStem: 49 407
+LayerCount: 2
+Fore
+SplineSet
+450 620 m 1
+ 102 -8 l 1
+ 49 10 l 1
+ 387 616 l 1
+ 80 616 l 1
+ 86 665 l 1
+ 456 665 l 1
+ 450 620 l 1
+EndSplineSet
+Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" seven.osf
+Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" seven.tf
+Substitution2: "'frac' Diagonal Fractions lookup 16 subtable" seven.numr
+Substitution2: "'dnom' Denominators lookup 14 subtable" seven.dnom
+Substitution2: "'numr' Numerators lookup 13 subtable" seven.numr
+Substitution2: "'sups' Superscript lookup 12 subtable" sevensuperior
+Substitution2: "'subs' Subscript lookup 11 subtable" seveninferior
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" seveninferior sevensuperior seven.numr seven.dnom seven.tf seven.osf
+EndChar

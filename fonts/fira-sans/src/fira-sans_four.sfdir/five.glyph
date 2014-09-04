@@ -1,0 +1,36 @@
+
+StartChar: five
+Encoding: 53 53 882
+Width: 470
+Flags: MW
+HStem: -9.06 21G 405.72 254.42
+VStem: 49.29 352.14
+LayerCount: 2
+Fore
+SplineSet
+380 656.28 m 1
+ 94.6504 656.3 l 1
+ 94.6504 363.37 l 1
+ 129.15 390.72 168.931 409.58 226.65 409.58 c 0
+ 336.931 409.58 401.431 335.36 401.431 213.08 c 0
+ 401.431 84.0098 335.65 -9.06055 211.65 -9.06055 c 0
+ 144.79 -9.06055 87.8604 18.0098 49.29 63.2197 c 1
+ 52.7197 65.5098 l 1
+ 90.0801 21.5098 146.29 -5.20996 211.72 -5.20996 c 0
+ 333.22 -5.20996 397.29 86.7197 397.29 213.08 c 0
+ 397.29 332.86 334.29 405.721 226.58 405.721 c 0
+ 169.93 405.721 134.29 389.07 95.1396 359.36 c 1
+ 90.6396 359.36 l 1
+ 90.6396 660.141 l 1
+ 380.43 660.141 l 1
+ 380 656.28 l 1
+EndSplineSet
+Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" five.osf
+Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" five.tf
+Substitution2: "'frac' Diagonal Fractions lookup 16 subtable" five.numr
+Substitution2: "'dnom' Denominators lookup 14 subtable" five.dnom
+Substitution2: "'numr' Numerators lookup 13 subtable" five.numr
+Substitution2: "'sups' Superscript lookup 12 subtable" fivesuperior
+Substitution2: "'subs' Subscript lookup 11 subtable" fiveinferior
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" fiveinferior fivesuperior five.numr five.dnom five.tf five.osf
+EndChar

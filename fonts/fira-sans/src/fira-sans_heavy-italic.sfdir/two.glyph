@@ -1,0 +1,32 @@
+
+StartChar: two
+Encoding: 50 50 881
+Width: 518
+Flags: MW
+HStem: 0 147.5 548 148<241.5 273>
+VStem: 317 202<473.5 507.5>
+LayerCount: 2
+Fore
+SplineSet
+292 696 m 0
+ 444 696 519 615 519 517 c 0
+ 519 430 495 336 225 147 c 1
+ 483 148 l 1
+ 442 0 l 1
+ -15 0 l 1
+ 2 137 l 1
+ 277 371 317 418 317 489 c 0
+ 317 526 292 548 254 548 c 0
+ 210 548 177 525 135 479 c 1
+ 31 579 l 1
+ 99 652 191 696 292 696 c 0
+EndSplineSet
+Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" two.osf
+Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" two.tf
+Substitution2: "'frac' Diagonal Fractions lookup 16 subtable" two.numr
+Substitution2: "'dnom' Denominators lookup 14 subtable" two.dnom
+Substitution2: "'numr' Numerators lookup 13 subtable" two.numr
+Substitution2: "'sups' Superscript lookup 12 subtable" twosuperior
+Substitution2: "'subs' Subscript lookup 11 subtable" twoinferior
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" twoinferior twosuperior two.numr two.dnom two.tf two.osf
+EndChar

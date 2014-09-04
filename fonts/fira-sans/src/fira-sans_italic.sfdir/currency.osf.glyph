@@ -1,0 +1,41 @@
+
+StartChar: currency.osf
+Encoding: 1114505 -1 1070
+Width: 554
+Flags: MW
+HStem: 132 73<256 301.5> 479 70<256 301.5 256 321> 520 20G<29 29 531 531>
+VStem: 71 87<318.5 363> 403 89<318 364 318 384.5>
+LayerCount: 2
+Fore
+SplineSet
+492 341 m 0xb8
+ 492 295 479 253 455 218 c 1
+ 531 143 l 1
+ 476 88 l 1
+ 398 164 l 1
+ 365 144 325 132 278 132 c 0
+ 234 132 194 145 161 166 c 1
+ 84 88 l 1
+ 29 143 l 1
+ 107 221 l 1
+ 84 255 71 296 71 341 c 0
+ 71 385 84 426 106 460 c 1
+ 29 540 l 1
+ 84 595 l 1xb8
+ 162 515 l 1
+ 194 537 234 549 278 549 c 0
+ 325 549 365 537 398 517 c 1
+ 476 595 l 1xd8
+ 531 540 l 1
+ 455 463 l 1
+ 479 429 492 387 492 341 c 0xb8
+281 205 m 0
+ 361 205 403 256 403 342 c 0
+ 403 427 361 479 281 479 c 0xd8
+ 201 479 158 427 158 342 c 0
+ 158 256 201 205 281 205 c 0
+EndSplineSet
+Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" currency.tosf
+Substitution2: "'lnum' Lining Figures lookup 19 subtable" currency
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" currency currency.tosf
+EndChar

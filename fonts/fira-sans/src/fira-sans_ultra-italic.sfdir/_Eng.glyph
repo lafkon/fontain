@@ -1,0 +1,36 @@
+
+StartChar: Eng
+Encoding: 330 330 69
+Width: 630
+GlyphClass: 2
+Flags: MW
+HStem: -230 21G<278 278> 0 21G<-7 189 -7 -7 279 359 279 279 563 563> 509 189<220 220> 678 20G<90 369 369 369 464 660 660 660>
+VStem: -7 667
+AnchorPoint: "Anchor-11" 278 0 basechar 0
+AnchorPoint: "Anchor-10" 0 0 basechar 0
+AnchorPoint: "Anchor-9" 373 698 basechar 0
+AnchorPoint: "Anchor-8" 0 0 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+660 698 m 1xd8
+ 563 0 l 2
+ 548 -110 448 -192 278 -230 c 1
+ 229 -82 l 1
+ 296 -60 336 -39 359 0 c 1
+ 279 0 l 1
+ 220 509 l 1xe8
+ 226 421 234 322 215 181 c 1
+ 189 0 l 1
+ -7 0 l 1
+ 90 698 l 1
+ 369 698 l 1
+ 433 189 l 1
+ 425 290 419 374 440 522 c 2
+ 464 698 l 1
+ 660 698 l 1xd8
+EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" eng.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" eng.sc
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
+EndChar

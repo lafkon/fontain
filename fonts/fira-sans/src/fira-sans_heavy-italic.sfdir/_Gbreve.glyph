@@ -1,0 +1,42 @@
+
+StartChar: Gbreve
+Encoding: 286 286 36
+Width: 640
+GlyphClass: 2
+Flags: MW
+HStem: -20 146<290 333 290 352.5> 270 139<345 412 343 626> 572 144<343.5 446.5> 746 134<391.5 435.5 391.5 459.5>
+VStem: 24 207<198.5 312.5 198.5 365.5> 244 100<933 948>
+AnchorPoint: "Anchor-11" 306 0 basechar 0
+AnchorPoint: "Anchor-10" 0 0 basechar 0
+AnchorPoint: "Anchor-9" 403 696 basechar 0
+AnchorPoint: "Anchor-8" 0 0 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+401 746 m 0
+ 282 746 238 841 244 933 c 1
+ 344 948 l 1
+ 348 911 370 880 413 880 c 0
+ 458 880 488 913 503 950 c 1
+ 606 931 l 1
+ 586 839 518 746 401 746 c 0
+425 716 m 0xe8
+ 529 716 607 675 654 622 c 1
+ 540 519 l 1
+ 504 555 472 572 421 572 c 0
+ 266 572 231 382 231 243 c 0
+ 231 154 261 126 319 126 c 0
+ 347 126 370 132 394 142 c 1
+ 412 270 l 1
+ 343 270 l 1
+ 345 409 l 1
+ 626 409 l 1
+ 578 58 l 1
+ 498 8 395 -20 310 -20 c 0
+ 113 -20 24 79 24 259 c 0
+ 24 472 131 716 425 716 c 0xe8
+EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" gbreve.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" gbreve.sc
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
+EndChar
