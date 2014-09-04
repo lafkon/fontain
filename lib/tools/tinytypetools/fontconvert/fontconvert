@@ -84,10 +84,10 @@ if options.ufo:
 if options.eot:
 #   print eot_filename
     if options.ttf:
-        cmd = 'ttf2eot < %s > %s' % (ttf_filename, eot_filename)
+        cmd = 'lib/tools/ttf2eot/ttf2eot < %s > %s' % (ttf_filename, eot_filename)
         os.system(cmd)
     else:
         font.generate(ttf_filename)
-        cmd = 'ttf2eot < %s > %s' % (ttf_filename, eot_filename)
+        cmd = 'lib/tools/ttf2eot/ttf2eot < %s > %s' % (ttf_filename, eot_filename)
         os.system(cmd)
         os.remove(ttf_filename)
