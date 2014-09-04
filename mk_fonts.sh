@@ -22,101 +22,53 @@
   for FONTROOT in $FONTS
    do
 
-    # echo $FONTROOT
-
-    # MAKE TMPDIR; WILL BE DELETED AGAIN
-    # ----------------------------------------------------------- #
-      TMP=$TMPDIR/`echo $RANDOM | md5sum | cut -c 1-8`${RANDOM}X
-      mkdir $TMP
-
     # SET VARIABLES 
     # ----------------------------------------------------------- #
-      NAME=`basename $FONTROOT`
+    # NAME=`basename $FONTROOT`
       EXPORTROOT=$FONTROOT/export
 
 
 
     # ONLY RUN IF FONTCONVERT UTILITY EXISTS 
     # ----------------------------------------------------------- #
-
-
-      if [ -f $FONTCONVERT ]; then
+      if [ ! -f $FONTCONVERT ]; then exit 0; fi
 
 
       for SRC in `find $FONTROOT -type d -name "*.sfdir"`
        do
           SRCROOT=`echo $SRC | rev | cut -d "/" -f 2- | rev`
-
-        # EXPORT TTF
-        # ----------------------------------------------------------- #
-          TTFROOT=$EXPORTROOT/ttf   
-          if [ ! -f $TTFROOT ]; then mkdir -p $TTFROOT ; fi
-        # if [ $SRC -nt `ls -t $TTFROOT/*.ttf | head -1` ]; then
-          if [ `find $TTFROOT -newer $SRC -name "*.ttf" | \
-                wc -l` -lt 1 ]; then
-
-               $FONTCONVERT --ttf $SRC
-               mv $SRCROOT/*.ttf $TTFROOT
-          else
-               echo "$TTFROOT already up-to-date"
-          fi
-       
-        # EXPORT OTF
-        # ----------------------------------------------------------- #
-          OTFROOT=$EXPORTROOT/otf   
-          if [ ! -f $OTFROOT ]; then mkdir -p $OTFROOT ; fi
-        # if [ $SRC -nt `ls -t $OTFROOT/*.otf | head -1` ]; then
-          if [ `find $OTFROOT -newer $SRC -name "*.otf" | \
-                wc -l` -lt 1 ]; then
-
-               $FONTCONVERT --otf $SRC
-               mv $SRCROOT/*.otf $OTFROOT
-          else
-               echo "$OTFROOT already up-to-date"
-          fi
- 
-        # EXPORT SVG
-        # ----------------------------------------------------------- #
-          SVGROOT=$EXPORTROOT/svg
-          if [ ! -f $SVGROOT ]; then mkdir -p $SVGROOT ; fi
-        # if [ $SRC -nt `ls -t $SVGROOT/*.svg | head -1` ]; then
-          if [ `find $SVGROOT -newer $SRC -name "*.svg" | \
-                wc -l` -lt 1 ]; then
-
-               $FONTCONVERT --svg $SRC
-               mv $SRCROOT/*.svg $SVGROOT
-          else
-               echo "$SVGROOT already up-to-date"
-          fi
-  
-        # EXPORT WOFF
-        # ----------------------------------------------------------- #
-          WOFFROOT=$EXPORTROOT/woff
-          if [ ! -f $WOFFROOT ]; then mkdir -p $WOFFROOT ; fi
-        # if [ $SRC -nt `ls -t $WOFFROOT/*.woff | head -1` ]; then
-          if [ `find $WOFFROOT -newer $SRC -name "*.woff" | \
-                wc -l` -lt 1 ]; then
-
-               $FONTCONVERT --woff $SRC
-               mv $SRCROOT/*.woff $WOFFROOT
-          else
-               echo "$WOFFROOT already up-to-date"
-          fi
+          BASENAME=`basename $SRC | \
+                    rev | cut -d "." -f 2- | rev`
    
-        # EXPORT EOT
-        # ----------------------------------------------------------- #
+        # EXPORT TTF,OTF,SVG,WOFF
+        # ----------------------------------------------------- #
 
-          if [ -f $FONTCONVERT ]; then
+        for THIS in ttf otf svg woff
+         do
+            THISROOT=$EXPORTROOT/$THIS
+            if [ ! -f $THISROOT ]; then mkdir -p $THISROOT ; fi
+            if [ $SRC -nt $THISROOT/${BASENAME}.$THIS  ]; then
+
+                 $FONTCONVERT --$THIS $SRC
+                 mv $SRCROOT/*.$THIS $THISROOT
+            else
+                 echo "${BASENAME}.$THIS already up-to-date"
+            fi
+        done
+
+        # EXPORT EOT
+        # ----------------------------------------------------- #
+
+          if [ -f $TTF2EOT ]; then
 
           EOTROOT=$EXPORTROOT/eot
           if [ ! -f $EOTROOT ]; then mkdir -p $EOTROOT ; fi
-        # if [ $SRC -nt `ls -t $EOTROOT/*.eot | head -1` ]; then
-          if [ `find $EOTROOT -newer $SRC -name "*.eot" | wc -l` -lt 1 ]; then
+          if [ $SRC -nt $EOTROOT/${BASENAME}.eot  ]; then
 
                $FONTCONVERT --eot $SRC
                mv $SRCROOT/*.eot $EOTROOT
            else
-               echo "$EOTROOT already up-to-date"
+               echo "${BASENAME}.eot already up-to-date"
            fi
 
           else
@@ -125,57 +77,92 @@
           fi
 
         # EXPORT UFO
-        # ----------------------------------------------------------- #
+        # ----------------------------------------------------- #
           UFOROOT=$EXPORTROOT/ufo
           if [ ! -f $UFOROOT ]; then mkdir -p $UFOROOT ; fi
-        # if [ $SRC -nt `ls -t $UFOROOT | head -1` ]; then
-          if [ `find $UFOROOT -newer $SRC -name "*.zip" | \
-                wc -l` -lt 1 ]; then
+
+          ZIPNAME=`echo $SRC | \
+                   rev | cut -d "/" -f 1 | rev | \
+                   cut -d "." -f 1`
+          if [ $SRC -nt $UFOROOT/${BASENAME}.ufo.zip  ]; then
 
                $FONTCONVERT --ufo $SRC
-               ZIPNAME=`echo $SRC | \
-                        rev | cut -d "/" -f 1 | rev | \
-                        cut -d "." -f 1`
                cd $SRCROOT
                zip -r ${ZIPNAME}.ufo.zip *.ufo 
                cd -
                mv $SRCROOT/${ZIPNAME}.ufo.zip $UFOROOT
                rm -r $SRCROOT/*.ufo
           else
-               echo "$UFOROOT already up-to-date"
+               echo "${ZIPNAME}.ufo.zip already up-to-date"
           fi
-
 
       done
 
 
 
 
-      else
-
-      echo "$FONTCONVERT missing -> Stopping!"
-
-      fi
-
-
+#   # MAKE TMPDIR; WILL BE DELETED AGAIN
+#   # ----------------------------------------------------------- #
+#     TMP=$TMPDIR/`echo $RANDOM | md5sum | cut -c 1-8`${RANDOM}X
+#     TMP=$TMPDIR/nodelete
+#     mkdir $TMP
 
 
-    # PREPARE FONT/STRUCTURE FOR USE WITH LATEX
-    # ----------------------------------------------------------- #
-    # CHECK CONFIGURATION 
-    # ----------------------------------------------------------- #
-      README=$FONTROOT/$READMENAME
+#   # PREPARE FONT/STRUCTURE FOR USE WITH LATEX
+#   # ----------------------------------------------------------- #
+
+#   # CHECK CONFIGURATION 
+#   # ----------------------------------------------------------- #
+#     README=$FONTROOT/$READMENAME
+
+#     KBS=`grep KARLBERRY $README | head -1 | cut -d ":" -f 2`
 
 
-      if [ -f $README ]; then
+#     mkdir $TMP/ps1src
 
-         sleep 0
+#     for CUT in `grep REGULAR      $README | head -1`:r \
+#                `grep ITALIC       $README | head -1`:ri \
+#                `grep BOLD         $README | head -1`:b \
+#                `grep BOLD-ITALIC  $README | head -1`:bi
+#      do
 
-      fi
+
+#      if [ `echo $CUT | cut -d ":" -f 2 | wc -c` -gt 1 ]; then
+
+#       CUTSRC=`echo $CUT | cut -d ":" -f 2`
+#       KBSCUT=`echo $CUT | cut -d ":" -f 3`
+
+#       SRC=`find $FONTROOT -name "$CUTSRC"`
+#       SRCROOT=`echo $SRC | rev | cut -d "/" -f 2- | rev`
+
+#       $FONTCONVERT --pstype1 $SRC
+#       mv $SRCROOT/*.pfb $TMP/ps1src/${KBS}${KBSCUT}8a.pfb
+#       mv $SRCROOT/*.afm $TMP/ps1src/${KBS}${KBSCUT}8a.afm
+
+#      fi
 
 
 
-      rm -r $TMP
+
+
+#     done
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#      rm -r $TMP
 
   done
 
