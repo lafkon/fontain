@@ -55,9 +55,9 @@ d = os.path.dirname(os.path.abspath(fontname)) + '/'
 filename = os.path.basename(fontname)
 basename, ext = os.path.splitext(filename)
 
-print d
-print filename
-print basename
+#print d
+#print filename
+#print basename
 
 woff_filename = d + basename + '.woff'
 otf_filename = d + basename + '.otf'
@@ -67,22 +67,22 @@ eot_filename = d + basename + '.eot'
 ufo_filename = d + basename + '.ufo'
 
 if options.woff:
-    print woff_filename
+#   print woff_filename
     font.generate(woff_filename)
 if options.otf:
-    print otf_filename
+#   print otf_filename
     font.generate(otf_filename)
 if options.ttf:
-    print ttf_filename
+#   print ttf_filename
     font.generate(ttf_filename)
 if options.svg:
-    print svg_filename
+#   print svg_filename
     font.generate(svg_filename)
 if options.ufo:
-    print ufo_filename
+#   print ufo_filename
     font.generate(ufo_filename)
 if options.eot:
-    print eot_filename
+#   print eot_filename
     if options.ttf:
         cmd = 'ttf2eot < %s > %s' % (ttf_filename, eot_filename)
         os.system(cmd)
