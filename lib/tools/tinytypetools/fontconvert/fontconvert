@@ -42,6 +42,12 @@ parser.add_option('-u', '--ufo',
                   default=False,
                   help='Save in UFO format (.ufo)'
                   )
+parser.add_option('--pstype1', 
+                  dest="ps1", 
+                  action="store_true",
+                  default=False,
+                  help='Save in UFO format (.pfb)'
+                  )
 options, remainder = parser.parse_args()
 
 if not len(remainder) == 1:
@@ -65,6 +71,7 @@ ttf_filename = d + basename + '.ttf'
 svg_filename = d + basename + '.svg'
 eot_filename = d + basename + '.eot'
 ufo_filename = d + basename + '.ufo'
+ps1_filename = d + basename + '.pfb'
 
 if options.woff:
 #   print woff_filename
@@ -81,6 +88,9 @@ if options.svg:
 if options.ufo:
 #   print ufo_filename
     font.generate(ufo_filename)
+if options.ps1:
+#   print ps1_filename
+    font.generate(ps1_filename)
 if options.eot:
 #   print eot_filename
     if options.ttf:
