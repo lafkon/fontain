@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>FONTFAMILY on fontain</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="../css/base.css">
+	<link rel="stylesheet" href="../css/skeleton.css">
+	<link rel="stylesheet" href="../css/layout.css">
+	<link rel="stylesheet" href="../css/rangeslider.css">	
+	<link rel="stylesheet" href="../css/fontain.css">
+	<link rel="stylesheet" href="webfont/webfont.css">	
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="../img/images/favicon.ico">
+	<link rel="apple-touch-icon" href="../img/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="../img/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="../img/images/apple-touch-icon-114x114.png">
+
+
+<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="http://code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
+<script type="text/javascript" src="../js/fontain.js"></script>
+<script src="../js/rangeslider.min.js"></script>
+
+<script>
+  var flowFontSelectR = 0;
+  var flowFontSelectL = 0;
+  var fontstyles = [[ "League Gothic", "normal"], [ "League Gothic", "italic"], [ "League Gothic Condensed", "normal"], [ "League Gothic Condensed", "italic"]]
+</script>
+
+</head>
+<body>
+
+
+
+	<!-- Primary Page Layout
+	================================================== -->
+
+	<!-- Delete everything in this .container and get started on your own site! -->
+
+
+	
+	<!-- The container is a centered 960px -->
+  <div class="header sixteen columns positiv">
+    FONTAIN ALDA
+  </div>	
+
+<div class="container">
+<button id="resetDemoText">Reset Text</button>
+
