@@ -1,0 +1,47 @@
+
+StartChar: hyphen
+Encoding: 45 45 116
+Width: 405
+Flags: W
+TtInstrs:
+SVTCA[y-axis]
+PUSHW_4
+ 9
+ 2
+ 0
+ 4
+CALL
+PUSHW_1
+ 0
+SRP0
+PUSHW_1
+ 3
+MDRP[rp0,grey]
+PUSHW_1
+ 9
+SRP0
+PUSHW_1
+ 6
+MDRP[rp0,grey]
+PUSHW_1
+ 6
+MDAP[rnd]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+367 333 m 1,0,1
+ 291 327 291 327 211.5 329 c 128,-1,2
+ 132 331 132 331 54 333 c 1,3,4
+ 39 362 39 362 42 392 c 128,-1,5
+ 45 422 45 422 52 452 c 1,6,7
+ 126 461 126 461 199.5 460 c 128,-1,8
+ 273 459 273 459 361 457 c 1,9,10
+ 368 437 368 437 372 423.5 c 128,-1,11
+ 376 410 376 410 376 397 c 128,-1,12
+ 376 384 376 384 373.5 369.5 c 128,-1,13
+ 371 355 371 355 367 333 c 1,0,1
+EndSplineSet
+EndChar

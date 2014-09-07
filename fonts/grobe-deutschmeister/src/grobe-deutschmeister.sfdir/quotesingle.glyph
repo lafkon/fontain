@@ -1,0 +1,56 @@
+
+StartChar: quotesingle
+Encoding: 39 39 180
+Width: 247
+Flags: W
+TtInstrs:
+PUSHW_4
+ 0
+ 3
+ 9
+ 4
+CALL
+NPUSHW
+ 7
+ 6
+ 0
+ 22
+ 0
+ 38
+ 0
+ 3
+DELTAP1
+PUSHW_1
+ 0
+SRP0
+PUSHW_1
+ 3
+MDRP[rp0,grey]
+PUSHW_1
+ 9
+SRP0
+PUSHW_1
+ 6
+MDRP[rp0,grey]
+PUSHW_1
+ 6
+MDAP[rnd]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+172 784 m 1,0,1
+ 176 733 176 733 174.5 680.5 c 128,-1,2
+ 173 628 173 628 172 575 c 1,3,4
+ 150 565 150 565 128 567 c 128,-1,5
+ 106 569 106 569 84 574 c 1,6,7
+ 77 624 77 624 77.5 672.5 c 128,-1,8
+ 78 721 78 721 80 780 c 1,9,10
+ 94 785 94 785 104 787.5 c 128,-1,11
+ 114 790 114 790 124 790 c 128,-1,12
+ 134 790 134 790 145 788.5 c 128,-1,13
+ 156 787 156 787 172 784 c 1,0,1
+EndSplineSet
+EndChar

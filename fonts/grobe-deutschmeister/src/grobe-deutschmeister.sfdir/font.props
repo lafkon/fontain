@@ -1,0 +1,510 @@
+SplineFontDB: 3.0
+FontName: GrobeDeutschmeister
+FullName: GrobeDeutschmeister
+FamilyName: Grobe Deutschmeister
+Weight: Black
+Copyright: Copyright (c) 2014 by Peter Wiegel, CAT-Fonts. All rights reserved.
+Version: 0.001
+ItalicAngle: 0
+UnderlinePosition: -50
+UnderlineWidth: 50
+Ascent: 800
+Descent: 200
+sfntRevision: 0x00000042
+LayerCount: 2
+Layer: 0 1 "Back"  1
+Layer: 1 1 "Fore"  0
+XUID: [1021 749 1382749337 3408157]
+FSType: 0
+OS2Version: 3
+OS2_WeightWidthSlopeOnly: 0
+OS2_UseTypoMetrics: 1
+CreationTime: 1407165683
+ModificationTime: 1407176139
+PfmFamily: 81
+TTFWeight: 900
+TTFWidth: 5
+LineGap: 29
+VLineGap: 0
+Panose: 0 0 0 0 0 0 0 0 0 0
+OS2TypoAscent: -9
+OS2TypoAOffset: 1
+OS2TypoDescent: 18
+OS2TypoDOffset: 1
+OS2TypoLinegap: 58
+OS2WinAscent: 0
+OS2WinAOffset: 1
+OS2WinDescent: 0
+OS2WinDOffset: 1
+HheadAscent: 0
+HheadAOffset: 1
+HheadDescent: 0
+HheadDOffset: 1
+OS2SubXSize: 700
+OS2SubYSize: 650
+OS2SubXOff: 0
+OS2SubYOff: 140
+OS2SupXSize: 700
+OS2SupYSize: 650
+OS2SupXOff: 0
+OS2SupYOff: 477
+OS2StrikeYSize: 50
+OS2StrikeYPos: 250
+OS2Vendor: 'pyrs'
+OS2CodePages: 00000001.00000000
+OS2UnicodeRanges: 80000027.5000000a.00000000.00000000
+DEI: 91125
+TtTable: prep
+PUSHW_1
+ 0
+CALL
+SVTCA[y-axis]
+PUSHW_3
+ 1
+ 2
+ 2
+CALL
+SVTCA[x-axis]
+PUSHW_3
+ 3
+ 1
+ 2
+CALL
+SVTCA[x-axis]
+PUSHW_8
+ 3
+ 37
+ 30
+ 27
+ 19
+ 12
+ 0
+ 8
+CALL
+SVTCA[y-axis]
+PUSHW_8
+ 1
+ 62
+ 51
+ 40
+ 29
+ 17
+ 0
+ 8
+CALL
+PUSHW_8
+ 2
+ 45
+ 37
+ 27
+ 19
+ 12
+ 0
+ 8
+CALL
+SVTCA[y-axis]
+PUSHW_3
+ 4
+ 4
+ 7
+CALL
+PUSHW_1
+ 0
+DUP
+RCVT
+RDTG
+ROUND[Black]
+RTG
+WCVTP
+EndTTInstrs
+TtTable: fpgm
+PUSHW_1
+ 0
+FDEF
+MPPEM
+PUSHW_1
+ 9
+LT
+IF
+PUSHB_2
+ 1
+ 1
+INSTCTRL
+EIF
+PUSHW_1
+ 511
+SCANCTRL
+PUSHW_1
+ 68
+SCVTCI
+PUSHW_2
+ 9
+ 3
+SDS
+SDB
+ENDF
+PUSHW_1
+ 1
+FDEF
+DUP
+DUP
+RCVT
+ROUND[Black]
+WCVTP
+PUSHB_1
+ 1
+ADD
+ENDF
+PUSHW_1
+ 2
+FDEF
+PUSHW_1
+ 1
+LOOPCALL
+POP
+ENDF
+PUSHW_1
+ 3
+FDEF
+DUP
+GC[cur]
+PUSHB_1
+ 3
+CINDEX
+GC[cur]
+GT
+IF
+SWAP
+EIF
+DUP
+ROLL
+DUP
+ROLL
+MD[grid]
+ABS
+ROLL
+DUP
+GC[cur]
+DUP
+ROUND[Grey]
+SUB
+ABS
+PUSHB_1
+ 4
+CINDEX
+GC[cur]
+DUP
+ROUND[Grey]
+SUB
+ABS
+GT
+IF
+SWAP
+NEG
+ROLL
+EIF
+MDAP[rnd]
+DUP
+PUSHB_1
+ 0
+GTEQ
+IF
+ROUND[Black]
+DUP
+PUSHB_1
+ 0
+EQ
+IF
+POP
+PUSHB_1
+ 64
+EIF
+ELSE
+ROUND[Black]
+DUP
+PUSHB_1
+ 0
+EQ
+IF
+POP
+PUSHB_1
+ 64
+NEG
+EIF
+EIF
+MSIRP[no-rp0]
+ENDF
+PUSHW_1
+ 4
+FDEF
+DUP
+GC[cur]
+PUSHB_1
+ 4
+CINDEX
+GC[cur]
+GT
+IF
+SWAP
+ROLL
+EIF
+DUP
+GC[cur]
+DUP
+ROUND[White]
+SUB
+ABS
+PUSHB_1
+ 4
+CINDEX
+GC[cur]
+DUP
+ROUND[White]
+SUB
+ABS
+GT
+IF
+SWAP
+ROLL
+EIF
+MDAP[rnd]
+MIRP[rp0,min,rnd,black]
+ENDF
+PUSHW_1
+ 5
+FDEF
+MPPEM
+DUP
+PUSHB_1
+ 3
+MINDEX
+LT
+IF
+LTEQ
+IF
+PUSHB_1
+ 128
+WCVTP
+ELSE
+PUSHB_1
+ 64
+WCVTP
+EIF
+ELSE
+POP
+POP
+DUP
+RCVT
+PUSHB_1
+ 192
+LT
+IF
+PUSHB_1
+ 192
+WCVTP
+ELSE
+POP
+EIF
+EIF
+ENDF
+PUSHW_1
+ 6
+FDEF
+DUP
+DUP
+RCVT
+ROUND[Black]
+WCVTP
+PUSHB_1
+ 1
+ADD
+DUP
+DUP
+RCVT
+RDTG
+ROUND[Black]
+RTG
+WCVTP
+PUSHB_1
+ 1
+ADD
+ENDF
+PUSHW_1
+ 7
+FDEF
+PUSHW_1
+ 6
+LOOPCALL
+ENDF
+PUSHW_1
+ 8
+FDEF
+MPPEM
+DUP
+PUSHB_1
+ 3
+MINDEX
+GTEQ
+IF
+PUSHB_1
+ 64
+ELSE
+PUSHB_1
+ 0
+EIF
+ROLL
+ROLL
+DUP
+PUSHB_1
+ 3
+MINDEX
+GTEQ
+IF
+SWAP
+POP
+PUSHB_1
+ 128
+ROLL
+ROLL
+ELSE
+ROLL
+SWAP
+EIF
+DUP
+PUSHB_1
+ 3
+MINDEX
+GTEQ
+IF
+SWAP
+POP
+PUSHW_1
+ 192
+ROLL
+ROLL
+ELSE
+ROLL
+SWAP
+EIF
+DUP
+PUSHB_1
+ 3
+MINDEX
+GTEQ
+IF
+SWAP
+POP
+PUSHW_1
+ 256
+ROLL
+ROLL
+ELSE
+ROLL
+SWAP
+EIF
+DUP
+PUSHB_1
+ 3
+MINDEX
+GTEQ
+IF
+SWAP
+POP
+PUSHW_1
+ 320
+ROLL
+ROLL
+ELSE
+ROLL
+SWAP
+EIF
+DUP
+PUSHW_1
+ 3
+MINDEX
+GTEQ
+IF
+PUSHB_1
+ 3
+CINDEX
+RCVT
+PUSHW_1
+ 384
+LT
+IF
+SWAP
+POP
+PUSHW_1
+ 384
+SWAP
+POP
+ELSE
+PUSHB_1
+ 3
+CINDEX
+RCVT
+SWAP
+POP
+SWAP
+POP
+EIF
+ELSE
+POP
+EIF
+WCVTP
+ENDF
+PUSHW_1
+ 9
+FDEF
+MPPEM
+GTEQ
+IF
+RCVT
+WCVTP
+ELSE
+POP
+POP
+EIF
+ENDF
+EndTTInstrs
+ShortTable: cvt  12
+  20
+  89
+  124
+  150
+  0
+  10
+  -182
+  0
+  626
+  0
+  806
+  0
+EndShort
+ShortTable: maxp 16
+  1
+  0
+  218
+  141
+  5
+  205
+  4
+  1
+  0
+  0
+  10
+  0
+  512
+  489
+  3
+  1
+EndShort
+LangName: 1033 "" "" "Regular" "PeterWiegel,CAT-Fonts: Grobe Deutschmeister: 2014" "" "Version 0.001" "" "Grobe Deutschmeister is a trademark of Peter Wiegel, CAT-Fonts." "Peter Wiegel, CAT-Fonts" "Peter Wiegel" "Copyright (c) 2014 by Peter Wiegel, CAT-Fonts. All rights reserved." "" "" "" "" "" "Grobe Deutschmeister" "Regular" "Grobe Deutschmeister" 
+Encoding: UnicodeBmp
+UnicodeInterp: none
+NameList: Adobe Glyph List
+DisplaySize: -24
+AntiAlias: 1
+FitToEm: 1
+WinInfo: 54 18 9
+EndSplineFont
