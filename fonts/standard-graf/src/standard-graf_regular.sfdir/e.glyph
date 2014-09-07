@@ -1,0 +1,117 @@
+
+StartChar: e
+Encoding: 101 101 70
+Width: 999
+Flags: W
+TtInstrs:
+PUSHW_1
+ 48
+MDAP[rnd]
+PUSHW_1
+ 43
+MDAP[rnd]
+PUSHW_1
+ 48
+SRP0
+PUSHW_1
+ 19
+MDRP[rp0,grey]
+PUSHW_1
+ 19
+MDAP[rnd]
+PUSHW_2
+ 0
+ 4
+MIRP[rp0,rnd,grey]
+PUSHW_1
+ 43
+SRP0
+PUSHW_2
+ 38
+ 4
+MIRP[rp0,rnd,grey]
+PUSHW_1
+ 0
+SRP0
+PUSHW_1
+ 46
+MDRP[rp0,grey]
+PUSHW_1
+ 38
+SRP0
+PUSHW_1
+ 49
+MDRP[rp0,min,rnd,grey]
+SVTCA[y-axis]
+PUSHW_1
+ 30
+MDAP[rnd]
+PUSHW_1
+ 0
+RCVT
+IF
+PUSHW_1
+ 10
+MDAP[rnd]
+ELSE
+PUSHW_2
+ 10
+ 5
+MIAP[no-rnd]
+EIF
+PUSHW_3
+ 47
+ 10
+ 30
+SRP1
+SRP2
+IP
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+288 307 m 1,0,-1
+ 760 197 l 2,1,2
+ 806 186 806 186 806 137 c 0,3,4
+ 806 110 806 110 784 93 c 0,5,6
+ 774 85 774 85 758.5 70 c 128,-1,7
+ 743 55 743 55 725 40 c 128,-1,8
+ 707 25 707 25 688 13.5 c 128,-1,9
+ 669 2 669 2 654 2 c 0,10,11
+ 646 2 646 2 609.5 11 c 128,-1,12
+ 573 20 573 20 521.5 33.5 c 128,-1,13
+ 470 47 470 47 410 64 c 128,-1,14
+ 350 81 350 81 296 96 c 128,-1,15
+ 242 111 242 111 200.5 122.5 c 128,-1,16
+ 159 134 159 134 145 138 c 0,17,18
+ 100 150 100 150 100 196 c 2,19,-1
+ 100 909 l 2,20,21
+ 100 924 100 924 107.5 938.5 c 128,-1,22
+ 115 953 115 953 129 961 c 0,23,24
+ 142 968 142 968 176 989 c 128,-1,25
+ 210 1010 210 1010 254.5 1037 c 128,-1,26
+ 299 1064 299 1064 348.5 1093.5 c 128,-1,27
+ 398 1123 398 1123 441 1147.5 c 128,-1,28
+ 484 1172 484 1172 516 1188 c 128,-1,29
+ 548 1204 548 1204 557 1204 c 0,30,31
+ 569 1204 569 1204 579.5 1198.5 c 128,-1,32
+ 590 1193 590 1193 598 1185 c 1,33,-1
+ 598 1186 l 1,34,-1
+ 880 924 l 2,35,36
+ 899 905 899 905 899 877 c 2,37,-1
+ 899 692 l 2,38,39
+ 899 668 899 668 889 657.5 c 128,-1,40
+ 879 647 879 647 860 636 c 2,41,-1
+ 288 316 l 1,42,-1
+ 288 307 l 1,0,-1
+680 682 m 1,43,-1
+ 680 830 l 1,44,-1
+ 468 1033 l 1,45,-1
+ 288 937 l 1,46,-1
+ 288 456 l 1,47,-1
+ 680 682 l 1,43,-1
+EndSplineSet
+Kerns2: 85 -119 "'kern' Horizontal Kerning lookup 0 subtable"  58 -68 "'kern' Horizontal Kerning lookup 0 subtable"  53 -188 "'kern' Horizontal Kerning lookup 0 subtable"  47 -102 "'kern' Horizontal Kerning lookup 0 subtable" 
+EndChar
