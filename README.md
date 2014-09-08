@@ -13,7 +13,7 @@ and create an interface to browse the collection online.
 - `.ttf       ` = [TrueType](http://en.wikipedia.org/wiki/TrueType)
 - `.ufo.zip   ` = [Unified Font Object](http://unifiedfontobject.org/)
 - `.texmf.zip ` = files prepared to use with your [TeX](http://en.wikipedia.org/wiki/TeX) distribution
-**@font-face**    
+- **@font-face**    
 - `.eot  `      = [Embedded OpenType](http://en.wikipedia.org/wiki/Embedded_OpenType)
 - `.woff `      = [Web Open Font Format](http://en.wikipedia.org/wiki/Web_Open_Font_Format)
 - `.svg  `      = [Scalable Vector Graphics](http://en.wikipedia.org/wiki/Web_typography#Scalable_Vector_Graphics)
