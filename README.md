@@ -14,7 +14,7 @@ popular font formats:
 - `.ufo.zip   = `[Unified Font Object](http://unifiedfontobject.org/)
 - `.texmf.zip = `files prepared to use with your [TeX](http://en.wikipedia.org/wiki/TeX) distribution
 
-## @font-face
+### @font-face
 
 - `.eot  =` 
 - `.woff =`
@@ -26,13 +26,13 @@ fontain uses [fontconvert](https://gitorious.org/manufacturaindhacks/tinytypetoo
 
 
 
-# Required Software
+## Required Software
 
-## `mk_fonts.sh`
+### `mk_fonts.sh`
 
 
 
-## `mk_ui,sh`
+### `mk_ui,sh`
 
 
 
