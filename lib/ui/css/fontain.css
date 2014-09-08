@@ -17,7 +17,6 @@ body {
 
 .excluded {
     display: none;
-/*     visibility: hidden; */
 }
 
 input.fontdemo {
@@ -102,7 +101,7 @@ a.accordion-section-title {
 
 /*.accordion-section-title.active,*/ .accordion-section-title:hover {
 /*     background:transparent; */
-    text-decoration:none;
+/*     text-decoration:none; */
     background: rgba(10,10,10,0.2);
      color:#fff;
      text-decoration: underline;
@@ -124,7 +123,9 @@ a.accordion-section-title {
 /*     margin-top: -50px; */
 }
 
-
+a.fontdemo-showmore {
+  font-size: 10px;
+}
 
 
 hr.hrfontdemo {
