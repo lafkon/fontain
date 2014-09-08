@@ -2,19 +2,23 @@
 /* FONTDEMO
 ================================================== */
 
-html {
-  overflow: -moz-scrollbars-vertical;
-  overflow-y: scroll;
-}
-
-
 body {
   background: #eee;
-  color: #000;
-  overflow-x: hidden;
+  color: #fff;
+    overflow-x: hidden;
+
+}
+
+.jsonly {
+    display: none;
+    visibility: hidden;
 }
 
 
+.excluded {
+    display: none;
+/*     visibility: hidden; */
+}
 
 input.fontdemo {
   height:auto;
@@ -26,7 +30,7 @@ input.fontdemo {
   white-space: nowrap;
   text-align: left;
   padding: 0px 0px 0px 0px;
-  margin-top: -60px;
+				      /*   margin-top: -60px; */
   z-index: -1000;
   cursor: text;
 }
@@ -95,6 +99,34 @@ a.accordion-section-title {
     height: 24px;
 }
 
+
+/*.accordion-section-title.active,*/ .accordion-section-title:hover {
+/*     background:transparent; */
+    text-decoration:none;
+    background: rgba(10,10,10,0.2);
+     color:#fff;
+     text-decoration: underline;
+}
+ 
+
+ 
+/*----- Section Content -----*/
+.accordion-section-content {
+
+    overflow: hidden;
+    border-right:1px solid #111;
+				      /*     margin-top: -24px; */
+				      /*     height: 24px;   */
+	 
+/*     padding-top: -200px; */
+/*     padding-bottom: -280px; */
+/*     margin-bottom: -60px; */
+/*     margin-top: -50px; */
+}
+
+
+
+
 hr.hrfontdemo {
     width: 200%;
     border:solid #111;
@@ -113,31 +145,6 @@ hr.hrsection {
     height: 0px;
     clear: both;   
     margin-left:-50%;
-}
-
-
-/*.accordion-section-title.active,*/ .accordion-section-title:hover {
-/*     background:transparent; */
-    text-decoration:none;
-    background: rgba(10,10,10,0.2);
-     color:#fff;
-     text-decoration: underline;
-}
- 
-
- 
-/*----- Section Content -----*/
-.accordion-section-content {
-
-    overflow: hidden;
-    border-right:1px solid #111;
-    margin-top: -24px;
-    height: 24px;  
-	 
-/*     padding-top: -200px; */
-/*     padding-bottom: -280px; */
-/*     margin-bottom: -60px; */
-/*     margin-top: -50px; */
 }
 
 
@@ -203,7 +210,7 @@ span.divlink {
 
 
 .header {
-    height: 40px;
+    height: 90px;
     margin: 0px 0px 40px 0px;
     padding: 10px 0px 10px 0px;
 }
