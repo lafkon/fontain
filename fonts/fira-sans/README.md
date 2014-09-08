@@ -1,28 +1,19 @@
 
 
-AUTHOR
-======
-Erik Spiekermann, Ralph du Carrois, 
-Anja Meiners, Botio Nikoltchev 
+AUTHORS
+=======
+[Erik Spiekermann](http://www.edenspiekermann.com/),    
+[Ralph du Carrois](http://www.carrois.com/), 
+[Anja Meiners](http://www.carrois.com/), [Botio Nikoltchev](http://lettersoup.de/) 
 (Carrois Type Design)
 
 LICENSE
 =======
-SIL Open Font License (OFL)
+[SIL Open Font License (OFL)](http://scripts.sil.org/OFL)
 
 
-UI CONFIGURATION
-================
-
-ELEMENT ORDER
--------------
-- AUTHOR
-- AKKORDEON
-- SPECIMEN
-- LICENSE
-
-STYLE ORDER
------------
+FONT STYLES
+===========
 - fira-sans_regular
 - fira-sans_italic
 - fira-sans_medium
@@ -55,13 +46,20 @@ STYLE ORDER
 - fira-sans_light-italic
 
 
+UI CONFIGURATION
+================
+
+AUTHOR    
+AKKORDEON    
+SPECIMEN    
+LICENSE    
+
 TEX CONFIGURATION
 =================
-
-KARLBERRYNAME:cfi
-FOUNDRY:carrois
-TEXSRCREGULAR:fira-sans_regular
-TEXSRCITALIC:fira-sans_italic
-TEXSRCBOLD:fira-sans_bold
-TEXSRCBOLD-ITALIC:fira-sans_bold-italic
+KARLBERRYNAME:cfi    
+FOUNDRY:carrois    
+TEXSRCREGULAR:fira-sans_regular    
+TEXSRCITALIC:fira-sans_italic    
+TEXSRCBOLD:fira-sans_bold    
+TEXSRCBOLD-ITALIC:fira-sans_bold-italic    
 
