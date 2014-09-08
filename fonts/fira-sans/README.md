@@ -28,22 +28,6 @@ FONT STYLES
 - fira-sans_heavy-italic
 - fira-sans_ultra
 - fira-sans_ultra-italic
-- fira-sans_two
-- fira-sans_two-italic
-- fira-sans_four
-- fira-sans_four-italic
-- fira-sans_eight
-- fira-sans_eight-italic
-- fira-sans_hair
-- fira-sans_hair-italic
-- fira-sans_thin
-- fira-sans_thin-italic
-- fira-sans_extralight
-- fira-sans_extralight-italic
-- fira-sans_ultralight
-- fira-sans_ultralight-italic
-- fira-sans_light
-- fira-sans_light-italic
 
 
 UI CONFIGURATION
