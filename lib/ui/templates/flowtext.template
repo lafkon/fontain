@@ -1,0 +1,38 @@
+
+  
+<script>
+  var flowFontSelectR = 0;
+  var flowFontSelectL = 0;
+  var fontstyles = [ "League Gothic", "League Gothic Italic",  "League Gothic Condensed", "League Gothic Condensed Italic"];
+</script>
+
+
+<div class="fifteen columns jsonly">
+  <input class="flowtext-fontsize" id="flowtextFontsizeSlider" type="range"  min="4" max="26" value="12"/>
+</div>
+<div class="one column jsonly">
+  <label class="sliderLabel positiv" id="flowtextFontsizeSlider" for="flowtextFontsizeSlider">-- px</label>
+</div>
+
+
+<div class="eight columns" id="flowFontSelectL" style='font-family: "STYLENAMEWWW";'>
+  <button class="flowfontvariant jsonly" id="prev" href=""><</button>
+  <button class="flowfontvariant jsonly" id="next" href="">></button>
+  <button class="flowfontvariant" id="label">STYLENAME</button>
+  <br />
+  <div class="flowtext negativ" >
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </div>
+</div>
+<div class="eight columns" id="flowFontSelectR" style='font-family: "STYLENAMEWWW";'>
+  <button class="flowfontvariant jsonly" id="prev" href=""><</button>
+  <button class="flowfontvariant jsonly " id="next" href="">></button>
+  <button class="flowfontvariant" id="label">STYLENAME</button>
+  <br />
+  <div class="flowtext positiv" >
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </div>
+</div>
+
+<br class='clear'>
+<hr class="hrsection" />
