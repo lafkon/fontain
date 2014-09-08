@@ -12,12 +12,11 @@ and create an interface to browse the collection online.
 - `.otf       ` = [OpenType](http://en.wikipedia.org/wiki/OpenType)
 - `.ttf       ` = [TrueType](http://en.wikipedia.org/wiki/TrueType)
 - `.ufo.zip   ` = [Unified Font Object](http://unifiedfontobject.org/)
-- `.texmf.zip ` = files prepared to use with your [TeX](http://en.wikipedia.org/wiki/TeX) distribution
-- **@font-face**    
 - `.eot  `      = [Embedded OpenType](http://en.wikipedia.org/wiki/Embedded_OpenType)
 - `.woff `      = [Web Open Font Format](http://en.wikipedia.org/wiki/Web_Open_Font_Format)
 - `.svg  `      = [Scalable Vector Graphics](http://en.wikipedia.org/wiki/Web_typography#Scalable_Vector_Graphics)
 - `.css  `      = [Cascading Style Sheets](http://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+- `.texmf.zip ` = files prepared to use with your [TeX](http://en.wikipedia.org/wiki/TeX) distribution
 
 fontain has been developed and tested on [Debian, the universal operating system](https://www.debian.org/)
 and [Ubuntu](http://www.ubuntu.com/).
@@ -58,7 +57,7 @@ The browser **ui** uses
 `grep  2.12-2`    
  GNU grep, egrep and fgrep    
 
-`fontconvert`([lib/tools/tinytypetools/fontconvert](tree/master/lib/tools/tinytypetools/fontconvert))    
+`fontconvert`([lib/tools/tinytypetools/fontconvert](lib/tools/tinytypetools/fontconvert))    
  A script to convert any font to a set of different formats.    
  Requires Fontforge and ttf2eot.
 
@@ -92,7 +91,7 @@ The browser **ui** uses
 `tex (Web2C 2012 1 March 2011)`    
  text formatting and typesetting    
 
-`ttf2eot`([lib/tools/ttf2eot](tree/master/lib/tools/ttf2eot))    
+`ttf2eot`([lib/tools/ttf2eot](lib/tools/ttf2eot))    
  commandline wrapper around OpenTypeUtilities.cpp from Chromium
 
 `vptovf (Web2C 2012 16 December 1994)`    
