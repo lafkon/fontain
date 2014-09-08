@@ -22,7 +22,7 @@
 
 # COPY STATIC STUFF 
 # ----------------------------------------------------------------- #
-  cp -r `ls -d lib/ui/* | egrep -v "parts"` $WWWDIR
+  cp -r `ls -d lib/ui/* | egrep -v "templates"` $WWWDIR
 
 
 # --------------------------------------------------------------------------- #
@@ -31,17 +31,18 @@
 
   function AKKORDEON(){
 
-
     if [ -f $README ]; then
-    FONTSTYLES=`sed '/^\s*$/d' $README |     # REMOVE EMPTY LINES
+    FONTSTYLES=`sed '/^\s*$/d' $README    |  # REMOVE EMPTY LINES
+                sed 's/^ .*/XX&/'         |  # REPLACE LEADING BLANK WITH XX
+                sed 's/ //g'              |  # REMOVE SPACES (WORKAROUND!!!!)
                 sed -e :a \
                 -e '$!N;s/\n=====/=====/;ta' \
-                -e 'P;D' |                   # APPEND LINES WITH =====
-                sed '/=====$/{x;p;x;}' |     # INSERT EMPTY LINE ABOVE
+                -e 'P;D'                  |  # APPEND LINES WITH =====
+                sed '/=====$/{x;p;x;}'    |  # INSERT EMPTY LINE ABOVE
                 sed -e '/./{H;$!d;}' \
-                -e 'x;/FONT STYLES/!d;' |    # SELECT PARAGRAPH CONTAINING FONT S...
-                sed 's/^-//g' |              # REMOVE LEADING -
-                grep -v "FONT STYLES"`       # RM LINE CONTAINING FONT S...
+                -e 'x;/FONTSTYLES/!d;'   |  # SELECT PARAGRAPH CONTAINING FONT S...
+                sed 's/^-//g'             |  # REMOVE LEADING -
+                grep -v "FONTSTYLES"`       # RM LINE CONTAINING FONT S...
     else
   
     FONTSTYLES=`find $FONTFAMILY/src -name "*.sfdir" | \
@@ -57,25 +58,20 @@
     fi
 
 
-   DISPLAY=`echo $FONTSTYLES | sed 's/ /XbdZ53cft/g'`
-   EXCLUDE=`echo $DISPLAY | sed 's/XbdZ53cft/|/g'`
-   REST=`find $FONTFAMILY/src -name "*.sfdir" | \
-         egrep -v "$EXCLUDE" | \
-         rev | cut -d "/" -f 1 | rev | \
-         sed 's/.sfdir//g' | \
-         sed 's/ /XbdZ53cft/g'`
-   HIDE=""
+    COUNT=100 ; EXCLUDECOUNT=0
+    for FONTSTYLESRC in $FONTSTYLES
+     do
 
+        if [ `echo $FONTSTYLESRC | grep "^XX" | wc -c` -gt 2 ]; then
+              HIDE="excluded"
+              EXCLUDECOUNT=`expr $EXCLUDECOUNT + 1`
+        else
+              HIDE=""
+        fi
 
-
-   COUNT=100
-   for SELECTION in $DISPLAY $REST
-    do
-
-      FONTSTYLES=`echo $SELECTION | sed 's/XbdZ53cft/ /g'`
-
-      for FONTSTYLESRC in $FONTSTYLES
-       do
+        FONTSTYLESRC=`echo $FONTSTYLESRC | \
+                      sed 's/^XX//g' | \
+                      sed 's/.sfdir//g'`
 
         if [ `find $FONTFAMILY/src -name "$FONTSTYLESRC.sfdir" | wc -c` \
              -gt 1 ]; then
@@ -90,7 +86,7 @@
 
         FONTSTYLESRCNAME=`basename $FONTSTYLESRC | sed "s/.sfdir//g"`
 
-          echo $STYLENAME
+        # echo $STYLENAME
         # echo $STYLENAMEWWW
         # echo $FONTSTYLESRCNAME
         # echo
@@ -116,15 +112,15 @@
         sed "s/SVGFILE/$SVGFILE/g" | \
         sed "s/TTFFILE/$TTFFILE/g" | \
         sed "s/WOFFFILE/$WOFFFILE/g" | \
-        sed "s/FONTFAMILY/$STYLENAMEWWW/g" >> $CSS
-        echo                               >> $CSS
+        sed "s/FONTFAMILY/$STYLENAMEWWW/g"                          >> $CSS
+        echo                                                        >> $CSS
 
         cat $TMPLT_AKKORDION | \
         sed "s/accordion-section positiv/& $HIDE/g" | \
         sed "s/STYLENAMEWWW/$STYLENAMEWWW/g" | \
         sed "s/STYLENAME/$STYLENAME/g" | \
         sed "s/-COUNT/-$COUNT/g" | \
-        sed "s/FAMILYNAME/$FAMILYNAME/g"   >> $INDEX
+        sed "s/FAMILYNAME/$FAMILYNAME/g"                            >> $INDEX
 
         COUNT=`expr $COUNT + 1`
 
@@ -132,19 +128,15 @@
 
        done
 
-       HIDE="excluded"
-
-    done
-
-    
+    if [ $EXCLUDECOUNT -gt 0 ]; then
     echo "<a class="fontdemo-showmore jsonly" \
-           href="">and 12 more.</a>" | tr -s ' '       >> $INDEX
-
+           href="">and $EXCLUDECOUNT more.</a>" | tr -s ' '         >> $INDEX
+    fi
 
 
    # ----------------------------------------------------------- #
-     echo '</div>'                                     >> $INDEX
-     cat $TMPLT_AKKRDNSLIDER                           >> $INDEX
+     echo '</div>'                                                  >> $INDEX
+     cat $TMPLT_AKKRDNSLIDER                                        >> $INDEX
    # ----------------------------------------------------------- #
 
 
