@@ -36,9 +36,9 @@ The browser **ui** uses
 
 
 
-### Required Software
+## Required Software
 
-####`mk_fonts.sh`
+### mk_fonts.sh
 
 `basename (GNU coreutils) 8.13`    
  strip directory and suffix from filenames    
@@ -107,7 +107,7 @@ The browser **ui** uses
 
 
 
-####`mk_ui.sh`
+### mk_ui.sh
 
 
 `awk (Free Software Foundation Nov 10 2011 GAWK(1))`    
