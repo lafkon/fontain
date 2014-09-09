@@ -13,15 +13,15 @@ LICENSE
 
 FONT STYLES
 ===========
-sean_ultralight
-     sean_light
-sean_book
-sean_normal
-sean_medium
-sean_semibold
-sean_bold
-sean_extrabold
-sean_ultrabold
+sean_ultralight    
+     sean_light    
+sean_book    
+sean_normal    
+sean_medium    
+sean_semibold    
+sean_bold    
+sean_extrabold    
+sean_ultrabold    
 
 
 UI CONFIGURATION
