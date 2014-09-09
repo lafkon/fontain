@@ -105,9 +105,11 @@ a.accordion-section-title {
 /*.accordion-section-title.active,*/ .accordion-section-title:hover {
 /*     background:transparent; */
 /*     text-decoration:none; */
+    height: inherit;
     background: rgba(10,10,10,0.2);
      color:#fff;
      text-decoration: underline;
+     margin: 0px 0px 0px 0px;
 }
  
 
@@ -125,6 +127,18 @@ a.accordion-section-title {
 /*     margin-bottom: -60px; */
 /*     margin-top: -50px; */
 }
+
+
+span.divlink {
+  height: 24px;
+/*   display: inline; */
+  background: #111;
+  padding: 6px 10px 6px 10px;
+  margin: -1px 0px 8px 0px;
+  border-bottom:1px solid #aaa;
+
+}
+
 
 a.fontdemo-showmore {
   font-size: 10px;
@@ -153,16 +167,16 @@ hr.hrsection {
 
 
 
-span.divlink {
+
+
+/*span.divlink {
 
   display: inline;
   background: #111;
-/*   background: rgba(10,255,255,1); */
   padding: 5px 10px 7px 10px;
-  /*margin*/: 0px 0px 1px 0px;
+  margin: 0px 0px 1px 0px;
   border-bottom:1px solid #eee;
-
-}
+}*/
 
 
 .button, button {
@@ -237,23 +251,16 @@ span.divlink {
 }
 
 
-.section-title {
-/*    padding:1px;
-    padding-left:10px;*/
+/*.section-title {
     display:inline;
     font-size:10px;
-/*    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;*/
-
 }
 a.section-title {
      width: auto;
      height: 24px;
      color:#eee;
      text-decoration: none;
-/*    margin: 0px 0px 0px 0px;
-    padding: 1px 0px 0px 0px;*/
-}
+}*/
 
 button.flowfontvariant {
   color: #eee;
