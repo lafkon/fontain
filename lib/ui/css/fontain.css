@@ -191,14 +191,16 @@ hr.hrsection {
 
 
 #resetDemoText {
-  float: /*right*/;
   position: absolute;
-  top: 160px;
-  right:-24px;
+  float: right;
+  top: 40px;
+  right: -4px;
   z-index: 2000;
   display: none;
-  margin: 5px;
-  padding: 5px;
+  padding: 4px 8px 5px 8px;
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  border-radius: 12px;  
   
 }
 
