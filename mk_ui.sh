@@ -2,7 +2,7 @@
 
 # PATH TO FONT DIRECTORY (TOP LEVEL)
 # ----------------------------------------------------------------- #
-  FONTS=`ls -d -1 fonts/* | grep pt`
+  FONTS=`ls -d -1 fonts/*`
 
   WWWDIR=~/tmp/fontain
 
