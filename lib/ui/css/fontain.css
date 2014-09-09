@@ -1,6 +1,26 @@
 
 /* FONTDEMO
 ================================================== */
+
+.positiv {
+  background: #eee;
+  color: #111;
+/*  background: #086142;
+  color: #F5CB42;*/
+}
+.negativ {
+  background: #111;
+  color: #eee;
+/*  background: #F5CB42;
+  color: #086142;*/
+}
+
+
+
+a, font, h1,h2,h3,h4,h5 {
+/*     color: #f00;  */
+}
+
 html {
    overflow: -moz-scrollbars-vertical;
    overflow-y: scroll;
@@ -90,7 +110,7 @@ input.fontdemo::-webkit-selection { color: #eee; background: #ee1155; }
 a.accordion-section-title {
     width: 100%;
     height: 24px;
-    color:#eee;
+/*     color:#eee; */
     text-decoration: none;
     margin: 0px 0px 0px 0px;
     padding: 1px 0px 0px 0px;
@@ -121,7 +141,7 @@ a.accordion-section-title {
 .accordion-section-content {
 
     overflow: hidden;
-    border-right:1px solid #111;
+    border-right:1px solid;
 				      /*     margin-top: -24px; */
 				      /*     height: 24px;   */
 	 
@@ -135,7 +155,7 @@ a.accordion-section-title {
 span.divlink {
   height: 24px;
 /*   display: inline; */
-  background: #111;
+/*   background: #111; */
   padding: 6px 10px 6px 10px;
   margin: -1px 0px 8px 0px;
   border-bottom:1px solid #aaa;
@@ -150,7 +170,7 @@ a.fontdemo-showmore {
 
 hr.hrfontdemo {
     width: 200%;
-    border:solid #111;
+    border:solid;
     border-width: 1px 0 0; 
     margin: 0px;
     height: 0px;
@@ -160,7 +180,7 @@ hr.hrfontdemo {
 
 hr.hrsection {
     width: 200%;
-    border:solid #aaa;
+    border:solid;
     border-width: 1px 0 0; 
     margin: 40px 0px 40px 0px;
     height: 0px;
@@ -183,7 +203,8 @@ hr.hrsection {
 
 
 .button, button {
-  background: #eee;
+/*  background: #eee;
+  color: #eee;*/
   margin-bottom: -10px;
   
 }
@@ -215,16 +236,9 @@ hr.hrsection {
 }
 
 
-.positiv {
-  background: #eee;
-  color: #111;
-}
-.negativ {
-  background: #111;
-  color: #eee;
-}
+
 .flowtext {
-  border: 1px solid #111;
+  border: 1px solid;
   font-size: 12px;
   line-height: 1.5em;
   margin: 0px 0px 10px 0px;
@@ -270,8 +284,8 @@ a.section-title {
 }*/
 
 button.flowfontvariant {
-  color: #eee;
-    background: #111;
+/*  color: #eee;
+    background: #111;*/
     font-size:9px;
     font-weight: normal;
     -moz-border-radius: 0px;
