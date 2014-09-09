@@ -21,12 +21,18 @@ body {
 .excluded {
     display: none;
 }
+.excluded span.divlink{
+    border-left:3px solid #00BFFF;
+    margin-left: -3px;
+/*     background:  #00BFFF; */
+}
+
 
 input.fontdemo {
   height:auto;
   width: 100%;
   background: transparent;  
-  color: #111;  
+  color: inherit;  
   border: none;
   font-size: 120px;
   white-space: nowrap;
@@ -136,12 +142,12 @@ span.divlink {
   padding: 6px 10px 6px 10px;
   margin: -1px 0px 8px 0px;
   border-bottom:1px solid #aaa;
-
 }
 
 
 a.fontdemo-showmore {
   font-size: 10px;
+  margin-left: 10px;
 }
 
 
