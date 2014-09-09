@@ -3,7 +3,7 @@ Sean is the first typeface family being produced with Metapolator
 
 AUTHOR
 ======
-[Simon Egli](http://www.simonegli.com/),
+[Simon Egli](http://www.simonegli.com/)
 
 
 LICENSE
@@ -14,7 +14,7 @@ LICENSE
 FONT STYLES
 ===========
 sean_ultralight
-sean_light
+     sean_light
 sean_book
 sean_normal
 sean_medium
