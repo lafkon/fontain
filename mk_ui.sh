@@ -2,7 +2,7 @@
 
 # PATH TO FONT DIRECTORY (TOP LEVEL)
 # ----------------------------------------------------------------- #
-  FONTS=`ls -d -1 fonts/* | grep basic`
+  FONTS=`ls -d -1 fonts/* | grep -v fira`
 
   WWWDIR=~/tmp/fontain
 
@@ -29,6 +29,8 @@
 # LICENSE/READMENAMES (MD OR TXT?)
 # ----------------------------------------------------------------- #
   TMPDIR=/tmp
+  CSSCOLLECT=$TMPDIR/css.tmp
+
   NLPROTECT=L1N38R34K$RANDOM  # PLACEHOLDER TO PROTECT NEWLINES
   KUNDPROTECT=K4U7M4NN$RANDOM # PLACEHOLDER TO PROTECT &
 
@@ -77,7 +79,7 @@
                 -e 'P;D'                  |  # APPEND LINES WITH =====
                 sed '/=====$/{x;p;x;}'    |  # INSERT EMPTY LINE ABOVE
                 sed -e '/./{H;$!d;}' \
-                -e 'x;/FONTSTYLES/!d;'    |  # SELECT PARAGRAPH CONTAINING FONT S...
+                -e 'x;/FONTSTYLES==/!d;'  |  # SELECT PARAGRAPH CONTAINING FONT S...
                 sed 's/^-//g'             |  # REMOVE LEADING -
                 grep -v "FONTSTYLES"`        # RM LINE CONTAINING FONT S...
     else
@@ -253,7 +255,6 @@
 # --------------------------------------------------------------------------- #
   function SPECIMEN(){
 
-    HEADINJECTION="" # RESET HEAD INJECTION
 
     for SPECIMEN in `find $FONTFAMILY/specimen -name "*.*"`
      do 
@@ -262,9 +263,8 @@
 
         if [ X$SPECIMENTYPE == Xhead ]; then
 
-             HEADINJECTION="$HEADINJECTION"`cat $SPECIMEN | \
-                            sed ":a;N;\\$!ba;s/\n/$NLPROTECT/g" | \
-                            sed "s/\&/$KUNDPROTECT/g"`
+             cat $SPECIMEN >> $CSSCOLLECT
+
         fi
         if [ X$SPECIMENTYPE == Xjpg ]; then
 
@@ -338,8 +338,9 @@
                      tr [:upper:] [:lower:]`
 
       SPECIMENSRC=$FONTFAMILY/specimen
+      if [ -f $CSSCOLLECT ]; then rm $CSSCOLLECT ; fi
+      touch $CSSCOLLECT
 
-      HEADINJECTION=""
       FAMILYTARGET=$WWWDIR/`basename $FONTFAMILY`
       WEBFONTTARGET=$FAMILYTARGET/webfont
       SPECIMENTARGET=$FAMILYTARGET/specimen
@@ -520,14 +521,14 @@
 # GET UI CONFIGURATION FROM README
 # --------------------------------------------------------------------------- #
   if [ -f $README ]; then
-  SECTIONS=`sed '/^\s*$/d' $README |        # REMOVE EMPTY LINES
+  SECTIONS=`sed '/^\s*$/d' $README |         # REMOVE EMPTY LINES
             sed -e :a \
             -e '$!N;s/\n=====/=====/;ta' \
-            -e 'P;D' |                      # APPEND LINES WITH =====
-            sed '/=====$/{x;p;x;}' |        # INSERT EMPTY LINE ABOVE
+            -e 'P;D' |                       # APPEND LINES WITH =====
+            sed '/=====$/{x;p;x;}' |         # INSERT EMPTY LINE ABOVE
             sed -e '/./{H;$!d;}' \
-            -e 'x;/UI CONFIGURATION/!d;' |  # SELECT PARAGRAPH CONTAINING UI C..
-            grep -v "UI CONFIGURATION"`     # RM LINE CONTAINING UI C..
+            -e 'x;/UI CONFIGURATION==/!d;' | # SELECT PARAGRAPH CONTAINING UI C..
+            grep -v "UI CONFIGURATION"`      # RM LINE CONTAINING UI C..
   else
 
   SECTIONS="AKKORDEON DOWNLOAD AUTHOR SPECIMEN LICENSE"
@@ -540,9 +541,6 @@
   then  SECTIONS="DOWNLOAD $SECTIONS" ; fi
   if [ `echo $SECTIONS | grep "AKKORDEON" | wc -l` -lt 1 ]
   then  SECTIONS="AKKORDEON $SECTIONS" ; fi
-
-
-
 
 
 # --------------------------------------------------------------------------- #
@@ -573,12 +571,18 @@
   sed -i "s/FLOWTEXTMASTERWWW/$FLOWTEXTMASTERWWW/g"                    $INDEX
   sed -i "s/FLOWTEXTMASTER/$FLOWTEXTMASTER/g"                          $INDEX
 
-  sed -i "s|HEADINJECTION|$HEADINJECTION|g"                            $INDEX
-  sed -i "s/$NLPROTECT/\n/g"                                           $INDEX
-  sed -i "s/$KUNDPROTECT/\&/g"                                         $INDEX
+  tac $INDEX | sed -n '/HEADINJECTION/,$p' | tac         >  $TMPDIR/index.tmp
+  cat $CSSCOLLECT                                        >> $TMPDIR/index.tmp
+  rm  $CSSCOLLECT
+  cat $INDEX | sed -n '/HEADINJECTION/,$p'               >> $TMPDIR/index.tmp
+  sed -i 's/HEADINJECTION//g'                               $TMPDIR/index.tmp 
 
+  mv $TMPDIR/index.tmp $INDEX
+  sed -i "s/$NLPROTECT/\n/g"                                           $INDEX
 
  done
+
+
 
 
 
@@ -590,10 +594,15 @@
 # =========================================================================== #
   HEADINJECTION=""; HIDE=""
   INDEX=$WWWDIR/index.html
+  CSSCOLLECT=$TMPDIR/css.tmp
+  if [ -f $CSSCOLLECT ]; then rm $CSSCOLLECT ; fi
 
 # --------------------------------------------------------------------------- #
+# cat $TMPLT_HEAD | \
+# sed 's,href="../,href=",g' | sed 's,src="../,src=",g'             >  $INDEX
   cat $TMPLT_HEAD | \
-  sed 's,href="../,href=",g' | sed 's,src="../,src=",g'             >  $INDEX
+  sed 's,fontain.css,fontainlist.css,g' | \
+  sed 's,fontain.js,fontainlist.js,g'                               >  $INDEX
   cat $TMPLT_AKKRDNSLIDER                                           >> $INDEX
   echo '<div class="sixteen columns accordion" id="sortable">'      >> $INDEX
 # --------------------------------------------------------------------------- #
@@ -610,9 +619,7 @@
 
        CSS=`echo $FOLDER | sed "s,$WWWDIR/,,g"`/webfont/webfont.css
 
-       HEADINJECTION="$HEADINJECTION \
-                      $NLPROTECT<link rel=\"stylesheet\" href=\"$CSS\">"
-
+       echo "<link rel=\"stylesheet\" href=\"$CSS\">" >> $CSSCOLLECT
 
        TTFFILE=`find $FOLDER/webfont -name "*.ttf" | shuf -n 1`
        TTFFILE=`basename $TTFFILE`
@@ -643,7 +650,13 @@
   cat $TMPLT_FOOT                                                   >> $INDEX
 # --------------------------------------------------------------------------- #
 
-  sed -i "s|HEADINJECTION|$HEADINJECTION|g"                            $INDEX
+  tac $INDEX | sed -n '/HEADINJECTION/,$p' | tac         >  $TMPDIR/index.tmp
+  cat $CSSCOLLECT                                        >> $TMPDIR/index.tmp
+  rm  $CSSCOLLECT
+  cat $INDEX | sed -n '/HEADINJECTION/,$p'               >> $TMPDIR/index.tmp
+  sed -i 's/HEADINJECTION//g'                               $TMPDIR/index.tmp 
+
+  mv $TMPDIR/index.tmp $INDEX
   sed -i "s/$NLPROTECT/\n/g"                                           $INDEX
 
 
