@@ -1,4 +1,5 @@
-Sean is the first typeface family being produced with Metapolator
+Sean is the first typeface family being produced with [Metapolator](http://metapolator.com/).
+Fontforge sources derived from `[.otf](https://github.com/davelab6/font-metapolator-sean)`
 
 
 AUTHOR
@@ -27,11 +28,11 @@ sean_ultrabold
 UI CONFIGURATION
 ================
 
-AKKORDEON
-DOWNLOAD
-SPECIMEN
-AXXUTHOR
-LXXICENSE
+AKKORDEON    
+DOWNLOAD     
+SPECIMEN     
+AXXUTHOR     
+LXXICENSE    
 
 
 TEX CONFIGURATION
