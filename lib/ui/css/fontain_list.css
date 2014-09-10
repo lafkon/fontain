@@ -1,21 +1,29 @@
+/*
+ * ==================================================
+ *  LISTVIEW ONLY
+ * ================================================== 
+ */
+ 
 
-
+ 
+/*ACCORDION
+================================================== */
 
 .accordion-section-title:hover {
   height: inherit;
-  background: #00BFFF;
+  background: #33FFDA;
   text-decoration: underline;
 } 
  
  .accordion-section:hover > .accordion-section-header > .accordion-section-title > span.divlink { 
-    background: #00BFFF;
+    background: #33FFDA;
 }
 
 .accordion-section-header:hover ~ .accordion-section-content {
      transition: background .25s ease-in-out;
    -moz-transition: background .25s ease-in-out;
    -webkit-transition: background .25s ease-in-out;
-   color:#00BFFF;
+   color:#33FFDA;
 }
 .accordion-section-header ~ .accordion-section-content {
      transition: background .25s ease-in-out;
@@ -25,7 +33,7 @@
 .accordion-section-header:hover > .accordion-section-title > span.divlink {
    color:#000;
    background: #f00;
-   border-color: #00BFFF;
+   border-color: #33FFDA;
 }
 
 span.divlink {
