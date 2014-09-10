@@ -17,10 +17,16 @@ span.divlink {
 }
 
 .accordion-section-header:hover > .accordion-section-title.active > span.divlink {
+       transition: color .25s ease-in-out;
+   -moz-transition: color .25s ease-in-out;
+   -webkit-transition: color .25s ease-in-out;
    color: inherit;
 }
 
 .accordion-section-header:hover > .accordion-section-title > span.divlink {
+   transition: color .05s linear;
+   -moz-transition: color .05s  linear;
+   -webkit-transition: color .05s  linear;
    color: transparent;
 }
 
