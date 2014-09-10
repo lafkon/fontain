@@ -688,8 +688,8 @@
 
   mv $TMPDIR/index.tmp $INDEX
   sed -i "s/$NLPROTECT/\n/g"                                           $INDEX
-  TITLE="a font-collection-system and a font-collection"
-  sed -i 's/FONTFAMILY on fontain/$TITLE/g'                            $INDEX
+  TITLE="fontain: a font-collection-system and a font-collection"
+  sed -i "s/FONTFAMILY on fontain/$TITLE/g"                            $INDEX
 
 
 
