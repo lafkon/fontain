@@ -5,7 +5,7 @@ a [font-collection-system](https://github.com/lafkon/fontain)
 and a [font-collection](http://fountain.x).
 
 
-fontain is a collection of f/l/os compatible fonts (as fontforge 
+**fontain** is a collection of f/l/os compatible fonts (as fontforge 
 sources) and utilities to transform the sources into popular font formats 
 and create an interface to browse the collection online.
 
@@ -18,9 +18,9 @@ and create an interface to browse the collection online.
 - `.css  `      = [Cascading Style Sheets](http://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 - `.texmf.zip ` = files prepared to use with your [TeX](http://en.wikipedia.org/wiki/TeX) distribution
 
-fontain has been developed and tested on [Debian, the universal operating system](https://www.debian.org/)
+**fontain** has been developed and tested on [Debian, the universal operating system](https://www.debian.org/)
 and [Ubuntu](http://www.ubuntu.com/).
-fontain uses [fontconvert](https://gitorious.org/manufacturaindhacks/tinytypetools/source/fontconvert) and 
+**fontain** uses [fontconvert](https://gitorious.org/manufacturaindhacks/tinytypetools/source/fontconvert) and 
 [ttf2eot](https://github.com/metaflop/ttf2eot).
 
 The browser **ui** uses 
@@ -29,10 +29,12 @@ The browser **ui** uses
 [jquery](), 
 ...
 
- fontain is inspired by [Use & Modify](http://usemodify.com/).
+**fontain** is inspired by [Use & Modify](http://usemodify.com/), respectively [ofont](https://github.com/raphaelbastide/ofont).
 
 
+## HOWTO
 
+`find . -name "*.sfdir" -type d | rev | cut -d "/" -f 1 | rev | sed 's/.sfdir//g'`
 
 
 ## Required Software
@@ -185,6 +187,10 @@ The browser **ui** uses
 FONT STYLES
 ===========
 
+junction_regular
+  junction_bold
+  junction_light
+raleway_thin
   junicode_regular-italic
 junicode_regular
   junicode_bold-italic
@@ -241,3 +247,4 @@ pt-serif_italic
   pt-serif_caption-italic
 pt-serif_bold
   pt-serif_regular
+
