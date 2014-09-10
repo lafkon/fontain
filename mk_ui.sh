@@ -2,11 +2,9 @@
 
 # PATH TO FONT DIRECTORY (TOP LEVEL)
 # ----------------------------------------------------------------- #
-  FONTS=`ls -d -1 fonts/* | grep -v fira`
+  FONTS=`ls -d -1 fonts/*`
 
   WWWDIR=~/tmp/fontain
-
-
 
 
 
@@ -64,7 +62,6 @@
 	  # echo "target does not exist"
             cp -p $CPSRCPATH/$CPSRCBASE $CPTARGETPATH/$CPTARGETBASE
       fi
-
   }
 
 # --------------------------------------------------------------------------- #
@@ -87,7 +84,6 @@
     FONTSTYLES=`find $FONTFAMILY/src -name "*.sfdir" | \
                 rev | cut -d "/" -f 1 | rev | \
                 sed 's/.sfdir//g'` 
-
     fi
     if [ `echo $FONTSTYLES | wc -c` -lt 2 ]; then
 
@@ -142,7 +138,7 @@
         sed "s/STYLENAMEWWW/$STYLENAMEWWW/g" | \
         sed "s/STYLENAME/$STYLENAME/g" | \
         sed "s/-COUNT/-$COUNT/g" | \
-        sed "s/FAMILYNAME/$FAMILYNAME/g"                            >> $INDEX
+        sed "s/FAMILYNAME/$STYLENAME/g"                               >> $INDEX
 
       # ------------------------------------------------- #
       # FLOWTEXT CONFIG
@@ -346,6 +342,7 @@
       SPECIMENTARGET=$FAMILYTARGET/specimen
       EXPORTTARGET=$FAMILYTARGET/export
 
+      CUSTOMCSS="../css/fontain_font.css"
       CSS=$WEBFONTTARGET/webfont.css
       INDEX=$FAMILYTARGET/index.html
 
@@ -547,6 +544,7 @@
 # CREATE HTML FILE
 # --------------------------------------------------------------------------- #
   cat $TMPLT_HEAD                                                   >  $INDEX
+  sed -i "s,CUSTOMCSS,$CUSTOMCSS,g"                                    $INDEX
 # --------------------------------------------------------------------------- #
 
 # --------------------------------------------------------------------------- #
@@ -594,23 +592,64 @@
 # =========================================================================== #
   HEADINJECTION=""; HIDE=""
   INDEX=$WWWDIR/index.html
+  CUSTOMCSS="css/fontain_list.css"
   CSSCOLLECT=$TMPDIR/css.tmp
   if [ -f $CSSCOLLECT ]; then rm $CSSCOLLECT ; fi
 
 # --------------------------------------------------------------------------- #
-# cat $TMPLT_HEAD | \
-# sed 's,href="../,href=",g' | sed 's,src="../,src=",g'             >  $INDEX
   cat $TMPLT_HEAD | \
-  sed 's,fontain.css,fontainlist.css,g' | \
-  sed 's,fontain.js,fontainlist.js,g'                               >  $INDEX
+  sed 's,href="../,href=",g' | sed 's,src="../,src=",g'             >  $INDEX
+# sed -i 's,fontain.css,fontainlist.css,g'                             $INDEX
+  sed -i 's,fontain.js,fontainlist.js,g'                               $INDEX
+  sed -i "s,CUSTOMCSS,$CUSTOMCSS,g"                                    $INDEX
+
+
   cat $TMPLT_AKKRDNSLIDER                                           >> $INDEX
   echo '<div class="sixteen columns accordion" id="sortable">'      >> $INDEX
+  echo '<button id="resetDemoText">x</button>'                      >> $INDEX
 # --------------------------------------------------------------------------- #
+
+# COUNT=100
+# for FONTINDEX in `find $WWWDIR -mindepth 2 -name "index.html"`
+#  do
+#      LINK=`echo $FONTINDEX | \
+#            sed "s,$WWWDIR/,,g" | \
+#            sed "s/index.html//g"`
+
+#      FOLDER=`echo $FONTINDEX | rev | cut -d "/" -f 2- | rev`
+
+#      CSS=`echo $FOLDER | sed "s,$WWWDIR/,,g"`/webfont/webfont.css
+
+#      echo "<link rel=\"stylesheet\" href=\"$CSS\">" >> $CSSCOLLECT
+
+#      TTFFILE=`find $FOLDER/webfont -name "*.ttf" | shuf -n 1`
+#      TTFFILE=`basename $TTFFILE`
+#      BASENAME=`echo $TTFFILE | rev | cut -d "." -f 2- | rev`
+
+#      FONTPROPS=`find fonts -name "${BASENAME}.sfdir" -type d`/font.props
+#      STYLENAME=`grep -h "FullName" $FONTPROPS | \
+#                 cut -d ":" -f 2 | sed "s/^[ \t]*//"`
+#      FAMILYNAME=$STYLENAME
+#      STYLENAMEWWW=`echo $STYLENAME | \
+#                    sed 's/ /jfdDw24e/g' | \
+#                    sed 's/[^a-zA-Z0-9 ]//g' | \
+#                    sed 's/jfdDw24e/-/g' | \
+#                    tr [:upper:] [:lower:]`
+
+#      cat $TMPLT_AKKORDION | \
+#      sed "s,href=\"\",href=\"$LINK\",g" | \
+#      sed "s/accordion-section positiv/& $HIDE/g" | \
+#      sed "s/STYLENAMEWWW/$STYLENAMEWWW/g" | \
+#      sed "s/STYLENAME/$STYLENAME/g" | \
+#      sed "s/-COUNT/-$COUNT/g" | \
+#      sed "s/FAMILYNAME/$FAMILYNAME/g"                             >> $INDEX
+
+#      COUNT=`expr $COUNT + 1`
+# done
 
   COUNT=100
   for FONTINDEX in `find $WWWDIR -mindepth 2 -name "index.html"`
    do
-
        LINK=`echo $FONTINDEX | \
              sed "s,$WWWDIR/,,g" | \
              sed "s/index.html//g"`
@@ -645,6 +684,11 @@
 
        COUNT=`expr $COUNT + 1`
   done
+
+
+
+
+
 # --------------------------------------------------------------------------- #
   echo '</div>'                                                     >> $INDEX
   cat $TMPLT_FOOT                                                   >> $INDEX
