@@ -16,7 +16,7 @@ and create an interface to browse the collection online.
 - `.woff `      = [Web Open Font Format](http://en.wikipedia.org/wiki/Web_Open_Font_Format)
 - `.svg  `      = [Scalable Vector Graphics](http://en.wikipedia.org/wiki/Web_typography#Scalable_Vector_Graphics)
 - `.css  `      = [Cascading Style Sheets](http://en.wikipedia.org/wiki/Cascading_Style_Sheets)
-- `.texmf.zip ` = files prepared to use with your [TeX](http://en.wikipedia.org/wiki/TeX) distribution
+- `.texmf.zip ` = font files prepared to use with your [TeX](http://en.wikipedia.org/wiki/TeX) distribution
 
 **fontain** has been developed and tested on [Debian, the universal operating system](https://www.debian.org/)
 and [Ubuntu](http://www.ubuntu.com/).
