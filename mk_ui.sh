@@ -6,6 +6,10 @@
 
   WWWDIR=~/tmp/fontain
 
+
+
+
+
 # TEMPLATES
 # ----------------------------------------------------------------- #
   TMPLT_CSS=lib/ui/templates/css.template
@@ -22,7 +26,12 @@
   LICENSENAME=LICENSE.txt
 
 
+# LICENSE/READMENAMES (MD OR TXT?)
+# ----------------------------------------------------------------- #
   TMPDIR=/tmp
+  NLPROTECT=L1N38R34K$RANDOM  # PLACEHOLDER TO PROTECT NEWLINES
+  KUNDPROTECT=K4U7M4NN$RANDOM # PLACEHOLDER TO PROTECT &
+
 
 # COPY STATIC STUFF 
 # ----------------------------------------------------------------- #
@@ -244,9 +253,7 @@
 # --------------------------------------------------------------------------- #
   function SPECIMEN(){
 
-    NLPROTECT=L1N38R34K$RANDOM
-    KUNDPROTECT=K4U7M4NN$RANDOM
-    HEADINJECTION=""
+    HEADINJECTION="" # RESET HEAD INJECTION
 
     for SPECIMEN in `find $FONTFAMILY/specimen -name "*.*"`
      do 
