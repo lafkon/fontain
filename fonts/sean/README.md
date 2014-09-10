@@ -1,5 +1,5 @@
 Sean is the first typeface family being produced with [Metapolator](http://metapolator.com/).
-Fontforge sources derived from `[.otf](https://github.com/davelab6/font-metapolator-sean)`
+Fontforge sources derived from [`.otf`](https://github.com/davelab6/font-metapolator-sean)
 
 
 AUTHOR
