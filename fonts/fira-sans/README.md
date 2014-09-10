@@ -15,36 +15,37 @@ LICENSE
 FONT STYLES
 ===========
 
-fira-sans_two.sfdir
-    fira-sans_two-italic.sfdir
-fira-sans_four.sfdir
-    fira-sans_four-italic.sfdir
-fira-sans_eight.sfdir
-    fira-sans_eight-italic.sfdir
-fira-sans_hair.sfdir
-    fira-sans_hair-italic.sfdir
-fira-sans_thin.sfdir
-    fira-sans_thin-italic.sfdir
-fira-sans_ultralight.sfdir
-    fira-sans_ultralight-italic.sfdir
-fira-sans_extralight.sfdir
-    fira-sans_extralight-italic.sfdir
-fira-sans_light.sfdir
-    fira-sans_light-italic.sfdir
-fira-sans_regular.sfdir
-    fira-sans_italic.sfdir
-fira-sans_medium.sfdir
-    fira-sans_medium-italic.sfdir
-fira-sans_semibold.sfdir
-    fira-sans_semibold-italic.sfdir
-fira-sans_bold.sfdir
-    fira-sans_bold-italic.sfdir
-fira-sans_extrabold.sfdir
-    fira-sans_extrabold-italic.sfdir
-fira-sans_heavy.sfdir
-    fira-sans_heavy-italic.sfdir
-fira-sans_ultra.sfdir
-    fira-sans_ultra-italic.sfdir
+fira-sans_regular    
+fira-sans_two    
+    fira-sans_two-italic    
+fira-sans_four    
+    fira-sans_four-italic    
+fira-sans_eight    
+    fira-sans_eight-italic    
+fira-sans_hair    
+    fira-sans_hair-italic    
+fira-sans_thin    
+    fira-sans_thin-italic    
+fira-sans_ultralight    
+    fira-sans_ultralight-italic    
+fira-sans_extralight    
+    fira-sans_extralight-italic    
+fira-sans_light    
+    fira-sans_light-italic    
+fira-sans_regular    
+    fira-sans_italic    
+fira-sans_medium    
+    fira-sans_medium-italic    
+fira-sans_semibold    
+    fira-sans_semibold-italic    
+fira-sans_bold    
+    fira-sans_bold-italic    
+fira-sans_extrabold    
+    fira-sans_extrabold-italic    
+fira-sans_heavy    
+    fira-sans_heavy-italic    
+fira-sans_ultra    
+    fira-sans_ultra-italic    
 
 
 UI CONFIGURATION
