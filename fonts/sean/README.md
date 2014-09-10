@@ -37,12 +37,12 @@ LXXICENSE
 
 TEX CONFIGURATION
 =================
-KARLBERRYNAME:cfi
-FOUNDRY:carrois
-TEXSRCREGULAR:fira-sans_regular    
-TEXSRCITALIC:fira-sans_italic
-TEXSRCBOLD:fira-sans_bold    
-TEXSRCBOLD-ITALIC:fira-sans_bold-italic
+KARLBERRYNAME:sse
+FOUNDRY:simonegli
+TEXSRCREGULAR:sean_normal
+TEXSRCITALIC:sean_semibold
+TEXSRCBOLD:sean_bold
+TEXSRCBOLD-ITALIC:sean_ultrabold
 
 
 
