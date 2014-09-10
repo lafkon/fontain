@@ -291,7 +291,8 @@
         TYPE=`echo $DOWNLOAD | rev | cut -d "." -f 2 | rev`
         DOWNLOADLINK=export/${DOWNLOAD#*export/}
 
-        echo "<a class=\"button\" href="$DOWNLOADLINK">$TYPE</a>"   >> $INDEX
+        echo "<a class=\"button positiv\" \
+              href="$DOWNLOADLINK">$TYPE</a>" | tr -s ' '           >> $INDEX
     done
 
     echo '(Download)'                                               >> $INDEX
@@ -603,68 +604,55 @@
   sed -i 's,fontain.js,fontainlist.js,g'                               $INDEX
   sed -i "s,CUSTOMCSS,$CUSTOMCSS,g"                                    $INDEX
 
-
   cat $TMPLT_AKKRDNSLIDER                                           >> $INDEX
   echo '<div class="sixteen columns accordion" id="sortable">'      >> $INDEX
   echo '<button id="resetDemoText">x</button>'                      >> $INDEX
 # --------------------------------------------------------------------------- #
+  README=README.md
 
-# COUNT=100
-# for FONTINDEX in `find $WWWDIR -mindepth 2 -name "index.html"`
-#  do
-#      LINK=`echo $FONTINDEX | \
-#            sed "s,$WWWDIR/,,g" | \
-#            sed "s/index.html//g"`
+  if [ -f $README ]; then
+  FONTSTYLES=`sed '/^\s*$/d' $README    |  # REMOVE EMPTY LINES
+              sed 's/^ .*/XX&/'         |  # REPLACE LEADING BLANK WITH XX
+              sed 's/ //g'              |  # REMOVE SPACES (WORKAROUND!!!!)
+              sed -e :a \
+              -e '$!N;s/\n=====/=====/;ta' \
+              -e 'P;D'                  |  # APPEND LINES WITH =====
+              sed '/=====$/{x;p;x;}'    |  # INSERT EMPTY LINE ABOVE
+              sed -e '/./{H;$!d;}' \
+              -e 'x;/FONTSTYLES==/!d;'  |  # SELECT PARAGRAPH CONTAINING FONT S...
+              sed 's/^-//g'             |  # REMOVE LEADING -
+              grep -v "FONTSTYLES"`        # RM LINE CONTAINING FONT S...
+  else
 
-#      FOLDER=`echo $FONTINDEX | rev | cut -d "/" -f 2- | rev`
+  FONTSTYLES=`find $FONTFAMILY/src -name "*.sfdir" | \
+              rev | cut -d "/" -f 1 | rev | \
+              sed 's/.sfdir//g'` 
+  fi
+  if [ `echo $FONTSTYLES | wc -c` -lt 2 ]; then
 
-#      CSS=`echo $FOLDER | sed "s,$WWWDIR/,,g"`/webfont/webfont.css
-
-#      echo "<link rel=\"stylesheet\" href=\"$CSS\">" >> $CSSCOLLECT
-
-#      TTFFILE=`find $FOLDER/webfont -name "*.ttf" | shuf -n 1`
-#      TTFFILE=`basename $TTFFILE`
-#      BASENAME=`echo $TTFFILE | rev | cut -d "." -f 2- | rev`
-
-#      FONTPROPS=`find fonts -name "${BASENAME}.sfdir" -type d`/font.props
-#      STYLENAME=`grep -h "FullName" $FONTPROPS | \
-#                 cut -d ":" -f 2 | sed "s/^[ \t]*//"`
-#      FAMILYNAME=$STYLENAME
-#      STYLENAMEWWW=`echo $STYLENAME | \
-#                    sed 's/ /jfdDw24e/g' | \
-#                    sed 's/[^a-zA-Z0-9 ]//g' | \
-#                    sed 's/jfdDw24e/-/g' | \
-#                    tr [:upper:] [:lower:]`
-
-#      cat $TMPLT_AKKORDION | \
-#      sed "s,href=\"\",href=\"$LINK\",g" | \
-#      sed "s/accordion-section positiv/& $HIDE/g" | \
-#      sed "s/STYLENAMEWWW/$STYLENAMEWWW/g" | \
-#      sed "s/STYLENAME/$STYLENAME/g" | \
-#      sed "s/-COUNT/-$COUNT/g" | \
-#      sed "s/FAMILYNAME/$FAMILYNAME/g"                             >> $INDEX
-
-#      COUNT=`expr $COUNT + 1`
-# done
+  FONTSTYLES=`find $FONTFAMILY/src -name "*.sfdir" | \
+              rev | cut -d "/" -f 1 | rev | \
+              sed 's/.sfdir//g'` 
+  fi
+# --------------------------------------------------------------------------- #
 
   COUNT=100
-  for FONTINDEX in `find $WWWDIR -mindepth 2 -name "index.html"`
+  for FONTSTYLE in $FONTSTYLES
    do
-       LINK=`echo $FONTINDEX | \
-             sed "s,$WWWDIR/,,g" | \
-             sed "s/index.html//g"`
+       if [ `echo $FONTSTYLE | grep "^XX" | wc -c` -lt 1 ]; then
 
-       FOLDER=`echo $FONTINDEX | rev | cut -d "/" -f 2- | rev`
+       FONTPATH=`find $WWWDIR -name "${FONTSTYLE}.ttf" | \
+                 rev | cut -d "/" -f 3- | rev`
 
-       CSS=`echo $FOLDER | sed "s,$WWWDIR/,,g"`/webfont/webfont.css
+       FONTLINK=`echo $FONTPATH | \
+                 sed "s,$WWWDIR/,,g"`
+
+       CSS=$FONTLINK/webfont/webfont.css
 
        echo "<link rel=\"stylesheet\" href=\"$CSS\">" >> $CSSCOLLECT
 
-       TTFFILE=`find $FOLDER/webfont -name "*.ttf" | shuf -n 1`
-       TTFFILE=`basename $TTFFILE`
-       BASENAME=`echo $TTFFILE | rev | cut -d "." -f 2- | rev`
 
-       FONTPROPS=`find fonts -name "${BASENAME}.sfdir" -type d`/font.props
+       FONTPROPS=`find fonts -name "${FONTSTYLE}.sfdir" -type d`/font.props
        STYLENAME=`grep -h "FullName" $FONTPROPS | \
                   cut -d ":" -f 2 | sed "s/^[ \t]*//"`
        FAMILYNAME=$STYLENAME
@@ -675,19 +663,17 @@
                      tr [:upper:] [:lower:]`
 
        cat $TMPLT_AKKORDION | \
-       sed "s,href=\"\",href=\"$LINK\",g" | \
+       sed "s,href=\"\",href=\"$FONTLINK\",g" | \
        sed "s/accordion-section positiv/& $HIDE/g" | \
        sed "s/STYLENAMEWWW/$STYLENAMEWWW/g" | \
        sed "s/STYLENAME/$STYLENAME/g" | \
        sed "s/-COUNT/-$COUNT/g" | \
        sed "s/FAMILYNAME/$FAMILYNAME/g"                             >> $INDEX
 
+       fi
+
        COUNT=`expr $COUNT + 1`
   done
-
-
-
-
 
 # --------------------------------------------------------------------------- #
   echo '</div>'                                                     >> $INDEX
@@ -702,13 +688,11 @@
 
   mv $TMPDIR/index.tmp $INDEX
   sed -i "s/$NLPROTECT/\n/g"                                           $INDEX
-
+  TITLE="a font-collection-system and a font-collection"
+  sed -i 's/FONTFAMILY on fontain/$TITLE/g'                            $INDEX
 
 
 
 
 exit 0;
-
-
-
 

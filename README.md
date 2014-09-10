@@ -181,3 +181,63 @@ The browser **ui** uses
 `zip  3.0-6`    
  Archiver for .zip files    
 
+
+FONT STYLES
+===========
+
+  junicode_regular-italic
+junicode_regular
+  junicode_bold-italic
+  junicode_bold
+basic_regular
+sean_book
+  sean_ultralight
+  sean_extrabold
+  sean_bold
+  sean_medium
+  sean_ultrabold
+  sean_semibold
+  sean_light
+  sean_normal
+helvetia-verbundene
+grobe-deutschmeister
+ocr-a
+standard-graf_regular
+  fira-sans_italic
+  fira-sans_four-italic
+  fira-sans_medium
+  fira-sans_extrabold
+  fira-sans_eight
+  fira-sans_heavy
+  fira-sans_two
+  fira-sans_two-italic
+  fira-sans_light-italic
+  fira-sans_hair-italic
+  fira-sans_thin-italic
+  fira-sans_ultra
+  fira-sans_light
+  fira-sans_ultralight-italic
+  fira-sans_book
+  fira-sans_eight-italic
+  fira-sans_heavy-italic
+  fira-sans_hair
+  fira-sans_book-italic
+  fira-sans_bold
+  fira-sans_extralight
+  fira-sans_semibold
+  fira-sans_ultra-italic
+  fira-sans_semibold-italic
+  fira-sans_extralight-italic
+fira-sans_regular
+  fira-sans_bold-italic
+  fira-sans_thin
+  fira-sans_medium-italic
+  fira-sans_ultralight
+fira-sans_four
+  fira-sans_extrabold-italic
+  pt-serif_caption
+pt-serif_italic
+  pt-serif_bold-italic
+  pt-serif_caption-italic
+pt-serif_bold
+  pt-serif_regular
