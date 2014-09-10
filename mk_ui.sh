@@ -2,7 +2,7 @@
 
 # PATH TO FONT DIRECTORY (TOP LEVEL)
 # ----------------------------------------------------------------- #
-  FONTS=`ls -d -1 fonts/*`
+  FONTS=`ls -d -1 fonts/* | grep basic`
 
   WWWDIR=~/tmp/fontain
 
@@ -38,9 +38,6 @@
       CPSRCBASE=`basename $1`
       CPTARGETPATH=`echo $2 | rev | cut -d "/" -f 2- | rev`
       CPTARGETBASE=`basename $2`
-
-#     if [ `find $CPTARGETPATH -name "$CPTARGETBASE" | \
-#           wc -l` -gt 0 ];then
 
       if [ -f $CPTARGETPATH/$CPTARGETBASE ]; then
           # echo "target exists"
@@ -124,10 +121,10 @@
 
         FONTSTYLESRCNAME=`basename $FONTSTYLESRC | sed "s/.sfdir//g"`
 
-        EOTFILE=`basename $EOTFILE`
-        WOFFFILE=`basename $WOFFFILE`
-        SVGFILE=`basename $SVGFILE`
-        TTFFILE=`basename $TTFFILE`
+#       EOTFILE=`basename $EOTFILE`
+#       WOFFFILE=`basename $WOFFFILE`
+#       SVGFILE=`basename $SVGFILE`
+#       TTFFILE=`basename $TTFFILE`
 
         cat $TMPLT_AKKORDION | \
         sed "s/accordion-section positiv/& $HIDE/g" | \
@@ -145,7 +142,7 @@
         FLOWTEXTMASTER=$STYLENAME
         FLOWTEXTMASTERWWW=$STYLENAMEWWW
         FIRSTTIME=$FONTFAMILY
-        echo "for the first time"
+      # echo "for the first time"
         FLOWTEXTARRAY=""
         fi
         FLOWTEXTARRAY=$FLOWTEXTARRAY"\"$STYLENAMEWWW\","
@@ -545,7 +542,7 @@
 # CREATE HTML FILE
 # --------------------------------------------------------------------------- #
   cat $TMPLT_HEAD                                                   >  $INDEX
-
+# --------------------------------------------------------------------------- #
 
 # --------------------------------------------------------------------------- #
 # JUST DO IT
@@ -569,13 +566,80 @@
   sed -i "s/FLOWTEXTMASTERWWW/$FLOWTEXTMASTERWWW/g"                    $INDEX
   sed -i "s/FLOWTEXTMASTER/$FLOWTEXTMASTER/g"                          $INDEX
 
-  sed -i "s|HEADINJECTION|$HEADINJECTION|g" $INDEX
-  sed -i "s/$NLPROTECT/\n/g"                $INDEX
-  sed -i "s/$KUNDPROTECT/\&/g"                $INDEX
-
+  sed -i "s|HEADINJECTION|$HEADINJECTION|g"                            $INDEX
+  sed -i "s/$NLPROTECT/\n/g"                                           $INDEX
+  sed -i "s/$KUNDPROTECT/\&/g"                                         $INDEX
 
 
  done
+
+
+
+
+
+
+# =========================================================================== #
+# CREATE MAIN INDEX
+# =========================================================================== #
+  HEADINJECTION=""; HIDE=""
+  INDEX=$WWWDIR/index.html
+
+# --------------------------------------------------------------------------- #
+  cat $TMPLT_HEAD | \
+  sed 's,href="../,href=",g' | sed 's,src="../,src=",g'             >  $INDEX
+  cat $TMPLT_AKKRDNSLIDER                                           >> $INDEX
+  echo '<div class="sixteen columns accordion" id="sortable">'      >> $INDEX
+# --------------------------------------------------------------------------- #
+
+  COUNT=100
+  for FONTINDEX in `find $WWWDIR -mindepth 2 -name "index.html"`
+   do
+
+       LINK=`echo $FONTINDEX | \
+             sed "s,$WWWDIR/,,g" | \
+             sed "s/index.html//g"`
+
+       FOLDER=`echo $FONTINDEX | rev | cut -d "/" -f 2- | rev`
+
+       CSS=`echo $FOLDER | sed "s,$WWWDIR/,,g"`/webfont/webfont.css
+
+       HEADINJECTION="$HEADINJECTION \
+                      $NLPROTECT<link rel=\"stylesheet\" href=\"$CSS\">"
+
+
+       TTFFILE=`find $FOLDER/webfont -name "*.ttf" | shuf -n 1`
+       TTFFILE=`basename $TTFFILE`
+       BASENAME=`echo $TTFFILE | rev | cut -d "." -f 2- | rev`
+
+       FONTPROPS=`find fonts -name "${BASENAME}.sfdir" -type d`/font.props
+       STYLENAME=`grep -h "FullName" $FONTPROPS | \
+                  cut -d ":" -f 2 | sed "s/^[ \t]*//"`
+       FAMILYNAME=$STYLENAME
+       STYLENAMEWWW=`echo $STYLENAME | \
+                     sed 's/ /jfdDw24e/g' | \
+                     sed 's/[^a-zA-Z0-9 ]//g' | \
+                     sed 's/jfdDw24e/-/g' | \
+                     tr [:upper:] [:lower:]`
+
+       cat $TMPLT_AKKORDION | \
+       sed "s,href=\"\",href=\"$LINK\",g" | \
+       sed "s/accordion-section positiv/& $HIDE/g" | \
+       sed "s/STYLENAMEWWW/$STYLENAMEWWW/g" | \
+       sed "s/STYLENAME/$STYLENAME/g" | \
+       sed "s/-COUNT/-$COUNT/g" | \
+       sed "s/FAMILYNAME/$FAMILYNAME/g"                             >> $INDEX
+
+       COUNT=`expr $COUNT + 1`
+  done
+# --------------------------------------------------------------------------- #
+  echo '</div>'                                                     >> $INDEX
+  cat $TMPLT_FOOT                                                   >> $INDEX
+# --------------------------------------------------------------------------- #
+
+  sed -i "s|HEADINJECTION|$HEADINJECTION|g"                            $INDEX
+  sed -i "s/$NLPROTECT/\n/g"                                           $INDEX
+
+
 
 
 
