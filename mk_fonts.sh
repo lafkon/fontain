@@ -13,7 +13,7 @@
   TMPDIR=/tmp
   FONTCONVERT=lib/tools/tinytypetools/fontconvert/fontconvert
   TTF2EOT=lib/tools/ttf2eot/ttf2eot
-  READMENAME=README.txt
+  READMENAME=README.md
   LICENSENAME=LICENSE.txt
 
 # ONLY RUN IF FONTCONVERT UTILITY EXISTS 
