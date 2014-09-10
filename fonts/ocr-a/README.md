@@ -5,17 +5,21 @@ Not sure about License
 
 
 
+UI CONFIGURATION
+================
 
 
 
-
-
-
+DOWNLOAD
+SPECIMEN
+AUTHOR
+LICENSE
+AKKORDEON
 
 
 
 TEX CONFIGURATION
------------------
+=================
 
 KARLBERRYNAME:ocr
 FOUNDRY:johnsauter
