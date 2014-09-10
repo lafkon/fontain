@@ -16,6 +16,15 @@ span.divlink {
   padding: 6px 2px;
 }
 
+.accordion-section-header:hover > .accordion-section-title.active > span.divlink {
+   color: inherit;
+}
+
+.accordion-section-header:hover > .accordion-section-title > span.divlink {
+   color: transparent;
+}
+
+
 
 /*FLOWTEXT
 ================================================== */
