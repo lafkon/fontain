@@ -122,7 +122,8 @@
    # ----------------------------------------------------------- #
 
     echo '<div class="sixteen columns accordion" id="sortable">'      >> $INDEX
-    echo '<button id="resetDemoText">x</button>'                      >> $INDEX
+    echo '<button id="resetDemoText" \
+           class="negativ highlighted">x</button>' | tr -s ' '        >> $INDEX
 
     COUNT=100 ; EXCLUDECOUNT=0
     for FONTSTYLESRC in $FONTSTYLES
@@ -590,7 +591,7 @@
   if [ -f $CSSCOLLECT ]; then rm $CSSCOLLECT ; fi
 
 # --------------------------------------------------------------------------- #
-  cat $TMPLT_HEAD | \
+  cat $TMPLT_HEAD | # USELESS USE OF CAT
   sed 's,href="../,href=",g' | sed 's,src="../,src=",g'             >  $INDEX
 # sed -i 's,fontain.css,fontainlist.css,g'                             $INDEX
 # sed -i 's,fontain.js,fontainlist.js,g'                               $INDEX
@@ -599,7 +600,8 @@
 
   cat $TMPLT_AKKRDNSLIDER                                           >> $INDEX
   echo '<div class="sixteen columns accordion" id="sortable">'      >> $INDEX
-  echo '<button id="resetDemoText">x</button>'                      >> $INDEX
+  echo '<button id="resetDemoText" \
+         class="negativ highlighted">x</button>' | tr -s ' '        >> $INDEX
 # --------------------------------------------------------------------------- #
   README=README.md
 
@@ -669,7 +671,7 @@
 
 # --------------------------------------------------------------------------- #
   echo '</div>'                                                     >> $INDEX
-  cat $TMPLT_FOOT                                                   >> $INDEX
+  sed 's,src="../,src=",g' $TMPLT_FOOT                              >> $INDEX
 # --------------------------------------------------------------------------- #
 
   tac $INDEX | sed -n '/HEADINJECTION/,$p' | tac         >  $TMPDIR/index.tmp
