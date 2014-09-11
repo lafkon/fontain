@@ -38,11 +38,11 @@
 	<link rel="apple-touch-icon" sizes="114x114" href="../img/images/apple-touch-icon-114x114.png">
 
 
-<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.js"></script>
-<script type="text/javascript" src="http://code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
-<script type="text/javascript" src="../js/fontain.js"></script>
-<script type="text/javascript" src="../js/rangeslider.min.js"></script>
-<script type="text/javascript"> var isListPage = true; </script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
+	<script type="text/javascript" src="../js/fontain.js"></script>
+	<script type="text/javascript" src="../js/rangeslider.min.js"></script>
+	<script type="text/javascript"> var isListPage = ISLIST; </script>
 
 HEADINJECTION
 
@@ -53,5 +53,3 @@ HEADINJECTION
   </div>	
 
   <div class="container">
-
-
