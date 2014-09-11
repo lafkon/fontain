@@ -32,11 +32,9 @@
   NLPROTECT=L1N38R34K$RANDOM  # PLACEHOLDER TO PROTECT NEWLINES
   KUNDPROTECT=K4U7M4NN$RANDOM # PLACEHOLDER TO PROTECT &
 
-
 # COPY STATIC STUFF 
 # ----------------------------------------------------------------- #
   cp -r `ls -d lib/ui/* | egrep -v "templates"` $WWWDIR
-
 
 # --------------------------------------------------------------------------- #
 # FUNCTIONS
@@ -49,7 +47,6 @@
       CPTARGETBASE=`basename $2`
 
       if [ -f $CPTARGETPATH/$CPTARGETBASE ]; then
-          # echo "target exists"
        if [ `find $CPSRCPATH -name "$CPSRCBASE" \
 			     -newer $CPTARGETPATH/$CPTARGETBASE | \
 	    wc -l` -gt 0 ];then
@@ -59,7 +56,6 @@
             echo "$CPTARGETPATH/$CPTARGETBASE at latest state"
        fi
       else
-	  # echo "target does not exist"
             cp -p $CPSRCPATH/$CPSRCBASE $CPTARGETPATH/$CPTARGETBASE
       fi
   }
@@ -128,11 +124,6 @@
 
         FONTSTYLESRCNAME=`basename $FONTSTYLESRC | sed "s/.sfdir//g"`
 
-#       EOTFILE=`basename $EOTFILE`
-#       WOFFFILE=`basename $WOFFFILE`
-#       SVGFILE=`basename $SVGFILE`
-#       TTFFILE=`basename $TTFFILE`
-
         cat $TMPLT_AKKORDION | \
         sed "s/accordion-section positiv/& $HIDE/g" | \
         sed "s/STYLENAMEWWW/$STYLENAMEWWW/g" | \
@@ -197,15 +188,10 @@
             pandoc -r markdown -w html | \
             sed 's/<\/*p>//g'`
 
-#   echo '<hr class="hrsection" />'                                 >> $INDEX
     echo '<div class="fourteen columns">'                           >> $INDEX
     echo $AUTHOR                                                    >> $INDEX
     echo '</div>'                                                   >> $INDEX
     echo '<br class='clear' /><br />'                               >> $INDEX
-#   echo '<br class='clear' />'                      >> $INDEX
-#   echo '<hr class="hrsection" />'                  >> $INDEX
-#   echo '<br class='clear' />'                      >> $INDEX
-
     fi
 
   }
@@ -235,16 +221,10 @@
 
     LICENSE=`echo $LICENSE | pandoc -r markdown -w html | sed 's/<\/*p>//g'`
 
-#   echo '<hr class="hrsection" />'                  >> $INDEX
     echo '<div class="fourteen columns">'                           >> $INDEX
     echo $LICENSE                                                   >> $INDEX
     echo '</div>'                                                   >> $INDEX
     echo '<br class='clear' /><br />'                               >> $INDEX
-#   echo '<br class='clear' />'                      >> $INDEX
-#   echo '<hr class="hrsection" />'                  >> $INDEX
-#   echo '<br class='clear' />'                      >> $INDEX
-
-    sleep 0
 
   }
 
@@ -284,7 +264,6 @@
   function DOWNLOAD(){
 
     echo '<div class="eight columns">'                              >> $INDEX
-#   echo '<h4>Download</h4>'                                        >> $INDEX
 
     for DOWNLOAD in `find $EXPORTTARGET -name "*.zip"`
      do
@@ -295,7 +274,7 @@
               href="$DOWNLOADLINK">$TYPE</a>" | tr -s ' '           >> $INDEX
     done
 
-    echo '(Download)'                                               >> $INDEX
+#   echo '(Download)'                                               >> $INDEX
     echo '</div>'                                                   >> $INDEX
     echo '<br class='clear' /><br />'                               >> $INDEX
 
@@ -355,7 +334,6 @@
       if [ -f $CSS ]; then rm $CSS ; fi
 
       README=$FONTFAMILY/$READMENAME
-
 
 
 # --------------------------------------------------------------------------- #
@@ -514,8 +492,6 @@
 # --------------------------------------------------------------------------- #
 
 
-
-
 # --------------------------------------------------------------------------- #
 # GET UI CONFIGURATION FROM README
 # --------------------------------------------------------------------------- #
@@ -581,13 +557,8 @@
   mv $TMPDIR/index.tmp $INDEX
   sed -i "s/$NLPROTECT/\n/g"                                           $INDEX
 
+# --------------------------------------------------------------------------- #
  done
-
-
-
-
-
-
 
 
 # =========================================================================== #
@@ -654,7 +625,6 @@
        CSS=$FONTLINK/webfont/webfont.css
 
        echo "<link rel=\"stylesheet\" href=\"$CSS\">" >> $CSSCOLLECT
-
 
        FONTPROPS=`find fonts -name "${FONTSTYLE}.sfdir" -type d`/font.props
        STYLENAME=`grep -h "FullName" $FONTPROPS | \
