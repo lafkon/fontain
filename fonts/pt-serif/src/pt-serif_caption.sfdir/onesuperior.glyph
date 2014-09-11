@@ -1,0 +1,27 @@
+
+StartChar: onesuperior
+Encoding: 185 185 123
+Width: 480
+Flags: W
+TtInstrs:
+SVTCA[y-axis]
+PUSHW_1
+ 0
+RCVT
+IF
+PUSHW_1
+ 8
+MDAP[rnd]
+ELSE
+PUSHW_2
+ 8
+ 34
+MIAP[no-rnd]
+EIF
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+Refer: 561 8321 N 1 0 0 1 0 480 3
+EndChar

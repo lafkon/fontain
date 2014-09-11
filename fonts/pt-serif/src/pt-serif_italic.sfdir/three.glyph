@@ -1,0 +1,338 @@
+
+StartChar: three
+Encoding: 51 51 22
+Width: 524
+Flags: W
+TtInstrs:
+PUSHB_1
+ 10
+CALL
+IF
+PUSHB_3
+ 5
+ 39
+ 3
+CALL
+PUSHB_3
+ 16
+ 5
+ 1
+DELTAP1
+PUSHB_1
+ 5
+SRP0
+PUSHB_2
+ 29
+ 10
+MIRP[rp0,rnd,grey]
+PUSHB_3
+ 9
+ 39
+ 29
+SRP1
+SRP2
+IP
+PUSHB_1
+ 9
+MDAP[rnd]
+PUSHB_5
+ 0
+ 9
+ 16
+ 9
+ 2
+DELTAP1
+PUSHB_1
+ 29
+SRP0
+PUSHB_1
+ 21
+MDRP[rp0,grey]
+PUSHB_1
+ 21
+MDAP[rnd]
+PUSHB_3
+ 60
+ 21
+ 1
+DELTAP1
+PUSHB_3
+ 13
+ 21
+ 9
+SRP1
+SRP2
+IP
+PUSHB_1
+ 39
+SRP0
+PUSHB_1
+ 20
+MDRP[rp0,grey]
+PUSHB_1
+ 20
+MDAP[rnd]
+PUSHB_3
+ 16
+ 20
+ 1
+DELTAP1
+PUSHB_1
+ 17
+MDRP[rp0,grey]
+PUSHB_1
+ 17
+MDAP[rnd]
+PUSHB_3
+ 24
+ 9
+ 29
+SRP1
+SRP2
+IP
+EIF
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 20
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 20
+ 33
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 34
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 34
+ 15
+MIAP[no-rnd]
+EIF
+PUSHB_2
+ 0
+ 1
+MIRP[rp0,rnd,grey]
+PUSHB_3
+ 26
+ 34
+ 20
+SRP1
+SRP2
+IP
+PUSHB_1
+ 26
+MDAP[rnd]
+PUSHB_2
+ 8
+ 3
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 20
+SRP0
+PUSHB_2
+ 15
+ 6
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 20
+SRP0
+PUSHB_1
+ 16
+MDRP[rp0,min,rnd,grey]
+PUSHB_1
+ 34
+SRP0
+PUSHB_1
+ 41
+MDRP[rp0,min,rnd,grey]
+IUP[y]
+IUP[x]
+PUSHB_1
+ 10
+CALL
+IF
+SVTCA[x-axis]
+PUSHB_5
+ 40
+ 3
+ 56
+ 3
+ 2
+DELTAP1
+PUSHB_3
+ 104
+ 11
+ 1
+DELTAP1
+PUSHB_3
+ 122
+ 11
+ 1
+DELTAP1
+PUSHB_3
+ 106
+ 12
+ 1
+DELTAP1
+PUSHB_3
+ 106
+ 22
+ 1
+DELTAP1
+PUSHB_3
+ 2
+ 27
+ 1
+DELTAP1
+PUSHB_5
+ 38
+ 27
+ 54
+ 27
+ 2
+DELTAP1
+PUSHB_3
+ 23
+ 27
+ 1
+DELTAP1
+PUSHB_3
+ 71
+ 31
+ 1
+DELTAP1
+PUSHB_3
+ 70
+ 32
+ 1
+DELTAP1
+PUSHB_5
+ 100
+ 44
+ 116
+ 44
+ 2
+DELTAP1
+EIF
+SVTCA[y-axis]
+PUSHB_5
+ 37
+ 3
+ 53
+ 3
+ 2
+DELTAP1
+PUSHB_3
+ 102
+ 11
+ 1
+DELTAP1
+PUSHB_3
+ 120
+ 11
+ 1
+DELTAP1
+PUSHB_3
+ 103
+ 12
+ 1
+DELTAP1
+PUSHB_3
+ 52
+ 27
+ 1
+DELTAP1
+PUSHB_5
+ 21
+ 27
+ 37
+ 27
+ 2
+DELTAP1
+PUSHB_3
+ 7
+ 27
+ 1
+DELTAP1
+PUSHB_3
+ 75
+ 31
+ 1
+DELTAP1
+PUSHB_3
+ 74
+ 32
+ 1
+DELTAP1
+PUSHB_3
+ 116
+ 44
+ 1
+DELTAP1
+PUSHB_3
+ 101
+ 44
+ 1
+DELTAP1
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+204 35 m 0,0,1
+ 245 35 245 35 277 51.5 c 128,-1,2
+ 309 68 309 68 330.5 95 c 128,-1,3
+ 352 122 352 122 363 156.5 c 128,-1,4
+ 374 191 374 191 373 227 c 1,5,6
+ 374 288 374 288 340.5 313.5 c 128,-1,7
+ 307 339 307 339 246 339 c 2,8,-1
+ 186 339 l 1,9,-1
+ 187 364 l 1,10,-1
+ 399 591 l 1,11,-1
+ 444 626 l 1,12,-1
+ 444 630 l 1,13,-1
+ 390 624 l 1,14,-1
+ 228 624 l 1,15,-1
+ 167 522 l 1,16,-1
+ 142 522 l 1,17,18
+ 143 565 143 565 146.5 614.5 c 128,-1,19
+ 150 664 150 664 158 700 c 1,20,-1
+ 544 700 l 1,21,-1
+ 543 669 l 1,22,-1
+ 337 446 l 1,23,-1
+ 278 402 l 1,24,-1
+ 278 400 l 1,25,-1
+ 313 407 l 1,26,27
+ 394 400 394 400 431.5 359 c 128,-1,28
+ 469 318 469 318 469 245 c 0,29,30
+ 469 194 469 194 452.5 147 c 128,-1,31
+ 436 100 436 100 401 65 c 128,-1,32
+ 366 30 366 30 311 9 c 128,-1,33
+ 256 -12 256 -12 178 -12 c 0,34,35
+ 155 -12 155 -12 129.5 -8.5 c 128,-1,36
+ 104 -5 104 -5 80.5 2 c 128,-1,37
+ 57 9 57 9 37.5 18 c 128,-1,38
+ 18 27 18 27 6 39 c 1,39,-1
+ 52 129 l 1,40,-1
+ 72 129 l 1,41,42
+ 77 122 77 122 85 111 c 128,-1,43
+ 93 100 93 100 102 88 c 128,-1,44
+ 111 76 111 76 119.5 64 c 128,-1,45
+ 128 52 128 52 134 43 c 1,46,47
+ 144 41 144 41 161 38 c 128,-1,48
+ 178 35 178 35 204 35 c 0,0,1
+EndSplineSet
+Substitution2: "'sups' Superscript lookup 13 subtable" threesuperior
+Substitution2: "'sinf' Scientific Inferiors lookup 6 subtable" uni2083
+Substitution2: "'subs' Subscript lookup 5 subtable" uni2083
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" uni2083 threesuperior
+EndChar

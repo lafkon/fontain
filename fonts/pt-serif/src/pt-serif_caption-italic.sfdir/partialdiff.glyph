@@ -1,0 +1,132 @@
+
+StartChar: partialdiff
+Encoding: 8706 8706 572
+Width: 600
+Flags: W
+TtInstrs:
+PUSHW_4
+ 40
+ 10
+ 0
+ 4
+CALL
+PUSHW_4
+ 27
+ 10
+ 8
+ 4
+CALL
+NPUSHW
+ 3
+ 31
+ 0
+ 1
+DELTAP1
+NPUSHW
+ 3
+ 31
+ 8
+ 1
+DELTAP1
+NPUSHW
+ 3
+ 31
+ 27
+ 1
+DELTAP1
+PUSHW_3
+ 17
+ 0
+ 27
+SRP1
+SRP2
+IP
+PUSHW_1
+ 17
+MDAP[rnd]
+NPUSHW
+ 3
+ 31
+ 40
+ 1
+DELTAP1
+PUSHW_1
+ 8
+SRP0
+PUSHW_1
+ 50
+MDRP[rp0,grey]
+SVTCA[y-axis]
+PUSHW_1
+ 0
+RCVT
+IF
+PUSHW_1
+ 22
+MDAP[rnd]
+ELSE
+PUSHW_2
+ 22
+ 38
+MIAP[no-rnd]
+EIF
+PUSHW_1
+ 0
+RCVT
+IF
+PUSHW_1
+ 5
+MDAP[rnd]
+ELSE
+PUSHW_2
+ 5
+ 32
+MIAP[no-rnd]
+EIF
+PUSHW_1
+ 0
+RCVT
+IF
+PUSHW_1
+ 32
+MDAP[rnd]
+ELSE
+PUSHW_2
+ 32
+ 18
+MIAP[no-rnd]
+EIF
+PUSHW_1
+ 22
+SRP0
+PUSHW_2
+ 13
+ 4
+MIRP[rp0,rnd,grey]
+PUSHW_1
+ 22
+SRP0
+PUSHW_1
+ 16
+MDRP[rp0,min,rnd,grey]
+PUSHW_1
+ 5
+SRP0
+PUSHW_2
+ 35
+ 2
+MIRP[rp0,rnd,grey]
+PUSHW_1
+ 32
+SRP0
+PUSHW_2
+ 45
+ 2
+MIRP[rp0,rnd,grey]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+Refer: 365 1076 N 1 0 0 1 10 0 2
+EndChar

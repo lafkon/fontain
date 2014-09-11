@@ -1,0 +1,80 @@
+
+StartChar: uni04BA
+Encoding: 1210 1210 461
+Width: 748
+Flags: W
+TtInstrs:
+NPUSHW
+ 3
+ 143
+ 27
+ 1
+DELTAP1
+NPUSHW
+ 3
+ 127
+ 28
+ 1
+DELTAP2
+NPUSHW
+ 3
+ 79
+ 28
+ 1
+DELTAP1
+NPUSHW
+ 3
+ 79
+ 28
+ 1
+DELTAP2
+NPUSHW
+ 3
+ 223
+ 28
+ 1
+DELTAP1
+SVTCA[y-axis]
+PUSHW_1
+ 0
+RCVT
+IF
+PUSHW_1
+ 17
+MDAP[rnd]
+ELSE
+PUSHW_2
+ 17
+ 16
+MIAP[no-rnd]
+EIF
+PUSHW_1
+ 16
+MDRP[rp0,grey]
+PUSHW_1
+ 20
+MDRP[rp0,grey]
+PUSHW_1
+ 29
+MDRP[rp0,grey]
+PUSHW_1
+ 17
+SRP0
+PUSHW_1
+ 30
+MDRP[rp0,grey]
+PUSHW_1
+ 29
+SRP0
+PUSHW_1
+ 33
+MDRP[rp0,grey]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+Refer: 352 1063 N -0.999939 0 0 -0.999939 748 700 2
+Kerns2: 675 -90 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
+EndChar

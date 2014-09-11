@@ -1,0 +1,50 @@
+
+StartChar: quotedbl
+Encoding: 34 34 5
+Width: 533
+Flags: W
+TtInstrs:
+PUSHW_1
+ 15
+MDAP[rnd]
+PUSHW_1
+ 0
+MDRP[rp0,min,rnd,grey]
+SVTCA[y-axis]
+PUSHW_1
+ 0
+RCVT
+IF
+PUSHW_1
+ 12
+MDAP[rnd]
+ELSE
+PUSHW_2
+ 12
+ 20
+MIAP[no-rnd]
+EIF
+PUSHW_1
+ 0
+RCVT
+IF
+PUSHW_1
+ 3
+MDAP[rnd]
+ELSE
+PUSHW_2
+ 3
+ 20
+MIAP[no-rnd]
+EIF
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+Refer: 10 39 N 1 0 0 1 221 0 2
+Refer: 10 39 N 1 0 0 1 0 0 2
+Kerns2: 365 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 12 subtable" uniF635
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uniF635
+EndChar

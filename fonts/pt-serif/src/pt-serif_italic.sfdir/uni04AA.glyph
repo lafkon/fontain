@@ -1,0 +1,252 @@
+
+StartChar: uni04AA
+Encoding: 1194 1194 445
+Width: 635
+Flags: W
+TtInstrs:
+PUSHB_1
+ 10
+CALL
+IF
+PUSHB_3
+ 26
+ 18
+ 3
+CALL
+PUSHB_1
+ 18
+SRP0
+PUSHB_1
+ 4
+MDRP[rp0,min,rnd,grey]
+PUSHB_3
+ 16
+ 4
+ 1
+DELTAP1
+PUSHB_1
+ 18
+SRP0
+PUSHB_1
+ 7
+MDRP[rp0,min,rnd,grey]
+PUSHB_3
+ 32
+ 7
+ 1
+DELTAP1
+PUSHB_2
+ 13
+ 9
+MIRP[rp0,rnd,grey]
+PUSHB_5
+ 16
+ 26
+ 32
+ 26
+ 2
+DELTAP1
+PUSHB_5
+ 96
+ 26
+ 112
+ 26
+ 2
+DELTAP1
+PUSHB_3
+ 64
+ 26
+ 1
+DELTAP1
+PUSHB_1
+ 26
+SRP0
+PUSHB_2
+ 33
+ 10
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 18
+SRP0
+PUSHB_2
+ 41
+ 12
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 4
+SRP0
+PUSHB_2
+ 49
+ 8
+MIRP[rp0,rnd,grey]
+EIF
+SVTCA[y-axis]
+PUSHB_1
+ 10
+MDAP[rnd]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 23
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 23
+ 33
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 7
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 7
+ 15
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+MDRP[rp0,min,rnd,grey]
+PUSHB_1
+ 7
+SRP0
+PUSHB_1
+ 13
+MDRP[rp0,grey]
+PUSHB_1
+ 23
+SRP0
+PUSHB_1
+ 31
+MDRP[rp0,min,rnd,grey]
+PUSHB_1
+ 23
+SRP0
+PUSHB_2
+ 36
+ 2
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 7
+SRP0
+PUSHB_2
+ 46
+ 2
+MIRP[rp0,rnd,grey]
+IUP[y]
+IUP[x]
+PUSHB_1
+ 10
+CALL
+IF
+SVTCA[x-axis]
+PUSHB_3
+ 71
+ 20
+ 1
+DELTAP1
+PUSHB_3
+ 55
+ 21
+ 1
+DELTAP1
+PUSHB_3
+ 83
+ 39
+ 1
+DELTAP1
+PUSHB_3
+ 36
+ 39
+ 1
+DELTAP1
+PUSHB_3
+ 118
+ 43
+ 1
+DELTAP1
+PUSHB_3
+ 103
+ 43
+ 1
+DELTAP1
+EIF
+SVTCA[y-axis]
+PUSHB_3
+ 66
+ 20
+ 1
+DELTAP1
+PUSHB_3
+ 52
+ 21
+ 1
+DELTAP1
+PUSHB_3
+ 35
+ 43
+ 1
+DELTAP1
+PUSHB_5
+ 99
+ 43
+ 115
+ 43
+ 2
+DELTAP1
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+557 182 m 1,0,-1
+ 582 182 l 1,1,2
+ 582 154 582 154 576.5 111.5 c 128,-1,3
+ 571 69 571 69 560 29 c 1,4,5
+ 525 9 525 9 480.5 -0.5 c 128,-1,6
+ 436 -10 436 -10 395 -12 c 1,7,8
+ 369 -97 369 -97 324 -191 c 1,9,-1
+ 298 -191 l 1,10,11
+ 298 -144 298 -144 299 -98 c 128,-1,12
+ 300 -52 300 -52 304 -7 c 1,13,14
+ 239 3 239 3 194 30 c 128,-1,15
+ 149 57 149 57 120.5 93.5 c 128,-1,16
+ 92 130 92 130 79 173 c 128,-1,17
+ 66 216 66 216 66 258 c 0,18,19
+ 66 360 66 360 95 443.5 c 128,-1,20
+ 124 527 124 527 177.5 586.5 c 128,-1,21
+ 231 646 231 646 307.5 679 c 128,-1,22
+ 384 712 384 712 480 712 c 0,23,24
+ 546 712 546 712 592 703 c 128,-1,25
+ 638 694 638 694 669 678 c 1,26,27
+ 666 662 666 662 660.5 640.5 c 128,-1,28
+ 655 619 655 619 647.5 595 c 128,-1,29
+ 640 571 640 571 632 548 c 128,-1,30
+ 624 525 624 525 617 506 c 1,31,-1
+ 591 506 l 1,32,-1
+ 570 650 l 1,33,34
+ 557 655 557 655 530.5 657.5 c 128,-1,35
+ 504 660 504 660 479 660 c 0,36,37
+ 413 660 413 660 357 634.5 c 128,-1,38
+ 301 609 301 609 260 559 c 128,-1,39
+ 219 509 219 509 196 434 c 128,-1,40
+ 173 359 173 359 173 260 c 0,41,42
+ 173 198 173 198 194.5 155.5 c 128,-1,43
+ 216 113 216 113 248.5 87 c 128,-1,44
+ 281 61 281 61 319 50.5 c 128,-1,45
+ 357 40 357 40 391 40 c 256,46,47
+ 425 40 425 40 448.5 46 c 128,-1,48
+ 472 52 472 52 483 59 c 1,49,-1
+ 557 182 l 1,0,-1
+EndSplineSet
+Kerns2: 544 -23 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  367 -1 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+Substitution2: "'locl' Localized Forms in Cyrillic lookup 11 subtable" uni04AA.alt02
+Substitution2: "'locl' Localized Forms in Cyrillic lookup 10 subtable" uni04AA.alt
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" uni04AA.alt02 uni04AA.alt
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
+EndChar

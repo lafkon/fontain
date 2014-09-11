@@ -1,0 +1,126 @@
+
+StartChar: uniF6D0
+Encoding: 63184 63184 688
+Width: 568
+Flags: W
+TtInstrs:
+PUSHB_1
+ 10
+CALL
+IF
+PUSHB_1
+ 0
+MDAP[rnd]
+PUSHB_3
+ 47
+ 0
+ 1
+DELTAP1
+PUSHB_3
+ 0
+ 0
+ 1
+DELTAP2
+PUSHB_1
+ 2
+MDRP[rp0,min,rnd,grey]
+PUSHB_3
+ 64
+ 2
+ 1
+DELTAP1
+PUSHB_3
+ 112
+ 2
+ 1
+DELTAP1
+PUSHB_3
+ 16
+ 2
+ 1
+DELTAP1
+PUSHB_3
+ 32
+ 2
+ 1
+DELTAP2
+EIF
+SVTCA[y-axis]
+PUSHB_1
+ 3
+MDAP[rnd]
+PUSHB_3
+ 111
+ 3
+ 1
+DELTAP1
+PUSHB_3
+ 191
+ 3
+ 1
+DELTAP2
+PUSHB_3
+ 31
+ 3
+ 1
+DELTAP2
+PUSHB_5
+ 111
+ 3
+ 127
+ 3
+ 2
+DELTAP2
+PUSHB_3
+ 79
+ 3
+ 1
+DELTAP3
+PUSHB_5
+ 63
+ 3
+ 79
+ 3
+ 2
+DELTAP2
+PUSHB_3
+ 223
+ 3
+ 1
+DELTAP1
+PUSHB_7
+ 143
+ 3
+ 159
+ 3
+ 175
+ 3
+ 3
+DELTAP1
+PUSHB_3
+ 63
+ 3
+ 1
+DELTAP1
+PUSHB_3
+ 15
+ 3
+ 1
+DELTAP1
+PUSHB_2
+ 2
+ 4
+MIRP[rp0,rnd,grey]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+220 787 m 1,0,-1
+ 232 851 l 1,1,-1
+ 572 851 l 1,2,-1
+ 560 787 l 1,3,-1
+ 220 787 l 1,0,-1
+EndSplineSet
+EndChar

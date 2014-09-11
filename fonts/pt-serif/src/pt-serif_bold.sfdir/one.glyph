@@ -1,0 +1,133 @@
+
+StartChar: one
+Encoding: 49 49 20
+Width: 565
+Flags: W
+TtInstrs:
+PUSHB_1
+ 10
+CALL
+IF
+PUSHB_1
+ 5
+MDAP[rnd]
+PUSHB_3
+ 0
+ 5
+ 1
+DELTAP1
+PUSHB_1
+ 2
+MDRP[rp0,grey]
+PUSHB_1
+ 2
+MDAP[rnd]
+PUSHB_1
+ 5
+SRP0
+PUSHB_1
+ 11
+MDRP[rp0,grey]
+PUSHB_1
+ 11
+MDAP[rnd]
+PUSHB_1
+ 5
+SRP0
+PUSHB_2
+ 16
+ 6
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 19
+MDRP[rp0,grey]
+PUSHB_1
+ 19
+MDAP[rnd]
+EIF
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 14
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 14
+ 17
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 1
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 1
+ 9
+MIAP[no-rnd]
+EIF
+PUSHB_2
+ 2
+ 5
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 14
+SRP0
+PUSHB_1
+ 10
+MDRP[rp0,grey]
+PUSHB_1
+ 10
+MDAP[rnd]
+PUSHB_3
+ 7
+ 10
+ 14
+SRP1
+SRP2
+IP
+PUSHB_1
+ 11
+MDRP[rp0,grey]
+PUSHB_1
+ 2
+SRP0
+PUSHB_1
+ 19
+MDRP[rp0,grey]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+466 0 m 1,0,-1
+ 120 0 l 1,1,-1
+ 120 43 l 1,2,3
+ 145 54 145 54 170.5 62.5 c 128,-1,4
+ 196 71 196 71 222 77 c 1,5,-1
+ 222 536 l 1,6,-1
+ 226 595 l 1,7,8
+ 198 586 198 586 168 583 c 128,-1,9
+ 138 580 138 580 106 581 c 1,10,-1
+ 101 618 l 1,11,12
+ 154 632 154 632 216.5 656 c 128,-1,13
+ 279 680 279 680 332 712 c 1,14,-1
+ 366 712 l 1,15,-1
+ 366 77 l 1,16,17
+ 391 71 391 71 416 62.5 c 128,-1,18
+ 441 54 441 54 466 43 c 1,19,-1
+ 466 0 l 1,0,-1
+EndSplineSet
+Substitution2: "'sups' Superscript lookup 13 subtable" onesuperior
+Substitution2: "'sinf' Scientific Inferiors lookup 6 subtable" uni2081
+Substitution2: "'subs' Subscript lookup 5 subtable" uni2081
+Substitution2: "'numr' Numerators lookup 4 subtable" one.numerator
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" one.numerator uni2081 onesuperior
+EndChar

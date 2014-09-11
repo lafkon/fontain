@@ -1,0 +1,122 @@
+
+StartChar: afii10098
+Encoding: 1169 1169 420
+Width: 444
+Flags: W
+TtInstrs:
+PUSHB_1
+ 10
+CALL
+IF
+PUSHB_3
+ 2
+ 10
+ 3
+CALL
+PUSHB_1
+ 2
+SRP0
+PUSHB_1
+ 1
+MDRP[rp0,min,rnd,grey]
+PUSHB_1
+ 10
+SRP0
+PUSHB_2
+ 9
+ 6
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 8
+MDRP[rp0,grey]
+PUSHB_1
+ 10
+SRP0
+PUSHB_1
+ 11
+MDRP[rp0,grey]
+PUSHB_1
+ 14
+MDRP[rp0,grey]
+PUSHB_1
+ 14
+MDAP[rnd]
+PUSHB_3
+ 15
+ 14
+ 1
+DELTAP1
+EIF
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 15
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 15
+ 18
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 9
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 9
+ 12
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 15
+SRP0
+PUSHB_1
+ 1
+MDRP[rp0,grey]
+PUSHB_1
+ 1
+MDAP[rnd]
+PUSHB_1
+ 15
+SRP0
+PUSHB_2
+ 8
+ 3
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 15
+SRP0
+PUSHB_2
+ 14
+ 4
+MIRP[rp0,rnd,grey]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+374 500 m 1,0,-1
+ 457 638 l 1,1,-1
+ 498 638 l 1,2,3
+ 497 616 497 616 495 588.5 c 128,-1,4
+ 493 561 493 561 489.5 533.5 c 128,-1,5
+ 486 506 486 506 481.5 480.5 c 128,-1,6
+ 477 455 477 455 473 437 c 1,7,-1
+ 272 437 l 1,8,-1
+ 178 0 l 1,9,-1
+ 34 0 l 1,10,-1
+ 127 433 l 1,11,12
+ 110 436 110 436 93.5 444 c 128,-1,13
+ 77 452 77 452 66 461 c 1,14,-1
+ 67 500 l 1,15,-1
+ 374 500 l 1,0,-1
+EndSplineSet
+EndChar

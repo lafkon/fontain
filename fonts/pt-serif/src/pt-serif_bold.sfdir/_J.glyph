@@ -1,0 +1,108 @@
+
+StartChar: J
+Encoding: 74 74 45
+Width: 365
+Flags: W
+TtInstrs:
+PUSHB_1
+ 10
+CALL
+IF
+PUSHB_1
+ 17
+MDAP[rnd]
+PUSHB_2
+ 6
+ 8
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 2
+MDRP[rp0,grey]
+PUSHB_1
+ 2
+MDAP[rnd]
+PUSHB_1
+ 17
+SRP0
+PUSHB_1
+ 12
+MDRP[rp0,grey]
+PUSHB_1
+ 12
+MDAP[rnd]
+PUSHB_1
+ 11
+MDRP[rp0,grey]
+PUSHB_1
+ 17
+SRP0
+PUSHB_1
+ 21
+MDRP[rp0,grey]
+PUSHB_1
+ 21
+MDAP[rnd]
+PUSHB_3
+ 15
+ 23
+ 1
+DELTAP1
+EIF
+SVTCA[y-axis]
+PUSHB_1
+ 11
+MDAP[rnd]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 0
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 0
+ 17
+MIAP[no-rnd]
+EIF
+PUSHB_2
+ 21
+ 5
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 2
+MDRP[rp0,grey]
+PUSHB_1
+ 11
+SRP0
+PUSHB_1
+ 12
+MDRP[rp0,grey]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+27 700 m 1,0,-1
+ 335 700 l 1,1,-1
+ 335 662 l 1,2,3
+ 319 652 319 652 299 644 c 128,-1,4
+ 279 636 279 636 259 633 c 1,5,-1
+ 259 121 l 2,6,7
+ 259 39 259 39 234.5 -13.5 c 128,-1,8
+ 210 -66 210 -66 176.5 -96.5 c 128,-1,9
+ 143 -127 143 -127 108 -141 c 128,-1,10
+ 73 -155 73 -155 51 -160 c 1,11,-1
+ 32 -134 l 1,12,13
+ 47 -122 47 -122 61 -103.5 c 128,-1,14
+ 75 -85 75 -85 85.5 -56 c 128,-1,15
+ 96 -27 96 -27 102.5 14.5 c 128,-1,16
+ 109 56 109 56 109 115 c 2,17,-1
+ 109 633 l 1,18,19
+ 87 638 87 638 65.5 644.5 c 128,-1,20
+ 44 651 44 651 27 662 c 1,21,-1
+ 27 700 l 1,0,-1
+EndSplineSet
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
+EndChar

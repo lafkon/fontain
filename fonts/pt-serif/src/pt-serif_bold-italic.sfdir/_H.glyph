@@ -1,0 +1,299 @@
+
+StartChar: H
+Encoding: 72 72 43
+Width: 766
+Flags: W
+TtInstrs:
+PUSHB_1
+ 10
+CALL
+IF
+PUSHB_3
+ 27
+ 5
+ 3
+CALL
+PUSHB_1
+ 5
+SRP0
+PUSHB_1
+ 1
+MDRP[rp0,grey]
+PUSHB_1
+ 1
+MDAP[rnd]
+PUSHB_1
+ 5
+SRP0
+PUSHB_1
+ 6
+MDRP[rp0,grey]
+PUSHB_1
+ 9
+MDRP[rp0,grey]
+PUSHB_1
+ 9
+MDAP[rnd]
+PUSHB_1
+ 5
+SRP0
+PUSHB_2
+ 39
+ 7
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 15
+MDRP[rp0,grey]
+PUSHB_1
+ 11
+MDRP[rp0,grey]
+PUSHB_1
+ 11
+MDAP[rnd]
+PUSHB_3
+ 0
+ 11
+ 1
+DELTAP1
+PUSHB_3
+ 16
+ 15
+ 39
+SRP1
+SRP2
+IP
+PUSHB_1
+ 27
+SRP0
+PUSHB_2
+ 36
+ 7
+MIRP[rp0,rnd,grey]
+PUSHB_3
+ 15
+ 36
+ 1
+DELTAP1
+PUSHB_1
+ 18
+MDRP[rp0,grey]
+PUSHB_3
+ 17
+ 18
+ 36
+SRP1
+SRP2
+IP
+PUSHB_1
+ 20
+MDRP[rp0,grey]
+PUSHB_1
+ 20
+MDAP[rnd]
+PUSHB_3
+ 0
+ 20
+ 1
+DELTAP1
+PUSHB_1
+ 27
+SRP0
+PUSHB_1
+ 26
+MDRP[rp0,grey]
+PUSHB_1
+ 22
+MDRP[rp0,grey]
+PUSHB_1
+ 22
+MDAP[rnd]
+PUSHB_1
+ 27
+SRP0
+PUSHB_1
+ 30
+MDRP[rp0,grey]
+PUSHB_1
+ 30
+MDAP[rnd]
+PUSHB_1
+ 36
+SRP0
+PUSHB_1
+ 32
+MDRP[rp0,grey]
+PUSHB_1
+ 32
+MDAP[rnd]
+PUSHB_3
+ 15
+ 32
+ 1
+DELTAP1
+PUSHB_3
+ 37
+ 36
+ 18
+SRP1
+SRP2
+IP
+PUSHB_3
+ 38
+ 39
+ 15
+SRP1
+SRP2
+IP
+PUSHB_1
+ 39
+SRP0
+PUSHB_1
+ 41
+MDRP[rp0,grey]
+PUSHB_1
+ 41
+MDAP[rnd]
+EIF
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 10
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 10
+ 20
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 1
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 1
+ 12
+MIAP[no-rnd]
+EIF
+PUSHB_2
+ 2
+ 4
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 10
+SRP0
+PUSHB_2
+ 9
+ 4
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 12
+MDRP[rp0,grey]
+PUSHB_3
+ 16
+ 10
+ 1
+SRP1
+SRP2
+IP
+PUSHB_1
+ 16
+MDAP[rnd]
+PUSHB_3
+ 47
+ 16
+ 1
+DELTAP1
+PUSHB_1
+ 12
+SRP0
+PUSHB_1
+ 20
+MDRP[rp0,grey]
+PUSHB_1
+ 10
+SRP0
+PUSHB_1
+ 21
+MDRP[rp0,grey]
+PUSHB_1
+ 20
+SRP0
+PUSHB_1
+ 23
+MDRP[rp0,grey]
+PUSHB_1
+ 2
+SRP0
+PUSHB_1
+ 41
+MDRP[rp0,grey]
+PUSHB_1
+ 33
+MDRP[rp0,grey]
+PUSHB_1
+ 30
+MDRP[rp0,grey]
+PUSHB_1
+ 1
+SRP0
+PUSHB_1
+ 32
+MDRP[rp0,grey]
+PUSHB_1
+ 16
+SRP0
+PUSHB_2
+ 38
+ 3
+MIRP[rp0,rnd,grey]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+279 0 m 1,0,-1
+ -24 0 l 1,1,-1
+ -17 38 l 1,2,3
+ 3 48 3 48 26.5 55.5 c 128,-1,4
+ 50 63 50 63 72 67 c 1,5,-1
+ 192 633 l 1,6,7
+ 169 637 169 637 149 645 c 128,-1,8
+ 129 653 129 653 116 662 c 1,9,-1
+ 124 700 l 1,10,-1
+ 427 700 l 1,11,-1
+ 419 662 l 1,12,13
+ 404 651 404 651 383 644 c 128,-1,14
+ 362 637 362 637 342 633 c 1,15,-1
+ 290 391 l 1,16,-1
+ 555 391 l 1,17,-1
+ 607 633 l 1,18,19
+ 564 644 564 644 542 662 c 1,20,-1
+ 550 700 l 1,21,-1
+ 853 700 l 1,22,-1
+ 845 662 l 1,23,24
+ 826 651 826 651 802.5 643.5 c 128,-1,25
+ 779 636 779 636 757 633 c 1,26,-1
+ 637 67 l 1,27,28
+ 659 63 659 63 678.5 55 c 128,-1,29
+ 698 47 698 47 712 38 c 1,30,-1
+ 705 0 l 1,31,-1
+ 402 0 l 1,32,-1
+ 409 38 l 1,33,34
+ 426 47 426 47 446 55 c 128,-1,35
+ 466 63 466 63 487 67 c 1,36,-1
+ 541 326 l 1,37,-1
+ 276 326 l 1,38,-1
+ 222 67 l 1,39,40
+ 256 60 256 60 286 38 c 1,41,-1
+ 279 0 l 1,0,-1
+EndSplineSet
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
+EndChar

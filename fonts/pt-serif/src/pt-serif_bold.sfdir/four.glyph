@@ -1,0 +1,193 @@
+
+StartChar: four
+Encoding: 52 52 23
+Width: 565
+Flags: W
+TtInstrs:
+PUSHB_1
+ 10
+CALL
+IF
+PUSHB_3
+ 14
+ 7
+ 3
+CALL
+PUSHB_1
+ 14
+SRP0
+PUSHB_2
+ 4
+ 6
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 2
+MDRP[rp0,grey]
+PUSHB_1
+ 2
+MDAP[rnd]
+PUSHB_1
+ 14
+SRP0
+PUSHB_1
+ 10
+MDRP[rp0,grey]
+PUSHB_1
+ 4
+SRP0
+PUSHB_1
+ 24
+MDRP[rp0,grey]
+PUSHB_3
+ 8
+ 10
+ 24
+SRP1
+SRP2
+IP
+PUSHB_1
+ 10
+SRP0
+PUSHB_1
+ 11
+MDRP[rp0,grey]
+PUSHB_1
+ 11
+MDAP[rnd]
+PUSHB_3
+ 0
+ 11
+ 1
+DELTAP1
+PUSHB_1
+ 14
+SRP0
+PUSHB_1
+ 16
+MDRP[rp0,grey]
+PUSHB_1
+ 16
+MDAP[rnd]
+PUSHB_1
+ 7
+SRP0
+PUSHB_1
+ 22
+MDRP[rp0,grey]
+EIF
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 8
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 8
+ 17
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 1
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 1
+ 9
+MIAP[no-rnd]
+EIF
+PUSHB_2
+ 2
+ 5
+MIRP[rp0,rnd,grey]
+PUSHB_3
+ 24
+ 8
+ 1
+SRP1
+SRP2
+IP
+PUSHB_1
+ 24
+MDAP[rnd]
+PUSHB_3
+ 15
+ 24
+ 1
+DELTAP1
+PUSHB_2
+ 5
+ 2
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 24
+SRP0
+PUSHB_1
+ 7
+MDRP[rp0,grey]
+PUSHB_1
+ 24
+SRP0
+PUSHB_1
+ 10
+MDRP[rp0,grey]
+PUSHB_1
+ 5
+SRP0
+PUSHB_1
+ 13
+MDRP[rp0,grey]
+PUSHB_1
+ 2
+SRP0
+PUSHB_1
+ 16
+MDRP[rp0,grey]
+PUSHB_1
+ 8
+SRP0
+PUSHB_1
+ 18
+MDRP[rp0,grey]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+513 0 m 1,0,-1
+ 204 0 l 1,1,-1
+ 204 43 l 1,2,3
+ 253 60 253 60 296 67 c 1,4,-1
+ 296 180 l 1,5,-1
+ 0 180 l 1,6,-1
+ 0 225 l 1,7,-1
+ 383 712 l 1,8,-1
+ 437 712 l 1,9,-1
+ 437 245 l 1,10,-1
+ 560 245 l 1,11,-1
+ 560 180 l 1,12,-1
+ 437 180 l 1,13,-1
+ 437 67 l 1,14,15
+ 476 59 476 59 513 43 c 1,16,-1
+ 513 0 l 1,0,-1
+296 458 m 1,17,-1
+ 306 528 l 1,18,-1
+ 303 528 l 1,19,-1
+ 265 458 l 1,20,-1
+ 120 271 l 1,21,-1
+ 80 238 l 1,22,-1
+ 151 245 l 1,23,-1
+ 296 245 l 1,24,-1
+ 296 458 l 1,17,-1
+EndSplineSet
+Substitution2: "'sinf' Scientific Inferiors lookup 6 subtable" uni2084
+Substitution2: "'subs' Subscript lookup 5 subtable" uni2084
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uni2084
+EndChar

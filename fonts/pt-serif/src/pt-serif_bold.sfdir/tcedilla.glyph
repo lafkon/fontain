@@ -1,0 +1,269 @@
+
+StartChar: tcedilla
+Encoding: 355 355 273
+Width: 399
+Flags: W
+TtInstrs:
+PUSHB_1
+ 10
+CALL
+IF
+PUSHB_1
+ 43
+MDAP[rnd]
+PUSHB_3
+ 144
+ 43
+ 1
+DELTAP1
+PUSHB_1
+ 2
+MDRP[rp0,grey]
+PUSHB_1
+ 43
+SRP0
+PUSHB_2
+ 12
+ 6
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 8
+MDRP[rp0,grey]
+PUSHB_1
+ 9
+MDRP[rp0,grey]
+PUSHB_1
+ 9
+MDAP[rnd]
+PUSHB_1
+ 43
+SRP0
+PUSHB_1
+ 19
+MDRP[rp0,min,rnd,grey]
+PUSHB_3
+ 35
+ 43
+ 12
+SRP1
+SRP2
+IP
+PUSHB_1
+ 35
+MDAP[rnd]
+PUSHB_3
+ 0
+ 35
+ 1
+DELTAP1
+PUSHB_1
+ 40
+MDRP[rp0,grey]
+PUSHB_1
+ 40
+MDAP[rnd]
+PUSHB_3
+ 15
+ 40
+ 1
+DELTAP1
+PUSHB_1
+ 26
+MDRP[rp0,grey]
+PUSHB_1
+ 25
+MDRP[rp0,grey]
+PUSHB_1
+ 35
+SRP0
+PUSHB_1
+ 29
+MDRP[rp0,min,rnd,grey]
+PUSHB_1
+ 37
+MDRP[rp0,min,rnd,grey]
+PUSHB_1
+ 40
+SRP0
+PUSHB_1
+ 41
+MDRP[rp0,grey]
+PUSHB_1
+ 2
+SRP0
+PUSHB_1
+ 45
+MDRP[rp0,grey]
+PUSHB_1
+ 45
+MDAP[rnd]
+PUSHB_3
+ 15
+ 45
+ 1
+DELTAP1
+PUSHB_3
+ 15
+ 46
+ 1
+DELTAP1
+EIF
+SVTCA[y-axis]
+PUSHB_1
+ 34
+MDAP[rnd]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 8
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 8
+ 15
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 25
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 25
+ 9
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 8
+SRP0
+PUSHB_2
+ 11
+ 2
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 44
+MDRP[rp0,grey]
+PUSHB_2
+ 0
+ 5
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 8
+SRP0
+PUSHB_1
+ 7
+MDRP[rp0,min,rnd,grey]
+PUSHB_1
+ 25
+SRP0
+PUSHB_2
+ 15
+ 3
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 25
+SRP0
+PUSHB_1
+ 18
+MDRP[rp0,grey]
+PUSHB_1
+ 18
+MDAP[rnd]
+PUSHB_1
+ 19
+MDRP[rp0,grey]
+PUSHB_3
+ 26
+ 25
+ 34
+SRP1
+SRP2
+IP
+PUSHB_1
+ 26
+MDAP[rnd]
+NPUSHW
+ 9
+ 31
+ 26
+ 47
+ 26
+ 63
+ 26
+ 79
+ 26
+ 4
+DELTAP1
+PUSHB_1
+ 34
+SRP0
+PUSHB_1
+ 35
+MDRP[rp0,min,rnd,grey]
+PUSHB_1
+ 26
+SRP0
+PUSHB_1
+ 40
+MDRP[rp0,min,rnd,grey]
+PUSHB_1
+ 25
+SRP0
+PUSHB_1
+ 41
+MDRP[rp0,grey]
+IUP[y]
+IUP[x]
+PUSHB_3
+ 69
+ 27
+ 1
+DELTAP1
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+8 476 m 1,0,1
+ 46 500 46 500 88 510 c 1,2,-1
+ 88 591 l 1,3,4
+ 96 597 96 597 127.5 608.5 c 128,-1,5
+ 159 620 159 620 198 627 c 1,6,-1
+ 232 627 l 1,7,-1
+ 232 500 l 1,8,-1
+ 364 500 l 1,9,-1
+ 364 437 l 1,10,-1
+ 232 437 l 1,11,-1
+ 232 178 l 2,12,13
+ 232 116 232 116 247.5 92 c 128,-1,14
+ 263 68 263 68 299 68 c 0,15,16
+ 318 68 318 68 340 70.5 c 128,-1,17
+ 362 73 362 73 381 80 c 1,18,-1
+ 388 47 l 1,19,20
+ 372 32 372 32 336.5 14.5 c 128,-1,21
+ 301 -3 301 -3 256 -8 c 0,22,23
+ 248 -9 248 -9 241.5 -10 c 128,-1,24
+ 235 -11 235 -11 227 -11 c 1,25,-1
+ 206 -68 l 1,26,27
+ 266 -71 266 -71 297.5 -89.5 c 128,-1,28
+ 329 -108 329 -108 330 -144 c 0,29,30
+ 330 -173 330 -173 313 -194 c 128,-1,31
+ 296 -215 296 -215 268 -229 c 128,-1,32
+ 240 -243 240 -243 205 -250 c 128,-1,33
+ 170 -257 170 -257 135 -257 c 1,34,-1
+ 135 -218 l 1,35,36
+ 205 -207 205 -207 205 -161 c 1,37,38
+ 204 -138 204 -138 185.5 -128 c 128,-1,39
+ 167 -118 167 -118 132 -114 c 1,40,-1
+ 170 -6 l 1,41,42
+ 88 13 88 13 88 132 c 2,43,-1
+ 88 437 l 1,44,-1
+ 8 437 l 1,45,-1
+ 8 476 l 1,0,1
+EndSplineSet
+Substitution2: "'locl' Localized Forms in Latin lookup 9 subtable" tcommaaccent
+EndChar

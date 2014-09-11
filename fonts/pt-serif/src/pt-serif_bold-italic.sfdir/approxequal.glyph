@@ -1,0 +1,57 @@
+
+StartChar: approxequal
+Encoding: 8776 8776 580
+Width: 560
+Flags: W
+TtInstrs:
+SVTCA[y-axis]
+PUSHW_1
+ 32
+MDAP[rnd]
+NPUSHW
+ 3
+ 128
+ 32
+ 1
+DELTAP1
+NPUSHW
+ 3
+ 48
+ 32
+ 1
+DELTAP2
+NPUSHW
+ 5
+ 224
+ 32
+ 240
+ 32
+ 2
+DELTAP2
+PUSHW_1
+ 15
+MDRP[rp0,min,rnd,grey]
+NPUSHW
+ 5
+ 63
+ 15
+ 79
+ 15
+ 2
+DELTAP2
+NPUSHW
+ 5
+ 239
+ 15
+ 255
+ 15
+ 2
+DELTAP2
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+Refer: 97 126 N 1 0 0 1 -8 85 3
+Refer: 97 126 N 1 0 0 1 -8 -84 2
+EndChar

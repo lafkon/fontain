@@ -1,0 +1,158 @@
+
+StartChar: r
+Encoding: 114 114 85
+Width: 384
+Flags: W
+TtInstrs:
+PUSHB_1
+ 10
+CALL
+IF
+PUSHB_3
+ 31
+ 13
+ 3
+CALL
+PUSHB_3
+ 95
+ 13
+ 1
+DELTAP1
+PUSHB_1
+ 13
+SRP0
+PUSHB_2
+ 4
+ 4
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 13
+SRP0
+PUSHB_1
+ 15
+MDRP[rp0,grey]
+PUSHB_1
+ 15
+MDAP[rnd]
+PUSHB_1
+ 4
+SRP0
+PUSHB_1
+ 20
+MDRP[rp0,grey]
+PUSHB_3
+ 64
+ 31
+ 1
+DELTAP1
+PUSHB_3
+ 0
+ 31
+ 1
+DELTAP1
+EIF
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 19
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 19
+ 23
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 27
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 27
+ 23
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 8
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 8
+ 9
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 19
+SRP0
+PUSHB_1
+ 15
+MDRP[rp0,min,rnd,grey]
+PUSHB_3
+ 21
+ 27
+ 8
+SRP1
+SRP2
+IP
+PUSHB_1
+ 27
+SRP0
+PUSHB_1
+ 31
+MDRP[rp0,min,rnd,grey]
+IUP[y]
+IUP[x]
+PUSHB_3
+ 20
+ 0
+ 1
+DELTAP1
+PUSHB_3
+ 19
+ 24
+ 1
+DELTAP1
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+244 425 m 1,0,1
+ 233 419 233 419 216.5 400.5 c 128,-1,2
+ 200 382 200 382 187 346 c 1,3,-1
+ 187 49 l 1,4,5
+ 207 47 207 47 227 41.5 c 128,-1,6
+ 247 36 247 36 267 25 c 1,7,-1
+ 267 0 l 1,8,-1
+ 31 0 l 1,9,-1
+ 31 25 l 1,10,11
+ 49 35 49 35 65 40 c 128,-1,12
+ 81 45 81 45 97 49 c 1,13,-1
+ 97 442 l 1,14,-1
+ 31 450 l 1,15,-1
+ 31 476 l 1,16,17
+ 63 490 63 490 97 498.5 c 128,-1,18
+ 131 507 131 507 162 512 c 1,19,-1
+ 187 512 l 1,20,-1
+ 187 406 l 1,21,-1
+ 191 406 l 1,22,23
+ 200 426 200 426 216.5 446 c 128,-1,24
+ 233 466 233 466 254.5 482 c 128,-1,25
+ 276 498 276 498 301.5 506.5 c 128,-1,26
+ 327 515 327 515 354 512 c 1,27,28
+ 361 499 361 499 366.5 483.5 c 128,-1,29
+ 372 468 372 468 377 451 c 1,30,-1
+ 377 425 l 1,31,-1
+ 244 425 l 1,0,1
+EndSplineSet
+Kerns2: 670 17 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  556 -40 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  552 -40 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  549 -40 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  546 -39 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  545 -39 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  544 -39 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  292 -1 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  290 -1 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  288 -1 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  193 17 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  191 17 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  93 -1 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  92 17 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  90 11 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  89 17 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  17 -40 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  16 -39 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  15 -40 "'kern' Horizontal Kerning lookup 2 per glyph data 1" 
+EndChar

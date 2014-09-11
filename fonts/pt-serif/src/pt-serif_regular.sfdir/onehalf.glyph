@@ -1,0 +1,50 @@
+
+StartChar: onehalf
+Encoding: 189 189 127
+Width: 1004
+Flags: W
+TtInstrs:
+NPUSHW
+ 3
+ 0
+ 6
+ 1
+DELTAP1
+NPUSHW
+ 3
+ 111
+ 38
+ 1
+DELTAP1
+NPUSHW
+ 3
+ 48
+ 55
+ 1
+DELTAP1
+SVTCA[y-axis]
+PUSHW_1
+ 0
+RCVT
+IF
+PUSHW_1
+ 15
+MDAP[rnd]
+ELSE
+PUSHW_2
+ 15
+ 27
+MIAP[no-rnd]
+EIF
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+Refer: 681 63074 N 1 0 0 1 -18 0 2
+Refer: 560 8260 N 1 0 0 1 320 0 2
+Refer: 562 8322 N 1 0 0 1 553 100 2
+Ligature2: "'frac' Diagonal Fractions lookup 3 subtable" one uni2215 two
+Ligature2: "'frac' Diagonal Fractions lookup 3 subtable" one fraction two
+Ligature2: "'frac' Diagonal Fractions lookup 3 subtable" one slash two
+EndChar

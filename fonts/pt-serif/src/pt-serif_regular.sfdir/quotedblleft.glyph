@@ -1,0 +1,46 @@
+
+StartChar: quotedblleft
+Encoding: 8220 8220 550
+Width: 474
+Flags: W
+TtInstrs:
+NPUSHW
+ 7
+ 47
+ 14
+ 63
+ 14
+ 79
+ 14
+ 3
+DELTAP1
+NPUSHW
+ 7
+ 143
+ 14
+ 159
+ 14
+ 175
+ 14
+ 3
+DELTAP1
+SVTCA[y-axis]
+PUSHW_1
+ 39
+MDAP[rnd]
+PUSHW_1
+ 19
+MDRP[rp0,grey]
+PUSHW_1
+ 19
+MDAP[rnd]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+Refer: 547 8216 N 1 0 0 1 182 0 2
+Refer: 547 8216 N 1 0 0 1 0 0 2
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 12 subtable" uniF62E
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uniF62E
+EndChar

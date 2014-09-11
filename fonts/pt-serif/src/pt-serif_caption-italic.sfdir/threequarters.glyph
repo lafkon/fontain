@@ -1,0 +1,134 @@
+
+StartChar: threequarters
+Encoding: 190 190 128
+Width: 1054
+Flags: W
+TtInstrs:
+NPUSHW
+ 3
+ 143
+ 27
+ 1
+DELTAP2
+NPUSHW
+ 5
+ 63
+ 27
+ 79
+ 27
+ 2
+DELTAP1
+NPUSHW
+ 3
+ 191
+ 27
+ 1
+DELTAP1
+NPUSHW
+ 3
+ 143
+ 27
+ 1
+DELTAP1
+NPUSHW
+ 3
+ 32
+ 50
+ 1
+DELTAP2
+NPUSHW
+ 3
+ 64
+ 51
+ 1
+DELTAP1
+NPUSHW
+ 3
+ 176
+ 51
+ 1
+DELTAP1
+NPUSHW
+ 3
+ 128
+ 51
+ 1
+DELTAP1
+NPUSHW
+ 3
+ 47
+ 55
+ 1
+DELTAP1
+NPUSHW
+ 3
+ 32
+ 61
+ 1
+DELTAP2
+NPUSHW
+ 3
+ 64
+ 61
+ 1
+DELTAP1
+NPUSHW
+ 3
+ 176
+ 61
+ 1
+DELTAP1
+NPUSHW
+ 3
+ 128
+ 61
+ 1
+DELTAP1
+NPUSHW
+ 3
+ 47
+ 62
+ 1
+DELTAP1
+SVTCA[y-axis]
+PUSHW_1
+ 0
+RCVT
+IF
+PUSHW_1
+ 18
+MDAP[rnd]
+ELSE
+PUSHW_2
+ 18
+ 34
+MIAP[no-rnd]
+EIF
+PUSHW_1
+ 0
+RCVT
+IF
+PUSHW_1
+ 45
+MDAP[rnd]
+ELSE
+PUSHW_2
+ 45
+ 18
+MIAP[no-rnd]
+EIF
+PUSHW_1
+ 62
+MDRP[rp0,grey]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+Refer: 563 8323 N 1 0 0 1 68 380 2
+Refer: 560 8260 N 1 0 0 1 380 0 2
+Refer: 564 8324 N 1 0 0 1 577 98 2
+Ligature2: "'frac' Diagonal Fractions lookup 3 subtable" three uni2215 four
+Ligature2: "'frac' Diagonal Fractions lookup 3 subtable" three fraction four
+Ligature2: "'frac' Diagonal Fractions lookup 3 subtable" three slash four
+EndChar

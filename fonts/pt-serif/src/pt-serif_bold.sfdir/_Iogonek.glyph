@@ -1,0 +1,187 @@
+
+StartChar: Iogonek
+Encoding: 302 302 230
+Width: 372
+Flags: W
+TtInstrs:
+PUSHB_1
+ 10
+CALL
+IF
+PUSHB_1
+ 26
+MDAP[rnd]
+PUSHB_2
+ 37
+ 8
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 40
+MDRP[rp0,grey]
+PUSHB_1
+ 40
+MDAP[rnd]
+PUSHB_1
+ 10
+MDRP[rp0,grey]
+PUSHB_1
+ 10
+MDAP[rnd]
+PUSHB_1
+ 17
+MDRP[rp0,min,rnd,grey]
+PUSHB_3
+ 1
+ 10
+ 17
+SRP1
+SRP2
+IP
+PUSHB_1
+ 4
+MDRP[rp0,min,rnd,grey]
+PUSHB_1
+ 1
+SRP0
+PUSHB_1
+ 22
+MDRP[rp0,grey]
+PUSHB_1
+ 26
+SRP0
+PUSHB_1
+ 24
+MDRP[rp0,grey]
+PUSHB_1
+ 24
+MDAP[rnd]
+PUSHB_1
+ 30
+MDRP[rp0,grey]
+PUSHB_1
+ 40
+SRP0
+PUSHB_1
+ 33
+MDRP[rp0,grey]
+PUSHB_3
+ 15
+ 42
+ 1
+DELTAP1
+EIF
+SVTCA[y-axis]
+PUSHB_1
+ 14
+MDAP[rnd]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 31
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 31
+ 17
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 23
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 23
+ 9
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 1
+MDRP[rp0,grey]
+PUSHB_1
+ 14
+SRP0
+PUSHB_1
+ 7
+MDRP[rp0,min,rnd,grey]
+PUSHB_1
+ 14
+SRP0
+PUSHB_1
+ 10
+MDRP[rp0,grey]
+PUSHB_1
+ 10
+MDAP[rnd]
+PUSHB_1
+ 11
+MDRP[rp0,grey]
+PUSHB_1
+ 23
+SRP0
+PUSHB_2
+ 24
+ 5
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 31
+SRP0
+PUSHB_2
+ 30
+ 5
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 33
+MDRP[rp0,grey]
+PUSHB_1
+ 24
+SRP0
+PUSHB_1
+ 40
+MDRP[rp0,grey]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+342 0 m 1,0,-1
+ 306 0 l 1,1,2
+ 267 -28 267 -28 245.5 -65.5 c 128,-1,3
+ 224 -103 224 -103 224 -135 c 0,4,5
+ 224 -161 224 -161 239.5 -175 c 128,-1,6
+ 255 -189 255 -189 278 -189 c 0,7,8
+ 290 -189 290 -189 301 -188 c 128,-1,9
+ 312 -187 312 -187 324 -184 c 1,10,-1
+ 324 -227 l 1,11,12
+ 310 -238 310 -238 282.5 -246.5 c 128,-1,13
+ 255 -255 255 -255 223 -255 c 0,14,15
+ 162 -255 162 -255 129.5 -226.5 c 128,-1,16
+ 97 -198 97 -198 97 -157 c 0,17,18
+ 97 -130 97 -130 107.5 -107.5 c 128,-1,19
+ 118 -85 118 -85 136.5 -66 c 128,-1,20
+ 155 -47 155 -47 181 -31 c 128,-1,21
+ 207 -15 207 -15 238 0 c 1,22,-1
+ 30 0 l 1,23,-1
+ 30 38 l 1,24,25
+ 70 60 70 60 111 67 c 1,26,-1
+ 111 633 l 1,27,28
+ 91 636 91 636 69 644 c 128,-1,29
+ 47 652 47 652 30 662 c 1,30,-1
+ 30 700 l 1,31,-1
+ 342 700 l 1,32,-1
+ 342 662 l 1,33,34
+ 324 651 324 651 302.5 643.5 c 128,-1,35
+ 281 636 281 636 261 633 c 1,36,-1
+ 261 67 l 1,37,38
+ 281 63 281 63 302.5 56 c 128,-1,39
+ 324 49 324 49 342 38 c 1,40,-1
+ 342 0 l 1,0,-1
+EndSplineSet
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
+EndChar

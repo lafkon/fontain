@@ -1,0 +1,322 @@
+
+StartChar: A
+Encoding: 65 65 36
+Width: 674
+Flags: W
+TtInstrs:
+PUSHB_1
+ 10
+CALL
+IF
+PUSHB_3
+ 15
+ 4
+ 3
+CALL
+PUSHB_3
+ 5
+ 4
+ 1
+DELTAP1
+PUSHB_3
+ 20
+ 4
+ 1
+DELTAP1
+PUSHB_3
+ 48
+ 4
+ 1
+DELTAP1
+PUSHB_1
+ 4
+SRP0
+PUSHB_1
+ 1
+MDRP[rp0,grey]
+PUSHB_1
+ 1
+MDAP[rnd]
+PUSHB_1
+ 4
+SRP0
+PUSHB_1
+ 5
+MDRP[rp0,grey]
+PUSHB_3
+ 43
+ 5
+ 1
+DELTAP1
+PUSHB_1
+ 15
+SRP0
+PUSHB_2
+ 7
+ 10
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 6
+MDRP[rp0,grey]
+PUSHB_3
+ 43
+ 6
+ 1
+DELTAP1
+PUSHB_3
+ 26
+ 6
+ 1
+DELTAP1
+PUSHB_3
+ 9
+ 6
+ 1
+DELTAP1
+PUSHB_1
+ 7
+SRP0
+PUSHB_1
+ 10
+MDRP[rp0,grey]
+PUSHB_1
+ 10
+MDAP[rnd]
+PUSHB_1
+ 15
+SRP0
+PUSHB_1
+ 12
+MDRP[rp0,grey]
+PUSHB_1
+ 12
+MDAP[rnd]
+PUSHB_1
+ 15
+SRP0
+PUSHB_1
+ 23
+MDRP[rp0,grey]
+PUSHB_3
+ 42
+ 23
+ 1
+DELTAP1
+PUSHB_3
+ 16
+ 15
+ 23
+SRP1
+SRP2
+IP
+PUSHB_1
+ 4
+SRP0
+PUSHB_2
+ 18
+ 14
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 26
+MDRP[rp0,grey]
+PUSHB_3
+ 17
+ 18
+ 26
+SRP1
+SRP2
+IP
+PUSHB_1
+ 18
+SRP0
+PUSHB_1
+ 20
+MDRP[rp0,grey]
+PUSHB_1
+ 20
+MDAP[rnd]
+PUSHB_5
+ 15
+ 20
+ 31
+ 20
+ 2
+DELTAP1
+PUSHB_3
+ 21
+ 26
+ 18
+SRP1
+SRP2
+IP
+PUSHB_3
+ 22
+ 23
+ 15
+SRP1
+SRP2
+IP
+PUSHB_1
+ 23
+SRP0
+PUSHB_1
+ 24
+MDRP[rp0,grey]
+PUSHB_1
+ 26
+SRP0
+PUSHB_1
+ 25
+MDRP[rp0,grey]
+PUSHB_3
+ 43
+ 25
+ 1
+DELTAP1
+EIF
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 6
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 6
+ 33
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 0
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 0
+ 15
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 12
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 12
+ 15
+MIAP[no-rnd]
+EIF
+PUSHB_3
+ 17
+ 0
+ 6
+SRP1
+SRP2
+IP
+PUSHB_1
+ 17
+MDAP[rnd]
+PUSHB_2
+ 21
+ 2
+MIRP[rp0,rnd,grey]
+PUSHB_3
+ 24
+ 6
+ 0
+SRP1
+SRP2
+IP
+IUP[y]
+IUP[x]
+PUSHB_1
+ 10
+CALL
+IF
+SVTCA[x-axis]
+PUSHB_3
+ 56
+ 5
+ 1
+DELTAP1
+PUSHB_3
+ 11
+ 5
+ 1
+DELTAP1
+PUSHB_3
+ 103
+ 6
+ 1
+DELTAP1
+PUSHB_7
+ 55
+ 7
+ 71
+ 7
+ 87
+ 7
+ 3
+DELTAP1
+PUSHB_3
+ 87
+ 18
+ 1
+DELTAP1
+PUSHB_3
+ 119
+ 21
+ 1
+DELTAP1
+PUSHB_3
+ 9
+ 23
+ 1
+DELTAP1
+PUSHB_3
+ 26
+ 23
+ 1
+DELTAP1
+EIF
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+176 0 m 1,0,-1
+ -49 0 l 1,1,-1
+ -43 29 l 1,2,3
+ -4 45 -4 45 35 53 c 1,4,-1
+ 430 712 l 1,5,-1
+ 456 712 l 1,6,-1
+ 569 53 l 1,7,8
+ 587 49 587 49 605.5 43.5 c 128,-1,9
+ 624 38 624 38 639 29 c 1,10,-1
+ 634 0 l 1,11,-1
+ 380 0 l 1,12,-1
+ 385 29 l 1,13,14
+ 430 46 430 46 473 53 c 1,15,-1
+ 443 236 l 1,16,-1
+ 208 236 l 1,17,-1
+ 101 53 l 1,18,19
+ 144 47 144 47 181 29 c 1,20,-1
+ 176 0 l 1,0,-1
+237 288 m 1,21,-1
+ 435 288 l 1,22,-1
+ 403 500 l 1,23,-1
+ 401 586 l 1,24,-1
+ 399 586 l 1,25,-1
+ 359 498 l 1,26,-1
+ 237 288 l 1,21,-1
+EndSplineSet
+Kerns2: 675 -107 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
+EndChar

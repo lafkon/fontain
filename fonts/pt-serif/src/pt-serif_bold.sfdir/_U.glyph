@@ -1,0 +1,170 @@
+
+StartChar: U
+Encoding: 85 85 56
+Width: 715
+Flags: W
+TtInstrs:
+PUSHB_1
+ 10
+CALL
+IF
+PUSHB_3
+ 26
+ 32
+ 3
+CALL
+PUSHB_1
+ 32
+SRP0
+PUSHB_2
+ 5
+ 8
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 2
+MDRP[rp0,grey]
+PUSHB_1
+ 2
+MDAP[rnd]
+PUSHB_3
+ 0
+ 2
+ 1
+DELTAP1
+PUSHB_1
+ 26
+SRP0
+PUSHB_1
+ 15
+MDRP[rp0,min,rnd,grey]
+PUSHB_1
+ 19
+MDRP[rp0,grey]
+PUSHB_1
+ 19
+MDAP[rnd]
+PUSHB_1
+ 26
+SRP0
+PUSHB_1
+ 22
+MDRP[rp0,grey]
+PUSHB_1
+ 22
+MDAP[rnd]
+PUSHB_1
+ 32
+SRP0
+PUSHB_1
+ 36
+MDRP[rp0,grey]
+PUSHB_1
+ 36
+MDAP[rnd]
+PUSHB_3
+ 15
+ 38
+ 1
+DELTAP1
+EIF
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 0
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 0
+ 17
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 29
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 29
+ 9
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+SRP0
+PUSHB_2
+ 36
+ 5
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 2
+MDRP[rp0,grey]
+PUSHB_1
+ 29
+SRP0
+PUSHB_2
+ 10
+ 3
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 2
+SRP0
+PUSHB_1
+ 19
+MDRP[rp0,grey]
+PUSHB_1
+ 0
+SRP0
+PUSHB_1
+ 20
+MDRP[rp0,grey]
+PUSHB_1
+ 19
+SRP0
+PUSHB_1
+ 22
+MDRP[rp0,grey]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+7 700 m 1,0,-1
+ 315 700 l 1,1,-1
+ 315 662 l 1,2,3
+ 282 641 282 641 239 633 c 1,4,-1
+ 239 248 l 2,5,6
+ 239 199 239 199 250 166 c 128,-1,7
+ 261 133 261 133 282 112.5 c 128,-1,8
+ 303 92 303 92 332.5 83 c 128,-1,9
+ 362 74 362 74 399 74 c 0,10,11
+ 432 74 432 74 459.5 83.5 c 128,-1,12
+ 487 93 487 93 507.5 114 c 128,-1,13
+ 528 135 528 135 539 169 c 128,-1,14
+ 550 203 550 203 550 253 c 2,15,-1
+ 550 628 l 1,16,17
+ 527 633 527 633 502.5 642 c 128,-1,18
+ 478 651 478 651 462 662 c 1,19,-1
+ 462 700 l 1,20,-1
+ 710 700 l 1,21,-1
+ 710 662 l 1,22,23
+ 692 649 692 649 670 641 c 128,-1,24
+ 648 633 648 633 627 628 c 1,25,-1
+ 627 252 l 2,26,27
+ 627 124 627 124 559.5 57.5 c 128,-1,28
+ 492 -9 492 -9 369 -9 c 0,29,30
+ 235 -9 235 -9 162 51 c 128,-1,31
+ 89 111 89 111 89 243 c 2,32,-1
+ 89 633 l 1,33,34
+ 69 636 69 636 47 643.5 c 128,-1,35
+ 25 651 25 651 7 662 c 1,36,-1
+ 7 700 l 1,0,-1
+EndSplineSet
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
+EndChar

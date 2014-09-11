@@ -1,0 +1,137 @@
+
+StartChar: afii10098
+Encoding: 1169 1169 420
+Width: 441
+Flags: W
+TtInstrs:
+PUSHB_1
+ 10
+CALL
+IF
+PUSHB_3
+ 10
+ 20
+ 3
+CALL
+PUSHB_1
+ 10
+SRP0
+PUSHB_1
+ 5
+MDRP[rp0,grey]
+PUSHB_1
+ 4
+MDRP[rp0,grey]
+PUSHB_1
+ 20
+SRP0
+PUSHB_2
+ 12
+ 6
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 14
+MDRP[rp0,grey]
+PUSHB_1
+ 14
+MDAP[rnd]
+PUSHB_1
+ 20
+SRP0
+PUSHB_1
+ 17
+MDRP[rp0,grey]
+PUSHB_1
+ 17
+MDAP[rnd]
+PUSHB_1
+ 23
+MDRP[rp0,grey]
+EIF
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 24
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 24
+ 15
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 16
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 16
+ 9
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 24
+SRP0
+PUSHB_1
+ 4
+MDRP[rp0,min,rnd,grey]
+PUSHB_1
+ 24
+SRP0
+PUSHB_2
+ 11
+ 1
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 16
+SRP0
+PUSHB_2
+ 17
+ 5
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 14
+MDRP[rp0,grey]
+PUSHB_1
+ 24
+SRP0
+PUSHB_2
+ 23
+ 5
+MIRP[rp0,rnd,grey]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+333 500 m 1,0,1
+ 335 507 335 507 338 513.5 c 128,-1,2
+ 341 520 341 520 343 527 c 2,3,-1
+ 387 638 l 1,4,-1
+ 428 638 l 1,5,6
+ 432 616 432 616 435 590 c 128,-1,7
+ 438 564 438 564 440 537.5 c 128,-1,8
+ 442 511 442 511 443.5 486 c 128,-1,9
+ 445 461 445 461 446 443 c 1,10,-1
+ 239 443 l 1,11,-1
+ 239 63 l 1,12,13
+ 296 52 296 52 329 39 c 1,14,-1
+ 329 0 l 1,15,-1
+ 29 0 l 1,16,-1
+ 29 39 l 1,17,18
+ 46 49 46 49 62 54 c 128,-1,19
+ 78 59 78 59 95 63 c 1,20,-1
+ 95 438 l 1,21,22
+ 58 444 58 444 29 461 c 1,23,-1
+ 29 500 l 1,24,-1
+ 333 500 l 1,0,1
+EndSplineSet
+Kerns2: 660 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  650 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  638 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  630 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  628 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  626 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  624 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  620 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  618 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  616 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  612 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  606 39 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  556 -54 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  546 -59 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  545 -59 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  544 -59 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  528 -33 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  516 39 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  514 39 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  512 39 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  508 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  506 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  504 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  488 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  471 -33 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  450 39 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  446 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  444 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  412 39 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  410 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  405 39 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  401 -33 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  396 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  393 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  392 -18 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  381 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  380 39 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  378 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  375 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  372 -33 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  366 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  365 -33 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  17 -54 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  16 -59 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  15 -54 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  399 6 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+EndChar

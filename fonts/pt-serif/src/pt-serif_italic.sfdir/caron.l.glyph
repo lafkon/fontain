@@ -1,0 +1,73 @@
+
+StartChar: caron.l
+Encoding: 65538 -1 695
+Width: 432
+Flags: W
+TtInstrs:
+PUSHB_1
+ 10
+CALL
+IF
+PUSHB_1
+ 3
+MDAP[rnd]
+PUSHB_1
+ 0
+MDRP[rp0,grey]
+PUSHB_1
+ 0
+MDAP[rnd]
+PUSHB_5
+ 15
+ 0
+ 31
+ 0
+ 2
+DELTAP1
+PUSHB_1
+ 3
+SRP0
+PUSHB_2
+ 9
+ 10
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 0
+SRP0
+PUSHB_1
+ 14
+MDRP[rp0,grey]
+EIF
+SVTCA[y-axis]
+PUSHB_1
+ 4
+MDAP[rnd]
+PUSHB_1
+ 14
+MDRP[rp0,min,rnd,grey]
+PUSHB_3
+ 32
+ 14
+ 1
+DELTAP1
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+276 543 m 1,0,1
+ 302 590 302 590 320.5 641.5 c 128,-1,2
+ 339 693 339 693 339 734 c 1,3,-1
+ 351 750 l 1,4,5
+ 358 751 358 751 369.5 749.5 c 128,-1,6
+ 381 748 381 748 393 744.5 c 128,-1,7
+ 405 741 405 741 416 736.5 c 128,-1,8
+ 427 732 427 732 433 727 c 1,9,10
+ 428 699 428 699 413.5 671 c 128,-1,11
+ 399 643 399 643 379 617 c 128,-1,12
+ 359 591 359 591 337 569 c 128,-1,13
+ 315 547 315 547 296 532 c 1,14,-1
+ 276 543 l 1,0,1
+EndSplineSet
+EndChar

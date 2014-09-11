@@ -1,0 +1,55 @@
+
+StartChar: Lcaron
+Encoding: 317 317 242
+Width: 609
+Flags: W
+TtInstrs:
+NPUSHW
+ 3
+ 0
+ 18
+ 1
+DELTAP2
+NPUSHW
+ 3
+ 144
+ 18
+ 1
+DELTAP2
+NPUSHW
+ 5
+ 15
+ 19
+ 31
+ 19
+ 2
+DELTAP1
+NPUSHW
+ 3
+ 143
+ 19
+ 1
+DELTAP1
+SVTCA[y-axis]
+PUSHW_1
+ 0
+RCVT
+IF
+PUSHW_1
+ 19
+MDAP[rnd]
+ELSE
+PUSHW_2
+ 19
+ 32
+MIAP[no-rnd]
+EIF
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+Refer: 47 76 N 1 0 0 1 0 0 3
+Refer: 695 -1 N 1 0 0 1 9 0 2
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
+EndChar

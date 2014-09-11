@@ -1,0 +1,33 @@
+
+StartChar: emdash
+Encoding: 8212 8212 546
+Width: 881
+Flags: W
+TtInstrs:
+PUSHB_1
+ 10
+CALL
+IF
+EIF
+SVTCA[y-axis]
+PUSHB_1
+ 3
+MDAP[rnd]
+PUSHB_1
+ 0
+MDRP[rp0,min,rnd,grey]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+87 327 m 1,0,-1
+ 829 327 l 1,1,-1
+ 809 237 l 1,2,-1
+ 67 237 l 1,3,-1
+ 87 327 l 1,0,-1
+EndSplineSet
+Kerns2: 675 -48 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  367 -21 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+Position2: "'case' Case-Sensitive Forms lookup 1 per glyph data 2" dx=0 dy=80 dh=0 dv=0
+EndChar

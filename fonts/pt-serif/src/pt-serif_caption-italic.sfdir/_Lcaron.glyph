@@ -1,0 +1,44 @@
+
+StartChar: Lcaron
+Encoding: 317 317 242
+Width: 599
+Flags: W
+TtInstrs:
+NPUSHW
+ 3
+ 80
+ 17
+ 1
+DELTAP1
+NPUSHW
+ 5
+ 111
+ 19
+ 127
+ 19
+ 2
+DELTAP1
+SVTCA[y-axis]
+PUSHW_1
+ 0
+RCVT
+IF
+PUSHW_1
+ 18
+MDAP[rnd]
+ELSE
+PUSHW_2
+ 18
+ 34
+MIAP[no-rnd]
+EIF
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+Refer: 47 76 N 1 0 0 1 0 0 3
+Refer: 695 -1 N 1 0 0 1 89 0 2
+Kerns2: 675 -99 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
+EndChar

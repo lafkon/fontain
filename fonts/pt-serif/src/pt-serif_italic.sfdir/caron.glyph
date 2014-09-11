@@ -1,0 +1,70 @@
+
+StartChar: caron
+Encoding: 711 711 304
+Width: 370
+Flags: W
+TtInstrs:
+PUSHB_1
+ 10
+CALL
+IF
+PUSHB_3
+ 3
+ 9
+ 3
+CALL
+PUSHB_3
+ 15
+ 3
+ 1
+DELTAP1
+PUSHB_3
+ 13
+ 9
+ 3
+SRP1
+SRP2
+IP
+EIF
+SVTCA[y-axis]
+PUSHB_1
+ 6
+MDAP[rnd]
+PUSHB_3
+ 15
+ 6
+ 1
+DELTAP1
+PUSHB_1
+ 12
+MDRP[rp0,min,rnd,grey]
+PUSHB_1
+ 0
+MDRP[rp0,grey]
+PUSHB_3
+ 13
+ 6
+ 12
+SRP1
+SRP2
+IP
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+401 796 m 1,0,1
+ 410 797 410 797 418.5 792 c 128,-1,2
+ 427 787 427 787 430 780 c 1,3,-1
+ 266 595 l 1,4,5
+ 261 592 261 592 253 592 c 256,6,7
+ 245 592 245 592 241 595 c 1,8,-1
+ 160 779 l 1,9,10
+ 164 787 164 787 174 792 c 128,-1,11
+ 184 797 184 797 194 796 c 1,12,-1
+ 271 690 l 1,13,-1
+ 401 796 l 1,0,1
+EndSplineSet
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" caron.l caron.L
+EndChar

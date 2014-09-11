@@ -1,0 +1,93 @@
+
+StartChar: quotesingle
+Encoding: 39 39 10
+Width: 272
+Flags: W
+TtInstrs:
+PUSHB_1
+ 10
+CALL
+IF
+PUSHB_1
+ 0
+MDAP[rnd]
+PUSHB_2
+ 1
+ 6
+MIRP[rp0,rnd,grey]
+PUSHB_3
+ 2
+ 1
+ 0
+SRP1
+SRP2
+IP
+PUSHB_3
+ 3
+ 0
+ 1
+SRP1
+SRP2
+IP
+EIF
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 0
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 0
+ 36
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 3
+MDRP[rp0,grey]
+PUSHB_1
+ 3
+MDAP[rnd]
+IUP[y]
+IUP[x]
+PUSHB_1
+ 10
+CALL
+IF
+SVTCA[x-axis]
+PUSHB_3
+ 9
+ 2
+ 1
+DELTAP2
+PUSHB_3
+ 250
+ 2
+ 1
+DELTAP1
+PUSHB_3
+ 245
+ 3
+ 1
+DELTAP1
+PUSHB_3
+ 5
+ 3
+ 1
+DELTAP2
+EIF
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+72 750 m 1,0,-1
+ 200 750 l 1,1,-1
+ 165 492 l 1,2,-1
+ 107 492 l 1,3,-1
+ 72 750 l 1,0,-1
+EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 12 subtable" uniF634
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uniF634
+EndChar

@@ -1,0 +1,197 @@
+
+StartChar: notequal
+Encoding: 8800 8800 581
+Width: 565
+Flags: W
+TtInstrs:
+PUSHB_1
+ 10
+CALL
+IF
+PUSHB_3
+ 10
+ 15
+ 3
+CALL
+PUSHB_3
+ 0
+ 10
+ 1
+DELTAP1
+PUSHB_1
+ 10
+SRP0
+PUSHB_1
+ 6
+MDRP[rp0,grey]
+PUSHB_3
+ 0
+ 15
+ 1
+DELTAP1
+PUSHB_1
+ 15
+SRP0
+PUSHB_1
+ 19
+MDRP[rp0,grey]
+PUSHB_3
+ 3
+ 6
+ 19
+SRP1
+SRP2
+IP
+PUSHB_1
+ 3
+MDAP[rnd]
+PUSHB_1
+ 2
+MDRP[rp0,grey]
+PUSHB_3
+ 13
+ 15
+ 10
+SRP1
+SRP2
+IP
+PUSHB_1
+ 13
+MDAP[rnd]
+PUSHB_3
+ 1
+ 2
+ 13
+SRP1
+SRP2
+IP
+PUSHB_1
+ 12
+MDRP[rp0,grey]
+PUSHB_3
+ 4
+ 3
+ 12
+SRP1
+SRP2
+IP
+PUSHB_3
+ 7
+ 3
+ 12
+SRP1
+SRP2
+IP
+PUSHB_3
+ 8
+ 12
+ 3
+SRP1
+SRP2
+IP
+PUSHB_3
+ 11
+ 12
+ 3
+SRP1
+SRP2
+IP
+PUSHB_3
+ 14
+ 13
+ 2
+SRP1
+SRP2
+IP
+PUSHB_3
+ 17
+ 13
+ 2
+SRP1
+SRP2
+IP
+PUSHB_3
+ 18
+ 2
+ 13
+SRP1
+SRP2
+IP
+EIF
+SVTCA[y-axis]
+PUSHB_1
+ 15
+MDAP[rnd]
+PUSHB_1
+ 19
+MDRP[rp0,min,rnd,grey]
+PUSHB_2
+ 0
+ 3
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 2
+MDRP[rp0,min,rnd,grey]
+PUSHB_1
+ 0
+SRP0
+PUSHB_1
+ 4
+MDRP[rp0,grey]
+PUSHB_1
+ 19
+SRP0
+PUSHB_1
+ 7
+MDRP[rp0,grey]
+PUSHB_1
+ 15
+SRP0
+PUSHB_2
+ 16
+ 3
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 8
+MDRP[rp0,grey]
+PUSHB_1
+ 15
+SRP0
+PUSHB_1
+ 11
+MDRP[rp0,grey]
+PUSHB_1
+ 15
+SRP0
+PUSHB_1
+ 12
+MDRP[rp0,min,rnd,grey]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+61 469 m 1,0,-1
+ 301 469 l 1,1,-1
+ 424 746 l 1,2,-1
+ 484 721 l 1,3,-1
+ 372 469 l 1,4,-1
+ 511 469 l 1,5,-1
+ 511 389 l 1,6,-1
+ 337 389 l 1,7,-1
+ 297 299 l 1,8,-1
+ 511 299 l 1,9,-1
+ 511 219 l 1,10,-1
+ 262 219 l 1,11,-1
+ 119 -103 l 1,12,-1
+ 60 -77 l 1,13,-1
+ 191 219 l 1,14,-1
+ 61 219 l 1,15,-1
+ 61 299 l 1,16,-1
+ 226 299 l 1,17,-1
+ 266 389 l 1,18,-1
+ 61 389 l 1,19,-1
+ 61 469 l 1,0,-1
+EndSplineSet
+EndChar

@@ -1,0 +1,49 @@
+
+StartChar: uniF545
+Encoding: 62789 62789 666
+Width: 339
+Flags: W
+TtInstrs:
+NPUSHW
+ 3
+ 31
+ 10
+ 1
+DELTAP1
+NPUSHW
+ 3
+ 31
+ 10
+ 1
+DELTAP2
+NPUSHW
+ 5
+ 143
+ 11
+ 159
+ 11
+ 2
+DELTAP1
+SVTCA[y-axis]
+PUSHW_1
+ 0
+RCVT
+IF
+PUSHW_1
+ 11
+MDAP[rnd]
+ELSE
+PUSHW_2
+ 11
+ 36
+MIAP[no-rnd]
+EIF
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+Refer: 79 108 N 1 0 0 1 0 0 3
+Refer: 118 180 N 1 0 0 1 210 0 2
+Kerns2: 184 66 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  166 95 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+EndChar

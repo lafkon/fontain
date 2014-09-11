@@ -1,0 +1,325 @@
+
+StartChar: uni04A5
+Encoding: 1189 1189 440
+Width: 692
+Flags: W
+TtInstrs:
+PUSHB_1
+ 10
+CALL
+IF
+PUSHB_3
+ 15
+ 22
+ 3
+CALL
+PUSHB_3
+ 127
+ 15
+ 1
+DELTAP1
+PUSHB_1
+ 15
+SRP0
+PUSHB_1
+ 0
+MDRP[rp0,min,rnd,grey]
+PUSHB_3
+ 15
+ 0
+ 1
+DELTAP1
+PUSHB_3
+ 112
+ 0
+ 1
+DELTAP1
+PUSHB_2
+ 5
+ 9
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 15
+SRP0
+PUSHB_2
+ 7
+ 9
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 6
+MDRP[rp0,grey]
+PUSHB_1
+ 15
+SRP0
+PUSHB_1
+ 34
+MDRP[rp0,grey]
+PUSHB_3
+ 19
+ 15
+ 34
+SRP1
+SRP2
+IP
+PUSHB_5
+ 15
+ 22
+ 31
+ 22
+ 2
+DELTAP1
+PUSHB_3
+ 79
+ 22
+ 1
+DELTAP1
+PUSHB_3
+ 127
+ 22
+ 1
+DELTAP1
+PUSHB_1
+ 22
+SRP0
+PUSHB_2
+ 21
+ 9
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 31
+MDRP[rp0,grey]
+PUSHB_3
+ 117
+ 31
+ 1
+DELTAP1
+PUSHB_3
+ 20
+ 21
+ 31
+SRP1
+SRP2
+IP
+PUSHB_1
+ 22
+SRP0
+PUSHB_1
+ 23
+MDRP[rp0,grey]
+PUSHB_1
+ 24
+MDRP[rp0,grey]
+PUSHB_1
+ 24
+MDAP[rnd]
+PUSHB_3
+ 32
+ 31
+ 21
+SRP1
+SRP2
+IP
+PUSHB_3
+ 33
+ 34
+ 15
+SRP1
+SRP2
+IP
+EIF
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 30
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 30
+ 29
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 34
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 34
+ 29
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 22
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 22
+ 15
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 12
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 12
+ 15
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 34
+SRP0
+PUSHB_1
+ 4
+MDRP[rp0,min,rnd,grey]
+PUSHB_3
+ 0
+ 4
+ 1
+DELTAP1
+PUSHB_1
+ 34
+SRP0
+PUSHB_2
+ 6
+ 1
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 12
+SRP0
+PUSHB_2
+ 7
+ 3
+MIRP[rp0,rnd,grey]
+PUSHB_3
+ 32
+ 22
+ 30
+SRP1
+SRP2
+IP
+PUSHB_1
+ 32
+MDAP[rnd]
+PUSHB_5
+ 47
+ 32
+ 63
+ 32
+ 2
+DELTAP1
+PUSHB_5
+ 111
+ 32
+ 127
+ 32
+ 2
+DELTAP1
+PUSHB_2
+ 20
+ 1
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 30
+SRP0
+PUSHB_1
+ 24
+MDRP[rp0,min,rnd,grey]
+IUP[y]
+IUP[x]
+PUSHB_1
+ 10
+CALL
+IF
+SVTCA[x-axis]
+PUSHB_3
+ 117
+ 6
+ 1
+DELTAP1
+NPUSHW
+ 11
+ 38
+ 6
+ 54
+ 6
+ 70
+ 6
+ 86
+ 6
+ 102
+ 6
+ 5
+DELTAP1
+PUSHB_3
+ 117
+ 7
+ 1
+DELTAP1
+PUSHB_3
+ 102
+ 7
+ 1
+DELTAP1
+PUSHB_3
+ 69
+ 20
+ 1
+DELTAP1
+PUSHB_3
+ 101
+ 31
+ 1
+DELTAP1
+EIF
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+694 500 m 1,0,1
+ 685 461 685 461 673 419 c 128,-1,2
+ 661 377 661 377 647 336 c 1,3,-1
+ 622 336 l 1,4,-1
+ 603 457 l 1,5,-1
+ 496 457 l 1,6,-1
+ 417 56 l 1,7,-1
+ 490 56 l 1,8,-1
+ 490 30 l 1,9,10
+ 470 14 470 14 441.5 4 c 128,-1,11
+ 413 -6 413 -6 386 -6 c 0,12,13
+ 357 -6 357 -6 344 6 c 128,-1,14
+ 331 18 331 18 331 32 c 0,15,16
+ 331 50 331 50 336.5 73 c 128,-1,17
+ 342 96 342 96 347 119 c 2,18,-1
+ 369 232 l 1,19,-1
+ 175 232 l 1,20,-1
+ 127 0 l 1,21,-1
+ 43 0 l 1,22,-1
+ 131 442 l 1,23,-1
+ 70 451 l 1,24,-1
+ 69 476 l 1,25,26
+ 83 483 83 483 101.5 489.5 c 128,-1,27
+ 120 496 120 496 139.5 501 c 128,-1,28
+ 159 506 159 506 177.5 509 c 128,-1,29
+ 196 512 196 512 210 512 c 1,30,-1
+ 230 500 l 1,31,-1
+ 183 275 l 1,32,-1
+ 377 275 l 1,33,-1
+ 421 500 l 1,34,-1
+ 694 500 l 1,0,1
+EndSplineSet
+EndChar

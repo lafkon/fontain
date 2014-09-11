@@ -1,0 +1,269 @@
+
+StartChar: Tcedilla
+Encoding: 354 354 272
+Width: 662
+Flags: W
+TtInstrs:
+PUSHB_1
+ 10
+CALL
+IF
+PUSHB_1
+ 25
+MDAP[rnd]
+PUSHB_2
+ 44
+ 7
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 5
+MDRP[rp0,grey]
+PUSHB_1
+ 5
+MDAP[rnd]
+PUSHB_1
+ 11
+MDRP[rp0,min,rnd,grey]
+PUSHB_3
+ 19
+ 5
+ 11
+SRP1
+SRP2
+IP
+PUSHB_1
+ 19
+MDAP[rnd]
+PUSHB_1
+ 2
+MDRP[rp0,grey]
+PUSHB_1
+ 1
+MDRP[rp0,grey]
+PUSHB_1
+ 5
+SRP0
+PUSHB_1
+ 16
+MDRP[rp0,min,rnd,grey]
+PUSHB_1
+ 19
+SRP0
+PUSHB_1
+ 20
+MDRP[rp0,grey]
+PUSHB_1
+ 25
+SRP0
+PUSHB_1
+ 21
+MDRP[rp0,grey]
+PUSHB_1
+ 21
+MDAP[rnd]
+PUSHB_1
+ 25
+SRP0
+PUSHB_1
+ 26
+MDRP[rp0,grey]
+PUSHB_1
+ 29
+MDRP[rp0,grey]
+PUSHB_1
+ 29
+MDAP[rnd]
+PUSHB_1
+ 28
+MDRP[rp0,grey]
+PUSHB_1
+ 29
+SRP0
+PUSHB_1
+ 34
+MDRP[rp0,grey]
+PUSHB_1
+ 44
+SRP0
+PUSHB_1
+ 43
+MDRP[rp0,grey]
+PUSHB_1
+ 35
+MDRP[rp0,grey]
+PUSHB_1
+ 35
+MDAP[rnd]
+PUSHB_1
+ 40
+MDRP[rp0,grey]
+PUSHB_1
+ 41
+MDRP[rp0,grey]
+PUSHB_1
+ 44
+SRP0
+PUSHB_1
+ 47
+MDRP[rp0,grey]
+PUSHB_1
+ 47
+MDAP[rnd]
+EIF
+SVTCA[y-axis]
+PUSHB_1
+ 10
+MDAP[rnd]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 34
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 34
+ 20
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 21
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 21
+ 12
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 1
+MDRP[rp0,grey]
+PUSHB_3
+ 2
+ 21
+ 10
+SRP1
+SRP2
+IP
+PUSHB_1
+ 2
+MDAP[rnd]
+NPUSHW
+ 9
+ 15
+ 2
+ 31
+ 2
+ 47
+ 2
+ 63
+ 2
+ 4
+DELTAP1
+PUSHB_1
+ 10
+SRP0
+PUSHB_1
+ 11
+MDRP[rp0,min,rnd,grey]
+PUSHB_1
+ 2
+SRP0
+PUSHB_1
+ 19
+MDRP[rp0,min,rnd,grey]
+PUSHB_1
+ 21
+SRP0
+PUSHB_2
+ 22
+ 4
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 34
+SRP0
+PUSHB_2
+ 27
+ 3
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 34
+SRP0
+PUSHB_1
+ 28
+MDRP[rp0,grey]
+PUSHB_1
+ 28
+MDAP[rnd]
+PUSHB_1
+ 41
+MDRP[rp0,grey]
+PUSHB_1
+ 27
+SRP0
+PUSHB_1
+ 43
+MDRP[rp0,grey]
+PUSHB_1
+ 22
+SRP0
+PUSHB_1
+ 47
+MDRP[rp0,grey]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+461 0 m 1,0,-1
+ 320 0 l 1,1,-1
+ 278 -67 l 1,2,3
+ 336 -69 336 -69 361 -88 c 128,-1,4
+ 386 -107 386 -107 386 -142 c 0,5,6
+ 386 -180 386 -180 360.5 -205 c 128,-1,7
+ 335 -230 335 -230 299 -245 c 128,-1,8
+ 263 -260 263 -260 223 -266 c 128,-1,9
+ 183 -272 183 -272 154 -272 c 1,10,-1
+ 154 -226 l 1,11,12
+ 172 -224 172 -224 189.5 -220 c 128,-1,13
+ 207 -216 207 -216 221.5 -209 c 128,-1,14
+ 236 -202 236 -202 244.5 -190.5 c 128,-1,15
+ 253 -179 253 -179 253 -162 c 0,16,17
+ 252 -144 252 -144 242 -133 c 128,-1,18
+ 232 -122 232 -122 197 -120 c 1,19,-1
+ 256 0 l 1,20,-1
+ 117 0 l 1,21,-1
+ 125 38 l 1,22,23
+ 147 47 147 47 174 55 c 128,-1,24
+ 201 63 201 63 228 67 c 1,25,-1
+ 349 635 l 1,26,-1
+ 233 635 l 1,27,-1
+ 132 464 l 1,28,-1
+ 91 464 l 1,29,30
+ 91 484 91 484 93.5 515 c 128,-1,31
+ 96 546 96 546 99.5 579 c 128,-1,32
+ 103 612 103 612 108 644.5 c 128,-1,33
+ 113 677 113 677 119 700 c 1,34,-1
+ 756 700 l 1,35,36
+ 751 676 751 676 742.5 644 c 128,-1,37
+ 734 612 734 612 724 579 c 128,-1,38
+ 714 546 714 546 703.5 515.5 c 128,-1,39
+ 693 485 693 485 684 464 c 1,40,-1
+ 642 464 l 1,41,-1
+ 615 635 l 1,42,-1
+ 499 635 l 1,43,-1
+ 378 67 l 1,44,45
+ 403 62 403 62 427 55 c 128,-1,46
+ 451 48 451 48 469 38 c 1,47,-1
+ 461 0 l 1,0,-1
+EndSplineSet
+Kerns2: 544 -33 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  295 -13 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  289 -9 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  287 -9 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  254 -13 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  252 -13 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  222 -13 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  220 -13 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  218 -13 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  204 -13 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  202 -13 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  200 -13 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  198 -41 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  196 -41 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  194 -41 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+Substitution2: "'locl' Localized Forms in Latin lookup 9 subtable" Tcommaaccent
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
+EndChar

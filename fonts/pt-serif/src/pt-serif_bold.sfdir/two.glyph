@@ -1,0 +1,176 @@
+
+StartChar: two
+Encoding: 50 50 21
+Width: 565
+Flags: W
+TtInstrs:
+PUSHB_1
+ 10
+CALL
+IF
+PUSHB_3
+ 14
+ 32
+ 3
+CALL
+PUSHB_1
+ 32
+SRP0
+PUSHB_1
+ 6
+MDRP[rp0,grey]
+PUSHB_1
+ 6
+MDAP[rnd]
+PUSHB_1
+ 1
+MDRP[rp0,grey]
+PUSHB_1
+ 0
+MDRP[rp0,grey]
+PUSHB_1
+ 32
+SRP0
+PUSHB_1
+ 20
+MDRP[rp0,grey]
+PUSHB_1
+ 14
+SRP0
+PUSHB_1
+ 30
+MDRP[rp0,grey]
+PUSHB_1
+ 30
+MDAP[rnd]
+PUSHB_1
+ 25
+MDRP[rp0,grey]
+PUSHB_1
+ 24
+MDRP[rp0,grey]
+PUSHB_1
+ 14
+SRP0
+PUSHB_2
+ 39
+ 6
+MIRP[rp0,rnd,grey]
+EIF
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 9
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 9
+ 17
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 30
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 30
+ 9
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 9
+SRP0
+PUSHB_1
+ 0
+MDRP[rp0,grey]
+PUSHB_1
+ 0
+MDAP[rnd]
+PUSHB_1
+ 30
+SRP0
+PUSHB_2
+ 23
+ 4
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 30
+SRP0
+PUSHB_1
+ 25
+MDRP[rp0,grey]
+PUSHB_1
+ 25
+MDAP[rnd]
+PUSHB_3
+ 32
+ 23
+ 30
+SRP1
+SRP2
+IP
+PUSHB_1
+ 9
+SRP0
+PUSHB_2
+ 42
+ 2
+MIRP[rp0,rnd,grey]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+141 478 m 1,0,-1
+ 107 478 l 1,1,2
+ 101 493 101 493 93.5 513 c 128,-1,3
+ 86 533 86 533 78 555 c 128,-1,4
+ 70 577 70 577 63 598.5 c 128,-1,5
+ 56 620 56 620 52 638 c 1,6,7
+ 87 668 87 668 141.5 690 c 128,-1,8
+ 196 712 196 712 274 712 c 0,9,10
+ 329 712 329 712 369 698 c 128,-1,11
+ 409 684 409 684 435.5 659 c 128,-1,12
+ 462 634 462 634 474.5 601 c 128,-1,13
+ 487 568 487 568 487 530 c 0,14,15
+ 487 469 487 469 459 414.5 c 128,-1,16
+ 431 360 431 360 390 312.5 c 128,-1,17
+ 349 265 349 265 302 224.5 c 128,-1,18
+ 255 184 255 184 217 151 c 1,19,-1
+ 165 116 l 1,20,-1
+ 165 112 l 1,21,-1
+ 226 118 l 1,22,-1
+ 398 118 l 1,23,-1
+ 447 230 l 1,24,-1
+ 481 230 l 1,25,26
+ 484 206 484 206 487.5 174 c 128,-1,27
+ 491 142 491 142 494 109.5 c 128,-1,28
+ 497 77 497 77 499 47.5 c 128,-1,29
+ 501 18 501 18 501 0 c 1,30,-1
+ 43 0 l 1,31,-1
+ 43 64 l 1,32,33
+ 69 87 69 87 102 117.5 c 128,-1,34
+ 135 148 135 148 169 184.5 c 128,-1,35
+ 203 221 203 221 236 262 c 128,-1,36
+ 269 303 269 303 295 345.5 c 128,-1,37
+ 321 388 321 388 336.5 432 c 128,-1,38
+ 352 476 352 476 352 518 c 0,39,40
+ 352 573 352 573 322.5 607.5 c 128,-1,41
+ 293 642 293 642 239 642 c 0,42,43
+ 222 642 222 642 208.5 640 c 128,-1,44
+ 195 638 195 638 178 633 c 1,45,-1
+ 141 478 l 1,0,-1
+EndSplineSet
+Substitution2: "'sups' Superscript lookup 13 subtable" twosuperior
+Substitution2: "'sinf' Scientific Inferiors lookup 6 subtable" uni2082
+Substitution2: "'subs' Subscript lookup 5 subtable" uni2082
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" uni2082 twosuperior
+EndChar

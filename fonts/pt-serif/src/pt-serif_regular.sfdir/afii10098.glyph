@@ -1,0 +1,114 @@
+
+StartChar: afii10098
+Encoding: 1169 1169 420
+Width: 410
+Flags: W
+TtInstrs:
+PUSHB_1
+ 10
+CALL
+IF
+PUSHB_3
+ 7
+ 18
+ 3
+CALL
+PUSHB_5
+ 48
+ 7
+ 64
+ 7
+ 2
+DELTAP1
+PUSHB_3
+ 112
+ 7
+ 1
+DELTAP1
+PUSHB_1
+ 7
+SRP0
+PUSHB_2
+ 0
+ 8
+MIRP[rp0,rnd,grey]
+PUSHB_3
+ 111
+ 18
+ 1
+DELTAP1
+PUSHB_1
+ 18
+SRP0
+PUSHB_2
+ 8
+ 4
+MIRP[rp0,rnd,grey]
+EIF
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 21
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 21
+ 23
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 13
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 13
+ 9
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 21
+SRP0
+PUSHB_1
+ 3
+MDRP[rp0,min,rnd,grey]
+PUSHB_1
+ 21
+SRP0
+PUSHB_2
+ 8
+ 1
+MIRP[rp0,rnd,grey]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+329 500 m 1,0,1
+ 330 501 330 501 330 504 c 1,2,-1
+ 374 621 l 1,3,-1
+ 400 621 l 1,4,5
+ 405 579 405 579 407.5 537 c 128,-1,6
+ 410 495 410 495 411 456 c 1,7,-1
+ 195 456 l 1,8,-1
+ 195 49 l 1,9,10
+ 252 38 252 38 285 25 c 1,11,-1
+ 285 0 l 1,12,-1
+ 39 0 l 1,13,-1
+ 39 25 l 1,14,15
+ 56 35 56 35 72 40 c 128,-1,16
+ 88 45 88 45 105 49 c 1,17,-1
+ 105 451 l 1,18,19
+ 68 457 68 457 39 474 c 1,20,-1
+ 39 500 l 1,21,-1
+ 329 500 l 1,0,1
+EndSplineSet
+Kerns2: 660 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  650 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  638 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  630 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  628 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  626 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  624 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  620 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  618 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  616 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  612 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  606 31 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  556 -54 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  546 -64 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  545 -64 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  544 -64 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  528 -36 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  516 31 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  514 31 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  512 31 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  508 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  506 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  504 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  488 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  471 -36 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  450 31 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  446 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  444 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  412 31 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  410 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  405 31 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  401 -36 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  396 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  393 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  392 -18 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  381 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  380 31 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  378 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  375 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  372 -36 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  366 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  365 -36 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  17 -54 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  16 -64 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  15 -54 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  399 1 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+EndChar

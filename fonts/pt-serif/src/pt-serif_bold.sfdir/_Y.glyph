@@ -1,0 +1,252 @@
+
+StartChar: Y
+Encoding: 89 89 60
+Width: 698
+Flags: W
+TtInstrs:
+PUSHB_1
+ 10
+CALL
+IF
+PUSHB_1
+ 16
+MDAP[rnd]
+PUSHB_3
+ 0
+ 16
+ 1
+DELTAP1
+PUSHB_2
+ 7
+ 8
+MIRP[rp0,rnd,grey]
+PUSHB_3
+ 28
+ 16
+ 7
+SRP1
+SRP2
+IP
+PUSHB_1
+ 28
+SRP0
+PUSHB_1
+ 29
+MDRP[rp0,grey]
+PUSHB_3
+ 6
+ 29
+ 1
+DELTAP1
+PUSHB_1
+ 0
+MDRP[rp0,grey]
+PUSHB_1
+ 0
+MDAP[rnd]
+PUSHB_1
+ 29
+SRP0
+PUSHB_1
+ 5
+MDRP[rp0,grey]
+PUSHB_1
+ 1
+MDRP[rp0,grey]
+PUSHB_1
+ 1
+MDAP[rnd]
+PUSHB_1
+ 7
+SRP0
+PUSHB_1
+ 10
+MDRP[rp0,grey]
+PUSHB_1
+ 10
+MDAP[rnd]
+PUSHB_1
+ 16
+SRP0
+PUSHB_1
+ 13
+MDRP[rp0,grey]
+PUSHB_1
+ 13
+MDAP[rnd]
+PUSHB_1
+ 28
+SRP0
+PUSHB_1
+ 27
+MDRP[rp0,grey]
+PUSHB_3
+ 9
+ 27
+ 1
+DELTAP1
+PUSHB_1
+ 18
+MDRP[rp0,grey]
+PUSHB_3
+ 6
+ 18
+ 1
+DELTAP1
+PUSHB_1
+ 22
+MDRP[rp0,grey]
+PUSHB_1
+ 22
+MDAP[rnd]
+PUSHB_1
+ 27
+SRP0
+PUSHB_1
+ 23
+MDRP[rp0,grey]
+PUSHB_1
+ 23
+MDAP[rnd]
+EIF
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 22
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 22
+ 17
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 12
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 12
+ 9
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 22
+SRP0
+PUSHB_1
+ 0
+MDRP[rp0,grey]
+PUSHB_1
+ 22
+SRP0
+PUSHB_2
+ 21
+ 5
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 24
+MDRP[rp0,grey]
+PUSHB_1
+ 32
+MDRP[rp0,grey]
+PUSHB_1
+ 2
+MDRP[rp0,grey]
+PUSHB_3
+ 17
+ 22
+ 12
+SRP1
+SRP2
+IP
+PUSHB_1
+ 17
+SRP0
+PUSHB_1
+ 6
+MDRP[rp0,grey]
+PUSHB_1
+ 12
+SRP0
+PUSHB_2
+ 13
+ 5
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 10
+MDRP[rp0,grey]
+PUSHB_1
+ 17
+SRP0
+PUSHB_1
+ 28
+MDRP[rp0,grey]
+PUSHB_3
+ 102
+ 28
+ 1
+DELTAP1
+PUSHB_3
+ 70
+ 28
+ 1
+DELTAP2
+PUSHB_3
+ 198
+ 28
+ 1
+DELTAP1
+PUSHB_3
+ 117
+ 28
+ 1
+DELTAP1
+PUSHB_3
+ 84
+ 28
+ 1
+DELTAP2
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+453 700 m 1,0,-1
+ 698 700 l 1,1,-1
+ 698 662 l 1,2,3
+ 683 653 683 653 664.5 644.5 c 128,-1,4
+ 646 636 646 636 627 633 c 1,5,-1
+ 433 293 l 1,6,-1
+ 433 67 l 1,7,8
+ 453 65 453 65 472.5 56.5 c 128,-1,9
+ 492 48 492 48 509 38 c 1,10,-1
+ 509 0 l 1,11,-1
+ 201 0 l 1,12,-1
+ 201 38 l 1,13,14
+ 218 47 218 47 239 55 c 128,-1,15
+ 260 63 260 63 283 67 c 1,16,-1
+ 283 292 l 1,17,-1
+ 81 633 l 1,18,19
+ 58 637 58 637 37.5 645 c 128,-1,20
+ 17 653 17 653 0 662 c 1,21,-1
+ 0 700 l 1,22,-1
+ 328 700 l 1,23,-1
+ 328 662 l 1,24,25
+ 314 654 314 654 296 646 c 128,-1,26
+ 278 638 278 638 254 633 c 1,27,-1
+ 397 365 l 1,28,-1
+ 533 633 l 1,29,30
+ 510 638 510 638 489 646 c 128,-1,31
+ 468 654 468 654 453 662 c 1,32,-1
+ 453 700 l 1,0,-1
+EndSplineSet
+Kerns2: 283 -63 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  281 -63 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  277 -63 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  271 -20 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  265 -72 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  259 -59 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  251 -74 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  247 -74 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  229 21 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  221 -64 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  211 -68 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  193 -42 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  184 -44 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  183 -85 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  179 -68 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  177 56 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  176 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  174 27 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  173 -32 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  170 -72 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  167 -74 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  166 -30 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  164 -74 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  163 -81 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
+EndChar

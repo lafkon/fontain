@@ -1,0 +1,201 @@
+
+StartChar: three
+Encoding: 51 51 22
+Width: 560
+Flags: W
+TtInstrs:
+PUSHB_1
+ 10
+CALL
+IF
+PUSHB_3
+ 33
+ 43
+ 3
+CALL
+PUSHB_1
+ 33
+SRP0
+PUSHB_2
+ 5
+ 6
+MIRP[rp0,rnd,grey]
+PUSHB_3
+ 11
+ 33
+ 43
+SRP1
+SRP2
+IP
+PUSHB_1
+ 11
+MDAP[rnd]
+PUSHB_1
+ 33
+SRP0
+PUSHB_1
+ 25
+MDRP[rp0,grey]
+PUSHB_1
+ 25
+MDAP[rnd]
+PUSHB_1
+ 15
+MDRP[rp0,grey]
+PUSHB_3
+ 19
+ 33
+ 43
+SRP1
+SRP2
+IP
+PUSHB_1
+ 19
+MDAP[rnd]
+PUSHB_1
+ 18
+MDRP[rp0,grey]
+PUSHB_1
+ 19
+SRP0
+PUSHB_1
+ 24
+MDRP[rp0,grey]
+PUSHB_3
+ 29
+ 33
+ 43
+SRP1
+SRP2
+IP
+EIF
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 24
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 24
+ 20
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 38
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 38
+ 12
+MIAP[no-rnd]
+EIF
+PUSHB_2
+ 0
+ 3
+MIRP[rp0,rnd,grey]
+PUSHB_3
+ 30
+ 24
+ 38
+SRP1
+SRP2
+IP
+PUSHB_1
+ 30
+MDAP[rnd]
+PUSHB_2
+ 10
+ 2
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 12
+MDRP[rp0,grey]
+PUSHB_1
+ 24
+SRP0
+PUSHB_2
+ 17
+ 5
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 24
+SRP0
+PUSHB_1
+ 18
+MDRP[rp0,grey]
+PUSHB_1
+ 18
+MDAP[rnd]
+PUSHB_1
+ 38
+SRP0
+PUSHB_1
+ 44
+MDRP[rp0,grey]
+PUSHB_1
+ 44
+MDAP[rnd]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+222 53 m 0,0,1
+ 258 53 258 53 286.5 67.5 c 128,-1,2
+ 315 82 315 82 334.5 106 c 128,-1,3
+ 354 130 354 130 364.5 161.5 c 128,-1,4
+ 375 193 375 193 375 226 c 0,5,6
+ 375 256 375 256 366.5 275 c 128,-1,7
+ 358 294 358 294 342.5 305 c 128,-1,8
+ 327 316 327 316 306 320 c 128,-1,9
+ 285 324 285 324 261 324 c 2,10,-1
+ 206 324 l 1,11,-1
+ 211 363 l 1,12,-1
+ 399 560 l 1,13,-1
+ 445 595 l 1,14,-1
+ 445 599 l 1,15,-1
+ 390 593 l 1,16,-1
+ 243 593 l 1,17,-1
+ 182 491 l 1,18,-1
+ 148 491 l 1,19,20
+ 148 512 148 512 148.5 541 c 128,-1,21
+ 149 570 149 570 151 599 c 128,-1,22
+ 153 628 153 628 155.5 655 c 128,-1,23
+ 158 682 158 682 162 700 c 1,24,-1
+ 595 700 l 1,25,-1
+ 588 651 l 1,26,-1
+ 377 440 l 1,27,-1
+ 319 396 l 1,28,-1
+ 319 394 l 1,29,-1
+ 354 401 l 1,30,31
+ 437 396 437 396 476 352.5 c 128,-1,32
+ 515 309 515 309 515 240 c 0,33,34
+ 515 189 515 189 497.5 143 c 128,-1,35
+ 480 97 480 97 442.5 62.5 c 128,-1,36
+ 405 28 405 28 346 8 c 128,-1,37
+ 287 -12 287 -12 204 -12 c 0,38,39
+ 174 -12 174 -12 144.5 -7.5 c 128,-1,40
+ 115 -3 115 -3 89.5 5 c 128,-1,41
+ 64 13 64 13 44 24 c 128,-1,42
+ 24 35 24 35 12 48 c 1,43,-1
+ 71 152 l 1,44,-1
+ 100 152 l 1,45,46
+ 105 145 105 145 113 133.5 c 128,-1,47
+ 121 122 121 122 129.5 109 c 128,-1,48
+ 138 96 138 96 146.5 83 c 128,-1,49
+ 155 70 155 70 161 61 c 1,50,51
+ 183 53 183 53 222 53 c 0,0,1
+EndSplineSet
+Substitution2: "'sups' Superscript lookup 13 subtable" threesuperior
+Substitution2: "'sinf' Scientific Inferiors lookup 6 subtable" uni2083
+Substitution2: "'subs' Subscript lookup 5 subtable" uni2083
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" uni2083 threesuperior
+EndChar

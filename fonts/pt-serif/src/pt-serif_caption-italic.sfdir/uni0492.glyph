@@ -1,0 +1,315 @@
+
+StartChar: uni0492
+Encoding: 1170 1170 421
+Width: 578
+Flags: W
+TtInstrs:
+PUSHB_1
+ 10
+CALL
+IF
+PUSHB_3
+ 13
+ 15
+ 3
+CALL
+PUSHB_4
+ 3
+ 15
+ 4
+ 4
+CALL
+PUSHB_3
+ 143
+ 15
+ 1
+DELTAP2
+PUSHB_1
+ 15
+SRP0
+PUSHB_1
+ 0
+MDRP[rp0,grey]
+PUSHB_1
+ 0
+MDAP[rnd]
+PUSHB_3
+ 112
+ 3
+ 1
+DELTAP1
+PUSHB_3
+ 175
+ 3
+ 1
+DELTAP1
+PUSHB_3
+ 127
+ 3
+ 1
+DELTAP2
+PUSHB_3
+ 15
+ 3
+ 1
+DELTAP2
+PUSHB_3
+ 224
+ 3
+ 1
+DELTAP1
+PUSHB_3
+ 160
+ 3
+ 1
+DELTAP3
+PUSHB_3
+ 112
+ 4
+ 1
+DELTAP1
+PUSHB_3
+ 175
+ 4
+ 1
+DELTAP1
+PUSHB_3
+ 127
+ 4
+ 1
+DELTAP2
+PUSHB_3
+ 15
+ 4
+ 1
+DELTAP2
+PUSHB_3
+ 224
+ 4
+ 1
+DELTAP1
+PUSHB_3
+ 160
+ 4
+ 1
+DELTAP3
+PUSHB_3
+ 80
+ 13
+ 1
+DELTAP1
+PUSHB_3
+ 17
+ 15
+ 13
+SRP1
+SRP2
+IP
+PUSHB_3
+ 86
+ 17
+ 1
+DELTAP1
+PUSHB_1
+ 17
+SRP0
+PUSHB_2
+ 12
+ 11
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 7
+MDRP[rp0,grey]
+PUSHB_3
+ 8
+ 7
+ 12
+SRP1
+SRP2
+IP
+PUSHB_1
+ 13
+SRP0
+PUSHB_1
+ 9
+MDRP[rp0,grey]
+PUSHB_1
+ 9
+MDAP[rnd]
+PUSHB_3
+ 11
+ 12
+ 7
+SRP1
+SRP2
+IP
+PUSHB_1
+ 17
+SRP0
+PUSHB_1
+ 22
+MDRP[rp0,grey]
+PUSHB_3
+ 18
+ 17
+ 22
+SRP1
+SRP2
+IP
+PUSHB_1
+ 15
+SRP0
+PUSHB_1
+ 19
+MDRP[rp0,grey]
+PUSHB_1
+ 19
+MDAP[rnd]
+PUSHB_3
+ 21
+ 22
+ 17
+SRP1
+SRP2
+IP
+EIF
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 1
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 1
+ 34
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 14
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 14
+ 18
+MIAP[no-rnd]
+EIF
+PUSHB_4
+ 9
+ 3
+ 10
+ 4
+CALL
+PUSHB_1
+ 1
+SRP0
+PUSHB_2
+ 0
+ 3
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 1
+SRP0
+PUSHB_1
+ 4
+MDRP[rp0,min,rnd,grey]
+PUSHB_1
+ 0
+SRP0
+PUSHB_1
+ 7
+MDRP[rp0,grey]
+PUSHB_3
+ 223
+ 9
+ 1
+DELTAP1
+PUSHB_3
+ 175
+ 9
+ 1
+DELTAP1
+PUSHB_3
+ 46
+ 9
+ 1
+DELTAP1
+PUSHB_3
+ 175
+ 10
+ 1
+DELTAP1
+PUSHB_3
+ 223
+ 10
+ 1
+DELTAP1
+PUSHB_3
+ 46
+ 10
+ 1
+DELTAP1
+PUSHB_1
+ 14
+SRP0
+PUSHB_2
+ 13
+ 3
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 17
+MDRP[rp0,grey]
+PUSHB_1
+ 10
+SRP0
+PUSHB_1
+ 18
+MDRP[rp0,grey]
+PUSHB_1
+ 9
+SRP0
+PUSHB_1
+ 21
+MDRP[rp0,grey]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+126 644 m 1,0,-1
+ 138 700 l 1,1,-1
+ 651 700 l 1,2,-1
+ 607 493 l 1,3,-1
+ 535 493 l 1,4,-1
+ 563 622 l 1,5,-1
+ 547 644 l 1,6,-1
+ 329 644 l 1,7,-1
+ 274 384 l 1,8,-1
+ 441 384 l 1,9,-1
+ 429 328 l 1,10,-1
+ 262 328 l 1,11,-1
+ 204 56 l 1,12,-1
+ 312 56 l 1,13,-1
+ 300 0 l 1,14,-1
+ -11 0 l 1,15,-1
+ 1 56 l 1,16,-1
+ 92 56 l 1,17,-1
+ 150 328 l 1,18,-1
+ 50 328 l 1,19,-1
+ 62 384 l 1,20,-1
+ 162 384 l 1,21,-1
+ 217 644 l 1,22,-1
+ 126 644 l 1,0,-1
+EndSplineSet
+Kerns2: 638 -6 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  630 -20 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  620 -14 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  618 -41 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  544 -55 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  518 28 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  516 38 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  514 35 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  508 -42 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  504 -21 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  405 30 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  398 24 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  393 -13 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  367 -14 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  365 -42 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+Substitution2: "'locl' Localized Forms in Cyrillic lookup 10 subtable" uni0492.alt
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uni0492.alt
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
+EndChar

@@ -1,0 +1,256 @@
+
+StartChar: uni04AB
+Encoding: 1195 1195 446
+Width: 523
+Flags: W
+TtInstrs:
+PUSHB_1
+ 10
+CALL
+IF
+PUSHB_4
+ 25
+ 5
+ 9
+ 4
+CALL
+PUSHB_3
+ 112
+ 9
+ 1
+DELTAP2
+PUSHB_1
+ 9
+SRP0
+PUSHB_1
+ 16
+MDRP[rp0,min,rnd,grey]
+PUSHB_3
+ 112
+ 16
+ 1
+DELTAP1
+PUSHB_3
+ 160
+ 16
+ 1
+DELTAP2
+PUSHB_3
+ 160
+ 16
+ 1
+DELTAP3
+PUSHB_3
+ 192
+ 16
+ 1
+DELTAP2
+PUSHB_3
+ 0
+ 16
+ 1
+DELTAP2
+PUSHB_5
+ 64
+ 16
+ 80
+ 16
+ 2
+DELTAP1
+PUSHB_3
+ 16
+ 16
+ 1
+DELTAP3
+PUSHB_1
+ 0
+MDRP[rp0,grey]
+PUSHB_1
+ 0
+MDAP[rnd]
+PUSHB_3
+ 6
+ 9
+ 16
+SRP1
+SRP2
+IP
+PUSHB_1
+ 6
+MDAP[rnd]
+PUSHB_1
+ 3
+MDRP[rp0,min,rnd,grey]
+PUSHB_1
+ 16
+SRP0
+PUSHB_2
+ 17
+ 14
+MIRP[rp0,rnd,grey]
+PUSHB_3
+ 112
+ 25
+ 1
+DELTAP2
+EIF
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 12
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 12
+ 30
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 3
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 3
+ 16
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 4
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 4
+ 18
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 3
+SRP0
+PUSHB_1
+ 6
+MDRP[rp0,grey]
+PUSHB_1
+ 12
+SRP0
+PUSHB_1
+ 16
+MDRP[rp0,min,rnd,grey]
+PUSHB_7
+ 0
+ 16
+ 16
+ 16
+ 32
+ 16
+ 3
+DELTAP1
+PUSHB_3
+ 128
+ 16
+ 1
+DELTAP1
+PUSHB_1
+ 12
+SRP0
+PUSHB_2
+ 20
+ 2
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 3
+SRP0
+PUSHB_2
+ 30
+ 3
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 3
+SRP0
+PUSHB_1
+ 35
+MDRP[rp0,min,rnd,grey]
+IUP[y]
+IUP[x]
+PUSHB_1
+ 10
+CALL
+IF
+SVTCA[x-axis]
+PUSHB_5
+ 9
+ 7
+ 25
+ 7
+ 2
+DELTAP1
+PUSHB_5
+ 9
+ 8
+ 25
+ 8
+ 2
+DELTAP1
+PUSHB_5
+ 101
+ 22
+ 117
+ 22
+ 2
+DELTAP1
+PUSHB_5
+ 101
+ 28
+ 117
+ 28
+ 2
+DELTAP1
+EIF
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+482 64 m 1,0,1
+ 462 37 462 37 419.5 14.5 c 128,-1,2
+ 377 -8 377 -8 320 -11 c 1,3,-1
+ 320 -199 l 1,4,-1
+ 240 -199 l 1,5,-1
+ 240 -5 l 1,6,7
+ 141 14 141 14 93 84.5 c 128,-1,8
+ 45 155 45 155 45 262 c 0,9,10
+ 45 395 45 395 115.5 465 c 128,-1,11
+ 186 535 186 535 307 535 c 0,12,13
+ 362 535 362 535 398 528 c 128,-1,14
+ 434 521 434 521 464 506 c 1,15,-1
+ 464 376 l 1,16,-1
+ 374 376 l 1,17,-1
+ 374 472 l 1,18,19
+ 359 481 359 481 314 481 c 0,20,21
+ 276 481 276 481 247 470 c 128,-1,22
+ 218 459 218 459 198 434 c 128,-1,23
+ 178 409 178 409 168 367 c 128,-1,24
+ 158 325 158 325 158 264 c 0,25,26
+ 158 224 158 224 169 187.5 c 128,-1,27
+ 180 151 180 151 202 123.5 c 128,-1,28
+ 224 96 224 96 257.5 80 c 128,-1,29
+ 291 64 291 64 336 64 c 0,30,31
+ 360 64 360 64 378.5 67.5 c 128,-1,32
+ 397 71 397 71 411 76.5 c 128,-1,33
+ 425 82 425 82 436 89 c 128,-1,34
+ 447 96 447 96 457 104 c 1,35,-1
+ 482 64 l 1,0,1
+EndSplineSet
+Substitution2: "'locl' Localized Forms in Cyrillic lookup 11 subtable" uni04AB.alt02
+Substitution2: "'locl' Localized Forms in Cyrillic lookup 10 subtable" uni04AB.alt
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" uni04AB.alt02 uni04AB.alt
+EndChar

@@ -1,0 +1,50 @@
+
+StartChar: uniF547
+Encoding: 62791 62791 668
+Width: 395
+Flags: W
+TtInstrs:
+NPUSHW
+ 3
+ 15
+ 32
+ 1
+DELTAP1
+NPUSHW
+ 3
+ 143
+ 32
+ 1
+DELTAP1
+NPUSHW
+ 7
+ 79
+ 32
+ 95
+ 32
+ 111
+ 32
+ 3
+DELTAP1
+SVTCA[y-axis]
+PUSHW_1
+ 0
+RCVT
+IF
+PUSHW_1
+ 31
+MDAP[rnd]
+ELSE
+PUSHW_2
+ 31
+ 38
+MIAP[no-rnd]
+EIF
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+Refer: 87 116 N 1 0 0 1 0 0 3
+Refer: 118 180 N 1 0 0 1 81 0 2
+EndChar

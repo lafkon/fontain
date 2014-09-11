@@ -1,0 +1,38 @@
+
+StartChar: hyphen
+Encoding: 45 45 16
+Width: 425
+Flags: W
+TtInstrs:
+PUSHB_1
+ 10
+CALL
+IF
+PUSHB_3
+ 2
+ 3
+ 3
+CALL
+EIF
+SVTCA[y-axis]
+PUSHB_4
+ 3
+ 3
+ 0
+ 4
+CALL
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+71 313 m 1,0,-1
+ 353 313 l 1,1,-1
+ 353 250 l 1,2,-1
+ 71 250 l 1,3,-1
+ 71 313 l 1,0,-1
+EndSplineSet
+Kerns2: 675 -61 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+Position2: "'case' Case-Sensitive Forms lookup 1 per glyph data 2" dx=0 dy=80 dh=0 dv=0
+EndChar

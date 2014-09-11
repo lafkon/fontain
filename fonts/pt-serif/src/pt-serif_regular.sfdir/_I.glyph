@@ -1,0 +1,98 @@
+
+StartChar: I
+Encoding: 73 73 44
+Width: 352
+Flags: W
+TtInstrs:
+PUSHB_1
+ 10
+CALL
+IF
+PUSHB_4
+ 15
+ 6
+ 4
+ 4
+CALL
+PUSHB_3
+ 48
+ 4
+ 1
+DELTAP1
+PUSHB_3
+ 48
+ 15
+ 1
+DELTAP1
+NPUSHW
+ 11
+ 16
+ 20
+ 32
+ 20
+ 48
+ 20
+ 64
+ 20
+ 80
+ 20
+ 5
+DELTAP1
+PUSHB_3
+ 112
+ 20
+ 1
+DELTAP1
+EIF
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 9
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 9
+ 27
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 1
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 1
+ 9
+MIAP[no-rnd]
+EIF
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+304 0 m 1,0,-1
+ 48 0 l 1,1,-1
+ 48 29 l 1,2,3
+ 87 47 87 47 128 53 c 1,4,-1
+ 128 646 l 1,5,6
+ 108 650 108 650 88 656.5 c 128,-1,7
+ 68 663 68 663 48 671 c 1,8,-1
+ 48 700 l 1,9,-1
+ 304 700 l 1,10,-1
+ 304 671 l 1,11,12
+ 286 663 286 663 265 656.5 c 128,-1,13
+ 244 650 244 650 224 646 c 1,14,-1
+ 224 53 l 1,15,16
+ 245 49 245 49 266 43 c 128,-1,17
+ 287 37 287 37 304 29 c 1,18,-1
+ 304 0 l 1,0,-1
+EndSplineSet
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
+EndChar

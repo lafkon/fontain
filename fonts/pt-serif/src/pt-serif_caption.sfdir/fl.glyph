@@ -1,0 +1,393 @@
+
+StartChar: fl
+Encoding: 64258 64258 692
+Width: 680
+Flags: W
+TtInstrs:
+PUSHB_1
+ 10
+CALL
+IF
+PUSHB_4
+ 10
+ 7
+ 15
+ 4
+CALL
+PUSHB_4
+ 27
+ 7
+ 32
+ 4
+CALL
+PUSHB_5
+ 63
+ 10
+ 79
+ 10
+ 2
+DELTAP1
+PUSHB_3
+ 0
+ 10
+ 1
+DELTAP1
+PUSHB_3
+ 96
+ 10
+ 1
+DELTAP2
+PUSHB_1
+ 10
+SRP0
+PUSHB_1
+ 6
+MDRP[rp0,grey]
+PUSHB_1
+ 10
+SRP0
+PUSHB_1
+ 8
+MDRP[rp0,min,rnd,grey]
+PUSHB_1
+ 10
+SRP0
+PUSHB_2
+ 11
+ 8
+MIRP[rp0,rnd,grey]
+PUSHB_5
+ 0
+ 11
+ 16
+ 11
+ 2
+DELTAP1
+PUSHB_5
+ 63
+ 15
+ 79
+ 15
+ 2
+DELTAP1
+PUSHB_3
+ 96
+ 15
+ 1
+DELTAP2
+PUSHB_3
+ 0
+ 15
+ 1
+DELTAP1
+PUSHB_1
+ 15
+SRP0
+PUSHB_2
+ 14
+ 9
+MIRP[rp0,rnd,grey]
+PUSHB_3
+ 15
+ 14
+ 1
+DELTAP1
+PUSHB_1
+ 17
+MDRP[rp0,grey]
+PUSHB_1
+ 17
+MDAP[rnd]
+PUSHB_1
+ 15
+SRP0
+PUSHB_1
+ 19
+MDRP[rp0,grey]
+PUSHB_5
+ 0
+ 27
+ 16
+ 27
+ 2
+DELTAP1
+PUSHB_3
+ 255
+ 27
+ 1
+DELTAP1
+PUSHB_3
+ 191
+ 27
+ 1
+DELTAP2
+PUSHB_3
+ 255
+ 27
+ 1
+DELTAP2
+PUSHB_3
+ 192
+ 27
+ 1
+DELTAP1
+PUSHB_3
+ 112
+ 27
+ 1
+DELTAP1
+PUSHB_1
+ 27
+SRP0
+PUSHB_2
+ 28
+ 9
+MIRP[rp0,rnd,grey]
+PUSHB_3
+ 192
+ 32
+ 1
+DELTAP1
+PUSHB_3
+ 255
+ 32
+ 1
+DELTAP1
+PUSHB_3
+ 191
+ 32
+ 1
+DELTAP2
+PUSHB_3
+ 255
+ 32
+ 1
+DELTAP2
+PUSHB_5
+ 0
+ 32
+ 16
+ 32
+ 2
+DELTAP1
+PUSHB_3
+ 112
+ 32
+ 1
+DELTAP1
+PUSHB_1
+ 32
+SRP0
+PUSHB_2
+ 31
+ 9
+MIRP[rp0,rnd,grey]
+PUSHB_5
+ 15
+ 31
+ 31
+ 31
+ 2
+DELTAP1
+PUSHB_3
+ 112
+ 34
+ 1
+DELTAP1
+PUSHB_3
+ 192
+ 34
+ 1
+DELTAP1
+EIF
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 6
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 6
+ 30
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 19
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 19
+ 30
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 25
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 25
+ 36
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 12
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 12
+ 16
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 30
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 30
+ 16
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 25
+SRP0
+PUSHB_2
+ 2
+ 2
+MIRP[rp0,rnd,grey]
+PUSHB_3
+ 0
+ 6
+ 1
+DELTAP1
+PUSHB_1
+ 6
+SRP0
+PUSHB_2
+ 9
+ 1
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 12
+SRP0
+PUSHB_2
+ 11
+ 1
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 15
+MDRP[rp0,grey]
+PUSHB_3
+ 0
+ 19
+ 1
+DELTAP1
+PUSHB_1
+ 19
+SRP0
+PUSHB_2
+ 16
+ 1
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 30
+SRP0
+PUSHB_2
+ 31
+ 1
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 27
+MDRP[rp0,grey]
+IUP[y]
+IUP[x]
+PUSHB_1
+ 10
+CALL
+IF
+SVTCA[x-axis]
+PUSHB_3
+ 117
+ 3
+ 1
+DELTAP1
+PUSHB_3
+ 56
+ 22
+ 1
+DELTAP1
+PUSHB_5
+ 25
+ 22
+ 41
+ 22
+ 2
+DELTAP1
+PUSHB_3
+ 73
+ 22
+ 1
+DELTAP1
+PUSHB_3
+ 10
+ 22
+ 1
+DELTAP1
+EIF
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+460 690 m 1,0,1
+ 421 696 421 696 386 696 c 0,2,3
+ 311 696 311 696 268 665 c 128,-1,4
+ 225 634 225 634 225 556 c 2,5,-1
+ 225 525 l 1,6,-1
+ 353 525 l 1,7,-1
+ 353 475 l 1,8,-1
+ 225 475 l 1,9,-1
+ 225 50 l 1,10,-1
+ 316 50 l 1,11,-1
+ 316 0 l 1,12,-1
+ 46 0 l 1,13,-1
+ 46 50 l 1,14,-1
+ 120 50 l 1,15,-1
+ 120 475 l 1,16,-1
+ 35 475 l 1,17,-1
+ 35 525 l 1,18,-1
+ 120 525 l 1,19,-1
+ 120 551 l 2,20,21
+ 120 612 120 612 139.5 651 c 128,-1,22
+ 159 690 159 690 193.5 712 c 128,-1,23
+ 228 734 228 734 276 742 c 128,-1,24
+ 324 750 324 750 380 750 c 2,25,-1
+ 565 750 l 1,26,-1
+ 565 50 l 1,27,-1
+ 639 50 l 1,28,-1
+ 639 0 l 1,29,-1
+ 386 0 l 1,30,-1
+ 386 50 l 1,31,-1
+ 460 50 l 1,32,-1
+ 460 690 l 1,0,1
+EndSplineSet
+Ligature2: "'liga' Standard Ligatures in Latin lookup 15 subtable" f l
+Ligature2: "'liga' Standard Ligatures lookup 14 subtable" f l
+EndChar

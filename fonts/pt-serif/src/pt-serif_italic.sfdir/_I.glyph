@@ -1,0 +1,156 @@
+
+StartChar: I
+Encoding: 73 73 44
+Width: 343
+Flags: W
+TtInstrs:
+PUSHB_1
+ 10
+CALL
+IF
+PUSHB_4
+ 15
+ 10
+ 4
+ 4
+CALL
+PUSHB_5
+ 96
+ 15
+ 112
+ 15
+ 2
+DELTAP1
+PUSHB_1
+ 15
+SRP0
+PUSHB_1
+ 0
+MDRP[rp0,grey]
+PUSHB_1
+ 0
+MDAP[rnd]
+PUSHB_5
+ 96
+ 4
+ 112
+ 4
+ 2
+DELTAP1
+PUSHB_1
+ 4
+SRP0
+PUSHB_1
+ 1
+MDRP[rp0,grey]
+PUSHB_1
+ 1
+MDAP[rnd]
+PUSHB_1
+ 4
+SRP0
+PUSHB_1
+ 5
+MDRP[rp0,grey]
+PUSHB_5
+ 20
+ 5
+ 36
+ 5
+ 2
+DELTAP1
+PUSHB_5
+ 51
+ 5
+ 67
+ 5
+ 2
+DELTAP1
+PUSHB_1
+ 8
+MDRP[rp0,grey]
+PUSHB_1
+ 8
+MDAP[rnd]
+PUSHB_1
+ 5
+SRP0
+PUSHB_2
+ 14
+ 10
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 10
+MDRP[rp0,grey]
+PUSHB_1
+ 10
+MDAP[rnd]
+EIF
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 9
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 9
+ 33
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 1
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 1
+ 15
+MIAP[no-rnd]
+EIF
+IUP[y]
+IUP[x]
+PUSHB_1
+ 10
+CALL
+IF
+SVTCA[x-axis]
+PUSHB_3
+ 5
+ 15
+ 1
+DELTAP1
+PUSHB_3
+ 70
+ 15
+ 1
+DELTAP1
+EIF
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+255 0 m 1,0,-1
+ -1 0 l 1,1,-1
+ 4 29 l 1,2,3
+ 48 47 48 47 90 53 c 1,4,-1
+ 215 646 l 1,5,6
+ 195 650 195 650 177 656.5 c 128,-1,7
+ 159 663 159 663 140 671 c 1,8,-1
+ 147 700 l 1,9,-1
+ 403 700 l 1,10,-1
+ 397 671 l 1,11,12
+ 377 663 377 663 354 656.5 c 128,-1,13
+ 331 650 331 650 311 646 c 1,14,-1
+ 186 53 l 1,15,16
+ 206 49 206 49 225.5 43 c 128,-1,17
+ 245 37 245 37 260 29 c 1,18,-1
+ 255 0 l 1,0,-1
+EndSplineSet
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
+EndChar

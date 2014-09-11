@@ -1,0 +1,110 @@
+
+StartChar: quoteright
+Encoding: 8217 8217 548
+Width: 328
+Flags: W
+TtInstrs:
+PUSHB_1
+ 10
+CALL
+IF
+PUSHB_1
+ 9
+MDAP[rnd]
+PUSHB_1
+ 0
+MDRP[rp0,grey]
+PUSHB_1
+ 0
+MDAP[rnd]
+PUSHB_1
+ 9
+SRP0
+PUSHB_2
+ 17
+ 15
+MIRP[rp0,rnd,grey]
+PUSHB_3
+ 5
+ 17
+ 9
+SRP1
+SRP2
+IP
+PUSHB_1
+ 0
+SRP0
+PUSHB_1
+ 23
+MDRP[rp0,grey]
+PUSHB_1
+ 23
+MDAP[rnd]
+EIF
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 13
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 13
+ 36
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 23
+MDRP[rp0,grey]
+PUSHB_1
+ 23
+MDAP[rnd]
+PUSHB_3
+ 160
+ 23
+ 1
+DELTAP1
+PUSHB_1
+ 0
+MDRP[rp0,grey]
+PUSHB_1
+ 0
+MDAP[rnd]
+PUSHB_1
+ 13
+SRP0
+PUSHB_1
+ 6
+MDRP[rp0,min,rnd,grey]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+75 519 m 1,0,1
+ 96 525 96 525 113 538 c 128,-1,2
+ 130 551 130 551 142 567.5 c 128,-1,3
+ 154 584 154 584 159.5 603 c 128,-1,4
+ 165 622 165 622 164 640 c 1,5,-1
+ 107 640 l 1,6,7
+ 99 652 99 652 94 664.5 c 128,-1,8
+ 89 677 89 677 89 691 c 0,9,10
+ 89 703 89 703 91.5 713.5 c 128,-1,11
+ 94 724 94 724 98 733 c 128,-1,12
+ 102 742 102 742 107 750 c 1,13,-1
+ 218 750 l 1,14,15
+ 226 730 226 730 231 711 c 128,-1,16
+ 236 692 236 692 236 672 c 0,17,18
+ 236 644 236 644 226.5 613 c 128,-1,19
+ 217 582 217 582 198 558 c 0,20,21
+ 183 538 183 538 156.5 518 c 128,-1,22
+ 130 498 130 498 93 490 c 1,23,-1
+ 75 519 l 1,0,1
+EndSplineSet
+Kerns2: 392 -63 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  399 -27 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  396 -74 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  391 -29 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  360 -45 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  359 -19 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  321 -19 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  318 -44 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 12 subtable" uniF62D
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uniF62D
+EndChar

@@ -1,0 +1,63 @@
+
+StartChar: uniF40B
+Encoding: 62475 62475 593
+Width: 508
+Flags: W
+TtInstrs:
+PUSHB_1
+ 10
+CALL
+IF
+PUSHB_1
+ 0
+MDAP[rnd]
+PUSHB_1
+ 6
+MDRP[rp0,min,rnd,grey]
+EIF
+SVTCA[y-axis]
+PUSHB_1
+ 9
+MDAP[rnd]
+PUSHB_3
+ 175
+ 9
+ 1
+DELTAP1
+PUSHB_3
+ 15
+ 9
+ 1
+DELTAP1
+PUSHB_3
+ 111
+ 9
+ 1
+DELTAP1
+PUSHB_5
+ 47
+ 9
+ 63
+ 9
+ 2
+DELTAP1
+PUSHB_1
+ 3
+MDRP[rp0,min,rnd,grey]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+283 819 m 0,0,1
+ 283 851 283 851 306 868 c 128,-1,2
+ 329 885 329 885 374 885 c 256,3,4
+ 419 885 419 885 441 868 c 128,-1,5
+ 463 851 463 851 463 819 c 0,6,7
+ 463 788 463 788 441 771 c 128,-1,8
+ 419 754 419 754 374 754 c 256,9,10
+ 329 754 329 754 306 771 c 128,-1,11
+ 283 788 283 788 283 819 c 0,0,1
+EndSplineSet
+EndChar

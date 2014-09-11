@@ -1,0 +1,27 @@
+
+StartChar: afii57929
+Encoding: 700 700 302
+Width: 308
+Flags: W
+TtInstrs:
+SVTCA[y-axis]
+PUSHW_1
+ 0
+RCVT
+IF
+PUSHW_1
+ 11
+MDAP[rnd]
+ELSE
+PUSHW_2
+ 11
+ 20
+MIAP[no-rnd]
+EIF
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+Refer: 549 8218 N 1 0 0 1 117 563 3
+EndChar

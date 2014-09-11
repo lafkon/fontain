@@ -1,0 +1,325 @@
+
+StartChar: Tcedilla
+Encoding: 354 354 272
+Width: 619
+Flags: W
+TtInstrs:
+PUSHB_1
+ 10
+CALL
+IF
+PUSHB_4
+ 41
+ 6
+ 24
+ 4
+CALL
+PUSHB_3
+ 18
+ 24
+ 41
+SRP1
+SRP2
+IP
+PUSHB_1
+ 18
+MDAP[rnd]
+PUSHB_5
+ 79
+ 18
+ 95
+ 18
+ 2
+DELTAP1
+PUSHB_3
+ 13
+ 18
+ 1
+DELTAP1
+PUSHB_1
+ 1
+MDRP[rp0,grey]
+PUSHB_3
+ 61
+ 1
+ 1
+DELTAP1
+PUSHB_3
+ 28
+ 1
+ 1
+DELTAP1
+PUSHB_3
+ 82
+ 1
+ 1
+DELTAP1
+PUSHB_1
+ 18
+SRP0
+PUSHB_1
+ 17
+MDRP[rp0,grey]
+PUSHB_1
+ 17
+MDAP[rnd]
+PUSHB_5
+ 111
+ 17
+ 127
+ 17
+ 2
+DELTAP1
+PUSHB_3
+ 89
+ 17
+ 1
+DELTAP1
+PUSHB_3
+ 64
+ 17
+ 1
+DELTAP1
+PUSHB_1
+ 11
+MDRP[rp0,grey]
+PUSHB_1
+ 11
+MDAP[rnd]
+PUSHB_1
+ 14
+MDRP[rp0,grey]
+PUSHB_1
+ 14
+MDAP[rnd]
+PUSHB_2
+ 5
+ 4
+MIRP[rp0,rnd,grey]
+PUSHB_3
+ 50
+ 7
+ 1
+DELTAP1
+PUSHB_1
+ 24
+SRP0
+PUSHB_1
+ 32
+MDRP[rp0,min,rnd,grey]
+PUSHB_2
+ 25
+ 4
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 41
+SRP0
+PUSHB_1
+ 33
+MDRP[rp0,min,rnd,grey]
+PUSHB_2
+ 40
+ 4
+MIRP[rp0,rnd,grey]
+PUSHB_3
+ 0
+ 47
+ 1
+DELTAP1
+EIF
+SVTCA[y-axis]
+PUSHB_1
+ 10
+MDAP[rnd]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 32
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 32
+ 27
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 19
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 19
+ 9
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 1
+MDRP[rp0,grey]
+PUSHB_3
+ 0
+ 10
+ 1
+DELTAP1
+PUSHB_1
+ 10
+SRP0
+PUSHB_1
+ 11
+MDRP[rp0,min,rnd,grey]
+PUSHB_3
+ 91
+ 17
+ 1
+DELTAP1
+PUSHB_3
+ 73
+ 17
+ 1
+DELTAP1
+PUSHB_1
+ 19
+SRP0
+PUSHB_1
+ 20
+MDRP[rp0,grey]
+NPUSHW
+ 9
+ 11
+ 20
+ 27
+ 20
+ 43
+ 20
+ 59
+ 20
+ 4
+DELTAP1
+PUSHB_1
+ 32
+SRP0
+PUSHB_2
+ 25
+ 2
+MIRP[rp0,rnd,grey]
+PUSHB_3
+ 27
+ 19
+ 32
+SRP1
+SRP2
+IP
+PUSHB_1
+ 27
+MDAP[rnd]
+PUSHB_1
+ 39
+MDRP[rp0,grey]
+PUSHB_1
+ 39
+MDAP[rnd]
+PUSHB_1
+ 25
+SRP0
+PUSHB_1
+ 41
+MDRP[rp0,grey]
+PUSHB_1
+ 20
+SRP0
+PUSHB_1
+ 45
+MDRP[rp0,grey]
+IUP[y]
+IUP[x]
+PUSHB_1
+ 10
+CALL
+IF
+SVTCA[x-axis]
+PUSHB_3
+ 43
+ 1
+ 1
+DELTAP1
+PUSHB_3
+ 2
+ 7
+ 1
+DELTAP1
+PUSHB_5
+ 19
+ 7
+ 35
+ 7
+ 2
+DELTAP1
+PUSHB_3
+ 125
+ 17
+ 1
+DELTAP1
+EIF
+SVTCA[y-axis]
+PUSHB_3
+ 8
+ 7
+ 1
+DELTAP1
+PUSHB_3
+ 109
+ 17
+ 1
+DELTAP1
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+450 0 m 1,0,-1
+ 330 0 l 1,1,-1
+ 301 -75 l 1,2,3
+ 361 -76 361 -76 389.5 -97.5 c 128,-1,4
+ 418 -119 418 -119 418 -154 c 0,5,6
+ 418 -184 418 -184 400.5 -206 c 128,-1,7
+ 383 -228 383 -228 356.5 -243 c 128,-1,8
+ 330 -258 330 -258 298 -265 c 128,-1,9
+ 266 -272 266 -272 237 -272 c 1,10,-1
+ 237 -239 l 1,11,12
+ 277 -233 277 -233 304 -217 c 128,-1,13
+ 331 -201 331 -201 330 -172 c 0,14,15
+ 329 -144 329 -144 307 -131.5 c 128,-1,16
+ 285 -119 285 -119 240 -116 c 1,17,-1
+ 279 0 l 1,18,-1
+ 169 0 l 1,19,-1
+ 169 29 l 1,20,21
+ 191 37 191 37 213.5 43 c 128,-1,22
+ 236 49 236 49 262 53 c 1,23,-1
+ 262 648 l 1,24,-1
+ 109 648 l 1,25,-1
+ 56 505 l 1,26,-1
+ 31 505 l 1,27,28
+ 28 525 28 525 26 550.5 c 128,-1,29
+ 24 576 24 576 22.5 602.5 c 128,-1,30
+ 21 629 21 629 20 654.5 c 128,-1,31
+ 19 680 19 680 19 700 c 1,32,-1
+ 600 700 l 1,33,34
+ 600 680 600 680 599 655 c 128,-1,35
+ 598 630 598 630 596.5 603.5 c 128,-1,36
+ 595 577 595 577 593.5 551.5 c 128,-1,37
+ 592 526 592 526 589 505 c 1,38,-1
+ 563 505 l 1,39,-1
+ 511 648 l 1,40,-1
+ 358 648 l 1,41,-1
+ 358 53 l 1,42,43
+ 384 48 384 48 406.5 43 c 128,-1,44
+ 429 38 429 38 450 29 c 1,45,-1
+ 450 0 l 1,0,-1
+EndSplineSet
+Kerns2: 271 -47 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  235 -1 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  229 23 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  177 40 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  176 -1 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+Substitution2: "'locl' Localized Forms in Latin lookup 9 subtable" Tcommaaccent
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
+EndChar

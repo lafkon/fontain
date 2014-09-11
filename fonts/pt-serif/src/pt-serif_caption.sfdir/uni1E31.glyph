@@ -1,0 +1,34 @@
+
+StartChar: uni1E31
+Encoding: 7729 7729 538
+Width: 582
+Flags: W
+TtInstrs:
+NPUSHW
+ 3
+ 64
+ 25
+ 1
+DELTAP1
+SVTCA[y-axis]
+PUSHW_1
+ 0
+RCVT
+IF
+PUSHW_1
+ 25
+MDAP[rnd]
+ELSE
+PUSHW_2
+ 25
+ 36
+MIAP[no-rnd]
+EIF
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+Refer: 78 107 N 1 0 0 1 0 0 3
+Refer: 118 180 N 1 0 0 1 229 0 2
+EndChar

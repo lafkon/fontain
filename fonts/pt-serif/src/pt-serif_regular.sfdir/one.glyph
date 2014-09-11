@@ -1,0 +1,89 @@
+
+StartChar: one
+Encoding: 49 49 20
+Width: 533
+Flags: W
+TtInstrs:
+PUSHB_1
+ 10
+CALL
+IF
+PUSHB_4
+ 16
+ 4
+ 5
+ 4
+CALL
+PUSHB_1
+ 5
+SRP0
+PUSHB_1
+ 11
+MDRP[rp0,grey]
+PUSHB_1
+ 11
+MDAP[rnd]
+EIF
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 14
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 14
+ 27
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 1
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 1
+ 9
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 14
+SRP0
+PUSHB_1
+ 10
+MDRP[rp0,min,rnd,grey]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+425 0 m 1,0,-1
+ 133 0 l 1,1,-1
+ 133 29 l 1,2,3
+ 158 40 158 40 183.5 48.5 c 128,-1,4
+ 209 57 209 57 235 63 c 1,5,-1
+ 235 554 l 1,6,-1
+ 239 613 l 1,7,8
+ 211 602 211 602 181 597.5 c 128,-1,9
+ 151 593 151 593 119 594 c 1,10,-1
+ 114 618 l 1,11,12
+ 160 633 160 633 209 655.5 c 128,-1,13
+ 258 678 258 678 300 712 c 1,14,-1
+ 325 712 l 1,15,-1
+ 325 63 l 1,16,17
+ 350 57 350 57 375 48.5 c 128,-1,18
+ 400 40 400 40 425 29 c 1,19,-1
+ 425 0 l 1,0,-1
+EndSplineSet
+Substitution2: "'sups' Superscript lookup 13 subtable" onesuperior
+Substitution2: "'sinf' Scientific Inferiors lookup 6 subtable" uni2081
+Substitution2: "'subs' Subscript lookup 5 subtable" uni2081
+Substitution2: "'numr' Numerators lookup 4 subtable" one.numerator
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" one.numerator uni2081 onesuperior
+EndChar

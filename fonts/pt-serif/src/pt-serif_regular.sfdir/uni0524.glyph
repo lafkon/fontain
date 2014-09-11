@@ -1,0 +1,182 @@
+
+StartChar: uni0524
+Encoding: 1316 1316 531
+Width: 733
+Flags: W
+TtInstrs:
+PUSHB_1
+ 10
+CALL
+IF
+PUSHB_3
+ 2
+ 13
+ 3
+CALL
+PUSHB_3
+ 47
+ 2
+ 1
+DELTAP1
+PUSHB_3
+ 95
+ 2
+ 1
+DELTAP1
+PUSHB_3
+ 95
+ 13
+ 1
+DELTAP1
+PUSHB_1
+ 13
+SRP0
+PUSHB_2
+ 5
+ 6
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 2
+SRP0
+PUSHB_2
+ 24
+ 6
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 2
+SRP0
+PUSHB_1
+ 25
+MDRP[rp0,min,rnd,grey]
+PUSHB_5
+ 64
+ 25
+ 80
+ 25
+ 2
+DELTAP1
+PUSHB_2
+ 32
+ 4
+MIRP[rp0,rnd,grey]
+EIF
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 18
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 18
+ 27
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 9
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 9
+ 9
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 33
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 33
+ 9
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 9
+SRP0
+PUSHB_1
+ 10
+MDRP[rp0,grey]
+PUSHB_7
+ 11
+ 10
+ 27
+ 10
+ 43
+ 10
+ 3
+DELTAP1
+PUSHB_1
+ 7
+MDRP[rp0,grey]
+PUSHB_1
+ 0
+MDRP[rp0,grey]
+PUSHB_1
+ 18
+SRP0
+PUSHB_2
+ 4
+ 2
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 33
+SRP0
+PUSHB_2
+ 24
+ 2
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 33
+SRP0
+PUSHB_1
+ 31
+MDRP[rp0,min,rnd,grey]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+436 29 m 1,0,1
+ 458 43 458 43 511 53 c 1,2,-1
+ 511 648 l 1,3,-1
+ 207 648 l 1,4,-1
+ 207 53 l 1,5,6
+ 246 45 246 45 282 29 c 1,7,-1
+ 282 0 l 1,8,-1
+ 29 0 l 1,9,-1
+ 29 29 l 1,10,11
+ 44 37 44 37 64 43 c 128,-1,12
+ 84 49 84 49 111 53 c 1,13,-1
+ 111 646 l 1,14,15
+ 91 650 91 650 70 656.5 c 128,-1,16
+ 49 663 49 663 29 671 c 1,17,-1
+ 29 700 l 1,18,-1
+ 689 700 l 1,19,-1
+ 689 671 l 1,20,21
+ 670 661 670 661 649 655.5 c 128,-1,22
+ 628 650 628 650 607 646 c 1,23,-1
+ 607 52 l 1,24,-1
+ 718 52 l 1,25,26
+ 718 32 718 32 716 5.5 c 128,-1,27
+ 714 -21 714 -21 711 -49.5 c 128,-1,28
+ 708 -78 708 -78 704.5 -104.5 c 128,-1,29
+ 701 -131 701 -131 697 -151 c 1,30,-1
+ 672 -151 l 1,31,-1
+ 629 0 l 1,32,-1
+ 436 0 l 1,33,-1
+ 436 29 l 1,0,1
+EndSplineSet
+Kerns2: 333 30 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
+EndChar

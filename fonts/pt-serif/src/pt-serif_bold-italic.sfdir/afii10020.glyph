@@ -1,0 +1,143 @@
+
+StartChar: afii10020
+Encoding: 1043 1043 332
+Width: 537
+Flags: W
+TtInstrs:
+PUSHB_1
+ 10
+CALL
+IF
+PUSHB_3
+ 14
+ 8
+ 3
+CALL
+PUSHB_1
+ 8
+SRP0
+PUSHB_2
+ 0
+ 7
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 3
+MDRP[rp0,grey]
+PUSHB_1
+ 3
+MDAP[rnd]
+PUSHB_1
+ 8
+SRP0
+PUSHB_1
+ 5
+MDRP[rp0,grey]
+PUSHB_1
+ 5
+MDAP[rnd]
+PUSHB_1
+ 8
+SRP0
+PUSHB_1
+ 9
+MDRP[rp0,grey]
+PUSHB_1
+ 12
+MDRP[rp0,grey]
+PUSHB_1
+ 12
+MDAP[rnd]
+PUSHB_1
+ 0
+SRP0
+PUSHB_1
+ 22
+MDRP[rp0,grey]
+EIF
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 13
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 13
+ 20
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 5
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 5
+ 12
+MIAP[no-rnd]
+EIF
+PUSHB_2
+ 6
+ 4
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 3
+MDRP[rp0,grey]
+PUSHB_1
+ 13
+SRP0
+PUSHB_2
+ 12
+ 4
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 13
+SRP0
+PUSHB_1
+ 20
+MDRP[rp0,grey]
+PUSHB_1
+ 20
+MDAP[rnd]
+PUSHB_1
+ 13
+SRP0
+PUSHB_2
+ 22
+ 3
+MIRP[rp0,rnd,grey]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+222 67 m 1,0,1
+ 245 63 245 63 268 55 c 128,-1,2
+ 291 47 291 47 311 38 c 1,3,-1
+ 304 0 l 1,4,-1
+ -24 0 l 1,5,-1
+ -17 38 l 1,6,7
+ 29 60 29 60 72 67 c 1,8,-1
+ 192 633 l 1,9,10
+ 172 637 172 637 152.5 644 c 128,-1,11
+ 133 651 133 651 116 662 c 1,12,-1
+ 124 700 l 1,13,-1
+ 636 700 l 1,14,15
+ 632 676 632 676 624.5 645 c 128,-1,16
+ 617 614 617 614 608 581 c 128,-1,17
+ 599 548 599 548 588.5 516.5 c 128,-1,18
+ 578 485 578 485 567 460 c 1,19,-1
+ 526 460 l 1,20,-1
+ 501 635 l 1,21,-1
+ 342 635 l 1,22,-1
+ 222 67 l 1,0,1
+EndSplineSet
+Kerns2: 638 3 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  630 -15 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  620 -7 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  618 -23 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  544 -28 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  518 30 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  516 43 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  514 42 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  508 -26 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  504 -24 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  494 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  492 6 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  405 44 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  398 12 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  393 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  367 -21 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  365 -26 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
+EndChar

@@ -1,0 +1,190 @@
+
+StartChar: longs
+Encoding: 383 383 293
+Width: 316
+Flags: W
+TtInstrs:
+PUSHB_1
+ 10
+CALL
+IF
+PUSHB_1
+ 37
+MDAP[rnd]
+PUSHB_3
+ 11
+ 37
+ 1
+DELTAP1
+PUSHB_1
+ 6
+MDRP[rp0,grey]
+PUSHB_3
+ 0
+ 37
+ 6
+SRP1
+SRP2
+IP
+PUSHB_1
+ 0
+SRP0
+PUSHB_1
+ 1
+MDRP[rp0,grey]
+PUSHB_1
+ 1
+MDAP[rnd]
+PUSHB_3
+ 5
+ 6
+ 37
+SRP1
+SRP2
+IP
+PUSHB_1
+ 6
+SRP0
+PUSHB_1
+ 14
+MDRP[rp0,grey]
+PUSHB_1
+ 14
+MDAP[rnd]
+PUSHB_1
+ 37
+SRP0
+PUSHB_1
+ 26
+MDRP[rp0,grey]
+PUSHB_3
+ 10
+ 26
+ 1
+DELTAP1
+PUSHB_1
+ 25
+MDRP[rp0,grey]
+PUSHB_1
+ 37
+SRP0
+PUSHB_1
+ 32
+MDRP[rp0,grey]
+PUSHB_1
+ 32
+MDAP[rnd]
+EIF
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 11
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 11
+ 22
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 5
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 5
+ 18
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 31
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 31
+ 14
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 5
+SRP0
+PUSHB_1
+ 2
+MDRP[rp0,grey]
+PUSHB_1
+ 2
+MDAP[rnd]
+PUSHB_2
+ 1
+ 4
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 11
+SRP0
+PUSHB_1
+ 19
+MDRP[rp0,min,rnd,grey]
+PUSHB_1
+ 11
+SRP0
+PUSHB_2
+ 20
+ 1
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 31
+SRP0
+PUSHB_1
+ 32
+MDRP[rp0,min,rnd,grey]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+113 437 m 1,0,-1
+ 42 437 l 1,1,-1
+ 42 476 l 1,2,3
+ 62 487 62 487 84.5 495.5 c 128,-1,4
+ 107 504 107 504 127 509 c 1,5,-1
+ 134 544 l 2,6,7
+ 147 606 147 606 169.5 646.5 c 128,-1,8
+ 192 687 192 687 222 710.5 c 128,-1,9
+ 252 734 252 734 290 743 c 128,-1,10
+ 328 752 328 752 372 752 c 0,11,12
+ 404 752 404 752 437 746.5 c 128,-1,13
+ 470 741 470 741 490 730 c 1,14,15
+ 492 716 492 716 488.5 699.5 c 128,-1,16
+ 485 683 485 683 477.5 668 c 128,-1,17
+ 470 653 470 653 460 641 c 128,-1,18
+ 450 629 450 629 438 623 c 1,19,-1
+ 366 699 l 1,20,21
+ 352 696 352 696 338.5 689.5 c 128,-1,22
+ 325 683 325 683 313 668 c 128,-1,23
+ 301 653 301 653 289.5 625 c 128,-1,24
+ 278 597 278 597 269 550 c 1,25,-1
+ 185 43 l 1,26,27
+ 175 -28 175 -28 144 -75 c 128,-1,28
+ 113 -122 113 -122 75.5 -150.5 c 128,-1,29
+ 38 -179 38 -179 0 -193 c 128,-1,30
+ -38 -207 -38 -207 -62 -212 c 1,31,-1
+ -73 -178 l 1,32,33
+ -61 -172 -61 -172 -43 -158.5 c 128,-1,34
+ -25 -145 -25 -145 -7 -121 c 128,-1,35
+ 11 -97 11 -97 26.5 -61.5 c 128,-1,36
+ 42 -26 42 -26 50 24 c 2,37,-1
+ 113 437 l 1,0,-1
+EndSplineSet
+Kerns2: 243 50 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  79 60 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  76 59 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+EndChar

@@ -1,0 +1,106 @@
+
+StartChar: threequarters
+Encoding: 190 190 128
+Width: 1111
+Flags: W
+TtInstrs:
+NPUSHW
+ 3
+ 95
+ 25
+ 1
+DELTAP1
+NPUSHW
+ 3
+ 64
+ 40
+ 1
+DELTAP1
+NPUSHW
+ 3
+ 176
+ 40
+ 1
+DELTAP1
+NPUSHW
+ 3
+ 112
+ 40
+ 1
+DELTAP1
+NPUSHW
+ 3
+ 32
+ 40
+ 1
+DELTAP1
+NPUSHW
+ 3
+ 0
+ 40
+ 1
+DELTAP1
+NPUSHW
+ 3
+ 48
+ 47
+ 1
+DELTAP1
+SVTCA[y-axis]
+PUSHW_1
+ 0
+RCVT
+IF
+PUSHW_1
+ 16
+MDAP[rnd]
+ELSE
+PUSHW_2
+ 16
+ 32
+MIAP[no-rnd]
+EIF
+PUSHW_1
+ 0
+RCVT
+IF
+PUSHW_1
+ 41
+MDAP[rnd]
+ELSE
+PUSHW_2
+ 41
+ 16
+MIAP[no-rnd]
+EIF
+PUSHW_1
+ 0
+RCVT
+IF
+PUSHW_1
+ 39
+MDAP[rnd]
+ELSE
+PUSHW_2
+ 39
+ 16
+MIAP[no-rnd]
+EIF
+PUSHW_1
+ 41
+SRP0
+PUSHW_1
+ 58
+MDRP[rp0,grey]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+Refer: 563 8323 N 1 0 0 1 29 380 2
+Refer: 560 8260 N 1 0 0 1 417 0 2
+Refer: 564 8324 N 1 0 0 1 565 100 2
+Ligature2: "'frac' Diagonal Fractions lookup 3 subtable" three uni2215 four
+Ligature2: "'frac' Diagonal Fractions lookup 3 subtable" three fraction four
+Ligature2: "'frac' Diagonal Fractions lookup 3 subtable" three slash four
+EndChar

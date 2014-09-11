@@ -1,0 +1,59 @@
+
+StartChar: quotesinglbase
+Encoding: 8218 8218 549
+Width: 308
+Flags: W
+TtInstrs:
+PUSHB_1
+ 10
+CALL
+IF
+PUSHB_1
+ 6
+MDAP[rnd]
+PUSHB_2
+ 14
+ 8
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 0
+MDRP[rp0,min,rnd,grey]
+PUSHB_1
+ 14
+SRP0
+PUSHB_1
+ 3
+MDRP[rp0,min,rnd,grey]
+EIF
+SVTCA[y-axis]
+PUSHB_1
+ 11
+MDAP[rnd]
+PUSHB_1
+ 19
+MDRP[rp0,min,rnd,grey]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+4 -106 m 1,0,1
+ 41 -95 41 -95 66 -69 c 128,-1,2
+ 91 -43 91 -43 96 -16 c 1,3,4
+ 88 0 88 0 69.5 9.5 c 128,-1,5
+ 51 19 51 19 34 25 c 1,6,7
+ 33 43 33 43 41 61.5 c 128,-1,8
+ 49 80 49 80 62 95.5 c 128,-1,9
+ 75 111 75 111 90 122 c 128,-1,10
+ 105 133 105 133 119 136 c 1,11,12
+ 154 134 154 134 180.5 114 c 128,-1,13
+ 207 94 207 94 207 51 c 0,14,15
+ 207 15 207 15 189.5 -18 c 128,-1,16
+ 172 -51 172 -51 144.5 -78 c 128,-1,17
+ 117 -105 117 -105 83.5 -123.5 c 128,-1,18
+ 50 -142 50 -142 18 -149 c 1,19,-1
+ 4 -106 l 1,0,1
+EndSplineSet
+Kerns2: 675 -54 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+EndChar

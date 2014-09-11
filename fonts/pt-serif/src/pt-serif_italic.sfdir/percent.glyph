@@ -1,0 +1,113 @@
+
+StartChar: percent
+Encoding: 37 37 8
+Width: 782
+Flags: W
+TtInstrs:
+NPUSHW
+ 3
+ 95
+ 1
+ 1
+DELTAP1
+NPUSHW
+ 7
+ 32
+ 3
+ 48
+ 3
+ 64
+ 3
+ 3
+DELTAP1
+NPUSHW
+ 3
+ 127
+ 12
+ 1
+DELTAP1
+NPUSHW
+ 3
+ 127
+ 32
+ 1
+DELTAP1
+NPUSHW
+ 3
+ 95
+ 42
+ 1
+DELTAP1
+NPUSHW
+ 5
+ 48
+ 42
+ 64
+ 42
+ 2
+DELTAP1
+NPUSHW
+ 3
+ 95
+ 79
+ 1
+DELTAP1
+NPUSHW
+ 5
+ 48
+ 79
+ 64
+ 79
+ 2
+DELTAP1
+SVTCA[y-axis]
+PUSHW_1
+ 0
+RCVT
+IF
+PUSHW_1
+ 9
+MDAP[rnd]
+ELSE
+PUSHW_2
+ 9
+ 33
+MIAP[no-rnd]
+EIF
+PUSHW_1
+ 0
+RCVT
+IF
+PUSHW_1
+ 55
+MDAP[rnd]
+ELSE
+PUSHW_2
+ 55
+ 15
+MIAP[no-rnd]
+EIF
+PUSHW_1
+ 9
+SRP0
+PUSHW_1
+ 37
+MDRP[rp0,grey]
+PUSHW_1
+ 55
+SRP0
+PUSHW_1
+ 65
+MDRP[rp0,grey]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+Refer: 560 8260 N 1 0 0 1 233 0 2
+Refer: 124 186 N 1 0 0 1 24 0 2
+Refer: 124 186 N 1 0 0 1 315 -383 2
+Ligature2: "'frac' Diagonal Fractions lookup 3 subtable" zero uni2215 zero
+Ligature2: "'frac' Diagonal Fractions lookup 3 subtable" zero fraction zero
+Ligature2: "'frac' Diagonal Fractions lookup 3 subtable" zero slash zero
+EndChar

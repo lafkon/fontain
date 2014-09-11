@@ -1,0 +1,201 @@
+
+StartChar: uni0492
+Encoding: 1170 1170 421
+Width: 562
+Flags: W
+TtInstrs:
+PUSHB_1
+ 10
+CALL
+IF
+PUSHB_3
+ 7
+ 28
+ 3
+CALL
+PUSHB_1
+ 28
+SRP0
+PUSHB_1
+ 1
+MDRP[rp0,grey]
+PUSHB_1
+ 28
+SRP0
+PUSHB_1
+ 26
+MDRP[rp0,grey]
+PUSHB_1
+ 26
+MDAP[rnd]
+PUSHB_1
+ 30
+MDRP[rp0,grey]
+PUSHB_1
+ 5
+MDRP[rp0,grey]
+PUSHB_1
+ 7
+SRP0
+PUSHB_1
+ 12
+MDRP[rp0,grey]
+PUSHB_1
+ 13
+MDRP[rp0,grey]
+PUSHB_1
+ 28
+SRP0
+PUSHB_2
+ 20
+ 8
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 16
+MDRP[rp0,grey]
+PUSHB_3
+ 17
+ 7
+ 28
+SRP1
+SRP2
+IP
+PUSHB_1
+ 17
+MDAP[rnd]
+PUSHB_1
+ 20
+SRP0
+PUSHB_1
+ 23
+MDRP[rp0,grey]
+PUSHB_1
+ 23
+MDAP[rnd]
+EIF
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 6
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 6
+ 17
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 25
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 25
+ 9
+MIAP[no-rnd]
+EIF
+PUSHB_3
+ 1
+ 6
+ 25
+SRP1
+SRP2
+IP
+PUSHB_1
+ 1
+MDAP[rnd]
+PUSHB_1
+ 6
+SRP0
+PUSHB_2
+ 5
+ 5
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 6
+SRP0
+PUSHB_1
+ 13
+MDRP[rp0,grey]
+PUSHB_1
+ 13
+MDAP[rnd]
+PUSHB_1
+ 6
+SRP0
+PUSHB_2
+ 15
+ 2
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 1
+SRP0
+PUSHB_1
+ 16
+MDRP[rp0,grey]
+PUSHB_1
+ 1
+SRP0
+PUSHB_2
+ 29
+ 2
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 19
+MDRP[rp0,grey]
+PUSHB_1
+ 25
+SRP0
+PUSHB_2
+ 26
+ 5
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 23
+MDRP[rp0,grey]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+29 384 m 1,0,-1
+ 111 384 l 1,1,-1
+ 111 633 l 1,2,3
+ 91 637 91 637 69.5 644 c 128,-1,4
+ 48 651 48 651 29 662 c 1,5,-1
+ 29 700 l 1,6,-1
+ 541 700 l 1,7,8
+ 541 676 541 676 540 645 c 128,-1,9
+ 539 614 539 614 537 582 c 128,-1,10
+ 535 550 535 550 531 518.5 c 128,-1,11
+ 527 487 527 487 523 462 c 1,12,-1
+ 482 462 l 1,13,-1
+ 419 635 l 1,14,-1
+ 261 635 l 1,15,-1
+ 261 384 l 1,16,-1
+ 396 384 l 1,17,-1
+ 396 314 l 1,18,-1
+ 261 314 l 1,19,-1
+ 261 67 l 1,20,21
+ 286 63 286 63 310.5 55 c 128,-1,22
+ 335 47 335 47 357 38 c 1,23,-1
+ 357 0 l 1,24,-1
+ 29 0 l 1,25,-1
+ 29 38 l 1,26,27
+ 73 60 73 60 111 67 c 1,28,-1
+ 111 314 l 1,29,-1
+ 29 314 l 1,30,-1
+ 29 384 l 1,0,-1
+EndSplineSet
+Kerns2: 670 -9 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  642 -36 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  640 -36 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  638 -39 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  620 -42 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  614 -29 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  608 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  510 -9 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  496 -17 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  482 -27 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  393 -39 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+Substitution2: "'locl' Localized Forms in Cyrillic lookup 10 subtable" uni0492.alt
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uni0492.alt
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
+EndChar

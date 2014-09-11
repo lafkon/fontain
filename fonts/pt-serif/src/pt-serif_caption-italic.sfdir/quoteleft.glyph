@@ -1,0 +1,114 @@
+
+StartChar: quoteleft
+Encoding: 8216 8216 547
+Width: 318
+Flags: W
+TtInstrs:
+PUSHB_1
+ 10
+CALL
+IF
+PUSHB_1
+ 14
+MDAP[rnd]
+PUSHB_2
+ 8
+ 17
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 0
+MDRP[rp0,grey]
+PUSHB_1
+ 0
+MDAP[rnd]
+PUSHB_3
+ 5
+ 8
+ 14
+SRP1
+SRP2
+IP
+PUSHB_1
+ 19
+MDRP[rp0,grey]
+PUSHB_1
+ 19
+MDAP[rnd]
+EIF
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 19
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 19
+ 38
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+MDRP[rp0,grey]
+PUSHB_1
+ 0
+MDAP[rnd]
+PUSHB_1
+ 19
+SRP0
+PUSHB_1
+ 11
+MDRP[rp0,grey]
+PUSHB_1
+ 11
+MDAP[rnd]
+PUSHB_1
+ 6
+MDRP[rp0,min,rnd,grey]
+IUP[y]
+IUP[x]
+PUSHB_1
+ 10
+CALL
+IF
+SVTCA[x-axis]
+NPUSHW
+ 9
+ 28
+ 2
+ 44
+ 2
+ 60
+ 2
+ 76
+ 2
+ 4
+DELTAP1
+EIF
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+367 721 m 1,0,1
+ 344 715 344 715 324.5 702 c 128,-1,2
+ 305 689 305 689 289.5 672.5 c 128,-1,3
+ 274 656 274 656 264 637 c 128,-1,4
+ 254 618 254 618 252 600 c 1,5,-1
+ 309 600 l 1,6,7
+ 317 585 317 585 317 565 c 256,8,9
+ 317 545 317 545 308.5 525.5 c 128,-1,10
+ 300 506 300 506 286 490 c 1,11,-1
+ 175 490 l 1,12,13
+ 170 513 170 513 170 532 c 0,14,15
+ 170 573 170 573 186 609.5 c 128,-1,16
+ 202 646 202 646 228 674.5 c 128,-1,17
+ 254 703 254 703 287 722.5 c 128,-1,18
+ 320 742 320 742 355 750 c 1,19,-1
+ 367 721 l 1,0,1
+EndSplineSet
+Kerns2: 365 -24 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 12 subtable" uniF62C
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uniF62C
+EndChar

@@ -1,0 +1,70 @@
+
+StartChar: uni2081
+Encoding: 8321 8321 561
+Width: 431
+Flags: W
+TtInstrs:
+NPUSHW
+ 3
+ 15
+ 4
+ 1
+DELTAP1
+NPUSHW
+ 7
+ 31
+ 15
+ 47
+ 15
+ 63
+ 15
+ 3
+DELTAP1
+SVTCA[y-axis]
+PUSHW_1
+ 0
+RCVT
+IF
+PUSHW_1
+ 14
+MDAP[rnd]
+ELSE
+PUSHW_2
+ 14
+ 25
+MIAP[no-rnd]
+EIF
+PUSHW_1
+ 0
+RCVT
+IF
+PUSHW_1
+ 0
+MDAP[rnd]
+ELSE
+PUSHW_2
+ 0
+ 19
+MIAP[no-rnd]
+EIF
+IUP[y]
+IUP[x]
+SVTCA[x-axis]
+NPUSHW
+ 3
+ 88
+ 4
+ 1
+DELTAP1
+SVTCA[y-axis]
+NPUSHW
+ 3
+ 85
+ 4
+ 1
+DELTAP1
+EndTTInstrs
+LayerCount: 2
+Fore
+Refer: 681 63074 N 1 0 0 1 -74 -381 3
+EndChar

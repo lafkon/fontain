@@ -1,0 +1,111 @@
+
+StartChar: period
+Encoding: 46 46 17
+Width: 304
+Flags: W
+TtInstrs:
+PUSHB_1
+ 10
+CALL
+IF
+PUSHB_1
+ 0
+MDAP[rnd]
+PUSHB_3
+ 15
+ 0
+ 1
+DELTAP1
+PUSHB_3
+ 63
+ 0
+ 1
+DELTAP1
+PUSHB_1
+ 6
+MDRP[rp0,min,rnd,grey]
+PUSHB_3
+ 112
+ 6
+ 1
+DELTAP1
+PUSHB_3
+ 15
+ 6
+ 1
+DELTAP3
+PUSHB_3
+ 224
+ 6
+ 1
+DELTAP1
+NPUSHW
+ 11
+ 16
+ 6
+ 32
+ 6
+ 48
+ 6
+ 64
+ 6
+ 80
+ 6
+ 5
+DELTAP1
+PUSHB_3
+ 128
+ 6
+ 1
+DELTAP3
+EIF
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 9
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 9
+ 18
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 3
+MDRP[rp0,min,rnd,grey]
+PUSHB_3
+ 15
+ 3
+ 1
+DELTAP3
+PUSHB_3
+ 31
+ 3
+ 1
+DELTAP2
+PUSHB_3
+ 128
+ 3
+ 1
+DELTAP3
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+38 58 m 0,0,1
+ 38 89 38 89 59 107 c 128,-1,2
+ 80 125 80 125 115 125 c 256,3,4
+ 150 125 150 125 172 107 c 128,-1,5
+ 194 89 194 89 194 58 c 0,6,7
+ 194 28 194 28 172 10 c 128,-1,8
+ 150 -8 150 -8 115 -8 c 256,9,10
+ 80 -8 80 -8 59 10 c 128,-1,11
+ 38 28 38 28 38 58 c 0,0,1
+EndSplineSet
+Kerns2: 675 -48 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+EndChar

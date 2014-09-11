@@ -1,0 +1,31 @@
+
+StartChar: colon
+Encoding: 58 58 29
+Width: 368
+Flags: W
+TtInstrs:
+SVTCA[y-axis]
+PUSHW_1
+ 3
+MDAP[rnd]
+PUSHW_1
+ 0
+RCVT
+IF
+PUSHW_1
+ 21
+MDAP[rnd]
+ELSE
+PUSHW_2
+ 21
+ 16
+MIAP[no-rnd]
+EIF
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+Refer: 17 46 N 1 0 0 1 54 383 2
+Refer: 17 46 N 1 0 0 1 54 0 2
+EndChar

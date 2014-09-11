@@ -1,0 +1,39 @@
+
+StartChar: quotedblleft
+Encoding: 8220 8220 550
+Width: 508
+Flags: W
+TtInstrs:
+PUSHW_3
+ 14
+ 26
+ 3
+CALL
+SVTCA[y-axis]
+PUSHW_1
+ 0
+RCVT
+IF
+PUSHW_1
+ 39
+MDAP[rnd]
+ELSE
+PUSHW_2
+ 39
+ 22
+MIAP[no-rnd]
+EIF
+PUSHW_1
+ 19
+MDRP[rp0,grey]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+Refer: 547 8216 N 1 0 0 1 205 0 2
+Refer: 547 8216 N 1 0 0 1 0 0 2
+Kerns2: 365 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 12 subtable" uniF62E
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uniF62E
+EndChar

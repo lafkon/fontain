@@ -1,0 +1,27 @@
+
+StartChar: uni2215
+Encoding: 8725 8725 576
+Width: 339
+Flags: W
+TtInstrs:
+SVTCA[y-axis]
+PUSHW_1
+ 0
+RCVT
+IF
+PUSHW_1
+ 0
+MDAP[rnd]
+ELSE
+PUSHW_2
+ 0
+ 20
+MIAP[no-rnd]
+EIF
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+Refer: 18 47 N 1 0 0 1 2 0 2
+EndChar

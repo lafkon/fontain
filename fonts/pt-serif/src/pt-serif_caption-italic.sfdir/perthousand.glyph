@@ -1,0 +1,196 @@
+
+StartChar: perthousand
+Encoding: 8240 8240 557
+Width: 1348
+Flags: W
+TtInstrs:
+NPUSHW
+ 3
+ 15
+ 2
+ 1
+DELTAP1
+NPUSHW
+ 3
+ 240
+ 42
+ 1
+DELTAP1
+NPUSHW
+ 3
+ 16
+ 42
+ 1
+DELTAP2
+NPUSHW
+ 3
+ 160
+ 42
+ 1
+DELTAP1
+NPUSHW
+ 5
+ 112
+ 42
+ 128
+ 42
+ 2
+DELTAP1
+NPUSHW
+ 3
+ 16
+ 60
+ 1
+DELTAP2
+NPUSHW
+ 5
+ 112
+ 60
+ 128
+ 60
+ 2
+DELTAP1
+NPUSHW
+ 3
+ 240
+ 60
+ 1
+DELTAP1
+NPUSHW
+ 3
+ 160
+ 60
+ 1
+DELTAP1
+NPUSHW
+ 3
+ 112
+ 80
+ 1
+DELTAP1
+NPUSHW
+ 3
+ 224
+ 80
+ 1
+DELTAP1
+NPUSHW
+ 3
+ 64
+ 80
+ 1
+DELTAP1
+NPUSHW
+ 3
+ 16
+ 80
+ 1
+DELTAP1
+NPUSHW
+ 3
+ 224
+ 98
+ 1
+DELTAP1
+NPUSHW
+ 3
+ 16
+ 98
+ 1
+DELTAP1
+NPUSHW
+ 3
+ 112
+ 98
+ 1
+DELTAP1
+NPUSHW
+ 3
+ 64
+ 98
+ 1
+DELTAP1
+SVTCA[y-axis]
+PUSHW_1
+ 0
+RCVT
+IF
+PUSHW_1
+ 9
+MDAP[rnd]
+ELSE
+PUSHW_2
+ 9
+ 34
+MIAP[no-rnd]
+EIF
+PUSHW_1
+ 0
+RCVT
+IF
+PUSHW_1
+ 55
+MDAP[rnd]
+ELSE
+PUSHW_2
+ 55
+ 18
+MIAP[no-rnd]
+EIF
+PUSHW_1
+ 0
+RCVT
+IF
+PUSHW_1
+ 93
+MDAP[rnd]
+ELSE
+PUSHW_2
+ 93
+ 18
+MIAP[no-rnd]
+EIF
+PUSHW_1
+ 0
+RCVT
+IF
+PUSHW_1
+ 2
+MDAP[rnd]
+ELSE
+PUSHW_2
+ 2
+ 18
+MIAP[no-rnd]
+EIF
+PUSHW_1
+ 9
+SRP0
+PUSHW_1
+ 37
+MDRP[rp0,grey]
+PUSHW_1
+ 55
+SRP0
+PUSHW_1
+ 65
+MDRP[rp0,grey]
+PUSHW_1
+ 93
+SRP0
+PUSHW_1
+ 103
+MDRP[rp0,grey]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+Refer: 560 8260 N 1 0 0 1 273 0 2
+Refer: 124 186 N 1 0 0 1 10 0 2
+Refer: 124 186 N 1 0 0 1 407 -383 2
+Refer: 124 186 N 1 0 0 1 850 -383 2
+Ligature2: "'frac' Diagonal Fractions lookup 3 subtable" zero uni2215 zero zero
+Ligature2: "'frac' Diagonal Fractions lookup 3 subtable" zero fraction zero zero
+Ligature2: "'frac' Diagonal Fractions lookup 3 subtable" zero slash zero zero
+EndChar

@@ -1,0 +1,198 @@
+
+StartChar: Lslash
+Encoding: 321 321 244
+Width: 549
+Flags: W
+TtInstrs:
+PUSHB_1
+ 10
+CALL
+IF
+PUSHB_3
+ 18
+ 23
+ 3
+CALL
+PUSHB_1
+ 23
+SRP0
+PUSHB_2
+ 10
+ 6
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 6
+MDRP[rp0,grey]
+PUSHB_1
+ 7
+MDRP[rp0,grey]
+PUSHB_1
+ 7
+MDAP[rnd]
+PUSHB_3
+ 112
+ 18
+ 1
+DELTAP1
+PUSHB_1
+ 18
+SRP0
+PUSHB_2
+ 11
+ 4
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 23
+SRP0
+PUSHB_1
+ 27
+MDRP[rp0,grey]
+PUSHB_1
+ 26
+MDRP[rp0,grey]
+PUSHB_1
+ 26
+MDAP[rnd]
+EIF
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 1
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 1
+ 27
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 19
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 19
+ 9
+MIAP[no-rnd]
+EIF
+PUSHB_3
+ 7
+ 1
+ 19
+SRP1
+SRP2
+IP
+PUSHB_1
+ 7
+MDAP[rnd]
+PUSHB_3
+ 25
+ 19
+ 1
+SRP1
+SRP2
+IP
+PUSHB_1
+ 25
+MDAP[rnd]
+PUSHB_2
+ 26
+ 3
+MIRP[rp0,rnd,grey]
+PUSHB_3
+ 6
+ 7
+ 26
+SRP1
+SRP2
+IP
+PUSHB_1
+ 7
+SRP0
+PUSHB_2
+ 8
+ 3
+MIRP[rp0,rnd,grey]
+PUSHB_3
+ 9
+ 8
+ 25
+SRP1
+SRP2
+IP
+PUSHB_1
+ 19
+SRP0
+PUSHB_2
+ 10
+ 2
+MIRP[rp0,rnd,grey]
+PUSHB_3
+ 12
+ 19
+ 1
+SRP1
+SRP2
+IP
+PUSHB_1
+ 12
+MDAP[rnd]
+PUSHB_3
+ 24
+ 25
+ 8
+SRP1
+SRP2
+IP
+PUSHB_3
+ 27
+ 26
+ 7
+SRP1
+SRP2
+IP
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+29 700 m 1,0,-1
+ 303 700 l 1,1,-1
+ 303 671 l 1,2,3
+ 279 662 279 662 255 655.5 c 128,-1,4
+ 231 649 231 649 207 646 c 1,5,-1
+ 207 392 l 1,6,-1
+ 342 476 l 1,7,-1
+ 342 410 l 1,8,-1
+ 207 326 l 1,9,-1
+ 207 52 l 1,10,-1
+ 437 52 l 1,11,-1
+ 496 213 l 1,12,-1
+ 522 213 l 1,13,14
+ 525 192 525 192 527.5 164.5 c 128,-1,15
+ 530 137 530 137 531.5 107.5 c 128,-1,16
+ 533 78 533 78 533 50 c 128,-1,17
+ 533 22 533 22 532 0 c 1,18,-1
+ 29 0 l 1,19,-1
+ 29 29 l 1,20,21
+ 53 40 53 40 73 45 c 128,-1,22
+ 93 50 93 50 111 53 c 1,23,-1
+ 111 267 l 1,24,-1
+ 17 210 l 1,25,-1
+ 17 275 l 1,26,-1
+ 111 332 l 1,27,-1
+ 111 646 l 1,28,29
+ 88 650 88 650 67 656.5 c 128,-1,30
+ 46 663 46 663 29 671 c 1,31,-1
+ 29 700 l 1,0,-1
+EndSplineSet
+Kerns2: 675 -102 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
+EndChar

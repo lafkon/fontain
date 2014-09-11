@@ -1,0 +1,122 @@
+
+StartChar: quotesingle
+Encoding: 39 39 10
+Width: 243
+Flags: W
+TtInstrs:
+PUSHB_1
+ 10
+CALL
+IF
+PUSHB_1
+ 0
+MDAP[rnd]
+PUSHB_2
+ 5
+ 5
+MIRP[rp0,rnd,grey]
+PUSHB_3
+ 6
+ 5
+ 0
+SRP1
+SRP2
+IP
+PUSHB_3
+ 138
+ 6
+ 1
+DELTAP1
+PUSHB_3
+ 7
+ 0
+ 5
+SRP1
+SRP2
+IP
+EIF
+SVTCA[y-axis]
+PUSHB_1
+ 3
+MDAP[rnd]
+PUSHB_1
+ 7
+MDRP[rp0,min,rnd,grey]
+IUP[y]
+IUP[x]
+PUSHB_1
+ 10
+CALL
+IF
+SVTCA[x-axis]
+NPUSHW
+ 15
+ 153
+ 6
+ 169
+ 6
+ 185
+ 6
+ 201
+ 6
+ 217
+ 6
+ 233
+ 6
+ 249
+ 6
+ 7
+DELTAP1
+PUSHB_5
+ 9
+ 6
+ 25
+ 6
+ 2
+DELTAP2
+PUSHB_5
+ 133
+ 7
+ 149
+ 7
+ 2
+DELTAP1
+NPUSHW
+ 13
+ 166
+ 7
+ 182
+ 7
+ 198
+ 7
+ 214
+ 7
+ 230
+ 7
+ 246
+ 7
+ 6
+DELTAP1
+PUSHB_5
+ 6
+ 7
+ 22
+ 7
+ 2
+DELTAP2
+EIF
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+66 723 m 1,0,1
+ 73 740 73 740 86.5 751 c 128,-1,2
+ 100 762 100 762 122 762 c 0,3,4
+ 163 762 163 762 177 723 c 1,5,-1
+ 135 505 l 1,6,-1
+ 109 505 l 1,7,-1
+ 66 723 l 1,0,1
+EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 12 subtable" uniF634
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uniF634
+EndChar

@@ -1,0 +1,156 @@
+
+StartChar: L
+Encoding: 76 76 47
+Width: 577
+Flags: W
+TtInstrs:
+PUSHB_1
+ 10
+CALL
+IF
+PUSHB_3
+ 9
+ 19
+ 3
+CALL
+PUSHB_1
+ 19
+SRP0
+PUSHB_2
+ 6
+ 7
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 5
+MDRP[rp0,grey]
+PUSHB_1
+ 1
+MDRP[rp0,grey]
+PUSHB_1
+ 1
+MDAP[rnd]
+PUSHB_1
+ 9
+SRP0
+PUSHB_1
+ 8
+MDRP[rp0,grey]
+PUSHB_1
+ 9
+SRP0
+PUSHB_1
+ 14
+MDRP[rp0,grey]
+PUSHB_1
+ 19
+SRP0
+PUSHB_1
+ 15
+MDRP[rp0,grey]
+PUSHB_1
+ 15
+MDAP[rnd]
+PUSHB_1
+ 19
+SRP0
+PUSHB_1
+ 20
+MDRP[rp0,grey]
+PUSHB_1
+ 23
+MDRP[rp0,grey]
+PUSHB_1
+ 23
+MDAP[rnd]
+EIF
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 0
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 0
+ 20
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 15
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 15
+ 12
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+SRP0
+PUSHB_2
+ 23
+ 4
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 2
+MDRP[rp0,grey]
+PUSHB_1
+ 15
+SRP0
+PUSHB_2
+ 6
+ 3
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 15
+SRP0
+PUSHB_1
+ 8
+MDRP[rp0,grey]
+PUSHB_1
+ 8
+MDAP[rnd]
+PUSHB_1
+ 15
+SRP0
+PUSHB_2
+ 16
+ 4
+MIRP[rp0,rnd,grey]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+124 700 m 1,0,-1
+ 452 700 l 1,1,-1
+ 444 662 l 1,2,3
+ 422 651 422 651 394.5 643.5 c 128,-1,4
+ 367 636 367 636 342 633 c 1,5,-1
+ 222 65 l 1,6,-1
+ 415 65 l 1,7,-1
+ 519 244 l 1,8,-1
+ 561 244 l 1,9,10
+ 561 221 561 221 558 190 c 128,-1,11
+ 555 159 555 159 550 125 c 128,-1,12
+ 545 91 545 91 538.5 58 c 128,-1,13
+ 532 25 532 25 525 0 c 1,14,-1
+ -24 0 l 1,15,-1
+ -17 38 l 1,16,17
+ 9 50 9 50 31 57 c 128,-1,18
+ 53 64 53 64 72 67 c 1,19,-1
+ 192 633 l 1,20,21
+ 170 637 170 637 150 644 c 128,-1,22
+ 130 651 130 651 116 662 c 1,23,-1
+ 124 700 l 1,0,-1
+EndSplineSet
+Kerns2: 675 -102 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
+EndChar

@@ -1,0 +1,219 @@
+
+StartChar: uni0493
+Encoding: 1171 1171 422
+Width: 469
+Flags: W
+TtInstrs:
+PUSHB_1
+ 10
+CALL
+IF
+PUSHB_3
+ 7
+ 19
+ 3
+CALL
+PUSHB_3
+ 15
+ 19
+ 1
+DELTAP1
+PUSHB_1
+ 19
+SRP0
+PUSHB_1
+ 2
+MDRP[rp0,grey]
+PUSHB_3
+ 1
+ 2
+ 19
+SRP1
+SRP2
+IP
+PUSHB_1
+ 5
+MDRP[rp0,grey]
+PUSHB_1
+ 5
+MDAP[rnd]
+PUSHB_3
+ 15
+ 7
+ 1
+DELTAP1
+PUSHB_3
+ 80
+ 7
+ 1
+DELTAP1
+PUSHB_1
+ 7
+SRP0
+PUSHB_2
+ 12
+ 9
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 2
+SRP0
+PUSHB_2
+ 13
+ 9
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 19
+SRP0
+PUSHB_2
+ 18
+ 9
+MIRP[rp0,rnd,grey]
+PUSHB_3
+ 14
+ 13
+ 18
+SRP1
+SRP2
+IP
+PUSHB_1
+ 14
+SRP0
+PUSHB_1
+ 15
+MDRP[rp0,grey]
+PUSHB_1
+ 15
+MDAP[rnd]
+PUSHB_3
+ 17
+ 18
+ 13
+SRP1
+SRP2
+IP
+PUSHB_3
+ 20
+ 19
+ 2
+SRP1
+SRP2
+IP
+PUSHB_1
+ 20
+SRP0
+PUSHB_1
+ 21
+MDRP[rp0,grey]
+PUSHB_1
+ 21
+MDAP[rnd]
+EIF
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 6
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 6
+ 29
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 19
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 19
+ 15
+MIAP[no-rnd]
+EIF
+PUSHB_3
+ 0
+ 19
+ 6
+SRP1
+SRP2
+IP
+PUSHB_1
+ 0
+MDAP[rnd]
+PUSHB_5
+ 111
+ 0
+ 127
+ 0
+ 2
+DELTAP1
+PUSHB_1
+ 6
+SRP0
+PUSHB_1
+ 11
+MDRP[rp0,min,rnd,grey]
+PUSHB_3
+ 31
+ 11
+ 1
+DELTAP1
+PUSHB_1
+ 6
+SRP0
+PUSHB_2
+ 13
+ 1
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 0
+SRP0
+PUSHB_1
+ 14
+MDRP[rp0,grey]
+PUSHB_1
+ 0
+SRP0
+PUSHB_2
+ 21
+ 2
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 17
+MDRP[rp0,grey]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+36 253 m 1,0,-1
+ 118 253 l 1,1,-1
+ 158 442 l 1,2,3
+ 141 445 141 445 122.5 455 c 128,-1,4
+ 104 465 104 465 96 474 c 1,5,-1
+ 96 500 l 1,6,-1
+ 470 500 l 1,7,8
+ 461 461 461 461 449.5 420.5 c 128,-1,9
+ 438 380 438 380 424 339 c 1,10,-1
+ 398 339 l 1,11,-1
+ 379 457 l 1,12,-1
+ 243 457 l 1,13,-1
+ 200 253 l 1,14,-1
+ 343 253 l 1,15,-1
+ 330 201 l 1,16,-1
+ 190 201 l 1,17,-1
+ 147 0 l 1,18,-1
+ 64 0 l 1,19,-1
+ 106 201 l 1,20,-1
+ 23 201 l 1,21,-1
+ 36 253 l 1,0,-1
+EndSplineSet
+Substitution2: "'locl' Localized Forms in Cyrillic lookup 10 subtable" uni0493.alt
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uni0493.alt
+EndChar

@@ -1,0 +1,51 @@
+
+StartChar: uniF6D0
+Encoding: 63184 63184 688
+Width: 444
+Flags: W
+TtInstrs:
+PUSHB_1
+ 10
+CALL
+IF
+PUSHB_3
+ 3
+ 0
+ 3
+CALL
+EIF
+SVTCA[y-axis]
+PUSHB_1
+ 0
+MDAP[rnd]
+PUSHB_3
+ 15
+ 0
+ 1
+DELTAP1
+PUSHB_3
+ 63
+ 0
+ 1
+DELTAP1
+PUSHB_3
+ 176
+ 0
+ 1
+DELTAP1
+PUSHB_1
+ 1
+MDRP[rp0,min,rnd,grey]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+60 779 m 1,0,-1
+ 60 849 l 1,1,-1
+ 384 849 l 1,2,-1
+ 384 779 l 1,3,-1
+ 60 779 l 1,0,-1
+EndSplineSet
+EndChar

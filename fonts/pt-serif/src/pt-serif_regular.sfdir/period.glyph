@@ -1,0 +1,80 @@
+
+StartChar: period
+Encoding: 46 46 17
+Width: 279
+Flags: W
+TtInstrs:
+PUSHB_1
+ 10
+CALL
+IF
+PUSHB_3
+ 6
+ 0
+ 3
+CALL
+PUSHB_3
+ 127
+ 0
+ 1
+DELTAP1
+PUSHB_3
+ 175
+ 0
+ 1
+DELTAP1
+NPUSHW
+ 11
+ 32
+ 6
+ 48
+ 6
+ 64
+ 6
+ 80
+ 6
+ 96
+ 6
+ 5
+DELTAP1
+PUSHB_3
+ 16
+ 6
+ 1
+DELTAP2
+EIF
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 9
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 9
+ 9
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 3
+MDRP[rp0,min,rnd,grey]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+71 57 m 0,0,1
+ 71 87 71 87 90 105 c 128,-1,2
+ 109 123 109 123 139 123 c 0,3,4
+ 170 123 170 123 189 105 c 128,-1,5
+ 208 87 208 87 208 57 c 0,6,7
+ 208 28 208 28 189 10 c 128,-1,8
+ 170 -8 170 -8 139 -8 c 0,9,10
+ 109 -8 109 -8 90 10 c 128,-1,11
+ 71 28 71 28 71 57 c 0,0,1
+EndSplineSet
+Kerns2: 675 -50 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+EndChar

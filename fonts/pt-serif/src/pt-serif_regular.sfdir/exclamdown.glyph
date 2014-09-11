@@ -1,0 +1,103 @@
+
+StartChar: exclamdown
+Encoding: 161 161 99
+Width: 327
+Flags: W
+TtInstrs:
+PUSHB_1
+ 10
+CALL
+IF
+PUSHB_4
+ 2
+ 4
+ 5
+ 4
+CALL
+PUSHB_3
+ 95
+ 2
+ 1
+DELTAP1
+PUSHB_3
+ 143
+ 2
+ 1
+DELTAP1
+PUSHB_3
+ 95
+ 5
+ 1
+DELTAP1
+PUSHB_3
+ 143
+ 5
+ 1
+DELTAP1
+PUSHB_1
+ 2
+SRP0
+PUSHB_1
+ 8
+MDRP[rp0,grey]
+PUSHB_1
+ 5
+SRP0
+PUSHB_1
+ 14
+MDRP[rp0,grey]
+PUSHB_3
+ 202
+ 14
+ 1
+DELTAP1
+EIF
+SVTCA[y-axis]
+PUSHB_1
+ 7
+MDAP[rnd]
+PUSHB_1
+ 4
+MDAP[rnd]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 17
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 17
+ 23
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 11
+MDRP[rp0,min,rnd,grey]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+153 286 m 1,0,-1
+ 185 110 l 1,1,-1
+ 185 -186 l 1,2,3
+ 164 -197 164 -197 140 -197 c 128,-1,4
+ 116 -197 116 -197 95 -186 c 1,5,-1
+ 95 110 l 1,6,-1
+ 127 286 l 1,7,-1
+ 153 286 l 1,0,-1
+208 446 m 0,8,9
+ 208 417 208 417 189 399 c 128,-1,10
+ 170 381 170 381 140 381 c 0,11,12
+ 109 381 109 381 90 399 c 128,-1,13
+ 71 417 71 417 71 446 c 0,14,15
+ 71 476 71 476 90 494 c 128,-1,16
+ 109 512 109 512 140 512 c 0,17,18
+ 170 512 170 512 189 494 c 128,-1,19
+ 208 476 208 476 208 446 c 0,8,9
+EndSplineSet
+Position2: "'case' Case-Sensitive Forms lookup 1 per glyph data 3" dx=0 dy=100 dh=0 dv=0
+EndChar

@@ -1,0 +1,230 @@
+
+StartChar: four
+Encoding: 52 52 23
+Width: 560
+Flags: W
+TtInstrs:
+PUSHB_1
+ 10
+CALL
+IF
+PUSHB_3
+ 14
+ 6
+ 3
+CALL
+PUSHB_1
+ 14
+SRP0
+PUSHB_2
+ 4
+ 6
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 1
+MDRP[rp0,grey]
+PUSHB_1
+ 1
+MDAP[rnd]
+PUSHB_1
+ 4
+SRP0
+PUSHB_1
+ 17
+MDRP[rp0,grey]
+PUSHB_3
+ 5
+ 4
+ 17
+SRP1
+SRP2
+IP
+PUSHB_1
+ 14
+SRP0
+PUSHB_1
+ 9
+MDRP[rp0,grey]
+PUSHB_1
+ 8
+MDRP[rp0,grey]
+PUSHB_3
+ 10
+ 9
+ 14
+SRP1
+SRP2
+IP
+PUSHB_1
+ 10
+SRP0
+PUSHB_1
+ 11
+MDRP[rp0,grey]
+PUSHB_1
+ 11
+MDAP[rnd]
+PUSHB_3
+ 13
+ 14
+ 9
+SRP1
+SRP2
+IP
+PUSHB_1
+ 14
+SRP0
+PUSHB_1
+ 16
+MDRP[rp0,grey]
+PUSHB_1
+ 16
+MDAP[rnd]
+PUSHB_1
+ 6
+SRP0
+PUSHB_1
+ 22
+MDRP[rp0,grey]
+PUSHB_3
+ 10
+ 22
+ 1
+DELTAP1
+PUSHB_3
+ 24
+ 17
+ 4
+SRP1
+SRP2
+IP
+EIF
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 8
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 8
+ 20
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 1
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 1
+ 12
+MIAP[no-rnd]
+EIF
+PUSHB_2
+ 2
+ 4
+MIRP[rp0,rnd,grey]
+PUSHB_3
+ 24
+ 8
+ 1
+SRP1
+SRP2
+IP
+PUSHB_1
+ 24
+MDAP[rnd]
+PUSHB_5
+ 15
+ 24
+ 31
+ 24
+ 2
+DELTAP1
+PUSHB_2
+ 5
+ 3
+MIRP[rp0,rnd,grey]
+PUSHB_3
+ 7
+ 24
+ 5
+SRP1
+SRP2
+IP
+PUSHB_1
+ 24
+SRP0
+PUSHB_1
+ 10
+MDRP[rp0,grey]
+PUSHB_1
+ 5
+SRP0
+PUSHB_1
+ 13
+MDRP[rp0,grey]
+PUSHB_1
+ 2
+SRP0
+PUSHB_1
+ 16
+MDRP[rp0,grey]
+PUSHB_1
+ 8
+SRP0
+PUSHB_1
+ 19
+MDRP[rp0,grey]
+PUSHB_3
+ 21
+ 19
+ 1
+DELTAP1
+PUSHB_3
+ 3
+ 19
+ 1
+DELTAP1
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+461 0 m 1,0,-1
+ 152 0 l 1,1,-1
+ 161 43 l 1,2,3
+ 212 60 212 60 258 67 c 1,4,-1
+ 282 180 l 1,5,-1
+ -14 180 l 1,6,-1
+ -5 225 l 1,7,-1
+ 482 712 l 1,8,-1
+ 536 712 l 1,9,-1
+ 437 245 l 1,10,-1
+ 560 245 l 1,11,-1
+ 546 180 l 1,12,-1
+ 423 180 l 1,13,-1
+ 399 67 l 1,14,15
+ 436 59 436 59 470 43 c 1,16,-1
+ 461 0 l 1,0,-1
+341 458 m 1,17,-1
+ 369 528 l 1,18,-1
+ 366 528 l 1,19,-1
+ 312 458 l 1,20,-1
+ 129 271 l 1,21,-1
+ 82 238 l 1,22,-1
+ 155 245 l 1,23,-1
+ 296 245 l 1,24,-1
+ 341 458 l 1,17,-1
+EndSplineSet
+Substitution2: "'sinf' Scientific Inferiors lookup 6 subtable" uni2084
+Substitution2: "'subs' Subscript lookup 5 subtable" uni2084
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uni2084
+EndChar

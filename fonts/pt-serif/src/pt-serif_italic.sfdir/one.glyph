@@ -1,0 +1,148 @@
+
+StartChar: one
+Encoding: 49 49 20
+Width: 524
+Flags: W
+TtInstrs:
+PUSHB_1
+ 10
+CALL
+IF
+PUSHB_4
+ 16
+ 9
+ 5
+ 4
+CALL
+PUSHB_1
+ 5
+SRP0
+PUSHB_1
+ 7
+MDRP[rp0,grey]
+PUSHB_1
+ 10
+MDRP[rp0,grey]
+PUSHB_1
+ 10
+MDAP[rnd]
+PUSHB_1
+ 16
+SRP0
+PUSHB_1
+ 15
+MDRP[rp0,grey]
+PUSHB_1
+ 14
+MDRP[rp0,grey]
+PUSHB_3
+ 68
+ 14
+ 1
+DELTAP1
+EIF
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 14
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 14
+ 33
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 1
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 1
+ 15
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 14
+SRP0
+PUSHB_1
+ 10
+MDRP[rp0,min,rnd,grey]
+PUSHB_3
+ 7
+ 10
+ 14
+SRP1
+SRP2
+IP
+IUP[y]
+IUP[x]
+PUSHB_1
+ 10
+CALL
+IF
+SVTCA[x-axis]
+PUSHB_3
+ 90
+ 6
+ 1
+DELTAP1
+PUSHB_5
+ 40
+ 13
+ 56
+ 13
+ 2
+DELTAP1
+PUSHB_3
+ 42
+ 15
+ 1
+DELTAP1
+PUSHB_3
+ 90
+ 15
+ 1
+DELTAP1
+EIF
+SVTCA[y-axis]
+PUSHB_5
+ 36
+ 13
+ 52
+ 13
+ 2
+DELTAP1
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+378 0 m 1,0,-1
+ 86 0 l 1,1,-1
+ 92 29 l 1,2,3
+ 119 41 119 41 146.5 49 c 128,-1,4
+ 174 57 174 57 202 63 c 1,5,-1
+ 306 554 l 1,6,-1
+ 325 613 l 1,7,8
+ 296 602 296 602 263 597.5 c 128,-1,9
+ 230 593 230 593 198 594 c 1,10,-1
+ 198 618 l 1,11,12
+ 247 633 247 633 301 655 c 128,-1,13
+ 355 677 355 677 404 712 c 1,14,-1
+ 429 712 l 1,15,-1
+ 292 63 l 1,16,17
+ 341 52 341 52 384 29 c 1,18,-1
+ 378 0 l 1,0,-1
+EndSplineSet
+Substitution2: "'sups' Superscript lookup 13 subtable" onesuperior
+Substitution2: "'sinf' Scientific Inferiors lookup 6 subtable" uni2081
+Substitution2: "'subs' Subscript lookup 5 subtable" uni2081
+Substitution2: "'numr' Numerators lookup 4 subtable" one.numerator
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" one.numerator uni2081 onesuperior
+EndChar

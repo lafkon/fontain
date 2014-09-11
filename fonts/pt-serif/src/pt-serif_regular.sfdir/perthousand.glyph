@@ -1,0 +1,148 @@
+
+StartChar: perthousand
+Encoding: 8240 8240 557
+Width: 1198
+Flags: W
+TtInstrs:
+NPUSHW
+ 3
+ 63
+ 0
+ 1
+DELTAP1
+NPUSHW
+ 3
+ 15
+ 1
+ 1
+DELTAP1
+NPUSHW
+ 3
+ 159
+ 1
+ 1
+DELTAP1
+NPUSHW
+ 3
+ 0
+ 4
+ 1
+DELTAP1
+NPUSHW
+ 3
+ 0
+ 24
+ 1
+DELTAP1
+NPUSHW
+ 3
+ 64
+ 33
+ 1
+DELTAP1
+NPUSHW
+ 3
+ 144
+ 33
+ 1
+DELTAP1
+NPUSHW
+ 3
+ 64
+ 53
+ 1
+DELTAP1
+NPUSHW
+ 3
+ 144
+ 53
+ 1
+DELTAP1
+NPUSHW
+ 3
+ 144
+ 62
+ 1
+DELTAP1
+NPUSHW
+ 3
+ 64
+ 62
+ 1
+DELTAP1
+NPUSHW
+ 3
+ 64
+ 82
+ 1
+DELTAP1
+NPUSHW
+ 3
+ 144
+ 82
+ 1
+DELTAP1
+SVTCA[y-axis]
+PUSHW_1
+ 0
+RCVT
+IF
+PUSHW_1
+ 9
+MDAP[rnd]
+ELSE
+PUSHW_2
+ 9
+ 27
+MIAP[no-rnd]
+EIF
+PUSHW_1
+ 0
+RCVT
+IF
+PUSHW_1
+ 48
+MDAP[rnd]
+ELSE
+PUSHW_2
+ 48
+ 9
+MIAP[no-rnd]
+EIF
+PUSHW_1
+ 9
+SRP0
+PUSHW_1
+ 31
+MDRP[rp0,grey]
+PUSHW_1
+ 48
+SRP0
+PUSHW_1
+ 56
+MDRP[rp0,grey]
+PUSHW_1
+ 48
+SRP0
+PUSHW_1
+ 77
+MDRP[rp0,grey]
+PUSHW_1
+ 56
+SRP0
+PUSHW_1
+ 85
+MDRP[rp0,grey]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+Refer: 560 8260 N 1 0 0 1 242 0 2
+Refer: 124 186 N 1 0 0 1 9 0 2
+Refer: 124 186 N 1 0 0 1 362 -383 2
+Refer: 124 186 N 1 0 0 1 754 -383 2
+Ligature2: "'frac' Diagonal Fractions lookup 3 subtable" zero uni2215 zero zero
+Ligature2: "'frac' Diagonal Fractions lookup 3 subtable" zero fraction zero zero
+Ligature2: "'frac' Diagonal Fractions lookup 3 subtable" zero slash zero zero
+EndChar

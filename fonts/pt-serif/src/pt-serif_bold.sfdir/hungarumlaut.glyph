@@ -1,0 +1,110 @@
+
+StartChar: hungarumlaut
+Encoding: 733 733 310
+Width: 496
+Flags: W
+TtInstrs:
+PUSHB_1
+ 10
+CALL
+IF
+PUSHB_3
+ 15
+ 8
+ 3
+CALL
+PUSHB_3
+ 0
+ 8
+ 1
+DELTAP1
+PUSHB_1
+ 8
+SRP0
+PUSHB_1
+ 6
+MDRP[rp0,min,rnd,grey]
+PUSHB_1
+ 15
+SRP0
+PUSHB_1
+ 17
+MDRP[rp0,min,rnd,grey]
+EIF
+SVTCA[y-axis]
+PUSHB_1
+ 7
+MDAP[rnd]
+PUSHB_3
+ 0
+ 7
+ 1
+DELTAP2
+PUSHB_3
+ 16
+ 7
+ 1
+DELTAP3
+PUSHB_3
+ 15
+ 7
+ 1
+DELTAP1
+PUSHB_3
+ 47
+ 7
+ 1
+DELTAP1
+PUSHB_3
+ 80
+ 7
+ 1
+DELTAP2
+PUSHB_3
+ 176
+ 7
+ 1
+DELTAP1
+PUSHB_3
+ 144
+ 7
+ 1
+DELTAP1
+PUSHB_1
+ 0
+MDRP[rp0,min,rnd,grey]
+PUSHB_1
+ 9
+MDRP[rp0,grey]
+PUSHB_1
+ 7
+SRP0
+PUSHB_1
+ 16
+MDRP[rp0,grey]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+128 768 m 1,0,1
+ 134 770 134 770 151 769 c 128,-1,2
+ 168 768 168 768 186.5 765 c 128,-1,3
+ 205 762 205 762 220.5 757.5 c 128,-1,4
+ 236 753 236 753 239 747 c 1,5,-1
+ 239 723 l 1,6,-1
+ 101 585 l 1,7,-1
+ 60 605 l 1,8,-1
+ 128 768 l 1,0,1
+324 768 m 1,9,10
+ 331 770 331 770 347 769 c 128,-1,11
+ 363 768 363 768 381 764 c 128,-1,12
+ 399 760 399 760 414.5 754 c 128,-1,13
+ 430 748 430 748 436 740 c 1,14,-1
+ 436 718 l 1,15,-1
+ 228 585 l 1,16,-1
+ 191 607 l 1,17,-1
+ 324 768 l 1,9,10
+EndSplineSet
+EndChar
