@@ -122,7 +122,8 @@
    # ----------------------------------------------------------- #
 
     echo '<div class="sixteen columns accordion" id="sortable">'      >> $INDEX
-    echo '<button id="resetDemoText">x</button>'                      >> $INDEX
+    echo '<button id="resetDemoText" \
+           class="negativ highlighted">x</button>' | tr -s ' '        >> $INDEX
 
     COUNT=100 ; EXCLUDECOUNT=0
     for FONTSTYLESRC in $FONTSTYLES
@@ -599,7 +600,8 @@
 
   cat $TMPLT_AKKRDNSLIDER                                           >> $INDEX
   echo '<div class="sixteen columns accordion" id="sortable">'      >> $INDEX
-  echo '<button id="resetDemoText">x</button>'                      >> $INDEX
+  echo '<button id="resetDemoText" \
+         class="negativ highlighted">x</button>' | tr -s ' '        >> $INDEX
 # --------------------------------------------------------------------------- #
   README=README.md
 
