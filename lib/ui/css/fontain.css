@@ -26,13 +26,13 @@ body {
 }
 
 ::selection {
-  background: #33FFDA; /* WebKit/Blink Browsers */
+  background: #0ECCAA; /* WebKit/Blink Browsers */
 }
 ::-moz-selection {
-  background: #33FFDA; /* Gecko Browsers */
+  background: #0ECCAA; /* Gecko Browsers */
 }
 ::-webkit-selection {
-  background: #33FFDA; /* Gecko Browsers */
+  background: #0ECCAA; /* Gecko Browsers */
 }
 
 
@@ -77,7 +77,7 @@ input.fontdemo:hover {}
     display: none;
 }
 .excluded span.divlink{
-    border-left:3px solid #33FFDA;
+    border-left:3px solid #0ECCAA;
     margin-left: -3px;
 }
 
@@ -160,7 +160,8 @@ a.fontdemo-showmore {
 }
 
 .sortable-placeholder {
-    background: #FBFF82;
+    background: #0ECCAA;
+/*     #FBFF82; */
 }
 
 
@@ -184,7 +185,7 @@ hr.hrsection {
 }
 
 .button:hover, button:hover{
-  background: #33FFDA;
+  background: #0ECCAA;
   color: #fff;
 }
 
