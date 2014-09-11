@@ -1,4 +1,17 @@
 <!-- ========= SLIDER ========================================================= -->
+<div class="row" id="slider">
+  <div class="fifteen columns jsonly">
+    <input class="fontsize" id="fontsizeSlider" type="range"  min="60" max="250" value="120"/>
+  </div>
+  <div class="one column jsonly">
+    <label class="sliderLabel positiv" id="fontsizeSlider" for="fontsizeSlider">-- px</label>
+  </div>
+</div>
+
+<br/><br/><br/>
+
+
+<!--
 <div class="fifteen columns jsonly">
   <input class="fontsize" id="fontsizeSlider" type="range"  min="60" max="250" value="120"/>
 </div>
@@ -8,5 +21,4 @@
 
 <br class='clear' />
 <br />
-
-
+-->

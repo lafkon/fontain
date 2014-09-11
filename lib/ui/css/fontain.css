@@ -20,6 +20,10 @@ body {
   color: #eee;
 }
 
+.highlighted {
+  background: #0ECCAA;
+}
+
 .jsonly {
     display: none;
     visibility: hidden;
@@ -94,7 +98,7 @@ input.fontdemo:hover {}
 
 .accordion-section-header {
     position: relative;
-    z-index: 1000;
+    z-index: 10;
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
     height: 24px;
@@ -145,6 +149,26 @@ a.fontdemo-showmore {
   margin-left: 10px;
 }
 
+
+#resetDemoText {
+  position: absolute;
+  right: 10px;
+  width: 30px;
+/*   text-align: right; */
+  
+/*  position: relative;
+  float: right;
+  top: 0px;
+  right: -4px;
+  z-index: 2000;
+  display: none;
+  padding: 4px 8px 5px 8px;
+  margin: 0px -8px 0px -24px;
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  border-radius: 12px;*/
+}
+
 #resetDemoText {
   position: relative;
   float: right;
@@ -153,10 +177,10 @@ a.fontdemo-showmore {
   z-index: 2000;
   display: none;
   padding: 4px 8px 5px 8px;
+  margin: 0px -8px 0px -24px;
   -moz-border-radius: 12px;
   -webkit-border-radius: 12px;
   border-radius: 12px;
-  margin: 0px -8px 0px -24px;
 }
 
 .sortable-placeholder {
@@ -189,13 +213,18 @@ hr.hrsection {
   color: #fff;
 }
 
+.button:hover.highlighted, button:hover.highlighted {
+  background: #eee;
+  color: #111;
+}
+
 .sliderLabel {
   background: transparent;
   position: relative;
   top: -7px;
   font-weight: normal;
   font-size: 9px; 
-  z-index: -5000;  
+/*   z-index: -5000;   */
 }
 
 

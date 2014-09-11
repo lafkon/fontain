@@ -42,3 +42,26 @@ span.divlink {
 /*   margin: -1px 0px 8px 0px; */
 }
 
+#slider {
+  background: #eee;
+  padding: 20px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  z-index: 50;
+}
+
+.fixed { 
+  position: fixed; 
+  top: 0px; 
+  transition: all .25s linear;
+  -moz-transition: all .25s linear;
+  -webkit-transition: all .25s linear;  
+}
+
+.fixed#slider { 
+  position: fixed;   
+  width: 200%;
+  border-bottom: 1px solid #111;
+  padding: 20px 0px 0px 500px;
+  margin: 0px 0px 0px -500px;
+}
+
