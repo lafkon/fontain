@@ -8,7 +8,8 @@
 
 AUTHOR
 ======
-[Caroline Hadilaksono](http://hadilaksono.com)
+[Caroline Hadilaksono](http://hadilaksono.com)    
+[Tyler Finck](http://www.tylerfinck.com/)
 
 
 LICENSE
