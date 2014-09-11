@@ -76,13 +76,17 @@ button.flowfontvariant {
     -moz-border-radius: 0px;
     -webkit-border-radius: 0px;
     border-radius: 0px;    
-    border: 1px solid;;
+    border: 1px solid;
     margin: 0px 0px 1px 0px;
     padding: 5px 10px;
     text-transform:capitalize;	 
-    
     background: transparent;
-    color: #111;
+}
+
+button.flowfontvariant:hover{
+  background: #0ECCAA;
+  color: #111;
+  border: 1px solid #111;  
 }
 
 button.flowfontvariant#label {
