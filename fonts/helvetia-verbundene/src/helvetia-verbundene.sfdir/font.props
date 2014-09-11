@@ -3,7 +3,8 @@ FontName: HelvetiaVerbundene
 FullName: HelvetiaVerbundene
 FamilyName: Helvetia Verbundene
 Weight: Book
-Copyright: Copyright (c) 2010 by Peter Wiegel.   Open Font under Terms of following Free Software Licenses:\nGPL (General Public License) with font-exception and OFL (Open Font License
+Copyright: Copyright (c) 2010 by Peter Wiegel. Open Font under Terms of following Free Software Licenses:\nGPL (General Public License) with font-exception and OFL (Open Font License
+FontLog: "September 2014 (Christoph Haag)+AAoA-- created fontforge sources as base to work on GNU/Linux+AAoA-- changed baseline to baseline spacing, causing strange behaviour as webfont.+AAoA-- adjusted metadata+AAoACgAA-20. January 2014 (Peter Wiegel)+AAoA-- enhanced digits+AAoA-- enhanced some letter+AAoA-- added accents+AAoA-- added sharp s+AAoA-- added cyrillic script+AAoACgAA-May 2010 (Peter Wiegel)+AAoA-- Initial release+AAoACgAK-If you make modifications be sure to add your name (N), email (E), web-address (if you have one) (W) and description (D). This list is in alphabetical order.+AAoACgAA-N: Christoph Haag+AAoA-E: christoph@lafkon.net+AAoA-W: www.lafkon.net+AAoA-D: Graphic Designer & Bash Coder+AAoACgAA-N: Peter Wiegel+AAoA-E: wiegel@aepnet.de+AAoA-W: www.peter-wiegel.de +AAoA-D: Font Maker Deluxe" 
 Version: 2.000
 ItalicAngle: 0
 UnderlinePosition: 0
@@ -20,25 +21,25 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1390233009
-ModificationTime: 1390233082
+ModificationTime: 1410442310
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
-LineGap: 84
+LineGap: 0
 VLineGap: 0
 Panose: 2 11 6 3 5 3 2 2 2 4
-OS2TypoAscent: -134
+OS2TypoAscent: 0
 OS2TypoAOffset: 1
-OS2TypoDescent: -363
+OS2TypoDescent: 0
 OS2TypoDOffset: 1
-OS2TypoLinegap: 84
-OS2WinAscent: -206
+OS2TypoLinegap: 400
+OS2WinAscent: 0
 OS2WinAOffset: 1
-OS2WinDescent: -28
+OS2WinDescent: 0
 OS2WinDOffset: 1
-HheadAscent: -593
+HheadAscent: 0
 HheadAOffset: 1
-HheadDescent: 28
+HheadDescent: 0
 HheadDOffset: 1
 OS2SubXSize: 0
 OS2SubYSize: 0
@@ -54,6 +55,7 @@ OS2Vendor: '    '
 OS2CodePages: 00000001.00000000
 OS2UnicodeRanges: 8000002f.00000002.00000000.00000000
 Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 0"  {"'kern' Horizontal Kerning lookup 0 subtable"  } ['kern' ('DFLT' <'dflt' > ) ]
+MarkAttachClasses: 1
 DEI: 91125
 TtTable: prep
 PUSHW_1
@@ -530,4 +532,6 @@ DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
 WinInfo: 54 18 9
+BeginPrivate: 0
+EndPrivate
 EndSplineFont
