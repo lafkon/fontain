@@ -468,10 +468,6 @@
           $EXPORTTARGET/webfont
      fi
 
-       ZIPLINKFOO=WWWZIP
-       ZIPLINKBAR=export/webfont/${ZIPNAME}.webfont.zip
-       sed -i "s,$ZIPLINKFOO,$ZIPLINKBAR,g" $INDEX
-
    # --------------------------------------------------------------------- #
    # ZIP THE REST (IF THERE EXISTS A NEWER SOURCE)
    # --------------------------------------------------------------------- #
@@ -511,11 +507,6 @@
            mv $FONTFAMILY/export/$FORMAT/X-${ZIPNAME}.$FORMAT.zip \
               $EXPORTTARGET/$FORMAT/${ZIPNAME}.$FORMAT.zip
         fi
-
-        ZIPLINKFOO=`echo $FORMAT | tr [:lower:] [:upper:]`ZIP
-        ZIPLINKBAR=export/$FORMAT/${ZIPNAME}.$FORMAT.zip
-        sed -i "s,$ZIPLINKFOO,$ZIPLINKBAR,g" $INDEX
-
      done
    # ===================================================================== #         
 # --------------------------------------------------------------------------- #
@@ -534,9 +525,7 @@
             -e 'x;/UI CONFIGURATION==/!d;' | # SELECT PARAGRAPH CONTAINING UI C..
             grep -v "UI CONFIGURATION"`      # RM LINE CONTAINING UI C..
   else
-
-  SECTIONS="AKKORDEON DOWNLOAD AUTHOR SPECIMEN LICENSE"
-
+            SECTIONS="AKKORDEON DOWNLOAD AUTHOR SPECIMEN LICENSE"
   fi
 # --------------------------------------------------------------------------- #
 # MAKE SURE THERE IS AT LEAST AKKORDEON AND DOWNLOAD
@@ -546,7 +535,6 @@
   if [ `echo $SECTIONS | grep "AKKORDEON" | wc -l` -lt 1 ]
   then  SECTIONS="AKKORDEON $SECTIONS" ; fi
 
-
 # --------------------------------------------------------------------------- #
 # CREATE HTML FILE
 # --------------------------------------------------------------------------- #
@@ -554,6 +542,7 @@
   sed -i "s,ISLIST,$ISLIST,g"                                          $INDEX
   sed -i "s,CUSTOMCSS,$CUSTOMCSS,g"                                    $INDEX
 # --------------------------------------------------------------------------- #
+
 
 # --------------------------------------------------------------------------- #
 # JUST DO IT
@@ -570,8 +559,8 @@
   cat $TMPLT_FOOT                                                   >> $INDEX
 # --------------------------------------------------------------------------- #
 
-  sed -i "s/FONTFAMILY/$FAMILYNAME/g"                                  $INDEX
 
+  sed -i "s/FONTFAMILY/$FAMILYNAME/g"                                  $INDEX
   FLOWTEXTARRAY="[ $FLOWTEXTARRAY ];"
   sed -i "s/FLOWTEXTARRAY/$FLOWTEXTARRAY/g"                            $INDEX
   sed -i "s/FLOWTEXTMASTERWWW/$FLOWTEXTMASTERWWW/g"                    $INDEX
