@@ -343,6 +343,7 @@
       SPECIMENTARGET=$FAMILYTARGET/specimen
       EXPORTTARGET=$FAMILYTARGET/export
 
+      ISLIST="false"
       CUSTOMCSS="../css/fontain_font.css"
       CSS=$WEBFONTTARGET/webfont.css
       INDEX=$FAMILYTARGET/index.html
@@ -545,6 +546,7 @@
 # CREATE HTML FILE
 # --------------------------------------------------------------------------- #
   cat $TMPLT_HEAD                                                   >  $INDEX
+  sed -i "s,ISLIST,$ISLIST,g"                                          $INDEX
   sed -i "s,CUSTOMCSS,$CUSTOMCSS,g"                                    $INDEX
 # --------------------------------------------------------------------------- #
 
@@ -594,6 +596,7 @@
   HEADINJECTION=""; HIDE=""
   INDEX=$WWWDIR/index.html
   CUSTOMCSS="css/fontain_list.css"
+  ISLIST="true"
   CSSCOLLECT=$TMPDIR/css.tmp
   if [ -f $CSSCOLLECT ]; then rm $CSSCOLLECT ; fi
 
@@ -601,7 +604,8 @@
   cat $TMPLT_HEAD | \
   sed 's,href="../,href=",g' | sed 's,src="../,src=",g'             >  $INDEX
 # sed -i 's,fontain.css,fontainlist.css,g'                             $INDEX
-  sed -i 's,fontain.js,fontainlist.js,g'                               $INDEX
+# sed -i 's,fontain.js,fontainlist.js,g'                               $INDEX
+  sed -i "s,ISLIST,$ISLIST,g"                                          $INDEX
   sed -i "s,CUSTOMCSS,$CUSTOMCSS,g"                                    $INDEX
 
   cat $TMPLT_AKKRDNSLIDER                                           >> $INDEX
