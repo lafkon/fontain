@@ -4,9 +4,36 @@
 # ----------------------------------------------------------------- #
   FONTS=`ls -d -1 fonts/*`
 
-  WWWDIR=~/tmp/fontain
 
+  OUTPUTDIR=$1
+# --------------------------------------------------------------------------- #
+# INTERACTIVE CHECKS 
+# --------------------------------------------------------------------------- #
+  if [ -z "$OUTPUTDIR" ]; then
 
+        echo
+        echo "Where should the output go? Please provide an output directory:"
+        echo "$0 PATH/TO/OUTPUTDIRECTORY"
+        echo
+        exit 0;
+  fi
+
+# STRIP TRAILING SLASH
+  OUTPUTDIR=`echo $OUTPUTDIR | sed 's,/$,,g'`
+# REMOVE 'FONTAIN' SUBDIRECTORY TO PLACE IT OURSELVES
+  OUTPUTDIR=`echo $OUTPUTDIR | sed 's,/fontain$,,g'`
+  OUTPUTDIR=$OUTPUTDIR/fontain
+
+  if [ -d $OUTPUTDIR ]; then
+
+       echo "$OUTPUTDIR exists"
+       read -p "overwrite ${PDF}? [y/n] " ANSWER
+       if [ $ANSWER = n ] ; then echo "Bye-bye"; exit 0; fi
+
+  fi
+
+  WWWDIR=$OUTPUTDIR
+  echo "writing to $WWWDIR"; sleep 3 # SOME TIME TO CHANGE YOUR MIND
 
 # TEMPLATES
 # ----------------------------------------------------------------- #
@@ -34,7 +61,9 @@
 
 # COPY STATIC STUFF 
 # ----------------------------------------------------------------- #
+  if [ ! -d $WWWDIR ]; then  mkdir -p $WWWDIR ; fi
   cp -r `ls -d lib/ui/* | egrep -v "templates"` $WWWDIR
+
 
 # --------------------------------------------------------------------------- #
 # FUNCTIONS
