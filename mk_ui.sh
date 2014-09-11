@@ -591,7 +591,7 @@
   if [ -f $CSSCOLLECT ]; then rm $CSSCOLLECT ; fi
 
 # --------------------------------------------------------------------------- #
-  cat $TMPLT_HEAD | \
+  cat $TMPLT_HEAD | # USELESS USE OF CAT
   sed 's,href="../,href=",g' | sed 's,src="../,src=",g'             >  $INDEX
 # sed -i 's,fontain.css,fontainlist.css,g'                             $INDEX
 # sed -i 's,fontain.js,fontainlist.js,g'                               $INDEX
@@ -671,7 +671,7 @@
 
 # --------------------------------------------------------------------------- #
   echo '</div>'                                                     >> $INDEX
-  cat $TMPLT_FOOT                                                   >> $INDEX
+  sed 's,src="../,src=",g' $TMPLT_FOOT                              >> $INDEX
 # --------------------------------------------------------------------------- #
 
   tac $INDEX | sed -n '/HEADINJECTION/,$p' | tac         >  $TMPDIR/index.tmp
