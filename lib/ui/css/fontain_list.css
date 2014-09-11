@@ -11,19 +11,19 @@
 
 .accordion-section-title:hover {
   height: inherit;
-  background: #33FFDA;
+  background: #0ECCAA;
   text-decoration: underline;
 } 
  
 .accordion-section:hover > .accordion-section-header > .accordion-section-title > span.divlink { 
-    background: #33FFDA;
+    background: #0ECCAA;
 }
 
 .accordion-section-header:hover ~ .accordion-section-content {
      transition: background .25s ease-in-out;
    -moz-transition: background .25s ease-in-out;
    -webkit-transition: background .25s ease-in-out;
-   color:#33FFDA;
+   color:#0ECCAA;
 }
 .accordion-section-header ~ .accordion-section-content {
      transition: background .25s ease-in-out;
@@ -33,7 +33,7 @@
 .accordion-section-header:hover > .accordion-section-title > span.divlink {
    color:#000;
    background: #f00;
-   border-color: #33FFDA;
+   border-color: #0ECCAA;
 }
 
 span.divlink {
