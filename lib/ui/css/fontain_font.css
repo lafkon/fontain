@@ -35,7 +35,7 @@ span.divlink {
 /*FLOWTEXT
 ================================================== */
 
-.flowtext {
+/*.flowtext {
   border: 1px solid;
   font-size: 12px;
   line-height: 1.5em;
@@ -57,8 +57,45 @@ button.flowfontvariant {
 
 button.flowfontvariant#label {
     cursor: default;
+}*/
+
+
+
+
+.flowtext {
+/*   border: 1px solid; */
+  font-size: 12px;
+  line-height: 1.5em;
+  margin: 0px 0px 16px 0px;
+  padding: 0px 0px 0px 0px;
 }
 
+button.flowfontvariant {
+    font-size:10px;
+    font-weight: normal;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;    
+    border: 1px solid;
+    margin: 0px 0px 1px 0px;
+    padding: 5px 10px;
+    text-transform:capitalize;	 
+    background: transparent;
+}
+
+button.flowfontvariant:hover{
+  background: #0ECCAA;
+  color: #111;
+  border: 1px solid #111;  
+}
+
+button.flowfontvariant#label {
+    cursor: default;
+}
+
+#flowFontSelectR {
+  padding: -50px 0px;
+}
 
 
 /*SPECIMEN
