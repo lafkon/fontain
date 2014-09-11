@@ -1,0 +1,81 @@
+
+StartChar: logicalnot
+Encoding: 172 172 154
+Width: 1535
+Flags: W
+TtInstrs:
+MPPEM
+PUSHB_1
+ 7
+LT
+IF
+NPUSHB
+ 22
+ 0
+ 1
+ 2
+ 2
+ 1
+ 100
+ 0
+ 0
+ 2
+ 2
+ 0
+ 82
+ 0
+ 0
+ 0
+ 2
+ 86
+ 0
+ 2
+ 0
+ 2
+ 74
+ELSE
+NPUSHB
+ 21
+ 0
+ 1
+ 2
+ 1
+ 112
+ 0
+ 0
+ 2
+ 2
+ 0
+ 82
+ 0
+ 0
+ 0
+ 2
+ 86
+ 0
+ 2
+ 0
+ 2
+ 74
+EIF
+PUSHB_6
+ 17
+ 17
+ 16
+ 3
+ 5
+ 23
+CALL
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+193 685 m 1,0,-1
+ 1303 685 l 1,1,-1
+ 1303 177 l 1,2,-1
+ 1107 177 l 1,3,-1
+ 1107 510 l 1,4,-1
+ 193 510 l 1,5,-1
+ 193 685 l 1,0,-1
+EndSplineSet
+EndChar
