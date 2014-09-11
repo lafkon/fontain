@@ -13,14 +13,14 @@
 span.divlink {
   background: transparent;
   color: inherit;
-  padding: 6px 2px;
+  padding: 6px 6px 4px 6px;  
 }
 
 .accordion-section-header:hover > .accordion-section-title.active > span.divlink {
-       transition: color .25s ease-in-out;
+   transition: color .25s ease-in-out;
    -moz-transition: color .25s ease-in-out;
    -webkit-transition: color .25s ease-in-out;
-   color: inherit;
+   color: #111;
 }
 
 .accordion-section-header:hover > .accordion-section-title > span.divlink {

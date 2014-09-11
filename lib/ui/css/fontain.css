@@ -36,7 +36,6 @@ body {
 }
 
 
-
 /*HEADER + FOOTER
 ================================================== */
 
@@ -99,6 +98,7 @@ input.fontdemo:hover {}
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
     height: 24px;
+    color: inherit;
 }
 
 .accordion-section-title {
@@ -110,6 +110,10 @@ input.fontdemo:hover {}
     height: 24px;
     text-decoration: none;
 /*     transition:all linear 0.15s; */
+}
+
+.accordion-section-title.active {
+    background: transparent;
 }
 
 .accordion-section-title:hover {
