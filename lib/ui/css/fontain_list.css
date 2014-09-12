@@ -20,26 +20,26 @@
 }
 
 .accordion-section-header:hover ~ .accordion-section-content {
-     transition: background .25s ease-in-out;
+    transition: background .25s ease-in-out;
    -moz-transition: background .25s ease-in-out;
    -webkit-transition: background .25s ease-in-out;
    color:#0ECCAA;
 }
 .accordion-section-header ~ .accordion-section-content {
-     transition: background .25s ease-in-out;
+    transition: background .25s ease-in-out;
    -moz-transition: background .25s ease-in-out;
 }
 
-.accordion-section-header:hover > .accordion-section-title > span.divlink {
-   color:#000;
-   background: #f00;
+.accordion-section-header:hover > .accordion-section-title > span.divlink,
+.accordion-section-header:hover > .accordion-section-title {
+   color:#eee; 
    border-color: #0ECCAA;
 }
 
 span.divlink {
   height: 24px;
-  padding: 6px 6px 4px 6px;
-/*   margin: -1px 0px 8px 0px; */
+  padding: 6px 6px 5px 6px;
+/*   margin: 0px 0px 0px 0px; */
 }
 
 
@@ -68,4 +68,7 @@ span.divlink {
   padding: 20px 0px 0px 500px;
   margin: 0px 0px 0px -500px;
 }
+
+
+
 

@@ -5,10 +5,19 @@
 html {
   overflow: -moz-scrollbars-vertical;
   overflow-y: scroll;
+/*   padding: 0px 100px 0px 100px; */
+/*   padding: 0px 100px 0px 100px; */
+/*width: 80%;
+margin: 0 auto;*/
+/*   padding: 0px; */
+/*   margin: -10px 0px 0px 0px; */
 }
 
 body {
   overflow-x: hidden;
+/*  padding: 0px;
+  margin: 0px;*/
+  
 }
 
 hr {
@@ -47,14 +56,17 @@ hr {
   background: #0ECCAA; /* Gecko Browsers */
 }
 
-
 /*HEADER + FOOTER
 ================================================== */
 
 .header {
-    height: 90px;
-    margin: 0px 0px 40px 0px;
-    padding: 10px 0px 10px 0px;
+/*    position: fixed;
+    z-index: 9000;    */
+/*     top: 0px; */
+    height: 60px;
+    margin: -1px 0px 40px 0px;
+    padding: 0px 0px 10px 0px;
+/*     background: #ccc; */
 }
 .footer {
     height: 90px;
@@ -63,6 +75,47 @@ hr {
     text-align: center
 }
 
+
+.menu {
+    display: inline-block;
+    vertical-align: top;
+    
+}
+
+.menuitem {
+    display: inline;
+    font-size:10px;
+    font-weight: normal;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;    
+    border: 0px solid;
+    margin: 0px 0px 0px 0px;
+    padding: 5px 10px;
+/*     background: #ddd; */
+}
+.logosmall.menuitem.negativ {
+      width: 60px;
+    background: #111;
+}
+.logobig.menuitem.negativ {
+    width: 60px;
+    background: #111;
+    margin-left: -64px;
+    padding-left: 14px;
+    padding-right: 14px;
+/*     font-weight: bold; */
+}
+.logobig:hover.menuitem.negativ {
+  color: #0ECCAA;
+}
+.logo:hover {
+  background: #0ECCAA;
+}
+
+.menuitem:hover {
+    border: 0px solid;
+}
 
 
 
