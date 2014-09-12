@@ -38,8 +38,12 @@
 # TEMPLATES
 # ----------------------------------------------------------------- #
   TMPLT_CSS=lib/ui/templates/css.template
-  TMPLT_HEAD=lib/ui/templates/htmlhead.template
-  TMPLT_FOOT=lib/ui/templates/htmlfoot.template
+  TMPLT_HTMLHEAD=lib/ui/templates/htmlhead.template
+  TMPLT_HTMLFOOT=lib/ui/templates/htmlfoot.template
+  TMPLT_HEAD_LIST=lib/ui/templates/head_list.template
+  TMPLT_HEAD_PAGE=lib/ui/templates/head_page.template
+  TMPLT_HEAD=lib/ui/templates/head.template
+  TMPLT_FOOT=lib/ui/templates/foot.template
   TMPLT_AKKORDEON=lib/ui/templates/akkordeon.template
   TMPLT_AKKORDEON_PRE=lib/ui/templates/akkordeon_pre.template
   TMPLT_AKKORDEON_LOOP=lib/ui/templates/akkordeon_loop.template
@@ -636,9 +640,10 @@
 # --------------------------------------------------------------------------- #
 # CREATE HTML FILE
 # --------------------------------------------------------------------------- #
-  cat $TMPLT_HEAD                                                   >  $INDEX
+  cat $TMPLT_HTMLHEAD                                               >  $INDEX
   sed -i "s,ISLIST,$ISLIST,g"                                          $INDEX
   sed -i "s,CUSTOMCSS,$CUSTOMCSS,g"                                    $INDEX
+  cat $TMPLT_HEAD_PAGE                                              >> $INDEX
 # --------------------------------------------------------------------------- #
 
 
@@ -655,6 +660,7 @@
   done
 # --------------------------------------------------------------------------- #
   cat $TMPLT_FOOT                                                   >> $INDEX
+  cat $TMPLT_HTMLFOOT                                               >> $INDEX
 # --------------------------------------------------------------------------- #
 
 
@@ -688,12 +694,11 @@
   if [ -f $CSSCOLLECT ]; then rm $CSSCOLLECT ; fi
 
 # --------------------------------------------------------------------------- #
-  cat $TMPLT_HEAD | # USELESS USE OF CAT
+  cat $TMPLT_HTMLHEAD | # USELESS USE OF CAT
   sed 's,href="../,href=",g' | sed 's,src="../,src=",g'             >  $INDEX
-# sed -i 's,fontain.css,fontainlist.css,g'                             $INDEX
-# sed -i 's,fontain.js,fontainlist.js,g'                               $INDEX
   sed -i "s,ISLIST,$ISLIST,g"                                          $INDEX
   sed -i "s,CUSTOMCSS,$CUSTOMCSS,g"                                    $INDEX
+  cat $TMPLT_HEAD_LIST                                              >> $INDEX
 
   cat $TMPLT_AKKRDNSLIDER                                           >> $INDEX
   echo '<div class="sixteen columns accordion" id="sortable">'      >> $INDEX
@@ -767,8 +772,9 @@
   done
 
 # --------------------------------------------------------------------------- #
-  echo '</div>'                                                     >> $INDEX
+# echo '</div>'                                                     >> $INDEX
   sed 's,src="../,src=",g' $TMPLT_FOOT                              >> $INDEX
+  sed 's,src="../,src=",g' $TMPLT_HTMLFOOT                          >> $INDEX
 # --------------------------------------------------------------------------- #
 
   tac $INDEX | sed -n '/HEADINJECTION/,$p' | tac         >  $TMPDIR/index.tmp
