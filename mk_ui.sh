@@ -320,17 +320,17 @@
   function READMESECTIONS(){
     
     NEWREADME=$1
-   
     XX=X${RANDOM}X # TMP UNIQ ID
     XY=X${RANDOM}Y # TMP UNIQ ID
     YY=Y${RANDOM}Y # TMP UNIQ ID
+    YZ=Y${RANDOM}Z # TMP UNIQ ID
     for S in `echo $SECTIONS2INCLUDE | \
               sed 's/ /zTv63cH/g'  | sed 's/|/ /g'`
     do S=`echo $S | sed 's/zTv63cH/ /g'`
     SECTIONS=$SECTIONS\|${XY}$S${XX}== ; done
     SECTIONS=`echo $SECTIONS | cut -d "|" -f 2-`
    
-    sed '/^\s*$/d' $FULLREADME         | \
+    sed "s/^\s*$/$XZ/g" $FULLREADME         | \
     sed -e :a \
         -e "$!N;s/\n=====/$XX=====/;ta"  \
         -e 'P;D'                       | \
@@ -342,7 +342,9 @@
     egrep "$SECTIONS"                  | \
     sed "s/$XY/\n/g"                   | \
     sed "s/$YY/\n/g"                   | \
-    sed "s/$XX/\n/g"                   > $NEWREADME
+    sed "s/$XX/\n/g"                   | \
+    sed "s/$YZ//g"                     | \
+    uniq                               > $NEWREADME
 
   }
 # --------------------------------------------------------------------------- #
@@ -553,8 +555,15 @@
             echo "$ZIPTARGET is up-to-date"
  
          else
- 
-            SECTIONS2INCLUDE="AUTHOR|LICENSE"
+
+            if   [ X$FORMAT = Xtex ]; then
+                   SECTIONS2INCLUDE="AUTHOR|LICENSE|TEX HOWTO"
+            elif [ X$FORMAT = Xufo ]; then
+                   SECTIONS2INCLUDE="AUTHOR|LICENSE|ABOUT UFO"
+            else
+                   SECTIONS2INCLUDE="AUTHOR|LICENSE"
+            fi
+
 
             cd $FONTFAMILY/export/$FORMAT
 
