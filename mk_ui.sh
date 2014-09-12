@@ -330,7 +330,7 @@
     SECTIONS=$SECTIONS\|${XY}$S${XX}== ; done
     SECTIONS=`echo $SECTIONS | cut -d "|" -f 2-`
    
-    sed "s/^\s*$/$XZ/g" $FULLREADME         | \
+    sed "s/^\s*$/$YZ/g" $FULLREADME         | \
     sed -e :a \
         -e "$!N;s/\n=====/$XX=====/;ta"  \
         -e 'P;D'                       | \
@@ -408,6 +408,7 @@
      FONTLOG=$TMPDIR/FONTLOG.txt
      echo ""                       >  $FONTLOG
      echo "  FONTLOG: $FAMILYNAME" >> $FONTLOG
+     echo ""                       >> $FONTLOG
 
 
      COUNT=100 ; EXCLUDECOUNT=0
@@ -458,21 +459,26 @@
    # EXTRACT FONTLOG
    # --------------------------------------------------------------------- #
         FONTLOG=$TMPDIR/FONTLOG.txt
-        echo "  ------------------"  >> $FONTLOG
-        echo ""                      >> $FONTLOG
-        echo "  ${STYLENAME}:"       >> $FONTLOG
-        echo ""                      >> $FONTLOG
-        grep ^FontLog: $FONTPROPS    | \
-        cut -d ":" -f 2-             | \
-        sed 's/^ "//g'               | sed 's/" $//g'     | \
-        sed 's/+AAoA-/\n/g'          | sed 's/CgAA-/\n/g' | \
-        sed 's/+AAoA/\n/g'           | sed 's/CgAK-/\n/g' | \
-        fold -s -w 60                | \
-        sed '/^-/!s/^/  /'           | \
-        sed 's/^//'                  >> $FONTLOG
-        echo -e "\n"                 >> $FONTLOG
-   # --------------------------------------------------------------------- #
+        echo "  --------------------------------------------"  >> $FONTLOG
+        echo "  ${STYLENAME}"                                  >> $FONTLOG
+        echo "  --------------------------------------------"  >> $FONTLOG
 
+        if [ `grep ^FontLog: $FONTPROPS | wc -c` -gt 10 ]; then
+         echo ""                                               >> $FONTLOG
+         grep ^FontLog: $FONTPROPS    | \
+         cut -d ":" -f 2-             | \
+         sed 's/^ "//g'               | sed 's/" $//g'     | \
+         sed 's/+AAoA-/\n/g'          | sed 's/CgAA-/\n/g' | \
+         sed 's/+AAoA/\n/g'           | sed 's/CgAK-/\n/g' | \
+         fold -s -w 60                | \
+         sed '/^-/!s/^/  /'           | \
+         sed 's/^//'                  | \
+         sed "s/^\s*$/$YZ/g"                                   >> $FONTLOG
+         echo -e "\n"                                          >> $FONTLOG
+        else
+         echo "  no FONTLOG."                                  >> $FONTLOG
+        fi
+   # --------------------------------------------------------------------- #
         fi
 
      done
@@ -517,7 +523,6 @@
        cp $FONTFAMILY/$LICENSENAME $WEBFONTTARGET ; fi
        if [ -f $FONTLOG ]; then
        cp $FONTLOG $WEBFONTTARGET ; fi
-
        cd $WEBFONTTARGET
 
        zip -r ${ZIPNAME}.webfont.zip *.*
@@ -574,8 +579,9 @@
             if [ -f ../../$LICENSENAME ]; then
             cp ../../$LICENSENAME . ; fi
             if [ -f $FONTLOG ]; then
-            cp $FONTLOG . ; fi
- 
+            cp $FONTLOG . 
+            fi
+
             zip -r X-${ZIPNAME}.$FORMAT.zip *.*
  
             if [ -f $READMENAME ];         then rm $READMENAME         ; fi
