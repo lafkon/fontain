@@ -4,7 +4,7 @@
 
 # PATH TO FONT DIRECTORY (TOP LEVEL)
 # ----------------------------------------------------------------- #
-  FONTS=`ls -d -1 fonts/*`
+  FONTS=`ls -d -1 fonts/* | grep junction`
 # FONTS=`ls -d -1 fonts/* | shuf -n 5`
 # FONTS=`ls -d -1 fonts/* | head -n 1`
 
@@ -35,7 +35,6 @@
       EXPORTROOT=$FONTROOT/export
       FONTNAME=`basename $FONTROOT`
 
-
     # MAKE TMPDIR; WILL BE DELETED AT THE END
     # ----------------------------------------------------------- #
       TMP=$TMPDIR/`echo $RANDOM | md5sum | cut -c 1-8`${RANDOM}X
@@ -48,6 +47,7 @@
           SRCROOT=`echo $SRC | rev | cut -d "/" -f 2- | rev`
           BASENAME=`basename $SRC | \
                     rev | cut -d "." -f 2- | rev`
+
    
         # EXPORT TTF,OTF,SVG,WOFF
         # ----------------------------------------------------- #
