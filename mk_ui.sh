@@ -40,10 +40,10 @@
   TMPLT_CSS=lib/ui/templates/css.template
   TMPLT_HEAD=lib/ui/templates/htmlhead.template
   TMPLT_FOOT=lib/ui/templates/htmlfoot.template
-  TMPLT_AKKORDION=lib/ui/templates/akkordeon.template
-  TMPLT_AKKORDION_PRE=lib/ui/templates/akkordeon_pre.template
-  TMPLT_AKKORDION_LOOP=lib/ui/templates/akkordeon_loop.template
-  TMPLT_AKKORDION_POST=lib/ui/templates/akkordeon_post.template
+  TMPLT_AKKORDEON=lib/ui/templates/akkordeon.template
+  TMPLT_AKKORDEON_PRE=lib/ui/templates/akkordeon_pre.template
+  TMPLT_AKKORDEON_LOOP=lib/ui/templates/akkordeon_loop.template
+  TMPLT_AKKORDEON_POST=lib/ui/templates/akkordeon_post.template
   TMPLT_AKKRDNSLIDER=lib/ui/templates/akkordeon_slider.template
   TMPLT_DOWNLOAD=lib/ui/templates/download.template
   TMPLT_FLOWTEXT=lib/ui/templates/flowtext.template
@@ -124,7 +124,7 @@
    # cat $TMPLT_AKKRDNSLIDER                                          >> $INDEX
    # ----------------------------------------------------------- #
 
-    cat $TMPLT_AKKORDION_PRE                                          >> $INDEX    
+    cat $TMPLT_AKKORDEON_PRE                                          >> $INDEX    
 
     COUNT=100 ; EXCLUDECOUNT=0
     for FONTSTYLESRC in $FONTSTYLES
@@ -155,7 +155,7 @@
 
         FONTSTYLESRCNAME=`basename $FONTSTYLESRC | sed "s/.sfdir//g"`
 
-        cat $TMPLT_AKKORDION_LOOP | \
+        cat $TMPLT_AKKORDEON_LOOP | \
         sed "s/accordion-section positiv/& $HIDE/g" | \
         sed "s/STYLENAMEWWW/$STYLENAMEWWW/g" | \
         sed "s/STYLENAME/$STYLENAME/g" | \
@@ -187,10 +187,10 @@
     echo '</div>'                                                   >> $INDEX
 
     if [ $EXCLUDECOUNT -gt 0 ]; then
-         cat $TMPLT_AKKORDION_POST | \
+         cat $TMPLT_AKKORDEON_POST | \
          sed "s/EXCLUDECOUNT/$EXCLUDECOUNT/g"                       >> $INDEX 
     else
-         cat $TMPLT_AKKORDION_POST | \
+         cat $TMPLT_AKKORDEON_POST | \
          grep -v EXCLUDECOUNT                                       >> $INDEX 
     fi
 
@@ -753,7 +753,7 @@
                      sed 's/jfdDw24e/-/g' | \
                      tr [:upper:] [:lower:]`
 
-       cat $TMPLT_AKKORDION | \
+       cat $TMPLT_AKKORDEON | \
        sed "s,href=\"\",href=\"$FONTLINK\",g" | \
        sed "s/accordion-section positiv/& $HIDE/g" | \
        sed "s/STYLENAMEWWW/$STYLENAMEWWW/g" | \
