@@ -1,3 +1,8 @@
+GENERAL INFORMATION
+===================
+
+[*](http://www.carrois.com/fira-3-1/)
+[*](https://github.com/mozilla/Fira)
 
 
 AUTHORS
