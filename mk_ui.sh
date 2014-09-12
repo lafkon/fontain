@@ -2,7 +2,7 @@
 
 # PATH TO FONT DIRECTORY (TOP LEVEL)
 # ----------------------------------------------------------------- #
-  FONTS=`ls -d -1 fonts/*`
+  FONTS=`ls -d -1 fonts/* | grep fira`
 
 
   OUTPUTDIR=$1
@@ -464,6 +464,8 @@
         echo "  --------------------------------------------"  >> $FONTLOG
 
         if [ `grep ^FontLog: $FONTPROPS | wc -c` -gt 10 ]; then
+        FLCHECKNOW=`grep ^FontLog: $FONTPROPS | md5sum | cut -c 1-16`
+        if [ X$FLCHECKNOW != X$FLCHECKPREV ]; then
          echo ""                                               >> $FONTLOG
          grep ^FontLog: $FONTPROPS    | \
          cut -d ":" -f 2-             | \
@@ -475,6 +477,10 @@
          sed 's/^//'                  | \
          sed "s/^\s*$/$YZ/g"                                   >> $FONTLOG
          echo -e "\n"                                          >> $FONTLOG
+        FLCHECKPREV=$FLCHECKNOW
+        else
+          echo "  ..."                                         >> $FONTLOG
+        fi
         else
          echo "  no FONTLOG."                                  >> $FONTLOG
         fi
