@@ -261,7 +261,7 @@
 # --------------------------------------------------------------------------- #
   function SPECIMEN(){
 
-
+    if [ -d $FONTFAMILY/specimen ]; then
     for SPECIMEN in `find $FONTFAMILY/specimen -name "*.*"`
      do 
 
@@ -285,9 +285,9 @@
 
             cat $SPECIMEN                                         >> $INDEX
         fi
-
+ 
     done
-
+    fi
   }
 
 # --------------------------------------------------------------------------- #
