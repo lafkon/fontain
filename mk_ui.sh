@@ -2,8 +2,9 @@
 
 # PATH TO FONT DIRECTORY (TOP LEVEL)
 # ----------------------------------------------------------------- #
-  FONTS=`ls -d -1 fonts/* | grep -v fira | head -1`
-
+  FONTS=`ls -d -1 fonts/*`
+# ----------------------------------------------------------------- #
+  TMPDIR=/tmp
 
   OUTPUTDIR=$1
 # --------------------------------------------------------------------------- #
@@ -18,19 +19,19 @@
         exit 0;
   fi
 
-# STRIP TRAILING SLASH
-  OUTPUTDIR=`echo $OUTPUTDIR | sed 's,/$,,g'`
-# REMOVE 'FONTAIN' SUBDIRECTORY TO PLACE IT OURSELVES
-  OUTPUTDIR=`echo $OUTPUTDIR | sed 's,/fontain$,,g'`
-  OUTPUTDIR=$OUTPUTDIR/fontain
+  # STRIP TRAILING SLASH
+    OUTPUTDIR=`echo $OUTPUTDIR | sed 's,/$,,g'`
+  # REMOVE 'FONTAIN' SUBDIRECTORY TO PLACE IT OURSELVES
+    OUTPUTDIR=`echo $OUTPUTDIR | sed 's,/fontain$,,g'`
+    OUTPUTDIR=$OUTPUTDIR/fontain
 
-  if [ -d $OUTPUTDIR ]; then
+    if [ -d $OUTPUTDIR ]; then
 
        echo "$OUTPUTDIR exists"
        read -p "overwrite ${PDF}? [y/n] " ANSWER
-       if [ $ANSWER = n ] ; then echo "Bye-bye"; exit 0; fi
+       if [ $ANSWER != y ] ; then echo "Bye-bye"; exit 0; fi
 
-  fi
+    fi
 
   WWWDIR=$OUTPUTDIR
   echo "writing to $WWWDIR"; sleep 3 # SOME TIME TO CHANGE YOUR MIND
@@ -54,13 +55,10 @@
 
 # LICENSE/READMENAMES (MD OR TXT?)
 # ----------------------------------------------------------------- #
-  READMENAME=README.md
-  LICENSENAME=LICENSE.txt
+  READMENAME=README.md ; LICENSENAME=LICENSE.txt
 
-
-# LICENSE/READMENAMES (MD OR TXT?)
+# SET VARIABLES
 # ----------------------------------------------------------------- #
-  TMPDIR=/tmp
   CSSCOLLECT=$TMPDIR/css.tmp
 
   NLPROTECT=L1N38R34K$RANDOM  # PLACEHOLDER TO PROTECT NEWLINES
@@ -354,13 +352,6 @@
   }
 # --------------------------------------------------------------------------- #
 
-
-
-
-
-
-
-
 # =========================================================================== #
 # CREATE WWW USER INTERFACE
 # =========================================================================== #
@@ -500,7 +491,7 @@
      ZIPNAME=$FAMILYNAMEWWW
 
    # --------------------------------------------------------------------- #
-   # CREATE DIRECTORIES
+   # CREATE DIRECTORIES TO STORE EXPORTS
    # --------------------------------------------------------------------- #
      for EXPORT in ttf otf ufo webfont tex
       do
@@ -521,9 +512,6 @@
        echo "${ZIPNAME}.webfont.zip is up-to-date"
 
      else
-
-#      if [ -f $FONTFAMILY/$READMENAME ]; then
-#      cp $FONTFAMILY/$READMENAME  $WEBFONTTARGET ; fi
 
        if [ -f ../../$READMENAME ]; then 
              SECTIONS2INCLUDE="AUTHOR|LICENSE"
@@ -684,7 +672,7 @@
 
 
 # =========================================================================== #
-# CREATE MAIN INDEX
+# CREATE MAIN LIST
 # =========================================================================== #
   HEADINJECTION=""; HIDE=""
   INDEX=$WWWDIR/index.html
@@ -767,31 +755,31 @@
        sed "s/FAMILYNAME/$FAMILYNAME/g"                             >> $INDEX
 
 
-       if [ $COUNT -eq 100 ]; then
-            sleep 0   
-       fi
-       if [ $COUNT -gt 100 ]; then
-       THISLINK=../$FONTLINK
+       if [ X$FIRSTTIME != XNOT ]; then
+       THISLINK="../${FONTLINK}/index.html"
        THISPAGE=$FONTPATH/index.html
-       echo $THISPAGE
+       FIRSTPAGE=$THISPAGE
+       FIRSTLINK=$THISLINK
+       FIRSTTIME="NOT"
+       else
+       THISLINK="../${FONTLINK}/index.html"
+       THISPAGE=$FONTPATH/index.html
+       echo $THISLINK
        sed -i "s,PREVLINK,$PREVLINK,g" $THISPAGE
        sed -i "s,NEXTLINK,$THISLINK,g" $PREVPAGE
+       fi
        PREVLINK=$THISLINK
        PREVPAGE=$THISPAGE
-       fi
-
 
        fi
 
        COUNT=`expr $COUNT + 1`
   done
 
-
-
-
+  sed -i "s,PREVLINK,$THISLINK,g" $FIRSTPAGE
+  sed -i "s,NEXTLINK,$FIRSTLINK,g" $THISPAGE
 
 # --------------------------------------------------------------------------- #
-# echo '</div>'                                                     >> $INDEX
   sed 's,src="../,src=",g' $TMPLT_FOOT                              >> $INDEX
   sed 's,src="../,src=",g' $TMPLT_HTMLFOOT                          >> $INDEX
 # --------------------------------------------------------------------------- #
@@ -806,7 +794,6 @@
   sed -i "s/$NLPROTECT/\n/g"                                           $INDEX
   TITLE="fontain = a font-collection (and a font-collection-system)"
   sed -i "s/FONTFAMILY on fontain/$TITLE/g"                            $INDEX
-
 
 
 exit 0;
