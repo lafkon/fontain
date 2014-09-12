@@ -2,7 +2,7 @@
 
 # PATH TO FONT DIRECTORY (TOP LEVEL)
 # ----------------------------------------------------------------- #
-  FONTS=`ls -d -1 fonts/*`
+  FONTS=`ls -d -1 fonts/* | grep junction`
 
 
   OUTPUTDIR=$1
@@ -82,7 +82,7 @@
 	    echo "$CPSRCPATH/$CPSRCBASE has changed"
             cp -p $CPSRCPATH/$CPSRCBASE $CPTARGETPATH/$CPTARGETBASE
        else
-            echo "$CPTARGETPATH/$CPTARGETBASE at latest state"
+            echo "$CPTARGETBASE at latest state"
        fi
       else
             cp -p $CPSRCPATH/$CPSRCBASE $CPTARGETPATH/$CPTARGETBASE
@@ -317,7 +317,35 @@
 
   }
 # --------------------------------------------------------------------------- #
+  function READMESECTIONS(){
+    
+    NEWREADME=$1
+   
+    XX=X${RANDOM}X # TMP UNIQ ID
+    XY=X${RANDOM}Y # TMP UNIQ ID
+    YY=Y${RANDOM}Y # TMP UNIQ ID
+    for S in `echo $SECTIONS2INCLUDE | \
+              sed 's/ /zTv63cH/g'  | sed 's/|/ /g'`
+    do S=`echo $S | sed 's/zTv63cH/ /g'`
+    SECTIONS=$SECTIONS\|${XY}$S${XX}== ; done
+    SECTIONS=`echo $SECTIONS | cut -d "|" -f 2-`
+   
+    sed '/^\s*$/d' $FULLREADME         | \
+    sed -e :a \
+        -e "$!N;s/\n=====/$XX=====/;ta"  \
+        -e 'P;D'                       | \
+    sed '/XX=====/{x;p;x;}'            | \
+    sed ':a;N;$!ba;/====$/s/\n//g'     | \
+    sed "/$XX===*$/s/^/$XY/"           | \
+    sed ":a;N;\$!ba;s/\n/$YY/g"        | \
+    sed "s/$XY/\n$XY/g"                | \
+    egrep "$SECTIONS"                  | \
+    sed "s/$XY/\n/g"                   | \
+    sed "s/$YY/\n/g"                   | \
+    sed "s/$XX/\n/g"                   > $NEWREADME
 
+  }
+# --------------------------------------------------------------------------- #
 
 
 
@@ -374,6 +402,12 @@
                  rev | cut -d "/" -f 1 | rev | \
                  sed 's/.sfdir//g'`
 
+
+     FONTLOG=$TMPDIR/FONTLOG.txt
+     echo ""                       >  $FONTLOG
+     echo "  FONTLOG: $FAMILYNAME" >> $FONTLOG
+
+
      COUNT=100 ; EXCLUDECOUNT=0
      for FONTSTYLESRC in $FONTSTYLES
       do
@@ -383,7 +417,8 @@
         if [ `find $FONTFAMILY/src -name "$FONTSTYLESRC.sfdir" | wc -c` \
              -gt 1 ]; then
         FONTSTYLESRC=`find $FONTFAMILY/src -name "$FONTSTYLESRC.sfdir"`
-        STYLENAME=`grep -h "FullName" $FONTSTYLESRC/font.props | \
+        FONTPROPS="$FONTSTYLESRC/font.props"
+        STYLENAME=`grep -h "FullName" $FONTPROPS | \
                    cut -d ":" -f 2 | sed "s/^[ \t]*//"`
         STYLENAMEWWW=`echo $STYLENAME | \
                       sed 's/ /jfdDw24e/g' | \
@@ -417,6 +452,25 @@
         sed "s/FONTFAMILY/$STYLENAMEWWW/g"                          >> $CSS
         echo                                                        >> $CSS
 
+   # --------------------------------------------------------------------- #
+   # EXTRACT FONTLOG
+   # --------------------------------------------------------------------- #
+        FONTLOG=$TMPDIR/FONTLOG.txt
+        echo "  ------------------"  >> $FONTLOG
+        echo ""                      >> $FONTLOG
+        echo "  ${STYLENAME}:"       >> $FONTLOG
+        echo ""                      >> $FONTLOG
+        grep ^FontLog: $FONTPROPS    | \
+        cut -d ":" -f 2-             | \
+        sed 's/^ "//g'               | sed 's/" $//g'     | \
+        sed 's/+AAoA-/\n/g'          | sed 's/CgAA-/\n/g' | \
+        sed 's/+AAoA/\n/g'           | sed 's/CgAK-/\n/g' | \
+        fold -s -w 60                | \
+        sed '/^-/!s/^/  /'           | \
+        sed 's/^//'                  >> $FONTLOG
+        echo -e "\n"                 >> $FONTLOG
+   # --------------------------------------------------------------------- #
+
         fi
 
      done
@@ -449,17 +503,26 @@
 
      else
 
-       if [ -f $FONTFAMILY/$READMENAME ]; then
-       cp $FONTFAMILY/$READMENAME  $WEBFONTTARGET ; fi
+#      if [ -f $FONTFAMILY/$READMENAME ]; then
+#      cp $FONTFAMILY/$READMENAME  $WEBFONTTARGET ; fi
+
+       if [ -f ../../$READMENAME ]; then 
+             SECTIONS2INCLUDE="AUTHOR|LICENSE"
+             FULLREADME=$FONTFAMILY/$READMENAME
+             READMESECTIONS $WEBFONTTARGET/$READMENAME
+       fi
        if [ -f $FONTFAMILY/$LICENSENAME ]; then
        cp $FONTFAMILY/$LICENSENAME $WEBFONTTARGET ; fi
+       if [ -f $FONTLOG ]; then
+       cp $FONTLOG $WEBFONTTARGET ; fi
 
        cd $WEBFONTTARGET
 
-        zip -r ${ZIPNAME}.webfont.zip *.*
+       zip -r ${ZIPNAME}.webfont.zip *.*
 
-        if [ -f $READMENAME ];  then rm $READMENAME  ; fi
-        if [ -f $LICENSENAME ]; then rm $LICENSENAME ; fi
+       if [ -f $READMENAME ];         then rm $READMENAME         ; fi
+       if [ -f $LICENSENAME ];        then rm $LICENSENAME        ; fi
+       if [ -f `basename $FONTLOG` ]; then rm `basename $FONTLOG` ; fi
 
        cd - > /dev/null
 
@@ -472,41 +535,53 @@
    # --------------------------------------------------------------------- #
    # ZIP THE REST (IF THERE EXISTS A NEWER SOURCE)
    # --------------------------------------------------------------------- #
-     for FORMAT in ttf otf ufo
+     for FORMAT in ttf otf ufo tex
       do
+        if [ `find $FONTFAMILY/export/ -name "$FORMAT" -type d | \
+              wc -l` -gt 0 ]; then
+
          NEWESTFILE=`find $FONTFAMILY/export/$FORMAT  \
-                          -type f -printf '%T@ %p\n' | \
+                           -type f -printf '%T@ %p\n' | \
                      sort -n | tail -1 | cut -f 2- -d " "`
+ 
+         ZIPTARGET=${ZIPNAME}.$FORMAT.zip
+ 
+         if [ `find $EXPORTTARGET/$FORMAT/ -name "*.zip" \
+               -newer $NEWESTFILE | wc -l` -gt 0 ]
+         then
+ 
+            echo "$ZIPTARGET is up-to-date"
+ 
+         else
+ 
+            SECTIONS2INCLUDE="AUTHOR|LICENSE"
 
-        ZIPTARGET=${ZIPNAME}.$FORMAT.zip
+            cd $FONTFAMILY/export/$FORMAT
 
-        if [ `find $EXPORTTARGET/$FORMAT/ -name "*.zip" \
-              -newer $NEWESTFILE | wc -l` -gt 0 ]
-        then
-
-           echo "$ZIPTARGET is up-to-date"
-
-        else
-
-           cd $FONTFAMILY/export/$FORMAT
-
-            if [ -f ../../$READMENAME ]; then
-            cp ../../$READMENAME . ; fi
+            if [ -f ../../$READMENAME ]; then 
+               FULLREADME=../../$READMENAME
+               READMESECTIONS $READMENAME
+            fi
             if [ -f ../../$LICENSENAME ]; then
             cp ../../$LICENSENAME . ; fi
-
+            if [ -f $FONTLOG ]; then
+            cp $FONTLOG . ; fi
+ 
             zip -r X-${ZIPNAME}.$FORMAT.zip *.*
-
-            if [ -f $READMENAME ];  then rm $READMENAME  ; fi
-            if [ -f $LICENSENAME ]; then rm $LICENSENAME ; fi
-
-           cd - > /dev/null
-
+ 
+            if [ -f $READMENAME ];         then rm $READMENAME         ; fi
+            if [ -f $LICENSENAME ];        then rm $LICENSENAME        ; fi
+            if [ -f `basename $FONTLOG` ]; then rm `basename $FONTLOG` ; fi
+ 
+            cd - > /dev/null
+ 
    # MOVE ZIP TO LOCATION
    # --------------------------------------------------------------------- #
+ 
+            mv $FONTFAMILY/export/$FORMAT/X-${ZIPNAME}.$FORMAT.zip \
+               $EXPORTTARGET/$FORMAT/${ZIPNAME}.$FORMAT.zip
+         fi
 
-           mv $FONTFAMILY/export/$FORMAT/X-${ZIPNAME}.$FORMAT.zip \
-              $EXPORTTARGET/$FORMAT/${ZIPNAME}.$FORMAT.zip
         fi
      done
    # ===================================================================== #         
@@ -684,7 +759,6 @@
   sed -i "s/$NLPROTECT/\n/g"                                           $INDEX
   TITLE="fontain = a font-collection (and a font-collection-system)"
   sed -i "s/FONTFAMILY on fontain/$TITLE/g"                            $INDEX
-
 
 
 
