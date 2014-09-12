@@ -28,15 +28,14 @@ hr {
     margin: 16px 0px 16px 0px;
 }
 
-.positiv {
+.positiv, .positiv:visited {
   background: #eee;
   color: #111;
 }
-.negativ {
+.negativ, .negativ:visited {
   background: #111;
   color: #eee;
 }
-
 .highlighted {
   background: #0ECCAA;
 }
@@ -81,6 +80,7 @@ hr {
     display: inline-block;
     vertical-align: top;
     text-align: right;
+    float:right;
 }
 
 
@@ -89,7 +89,7 @@ hr {
     vertical-align: top;
 }
 
-.menuitem {
+.menuitem, .menuitem:visited {
     display: inline;
     font-size:10px;
     font-weight: normal;
@@ -277,10 +277,17 @@ hr.hrsection {
   
 }
 
-.button:hover, button:hover{
+.button:hover, button:hover {
   background: #0ECCAA;
   color: #fff;
 }
+
+/*.button:visited.negativ, button:visited.negativ {
+  color: #eee;
+}
+.menu .button:visited.positiv, .menu button:visited.positiv {
+  color: #111;
+}*/
 
 .button:hover.highlighted, button:hover.highlighted {
   background: #eee;
