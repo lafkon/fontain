@@ -187,6 +187,7 @@ The browser **ui** uses
 FONT STYLES
 ===========
 
+pt-serif_italic
 junction_regular
   junction_bold
   junction_light
@@ -206,6 +207,7 @@ sean_book
   sean_light
   sean_normal
 helvetia-verbundene
+fira-sans_four
 grobe-deutschmeister
 ocr-a
 standard-graf_regular
@@ -239,10 +241,8 @@ fira-sans_regular
   fira-sans_thin
   fira-sans_medium-italic
   fira-sans_ultralight
-fira-sans_four
   fira-sans_extrabold-italic
   pt-serif_caption
-pt-serif_italic
   pt-serif_bold-italic
   pt-serif_caption-italic
 pt-serif_bold
