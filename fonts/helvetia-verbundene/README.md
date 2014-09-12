@@ -73,7 +73,4 @@ TEX CONFIGURATION
 KARLBERRYNAME:pvb
 FOUNDRY:peterwiegel
 TEXSRCREGULAR:helvetia-verbundene
-TEXSRCITALIC:helvetia-verbundene
-TEXSRCBOLD:helvetia-verbundene
-TEXSRCBOLD-ITALIC:helvetia-verbundene
 
