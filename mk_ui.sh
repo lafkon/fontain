@@ -2,7 +2,7 @@
 
 # PATH TO FONT DIRECTORY (TOP LEVEL)
 # ----------------------------------------------------------------- #
-  FONTS=`ls -d -1 fonts/* | grep junction`
+  FONTS=`ls -d -1 fonts/*`
 
 
   OUTPUTDIR=$1
