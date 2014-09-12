@@ -2,7 +2,7 @@
 
 # PATH TO FONT DIRECTORY (TOP LEVEL)
 # ----------------------------------------------------------------- #
-  FONTS=`ls -d -1 fonts/*`
+  FONTS=`ls -d -1 fonts/* | grep -v fira | head -1`
 
 
   OUTPUTDIR=$1
@@ -766,10 +766,29 @@
        sed "s/-COUNT/-$COUNT/g" | \
        sed "s/FAMILYNAME/$FAMILYNAME/g"                             >> $INDEX
 
+
+       if [ $COUNT -eq 100 ]; then
+            sleep 0   
+       fi
+       if [ $COUNT -gt 100 ]; then
+       THISLINK=../$FONTLINK
+       THISPAGE=$FONTPATH/index.html
+       echo $THISPAGE
+       sed -i "s,PREVLINK,$PREVLINK,g" $THISPAGE
+       sed -i "s,NEXTLINK,$THISLINK,g" $PREVPAGE
+       PREVLINK=$THISLINK
+       PREVPAGE=$THISPAGE
+       fi
+
+
        fi
 
        COUNT=`expr $COUNT + 1`
   done
+
+
+
+
 
 # --------------------------------------------------------------------------- #
 # echo '</div>'                                                     >> $INDEX
