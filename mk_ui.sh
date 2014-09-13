@@ -4,14 +4,13 @@
 # --------------------------------------------------------------------------- #
   FONTS=`ls -d -1 fonts/*`
 # --------------------------------------------------------------------------- #
+  OUTPUTDIR=$1
   TMPDIR=/tmp
 
-  OUTPUTDIR=$1
 # --------------------------------------------------------------------------- #
 # INTERACTIVE CHECKS 
 # --------------------------------------------------------------------------- #
   if [ -z "$OUTPUTDIR" ]; then
-
         echo
         echo "Where should the output go? Please provide an output directory:"
         echo "$0 PATH/TO/OUTPUTDIRECTORY"
@@ -119,11 +118,8 @@
                 sed 's/.sfdir//g'` 
     fi
 
-   # ----------------------------------------------------------- #
-   # cat $TMPLT_AKKRDNSLIDER                                          >> $INDEX
-   # ----------------------------------------------------------- #
-
-    cat $TMPLT_AKKORDEON_PRE                                          >> $INDEX    
+    cat $TMPLT_AKKORDEON_PRE                                        >> $INDEX    
+  # ------------------------------------------------------------------------- #
 
     COUNT=100 ; EXCLUDECOUNT=0
     for FONTSTYLESRC in $FONTSTYLES
@@ -159,8 +155,8 @@
         sed "s/STYLENAMEWWW/$STYLENAMEWWW/g" | \
         sed "s/STYLENAME/$STYLENAME/g" | \
         sed "s/-COUNT/-$COUNT/g" | \
-        sed "s/FAMILYNAME/$STYLENAME/g"                               >> $INDEX
-
+        sed "s/FAMILYNAME/$STYLENAME/g"                             >> $INDEX
+  # ------------------------------------------------------------------------- #
       # ------------------------------------------------- #
       # FLOWTEXT CONFIG
       # ------------------------------------------------- #
@@ -182,9 +178,7 @@
         COUNT=`expr $COUNT + 1`
 
        done
-
-    echo '</div>'                                                   >> $INDEX
-
+  # ------------------------------------------------------------------------- #
     if [ $EXCLUDECOUNT -gt 0 ]; then
          cat $TMPLT_AKKORDEON_POST | \
          sed "s/EXCLUDECOUNT/$EXCLUDECOUNT/g"                       >> $INDEX 
@@ -753,13 +747,13 @@
 
 
        if [ X$FIRSTTIME != XNOT ]; then
-       THISLINK="../${FONTLINK}/index.html"
+       THISLINK="../${FONTLINK}/"
        THISPAGE=$FONTPATH/index.html
        FIRSTPAGE=$THISPAGE
        FIRSTLINK=$THISLINK
        FIRSTTIME="NOT"
        else
-       THISLINK="../${FONTLINK}/index.html"
+       THISLINK="../${FONTLINK}/"
        THISPAGE=$FONTPATH/index.html
        sed -i "s,PREVLINK,$PREVLINK,g" $THISPAGE
        sed -i "s,NEXTLINK,$THISLINK,g" $PREVPAGE
@@ -774,7 +768,7 @@
        COUNT=`expr $COUNT + 1`
   done
 
-  sed -i "s,PREVLINK,$THISLINK,g" $FIRSTPAGE
+  sed -i "s,PREVLINK,$THISLINK,g"  $FIRSTPAGE
   sed -i "s,NEXTLINK,$FIRSTLINK,g" $THISPAGE
 
 # --------------------------------------------------------------------------- #
