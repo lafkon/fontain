@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # PATH TO FONT DIRECTORY (TOP LEVEL)
-# ----------------------------------------------------------------- #
+# --------------------------------------------------------------------------- #
   FONTS=`ls -d -1 fonts/*`
-# ----------------------------------------------------------------- #
+# --------------------------------------------------------------------------- #
   TMPDIR=/tmp
 
   OUTPUTDIR=$1
@@ -18,7 +18,6 @@
         echo
         exit 0;
   fi
-
   # STRIP TRAILING SLASH
     OUTPUTDIR=`echo $OUTPUTDIR | sed 's,/$,,g'`
   # REMOVE 'FONTAIN' SUBDIRECTORY TO PLACE IT OURSELVES
@@ -26,18 +25,17 @@
     OUTPUTDIR=$OUTPUTDIR/fontain
 
     if [ -d $OUTPUTDIR ]; then
-
-       echo "$OUTPUTDIR exists"
-       read -p "overwrite ${PDF}? [y/n] " ANSWER
-       if [ $ANSWER != y ] ; then echo "Bye-bye"; exit 0; fi
-
+          echo "$OUTPUTDIR exists"
+          read -p "overwrite ${PDF}? [y/n] " ANSWER
+          if [ $ANSWER != y ] ; then echo "Bye-bye"; exit 0; fi
     fi
 
   WWWDIR=$OUTPUTDIR
   echo "writing to $WWWDIR"; sleep 3 # SOME TIME TO CHANGE YOUR MIND
 
+# --------------------------------------------------------------------------- #
 # TEMPLATES
-# ----------------------------------------------------------------- #
+# --------------------------------------------------------------------------- #
   TMPLT_CSS=lib/ui/templates/css.template
   TMPLT_HTMLHEAD=lib/ui/templates/htmlhead.template
   TMPLT_HTMLFOOT=lib/ui/templates/htmlfoot.template
@@ -54,18 +52,18 @@
   TMPLT_FLOWTEXT=lib/ui/templates/flowtext.template
 
 # LICENSE/READMENAMES (MD OR TXT?)
-# ----------------------------------------------------------------- #
+# --------------------------------------------------------------------------- #
   READMENAME=README.md ; LICENSENAME=LICENSE.txt
 
 # SET VARIABLES
-# ----------------------------------------------------------------- #
+# --------------------------------------------------------------------------- #
   CSSCOLLECT=$TMPDIR/css.tmp
 
   NLPROTECT=L1N38R34K$RANDOM  # PLACEHOLDER TO PROTECT NEWLINES
   KUNDPROTECT=K4U7M4NN$RANDOM # PLACEHOLDER TO PROTECT &
 
 # COPY STATIC STUFF 
-# ----------------------------------------------------------------- #
+# --------------------------------------------------------------------------- #
   if [ ! -d $WWWDIR ]; then  mkdir -p $WWWDIR ; fi
   cp -r `ls -d lib/ui/* | egrep -v "templates"` $WWWDIR
 
@@ -93,7 +91,6 @@
             cp -p $CPSRCPATH/$CPSRCBASE $CPTARGETPATH/$CPTARGETBASE
       fi
   }
-
 # --------------------------------------------------------------------------- #
   function AKKORDEON(){
 
@@ -197,7 +194,6 @@
     fi
 
   }
-
 # --------------------------------------------------------------------------- #
   function AUTHOR(){
 
@@ -228,7 +224,6 @@
     fi
 
   }
-
 # --------------------------------------------------------------------------- #
   function LICENSE(){
 
@@ -260,7 +255,6 @@
     echo '<br class='clear' /><br />'                               >> $INDEX
 
   }
-
 # --------------------------------------------------------------------------- #
   function SPECIMEN(){
 
@@ -292,7 +286,6 @@
     done
     fi
   }
-
 # --------------------------------------------------------------------------- #
   function DOWNLOAD(){
 
@@ -400,14 +393,12 @@
                  rev | cut -d "/" -f 1 | rev | \
                  sed 's/.sfdir//g'`
 
-
      FONTLOG=$TMPDIR/FONTLOG.txt
      echo ""                       >  $FONTLOG
      echo "  FONTLOG: $FAMILYNAME" >> $FONTLOG
      echo ""                       >> $FONTLOG
 
 
-     COUNT=100 ; EXCLUDECOUNT=0
      for FONTSTYLESRC in $FONTSTYLES
       do
         FONTSTYLESRC=`echo $FONTSTYLESRC | \
@@ -485,6 +476,7 @@
 
      done
 
+
    # ===================================================================== #
    # CREATE DOWNLOADS
    # ===================================================================== #
@@ -539,7 +531,7 @@
      fi
 
    # --------------------------------------------------------------------- #
-   # ZIP THE REST (IF THERE EXISTS A NEWER SOURCE)
+   # ZIP THE REST (IF A NEWER SOURCE EXISTS)
    # --------------------------------------------------------------------- #
      for FORMAT in ttf otf ufo tex
       do
@@ -590,8 +582,7 @@
             cd - > /dev/null
  
    # MOVE ZIP TO LOCATION
-   # --------------------------------------------------------------------- #
- 
+   # --------------------------------------------------------------------- # 
             mv $FONTFAMILY/export/$FORMAT/X-${ZIPNAME}.$FORMAT.zip \
                $EXPORTTARGET/$FORMAT/${ZIPNAME}.$FORMAT.zip
          fi
@@ -625,6 +616,8 @@
   if [ `echo $SECTIONS | grep "AKKORDEON" | wc -l` -lt 1 ]
   then  SECTIONS="AKKORDEON $SECTIONS" ; fi
 
+
+
 # --------------------------------------------------------------------------- #
 # CREATE HTML FILE
 # --------------------------------------------------------------------------- #
@@ -633,8 +626,6 @@
   sed -i "s,CUSTOMCSS,$CUSTOMCSS,g"                                    $INDEX
   cat $TMPLT_HEAD_PAGE                                              >> $INDEX
 # --------------------------------------------------------------------------- #
-
-
 # --------------------------------------------------------------------------- #
 # JUST DO IT
 # --------------------------------------------------------------------------- #
@@ -642,16 +633,13 @@
    do
       if [ `grep "function $SACTION" $0 | wc -l` -gt 0 ]; then
  
-        $SACTION 
-
+            $SACTION 
       fi
   done
 # --------------------------------------------------------------------------- #
   cat $TMPLT_FOOT                                                   >> $INDEX
   cat $TMPLT_HTMLFOOT                                               >> $INDEX
 # --------------------------------------------------------------------------- #
-
-
   sed -i "s/FONTFAMILY/$FAMILYNAME/g"                                  $INDEX
   FLOWTEXTARRAY="[ $FLOWTEXTARRAY ];"
   sed -i "s/FLOWTEXTARRAY/$FLOWTEXTARRAY/g"                            $INDEX
@@ -667,8 +655,11 @@
   mv $TMPDIR/index.tmp $INDEX
   sed -i "s/$NLPROTECT/\n/g"                                           $INDEX
 
+
 # --------------------------------------------------------------------------- #
  done
+
+
 
 
 # =========================================================================== #
@@ -721,7 +712,8 @@
   fi
 # --------------------------------------------------------------------------- #
 
-  COUNT=100
+  COUNT=100 ; ALREADYINCLUDED="NOTHING$RANDOM"
+
   for FONTSTYLE in $FONTSTYLES
    do
        if [ `echo $FONTSTYLE | grep "^XX" | wc -c` -lt 1 ]; then
@@ -731,6 +723,11 @@
 
        FONTLINK=`echo $FONTPATH | \
                  sed "s,$WWWDIR/,,g"`
+
+       CHECK=`echo $FONTLINK | egrep -v "$ALREADYINCLUDED" | wc -l`
+       ALREADYINCLUDED="$FONTLINK|$ALREADYINCLUDED"
+
+       if [ $CHECK -gt 0 ];then
 
        CSS=$FONTLINK/webfont/webfont.css
 
@@ -764,13 +761,14 @@
        else
        THISLINK="../${FONTLINK}/index.html"
        THISPAGE=$FONTPATH/index.html
-       echo $THISLINK
        sed -i "s,PREVLINK,$PREVLINK,g" $THISPAGE
        sed -i "s,NEXTLINK,$THISLINK,g" $PREVPAGE
        fi
        PREVLINK=$THISLINK
        PREVPAGE=$THISPAGE
 
+
+       fi
        fi
 
        COUNT=`expr $COUNT + 1`
