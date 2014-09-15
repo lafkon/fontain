@@ -708,6 +708,7 @@
        if [ `echo $FONTSTYLE | grep "^XX" | wc -c` -lt 1 ]; then
 
        FONTPATH=`find $WWWDIR -name "${FONTSTYLE}.ttf" | \
+                 grep webfont | \
                  rev | cut -d "/" -f 3- | rev`
 
        FONTLINK=`echo $FONTPATH | \
