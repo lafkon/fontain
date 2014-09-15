@@ -37,6 +37,19 @@ The browser **ui** uses
 `find . -name "*.sfdir" -type d | rev | cut -d "/" -f 1 | rev | sed 's/.sfdir//g'`
 
 
+### ONLINE CONFIGURATION
+
+To allow local browsing we add index.html to the links.
+If you prefer to have this removed for the online version
+and use an apache web server add this to you `.htaccess`:
+
+RewriteEngine On
+RewriteCond %{REQUEST_URI} index\.html
+RewriteRule ^(.*)index\.html$ /path/to/fontain/$1 [R=301,L]
+
+
+
+
 ## Required Software
 
 ### mk_fonts.sh
