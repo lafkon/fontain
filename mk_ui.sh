@@ -706,6 +706,7 @@
   fi
 # --------------------------------------------------------------------------- #
 
+  INDEXPAGE=index.html # EMPTY THIS VARIABLE TO MAKE LINK TO DIRECTORY
   COUNT=100 ; ALREADYINCLUDED="NOTHING$RANDOM"
 
   for FONTSTYLE in $FONTSTYLES
@@ -738,7 +739,7 @@
                      tr [:upper:] [:lower:]`
 
        cat $TMPLT_AKKORDEON | \
-       sed "s,href=\"\",href=\"$FONTLINK\",g" | \
+       sed "s,href=\"\",href=\"$FONTLINK/$INDEXPAGE\",g" | \
        sed "s/accordion-section positiv/& $HIDE/g" | \
        sed "s/STYLENAMEWWW/$STYLENAMEWWW/g" | \
        sed "s/STYLENAME/$STYLENAME/g" | \
@@ -747,13 +748,13 @@
 
 
        if [ X$FIRSTTIME != XNOT ]; then
-       THISLINK="../${FONTLINK}/"
+       THISLINK="../${FONTLINK}/$INDEXPAGE"
        THISPAGE=$FONTPATH/index.html
        FIRSTPAGE=$THISPAGE
        FIRSTLINK=$THISLINK
        FIRSTTIME="NOT"
        else
-       THISLINK="../${FONTLINK}/"
+       THISLINK="../${FONTLINK}/$INDEXPAGE"
        THISPAGE=$FONTPATH/index.html
        sed -i "s,PREVLINK,$PREVLINK,g" $THISPAGE
        sed -i "s,NEXTLINK,$THISLINK,g" $PREVPAGE
