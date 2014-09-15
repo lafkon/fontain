@@ -4,6 +4,7 @@ FullName: PT Serif Bold Italic
 FamilyName: PT Serif
 Weight: Bold
 Copyright: Copyright (c) 2010 ParaType Ltd. All rights reserved.
+FontLog: "This file provides detailed information on the PT Serif font Software.+AAoA-This information should be distributed along with the PT Serif font and any derivative works.+AAoACgAA-PT Serif Font Information+AAoACgAA-PT Serif is the second pan-Cyrillic font family developed for the project +IBwA-Public Types of the Russian Federation.+IB0A The first family of the project, PT Sans, was released in 2009.+AAoACgAA-The fonts are released with a libre license and can be freely redistributed: The main aim of the project is to give possibility to the people of Russia to read and write in their native languages.+AAoACgAA-The project is dedicated to the 300 year anniversary of the civil type invented by Peter the Great in 1708+IBMA-1710. It was given financial support from the Russian Federal Agency for Press and Mass Communications.+AAoACgAA-The fonts include standard Western, Central European and Cyrillic code pages, plus the characters of every title language in the Russian Federation. This makes them a unique and very important tool for modern digital communications.+AAoACgAA-PT Serif is a transitional serif typeface with humanistic terminals. It is designed for use together with PT Sans, and is harmonized across metrics, proportions, weights and design.+AAoACgAA-ChangeLog+AAoACgAA-11 Sep 2014 (Christoph Haag) +AAoA-- created fontforge sources as base to work on GNU/Linux+AAoA-- added FONTLOG to .sfdir+AAoA-- Mastered Font from Fontforge SFDIR to UFO,OTF,TTF,EOT,WOFF,SVG+AAoACgAA-2009 (Paratype)+AAoA-- Initial release+AAoACgAA-Acknowledgements+AAoACgAA-If you make modifications be sure to add your name (N), email (E), web-address (if you have one) (W) and description (D). This list is in alphabetical order.+AAoACgAA-N: Christoph Haag+AAoA-E: christoph@lafkon.net+AAoA-W: www.lafkon.net+AAoA-D: Transformer+AAoACgAA-N: Paratype+AAoA-W: www.paratype.com+AAoA-D: Designer" 
 Version: 1.002
 ItalicAngle: -12
 UnderlinePosition: -50
@@ -20,7 +21,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1399959226
-ModificationTime: 1403045149
+ModificationTime: 1410787224
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -75,6 +76,7 @@ Lookup: 1 0 0 "Single Substitution lookup 17"  {"Single Substitution lookup 17 s
 Lookup: 257 0 0 "'cpsp' Capital Spacing lookup 0"  {"'cpsp' Capital Spacing lookup 0 subtable"  } ['cpsp' ('DFLT' <'dflt' > 'cyrl' <'BSH ' 'CHU ' 'dflt' > 'latn' <'AZE ' 'MOL ' 'ROM ' 'TRK ' 'dflt' > ) ]
 Lookup: 257 0 0 "'case' Case-Sensitive Forms lookup 1"  {"'case' Case-Sensitive Forms lookup 1 per glyph data 0"  "'case' Case-Sensitive Forms lookup 1 per glyph data 1"  "'case' Case-Sensitive Forms lookup 1 per glyph data 2"  "'case' Case-Sensitive Forms lookup 1 per glyph data 3"  } ['case' ('DFLT' <'dflt' > 'cyrl' <'BSH ' 'CHU ' 'dflt' > 'latn' <'AZE ' 'MOL ' 'ROM ' 'TRK ' 'dflt' > ) ]
 Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 2"  {"'kern' Horizontal Kerning lookup 2 per glyph data 0"  "'kern' Horizontal Kerning lookup 2 per glyph data 1"  "'kern' Horizontal Kerning lookup 2 kerning class 2"  } ['kern' ('DFLT' <'dflt' > 'cyrl' <'BSH ' 'CHU ' 'dflt' > 'latn' <'AZE ' 'MOL ' 'ROM ' 'TRK ' 'dflt' > ) ]
+MarkAttachClasses: 1
 DEI: 91125
 KernClass2: 48+ 46 "'kern' Horizontal Kerning lookup 2 kerning class 2" 
  73 A Agrave Aacute Acircumflex Atilde Adieresis Aring Amacron Abreve Aogonek
@@ -966,4 +968,6 @@ DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
 WinInfo: 54 18 9
+BeginPrivate: 0
+EndPrivate
 EndSplineFont
