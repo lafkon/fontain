@@ -673,10 +673,7 @@
   sed -i "s,CUSTOMCSS,$CUSTOMCSS,g"                                    $INDEX
   cat $TMPLT_HEAD_LIST                                              >> $INDEX
 
-  cat $TMPLT_AKKRDNSLIDER                                           >> $INDEX
-  echo '<div class="sixteen columns accordion" id="sortable">'      >> $INDEX
-  echo '<button id="resetDemoText" \
-         class="negativ highlighted">x</button>' | tr -s ' '        >> $INDEX
+  cat $TMPLT_AKKORDEON_PRE                                          >> $INDEX
 # --------------------------------------------------------------------------- #
   README=README.md
 
@@ -738,14 +735,13 @@
                      sed 's/jfdDw24e/-/g' | \
                      tr [:upper:] [:lower:]`
 
-       cat $TMPLT_AKKORDEON | \
+       cat $TMPLT_AKKORDEON_LOOP | \
        sed "s,href=\"\",href=\"$FONTLINK/$INDEXPAGE\",g" | \
        sed "s/accordion-section positiv/& $HIDE/g" | \
        sed "s/STYLENAMEWWW/$STYLENAMEWWW/g" | \
        sed "s/STYLENAME/$STYLENAME/g" | \
        sed "s/-COUNT/-$COUNT/g" | \
        sed "s/FAMILYNAME/$FAMILYNAME/g"                             >> $INDEX
-
 
        if [ X$FIRSTTIME != XNOT ]; then
        THISLINK="../${FONTLINK}/$INDEXPAGE"
@@ -762,7 +758,6 @@
        PREVLINK=$THISLINK
        PREVPAGE=$THISPAGE
 
-
        fi
        fi
 
@@ -773,6 +768,9 @@
   sed -i "s,NEXTLINK,$FIRSTLINK,g" $THISPAGE
 
 # --------------------------------------------------------------------------- #
+  cat $TMPLT_AKKORDEON_POST | \
+  grep -v EXCLUDECOUNT                                              >> $INDEX
+
   sed 's,src="../,src=",g' $TMPLT_FOOT                              >> $INDEX
   sed 's,src="../,src=",g' $TMPLT_HTMLFOOT                          >> $INDEX
 # --------------------------------------------------------------------------- #
