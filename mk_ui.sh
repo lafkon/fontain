@@ -42,11 +42,9 @@
   TMPLT_HEAD_PAGE=lib/ui/templates/head_page.template
   TMPLT_HEAD=lib/ui/templates/head.template
   TMPLT_FOOT=lib/ui/templates/foot.template
-  TMPLT_AKKORDEON=lib/ui/templates/akkordeon.template
   TMPLT_AKKORDEON_PRE=lib/ui/templates/akkordeon_pre.template
   TMPLT_AKKORDEON_LOOP=lib/ui/templates/akkordeon_loop.template
   TMPLT_AKKORDEON_POST=lib/ui/templates/akkordeon_post.template
-  TMPLT_AKKRDNSLIDER=lib/ui/templates/akkordeon_slider.template
   TMPLT_DOWNLOAD=lib/ui/templates/download.template
   TMPLT_FLOWTEXT=lib/ui/templates/flowtext.template
 
