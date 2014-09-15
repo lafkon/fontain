@@ -453,8 +453,7 @@
          sed 's/+AAoA/\n/g'           | sed 's/CgAK-/\n/g' | \
          fold -s -w 60                | \
          sed '/^-/!s/^/  /'           | \
-         sed 's/^//'                  | \
-         sed "s/^\s*$/$YZ/g"                                   >> $FONTLOG
+         sed 's/^//'                                           >> $FONTLOG
          echo -e "\n"                                          >> $FONTLOG
          FLCHECKPREV=$FLCHECKNOW
         else
