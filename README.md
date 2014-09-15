@@ -34,6 +34,7 @@ The browser **ui** uses
 
 ## HOWTO
 
+Get a list of all font sources (may be used as selection in README)    
 `find . -name "*.sfdir" -type d | rev | cut -d "/" -f 1 | rev | sed 's/.sfdir//g'`
 
 
@@ -43,10 +44,9 @@ To allow local browsing we add index.html to the links.
 If you prefer to have this removed for the online version
 and use an apache web server add this to you `.htaccess`:
 
-RewriteEngine On
-RewriteCond %{REQUEST_URI} index\.html
-RewriteRule ^(.*)index\.html$ /path/to/fontain/$1 [R=301,L]
-
+    RewriteEngine On
+    RewriteCond %{REQUEST_URI} index\.html
+    RewriteRule ^(.*)index\.html$ /path/to/fontain/$1 [R=301,L]
 
 
 
