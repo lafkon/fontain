@@ -15,9 +15,13 @@ margin: 0 auto;*/
 
 body {
   overflow-x: hidden;
-/*  padding: 0px;
-  margin: 0px;*/
   
+  -moz-font-feature-settings:"liga=1, dlig=1"; 
+  -moz-font-feature-settings:"liga", "dlig";
+  -ms-font-feature-settings:"liga", "dlig"; 
+  -o-font-feature-settings:"liga", "dlig"; 
+  -webkit-font-feature-settings:"liga", "dlig"; 
+  font-feature-settings:"liga", "dlig";
 }
 
 hr {
@@ -83,6 +87,12 @@ hr {
     float:right;
 }
 
+.typeclassselector {
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+    float:right;
+}
 
 .menu {
     display: inline-block;
@@ -141,6 +151,12 @@ input.fontdemo {
   padding: 0px 0px 0px 0px;
   z-index: -1000;
   cursor: text;
+  -moz-font-feature-settings:"liga=1, dlig=1"; 
+  -moz-font-feature-settings:"liga", "dlig";
+  -ms-font-feature-settings:"liga", "dlig"; 
+  -o-font-feature-settings:"liga", "dlig"; 
+  -webkit-font-feature-settings:"liga", "dlig"; 
+  font-feature-settings:"liga", "dlig";  
 }
 input.fontdemo:focus {}
 input.fontdemo:hover {}
@@ -219,9 +235,9 @@ a.fontdemo-showmore {
 
 
 #resetDemoText {
-  position: absolute;
-  right: 10px;
-  width: 30px;
+/*   position: absolute; */
+/*  right: 10px;
+  width: 30px;*/
 /*   text-align: right; */
   
 /*  position: relative;
@@ -249,6 +265,34 @@ a.fontdemo-showmore {
   -moz-border-radius: 12px;
   -webkit-border-radius: 12px;
   border-radius: 12px;
+}
+
+#resetDemoTextLabel {
+  position: relative;
+  float: right;
+  top: 5px;
+  right: 80px;
+  z-index: 1999;
+  display: none;
+/*  padding: 2px 5px 2px 15px;
+  margin: 0px -138px 0px 0px;*/
+  font-weight: normal;
+  font-size: 9px; 
+  line-height: 9px;
+
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);   
+  right: 109px;   
+  padding: 2px 5px 2px 15px;
+  margin: 32px -138px 0px 0px;   
+}
+
+button:hover + #resetDemoTextLabel {
+    background: #0ECCAA;
+    color: #eee;
 }
 
 .sortable-placeholder {
@@ -302,6 +346,7 @@ hr.hrsection {
   font-size: 9px; 
 /*   z-index: -5000;   */
 }
+
 
 
 
