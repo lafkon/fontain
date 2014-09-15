@@ -56,9 +56,6 @@
 # --------------------------------------------------------------------------- #
   CSSCOLLECT=$TMPDIR/css.tmp
 
-  NLPROTECT=L1N38R34K$RANDOM  # PLACEHOLDER TO PROTECT NEWLINES
-  KUNDPROTECT=K4U7M4NN$RANDOM # PLACEHOLDER TO PROTECT &
-
 # COPY STATIC STUFF 
 # --------------------------------------------------------------------------- #
   if [ ! -d $WWWDIR ]; then  mkdir -p $WWWDIR ; fi
@@ -644,8 +641,6 @@
   sed -i 's/HEADINJECTION//g'                               $TMPDIR/index.tmp 
 
   mv $TMPDIR/index.tmp $INDEX
-  sed -i "s/$NLPROTECT/\n/g"                                           $INDEX
-
 
 # --------------------------------------------------------------------------- #
  done
@@ -780,7 +775,6 @@
   sed -i 's/HEADINJECTION//g'                               $TMPDIR/index.tmp 
 
   mv $TMPDIR/index.tmp $INDEX
-  sed -i "s/$NLPROTECT/\n/g"                                           $INDEX
   TITLE="fontain = a font-collection (and a font-collection-system)"
   sed -i "s/FONTFAMILY on fontain/$TITLE/g"                            $INDEX
 
