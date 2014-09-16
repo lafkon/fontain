@@ -48,6 +48,11 @@
   TMPLT_DOWNLOAD=lib/ui/templates/download.template
   TMPLT_FLOWTEXT=lib/ui/templates/flowtext.template
 
+  TMPLT_AUTHOR=lib/ui/templates/author.template
+  TMPLT_LICENSE=lib/ui/templates/license.template
+  TMPLT_SPECIMEN=lib/ui/templates/specimen.template
+  TMPLT_DOWNLOAD=lib/ui/templates/download.template
+
 # LICENSE/READMENAMES (MD OR TXT?)
 # --------------------------------------------------------------------------- #
   READMENAME=README.md ; LICENSENAME=LICENSE.txt
@@ -206,10 +211,8 @@
             pandoc -r markdown -w html | \
             sed 's/<\/*p>//g'`
 
-    echo '<div class="fourteen columns">'                           >> $INDEX
-    echo $AUTHOR                                                    >> $INDEX
-    echo '</div>'                                                   >> $INDEX
-    echo '<br class='clear' /><br />'                               >> $INDEX
+    cat $TMPLT_AUTHOR | sed "s|AUTHOR|$AUTHOR|g"                    >> $INDEX
+
     fi
 
   }
@@ -238,10 +241,7 @@
 
     LICENSE=`echo $LICENSE | pandoc -r markdown -w html | sed 's/<\/*p>//g'`
 
-    echo '<div class="fourteen columns">'                           >> $INDEX
-    echo $LICENSE                                                   >> $INDEX
-    echo '</div>'                                                   >> $INDEX
-    echo '<br class='clear' /><br />'                               >> $INDEX
+    cat $TMPLT_LICENSE | sed "s|LICENSE|$LICENSE|g"                 >> $INDEX
 
   }
 # --------------------------------------------------------------------------- #
@@ -250,48 +250,45 @@
     if [ -d $FONTFAMILY/specimen ]; then
     for SPECIMEN in `find $FONTFAMILY/specimen -name "*.*"`
      do 
-
         SPECIMENTYPE=`echo $SPECIMEN | rev | cut -d "." -f 1 | rev`
 
         if [ X$SPECIMENTYPE == Xhead ]; then
 
              cat $SPECIMEN >> $CSSCOLLECT
-
         fi
         if [ X$SPECIMENTYPE == Xjpg ]; then
 
              cpifnewer $SPECIMEN $SPECIMENTARGET/`basename $SPECIMEN`
              JPG=`echo $SPECIMEN | rev | cut -d "/" -f 1-2 | rev`
-             echo "<img class=\"sixteen columns specipic\" \
-                    src=\"$JPG\" />" | tr -s ' '                  >> $INDEX
-             echo "<img class=\"sixteen columns specipic\" \
-                    src=\"$JPG\" />" | tr -s ' '
+             grep "<!-- LOOP -->" $TMPLT_SPECIMEN | \
+             sed "s,SPEZIPIC,$JPG,g" | \
+             sed 's/<!-- LOOP -->//g'                             >> $INDEX
         fi
         if [ X$SPECIMENTYPE == Xbody ]; then
 
             cat $SPECIMEN                                         >> $INDEX
-        fi
- 
+        fi 
     done
     fi
   }
 # --------------------------------------------------------------------------- #
   function DOWNLOAD(){
 
-    echo '<div class="eight columns">'                              >> $INDEX
+    grep "<!-- PRE -->" $TMPLT_DOWNLOAD | sed 's/<!-- PRE -->//g'   >> $INDEX
 
     for DOWNLOAD in `find $EXPORTTARGET -name "*.zip"`
      do
         TYPE=`echo $DOWNLOAD | rev | cut -d "." -f 2 | rev`
         DOWNLOADLINK=export/${DOWNLOAD#*export/}
 
-        echo "<a class=\"button positiv\" \
-              href="$DOWNLOADLINK">$TYPE</a>" | tr -s ' '           >> $INDEX
+        grep "<!-- LOOP -->" $TMPLT_DOWNLOAD | \
+        sed "s,DOWNLOADLINK,$DOWNLOADLINK,g" | \
+        sed "s,TYPE,$TYPE,g"                 | \
+        sed 's/<!-- LOOP -->//g'                                   >> $INDEX
+
     done
 
-#   echo '(Download)'                                               >> $INDEX
-    echo '</div>'                                                   >> $INDEX
-    echo '<br class='clear' /><br />'                               >> $INDEX
+    grep "<!-- POST -->" $TMPLT_DOWNLOAD | sed 's/<!-- POST -->//g' >> $INDEX
 
   }
 
