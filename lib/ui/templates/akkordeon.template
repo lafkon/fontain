@@ -1,0 +1,29 @@
+<!-- ========= SLIDER ========================================================= --><!-- PRE -->
+<div class="row" id="slider"><!-- PRE -->
+  <div class="fifteen columns jsonly"><!-- PRE -->
+    <input class="fontsize" id="fontsizeSlider" type="range"  min="60" max="250" value="120"/><!-- PRE -->
+  </div><!-- PRE -->
+  <div class="one column jsonly"><!-- PRE -->
+    <label class="sliderLabel positiv" id="fontsizeSlider" for="fontsizeSlider">-- px</label><!-- PRE -->
+  </div><!-- PRE -->
+</div><!-- PRE -->
+<!-- PRE -->
+<br/><br/><br/><!-- PRE -->
+<!-- PRE -->
+<div class="sixteen columns accordion" id="sortable"><!-- LOOP -->
+<button id="resetDemoText" class="negativ highlighted">x</button><!-- LOOP -->
+<label class="positiv" id="resetDemoTextLabel" for="resetDemoText">reset text</label><!-- LOOP -->
+  <div class="accordion-section positiv"><!-- LOOP -->
+    <div class="accordion-section-header"><!-- LOOP -->
+      <a class="accordion-section-title positiv intern" id="#accordion-COUNT" data-typeclass="Calligraphic" href=""><span class="divlink negativ">STYLENAME</span></a><!-- LOOP -->
+    </div><!-- LOOP -->
+    <div id="accordion-COUNT" class="accordion-section-content"><!-- LOOP -->
+        <input class="fontdemo" type=text spellcheck='false' data-org='FAMILYNAME' value='FAMILYNAME' style='font-family:"STYLENAMEWWW"; font-style: normal;'><!-- LOOP -->
+    </div><!-- LOOP -->
+  <hr class="hrfontdemo" /><!-- LOOP -->
+  </div><!-- LOOP -->
+</div><!-- LOOP -->
+<!-- everything related to EXCLUDECOUNT needs to be on one line only -->
+<a class="fontdemo-showmore jsonly" href="">and EXCLUDECOUNT more.</a><!-- POST -->
+<br class='clear' /><br /><!-- POST -->
+

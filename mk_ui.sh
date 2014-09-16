@@ -42,12 +42,9 @@
   TMPLT_HEAD_PAGE=lib/ui/templates/head_page.template
   TMPLT_HEAD=lib/ui/templates/head.template
   TMPLT_FOOT=lib/ui/templates/foot.template
-  TMPLT_AKKORDEON_PRE=lib/ui/templates/akkordeon_pre.template
-  TMPLT_AKKORDEON_LOOP=lib/ui/templates/akkordeon_loop.template
-  TMPLT_AKKORDEON_POST=lib/ui/templates/akkordeon_post.template
+  TMPLT_AKKORDEON=lib/ui/templates/akkordeon.template
   TMPLT_DOWNLOAD=lib/ui/templates/download.template
   TMPLT_FLOWTEXT=lib/ui/templates/flowtext.template
-
   TMPLT_AUTHOR=lib/ui/templates/author.template
   TMPLT_LICENSE=lib/ui/templates/license.template
   TMPLT_SPECIMEN=lib/ui/templates/specimen.template
@@ -118,7 +115,7 @@
                 sed 's/.sfdir//g'` 
     fi
 
-    cat $TMPLT_AKKORDEON_PRE                                        >> $INDEX    
+    grep "<!-- PRE -->" $TMPLT_AKKORDEON | sed 's/<!-- PRE -->//g'  >> $INDEX    
   # ------------------------------------------------------------------------- #
 
     COUNT=100 ; EXCLUDECOUNT=0
@@ -150,12 +147,14 @@
 
         FONTSTYLESRCNAME=`basename $FONTSTYLESRC | sed "s/.sfdir//g"`
 
-        cat $TMPLT_AKKORDEON_LOOP | \
+        grep "<!-- LOOP -->" $TMPLT_AKKORDEON | \
         sed "s/accordion-section positiv/& $HIDE/g" | \
         sed "s/STYLENAMEWWW/$STYLENAMEWWW/g" | \
         sed "s/STYLENAME/$STYLENAME/g" | \
         sed "s/-COUNT/-$COUNT/g" | \
-        sed "s/FAMILYNAME/$STYLENAME/g"                             >> $INDEX
+        sed "s/FAMILYNAME/$STYLENAME/g" | \
+        sed 's/<!-- LOOP -->//g'                                    >> $INDEX
+
   # ------------------------------------------------------------------------- #
       # ------------------------------------------------- #
       # FLOWTEXT CONFIG
@@ -180,11 +179,12 @@
        done
   # ------------------------------------------------------------------------- #
     if [ $EXCLUDECOUNT -gt 0 ]; then
-         cat $TMPLT_AKKORDEON_POST | \
-         sed "s/EXCLUDECOUNT/$EXCLUDECOUNT/g"                       >> $INDEX 
+         grep "<!-- POST -->" $TMPLT_AKKORDEON | \
+         sed "s/EXCLUDECOUNT/$EXCLUDECOUNT/g" | \
+         sed 's/<!-- POST -->//g'                                   >> $INDEX 
     else
-         cat $TMPLT_AKKORDEON_POST | \
-         grep -v EXCLUDECOUNT                                       >> $INDEX 
+         grep "<!-- POST -->" $TMPLT_AKKORDEON | \
+         grep -v EXCLUDECOUNT | sed 's/<!-- POST -->//g'            >> $INDEX 
     fi
 
   }
@@ -662,7 +662,7 @@
   sed -i "s,CUSTOMCSS,$CUSTOMCSS,g"                                    $INDEX
   cat $TMPLT_HEAD_LIST                                              >> $INDEX
 
-  cat $TMPLT_AKKORDEON_PRE                                          >> $INDEX
+  grep "<!-- PRE -->" $TMPLT_AKKORDEON | sed 's/<!-- PRE -->//g'  >> $INDEX
 # --------------------------------------------------------------------------- #
   README=README.md
 
@@ -725,13 +725,14 @@
                      sed 's/jfdDw24e/-/g' | \
                      tr [:upper:] [:lower:]`
 
-       cat $TMPLT_AKKORDEON_LOOP | \
+       grep "<!-- LOOP -->" $TMPLT_AKKORDEON | \
        sed "s,href=\"\",href=\"$FONTLINK/$INDEXPAGE\",g" | \
        sed "s/accordion-section positiv/& $HIDE/g" | \
        sed "s/STYLENAMEWWW/$STYLENAMEWWW/g" | \
        sed "s/STYLENAME/$STYLENAME/g" | \
        sed "s/-COUNT/-$COUNT/g" | \
-       sed "s/FAMILYNAME/$FAMILYNAME/g"                             >> $INDEX
+       sed "s/FAMILYNAME/$FAMILYNAME/g" | \
+       sed 's/<!-- LOOP -->//g'                                     >> $INDEX
 
        if [ X$FIRSTTIME != XNOT ]; then
        THISLINK="../${FONTLINK}/$INDEXPAGE"
@@ -758,7 +759,7 @@
   sed -i "s,NEXTLINK,$FIRSTLINK,g" $THISPAGE
 
 # --------------------------------------------------------------------------- #
-  cat $TMPLT_AKKORDEON_POST | \
+  grep "<!-- POST -->" $TMPLT_AKKORDEON | sed 's/<!-- POST -->//g' | \
   grep -v EXCLUDECOUNT                                              >> $INDEX
 
   sed 's,src="../,src=",g' $TMPLT_FOOT                              >> $INDEX
