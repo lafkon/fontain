@@ -59,11 +59,22 @@ mk_ui.sh (in the following called ui) and mk_fonts.sh
 TEX HOWTO
 =========
 
-- find out about your local TEXMF tree
-- (add local TEXMF tree to your configuration)
-- unpack the .zip in export/tex to your TEXMF tree
-- edit your udpmap
-- update your TeX installation
+- Install LaTeX    
+  `sudo aptitude install texlive-latex-base`
+- Find out about your local TEXMF tree    
+  `kpsewhich --var-value=TEXMFHOME`    
+- If there is no $TEXMFHOME tree create and add it
+  to your al TEXMF tree to your configuration    
+  `mkdir ~/.TEXMF`    
+  `sudo tlmgr conf texmf TEXMFHOME "~/.TEXMF"`    
+- Copy the content of TEXMF to your $TEXMFHOME tree
+- Add `Map sse.map` udpmap in $TEXMFHOME/web2c/updmap.cfg
+- Update your TeX installation    
+  `updmap`    
+- compile the testpage sean.tex    
+  `pdflatex sean.tex`
+- use `\fontfamily{sse}\selectfont` to select sean
+  during a LaTeX document
 
 
 UI CONFIGURATION
@@ -81,7 +92,4 @@ TEX CONFIGURATION
 KARLBERRYNAME:sse
 FOUNDRY:simonegli
 TEXSRCREGULAR:sean_normal
-TEXSRCITALIC:sean_semibold
 TEXSRCBOLD:sean_bold
-TEXSRCBOLD-ITALIC:sean_ultrabold
-
