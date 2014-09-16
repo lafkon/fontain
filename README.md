@@ -211,7 +211,7 @@ and use an apache web server add this to you `.htaccess`:
 FONT STYLES
 ===========
 
-  pt-serif_italic
+
 junction_regular
 junction_bold
 junction_light
@@ -233,6 +233,7 @@ sean_book
 helvetia-verbundene
   fira-sans_four
 grobe-deutschmeister
+pt-serif_italic
 ocr-a
 standard-graf_regular
   fira-sans_italic
@@ -270,5 +271,5 @@ fira-sans_regular
   pt-serif_bold-italic
   pt-serif_caption-italic
   pt-serif_bold
-pt-serif_regular
+  pt-serif_regular
 
