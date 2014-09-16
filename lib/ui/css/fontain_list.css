@@ -9,12 +9,18 @@
 /*ACCORDION
 ================================================== */
 
-.accordion-section-title:hover {
+.accordion-section-title:hover, .accordion-section-title.active:hover {
   height: inherit;
   background: #0ECCAA;
   text-decoration: underline;
 } 
- 
+
+.accordion-section-title.active {
+    background: #eee;
+/*   background: transparent; */
+/*   transition:all linear 0.25s; */
+}
+
 .accordion-section:hover > .accordion-section-header > .accordion-section-title > span.divlink { 
     background: #0ECCAA;
 }
@@ -50,16 +56,18 @@ span.divlink {
   background: #eee;
   padding: 20px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
-  z-index: 50;
+  z-index: 2;
 }
 
-.fixed { 
-  position: fixed; 
-  top: 0px; 
+.fixed {
+  position: fixed;
+  top: 0px;
   transition: all .25s linear;
   -moz-transition: all .25s linear;
-  -webkit-transition: all .25s linear;  
+  -webkit-transition: all .25s linear;
 }
+
+
 
 .fixed#slider { 
   position: fixed;   
@@ -70,5 +78,71 @@ span.divlink {
 }
 
 
+.marked span.divlink{
+    border-left:3px solid #0ECCAA;
+    margin-left: -3px;
+/*     transition:all linear 0.25s; */
+}
+.menuitem.selected {
+/*     background: #0ECCAA; */
+    background: rgba(14, 204, 170, 0.7);
+    font-weight: bold;
+}
 
+
+/*TYPE-CLASSIFICATION
+================================================== */
+
+#nav {
+  list-style:none;
+  text-align: left;
+  float:left;
+  position:relative;
+  z-index:5;
+/*   white-space:nowrap; */
+}
+
+#nav:hover #typeclass {
+  background: #0ECCAA;
+  color: #eee;
+}
+
+ #typeclass {
+  padding-top: 6px;
+  margin-bottom: 2px;   
+}
+
+.menuitem#typeclass {
+  margin-bottom: -8px;
+  padding-bottom: 8px;
+  width: 55px;
+}
+
+#nav ul {
+  list-style:none;
+  position:absolute;
+  left:-9999px;
+  top: 20px;
+  width:100%;
+  padding: 2px 2px 5px 2px;
+  background: #eee;
+}
+
+/* Display the dropdown on hover */
+#nav li:hover ul {
+  left: -32px;
+}
+
+#nav li{
+  position:relative;
+}
+
+#nav a{
+  display:block;
+  text-decoration:none;
+}
+
+#nav ul li{
+  padding-bottom: 5px;
+}
 

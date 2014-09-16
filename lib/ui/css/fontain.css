@@ -93,10 +93,10 @@ hr {
     text-align: right;
     float:right;
 }
-
 .menu {
     display: inline-block;
     vertical-align: top;
+    white-space:nowrap;
 }
 
 .menuitem, .menuitem:visited {
@@ -109,6 +109,7 @@ hr {
     border: 0px solid;
     margin: 0px 0px 0px 0px;
     padding: 5px 10px;
+/*     white-space:nowrap; */
 /*     background: #ddd; */
 }
 .logosmall.menuitem.negativ {
@@ -149,7 +150,7 @@ input.fontdemo {
   white-space: nowrap;
   text-align: left;
   padding: 0px 0px 0px 0px;
-  z-index: -1000;
+  z-index: -1;
   cursor: text;
   -moz-font-feature-settings:"liga=1, dlig=1"; 
   -moz-font-feature-settings:"liga", "dlig";
@@ -182,7 +183,7 @@ input.fontdemo:hover {}
 
 .accordion-section-header {
     position: relative;
-    z-index: 10;
+    z-index: 1;
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
     height: 24px;
@@ -258,7 +259,7 @@ a.fontdemo-showmore {
   float: right;
   top: 0px;
   right: -4px;
-  z-index: 2000;
+  z-index: 4;
   display: none;
   padding: 4px 8px 5px 8px;
   margin: 0px -8px 0px -24px;
@@ -272,7 +273,7 @@ a.fontdemo-showmore {
   float: right;
   top: 5px;
   right: 80px;
-  z-index: 1999;
+  z-index: 3;
   display: none;
 /*  padding: 2px 5px 2px 15px;
   margin: 0px -138px 0px 0px;*/
