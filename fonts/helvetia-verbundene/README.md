@@ -67,6 +67,7 @@ SPECIMEN
 AUTHOR     
 LICENSE    
 
+CLASSIFICATION:Script
 
 TEX CONFIGURATION
 =================

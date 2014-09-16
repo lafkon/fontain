@@ -153,6 +153,7 @@
         sed "s/STYLENAME/$STYLENAME/g" | \
         sed "s/-COUNT/-$COUNT/g" | \
         sed "s/FAMILYNAME/$STYLENAME/g" | \
+        sed 's/data-typeclass="CLASSIFICATION"//g' | \
         sed 's/<!-- LOOP -->//g'                                    >> $INDEX
 
   # ------------------------------------------------------------------------- #
@@ -692,7 +693,7 @@
   fi
 # --------------------------------------------------------------------------- #
 
-  INDEXPAGE=index.html # EMPTY THIS VARIABLE TO MAKE LINK TO DIRECTORY
+  INDEXPAGE="index.html" # EMPTY THIS VARIABLE TO MAKE LINK TO DIRECTORY
   COUNT=100 ; ALREADYINCLUDED="NOTHING$RANDOM"
 
   for FONTSTYLE in $FONTSTYLES
@@ -725,6 +726,15 @@
                      sed 's/jfdDw24e/-/g' | \
                      tr [:upper:] [:lower:]`
 
+       THISSRC=`find . -name "${FONTSTYLE}.*" | head -n 1 | cut -d "/" -f 1-3`
+       THISREADME=`find $THISSRC -name "$READMENAME" | head -n 1`
+       if [ `echo $THISREADME | wc -c` -gt 3 ]; then
+       CLASSIFICATION=`grep CLASSIFICATION $THISREADME | \
+                       cut -d ":" -f 2`
+       else
+       CLASSIFICATION=""
+       fi
+
        grep "<!-- LOOP -->" $TMPLT_AKKORDEON | \
        sed "s,href=\"\",href=\"$FONTLINK/$INDEXPAGE\",g" | \
        sed "s/accordion-section positiv/& $HIDE/g" | \
@@ -732,6 +742,7 @@
        sed "s/STYLENAME/$STYLENAME/g" | \
        sed "s/-COUNT/-$COUNT/g" | \
        sed "s/FAMILYNAME/$FAMILYNAME/g" | \
+       sed "s/CLASSIFICATION/$CLASSIFICATION/g" | \
        sed 's/<!-- LOOP -->//g'                                     >> $INDEX
 
        if [ X$FIRSTTIME != XNOT ]; then

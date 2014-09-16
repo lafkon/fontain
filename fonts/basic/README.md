@@ -62,6 +62,7 @@ SPECIMEN
 AXXUTHOR     
 LXXICENSE    
 
+CLASSIFICATION:Sans-Serif
 
 TEX CONFIGURATION
 =================

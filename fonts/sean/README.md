@@ -124,6 +124,8 @@ SPECIMEN
 AUTHOR     
 LICENSE    
 
+CLASSIFICATION:Sans-Serif
+
 
 TEX CONFIGURATION
 =================
