@@ -58,11 +58,10 @@ LICENSE
 
 TEX CONFIGURATION
 =================
-KARLBERRYNAME:
-FOUNDRY:carrois
-TEXSRCREGULAR:fira-sans_regular    
-TEXSRCITALIC:fira-sans_italic
-TEXSRCBOLD:fira-sans_bold    
-TEXSRCBOLD-ITALIC:fira-sans_bold-italic
-
+KARLBERRYNAME:psr
+FOUNDRY:paratype
+TEXSRCREGULAR:pt-serif_regular
+TEXSRCITALIC:pt-serif_italic
+TEXSRCBOLD:pt-serif_bold    
+TEXSRCBOLD-ITALIC:pt-serif_bold-italic
 

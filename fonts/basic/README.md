@@ -68,8 +68,5 @@ TEX CONFIGURATION
 KARLBERRYNAME:sba
 FOUNDRY:sorkintype
 TEXSRCREGULAR:basic_regular    
-TEXSRCITALIC:basic_regular    
-TEXSRCBOLD:basic_regular    
-TEXSRCBOLD-ITALIC:basic_regular    
 
 

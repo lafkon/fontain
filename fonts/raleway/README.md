@@ -16,3 +16,11 @@ LICENSE
 =======
 [SIL Open Font License (OFL)](http://scripts.sil.org/OFL)
 
+
+
+TEX CONFIGURATION
+=================
+KARLBERRYNAME:lra
+FOUNDRY:theleague
+TEXSRCREGULAR:raleway_thin
+
