@@ -270,5 +270,5 @@ fira-sans_regular
   pt-serif_bold-italic
   pt-serif_caption-italic
   pt-serif_bold
-  pt-serif_regular
+pt-serif_regular
 
