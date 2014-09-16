@@ -3,7 +3,7 @@
 
 # PATH TO FONT DIRECTORY (TOP LEVEL)
 # ----------------------------------------------------------------- #
-  FONTS=`ls -d -1 fonts/* | grep sean`
+  FONTS=`ls -d -1 fonts/*`
 # FONTS=`ls -d -1 fonts/* | shuf -n 5`
 # FONTS=`ls -d -1 fonts/* | head -n 1`
 
@@ -217,7 +217,8 @@
     
       mkdir -p $TEXMF/dvips/config/
       mkdir -p $TEXMF/fonts/map/dvips/
-    
+      mkdir -p $TEXMF/web2c/
+ 
       cp $KBFNAME.map $TEXMF/dvips/config/
       cp $KBFNAME.map $TEXMF/fonts/map/dvips/
     
@@ -225,7 +226,7 @@
 
       FONTTEST=example_${FONTNAME}.tex
 
-      echo '\documentclass[8pt,english,A4]{scrartcl}'          >  $FONTTEST
+      echo '\documentclass{article}'                           >  $FONTTEST
       echo '\parindent=0pt'                                    >> $FONTTEST
       echo '\pagestyle{empty}'                                 >> $FONTTEST
       echo '\setlength{\textheight}{.85\paperheight}'          >> $FONTTEST
