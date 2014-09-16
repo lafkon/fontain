@@ -32,18 +32,18 @@ The browser **ui** uses
 **fontain** is inspired by [Use & Modify](http://usemodify.com/), respectively [ofont](https://github.com/raphaelbastide/ofont).
 
 
-## MK_FONTS.SH HOWTO
+### MK_FONTS.SH HOWTO
 
 `mk_fonts.sh` creates derivative formats from the fontforge source.
 
 
-## MK_UI.SH HOWTO
+### MK_UI.SH HOWTO
 
 `mk_ui.sh` creates static html that can be used to browse the font collection,
 either local or online.
 
 
-## GENERAL HOWTO
+### GENERAL HOWTO
 
 Get a list of all font sources (may be used as selection in README)    
 `find . -name "*.sfdir" -type d | rev | cut -d "/" -f 1 | rev | sed 's/.sfdir//g'`
