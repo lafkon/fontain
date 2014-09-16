@@ -59,22 +59,52 @@ mk_ui.sh (in the following called ui) and mk_fonts.sh
 TEX HOWTO
 =========
 
-- Install LaTeX    
-  `sudo aptitude install texlive-latex-base`
+- Unzip sean.tex.zip
+
+### For the first time
+
+- Install LaTeX (texlive-latex-base)
+  e.g. `sudo aptitude install texlive-latex-base`
+
+#### Debian
+
 - Find out about your local TEXMF tree    
-  `kpsewhich --var-value=TEXMFHOME`    
-- If there is no $TEXMFHOME tree create and add it
-  to your al TEXMF tree to your configuration    
-  `mkdir ~/.TEXMF`    
-  `sudo tlmgr conf texmf TEXMFHOME "~/.TEXMF"`    
-- Copy the content of TEXMF to your $TEXMFHOME tree
-- Add `Map sse.map` udpmap in $TEXMFHOME/web2c/updmap.cfg
+ `kpsewhich --var-value=TEXMFHOME`    
+
+- If there is no $TEXMFHOME directory create it 
+  e.g. `mkdir ~/.TEXMF`    
+  and add it to your configuration    
+ `sudo tlmgr conf texmf TEXMFHOME "~/.TEXMF"`    
+
+#### Ubuntu
+
+- Find out about your local TEXMF tree    
+ `kpsewhich --var-value=TEXMFHOME`    
+ 
+
+### To install font
+
+- Add the content of the TEXMF directory 
+  from the zip to your $TEXMFHOME directory
+  (copy over existing folders)
+
+- Add the line `Map sse.map` 
+  to the file $TEXMFHOME/web2c/updmap.cfg
+  (If the file/directory does not exist create it!)
+
 - Update your TeX installation    
-  `updmap`    
-- compile the testpage sean.tex    
-  `pdflatex sean.tex`
-- use `\fontfamily{sse}\selectfont` to select sean
+ `updmap`    
+
+- Compile the testpage example_sean.tex    
+ `pdflatex sean.tex`
+
+
+### Future
+
+- Use `\fontfamily{sse}\selectfont` to select sean
   during a LaTeX document
+- Start to love LaTeX!
+  
 
 
 UI CONFIGURATION
