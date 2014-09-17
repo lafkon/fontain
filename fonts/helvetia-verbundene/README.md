@@ -2,6 +2,9 @@ HELVETIA VERBUNDENE
 ===================
 CLASSIFICATION: Script
 
+GENERAL INFORMATION
+===================
+
 > Helvetia Verbundene: Verbundene Schrift? Ja, so nennen unsere Schweizer 
 > Nachbarn die Schrift, die in den Schulen gelehrt wird. Und ja, sie ist 
 > nicht eine 100% lateinische Schreibschrift. Einige Formen entstammen 
