@@ -252,28 +252,27 @@
   function GENERALINFORMATION(){
 
     if [ -f $README ]; then
-    INFO=`sed '/^\s*$/d' $README |                # REMOVE EMPTY LINES
-          sed -e :a \
-              -e '$!N;s/\n=====/=====/;ta' \
-              -e 'P;D' |                          # APPEND LINES WITH =====
-          sed '/=====$/{x;p;x;}' |                # INSERT EMPTY LINE ABOVE
-          sed -e '/./{H;$!d;}' \
-              -e 'x;/GENERAL INFORMATION==/!d;' | # SELECT PARAGRAPH
-          grep -v "GENERAL INFORMATION=="`        # RM LINE CONTAINING AUTHOR
-    else
-  
-    INFO="no further information"
-  
+    if [ `grep "GENERAL INFORMATION" $README | wc -l` -gt 0 ]; then
+
+         grep   "<!-- PRE -->" $TMPLT_INFO | \
+         sed  's/<!-- PRE -->//g'                                    >> $INDEX
+
+         sed '/^\s*$/d' $README |                # REMOVE EMPTY LINES
+         sed -e :a \
+             -e '$!N;s/\n=====/=====/;ta' \
+             -e 'P;D' |                          # APPEND LINES WITH =====
+         sed '/=====$/{x;p;x;}' |                # INSERT EMPTY LINE ABOVE
+         sed -e '/./{H;$!d;}' \
+             -e 'x;/GENERAL INFORMATION==/!d;' | # SELECT PARAGRAPH
+         grep -v "GENERAL INFORMATION=="       | # RM LINE CONTAINING AUTHOR
+         pandoc -r markdown -w html                                 >> $INDEX
+
+         grep   "<!-- POST -->" $TMPLT_INFO | \
+         sed  's/<!-- POST -->//g'                                  >> $INDEX
+
     fi
-    if [ `echo $LICENSE | wc -c` -lt 2 ]; then
-
-    INFO="no further information"
-
     fi
 
-    INFO=`echo $INFO | pandoc -r markdown -w html | sed 's/<\/*p>//g'`
-
-    cat $TMPLT_INFO | sed "s|GENERALINFORMATION|$INFO|g"            >> $INDEX
 
   }
 # --------------------------------------------------------------------------- #
