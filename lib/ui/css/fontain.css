@@ -67,9 +67,9 @@ hr {
 /*     top: 0px; */
     position: relative;
     top: -1px;
-    height: 80px;
+    height: 90px;
     margin: 0px 0px 0px 0px;
-    padding: 0px 0px 10px 0px;
+    padding: 0px 0px 0px 0px;
     background: transparent;
 /*     z-index: 1; */
 /*     background: #ccc; */
@@ -349,6 +349,10 @@ hr.hrsection {
 }
 
 #slider {
+  background: #eee;
+  padding: 20px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  z-index: 2;
   margin-bottom:-41px;
 }
 
