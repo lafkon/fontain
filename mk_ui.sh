@@ -2,7 +2,7 @@
 
 # PATH TO FONT DIRECTORY (TOP LEVEL)
 # --------------------------------------------------------------------------- #
-  FONTS=`ls -d -1 fonts/ocr*`
+  FONTS=`ls -d -1 fonts/*`
 # --------------------------------------------------------------------------- #
   OUTPUTDIR=$1
   TMPDIR=/tmp
@@ -179,6 +179,8 @@
 
        done
   # ------------------------------------------------------------------------- #
+    FLOWTEXTARRAY=`echo $FLOWTEXTARRAY | sed 's/,$//g'`
+
     if [ $EXCLUDECOUNT -gt 0 ]; then
          grep "<!-- POST -->" $TMPLT_AKKORDEON | \
          sed "s/EXCLUDECOUNT/$EXCLUDECOUNT/g" | \
