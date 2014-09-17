@@ -1,3 +1,8 @@
+SEAN
+====
+
+CLASSIFICATION: Sans-Serif
+
 GENERAL INFORMATION
 ===================
 
@@ -27,6 +32,16 @@ sean_semibold
 sean_bold    
 sean_extrabold    
 sean_ultrabold    
+
+
+UI CONFIGURATION
+================
+
+AKKORDEON    
+DOWNLOAD     
+SPECIMEN     
+AUTHOR     
+LICENSE    
 
 
 FONTAIN HOWTO
@@ -113,18 +128,6 @@ TEX HOWTO
   during a LaTeX document
 - Start to love LaTeX!
   http://en.wikibooks.org/wiki/LaTeX
-
-
-UI CONFIGURATION
-================
-
-AKKORDEON    
-DOWNLOAD     
-SPECIMEN     
-AUTHOR     
-LICENSE    
-
-CLASSIFICATION:Sans-Serif
 
 
 TEX CONFIGURATION
