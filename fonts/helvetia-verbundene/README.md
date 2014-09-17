@@ -1,6 +1,6 @@
 HELVETIA VERBUNDENE
 ===================
-CLASSIFICATION:Script
+CLASSIFICATION: Script
 
 > Helvetia Verbundene: Verbundene Schrift? Ja, so nennen unsere Schweizer 
 > Nachbarn die Schrift, die in den Schulen gelehrt wird. Und ja, sie ist 
