@@ -637,11 +637,15 @@
             -e 'x;/UI CONFIGURATION==/!d;' | # SELECT PARAGRAPH CONTAINING UI C..
             grep -v "UI CONFIGURATION"`      # RM LINE CONTAINING UI C..
   else
-            SECTIONS="AKKORDEON DOWNLOAD AUTHOR SPECIMEN LICENSE"
+            SECTIONS="AKKORDEON DOWNLOAD AUTHOR LICENSE SPECIMEN"
   fi
 # --------------------------------------------------------------------------- #
 # MAKE SURE THERE IS AT LEAST AKKORDEON AND DOWNLOAD
 # --------------------------------------------------------------------------- #
+  if [ `echo $SECTIONS | grep "LICENSE" | wc -l` -lt 1 ]
+  then  SECTIONS="LICENSE $SECTIONS" ; fi
+  if [ `echo $SECTIONS | grep "AUTHOR" | wc -l` -lt 1 ]
+  then  SECTIONS="AUTHOR $SECTIONS" ; fi
   if [ `echo $SECTIONS | grep "DOWNLOAD" | wc -l` -lt 1 ]
   then  SECTIONS="DOWNLOAD $SECTIONS" ; fi
   if [ `echo $SECTIONS | grep "AKKORDEON" | wc -l` -lt 1 ]
