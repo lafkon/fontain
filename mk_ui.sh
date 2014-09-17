@@ -251,13 +251,15 @@
 # --------------------------------------------------------------------------- #
   function GENERALINFORMATION(){
 
+    EMPTYLINE=EL${RANDOM}EL
+
     if [ -f $README ]; then
     if [ `grep "GENERAL INFORMATION" $README | wc -l` -gt 0 ]; then
 
          grep   "<!-- PRE -->" $TMPLT_INFO | \
          sed  's/<!-- PRE -->//g'                                    >> $INDEX
 
-         sed '/^\s*$/d' $README |                # REMOVE EMPTY LINES
+         sed "s/^\s*$/$EMPTYLINE/g" $README    | # FOO EMPTY LINES
          sed -e :a \
              -e '$!N;s/\n=====/=====/;ta' \
              -e 'P;D' |                          # APPEND LINES WITH =====
@@ -265,6 +267,7 @@
          sed -e '/./{H;$!d;}' \
              -e 'x;/GENERAL INFORMATION==/!d;' | # SELECT PARAGRAPH
          grep -v "GENERAL INFORMATION=="       | # RM LINE CONTAINING AUTHOR
+         sed "s/$EMPTYLINE/\n/g"               | # BAR EMPTY LINES
          pandoc -r markdown -w html                                 >> $INDEX
 
          grep   "<!-- POST -->" $TMPLT_INFO | \
