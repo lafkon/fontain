@@ -7,6 +7,7 @@
 # FONTS=`ls -d -1 fonts/* | shuf -n 5`
 # FONTS=`ls -d -1 fonts/* | head -n 1`
 
+
 # SET VARIABLES
 # ----------------------------------------------------------------- #
   TMPDIR=/tmp
@@ -274,21 +275,6 @@
       rm -r $TMP
 
   done
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 exit 0;
 
