@@ -30,8 +30,6 @@ span.divlink {
    color: transparent;
 }
 
-
-
 /*FLOWTEXT
 ================================================== */
 
@@ -104,4 +102,25 @@ button.flowfontvariant#label {
 .specipic {
     margin: 0px 0px 10px 0px;
 }
+
+/*DOWNLOADS
+================================================== */
+
+#downloads span.button:hover {
+    background: #0ECCAA;
+    color: #eee;
+   /*overwrite from base.css */
+    cursor: default;
+    border: 1px solid #aaa;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;    
+}
+
+
+
+
+
+
+
+
 

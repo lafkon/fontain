@@ -40,10 +40,9 @@ hr {
   background: #111;
   color: #eee;
 }
-.highlighted {
+.highlighted, .highlighted:visited {
   background: #0ECCAA;
 }
-
 .jsonly {
     display: none;
     visibility: hidden;
@@ -66,9 +65,13 @@ hr {
 /*    position: fixed;
     z-index: 9000;    */
 /*     top: 0px; */
-    height: 60px;
-    margin: -1px 0px 40px 0px;
+    position: relative;
+    top: -1px;
+    height: 80px;
+    margin: 0px 0px 0px 0px;
     padding: 0px 0px 10px 0px;
+    background: transparent;
+/*     z-index: 1; */
 /*     background: #ccc; */
 }
 .footer {
@@ -85,6 +88,7 @@ hr {
     vertical-align: top;
     text-align: right;
     float:right;
+    white-space:nowrap;
 }
 
 .typeclassselector {
@@ -109,18 +113,23 @@ hr {
     border: 0px solid;
     margin: 0px 0px 0px 0px;
     padding: 5px 10px;
-/*     white-space:nowrap; */
+    white-space:nowrap;
 /*     background: #ddd; */
 }
-.logosmall.menuitem.negativ {
+.logosmall.menuitem.negativ.button {
     width: 60px;
+    margin-right: -1px;
+    padding-left: 14px;
+    padding-right: 14px;
 /*     background: #111; */
 }
 .logobig.menuitem.negativ {
     width: 60px;
     background: #111;
+    margin: 0px;
     margin-left: -63px;
-    padding-left: 14px;
+    text-align: center;
+    padding-left: 13px;
     padding-right: 13px;
 /*     font-weight: bold; */
 }
@@ -337,6 +346,10 @@ hr.hrsection {
 .button:hover.highlighted, button:hover.highlighted {
   background: #eee;
   color: #111;
+}
+
+#slider {
+  margin-bottom:-41px;
 }
 
 .sliderLabel {
