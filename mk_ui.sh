@@ -49,6 +49,7 @@
   TMPLT_LICENSE=lib/ui/templates/license.template
   TMPLT_SPECIMEN=lib/ui/templates/specimen.template
   TMPLT_DOWNLOAD=lib/ui/templates/download.template
+  TMPLT_INFO=lib/ui/templates/information.template
 
 # LICENSE/READMENAMES (MD OR TXT?)
 # --------------------------------------------------------------------------- #
@@ -245,6 +246,34 @@
     LICENSE=`echo $LICENSE | pandoc -r markdown -w html | sed 's/<\/*p>//g'`
 
     cat $TMPLT_LICENSE | sed "s|LICENSE|$LICENSE|g"                 >> $INDEX
+
+  }
+# --------------------------------------------------------------------------- #
+  function GENERALINFORMATION(){
+
+    if [ -f $README ]; then
+    INFO=`sed '/^\s*$/d' $README |                # REMOVE EMPTY LINES
+          sed -e :a \
+              -e '$!N;s/\n=====/=====/;ta' \
+              -e 'P;D' |                          # APPEND LINES WITH =====
+          sed '/=====$/{x;p;x;}' |                # INSERT EMPTY LINE ABOVE
+          sed -e '/./{H;$!d;}' \
+              -e 'x;/GENERAL INFORMATION==/!d;' | # SELECT PARAGRAPH
+          grep -v "GENERAL INFORMATION=="`        # RM LINE CONTAINING AUTHOR
+    else
+  
+    INFO="no further information"
+  
+    fi
+    if [ `echo $LICENSE | wc -c` -lt 2 ]; then
+
+    INFO="no further information"
+
+    fi
+
+    INFO=`echo $INFO | pandoc -r markdown -w html | sed 's/<\/*p>//g'`
+
+    cat $TMPLT_INFO | sed "s|GENERALINFORMATION|$INFO|g"            >> $INDEX
 
   }
 # --------------------------------------------------------------------------- #
@@ -644,6 +673,7 @@
   cat $TMPLT_HTMLFOOT                                               >> $INDEX
 # --------------------------------------------------------------------------- #
   sed -i "s/FONTFAMILY/$FAMILYNAME/g"                                  $INDEX
+
   FLOWTEXTARRAY="[ $FLOWTEXTARRAY ];"
   sed -i "s/FLOWTEXTARRAY/$FLOWTEXTARRAY/g"                            $INDEX
   sed -i "s/FLOWTEXTMASTERWWW/$FLOWTEXTMASTERWWW/g"                    $INDEX
