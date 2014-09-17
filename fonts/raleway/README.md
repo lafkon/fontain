@@ -1,4 +1,10 @@
+RALEWAY
+=======
+CLASSIFICATION: Sans-Serif
 
+
+GENERAL INFORMATION
+===================
 > Raleway is an elegant sans-serif typeface, designed in a single thin weight. 
 > It is a display face that features both old style and lining numerals, 
 > standard and discretionary ligatures, a pretty complete set of diacritics, 
@@ -17,6 +23,13 @@ LICENSE
 [SIL Open Font License (OFL)](http://scripts.sil.org/OFL)
 
 
+FONTAIN HOWTO
+=============
+
+
+TEX HOWTO
+=========
+
 
 TEX CONFIGURATION
 =================
@@ -26,5 +39,5 @@ TEXSRCREGULAR:raleway_thin
 
 
 
-CLASSIFICATION:Sans-Serif
+
 

@@ -1,6 +1,10 @@
-General Information
-===================
+OCR-A
+=====
+CLASSIFICATION: Sans-Serif Monospaced
 
+
+GENERAL INFORMATION
+===================
 The OCR-A font was developed by the American National Standards Institute (ANSI)
 to be readable by the computers of the 1960s.  The OCR-A font is still used
 commercially in payment advice forms so that a lockbox company can determine 
@@ -61,12 +65,18 @@ http://sourceforge.net/projects/ocr-a-font/
 Not sure about License
 
 
+AUTHOR
+======
+TODO
+
+
+LICENSE
+=======
+TODO
+
 
 UI CONFIGURATION
 ================
-
-
-
 DOWNLOAD
 SPECIMEN
 AUTHOR
@@ -74,10 +84,16 @@ LICENSE
 AKKORDEON
 
 
+FONTAIN HOWTO
+=============
+
+
+TEX HOWTO
+=========
+
 
 TEX CONFIGURATION
 =================
-
 KARLBERRYNAME:ocr
 FOUNDRY:johnsauter
 

@@ -1,6 +1,29 @@
+JUNICODE
+========
+CLASSIFICATION: Serif
 
 
-CLASSIFICATION:Serif
+GENERAL INFORMATION
+===================
+TODO
+
+
+AUTHOR
+======
+TODO
+
+
+LICENSE
+=======
+TODO
+
+
+FONTAIN HOWTO
+=============
+
+
+TEX HOWTO
+=========
 
 
 TEX CONFIGURATION

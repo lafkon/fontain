@@ -1,5 +1,11 @@
-Public Fonts for Minority Languages of Russia
-=============================================
+PT-SERIF
+========
+CLASSIFICATION: Serif
+
+
+GENERAL INFORMATION
+===================
+###Public Fonts for Minority Languages of Russia
 
 Pan-Cyrillic font superfamily PT Sans – PT Serif developed for the project “Public Types of Russian Federation”.
 
@@ -16,11 +22,7 @@ form a standard computer font family for basic text setting;
 two caption styles (regular and italic) are for texts of small point sizes.
 
 
-
 [*](http://www.paratype.com/public/)
-
-
-
 
 
 AUTHOR
@@ -36,7 +38,6 @@ LICENSE
 
 FONT STYLES
 ===========
-
 pt-serif_regular    
 pt-serif_italic    
 pt-serif_bold    
@@ -45,17 +46,22 @@ pt-serif_bold-italic
    pt-serif_caption-italic    
 
 
-
 UI CONFIGURATION
 ================
-
 SPECIMEN
 AUTHOR
 AKKORDEON
 DOWNLOAD
 LICENSE
 
-CLASSIFICATION:Serif
+
+FONTAIN HOWTO
+=============
+
+
+TEX HOWTO
+=========
+
 
 TEX CONFIGURATION
 =================
