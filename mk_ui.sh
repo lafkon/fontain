@@ -729,8 +729,9 @@
        THISSRC=`find . -name "${FONTSTYLE}.*" | head -n 1 | cut -d "/" -f 1-3`
        THISREADME=`find $THISSRC -name "$READMENAME" | head -n 1`
        if [ `echo $THISREADME | wc -c` -gt 3 ]; then
-       CLASSIFICATION=`grep CLASSIFICATION $THISREADME | \
-                       cut -d ":" -f 2 | sed 's/ //g'`
+       CLASSIFICATION=`grep CLASSIFICATION $THISREADME | # FIND CLASSIFICATION
+                       cut -d ":" -f 2                 | # SELECT SECOND FIELD
+                       sed 's/^[ \t]*//;s/[ \t]*$//'`    # REMOVE LEADING/TRAILING WHITESPACE
        else
        CLASSIFICATION=""
        fi
