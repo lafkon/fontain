@@ -730,7 +730,7 @@
        THISREADME=`find $THISSRC -name "$READMENAME" | head -n 1`
        if [ `echo $THISREADME | wc -c` -gt 3 ]; then
        CLASSIFICATION=`grep CLASSIFICATION $THISREADME | \
-                       cut -d ":" -f 2`
+                       cut -d ":" -f 2 | sed 's/ //g'`
        else
        CLASSIFICATION=""
        fi
