@@ -3,7 +3,7 @@
 
 # PATH TO FONT DIRECTORY (TOP LEVEL)
 # ----------------------------------------------------------------- #
-  FONTS=`ls -d -1 fonts/* | grep ocr`
+  FONTS=`ls -d -1 fonts/*`
 # FONTS=`ls -d -1 fonts/* | shuf -n 5`
 # FONTS=`ls -d -1 fonts/* | head -n 1`
 
