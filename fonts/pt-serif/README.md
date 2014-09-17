@@ -9,11 +9,11 @@ GENERAL INFORMATION
 
 Pan-Cyrillic font superfamily PT Sans – PT Serif developed for the project “Public Types of Russian Federation”.
 
-Font families PT Sans and PT Serif were released in 2009–2010 with open user license. 
-The main aim of the project is to give possibility to the peoples of Russia to read 
-and write on their native languages. The project is dedicated to 300-year anniversary 
-of the civil type invented by Peter the Great in 1708–1710 years and was realized 
-with financial support from Federal Agency for Press and Mass Communications.
+> Font families PT Sans and PT Serif were released in 2009–2010 with open user license. 
+> The main aim of the project is to give possibility to the peoples of Russia to read 
+> and write on their native languages. The project is dedicated to 300-year anniversary 
+> of the civil type invented by Peter the Great in 1708–1710 years and was realized 
+> with financial support from Federal Agency for Press and Mass Communications.
 
 PT Serif is a transitional serif face with humanistic terminals designed for use together 
 with PT Sans and harmonized with PT Sans on metrics, proportions, weights and design. 
@@ -48,10 +48,9 @@ pt-serif_bold-italic
 
 UI CONFIGURATION
 ================
-SPECIMEN
-AUTHOR
 AKKORDEON
 DOWNLOAD
+AUTHOR
 GENERALINFORMATION
 LICENSE
 
