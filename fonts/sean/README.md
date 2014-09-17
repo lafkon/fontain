@@ -93,7 +93,7 @@ TEX HOWTO
 
 - If there is no TEXMFHOME directory create it 
   e.g. `mkdir ~/.TEXMF`
-  and add it to your configuration    
+- and add it to your configuration    
  `sudo tlmgr conf texmf TEXMFHOME "~/.TEXMF"`    
 
 #### Approach **2**
