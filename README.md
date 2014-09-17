@@ -36,6 +36,10 @@ The browser **ui** uses
 
 `mk_fonts.sh` creates derivative formats from the fontforge source.
 
+- install fontforge
+- compile ttf2eot
+- install texlive-font-utils
+
 
 ### MK_UI.SH HOWTO
 
