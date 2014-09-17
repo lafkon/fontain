@@ -248,8 +248,10 @@
 # --------------------------------------------------------------------------- #
   function SPECIMEN(){
 
+    grep "<!-- PRE -->" $TMPLT_SPECIMEN | sed 's/<!-- PRE -->//g'   >> $INDEX
+
     if [ -d $FONTFAMILY/specimen ]; then
-    for SPECIMEN in `find $FONTFAMILY/specimen -name "*.*"`
+    for SPECIMEN in `find $FONTFAMILY/specimen -name "*.*" | sort`
      do 
         SPECIMENTYPE=`echo $SPECIMEN | rev | cut -d "." -f 1 | rev`
 
@@ -257,12 +259,23 @@
 
              cat $SPECIMEN >> $CSSCOLLECT
         fi
-        if [ X$SPECIMENTYPE == Xjpg ]; then
+        if [ X$SPECIMENTYPE == Xjpg ] ||
+           [ X$SPECIMENTYPE == Xgif ] ||
+           [ X$SPECIMENTYPE == Xpng ] ; then
 
              cpifnewer $SPECIMEN $SPECIMENTARGET/`basename $SPECIMEN`
-             JPG=`echo $SPECIMEN | rev | cut -d "/" -f 1-2 | rev`
+             IMG=`echo $SPECIMEN | rev | cut -d "/" -f 1-2 | rev`
              grep "<!-- LOOP -->" $TMPLT_SPECIMEN | \
-             sed "s,SPEZIPIC,$JPG,g" | \
+             sed "s,SPEZIPIC,$IMG,g" | \
+             sed 's/<!-- LOOP -->//g'                             >> $INDEX
+        fi
+        if [ X$SPECIMENTYPE == Xsvg ] ; then
+
+             PNG=$SPECIMENTARGET/`basename $SPECIMEN | cut -d "." -f 1`.png
+             inkscape --export-png=$PNG $SPECIMEN
+             PNG=`echo $PNG | rev | cut -d "/" -f 1-2 | rev`
+             grep "<!-- LOOP -->" $TMPLT_SPECIMEN | \
+             sed "s,SPEZIPIC,$PNG,g" | \
              sed 's/<!-- LOOP -->//g'                             >> $INDEX
         fi
         if [ X$SPECIMENTYPE == Xbody ]; then
@@ -271,6 +284,8 @@
         fi 
     done
     fi
+
+    grep "<!-- POST -->" $TMPLT_SPECIMEN | sed 's/<!-- POST -->//g' >> $INDEX
   }
 # --------------------------------------------------------------------------- #
   function DOWNLOAD(){
