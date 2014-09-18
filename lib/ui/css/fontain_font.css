@@ -96,15 +96,56 @@ button.flowfontvariant#label {
 }
 
 
-/*SPECIMEN
+
+/*TEMPLATE-FORMATTING
 ================================================== */
+
+h1, h2, h3, h4,h5, h6 {
+    font-weight: bold;
+}
+.templatecontent h6 {
+  font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-left: -20px;
+/*   margin-left: 20px; */
+  
+}
+
+pre {
+/*     opacity: 0; */
+/*   display:none; */
+/*   height: 10px; */
+  font-size: 10px;
+  line-height: 1.1em;
+/*   background: #369; */
+  height: auto;
+}
+
+pre.expanded {
+
+  opacity: 1;
+/*     display:block; */
+    height: auto;
+   transition: all 0.2s linear;
+/*   -moz-transition: all 1s  linear;
+   -webkit-transition: all 1s  linear;*/
+}
+
+
+.templatecontent {
+  font-family: "Georgia", "Times New Roman", serif;
+  font-weight: normal;
+  font-size: 28px; 
+  line-height: 34px; 
+  margin-bottom: 8px;
+  
+/*  padding-left: 40px;  */
+  
+}
 
 .specipic {
     margin: 0px 0px 10px 0px;
 }
 
-/*DOWNLOADS
-================================================== */
 
 #downloads span.button:hover {
     background: #0ECCAA;
@@ -116,11 +157,15 @@ button.flowfontvariant#label {
     border-left: 1px solid #ccc;    
 }
 
-
-
-
-
-
-
-
-
+@media only screen and (min-width:768px) and (max-width:959px) {
+.templatecontent h6 { margin-left:-20px; }
+}
+@media only screen and (min-width:768px) and (max-width:959px) {
+.templatecontent h6 { margin-left: -20px; }
+}
+@media only screen and (max-width:767px) {
+.templatecontent h6 { margin-left: 0px; }  
+}
+@media only screen and (min-width:480px) and (max-width:767px) {
+.templatecontent h6 { margin-left: 0px; }  
+}
