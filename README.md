@@ -237,6 +237,7 @@ sean_book
 helvetia-verbundene
   fira-sans_four
 grobe-deutschmeister
+victors
 pt-serif_italic
 ocr-a
 standard-graf_regular
