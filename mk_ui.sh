@@ -664,11 +664,11 @@
 # MAKE SURE THERE IS AT LEAST AKKORDEON AND DOWNLOAD
 # --------------------------------------------------------------------------- #
   if [ `echo $SECTIONS | grep "FONTLOG"   | wc -l` -lt 1 ]
-  then  SECTIONS="FONTLOG $SECTIONS" ; fi
+  then  SECTIONS="$SECTIONS FONTLOG" ; fi
   if [ `echo $SECTIONS | grep "LICENSE"   | wc -l` -lt 1 ]
-  then  SECTIONS="LICENSE $SECTIONS" ; fi
+  then  SECTIONS="$SECTIONS LICENSE" ; fi
   if [ `echo $SECTIONS | grep "AUTHOR"    | wc -l` -lt 1 ]
-  then  SECTIONS="AUTHOR $SECTIONS" ; fi
+  then  SECTIONS="$SECTIONS AUTHOR" ; fi
   if [ `echo $SECTIONS | grep "DOWNLOAD"  | wc -l` -lt 1 ]
   then  SECTIONS="DOWNLOAD $SECTIONS" ; fi
   if [ `echo $SECTIONS | grep "AKKORDEON" | wc -l` -lt 1 ]
