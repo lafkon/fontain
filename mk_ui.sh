@@ -347,12 +347,8 @@
 
     if [ -f $FONTLOG ]; then
 
-     grep   "<!-- PRE -->" $TMPLT_FONTLOG | \
-     sed  's/<!-- PRE -->//g'                                       >> $INDEX
-
-     cat $FONTLOG | sed 's/@/.[.AT.]./g'                            >> $INDEX
-     grep   "<!-- POST -->" $TMPLT_FONTLOG | \
-     sed  's/<!-- POST -->//g'                                      >> $INDEX
+     cat $TMPLT_FONTLOG                                             >> $INDEX   
+     cat $FONTLOG | sed 's/@/.[.AT.]./g'        > ${EXPORTTARGET}/FONTLOG.txt
 
     fi
 
