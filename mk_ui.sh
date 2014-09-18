@@ -50,6 +50,7 @@
   TMPLT_SPECIMEN=lib/ui/templates/specimen.template
   TMPLT_DOWNLOAD=lib/ui/templates/download.template
   TMPLT_INFO=lib/ui/templates/information.template
+  TMPLT_FONTLOG=lib/ui/templates/fontlog.template
 
 # LICENSE/READMENAMES (MD OR TXT?)
 # --------------------------------------------------------------------------- #
@@ -342,6 +343,21 @@
   }
 
 # --------------------------------------------------------------------------- #
+  function FONTLOG(){
+
+    if [ -f $FONTLOG ]; then
+
+     grep   "<!-- PRE -->" $TMPLT_FONTLOG | \
+     sed  's/<!-- PRE -->//g'                                       >> $INDEX
+
+     cat $FONTLOG | sed 's/@/.[.AT.]./g'                            >> $INDEX
+     grep   "<!-- POST -->" $TMPLT_FONTLOG | \
+     sed  's/<!-- POST -->//g'                                      >> $INDEX
+
+    fi
+
+  }
+# --------------------------------------------------------------------------- #
   function FLOWTEXT(){
     
     cat $TMPLT_FLOWTEXT                                             >> $INDEX
@@ -486,7 +502,10 @@
         echo "  --------------------------------------------"  >> $FONTLOG
 
         if [ `grep ^FontLog: $FONTPROPS | wc -c` -gt 10 ]; then
-        FLCHECKNOW=`grep ^FontLog: $FONTPROPS | md5sum | cut -c 1-16`
+      # FLCHECKNOW=`grep ^FontLog: $FONTPROPS | md5sum | cut -c 1-16`
+        FLCHECKNOW=`grep ^FontLog: $FONTPROPS | \
+                    sed 's/ //g' | \
+                    sed 's/[^a-zA-Z0-9 ]//g'`
         if [ X$FLCHECKNOW != X$FLCHECKPREV ]; then
          echo ""                                               >> $FONTLOG
          grep ^FontLog: $FONTPROPS    | \
@@ -509,7 +528,6 @@
         fi
 
      done
-
 
    # ===================================================================== #
    # CREATE DOWNLOADS
@@ -645,11 +663,13 @@
 # --------------------------------------------------------------------------- #
 # MAKE SURE THERE IS AT LEAST AKKORDEON AND DOWNLOAD
 # --------------------------------------------------------------------------- #
-  if [ `echo $SECTIONS | grep "LICENSE" | wc -l` -lt 1 ]
+  if [ `echo $SECTIONS | grep "FONTLOG"   | wc -l` -lt 1 ]
+  then  SECTIONS="FONTLOG $SECTIONS" ; fi
+  if [ `echo $SECTIONS | grep "LICENSE"   | wc -l` -lt 1 ]
   then  SECTIONS="LICENSE $SECTIONS" ; fi
-  if [ `echo $SECTIONS | grep "AUTHOR" | wc -l` -lt 1 ]
+  if [ `echo $SECTIONS | grep "AUTHOR"    | wc -l` -lt 1 ]
   then  SECTIONS="AUTHOR $SECTIONS" ; fi
-  if [ `echo $SECTIONS | grep "DOWNLOAD" | wc -l` -lt 1 ]
+  if [ `echo $SECTIONS | grep "DOWNLOAD"  | wc -l` -lt 1 ]
   then  SECTIONS="DOWNLOAD $SECTIONS" ; fi
   if [ `echo $SECTIONS | grep "AKKORDEON" | wc -l` -lt 1 ]
   then  SECTIONS="AKKORDEON $SECTIONS" ; fi
