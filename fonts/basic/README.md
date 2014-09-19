@@ -5,7 +5,10 @@ CLASSIFICATION: Sans-Serif
 
 GENERAL INFORMATION
 ===================
-TODO
+
+> Basic Sans Serif (mostly) font. 
+> In 1 style soon to be 4.
+> [**°**](https://github.com/EbenSorkin/Basic)
 
 
 AUTHOR
