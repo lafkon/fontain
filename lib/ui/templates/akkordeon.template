@@ -4,16 +4,17 @@
     <input class="fontsize" id="fontsizeSlider" type="range"  min="60" max="250" value="120"/><!-- PRE -->
   </div><!-- PRE -->
   <div class="one column jsonly"><!-- PRE -->
-    <label class="sliderLabel positiv" id="fontsizeSlider" for="fontsizeSlider">-- px</label><!-- PRE -->
+    <label class="sliderLabel positiv" id="fontsizeSliderLabel" for="fontsizeSlider">-- px</label><!-- PRE -->
   </div><!-- PRE -->
 </div><!-- PRE -->
 <br/><br/><br/><!-- PRE -->
+<div class="sixteen columns accordion" id="sortable"><!-- PRE -->
+<button id="resetDemoText" class="negativ highlighted">x</button><!-- PRE -->
+<label class="positiv" id="resetDemoTextLabel" for="resetDemoText">reset text</label><!-- PRE -->
 
 
 
-<div class="sixteen columns accordion" id="sortable"><!-- LOOP -->
-<button id="resetDemoText" class="negativ highlighted">x</button><!-- LOOP -->
-<label class="positiv" id="resetDemoTextLabel" for="resetDemoText">reset text</label><!-- LOOP -->
+
   <div class="accordion-section positiv"><!-- LOOP -->
     <div class="accordion-section-header"><!-- LOOP -->
       <a class="accordion-section-title positiv intern" id="#accordion-COUNT" data-typeclass="CLASSIFICATION" href=""><span class="divlink negativ">STYLENAME</span></a><!-- LOOP -->
@@ -23,11 +24,11 @@
     </div><!-- LOOP -->
   <hr class="hrfontdemo" /><!-- LOOP -->
   </div><!-- LOOP -->
-</div><!-- LOOP -->
 
-
-
-
+  
+  
+  
+</div><!-- POST -->
 <!-- everything related to EXCLUDECOUNT needs to be on one line only -->
 <a class="fontdemo-showmore jsonly" href="">and EXCLUDECOUNT more.</a><!-- POST -->
 <br class='clear' /><br/><br/><!-- POST -->

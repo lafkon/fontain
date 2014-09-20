@@ -6,8 +6,8 @@ and a [font-collection](http://fountain.x).
 
 
 **fontain** is a collection of f/l/os compatible fonts (as fontforge 
-sources) and utilities to transform the sources into popular font formats 
-and create an interface to browse the collection online.
+sources) and a collection of utilities to transform the sources into popular font formats 
+and create an interface to browse the collection online or locally.
 
 - `.otf       ` = [OpenType](http://en.wikipedia.org/wiki/OpenType)
 - `.ttf       ` = [TrueType](http://en.wikipedia.org/wiki/TrueType)

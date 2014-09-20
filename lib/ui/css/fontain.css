@@ -48,7 +48,7 @@ hr {
     visibility: hidden;
 }
 
-::selection {
+:selection {
   background: #0ECCAA; /* WebKit/Blink Browsers */
 }
 ::-moz-selection {
@@ -80,8 +80,6 @@ hr {
     padding: 10px 0px 10px 0px;
     text-align: center
 }
-
-
 
 .cycler {
     display: inline-block;

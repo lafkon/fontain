@@ -5,6 +5,14 @@
  */
 
 
+.header {
+  position: fixed;
+  height: auto;
+  z-index: 10;
+  background: #eee;
+  padding: 0px 0px 3px 0px;
+}
+
 
 
 /*ACCORDION
@@ -109,7 +117,7 @@ h1, h2, h3, h4,h5, h6 {
 }
 .templatecontent h6 {
   font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin-left:-30px;
+  margin-left:-14px;
 }
 
 pre {
@@ -124,6 +132,11 @@ pre {
 .templatecontent p:first-of-type {
   margin: 0px 0px 0px 0px;
 }
+
+/*.templatecontent blockquote {
+ margin-top: 0px;
+padding-top: 0px; 
+}*/
 
 .templatecontent {
   font-family: "Georgia", "Times New Roman", serif;
@@ -144,10 +157,9 @@ pre {
 .specimen {
    margin: 40px 0px 0px 0px; 
 }
-
-
-.specipic {
-    margin: 0px 0px 10px 0px;
+.specimen img {
+  margin: 0px 0px 10px 0px;  
+  width: 100%;
 }
 
 
@@ -161,19 +173,16 @@ pre {
     border-left: 1px solid #ccc;    
 }
 
-@media only screen and (min-width:768px) and (max-width:959px) {
-.templatecontent h6 { margin-left:-30px; }
+
+@media only screen and (min-width:768px) and (max-width:1019px) {
+.templatecontent h6 { margin-left: -14px; }
 .templatecontent {  border-left: 1px solid #ddd; }
 }
-@media only screen and (min-width:768px) and (max-width:959px) {
-.templatecontent h6 { margin-left: -30px; }
-.templatecontent {  border-left: 1px solid #ddd; }
-}
-@media only screen and (max-width:767px) {
+@media only screen and (max-width:827px) {
 .templatecontent h6 { margin-left: 0px; }
 .templatecontent {  border-left: none; }
 }
-@media only screen and (min-width:480px) and (max-width:767px) {
+@media only screen and (min-width:480px) and (max-width:827px) {
 .templatecontent h6 { margin-left: 0px; }  
 .templatecontent {  border-left: none; }
 }
