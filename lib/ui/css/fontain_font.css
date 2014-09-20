@@ -5,12 +5,24 @@
  */
 
 
-.header {
+.row#menu {
   position: fixed;
-  height: auto;
+  height: 21px;
   z-index: 10;
   background: #eee;
-  padding: 0px 0px 3px 0px;
+}
+
+
+.fixed#menu { 
+  position: fixed;   
+  width: 200%;
+  height: 21px;
+  border-bottom: 1px solid #111;
+  padding: 0px 0px 10px 500px;
+  margin: 0px 0px 0px -500px;
+  transition: all .2s linear;
+  -moz-transition: all .2s linear;
+  -webkit-transition: all .2s linear;
 }
 
 
@@ -131,6 +143,10 @@ pre {
 }
 .templatecontent p:first-of-type {
   margin: 0px 0px 0px 0px;
+}
+
+.templatecontent a:hover {
+  background: #0ECCAA;
 }
 
 /*.templatecontent blockquote {
