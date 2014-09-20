@@ -6,8 +6,8 @@
 </script>
 
 <div class="flowtextcontainer twelve columns offset-by-one clearfix" id="flowFontSelectR">
-  <button class="flowfontvariant positiv jsonly" id="prev" href=""><</button>
-  <button class="flowfontvariant positiv jsonly " id="next" href="">></button>
+  <button class="flowfontvariant positiv jsonly" id="prev">&lt;</button>
+  <button class="flowfontvariant positiv jsonly " id="next">&gt;</button>
   <button class="flowfontvariant positiv" id="label">FLOWTEXTMASTER</button>
   <hr style="margin-top: -2px;" />
   
@@ -16,7 +16,7 @@
 	  <input class="flowtext-fontsize" id="flowtextFontsizeSlider" type="range"  min="4" max="26" value="12"/>
 	</div>
 	<div class="one column jsonly omega">
-	  <label class="sliderLabel positiv" id="flowtextFontsizeSlider" for="flowtextFontsizeSlider">-- px</label>
+	  <label class="sliderLabel positiv" id="flowtextFontsizeSliderLabel" for="flowtextFontsizeSlider">-- px</label>
 	</div>
   </div>  
   <div class="flowtext positiv omega"  style='font-family: "FLOWTEXTMASTERWWW";'>
