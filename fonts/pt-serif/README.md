@@ -5,8 +5,6 @@ CLASSIFICATION: Serif
 
 GENERAL INFORMATION
 ===================
-###Public Fonts for Minority Languages of Russia
-
 Pan-Cyrillic font superfamily PT Sans – PT Serif developed for the project “Public Types of Russian Federation”.
 
 > Font families PT Sans and PT Serif were released in 2009–2010 with open user license. 
