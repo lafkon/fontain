@@ -727,6 +727,7 @@
 
 # --------------------------------------------------------------------------- #
   cat $TMPLT_HTMLHEAD | # USELESS USE OF CAT
+  grep -v "webfont/webfont.css" | \
   sed 's,href="../,href=",g' | sed 's,src="../,src=",g'             >  $INDEX
   sed -i "s,ISLIST,$ISLIST,g"                                          $INDEX
   sed -i "s,CUSTOMCSS,$CUSTOMCSS,g"                                    $INDEX
