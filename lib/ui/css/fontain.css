@@ -11,11 +11,12 @@ html {
 margin: 0 auto;*/
 /*   padding: 0px; */
 /*   margin: -10px 0px 0px 0px; */
+  
 }
 
 body {
   overflow-x: hidden;
-  
+
   -moz-font-feature-settings:"liga=1, dlig=1"; 
   -moz-font-feature-settings:"liga", "dlig";
   -ms-font-feature-settings:"liga", "dlig"; 
@@ -61,24 +62,18 @@ hr {
 /*HEADER + FOOTER
 ================================================== */
 
+.container {
+  height: 100%;
+/*   background: #369; */
+}
+
 .header {
-/*    position: fixed;
-    z-index: 9000;    */
-/*     top: 0px; */
     position: relative;
     top: -1px;
     height: 90px;
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
     background: transparent;
-/*     z-index: 1; */
-/*     background: #ccc; */
-}
-.footer {
-    height: 90px;
-    margin: 40px 0px 0px 0px;
-    padding: 10px 0px 10px 0px;
-    text-align: center
 }
 
 .cycler {
@@ -142,6 +137,23 @@ hr {
     border: 0px solid;
 }
 
+
+.footer {
+  margin: 40px 0px 0px 0px;
+  padding: 5px 0px 5px 0px;
+  text-align: center;
+}
+
+.footer img {
+  vertical-align: middle;
+}
+
+.footer a {
+  margin: 5px 8px 5px 8px;  
+}
+.footer a:hover {
+    background: #0ECCAA;
+}
 
 
 /*ACCORDION

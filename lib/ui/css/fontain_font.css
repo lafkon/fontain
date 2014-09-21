@@ -190,14 +190,24 @@ padding-top: 0px;
 
 
 @media only screen and (min-width:768px) and (max-width:1019px) {
-.templatecontent h6 { margin-left: -14px; }
-.templatecontent {  border-left: 1px solid #ddd; }
+  .templatecontent h6 { margin-left: -14px; }
+  .templatecontent {  border-left: 1px solid #ddd; }
 }
 @media only screen and (max-width:827px) {
-.templatecontent h6 { margin-left: 0px; }
-.templatecontent {  border-left: none; }
+  .templatecontent h6 { margin-left: 0px; }
+  .templatecontent {  border-left: none; }
+  .button.menuitem {
+    padding-left: 7px;
+    padding-right: 7px;
+  }
 }
 @media only screen and (min-width:480px) and (max-width:827px) {
-.templatecontent h6 { margin-left: 0px; }  
-.templatecontent {  border-left: none; }
+  .templatecontent h6 { margin-left: 0px; }  
+  .templatecontent {  border-left: none; }
+  .button.menuitem {
+    padding-left: 10px;
+    padding-right: 10px;
+  }  
 }
+
+
