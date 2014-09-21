@@ -243,25 +243,28 @@ a.fontdemo-showmore {
 
 
 #resetDemoText {
-/*   position: absolute; */
-/*  right: 10px;
-  width: 30px;*/
-/*   text-align: right; */
-  
-/*  position: relative;
+  position: relative;
   float: right;
-  top: 0px;
-  right: -4px;
-  z-index: 2000;
+  right: 50px;
+  height: 24px;
+  z-index: 2;
   display: none;
   padding: 4px 8px 5px 8px;
-  margin: 0px -8px 0px -24px;
-  -moz-border-radius: 12px;
-  -webkit-border-radius: 12px;
-  border-radius: 12px;*/
+  margin: 0px -50px 0px -24px;
+  -webkit-border-top-right-radius: 0px;
+  -webkit-border-bottom-right-radius: 0px;
+  -moz-border-radius-topright: 0px;
+  -moz-border-radius-bottomright: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;  
 }
 
-#resetDemoText {
+#resetDemoText:hover {
+  border-color: #111;
+}
+
+
+/*#resetDemoText {
   position: relative;
   float: right;
   top: 0px;
@@ -282,12 +285,11 @@ a.fontdemo-showmore {
   right: 80px;
   z-index: 3;
   display: none;
-/*  padding: 2px 5px 2px 15px;
-  margin: 0px -138px 0px 0px;*/
+//  padding: 2px 5px 2px 15px;
+//  margin: 0px -138px 0px 0px;
   font-weight: normal;
   font-size: 9px; 
   line-height: 9px;
-
   -moz-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   -o-transform: rotate(90deg);
@@ -296,12 +298,12 @@ a.fontdemo-showmore {
   right: 109px;   
   padding: 2px 5px 2px 15px;
   margin: 32px -138px 0px 0px;   
-}
+}*/
 
-button:hover + #resetDemoTextLabel {
+/*button:hover + #resetDemoTextLabel {
     background: #0ECCAA;
     color: #eee;
-}
+}*/
 
 .sortable-placeholder {
     background: #0ECCAA;
@@ -325,8 +327,12 @@ hr.hrsection {
 }
 
 .button, button {
-  margin-bottom: -10px;
+  margin-bottom: 1px;
   
+}
+
+.button.highlighted, button.highlighted {
+  border-color: #888  
 }
 
 .button:hover, button:hover {
@@ -341,10 +347,11 @@ hr.hrsection {
   color: #111;
 }*/
 
-.button:hover.highlighted, button:hover.highlighted {
+.button.highlighted:hover, button:hover.highlighted {
   background: #eee;
   color: #111;
 }
+
 
 #slider {
   background: #eee;
@@ -367,8 +374,31 @@ hr.hrsection {
 /*ABOUT+CONTACT
 ================================================== */
 
+.about a, .contact a {
+  padding: 0px 5px 0px 3px;
+}
+
 .about a:hover, .contact a:hover {
   background: #0ECCAA;
+  color: #eee;
+  padding: 2px 5px 2px 3px;
 }
+
+.about code, .contact code {
+  display: inline-block;
+  unicode-bidi: embed;
+  font-family: monospace;
+  white-space: pre;
+  background: #ddd;
+  padding: 0px 5px 0px 3px;
+}
+
+.contact pre {
+  font-size: 12px;
+  line-height: 1.1em;
+}
+
+
+
 
 
