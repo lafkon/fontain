@@ -87,7 +87,6 @@ button.flowfontvariant#label {
 
 
 .flowtext {
-/*   border: 1px solid; */
   font-size: 12px;
   line-height: 1.5em;
   margin: 0px 0px 16px 0px;
@@ -115,6 +114,14 @@ button.flowfontvariant:hover{
 
 button.flowfontvariant#label {
     cursor: default;
+}
+
+button.flowfontvariant.flowtextInvert {
+  float:right; 
+  border: none;
+  font-size: 0px;
+  margin-bottom: -3px;
+  padding: 0px 0px 0px 0px;
 }
 
 #flowFontSelectR {
