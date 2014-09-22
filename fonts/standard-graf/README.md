@@ -10,12 +10,14 @@ TODO
 
 AUTHOR
 ======
-TODO
+[Peter Wiegel](http://www.peter-wiegel.de/)
 
 
 LICENSE
 =======
-TODO
+[General Public License (GPL) with font exception](http://www.fsf.org/licenses/gpl.html) **AND**
+[SIL Open Font License (OFL)](http://scripts.sil.org/OFL)
+
 
 
 FONTAIN HOWTO

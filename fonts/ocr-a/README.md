@@ -67,7 +67,7 @@ Not sure about License
 
 AUTHOR
 ======
-TODO
+[John Sauter](http://www.systemeyescomputerstore.com/)
 
 
 LICENSE
