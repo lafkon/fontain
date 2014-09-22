@@ -81,15 +81,13 @@ button.flowfontvariant#label {
 
 .flowtextcontainer {
   margin-top: 40px;
-/*   0px 0px 0px; */
-/*   padding: 0px 0px 0px 0px; */
 }
 
 
 .flowtext {
   font-size: 12px;
   line-height: 1.5em;
-  margin: 0px 0px 16px 0px;
+  margin: 44px 0px 20px 0px;
   padding: 0px 0px 0px 0px;
 }
 
@@ -101,9 +99,9 @@ button.flowfontvariant {
     border-radius: 0px;    
     border: 1px solid;
     margin: 0px 0px 1px 0px;
-    padding: 5px 10px;
+    padding: 5px 10px 5px 10px;
     text-transform:capitalize;	 
-    background: transparent;
+/*     background: transparent; */
 }
 
 button.flowfontvariant:hover{
@@ -113,22 +111,23 @@ button.flowfontvariant:hover{
 }
 
 button.flowfontvariant#label {
-    cursor: default;
+  cursor: default;
 }
 
-button.flowfontvariant.flowtextInvert {
-  float:right; 
-  border: none;
-  font-size: 0px;
+button.flowfontvariant#invert {
+  float: right;
   margin-bottom: -3px;
-  padding: 0px 0px 0px 0px;
+  border: 1px solid #111;
 }
 
-#flowFontSelectR {
-  padding: -50px 0px;
+button.flowfontvariant.negativ#invert:hover {
+  background: #eee;
 }
 
-
+button.flowfontvariant.positiv#invert:hover {
+  background: #111;
+  color: #eee;
+}
 
 /*TEMPLATE-FORMATTING
 ================================================== */
@@ -158,10 +157,13 @@ pre {
   background: #0ECCAA;
 }
 
-/*.templatecontent blockquote {
- margin-top: 0px;
-padding-top: 0px; 
-}*/
+.templatecontent blockquote {
+ margin-top: 5px;
+ padding-top: 0px; 
+ margin-left: -14px;
+ padding-left: 14px;
+  
+}
 
 .templatecontent {
   font-family: "Georgia", "Times New Roman", serif;

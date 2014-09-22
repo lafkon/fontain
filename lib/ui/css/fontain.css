@@ -3,12 +3,14 @@
 ================================================== */
 
 html {
-  overflow: -moz-scrollbars-vertical;
-  overflow-y: scroll;
+/*   overflow: -moz-scrollbars-vertical; */
+/*   overflow-y: scroll; */
   height: 100%;
 }
 
 body {
+  overflow: -moz-scrollbars-vertical;
+  overflow-y: scroll;
   overflow-x: hidden;
   height: 100%;
   -moz-font-feature-settings:"liga=1, dlig=1"; 
@@ -135,9 +137,8 @@ hr {
 .footer {
   position: relative;
   height: 60px;
-  margin-top: -60px; 
+  margin: -60px 0px 0px 0px; 
   clear:both;  
-  margin: 40px 0px 0px 0px;
   padding: 0px 0px 0px 0px;
   text-align: center;
 } 
@@ -377,7 +378,10 @@ hr.hrsection {
   top: -7px;
   font-weight: normal;
   font-size: 9px; 
-/*   z-index: -5000;   */
+  white-space: nowrap;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  
 }
 
 
