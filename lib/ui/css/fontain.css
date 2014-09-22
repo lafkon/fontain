@@ -6,9 +6,12 @@ html {
 /*   overflow: -moz-scrollbars-vertical; */
 /*   overflow-y: scroll; */
   height: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 body {
+  max-width: 100%;
   overflow: -moz-scrollbars-vertical;
   overflow-y: scroll;
   overflow-x: hidden;
@@ -61,6 +64,8 @@ hr {
 .container {
   min-height: 100%;
   margin-bottom: -60px;
+/*  max-width: 100%;
+  overflow-x: hidden;  */
 }
 
 .header {
@@ -246,6 +251,7 @@ hr.hrfontdemo {
     clear: both;   
     margin-left:-50%;
 }
+
 
 a.fontdemo-showmore {
   font-size: 10px;
