@@ -2,7 +2,7 @@ fontain
 =======
 
 a [font-collection-system](https://github.com/lafkon/fontain) 
-and a [font-collection](http://fountain.x).
+and a [font-collection](http://www.fontain.org).
 
 
 **fontain** is a collection of f/l/os compatible fonts (as fontforge 
