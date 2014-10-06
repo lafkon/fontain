@@ -5,7 +5,6 @@
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 <head>
-
 	<meta charset="utf-8">
 	<title>fontain - ABOUT</title>
 	<meta name="description" content="fontain">
@@ -25,8 +24,6 @@
 	<link rel="apple-touch-icon" href="../img/apple-touch-icon.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="../img/apple-touch-icon-72x72.png">
 	<link rel="apple-touch-icon" sizes="114x114" href="../img/apple-touch-icon-114x114.png">
-
-
 </head>
 <body class="positiv">
 
@@ -39,62 +36,53 @@
     <a class="button menuitem positiv" href="../contact/index.html">contact</a>
     <a class="button menuitem positiv" href="http://github.com/lafkon/fontain" target="blank">github</a>
   </div>
-  
-  
+
 </div>
 <br class='clear'><br/><br/>
 
+<div class="about nine columns">
+
+<p>
+<b>fontain</b>
+a <a href="https://github.com/lafkon/fontain">font-collection-system</a> and a 
+<a href="/">font-collection</a>.
+</p>
+
+<p>fontain was developed to:</p>
+
+<ol>
+<li>
+maintain a selection of free/libre/open source 
+fonts together with their source files
+</li>
+<li>
+provide a simple solution to derive necessary formats
+e.g. webfonts and files for use with LaTeX.
+</li>
+</ol>
+
+<p>
+This collection is made possible by the libre font movement.<br/>
+Libre as free. Free to use, free to study, free to modify.<br/>
+Libre as in freedom, not price.
+</p>
+
+<p>
+You can browse the selection <a href="/">here</a> or 
+<a href="https://github.com/lafkon/fontain">set up your own instance</a>.<br/>
+For any requests or questions don't hesitate to 
+<a href="http://www.lafkon.net/impressum">contact us</a>.
+</p>
+
+<p>
+fontain is inspired by <a href="http://usemodify.com/">Use&Modify</a>, 
+respectively <a href="https://github.com/raphaelbastide/ofont/">ofont</a>.
+</p>
 
 
 
-
-<div class="about sixteen columns">
-
-<h1 id="fontain">fontain</h1>
-<p>a <a href="https://github.com/lafkon/fontain">font-collection-system</a><br />and a <a href="http://fountain.lafkon.net/">font-collection</a>.</p>
-<p><strong>fontain</strong> is a collection of f/l/os compatible fonts (as fontforge<br />sources) and a collection of utilities to transform the sources into popular font formats<br />and create an interface to browse the collection online or locally.</p>
-<ul>
-<li><code>.otf</code> = <a href="http://en.wikipedia.org/wiki/OpenType">OpenType</a></li>
-<li><code>.ttf</code> = <a href="http://en.wikipedia.org/wiki/TrueType">TrueType</a></li>
-<li><code>.ufo.zip</code> = <a href="http://unifiedfontobject.org/">Unified Font Object</a></li>
-<li><code>.eot</code> = <a href="http://en.wikipedia.org/wiki/Embedded_OpenType">Embedded OpenType</a></li>
-<li><code>.woff</code> = <a href="http://en.wikipedia.org/wiki/Web_Open_Font_Format">Web Open Font Format</a></li>
-<li><code>.svg</code> = <a href="http://en.wikipedia.org/wiki/Web_typography#Scalable_Vector_Graphics">Scalable Vector Graphics</a></li>
-<li><code>.css</code> = <a href="http://en.wikipedia.org/wiki/Cascading_Style_Sheets">Cascading Style Sheets</a></li>
-<li><code>.texmf.zip</code> = font files prepared to use with your <a href="http://en.wikipedia.org/wiki/TeX">TeX</a> distribution</li>
-</ul>
-<p><strong>fontain</strong> has been developed and tested on <a href="https://www.debian.org/">Debian, the universal operating system</a><br />and <a href="http://www.ubuntu.com/">Ubuntu</a>.<br /><strong>fontain</strong> uses <a href="https://gitorious.org/manufacturaindhacks/tinytypetools/source/fontconvert">fontconvert</a> and<br /><a href="https://github.com/metaflop/ttf2eot">ttf2eot</a>.</p>
-<p>The browser <strong>ui</strong> uses<br /><a href="http://www.getskeleton.com/">Skeleton V1.2</a>,<br /><a href="https://github.com/andreruffert/rangeslider.js">rangeslider.js</a>,<br /><a href="">jquery</a>,<br />…</p>
-<p><strong>fontain</strong> is inspired by <a href="http://usemodify.com/">Use &amp; Modify</a>, respectively <a href="https://github.com/raphaelbastide/ofont">ofont</a>.</p>
-<h3 id="mk_fonts.sh-howto">MK_FONTS.SH HOWTO</h3>
-<p><code>mk_fonts.sh</code> creates derivative formats from the fontforge source.</p>
-<ul>
-<li>install fontforge</li>
-<li>compile ttf2eot</li>
-<li>install texlive-font-utils</li>
-</ul>
-<h3 id="mk_ui.sh-howto">MK_UI.SH HOWTO</h3>
-<p><code>mk_ui.sh</code> creates static html that can be used to browse the font collection,<br />either local or online.</p>
-<h3 id="general-howto">GENERAL HOWTO</h3>
-<p>Get a list of all font sources (may be used as selection in README)<br /><code>find . -name &quot;*.sfdir&quot; -type d | rev | cut -d &quot;/&quot; -f 1 | rev | sed 's/.sfdir//g'</code></p>
-<h3 id="online-configuration">ONLINE CONFIGURATION</h3>
-<p>To allow local browsing we add index.html to the links.<br />If you prefer to have this removed for the online version<br />and use an apache web server add this to you <code>.htaccess</code>:</p>
-<pre><code>RewriteEngine On
-RewriteCond %{REQUEST_URI} index\.html
-RewriteRule ^(.*)index\.html$ /path/to/fontain/$1 [R=301,L]</code></pre>
-<h2 id="required-software">Required Software</h2>
-<h3 id="mk_fonts.sh">mk_fonts.sh</h3>
-<p><code>basename (GNU coreutils) 8.13</code><br /> strip directory and suffix from filenames</p>
-<p><code>cp (GNU coreutils) 8.13</code><br /> copy files and directories</p>
-<p><code>cut (GNU coreutils) 8.13</code><br /> remove sections from each line of files</p>
-<p><code>echo (GNU coreutils 8.12.197-032bb September 2011)</code><br /> display a line of text</p>
-<p><code>exit (Linux 2009-09-20)</code><br /> cause normal process termination</p>
-<p><code>grep  2.12-2</code><br /> GNU grep, egrep and fgrep</p>
-<p><code>fontconvert</code>([lib/tools/tinytypetools/fontconvert](lib/tools/tinytypetools/font</p>
 
 </div>
-
-
 </div>
 
 <div class="footer sixteen columns positiv">
