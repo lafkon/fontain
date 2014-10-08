@@ -714,7 +714,6 @@
 
 
 
-
 # =========================================================================== #
 # CREATE MAIN LIST
 # =========================================================================== #
@@ -787,7 +786,7 @@
        echo "<link rel=\"stylesheet\" href=\"$CSS\">" >> $CSSCOLLECT
 
        FONTPROPS=`find fonts -name "${FONTSTYLE}.sfdir" -type d`/font.props
-       STYLENAME=`grep -h "FullName" $FONTPROPS | \
+       STYLENAME=`grep -h "^FullName" $FONTPROPS | \
                   cut -d ":" -f 2 | sed "s/^[ \t]*//"`
        FAMILYNAME=$STYLENAME
        STYLENAMEWWW=`echo $STYLENAME | \
