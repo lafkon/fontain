@@ -215,7 +215,9 @@ and use an apache web server add this to you `.htaccess`:
 FONT STYLES
 ===========
 
-
+nimbus-sans-l_regular
+beon_regular
+lilgrotesk_bold
 junction_regular
 junction_bold
 junction_light
