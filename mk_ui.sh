@@ -139,7 +139,7 @@
              -gt 1 ]; then
 
         FONTSTYLESRC=`find $FONTFAMILY/src -name "$FONTSTYLESRC.sfdir"`
-        STYLENAME=`grep -h "FullName" $FONTSTYLESRC/font.props | \
+        STYLENAME=`grep -h "^FullName" $FONTSTYLESRC/font.props | \
                    cut -d ":" -f 2 | sed "s/^[ \t]*//"`
         STYLENAMEWWW=`echo $STYLENAME | \
                       sed 's/ /jfdDw24e/g' | \
@@ -398,7 +398,7 @@
 
  for FONTFAMILY in $FONTS
   do
-      FAMILYNAME=`grep -h "FamilyName" $FONTFAMILY/src/*/font.props | \
+      FAMILYNAME=`grep -h "^FamilyName" $FONTFAMILY/src/*/font.props | \
                   cut -d ":" -f 2 | \
                   awk '{print length, $0;}' | sort -n | \
                   head -n 1 | cut -d " " -f 2- | \
@@ -712,6 +712,9 @@
 # --------------------------------------------------------------------------- #
  done
 
+
+
+exit 0;
 
 
 # =========================================================================== #
