@@ -455,7 +455,7 @@
              -gt 1 ]; then
         FONTSTYLESRC=`find $FONTFAMILY/src -name "$FONTSTYLESRC.sfdir"`
         FONTPROPS="$FONTSTYLESRC/font.props"
-        STYLENAME=`grep -h "FullName" $FONTPROPS | \
+        STYLENAME=`grep -h "^FullName" $FONTPROPS | \
                    cut -d ":" -f 2 | sed "s/^[ \t]*//"`
         STYLENAMEWWW=`echo $STYLENAME | \
                       sed 's/ /jfdDw24e/g' | \
