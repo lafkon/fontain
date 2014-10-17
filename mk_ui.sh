@@ -292,6 +292,7 @@
         if [ X$SPECIMENTYPE == Xhead ]; then
 
              cat $SPECIMEN >> $CSSCOLLECT
+
         fi
         if [ X$SPECIMENTYPE == Xjpg ] ||
            [ X$SPECIMENTYPE == Xgif ] ||
