@@ -18,3 +18,10 @@ AUTHOR
 LICENSE
 =======
 [SIL Open Font License (OFL)](http://scripts.sil.org/OFL)
+
+
+
+
+UI CONFIGURATION
+================
+SPECIMEN
