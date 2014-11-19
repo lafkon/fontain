@@ -1,0 +1,21 @@
+RewriteEngine On
+RewriteCond %{REQUEST_URI} index\.html
+RewriteRule ^(.*)index\.html$ /$1 [R=301,L]
+
+
+IndexOptions FancyIndexing HTMLTable FoldersFirst
+IndexStyleSheet "/css/listing.css"
+
+AddIcon (..,/img/icons/back.gif) ..
+AddIcon (DIR,/img/icons/folder.gif) ^^DIRECTORY^^
+AddIcon (IMG,/img/icons/image2.gif) *.png *.gif
+AddIcon (SVG,/img/icons/vektor.gif) *.svg
+AddIcon (ZIP,/img/icons/compressed.gif) *.zip
+AddIcon (TXT,/img/icons/text.gif) *.txt
+AddIcon (FNT,/img/icons/type.gif) *.ttf *.woff *.otf *.eot
+
+AddType application/vnd.ms-fontobject .eot
+AddType font/ttf .ttf
+AddType font/otf .otf
+AddType application/x-font-woff .woff
+
