@@ -1,15 +1,33 @@
 #!/bin/bash
 
+#.---------------------------------------------------------------------.#
+#.                                                                      #
+#. Copyright (C) 2014 LAFKON                                            #
+#.                                                                      #
+#. CREATE TTF,OTF,SVG,WOFF,TEX TREE FROM FONTFORGE SOURCES              #
+#.                                                                      #
+#. mk_fonts.sh is free software: you can redistribute it and/or modify  #
+#. it under the terms of the GNU General Public License as published    #
+#. by the Free Software Foundation, either version 3 of the License,    #
+#. or (at your option) any later version.                               #
+#.                                                                      #
+#. mk_fonts.sh is distributed in the hope that it will be useful,       #
+#. but WITHOUT ANY WARRANTY; without even the implied warranty of       #
+#. MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.                 #
+#. See the GNU General Public License for more details.                 #
+#.                                                                      #
+#.---------------------------------------------------------------------.#
+
 
 # PATH TO FONT DIRECTORY (TOP LEVEL)
-# ----------------------------------------------------------------- #
+# --------------------------------------------------------------------- #
   FONTS=`ls -d -1 fonts/*`
 # FONTS=`ls -d -1 fonts/* | shuf -n 5`
 # FONTS=`ls -d -1 fonts/* | head -n 1`
 
 
 # SET VARIABLES
-# ----------------------------------------------------------------- #
+# --------------------------------------------------------------------- #
   TMPDIR=/tmp
   FONTCONVERT=lib/tools/tinytypetools/fontconvert/fontconvert
   TTF2EOT=lib/tools/ttf2eot/ttf2eot
@@ -17,12 +35,12 @@
   LICENSENAME=LICENSE.txt
 
 # ONLY RUN IF FONTCONVERT UTILITY EXISTS 
-# ----------------------------------------------------------------- #
+# --------------------------------------------------------------------- #
   if [ ! -f $FONTCONVERT ]; then exit 0; fi
 
-# ================================================================= #
+# ===================================================================== #
 # START THE EXPORT
-# ================================================================= #
+# ===================================================================== #
 
   for FONTROOT in $FONTS
    do
