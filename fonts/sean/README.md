@@ -130,7 +130,7 @@ TEX HOWTO
 ### Future
 
 - [Get started with LaTeX](http://en.wikibooks.org/wiki/LaTeX)
-- Use `\fontfamily{sse}\selectfont` to select sean
+- Use `\fontfamily{sse}\selectfont` to select Sean
   during a LaTeX document
 - Start to love LaTeX!
 

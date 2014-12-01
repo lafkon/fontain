@@ -57,28 +57,27 @@ mk_ui.sh (in the following called ui) and mk_fonts.sh
 - The section 'TEX HOWTO' should help to use the font
   with LaTeX.
 
-
 TEX HOWTO
 =========
 
-- Unzip sean.tex.zip
+- Unzip victors.tex.zip
 
 ### For the first time
 
 - Install LaTeX (texlive-latex-base)
   e.g. `sudo aptitude install texlive-latex-base`
- _or_ use the software center 
+ _or_ use the software center
  _or_ download it from the internet.
 
-- Find out about your TEXMFHOME directory    
- `kpsewhich --var-value=TEXMFHOME`    
+- Find out about your TEXMFHOME directory
+ `kpsewhich --var-value=TEXMFHOME`
 
 #### Approach **1**
 
-- If there is no TEXMFHOME directory create it 
+- If there is no TEXMFHOME directory create it
   e.g. `mkdir ~/.TEXMF`
-- and add it to your configuration    
- `sudo tlmgr conf texmf TEXMFHOME "~/.TEXMF"`    
+- and add it to your configuration
+ `sudo tlmgr conf texmf TEXMFHOME "~/.TEXMF"`
 
 #### Approach **2**
 
@@ -95,27 +94,28 @@ TEX HOWTO
 
 ### To install the font
 
-- Add the content of the TEXMF directory inside 
-  sean.texmf.zip to your TEXMFHOME directory
+- Add the content of the TEXMF directory inside
+  victors.texmf.zip to your TEXMFHOME directory
   (copy over existing folders)
 
-- Add the line `Map sse.map` 
+- Add the line `Map vpi.map`
   to the file $TEXMFHOME/web2c/updmap.cfg
   (If the file/directory does not exist create it!)
 
-- Update your TeX installation    
- `updmap`    
+- Update your TeX installation
+ `updmap`
 
-- Compile the testpage example_sean.tex    
- `pdflatex example_sean.tex`
-
+- Compile the testpage example_victors.tex    
+ `pdflatex example_victors.tex`
 
 ### Future
 
 - [Get started with LaTeX](http://en.wikibooks.org/wiki/LaTeX)
-- Use `\fontfamily{sse}\selectfont` to select sean
+- Use `\fontfamily{vpi}\selectfont` to select Victors Pixelfont
   during a LaTeX document
 - Start to love LaTeX!
+
+
 
 
 
