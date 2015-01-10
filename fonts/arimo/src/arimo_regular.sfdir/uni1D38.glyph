@@ -1,0 +1,51 @@
+
+StartChar: uni1D38
+Encoding: 7480 7480 2099
+Width: 720
+GlyphClass: 2
+Flags: W
+TtInstrs:
+NPUSHB
+ 14
+ 3
+ 0
+ 0
+ 4
+ 6
+ 7
+ 1
+ 230
+ 0
+ 3
+ 229
+ 89
+ 0
+ 232
+SVTCA[y-axis]
+MIAP[rnd]
+CALL
+SVTCA[y-axis]
+RTG
+MIAP[rnd]
+SRP1
+SRP2
+SVTCA[x-axis]
+IP
+IP
+SRP1
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+45 490 m 1,0,-1
+ 45 1484 l 1,1,-1
+ 186 1484 l 1,2,-1
+ 186 606 l 1,3,-1
+ 668 606 l 1,4,-1
+ 668 490 l 1,5,-1
+ 45 490 l 1,0,-1
+EndSplineSet
+EndChar

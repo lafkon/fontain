@@ -1,0 +1,67 @@
+
+StartChar: sofpasuq
+Encoding: 1475 1475 2488
+Width: 569
+GlyphClass: 4
+Flags: W
+TtInstrs:
+NPUSHB
+ 10
+ 0
+ 4
+ 4
+ 3
+ 7
+ 7
+ 9
+ 8
+ 1
+ 0
+PUSHW_1
+ 323
+PUSHB_5
+ 89
+ 1
+ 4
+ 4
+ 5
+PUSHW_4
+ 323
+ 89
+ 4
+ 314
+SVTCA[y-axis]
+MIAP[rnd]
+CALL
+SVTCA[y-axis]
+RTG
+SRP0
+MDRP[rnd,white]
+CALL
+SRP1
+SRP2
+SVTCA[x-axis]
+IP
+SRP1
+SHP[rp1]
+SHP[rp1]
+SRP1
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+186 874 m 1,0,-1
+ 186 1081 l 1,1,-1
+ 383 1081 l 1,2,-1
+ 383 874 l 1,3,-1
+ 186 874 l 1,0,-1
+186 0 m 1,4,-1
+ 186 207 l 1,5,-1
+ 383 207 l 1,6,-1
+ 383 0 l 1,7,-1
+ 186 0 l 1,4,-1
+EndSplineSet
+EndChar

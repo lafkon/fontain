@@ -1,0 +1,48 @@
+
+StartChar: logicalnot
+Encoding: 172 172 163
+Width: 1196
+GlyphClass: 2
+Flags: W
+TtInstrs:
+NPUSHB
+ 13
+ 0
+ 5
+ 2
+ 5
+ 6
+ 7
+ 3
+ 2
+ 173
+ 89
+ 0
+ 3
+ 178
+SVTCA[y-axis]
+MIAP[rnd]
+MDRP[rnd,grey]
+CALL
+SRP1
+SRP2
+SVTCA[x-axis]
+IP
+IP
+SRP1
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+878 141 m 1,0,-1
+ 878 569 l 1,1,-1
+ 75 569 l 1,2,-1
+ 75 793 l 1,3,-1
+ 1102 793 l 1,4,-1
+ 1102 141 l 1,5,-1
+ 878 141 l 1,0,-1
+EndSplineSet
+EndChar

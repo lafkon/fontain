@@ -1,0 +1,138 @@
+
+StartChar: uni0299
+Encoding: 665 665 1104
+Width: 1048
+GlyphClass: 2
+Flags: W
+TtInstrs:
+NPUSHB
+ 46
+ 38
+ 19
+ 19
+ 12
+ 24
+ 7
+ 31
+ 0
+ 0
+ 7
+ 4
+ 12
+ 4
+ 39
+ 40
+ 4
+ 38
+ 28
+ 38
+ 28
+ 81
+ 89
+ 15
+ 38
+ 1
+ 11
+ 3
+ 38
+ 38
+ 10
+ 16
+ 16
+ 34
+ 80
+ 89
+ 16
+ 16
+ 19
+ 21
+ 10
+ 21
+ 80
+ 89
+ 12
+ 10
+ 22
+SVTCA[y-axis]
+MIAP[rnd]
+SHP[rp1]
+CALL
+SRP1
+SVTCA[y-axis]
+SHP[rp1]
+RTG
+MIAP[rnd]
+CALL
+SRP1
+SRP2
+SVTCA[y-axis]
+IP
+RTG
+MDAP[rnd]
+SDS
+SDB
+DELTAP1
+CALL
+SRP1
+SRP2
+SVTCA[y-axis]
+IP
+SRP1
+SRP2
+SVTCA[x-axis]
+SLOOP
+IP
+SRP1
+SHP[rp1]
+SRP1
+SHP[rp1]
+SRP1
+SHP[rp1]
+SRP1
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+AnchorPoint: "Anchor-21" 550 0 basechar 0
+AnchorPoint: "Anchor-19" 0 1840 basechar 0
+AnchorPoint: "Anchor-18" 1088 1840 basechar 0
+AnchorPoint: "Anchor-17" 1088 -380 basechar 0
+AnchorPoint: "Anchor-16" 1088 1540 basechar 0
+AnchorPoint: "Anchor-12" 400 -130 basechar 0
+AnchorPoint: "Anchor-11" 900 1260 basechar 0
+AnchorPoint: "Anchor-10" 600 1200 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+1001 840 m 0,0,1
+ 1001 732 1001 732 929.5 660.5 c 128,-1,2
+ 858 589 858 589 727 567 c 1,3,-1
+ 726 560 l 1,4,5
+ 828 544 828 544 889 481.5 c 128,-1,6
+ 950 419 950 419 950 326 c 0,7,8
+ 950 158 950 158 822.5 69 c 128,-1,9
+ 695 -20 695 -20 462 -20 c 0,10,11
+ 237 -20 237 -20 32 21 c 1,12,-1
+ 148 639 l 2,13,14
+ 192 868 192 868 308.5 980 c 128,-1,15
+ 425 1092 425 1092 634 1092 c 0,16,17
+ 810 1092 810 1092 905.5 1026 c 128,-1,18
+ 1001 960 1001 960 1001 840 c 0,0,1
+232 133 m 1,19,20
+ 352 113 352 113 468 113 c 0,21,22
+ 603 113 603 113 681 163 c 128,-1,23
+ 759 213 759 213 759 321 c 0,24,25
+ 759 401 759 401 697 448 c 128,-1,26
+ 635 495 635 495 502 495 c 2,27,-1
+ 303 495 l 1,28,-1
+ 232 133 l 1,19,20
+525 625 m 2,29,30
+ 809 625 809 625 809 817 c 0,31,32
+ 809 882 809 882 763 920 c 128,-1,33
+ 717 958 717 958 625 958 c 0,34,35
+ 500 958 500 958 432 884 c 128,-1,36
+ 364 810 364 810 336 666 c 2,37,-1
+ 328 625 l 1,38,-1
+ 525 625 l 2,29,30
+EndSplineSet
+EndChar

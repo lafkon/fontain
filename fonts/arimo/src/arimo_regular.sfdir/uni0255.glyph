@@ -1,0 +1,151 @@
+
+StartChar: uni0255
+Encoding: 597 597 1037
+Width: 1024
+GlyphClass: 2
+Flags: W
+TtInstrs:
+NPUSHB
+ 56
+ 22
+ 5
+ 9
+ 16
+ 15
+ 15
+ 36
+ 28
+ 28
+ 42
+ 24
+ 2
+ 7
+ 9
+ 6
+ 44
+ 45
+ 24
+ 42
+ 7
+ 2
+ 4
+ 4
+ 26
+ 26
+ 39
+ 80
+ 89
+ 16
+ 12
+ 15
+ 26
+ 31
+ 26
+ 2
+ 9
+ 3
+ 26
+ 26
+ 0
+ 12
+ 12
+ 19
+ 80
+ 89
+ 12
+ 16
+ 4
+ 4
+ 0
+ 0
+ 32
+ 80
+ 89
+ 0
+ 22
+SVTCA[y-axis]
+MIAP[rnd]
+CALL
+SRP1
+SVTCA[y-axis]
+SHP[rp1]
+RTG
+MDAP[rnd]
+MIAP[rnd]
+CALL
+SRP1
+SRP2
+SVTCA[y-axis]
+IP
+RTG
+MDAP[rnd]
+SDS
+SDB
+DELTAP1
+SRP2
+IP
+CALL
+SRP1
+SRP2
+SVTCA[y-axis]
+SLOOP
+IP
+SRP1
+SRP2
+SVTCA[x-axis]
+SLOOP
+IP
+SRP1
+SHP[rp1]
+SHP[rp1]
+SRP1
+SHP[rp1]
+SRP1
+SHP[rp1]
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+AnchorPoint: "Anchor-21" 580 0 basechar 0
+AnchorPoint: "Anchor-19" 0 1840 basechar 0
+AnchorPoint: "Anchor-18" 1024 1840 basechar 0
+AnchorPoint: "Anchor-17" 1024 -380 basechar 0
+AnchorPoint: "Anchor-16" 1024 1540 basechar 0
+AnchorPoint: "Anchor-12" 580 -130 basechar 0
+AnchorPoint: "Anchor-11" 890 1260 basechar 0
+AnchorPoint: "Anchor-10" 540 1200 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+561 -20 m 0,0,1
+ 400 -20 400 -20 288 59 c 1,2,3
+ 236 -19 236 -19 201 -92 c 1,4,-1
+ 77 0 l 1,5,6
+ 149 116 149 116 186 166 c 1,7,8
+ 87 310 87 310 87 542 c 0,9,10
+ 87 815 87 815 207 958.5 c 128,-1,11
+ 327 1102 327 1102 551 1102 c 0,12,13
+ 717 1102 717 1102 826.5 1016 c 128,-1,14
+ 936 930 936 930 964 779 c 1,15,-1
+ 779 765 l 1,16,17
+ 765 855 765 855 708 908 c 128,-1,18
+ 651 961 651 961 546 961 c 0,19,20
+ 403 961 403 961 339 866 c 128,-1,21
+ 275 771 275 771 275 546 c 0,22,23
+ 275 416 275 416 309 314 c 1,24,25
+ 500 510 500 510 698 510 c 0,26,27
+ 965 510 965 510 965 281 c 0,28,29
+ 965 193 965 193 914.5 122 c 128,-1,30
+ 864 51 864 51 774.5 15.5 c 128,-1,31
+ 685 -20 685 -20 561 -20 c 0,0,1
+560 114 m 0,32,33
+ 643 114 643 114 699.5 135 c 128,-1,34
+ 756 156 756 156 786.5 190 c 128,-1,35
+ 817 224 817 224 817 265 c 0,36,37
+ 817 322 817 322 785 347 c 128,-1,38
+ 753 372 753 372 693 372 c 0,39,40
+ 610 372 610 372 528.5 320.5 c 128,-1,41
+ 447 269 447 269 383 186 c 1,42,43
+ 451 114 451 114 560 114 c 0,32,33
+EndSplineSet
+EndChar

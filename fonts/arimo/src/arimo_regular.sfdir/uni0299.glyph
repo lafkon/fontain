@@ -1,0 +1,161 @@
+
+StartChar: uni0299
+Encoding: 665 665 1104
+Width: 1088
+GlyphClass: 2
+Flags: W
+TtInstrs:
+NPUSHB
+ 20
+ 6
+ 26
+ 3
+ 26
+ 16
+ 16
+ 14
+ 30
+ 3
+ 3
+ 20
+ 10
+ 14
+ 10
+ 34
+ 35
+ 48
+ 35
+ 1
+ 35
+PUSHW_1
+ -64
+NPUSHB
+ 40
+ 30
+ 35
+ 72
+ 15
+ 35
+ 47
+ 35
+ 223
+ 35
+ 3
+ 9
+ 3
+ 6
+ 26
+ 24
+ 26
+ 24
+ 81
+ 89
+ 15
+ 26
+ 1
+ 11
+ 3
+ 26
+ 26
+ 14
+ 15
+ 15
+ 25
+ 80
+ 89
+ 15
+ 15
+ 14
+ 16
+ 80
+ 89
+ 14
+ 21
+SVTCA[y-axis]
+MIAP[rnd]
+CALL
+SVTCA[y-axis]
+RTG
+MIAP[rnd]
+CALL
+SRP1
+SRP2
+SVTCA[y-axis]
+IP
+RTG
+MDAP[rnd]
+SDS
+SDB
+DELTAP1
+CALL
+SRP1
+SRP2
+SVTCA[y-axis]
+IP
+SVTCA[x-axis]
+SDS
+SDB
+DELTAP1
+CALL
+DELTAP2
+SRP1
+SRP2
+IP
+IP
+SRP1
+SHP[rp1]
+SHP[rp1]
+SRP1
+SHP[rp1]
+SRP1
+SHP[rp1]
+SRP1
+SHP[rp1]
+SRP1
+SRP2
+IP
+IUP[x]
+IUP[y]
+EndTTInstrs
+AnchorPoint: "Anchor-21" 550 0 basechar 0
+AnchorPoint: "Anchor-19" 0 1840 basechar 0
+AnchorPoint: "Anchor-18" 1088 1840 basechar 0
+AnchorPoint: "Anchor-17" 1088 -380 basechar 0
+AnchorPoint: "Anchor-16" 1088 1540 basechar 0
+AnchorPoint: "Anchor-12" 500 -130 basechar 0
+AnchorPoint: "Anchor-11" 800 1260 basechar 0
+AnchorPoint: "Anchor-10" 500 1200 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+564 1082 m 2,0,1
+ 764 1082 764 1082 864 1012 c 128,-1,2
+ 964 942 964 942 964 811 c 0,3,4
+ 964 718 964 718 907 656 c 128,-1,5
+ 850 594 850 594 741 573 c 1,6,-1
+ 741 566 l 1,7,8
+ 870 549 870 549 934.5 484 c 128,-1,9
+ 999 419 999 419 999 312 c 0,10,11
+ 999 165 999 165 889.5 82.5 c 128,-1,12
+ 780 0 780 0 587 0 c 2,13,-1
+ 142 0 l 1,14,-1
+ 142 1082 l 1,15,-1
+ 564 1082 l 2,0,1
+322 133 m 1,16,-1
+ 558 133 l 2,17,18
+ 696 133 696 133 752 175.5 c 128,-1,19
+ 808 218 808 218 808 311 c 0,20,21
+ 808 412 808 412 748.5 453.5 c 128,-1,22
+ 689 495 689 495 546 495 c 2,23,-1
+ 322 495 l 1,24,-1
+ 322 133 l 1,16,-1
+322 945 m 1,25,-1
+ 322 625 l 1,26,-1
+ 538 625 l 2,27,28
+ 666 625 666 625 720.5 661 c 128,-1,29
+ 775 697 775 697 775 787 c 0,30,31
+ 775 869 775 869 724 907 c 128,-1,32
+ 673 945 673 945 552 945 c 2,33,-1
+ 322 945 l 1,25,-1
+EndSplineSet
+EndChar

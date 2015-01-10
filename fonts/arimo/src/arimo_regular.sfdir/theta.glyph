@@ -1,0 +1,118 @@
+
+StartChar: theta
+Encoding: 952 952 535
+Width: 1139
+GlyphClass: 2
+Flags: W
+TtInstrs:
+NPUSHB
+ 16
+ 21
+ 15
+ 15
+ 6
+ 14
+ 22
+ 22
+ 0
+ 6
+ 0
+ 25
+ 26
+ 96
+ 26
+ 1
+ 26
+PUSHW_1
+ -64
+NPUSHB
+ 28
+ 30
+ 35
+ 72
+ 15
+ 26
+ 1
+ 22
+ 3
+ 21
+ 15
+ 80
+ 89
+ 21
+ 21
+ 3
+ 8
+ 8
+ 18
+ 80
+ 89
+ 8
+ 0
+ 3
+ 11
+ 80
+ 89
+ 3
+ 22
+SVTCA[y-axis]
+MIAP[rnd]
+CALL
+SVTCA[y-axis]
+RTG
+MIAP[rnd]
+CALL
+SRP1
+SRP2
+SVTCA[y-axis]
+IP
+RTG
+MDAP[rnd]
+CALL
+SVTCA[x-axis]
+SDS
+SDB
+DELTAP1
+CALL
+DELTAP1
+SRP1
+SRP2
+IP
+IP
+SRP1
+SHP[rp1]
+SRP1
+SHP[rp1]
+SRP1
+SHP[rp1]
+SRP1
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+1033 733 m 256,0,1
+ 1033 352 1033 352 913 166 c 128,-1,2
+ 793 -20 793 -20 565 -20 c 0,3,4
+ 341 -20 341 -20 223.5 170.5 c 128,-1,5
+ 106 361 106 361 106 733 c 0,6,7
+ 106 1483 106 1483 571 1483 c 0,8,9
+ 810 1483 810 1483 921.5 1298.5 c 128,-1,10
+ 1033 1114 1033 1114 1033 733 c 256,0,1
+563 113 m 0,11,12
+ 706 113 706 113 772 249.5 c 128,-1,13
+ 838 386 838 386 843 673 c 1,14,-1
+ 296 673 l 1,15,16
+ 301 397 301 397 365.5 255 c 128,-1,17
+ 430 113 430 113 563 113 c 0,11,12
+574 1354 m 0,18,19
+ 432 1354 432 1354 367 1220.5 c 128,-1,20
+ 302 1087 302 1087 296 804 c 1,21,-1
+ 843 804 l 1,22,23
+ 838 1087 838 1087 775.5 1220.5 c 128,-1,24
+ 713 1354 713 1354 574 1354 c 0,18,19
+EndSplineSet
+Kerns2: 538 -39 "'kern' Horizontal Kerning lookup 17 subtable" 
+EndChar

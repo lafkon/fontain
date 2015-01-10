@@ -1,0 +1,146 @@
+
+StartChar: c
+Encoding: 99 99 70
+Width: 1024
+GlyphClass: 2
+Flags: W
+TtInstrs:
+NPUSHB
+ 69
+ 0
+ 13
+ 20
+ 19
+ 6
+ 7
+ 7
+ 19
+ 13
+ 3
+ 26
+ 27
+ 16
+ 23
+ 80
+ 89
+ 31
+ 20
+ 127
+ 20
+ 143
+ 20
+ 223
+ 20
+ 4
+ 20
+ 20
+ 16
+ 16
+ 32
+ 6
+ 112
+ 6
+ 128
+ 6
+ 208
+ 6
+ 224
+ 6
+ 5
+ 0
+ 6
+ 16
+ 6
+ 96
+ 6
+ 112
+ 6
+ 128
+ 6
+ 192
+ 6
+ 208
+ 6
+ 7
+ 9
+ 3
+ 6
+ 6
+ 10
+ 10
+ 3
+ 80
+ 89
+ 10
+ 22
+ 31
+ 27
+ 1
+DELTAP1
+SVTCA[y-axis]
+MIAP[rnd]
+CALL
+SRP1
+SVTCA[y-axis]
+SHP[rp1]
+RTG
+MDAP[rnd]
+SDS
+SDB
+DELTAP1
+DELTAP2
+MIAP[rnd]
+SHP[rp1]
+MDAP[rnd]
+DELTAP1
+CALL
+SRP1
+SRP2
+SVTCA[x-axis]
+SLOOP
+IP
+SRP1
+SHP[rp1]
+SRP1
+SHP[rp1]
+SRP1
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+AnchorPoint: "Anchor-22" 800 120 basechar 0
+AnchorPoint: "Anchor-21" 580 0 basechar 0
+AnchorPoint: "Anchor-20" 560 0 basechar 0
+AnchorPoint: "Anchor-19" 0 1840 basechar 0
+AnchorPoint: "Anchor-18" 1024 1840 basechar 0
+AnchorPoint: "Anchor-17" 1024 -380 basechar 0
+AnchorPoint: "Anchor-16" 1024 1540 basechar 0
+AnchorPoint: "Anchor-15" 860 800 basechar 0
+AnchorPoint: "Anchor-14" 900 900 basechar 0
+AnchorPoint: "Anchor-12" 540 -130 basechar 0
+AnchorPoint: "Anchor-11" 860 1200 basechar 0
+AnchorPoint: "Anchor-10" 540 1200 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+275 546 m 0,0,1
+ 275 330 275 330 343 226 c 128,-1,2
+ 411 122 411 122 548 122 c 0,3,4
+ 644 122 644 122 708.5 174 c 128,-1,5
+ 773 226 773 226 788 334 c 1,6,-1
+ 970 322 l 1,7,8
+ 949 166 949 166 837 73 c 128,-1,9
+ 725 -20 725 -20 553 -20 c 0,10,11
+ 326 -20 326 -20 206.5 123.5 c 128,-1,12
+ 87 267 87 267 87 542 c 0,13,14
+ 87 815 87 815 207 958.5 c 128,-1,15
+ 327 1102 327 1102 551 1102 c 0,16,17
+ 717 1102 717 1102 826.5 1016 c 128,-1,18
+ 936 930 936 930 964 779 c 1,19,-1
+ 779 765 l 1,20,21
+ 765 855 765 855 708 908 c 128,-1,22
+ 651 961 651 961 546 961 c 0,23,24
+ 403 961 403 961 339 866 c 128,-1,25
+ 275 771 275 771 275 546 c 0,0,1
+EndSplineSet
+EndChar

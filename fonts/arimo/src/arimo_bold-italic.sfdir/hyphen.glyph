@@ -1,0 +1,40 @@
+
+StartChar: hyphen
+Encoding: 45 45 16
+AltUni2: 0000ad.ffffffff.0
+Width: 682
+GlyphClass: 2
+Flags: W
+TtInstrs:
+NPUSHB
+ 9
+ 0
+ 2
+ 4
+ 5
+ 1
+ 0
+ 185
+ 89
+ 1
+SVTCA[y-axis]
+MDAP[rnd]
+CALL
+SRP1
+SRP2
+SVTCA[x-axis]
+IP
+IP
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+56 409 m 1,0,-1
+ 103 653 l 1,1,-1
+ 623 653 l 1,2,-1
+ 576 409 l 1,3,-1
+ 56 409 l 1,0,-1
+EndSplineSet
+EndChar

@@ -1,0 +1,65 @@
+
+StartChar: exclam
+Encoding: 33 33 4
+Width: 569
+GlyphClass: 2
+Flags: W
+TtInstrs:
+NPUSHB
+ 20
+ 1
+ 4
+ 4
+ 8
+ 9
+ 0
+ 1
+ 1
+ 16
+ 3
+ 1
+ 5
+ 64
+ 4
+ 5
+ 157
+ 91
+ 4
+ 2
+ 3
+SVTCA[y-axis]
+MIAP[rnd]
+MDAP[rnd]
+CALL
+SVTCA[y-axis]
+SMD
+RTG
+SRP0
+MDRP[min,rnd,white]
+SDS
+SDB
+DELTAP1
+SRP1
+SRP2
+SVTCA[x-axis]
+IP
+SRP1
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+329 397 m 1,0,-1
+ 181 397 l 1,1,-1
+ 353 1409 l 1,2,-1
+ 549 1409 l 1,3,-1
+ 329 397 l 1,0,-1
+77 0 m 1,4,-1
+ 117 201 l 1,5,-1
+ 311 201 l 1,6,-1
+ 271 0 l 1,7,-1
+ 77 0 l 1,4,-1
+EndSplineSet
+EndChar

@@ -1,0 +1,77 @@
+
+StartChar: cedilla
+Encoding: 184 184 219
+Width: 682
+GlyphClass: 2
+Flags: W
+TtInstrs:
+NPUSHB
+ 24
+ 12
+ 13
+ 15
+ 14
+ 4
+ 2
+ 8
+ 18
+ 2
+ 18
+ 21
+ 22
+ 12
+ 15
+ 5
+ 13
+ 0
+ 5
+ 146
+ 89
+ 0
+ 80
+ 22
+ 1
+DELTAP1
+SVTCA[y-axis]
+MDAP[rnd]
+CALL
+SVTCA[y-axis]
+RTG
+MDAP[rnd]
+SRP2
+IP
+IP
+SRP1
+SRP2
+SVTCA[x-axis]
+IP
+IP
+SRP1
+SHP[rp1]
+SRP2
+SLOOP
+IP
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+194 -425 m 0,0,1
+ 144 -425 144 -425 88 -419 c 1,2,-1
+ 117 -302 l 1,3,4
+ 159 -309 159 -309 199 -309 c 0,5,6
+ 280 -309 280 -309 317 -291.5 c 128,-1,7
+ 354 -274 354 -274 354 -232 c 0,8,9
+ 354 -169 354 -169 244 -169 c 2,10,-1
+ 219 -169 l 1,11,-1
+ 191 -171 l 1,12,-1
+ 289 0 l 1,13,-1
+ 430 0 l 1,14,-1
+ 382 -83 l 1,15,16
+ 452 -84 452 -84 495.5 -116.5 c 128,-1,17
+ 539 -149 539 -149 539 -215 c 0,18,19
+ 539 -312 539 -312 455 -368.5 c 128,-1,20
+ 371 -425 371 -425 194 -425 c 0,0,1
+EndSplineSet
+EndChar

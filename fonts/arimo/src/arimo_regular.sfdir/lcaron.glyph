@@ -1,0 +1,61 @@
+
+StartChar: lcaron
+Encoding: 318 318 271
+Width: 597
+GlyphClass: 2
+Flags: W
+TtInstrs:
+NPUSHB
+ 20
+ 79
+ 15
+ 1
+ 47
+ 15
+ 159
+ 15
+ 223
+ 15
+ 3
+ 112
+ 15
+ 128
+ 15
+ 2
+ 1
+ 12
+ 0
+ 1
+ 8
+PUSHW_1
+ 288
+PUSHB_5
+ 8
+ 4
+ 0
+ 2
+ 37
+CALL
+SRP1
+SHC[rp1]
+SVTCA[y-axis]
+MIAP[rnd]
+SHC[rp1]
+SVTCA[x-axis]
+DELTAP1
+DELTAP1
+DELTAP2
+EndTTInstrs
+AnchorPoint: "Anchor-21" 160 0 basechar 0
+AnchorPoint: "Anchor-19" 0 1840 basechar 0
+AnchorPoint: "Anchor-18" 597 1840 basechar 0
+AnchorPoint: "Anchor-17" 730 -380 basechar 0
+AnchorPoint: "Anchor-16" 597 1540 basechar 0
+AnchorPoint: "Anchor-12" 240 -130 basechar 0
+AnchorPoint: "Anchor-11" 620 1540 basechar 0
+AnchorPoint: "Anchor-10" 230 1580 basechar 0
+LayerCount: 2
+Fore
+Refer: 79 108 N 1 0 0 1 0 0 2
+Refer: 658 -1 N 1 0 0 1 292 75 2
+EndChar

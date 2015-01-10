@@ -1,0 +1,64 @@
+
+StartChar: undercommaaccent
+Encoding: 61445 61445 492
+Width: 682
+GlyphClass: 2
+Flags: W
+TtInstrs:
+NPUSHB
+ 18
+ 14
+ 3
+ 8
+ 19
+ 3
+ 3
+ 22
+ 21
+ 6
+ 11
+ 146
+ 89
+ 6
+ 0
+ 16
+ 146
+ 89
+ 0
+SVTCA[y-axis]
+MDAP[rnd]
+CALL
+SVTCA[y-axis]
+RTG
+MDAP[rnd]
+CALL
+SRP1
+SRP2
+SVTCA[x-axis]
+SLOOP
+IP
+SRP1
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+370 -58 m 0,0,1
+ 450 -58 450 -58 494 -100 c 128,-1,2
+ 538 -142 538 -142 538 -208 c 0,3,4
+ 538 -318 538 -318 454.5 -371.5 c 128,-1,5
+ 371 -425 371 -425 193 -425 c 0,6,7
+ 147 -425 147 -425 93 -419 c 1,8,-1
+ 116 -301 l 1,9,10
+ 150 -308 150 -308 199 -308 c 0,11,12
+ 281 -308 281 -308 316 -288.5 c 128,-1,13
+ 351 -269 351 -269 351 -231 c 0,14,15
+ 351 -170 351 -170 249 -170 c 2,16,-1
+ 224 -170 l 1,17,-1
+ 198 -172 l 1,18,-1
+ 257 -63 l 1,19,20
+ 310 -58 310 -58 370 -58 c 0,0,1
+EndSplineSet
+EndChar

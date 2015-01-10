@@ -1,0 +1,132 @@
+
+StartChar: uni028A
+Encoding: 650 650 1089
+Width: 1164
+GlyphClass: 2
+Flags: W
+TtInstrs:
+NPUSHB
+ 41
+ 36
+ 27
+ 17
+ 8
+ 40
+ 31
+ 8
+ 31
+ 45
+ 21
+ 12
+ 3
+ 45
+ 3
+ 49
+ 48
+ 34
+ 37
+ 80
+ 89
+ 34
+ 15
+ 27
+ 21
+ 40
+ 8
+ 4
+ 13
+ 0
+ 13
+ 12
+ 80
+ 89
+ 13
+ 15
+ 0
+ 24
+ 80
+ 89
+ 0
+ 22
+SVTCA[y-axis]
+MIAP[rnd]
+CALL
+SVTCA[y-axis]
+RTG
+MIAP[rnd]
+CALL
+SRP1
+SRP2
+SVTCA[y-axis]
+SLOOP
+IP
+RTG
+MIAP[rnd]
+CALL
+SRP1
+SRP2
+SVTCA[x-axis]
+IP
+IP
+SRP1
+SHP[rp1]
+SHP[rp1]
+SRP2
+IP
+IP
+SRP1
+SHP[rp1]
+SRP1
+SHP[rp1]
+SHP[rp2]
+SHP[rp2]
+IUP[x]
+IUP[y]
+EndTTInstrs
+AnchorPoint: "Anchor-21" 671 0 basechar 0
+AnchorPoint: "Anchor-19" 0 1840 basechar 0
+AnchorPoint: "Anchor-18" 1164 1840 basechar 0
+AnchorPoint: "Anchor-17" 1164 -380 basechar 0
+AnchorPoint: "Anchor-16" 1164 1540 basechar 0
+AnchorPoint: "Anchor-14" 1068 1100 basechar 0
+AnchorPoint: "Anchor-12" 600 -130 basechar 0
+AnchorPoint: "Anchor-11" 1030 1260 basechar 0
+AnchorPoint: "Anchor-10" 580 1200 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+581 -20 m 0,0,1
+ 356 -20 356 -20 220 108 c 128,-1,2
+ 84 236 84 236 84 448 c 0,3,4
+ 84 588 84 588 168 706 c 0,5,6
+ 219 778 219 778 235.5 810 c 128,-1,7
+ 252 842 252 842 252 870 c 0,8,9
+ 252 901 252 901 230.5 922 c 128,-1,10
+ 209 943 209 943 166 943 c 2,11,-1
+ 84 943 l 1,12,-1
+ 84 1082 l 1,13,-1
+ 208 1082 l 2,14,15
+ 297 1082 297 1082 351.5 1030.5 c 128,-1,16
+ 406 979 406 979 406 892 c 0,17,18
+ 406 797 406 797 339 681 c 0,19,20
+ 271 565 271 565 271 472 c 0,21,22
+ 271 313 271 313 354.5 218 c 128,-1,23
+ 438 123 438 123 581 123 c 0,24,25
+ 723 123 723 123 807 218 c 128,-1,26
+ 891 313 891 313 891 472 c 0,27,28
+ 891 565 891 565 824 681 c 0,29,30
+ 756 797 756 797 756 892 c 0,31,32
+ 756 980 756 980 811 1031 c 128,-1,33
+ 866 1082 866 1082 954 1082 c 2,34,-1
+ 1078 1082 l 1,35,-1
+ 1078 943 l 1,36,-1
+ 996 943 l 2,37,38
+ 953 943 953 943 931.5 922 c 128,-1,39
+ 910 901 910 901 910 870 c 0,40,41
+ 910 841 910 841 926 810 c 128,-1,42
+ 942 779 942 779 994 706 c 0,43,44
+ 1078 588 1078 588 1078 448 c 0,45,46
+ 1078 239 1078 239 943 109.5 c 128,-1,47
+ 808 -20 808 -20 581 -20 c 0,0,1
+EndSplineSet
+EndChar

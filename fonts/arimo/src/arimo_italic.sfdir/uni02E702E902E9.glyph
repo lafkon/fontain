@@ -1,0 +1,64 @@
+
+StartChar: uni02E702E902E9
+Encoding: 65685 -1 1261
+Width: 1111
+GlyphClass: 2
+Flags: W
+TtInstrs:
+NPUSHB
+ 15
+ 5
+ 0
+ 0
+ 1
+ 2
+ 3
+ 8
+ 9
+ 3
+ 3
+ 1
+ 6
+ 3
+ 1
+ 4
+PUSHW_1
+ 275
+PUSHB_3
+ 89
+ 1
+ 18
+SVTCA[y-axis]
+MIAP[rnd]
+CALL
+SVTCA[y-axis]
+RTG
+MIAP[rnd]
+SRP2
+IP
+MDAP[rnd]
+SRP1
+SRP2
+SVTCA[x-axis]
+SLOOP
+IP
+SRP1
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+951 0 m 1,0,-1
+ 487 0 l 1,1,-1
+ 56 729 l 1,2,-1
+ 167 804 l 1,3,-1
+ 564 136 l 1,4,-1
+ 815 136 l 1,5,-1
+ 815 1409 l 1,6,-1
+ 951 1409 l 1,7,-1
+ 951 0 l 1,0,-1
+EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 3 subtable" uni02E7 uni02E9 uni02E9
+EndChar

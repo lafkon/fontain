@@ -1,0 +1,95 @@
+
+StartChar: uni042A
+Encoding: 1066 1066 594
+Width: 1749
+GlyphClass: 2
+Flags: W
+TtInstrs:
+NPUSHB
+ 32
+ 12
+ 13
+ 13
+ 7
+ 17
+ 3
+ 7
+ 9
+ 3
+ 3
+ 23
+ 22
+ 12
+ 21
+ 95
+ 89
+ 12
+ 12
+ 13
+ 11
+ 7
+ 13
+ 95
+ 89
+ 7
+ 18
+ 11
+ 8
+ 95
+ 89
+ 11
+ 3
+SVTCA[y-axis]
+MIAP[rnd]
+CALL
+SVTCA[y-axis]
+RTG
+MIAP[rnd]
+CALL
+SRP1
+SRP2
+SVTCA[y-axis]
+IP
+RTG
+MDAP[rnd]
+CALL
+SRP1
+SRP2
+SVTCA[x-axis]
+SLOOP
+IP
+SRP1
+SHP[rp1]
+SRP1
+SHP[rp1]
+SRP1
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+1168 848 m 2,0,1
+ 1400 848 1400 848 1534.5 744.5 c 128,-1,2
+ 1669 641 1669 641 1669 462 c 0,3,4
+ 1669 241 1669 241 1507 120.5 c 128,-1,5
+ 1345 0 1345 0 1055 0 c 2,6,-1
+ 375 0 l 1,7,-1
+ 604 1181 l 1,8,-1
+ 149 1181 l 1,9,-1
+ 193 1409 l 1,10,-1
+ 943 1409 l 1,11,-1
+ 834 848 l 1,12,-1
+ 1168 848 l 2,0,1
+714 230 m 1,13,-1
+ 1065 230 l 2,14,15
+ 1210 230 1210 230 1287.5 285 c 128,-1,16
+ 1365 340 1365 340 1365 441 c 0,17,18
+ 1365 530 1365 530 1303 575.5 c 128,-1,19
+ 1241 621 1241 621 1104 621 c 2,20,-1
+ 790 621 l 1,21,-1
+ 714 230 l 1,13,-1
+EndSplineSet
+Kerns2: 599 -51 "'kern' Horizontal Kerning lookup 17 subtable"  181 -205 "'kern' Horizontal Kerning lookup 17 subtable" 
+EndChar

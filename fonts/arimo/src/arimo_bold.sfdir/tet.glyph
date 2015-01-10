@@ -1,0 +1,93 @@
+
+StartChar: tet
+Encoding: 1496 1496 2501
+Width: 1409
+GlyphClass: 2
+Flags: W
+TtInstrs:
+NPUSHB
+ 12
+ 6
+ 3
+ 13
+ 24
+ 24
+ 18
+ 3
+ 3
+ 27
+ 28
+ 21
+ 16
+NPUSHW
+ 12
+ 320
+ 89
+ 21
+ 312
+ 4
+ 313
+ 0
+ 9
+ 320
+ 89
+ 0
+ 315
+SVTCA[y-axis]
+MIAP[rnd]
+CALL
+SVTCA[y-axis]
+RTG
+MIAP[rnd]
+MIAP[rnd]
+CALL
+SRP1
+SRP2
+SVTCA[x-axis]
+SLOOP
+IP
+SRP1
+SHP[rp1]
+SRP1
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+AnchorPoint: "Anchor-27" 700 0 basechar 0
+AnchorPoint: "Anchor-26" 680 1350 basechar 0
+AnchorPoint: "Anchor-25" 700 0 basechar 0
+AnchorPoint: "Anchor-24" 1240 1430 basechar 0
+AnchorPoint: "Anchor-9" 1020 0 basechar 0
+AnchorPoint: "Anchor-8" 1120 1350 basechar 0
+AnchorPoint: "Anchor-7" 240 1350 basechar 0
+AnchorPoint: "Anchor-6" 700 0 basechar 0
+AnchorPoint: "Anchor-5" 700 0 basechar 0
+AnchorPoint: "Anchor-4" 680 1700 basechar 0
+AnchorPoint: "Anchor-3" 680 1350 basechar 0
+AnchorPoint: "Anchor-0" 60 1430 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+700 -20 m 0,0,1
+ 424 -20 424 -20 294 108.5 c 128,-1,2
+ 164 237 164 237 164 504 c 2,3,-1
+ 164 1241 l 1,4,-1
+ 434 1241 l 1,5,-1
+ 434 510 l 2,6,7
+ 434 361 434 361 498 292 c 128,-1,8
+ 562 223 562 223 702 223 c 0,9,10
+ 818 223 818 223 887.5 268.5 c 128,-1,11
+ 957 314 957 314 988.5 407 c 128,-1,12
+ 1020 500 1020 500 1020 674 c 0,13,14
+ 1020 847 1020 847 981 932.5 c 128,-1,15
+ 942 1018 942 1018 852 1018 c 0,16,17
+ 764 1018 764 1018 670 961 c 1,18,-1
+ 670 1206 l 1,19,20
+ 763 1262 763 1262 897 1262 c 0,21,22
+ 1111 1262 1111 1262 1204.5 1122.5 c 128,-1,23
+ 1298 983 1298 983 1298 676 c 0,24,25
+ 1298 314 1298 314 1154.5 147 c 128,-1,26
+ 1011 -20 1011 -20 700 -20 c 0,0,1
+EndSplineSet
+PairPos2: "'kern' Horizontal Kerning in Hebrew lookup 0 subtable" gimel dx=-41 dy=0 dh=-41 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar

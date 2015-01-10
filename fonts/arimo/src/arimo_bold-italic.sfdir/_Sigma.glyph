@@ -1,0 +1,97 @@
+
+StartChar: Sigma
+Encoding: 931 931 518
+Width: 1209
+GlyphClass: 2
+Flags: W
+TtInstrs:
+NPUSHB
+ 36
+ 7
+ 3
+ 2
+ 8
+ 11
+ 8
+ 3
+ 3
+ 5
+ 5
+ 14
+ 0
+ 10
+ 13
+ 8
+ 9
+ 2
+ 3
+ 0
+ 4
+ 3
+ 7
+ 4
+ 7
+ 95
+ 89
+ 4
+ 3
+ 1
+ 10
+ 0
+ 10
+ 95
+ 89
+ 0
+ 18
+SVTCA[y-axis]
+MIAP[rnd]
+CALL
+SRP1
+SVTCA[y-axis]
+SHP[rp1]
+RTG
+MIAP[rnd]
+CALL
+SRP1
+SVTCA[y-axis]
+SHP[rp1]
+SRP1
+SRP2
+SLOOP
+IP
+SRP1
+SVTCA[x-axis]
+SHP[rp1]
+SHP[rp1]
+SRP1
+SHP[rp1]
+SRP1
+SLOOP
+IP
+SRP1
+SHP[rp1]
+SRP1
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+-47 0 m 1,0,-1
+ 3 251 l 1,1,-1
+ 548 758 l 1,2,-1
+ 202 1193 l 1,3,-1
+ 243 1409 l 1,4,-1
+ 1242 1409 l 1,5,-1
+ 1198 1181 l 1,6,-1
+ 501 1181 l 1,7,-1
+ 800 808 l 1,8,-1
+ 773 674 l 1,9,-1
+ 293 228 l 1,10,-1
+ 1074 228 l 1,11,-1
+ 1029 0 l 1,12,-1
+ -47 0 l 1,0,-1
+EndSplineSet
+Kerns2: 305 -49 "'kern' Horizontal Kerning lookup 17 subtable" 
+EndChar

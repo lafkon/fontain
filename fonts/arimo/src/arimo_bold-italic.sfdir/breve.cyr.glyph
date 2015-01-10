@@ -1,0 +1,54 @@
+
+StartChar: breve.cyr
+Encoding: 65540 -1 657
+Width: 682
+GlyphClass: 2
+Flags: W
+TtInstrs:
+NPUSHB
+ 13
+ 3
+ 10
+ 13
+ 10
+ 14
+ 4
+ 9
+ 0
+ 0
+ 7
+ 147
+ 89
+ 0
+SVTCA[y-axis]
+MDAP[rnd]
+CALL
+SVTCA[y-axis]
+RTG
+SRP0
+MDRP[rp0,rnd,grey]
+MDRP[rnd,white]
+SRP1
+SVTCA[x-axis]
+SHP[rp1]
+SRP1
+SRP2
+IP
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+411 1184 m 0,0,1
+ 269 1184 269 1184 176.5 1248 c 128,-1,2
+ 84 1312 84 1312 30 1443 c 1,3,-1
+ 223 1517 l 1,4,5
+ 267 1414 267 1414 320.5 1371.5 c 128,-1,6
+ 374 1329 374 1329 445 1329 c 0,7,8
+ 628 1329 628 1329 719 1533 c 1,9,-1
+ 831 1484 l 1,10,11
+ 771 1335 771 1335 664.5 1259.5 c 128,-1,12
+ 558 1184 558 1184 411 1184 c 0,0,1
+EndSplineSet
+EndChar

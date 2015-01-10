@@ -1,0 +1,56 @@
+
+StartChar: commaaccent
+Encoding: 65539 -1 652
+Width: 682
+GlyphClass: 2
+Flags: W
+TtInstrs:
+NPUSHB
+ 16
+ 6
+ 5
+ 1
+ 5
+ 10
+ 11
+ 4
+ 4
+ 111
+ 0
+ 127
+ 0
+ 2
+ 0
+ 5
+ 10
+SVTCA[y-axis]
+SRP0
+MDRP[rp0,min,rnd,white]
+MDRP[min,rnd,grey]
+DELTAP1
+IP
+MDAP[rnd]
+SRP1
+SRP2
+SVTCA[x-axis]
+IP
+IP
+SRP1
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+205 -455 m 1,0,-1
+ 88 -455 l 1,1,2
+ 202 -354 202 -354 219 -265 c 1,3,-1
+ 131 -265 l 1,4,-1
+ 163 -98 l 1,5,-1
+ 358 -98 l 1,6,-1
+ 338 -204 l 2,7,8
+ 321 -291 321 -291 287.5 -349.5 c 128,-1,9
+ 254 -408 254 -408 205 -455 c 1,0,-1
+EndSplineSet
+EndChar

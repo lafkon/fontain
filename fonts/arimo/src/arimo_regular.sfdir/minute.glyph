@@ -1,0 +1,45 @@
+
+StartChar: minute
+Encoding: 8242 8242 396
+Width: 384
+GlyphClass: 2
+Flags: W
+TtInstrs:
+NPUSHB
+ 11
+ 1
+ 2
+ 3
+ 0
+ 2
+ 0
+ 5
+ 4
+ 0
+ 1
+ 3
+SVTCA[y-axis]
+MIAP[rnd]
+MDRP[min,rnd,black]
+SRP1
+SRP2
+SVTCA[x-axis]
+IP
+IP
+SRP1
+SHP[rp1]
+SRP1
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+85 890 m 1,0,-1
+ 149 1409 l 1,1,-1
+ 345 1409 l 1,2,-1
+ 187 890 l 1,3,-1
+ 85 890 l 1,0,-1
+EndSplineSet
+EndChar

@@ -1,0 +1,50 @@
+
+StartChar: ydieresis
+Encoding: 255 255 184
+Width: 1024
+GlyphClass: 2
+Flags: W
+TtInstrs:
+NPUSHB
+ 9
+ 2
+ 1
+ 23
+ 23
+ 17
+ 38
+ 2
+ 1
+ 27
+PUSHW_1
+ -2
+PUSHB_5
+ 27
+ 25
+ 9
+ 18
+ 37
+CALL
+SRP1
+SHC[rp1]
+SHC[rp1]
+SVTCA[y-axis]
+CALL
+SRP1
+SHC[rp1]
+SHC[rp1]
+EndTTInstrs
+AnchorPoint: "Anchor-21" 200 -400 basechar 0
+AnchorPoint: "Anchor-19" 0 1840 basechar 0
+AnchorPoint: "Anchor-18" 1024 1840 basechar 0
+AnchorPoint: "Anchor-17" 1024 -380 basechar 0
+AnchorPoint: "Anchor-16" 1024 1540 basechar 0
+AnchorPoint: "Anchor-14" 940 1100 basechar 0
+AnchorPoint: "Anchor-12" 400 -540 basechar 0
+AnchorPoint: "Anchor-11" 1000 1260 basechar 0
+AnchorPoint: "Anchor-10" 520 1580 basechar 0
+LayerCount: 2
+Fore
+Refer: 92 121 N 1 0 0 1 0 0 3
+Refer: 142 168 N 1 0 0 1 187 0 2
+EndChar

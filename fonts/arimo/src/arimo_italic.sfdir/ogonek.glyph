@@ -1,0 +1,75 @@
+
+StartChar: ogonek
+Encoding: 731 731 221
+Width: 682
+GlyphClass: 2
+Flags: W
+TtInstrs:
+NPUSHB
+ 26
+ 10
+ 3
+ 6
+ 7
+ 7
+ 15
+ 3
+ 3
+ 18
+ 19
+ 15
+ 6
+ 31
+ 6
+ 2
+ 9
+ 3
+ 6
+ 0
+ 13
+ 140
+ 89
+ 32
+ 0
+ 1
+ 0
+SVTCA[y-axis]
+MDAP[rnd]
+DELTAP1
+CALL
+SVTCA[y-axis]
+RTG
+MDAP[rnd]
+SDS
+SDB
+DELTAP1
+SRP1
+SRP2
+SVTCA[x-axis]
+SLOOP
+IP
+SRP1
+SHP[rp1]
+SRP1
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+249 -427 m 0,0,1
+ 161 -427 161 -427 116 -380 c 128,-1,2
+ 71 -333 71 -333 71 -259 c 0,3,4
+ 71 -176 71 -176 128 -105.5 c 128,-1,5
+ 185 -35 185 -35 276 0 c 1,6,-1
+ 409 0 l 1,7,8
+ 316 -48 316 -48 266 -110.5 c 128,-1,9
+ 216 -173 216 -173 216 -236 c 0,10,11
+ 216 -270 216 -270 236 -293.5 c 128,-1,12
+ 256 -317 256 -317 294 -317 c 0,13,14
+ 348 -317 348 -317 408 -295 c 1,15,-1
+ 393 -400 l 1,16,17
+ 326 -427 326 -427 249 -427 c 0,0,1
+EndSplineSet
+EndChar
