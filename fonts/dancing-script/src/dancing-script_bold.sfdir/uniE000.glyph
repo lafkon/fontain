@@ -1,0 +1,30 @@
+
+StartChar: uniE000
+Encoding: 57344 57344 223
+Width: 330
+GlyphClass: 2
+Flags: W
+TtInstrs:
+PUSHW_1
+ 22
+CALL
+SVTCA[y-axis]
+PUSHW_1
+ 0
+MDAP[rnd]
+PUSHW_1
+ 2
+MDAP[rnd]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+0 330 m 1,0,-1
+ 330 330 l 1,1,-1
+ 330 0 l 1,2,-1
+ 0 0 l 1,3,-1
+ 0 330 l 1,0,-1
+EndSplineSet
+EndChar

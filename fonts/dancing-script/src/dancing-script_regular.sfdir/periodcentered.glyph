@@ -1,0 +1,47 @@
+
+StartChar: periodcentered
+Encoding: 183 183 119
+Width: 209
+GlyphClass: 2
+Flags: W
+TtInstrs:
+SVTCA[y-axis]
+PUSHB_1
+ 8
+MDAP[rnd]
+PUSHB_2
+ 3
+ 14
+MIRP[min,black]
+SVTCA[x-axis]
+PUSHB_1
+ 10
+MDAP[rnd]
+PUSHB_1
+ 0
+MDRP[rp0,rnd,white]
+PUSHB_2
+ 5
+ 27
+MIRP[min,black]
+PUSHB_2
+ 11
+ 1
+CALL
+SVTCA[y-axis]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+38 151 m 0,0,1
+ 38 167 38 167 57 179.5 c 128,-1,2
+ 76 192 76 192 96 192 c 0,3,4
+ 122 192 122 192 122 168 c 0,5,6
+ 122 153 122 153 105.5 138.5 c 128,-1,7
+ 89 124 89 124 70 124 c 0,8,9
+ 38 124 38 124 38 151 c 0,0,1
+EndSplineSet
+Kerns2: 28 -22 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 
+EndChar

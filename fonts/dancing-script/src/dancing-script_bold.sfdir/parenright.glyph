@@ -1,0 +1,50 @@
+
+StartChar: parenright
+Encoding: 41 41 12
+Width: 315
+GlyphClass: 2
+Flags: W
+TtInstrs:
+SVTCA[y-axis]
+PUSHB_3
+ 6
+ 2
+ 0
+CALL
+SVTCA[x-axis]
+PUSHB_1
+ 17
+MDAP[rnd]
+PUSHB_1
+ 3
+MDRP[rp0,rnd,white]
+PUSHB_2
+ 9
+ 19
+MIRP[min,black]
+PUSHB_2
+ 18
+ 1
+CALL
+SVTCA[y-axis]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+-34 -53 m 1,0,1
+ 82 24 82 24 155 155 c 128,-1,2
+ 228 286 228 286 228 454 c 0,3,4
+ 228 529 228 529 209.5 593.5 c 128,-1,5
+ 191 658 191 658 139 725 c 1,6,7
+ 196 710 196 710 245.5 630 c 128,-1,8
+ 295 550 295 550 295 433 c 0,9,10
+ 295 348 295 348 272 264.5 c 128,-1,11
+ 249 181 249 181 214 119.5 c 128,-1,12
+ 179 58 179 58 138.5 10 c 128,-1,13
+ 98 -38 98 -38 61.5 -62.5 c 128,-1,14
+ 25 -87 25 -87 0 -87 c 0,15,16
+ -14 -87 -14 -87 -34 -53 c 1,0,1
+EndSplineSet
+EndChar

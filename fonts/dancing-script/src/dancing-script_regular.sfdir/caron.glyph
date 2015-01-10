@@ -1,0 +1,54 @@
+
+StartChar: caron
+Encoding: 711 711 202
+Width: 203
+GlyphClass: 2
+Flags: W
+TtInstrs:
+SVTCA[y-axis]
+PUSHB_1
+ 11
+MDAP[rnd]
+PUSHB_5
+ 2
+ 14
+ 0
+ 15
+ 4
+CALL
+SVTCA[x-axis]
+PUSHB_1
+ 13
+MDAP[rnd]
+PUSHB_1
+ 0
+MDRP[rp0,rnd,white]
+PUSHB_5
+ 8
+ 27
+ 0
+ 10
+ 4
+CALL
+PUSHB_2
+ 14
+ 1
+CALL
+SVTCA[y-axis]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+0 517 m 0,0,1
+ 0 540 0 540 17 548 c 1,2,3
+ 38 505 38 505 91 456 c 1,4,5
+ 158 480 158 480 194 513 c 1,6,7
+ 204 507 204 507 204 494 c 0,8,9
+ 204 467 204 467 159 436.5 c 128,-1,10
+ 114 406 114 406 90 406 c 128,-1,11
+ 66 406 66 406 33 445.5 c 128,-1,12
+ 0 485 0 485 0 517 c 0,0,1
+EndSplineSet
+EndChar

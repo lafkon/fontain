@@ -1,0 +1,53 @@
+
+StartChar: period
+Encoding: 46 46 17
+Width: 242
+GlyphClass: 2
+Flags: W
+TtInstrs:
+SVTCA[y-axis]
+PUSHB_3
+ 8
+ 1
+ 0
+CALL
+PUSHB_5
+ 3
+ 14
+ 0
+ 22
+ 4
+CALL
+SVTCA[x-axis]
+PUSHB_1
+ 11
+MDAP[rnd]
+PUSHB_1
+ 0
+MDRP[rp0,rnd,white]
+PUSHB_2
+ 5
+ 27
+MIRP[min,black]
+PUSHB_2
+ 12
+ 1
+CALL
+SVTCA[y-axis]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+28 28 m 0,0,1
+ 28 45 28 45 49.5 63 c 128,-1,2
+ 71 81 71 81 91 81 c 0,3,4
+ 124 81 124 81 124 50 c 0,5,6
+ 124 34 124 34 109.5 12 c 128,-1,7
+ 95 -10 95 -10 72 -10 c 0,8,9
+ 50 -10 50 -10 39 1.5 c 128,-1,10
+ 28 13 28 13 28 28 c 0,0,1
+EndSplineSet
+Kerns2: 176 -10 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  159 -10 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  91 -11 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  85 -11 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  78 -10 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  77 -10 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  75 -10 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  71 -10 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  55 -15 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  28 -17 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  26 -10 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  23 -23 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 
+EndChar

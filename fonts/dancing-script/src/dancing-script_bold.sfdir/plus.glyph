@@ -1,0 +1,87 @@
+
+StartChar: plus
+Encoding: 43 43 14
+Width: 441
+GlyphClass: 2
+Flags: W
+TtInstrs:
+SVTCA[y-axis]
+PUSHB_3
+ 15
+ 1
+ 0
+CALL
+PUSHB_1
+ 17
+MDAP[rnd]
+PUSHB_1
+ 11
+SHP[rp1]
+PUSHB_2
+ 2
+ 9
+MIRP[min,black]
+PUSHB_1
+ 7
+SHP[rp2]
+PUSHB_3
+ 17
+ 2
+ 10
+CALL
+PUSHB_4
+ 64
+ 17
+ 0
+ 9
+CALL
+SVTCA[x-axis]
+PUSHB_1
+ 19
+MDAP[rnd]
+PUSHB_1
+ 2
+MDRP[rp0,rnd,white]
+PUSHB_1
+ 15
+SHP[rp2]
+PUSHB_2
+ 7
+ 17
+MIRP[min,black]
+PUSHB_1
+ 12
+SHP[rp2]
+PUSHB_5
+ 5
+ 16
+ 0
+ 125
+ 4
+CALL
+PUSHB_2
+ 20
+ 1
+CALL
+SVTCA[y-axis]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+13 136 m 1,0,1
+ 33 196 33 196 177 199 c 1,2,-1
+ 177 240 l 2,3,4
+ 177 297 177 297 216 356 c 1,5,6
+ 228 260 228 260 230 199 c 1,7,8
+ 300 198 300 198 408 189 c 1,9,10
+ 350 148 350 148 282 148 c 2,11,-1
+ 231 148 l 1,12,13
+ 230 77 230 77 217.5 37 c 128,-1,14
+ 205 -3 205 -3 171 -7 c 1,15,16
+ 179 58 179 58 179 148 c 1,17,18
+ 96 148 96 148 13 136 c 1,0,1
+EndSplineSet
+Kerns2: 28 -29 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  26 -10 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 
+EndChar

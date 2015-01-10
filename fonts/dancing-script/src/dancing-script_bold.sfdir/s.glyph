@@ -1,0 +1,148 @@
+
+StartChar: s
+Encoding: 115 115 86
+Width: 351
+GlyphClass: 2
+Flags: W
+TtInstrs:
+SVTCA[y-axis]
+PUSHB_3
+ 33
+ 1
+ 0
+CALL
+PUSHB_2
+ 27
+ 7
+MIRP[min,black]
+SVTCA[x-axis]
+PUSHB_1
+ 52
+MDAP[rnd]
+PUSHB_1
+ 0
+MDRP[rp0,rnd,white]
+PUSHB_2
+ 30
+ 18
+MIRP[min,black]
+PUSHB_1
+ 30
+SRP0
+PUSHB_2
+ 45
+ 1
+CALL
+PUSHB_2
+ 17
+ 22
+MIRP[min,black]
+PUSHB_4
+ 14
+ 17
+ 45
+ 8
+CALL
+PUSHB_2
+ 6
+ 19
+MIRP[min,black]
+PUSHB_1
+ 6
+MDAP[rnd]
+PUSHB_2
+ 14
+ 19
+MIRP[min,black]
+PUSHB_1
+ 11
+SHP[rp2]
+PUSHB_2
+ 53
+ 1
+CALL
+PUSHB_2
+ 6
+ 30
+SRP1
+SRP2
+PUSHB_5
+ 3
+ 27
+ 33
+ 38
+ 40
+DEPTH
+SLOOP
+IP
+PUSHB_1
+ 45
+SRP1
+PUSHB_3
+ 35
+ 43
+ 50
+IP
+IP
+IP
+PUSHB_1
+ 14
+SRP2
+PUSHB_1
+ 9
+IP
+PUSHB_1
+ 17
+SRP1
+PUSHB_2
+ 19
+ 24
+IP
+IP
+SVTCA[y-axis]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+-20 86 m 0,0,1
+ -20 121 -20 121 -7.5 139 c 128,-1,2
+ 5 157 5 157 24.5 165 c 128,-1,3
+ 44 173 44 173 46 175 c 0,4,5
+ 110 241 110 241 143 312 c 1,6,-1
+ 143 322 l 2,7,8
+ 143 395 143 395 188 395 c 0,9,10
+ 210 395 210 395 212 375 c 0,11,12
+ 212 372 212 372 209.5 360.5 c 128,-1,13
+ 207 349 207 349 207 339 c 0,14,15
+ 207 312 207 312 236 230.5 c 128,-1,16
+ 265 149 265 149 265 101 c 0,17,18
+ 265 84 265 84 261 60 c 1,19,20
+ 329 77 329 77 379 173 c 1,21,-1
+ 391 164 l 1,22,23
+ 350 45 350 45 252 30 c 1,24,25
+ 236 -10 236 -10 200 -30.5 c 128,-1,26
+ 164 -51 164 -51 117 -51 c 0,27,28
+ 47 -51 47 -51 13.5 -10.5 c 128,-1,29
+ -20 30 -20 30 -20 86 c 0,0,1
+35 84 m 0,30,31
+ 35 48 35 48 55 20.5 c 128,-1,32
+ 75 -7 75 -7 110 -7 c 0,33,34
+ 154 -7 154 -7 174 32 c 1,35,36
+ 135 40 135 40 102 62.5 c 128,-1,37
+ 69 85 69 85 49 111 c 1,38,39
+ 35 108 35 108 35 84 c 0,30,31
+64 147 m 1,40,41
+ 81 118 81 118 112 94.5 c 128,-1,42
+ 143 71 143 71 182 62 c 1,43,44
+ 185 71 185 71 185 93 c 0,45,46
+ 185 114 185 114 181 139.5 c 128,-1,47
+ 177 165 177 165 174 179.5 c 128,-1,48
+ 171 194 171 194 162 228.5 c 128,-1,49
+ 153 263 153 263 151 272 c 1,50,51
+ 102 187 102 187 64 147 c 1,40,41
+EndSplineSet
+Kerns2: 206 1 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  205 11 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  63 -20 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 
+Substitution2: "'fina' Terminal Forms in Latin lookup 5 subtable" s.salt
+EndChar
