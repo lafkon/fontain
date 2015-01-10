@@ -1,0 +1,28 @@
+
+StartChar: two
+Encoding: 50 50 130
+Width: 500
+Flags: MW
+HStem: 0 180<240 480 240 480> 650 165<238.5 261.5>
+VStem: 20 200<510 585 585 610 510 647.5> 20 220<0 225 180 225 180 235> 280 200<580 610 610 620>
+LayerCount: 2
+Fore
+SplineSet
+220 510 m 1xe8
+ 20 510 l 1
+ 20 585 l 2
+ 20 710 85 815 250 815 c 0
+ 415 815 480 710 480 585 c 0
+ 480 345 240 270 240 180 c 1xd8
+ 480 180 l 1
+ 480 0 l 1
+ 20 0 l 1
+ 20 100 l 2
+ 20 370 280 400 280 580 c 2
+ 280 610 l 2
+ 280 630 273 650 250 650 c 0
+ 227 650 220 630 220 610 c 2
+ 220 510 l 1xe8
+EndSplineSet
+Kerns2: 131 -10 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 
+EndChar

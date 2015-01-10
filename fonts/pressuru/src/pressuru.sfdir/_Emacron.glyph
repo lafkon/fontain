@@ -1,0 +1,31 @@
+
+StartChar: Emacron
+Encoding: 274 274 355
+Width: 430
+Flags: MW
+HStem: 180 140<230 380 230 410 230 380> 320 180<230 380 230 380> 620 180<230 410 30 410> 840 80<30 410 30 410>
+VStem: 30 200<180 320 500 620 0 320>
+LayerCount: 2
+Fore
+SplineSet
+380 320 m 1xb8
+ 380 500 l 1
+ 230 500 l 1
+ 230 620 l 1
+ 410 620 l 1
+ 410 800 l 1
+ 30 800 l 1
+ 30 0 l 1
+ 410 0 l 1xf8
+ 410 180 l 1
+ 230 180 l 1
+ 230 320 l 1
+ 380 320 l 1xb8
+30 840 m 1
+ 30 920 l 1
+ 410 920 l 1
+ 410 840 l 1
+ 30 840 l 1
+EndSplineSet
+Kerns2: 138 -20 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 
+EndChar
