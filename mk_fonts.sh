@@ -129,12 +129,14 @@
       done
 
 
-
-
     # CHECK CONFIGURATION 
     # ----------------------------------------------------------- #
       README=$FONTROOT/$READMENAME
       KBS=`grep KARLBERRYNAME $README | head -1 | cut -d ":" -f 2`
+
+
+
+
 
 
       if [ `echo $KBS | wc -c` -gt 1 ]; then 
@@ -144,6 +146,7 @@
      # PREPARE FONT/STRUCTURE FOR USE WITH LATEX
      # =========================================================== #
        TEXMFROOT=$EXPORTROOT/tex
+       if [ $SRC -nt $TEXMFROOT/${FONTNAME}.texmf.zip ]; then
        if [ ! -f $TEXMFROOT ]; then mkdir -p $TEXMFROOT ; fi
  
      # CREATE POSTSCRIPT TYPE1 SOURCES
@@ -296,10 +299,15 @@
        mv $TMP/$FONTTEST             $TEXMFROOT
 
        else
+       echo "tex files for $FONTROOT up-to-date"
+
+       fi 
+      else
 
        echo "make no tex files for $FONTROOT"
  
        fi
+
 
        if [ -d $TMP ]; then rm -r $TMP ; fi
 
