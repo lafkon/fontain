@@ -1,0 +1,34 @@
+
+StartChar: five
+Encoding: 53 53 466
+Width: 600
+Flags: MW
+HStem: -12 28<236.5 341.5 236.5 345.5> 372 30<263 351> 612 28<170 480 170 170>
+VStem: 482 32<144 252>
+LayerCount: 2
+Fore
+SplineSet
+64 74 m 1
+ 84 96 l 1
+ 128 56 183 16 290 16 c 0
+ 393 16 482 90 482 198 c 0
+ 482 306 410 372 292 372 c 0
+ 230 372 191 354 144 328 c 1
+ 118 344 l 1
+ 142 640 l 1
+ 480 640 l 1
+ 480 612 l 1
+ 170 612 l 1
+ 148 366 l 1
+ 191 387 232 402 294 402 c 0
+ 420 402 514 340 514 200 c 0
+ 514 64 403 -12 288 -12 c 0
+ 171 -12 110 34 64 74 c 1
+EndSplineSet
+Substitution2: "'onum' Oldstyle Figures in Latin lookup 15 subtable" five.onum
+Substitution2: "'subs' Subscript in Latin lookup 14 subtable" five.subs
+Substitution2: "'sups' Superscript in Latin lookup 13 subtable" five.sups
+Substitution2: "'dnom' Denominators in Latin lookup 9 subtable" five.dnom
+Substitution2: "'numr' Numerators in Latin lookup 8 subtable" five.numr
+AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 1 subtable" five.numr five.dnom five.sups five.subs five.onum
+EndChar

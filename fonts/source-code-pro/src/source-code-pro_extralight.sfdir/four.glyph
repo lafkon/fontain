@@ -1,0 +1,37 @@
+
+StartChar: four
+Encoding: 52 52 465
+Width: 600
+Flags: MW
+HStem: 0 21G<390 420 390 390> 196 29<92 390 92 390 420 535> 587 54<389 420 389 420> 621 20G<405 420 420 420>
+VStem: 390 30<0 196 0 196 225 496 496 496>
+LayerCount: 2
+Fore
+SplineSet
+92 225 m 1xd8
+ 390 225 l 1
+ 390 496 l 1
+ 392 526 393 557 395 587 c 1
+ 389 587 l 1
+ 369 560 348 533 328 506 c 1xe8
+ 92 225 l 1xd8
+535 225 m 1
+ 535 196 l 1
+ 420 196 l 1
+ 420 0 l 1
+ 390 0 l 1
+ 390 196 l 1
+ 43 196 l 1
+ 43 213 l 1
+ 405 641 l 1
+ 420 641 l 1
+ 420 225 l 1
+ 535 225 l 1
+EndSplineSet
+Substitution2: "'onum' Oldstyle Figures in Latin lookup 15 subtable" four.onum
+Substitution2: "'subs' Subscript in Latin lookup 14 subtable" four.subs
+Substitution2: "'sups' Superscript in Latin lookup 13 subtable" four.sups
+Substitution2: "'dnom' Denominators in Latin lookup 9 subtable" four.dnom
+Substitution2: "'numr' Numerators in Latin lookup 8 subtable" four.numr
+AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 1 subtable" four.numr four.dnom four.sups four.subs four.onum
+EndChar

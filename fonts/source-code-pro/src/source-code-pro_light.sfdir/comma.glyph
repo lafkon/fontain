@@ -1,0 +1,25 @@
+
+StartChar: comma
+Encoding: 44 44 482
+Width: 600
+Flags: MW
+HStem: 0 119<290.5 309.5>
+VStem: 329 47
+LayerCount: 2
+Fore
+SplineSet
+221 -211 m 1
+ 205 -178 l 1
+ 285 -139 326 -85 329 3 c 1
+ 321 1 313 0 306 0 c 0
+ 271 0 246 19 246 59 c 0
+ 246 100 275 119 306 119 c 0
+ 352 119 376 79 376 17 c 0
+ 376 -94 314 -171 221 -211 c 1
+EndSplineSet
+Substitution2: "'subs' Subscript in Latin lookup 14 subtable" comma.subs
+Substitution2: "'sups' Superscript in Latin lookup 13 subtable" comma.sups
+Substitution2: "'dnom' Denominators in Latin lookup 9 subtable" comma.dnom
+Substitution2: "'numr' Numerators in Latin lookup 8 subtable" comma.numr
+AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 1 subtable" comma.numr comma.dnom comma.sups comma.subs
+EndChar

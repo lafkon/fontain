@@ -1,0 +1,35 @@
+
+StartChar: three
+Encoding: 51 51 464
+Width: 600
+Flags: MW
+HStem: -12 138<234 289 234 344.5> 262 120<188 245 188 258.5> 512 134<241 289>
+VStem: 188 212<326 330 326 382 326 382> 344 172<436.5 473> 364 172<166 210>
+LayerCount: 2
+Fore
+SplineSet
+36 78 m 1xe4
+ 114 186 l 1
+ 156 150 210 126 258 126 c 0
+ 320 126 364 146 364 186 c 0xe4
+ 364 234 329 262 188 262 c 1
+ 188 382 l 1xf0
+ 302 382 344 410 344 454 c 0
+ 344 492 314 512 264 512 c 0
+ 218 512 182 494 138 460 c 1
+ 52 564 l 1
+ 117 616 190 646 272 646 c 0
+ 418 646 516 582 516 467 c 0xe8
+ 516 406 475 360 400 330 c 1
+ 400 326 l 1xf0
+ 478 304 536 254 536 174 c 0
+ 536 54 413 -12 276 -12 c 0
+ 168 -12 86 22 36 78 c 1xe4
+EndSplineSet
+Substitution2: "'onum' Oldstyle Figures in Latin lookup 15 subtable" three.onum
+Substitution2: "'subs' Subscript in Latin lookup 14 subtable" three.subs
+Substitution2: "'sups' Superscript in Latin lookup 13 subtable" three.sups
+Substitution2: "'dnom' Denominators in Latin lookup 9 subtable" three.dnom
+Substitution2: "'numr' Numerators in Latin lookup 8 subtable" three.numr
+AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 1 subtable" three.numr three.dnom three.sups three.subs three.onum
+EndChar

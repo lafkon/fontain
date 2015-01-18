@@ -1,0 +1,30 @@
+
+StartChar: one
+Encoding: 49 49 462
+Width: 600
+Flags: MW
+HStem: 0 68<98 279 361 528 98 279> 538 100<143 361>
+VStem: 279 82<68 538 538 538>
+LayerCount: 2
+Fore
+SplineSet
+361 68 m 1
+ 528 68 l 1
+ 528 0 l 1
+ 98 0 l 1
+ 98 68 l 1
+ 279 68 l 1
+ 279 538 l 1
+ 143 538 l 1
+ 143 591 l 1
+ 211 601 260 617 300 638 c 1
+ 361 638 l 1
+ 361 68 l 1
+EndSplineSet
+Substitution2: "'onum' Oldstyle Figures in Latin lookup 15 subtable" one.onum
+Substitution2: "'subs' Subscript in Latin lookup 14 subtable" one.subs
+Substitution2: "'sups' Superscript in Latin lookup 13 subtable" one.sups
+Substitution2: "'dnom' Denominators in Latin lookup 9 subtable" one.dnom
+Substitution2: "'numr' Numerators in Latin lookup 8 subtable" one.numr
+AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 1 subtable" one.numr one.dnom one.sups one.subs one.onum
+EndChar

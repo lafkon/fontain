@@ -1,0 +1,31 @@
+
+StartChar: two
+Encoding: 50 50 463
+Width: 600
+Flags: MW
+HStem: 0 71<312 522 312 522> 583 67<239 316>
+VStem: 408 79<405 494.5>
+LayerCount: 2
+Fore
+SplineSet
+73 0 m 1
+ 73 49 l 1
+ 289 240 408 352 408 458 c 0
+ 408 531 363 583 269 583 c 0
+ 209 583 157 549 116 506 c 1
+ 69 553 l 1
+ 126 611 189 650 279 650 c 0
+ 407 650 487 575 487 462 c 0
+ 487 342 367 223 193 65 c 1
+ 232 68 274 71 312 71 c 2
+ 522 71 l 1
+ 522 0 l 1
+ 73 0 l 1
+EndSplineSet
+Substitution2: "'onum' Oldstyle Figures in Latin lookup 15 subtable" two.onum
+Substitution2: "'subs' Subscript in Latin lookup 14 subtable" two.subs
+Substitution2: "'sups' Superscript in Latin lookup 13 subtable" two.sups
+Substitution2: "'dnom' Denominators in Latin lookup 9 subtable" two.dnom
+Substitution2: "'numr' Numerators in Latin lookup 8 subtable" two.numr
+AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 1 subtable" two.numr two.dnom two.sups two.subs two.onum
+EndChar

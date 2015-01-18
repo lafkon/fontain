@@ -1,0 +1,39 @@
+
+StartChar: eight
+Encoding: 56 56 469
+Width: 600
+Flags: MW
+HStem: -12 61<255 351.5 255 375> 589 61<267.5 345>
+VStem: 68 75<135.5 203 135.5 207> 108 75<452.5 517 448 535> 432 71<452.5 507.5> 452 79<128 203.5 110.5 205.5>
+LayerCount: 2
+Fore
+SplineSet
+143 171 m 0xe4
+ 143 100 206 49 304 49 c 0
+ 399 49 452 95 452 161 c 0
+ 452 250 364 272 252 310 c 1
+ 190 276 143 235 143 171 c 0xe4
+352 348 m 1xd8
+ 404 386 432 429 432 476 c 0
+ 432 539 387 589 303 589 c 0
+ 232 589 183 548 183 486 c 0
+ 183 410 257 378 352 348 c 1xd8
+68 163 m 0xe4
+ 68 251 137 301 205 333 c 1
+ 205 337 l 1
+ 152 370 108 419 108 486 c 0
+ 108 584 191 650 305 650 c 0
+ 430 650 503 579 503 480 c 0xd8
+ 503 420 459 365 406 328 c 1
+ 406 324 l 1
+ 476 289 531 249 531 158 c 0
+ 531 63 448 -12 302 -12 c 0
+ 158 -12 68 62 68 163 c 0xe4
+EndSplineSet
+Substitution2: "'onum' Oldstyle Figures in Latin lookup 15 subtable" eight.onum
+Substitution2: "'subs' Subscript in Latin lookup 14 subtable" eight.subs
+Substitution2: "'sups' Superscript in Latin lookup 13 subtable" eight.sups
+Substitution2: "'dnom' Denominators in Latin lookup 9 subtable" eight.dnom
+Substitution2: "'numr' Numerators in Latin lookup 8 subtable" eight.numr
+AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 1 subtable" eight.numr eight.dnom eight.sups eight.subs eight.onum
+EndChar

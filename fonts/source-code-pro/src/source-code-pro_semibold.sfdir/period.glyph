@@ -1,0 +1,22 @@
+
+StartChar: period
+Encoding: 46 46 481
+Width: 600
+Flags: MW
+HStem: -12 202<271.5 328.5>
+VStem: 201 198<60 118>
+LayerCount: 2
+Fore
+SplineSet
+201 89 m 0
+ 201 147 243 190 300 190 c 0
+ 357 190 399 147 399 89 c 0
+ 399 31 357 -12 300 -12 c 0
+ 243 -12 201 31 201 89 c 0
+EndSplineSet
+Substitution2: "'subs' Subscript in Latin lookup 14 subtable" period.subs
+Substitution2: "'sups' Superscript in Latin lookup 13 subtable" period.sups
+Substitution2: "'dnom' Denominators in Latin lookup 9 subtable" period.dnom
+Substitution2: "'numr' Numerators in Latin lookup 8 subtable" period.numr
+AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 1 subtable" period.numr period.dnom period.sups period.subs
+EndChar

@@ -1,0 +1,24 @@
+
+StartChar: parenleft
+Encoding: 40 40 511
+Width: 600
+Flags: MW
+HStem: -176 908<433 433>
+VStem: 208 74<194 362 194 374.5>
+LayerCount: 2
+Fore
+SplineSet
+433 -176 m 1
+ 294 -68 208 85 208 278 c 0
+ 208 471 294 624 433 732 c 1
+ 478 690 l 1
+ 344 577 282 446 282 278 c 0
+ 282 110 344 -21 478 -134 c 1
+ 433 -176 l 1
+EndSplineSet
+Substitution2: "'subs' Subscript in Latin lookup 14 subtable" parenleft.subs
+Substitution2: "'sups' Superscript in Latin lookup 13 subtable" parenleft.sups
+Substitution2: "'dnom' Denominators in Latin lookup 9 subtable" parenleft.dnom
+Substitution2: "'numr' Numerators in Latin lookup 8 subtable" parenleft.numr
+AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 1 subtable" parenleft.numr parenleft.dnom parenleft.sups parenleft.subs
+EndChar

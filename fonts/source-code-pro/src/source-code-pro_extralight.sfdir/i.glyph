@@ -1,0 +1,30 @@
+
+StartChar: i
+Encoding: 105 105 36
+Width: 600
+GlyphClass: 2
+Flags: MW
+HStem: 0 21G<346 376 346 346> 450 28<100 376 100 346> 600 84<339 361>
+VStem: 310 80<629 655> 346 30<0 450 450 450>
+AnchorPoint: "Anchor-4" 379 0 basechar 0
+AnchorPoint: "Anchor-2" 350 -22 basechar 0
+AnchorPoint: "Anchor-0" 350 672 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+100 450 m 1xe8
+ 100 478 l 1
+ 376 478 l 1
+ 376 0 l 1
+ 346 0 l 1
+ 346 450 l 1
+ 100 450 l 1xe8
+350 600 m 0xf0
+ 328 600 310 616 310 642 c 0
+ 310 668 328 684 350 684 c 0
+ 372 684 390 668 390 642 c 0
+ 390 616 372 600 350 600 c 0xf0
+EndSplineSet
+Substitution2: "'sups' Superscript in Latin lookup 12 subtable" i.sups
+Substitution2: "'aalt' Access All Alternates in Latin lookup 0 subtable" i.sups
+EndChar

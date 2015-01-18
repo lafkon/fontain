@@ -1,0 +1,33 @@
+
+StartChar: nine
+Encoding: 57 57 470
+Width: 600
+Flags: MW
+HStem: -12 94<229 296.5 229 330.5> 243 83<245 285.5> 560 88<250.5 317.5>
+VStem: 60 106<402 478.5 402 503.5> 425 106
+LayerCount: 2
+Fore
+SplineSet
+281 326 m 0
+ 325 326 375 347 421 401 c 1
+ 407 512 353 560 282 560 c 0
+ 219 560 166 517 166 440 c 0
+ 166 364 209 326 281 326 c 0
+70 60 m 1
+ 132 130 l 1
+ 162 102 206 82 252 82 c 0
+ 341 82 419 142 425 319 c 1
+ 375 272 313 243 258 243 c 0
+ 143 243 60 307 60 440 c 0
+ 60 567 163 648 280 648 c 0
+ 415 648 531 552 531 338 c 0
+ 531 91 400 -12 261 -12 c 0
+ 177 -12 113 20 70 60 c 1
+EndSplineSet
+Substitution2: "'onum' Oldstyle Figures in Latin lookup 15 subtable" nine.onum
+Substitution2: "'subs' Subscript in Latin lookup 14 subtable" nine.subs
+Substitution2: "'sups' Superscript in Latin lookup 13 subtable" nine.sups
+Substitution2: "'dnom' Denominators in Latin lookup 9 subtable" nine.dnom
+Substitution2: "'numr' Numerators in Latin lookup 8 subtable" nine.numr
+AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 1 subtable" nine.numr nine.dnom nine.sups nine.subs nine.onum
+EndChar
