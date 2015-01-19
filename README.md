@@ -215,14 +215,15 @@ and use an apache web server add this to you `.htaccess`:
 FONT STYLES
 ===========
 
-pressuru
+source-code-pro_light
+  pressuru
 medio_regular
 kaushan-script_regular
 arimo_bold
 aileron_semibold
 vegur_bold
 nimbus-sans-l_regular
-dancing-script
+dancing-script_regular
 beon_regular
 lilgrotesk_bold
 junction_regular
