@@ -22,9 +22,41 @@ UI CONFIGURATION
 ================
 SPECIMEN
 
+FONT STYLES
+===========
+aileron_ultralight
+aileron_ultralight-italic
+aileron_thin
+aileron_thin-italic
+aileron_light
+aileron_light-italic
+aileron_regular
+aileron_italic
+aileron_semibold
+aileron_semibold-italic
+aileron_bold
+aileron_bold-italic
+aileron_heavy
+aileron_heavy-italic
+aileron_black
+aileron_black-italic
+
+
 T!EX HOWTO
 =========
 
-T!EX CONFIGURATION
+TEX CONFIGURATION
 =================
+KARLBERRYNAME:dai
+FOUNDRY:dotcolon
+TEXSRCREGULAR:aileron_regular
+TEXSRCITALIC:aileron_ultralight
+TEXSRCBOLD:aileron_black
+TEXSRCBOLD-ITALIC:aileron_black-italic
+
+
+
+
+
+
 

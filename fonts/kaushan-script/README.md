@@ -32,4 +32,7 @@ T!EX HOWTO
 
 T!EX CONFIGURATION
 =================
+KARLBERRYNAME:ika
+FOUNDRY:impallari
+TEXSRCREGULAR:kaushan-script_regular
 

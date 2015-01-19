@@ -21,11 +21,21 @@ UI CONFIGURATION
 ================
 SPECIMEN
 
+FONT STYLES
+===========
+arimo_regular
+arimo_italic
+arimo_bold
+arimo_bold-italic
 
 T!EX HOWTO
 =========
 
-
-T!EX CONFIGURATION
+TEX CONFIGURATION
 =================
-
+KARLBERRYNAME:mar
+FOUNDRY:matteson
+TEXSRCREGULAR:arimo_regular
+TEXSRCITALIC:arimo_italic
+TEXSRCBOLD:arimo_bold
+TEXSRCBOLD-ITALIC:arimo_bold-italic

@@ -14,10 +14,25 @@ LICENSE
 =======
 [SIL Open Font License (OFL)](http://scripts.sil.org/OFL)
 
+FONT STYLES
+===========
+source-code-pro_extralight
+source-code-pro_light
+source-code-pro_regular
+source-code-pro_medium
+source-code-pro_semibold
+source-code-pro_bold
+source-code-pro_black
 
 T!EX HOWTO
 =========
 
-T!EX CONFIGURATION
+TEX CONFIGURATION
 =================
+KARLBERRYNAME:asc
+FOUNDRY:adobe
+TEXSRCREGULAR:source-code-pro_extralight
+TEXSRCITALIC:source-code-pro_regular
+TEXSRCBOLD:source-code-pro_light
+TEXSRCBOLD-ITALIC:source-code-pro_semibold
 
