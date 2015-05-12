@@ -215,6 +215,8 @@ and use an apache web server add this to you `.htaccess`:
 FONT STYLES
 ===========
 
+pressuru
+osifont
 source-code-pro_light
   pressuru
 medio_regular
