@@ -212,9 +212,15 @@ LICENSE
 
 FONT STYLES
 ===========
-comic-neue_regular
-comic-neue_regular-oblique
-comic-neue_light
-comic-neue_light-oblique
 comic-neue_bold
+    comic-neue-angular_bold
 comic-neue_bold-oblique
+    comic-neue-angular_bold-oblique
+comic-neue_regular
+    comic-neue-angular_regular
+comic-neue_regular-oblique
+    comic-neue-angular-_regular-oblique
+comic-neue_light
+    comic-neue-angular_light
+comic_neue_light-oblique
+   comic-neue-angular_light-oblique
