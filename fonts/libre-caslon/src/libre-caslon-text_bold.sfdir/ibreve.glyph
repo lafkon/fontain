@@ -1,0 +1,168 @@
+StartChar: ibreve
+Encoding: 301 301 302
+Width: 360
+Flags: W
+TtInstrs:
+NPUSHB
+ 12
+ 10
+ 7
+ 6
+ 5
+ 4
+ 3
+ 0
+ 7
+ 0
+ 1
+ 1
+ 62
+MPPEM
+PUSHB_1
+ 33
+LT
+IF
+NPUSHB
+ 26
+ 0
+ 2
+ 0
+ 4
+ 1
+ 2
+ 4
+ 87
+ 6
+ 5
+ 2
+ 3
+ 3
+ 13
+ 63
+ 0
+ 1
+ 1
+ 14
+ 63
+ 0
+ 0
+ 0
+ 12
+ 0
+ 64
+ELSE
+MPPEM
+PUSHB_1
+ 49
+LT
+IF
+NPUSHB
+ 26
+ 6
+ 5
+ 2
+ 3
+ 2
+ 3
+ 102
+ 0
+ 2
+ 0
+ 4
+ 1
+ 2
+ 4
+ 87
+ 0
+ 1
+ 1
+ 14
+ 63
+ 0
+ 0
+ 0
+ 12
+ 0
+ 64
+ELSE
+NPUSHB
+ 26
+ 6
+ 5
+ 2
+ 3
+ 2
+ 3
+ 102
+ 0
+ 2
+ 0
+ 4
+ 1
+ 2
+ 4
+ 87
+ 0
+ 1
+ 1
+ 0
+ 78
+ 0
+ 0
+ 0
+ 12
+ 0
+ 64
+EIF
+EIF
+NPUSHB
+ 13
+ 11
+ 11
+ 11
+ 28
+ 11
+ 28
+ 36
+ 18
+ 36
+ 22
+ 17
+ 7
+ 17
+CALL
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+344 35 m 1,0,-1
+ 344 0 l 1,1,-1
+ 24 0 l 1,2,-1
+ 24 35 l 1,3,-1
+ 109 55 l 1,4,-1
+ 109 441 l 1,5,-1
+ 24 468 l 1,6,-1
+ 24 492 l 1,7,-1
+ 243 540 l 1,8,-1
+ 264 540 l 1,9,-1
+ 264 55 l 1,10,-1
+ 344 35 l 1,0,-1
+84 790 m 1,11,12
+ 96 766 96 766 124 755.5 c 128,-1,13
+ 152 745 152 745 185 745 c 0,14,15
+ 217 745 217 745 244.5 755.5 c 128,-1,16
+ 272 766 272 766 289 790 c 1,17,-1
+ 338 790 l 1,18,19
+ 325 740 325 740 305.5 710.5 c 128,-1,20
+ 286 681 286 681 264 665.5 c 128,-1,21
+ 242 650 242 650 220 645.5 c 128,-1,22
+ 198 641 198 641 181 641 c 0,23,24
+ 158 641 158 641 133.5 648.5 c 128,-1,25
+ 109 656 109 656 88.5 673.5 c 128,-1,26
+ 68 691 68 691 53 719.5 c 128,-1,27
+ 38 748 38 748 34 790 c 1,28,-1
+ 84 790 l 1,11,12
+EndSplineSet
+Kerns2: 450 9 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 2" 165 9 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 2" 510 -8 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 411 -12 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 126 -6 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"
+EndChar

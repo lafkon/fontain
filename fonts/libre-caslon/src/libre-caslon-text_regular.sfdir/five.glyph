@@ -1,0 +1,219 @@
+StartChar: five
+Encoding: 53 53 262
+Width: 547
+Flags: W
+TtInstrs:
+NPUSHB
+ 15
+ 0
+ 1
+ 4
+ 0
+ 41
+ 1
+ 2
+ 4
+ 2
+ 62
+ 46
+ 45
+ 2
+ 5
+ 60
+MPPEM
+PUSHB_1
+ 25
+LT
+IF
+NPUSHB
+ 39
+ 0
+ 2
+ 4
+ 3
+ 4
+ 2
+ 3
+ 100
+ 0
+ 6
+ 6
+ 5
+ 77
+ 0
+ 5
+ 5
+ 11
+ 63
+ 0
+ 4
+ 4
+ 0
+ 79
+ 0
+ 0
+ 0
+ 14
+ 63
+ 0
+ 3
+ 3
+ 1
+ 79
+ 0
+ 1
+ 1
+ 18
+ 1
+ 64
+ELSE
+MPPEM
+PUSHB_1
+ 38
+LT
+IF
+NPUSHB
+ 37
+ 0
+ 2
+ 4
+ 3
+ 4
+ 2
+ 3
+ 100
+ 0
+ 0
+ 0
+ 4
+ 2
+ 0
+ 4
+ 87
+ 0
+ 6
+ 6
+ 5
+ 77
+ 0
+ 5
+ 5
+ 11
+ 63
+ 0
+ 3
+ 3
+ 1
+ 79
+ 0
+ 1
+ 1
+ 18
+ 1
+ 64
+ELSE
+NPUSHB
+ 35
+ 0
+ 2
+ 4
+ 3
+ 4
+ 2
+ 3
+ 100
+ 0
+ 5
+ 0
+ 6
+ 0
+ 5
+ 6
+ 85
+ 0
+ 0
+ 0
+ 4
+ 2
+ 0
+ 4
+ 87
+ 0
+ 3
+ 3
+ 1
+ 79
+ 0
+ 1
+ 1
+ 18
+ 1
+ 64
+EIF
+EIF
+NPUSHB
+ 9
+ 20
+ 19
+ 40
+ 37
+ 38
+ 40
+ 34
+ 7
+ 19
+CALL
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+157 494 m 1,0,1
+ 180 502 180 502 200 506 c 128,-1,2
+ 220 510 220 510 244 510 c 0,3,4
+ 299 510 299 510 345 492 c 128,-1,5
+ 391 474 391 474 424 442 c 128,-1,6
+ 457 410 457 410 475.5 365.5 c 128,-1,7
+ 494 321 494 321 494 267 c 0,8,9
+ 494 208 494 208 472.5 157.5 c 128,-1,10
+ 451 107 451 107 413.5 70 c 128,-1,11
+ 376 33 376 33 325.5 11.5 c 128,-1,12
+ 275 -10 275 -10 217 -10 c 0,13,14
+ 178 -10 178 -10 144.5 -0.5 c 128,-1,15
+ 111 9 111 9 87 26 c 128,-1,16
+ 63 43 63 43 49 66 c 128,-1,17
+ 35 89 35 89 35 116 c 0,18,19
+ 35 144 35 144 49 159 c 128,-1,20
+ 63 174 63 174 88 174 c 0,21,22
+ 109 174 109 174 121.5 163.5 c 128,-1,23
+ 134 153 134 153 141.5 138 c 128,-1,24
+ 149 123 149 123 155.5 104.5 c 128,-1,25
+ 162 86 162 86 172 71 c 128,-1,26
+ 182 56 182 56 198.5 45.5 c 128,-1,27
+ 215 35 215 35 243 35 c 0,28,29
+ 276 35 276 35 304.5 50 c 128,-1,30
+ 333 65 333 65 354.5 90.5 c 128,-1,31
+ 376 116 376 116 388 151 c 128,-1,32
+ 400 186 400 186 400 226 c 0,33,34
+ 400 268 400 268 387 303 c 128,-1,35
+ 374 338 374 338 350 363.5 c 128,-1,36
+ 326 389 326 389 292.5 403 c 128,-1,37
+ 259 417 259 417 219 417 c 0,38,39
+ 157 417 157 417 111 378 c 1,40,-1
+ 96 380 l 1,41,-1
+ 148 757 l 1,42,-1
+ 429 757 l 1,43,44
+ 441 770 441 770 455 797 c 1,45,-1
+ 476 790 l 1,46,-1
+ 439 667 l 1,47,-1
+ 182 667 l 1,48,-1
+ 157 494 l 1,0,1
+EndSplineSet
+Kerns2: 443 -29 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 2" 16 -29 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 2" 441 -12 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"
+Substitution2: "'onum' Oldstyle Figures in Latin lookup 9 subtable" five.oldstyle
+Substitution2: "'numr' Numerators in Latin lookup 8 subtable" five.numerator
+Substitution2: "'dnom' Denominators in Latin lookup 7 subtable" five.denominator
+Substitution2: "'sups' Superscript in Latin lookup 6 subtable" fivesuperior
+Substitution2: "'sinf' Scientific Inferiors in Latin lookup 5 subtable" fiveinferior
+Substitution2: "'tnum' Tabular Numbers in Latin lookup 3 subtable" five.tnum
+EndChar

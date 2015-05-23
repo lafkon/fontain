@@ -1,0 +1,128 @@
+StartChar: seven
+Encoding: 55 55 430
+Width: 520
+Flags: W
+TtInstrs:
+PUSHB_6
+ 4
+ 1
+ 3
+ 1
+ 1
+ 62
+MPPEM
+PUSHB_1
+ 25
+LT
+IF
+NPUSHB
+ 29
+ 0
+ 4
+ 3
+ 2
+ 3
+ 4
+ 2
+ 100
+ 0
+ 0
+ 0
+ 13
+ 63
+ 0
+ 3
+ 3
+ 1
+ 77
+ 0
+ 1
+ 1
+ 11
+ 63
+ 0
+ 2
+ 2
+ 18
+ 2
+ 64
+ELSE
+NPUSHB
+ 29
+ 0
+ 0
+ 1
+ 0
+ 102
+ 0
+ 4
+ 3
+ 2
+ 3
+ 4
+ 2
+ 100
+ 0
+ 3
+ 3
+ 1
+ 77
+ 0
+ 1
+ 1
+ 11
+ 63
+ 0
+ 2
+ 2
+ 18
+ 2
+ 64
+EIF
+PUSHB_7
+ 17
+ 24
+ 42
+ 17
+ 16
+ 5
+ 17
+CALL
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+255 820 m 1,0,-1
+ 282 820 l 1,1,-1
+ 282 770 l 1,2,-1
+ 628 770 l 1,3,-1
+ 638 745 l 1,4,5
+ 563 638 563 638 504.5 548 c 128,-1,6
+ 446 458 446 458 401 377 c 128,-1,7
+ 356 296 356 296 322 221.5 c 128,-1,8
+ 288 147 288 147 263 72 c 0,9,10
+ 255 48 255 48 247.5 32 c 128,-1,11
+ 240 16 240 16 231.5 7 c 128,-1,12
+ 223 -2 223 -2 213 -6 c 128,-1,13
+ 203 -10 203 -10 190 -10 c 0,14,15
+ 139 -10 139 -10 139 43 c 0,16,17
+ 139 59 139 59 146.5 82 c 128,-1,18
+ 154 105 154 105 171.5 139 c 128,-1,19
+ 189 173 189 173 219 220.5 c 128,-1,20
+ 249 268 249 268 293 333.5 c 128,-1,21
+ 337 399 337 399 397 484.5 c 128,-1,22
+ 457 570 457 570 536 680 c 1,23,-1
+ 257 680 l 1,24,-1
+ 197 619 l 1,25,-1
+ 161 619 l 1,26,-1
+ 255 820 l 1,0,-1
+EndSplineSet
+Kerns2: 447 -12 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 2" 76 -14 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 2" 16 -12 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 2" 13 -14 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 2" 12 -14 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 2" 11 -14 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 2" 10 -14 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 2" 9 -14 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 2" 8 -14 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 2" 7 -14 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 2" 6 -14 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 2" 5 -14 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 2" 4 -14 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 2" 274 -14 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"
+Substitution2: "'onum' Oldstyle Figures in Latin lookup 9 subtable" seven.oldstyle
+Substitution2: "'numr' Numerators in Latin lookup 8 subtable" seven.numerator
+Substitution2: "'dnom' Denominators in Latin lookup 7 subtable" seven.denominator
+Substitution2: "'sups' Superscript in Latin lookup 6 subtable" sevensuperior
+Substitution2: "'sinf' Scientific Inferiors in Latin lookup 5 subtable" seveninferior
+Substitution2: "'tnum' Tabular Numbers in Latin lookup 3 subtable" seven.tnum
+EndChar

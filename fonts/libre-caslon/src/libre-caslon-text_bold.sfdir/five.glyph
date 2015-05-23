@@ -1,0 +1,184 @@
+StartChar: five
+Encoding: 53 53 262
+Width: 558
+Flags: W
+TtInstrs:
+NPUSHB
+ 11
+ 0
+ 1
+ 4
+ 0
+ 1
+ 62
+ 48
+ 47
+ 2
+ 6
+ 60
+MPPEM
+PUSHB_1
+ 38
+LT
+IF
+NPUSHB
+ 44
+ 0
+ 5
+ 4
+ 2
+ 4
+ 5
+ 2
+ 100
+ 0
+ 2
+ 3
+ 4
+ 2
+ 3
+ 98
+ 0
+ 0
+ 0
+ 4
+ 5
+ 0
+ 4
+ 87
+ 0
+ 7
+ 7
+ 6
+ 77
+ 0
+ 6
+ 6
+ 11
+ 63
+ 0
+ 3
+ 3
+ 1
+ 79
+ 0
+ 1
+ 1
+ 18
+ 1
+ 64
+ELSE
+NPUSHB
+ 42
+ 0
+ 5
+ 4
+ 2
+ 4
+ 5
+ 2
+ 100
+ 0
+ 2
+ 3
+ 4
+ 2
+ 3
+ 98
+ 0
+ 6
+ 0
+ 7
+ 0
+ 6
+ 7
+ 85
+ 0
+ 0
+ 0
+ 4
+ 5
+ 0
+ 4
+ 87
+ 0
+ 3
+ 3
+ 1
+ 79
+ 0
+ 1
+ 1
+ 18
+ 1
+ 64
+EIF
+NPUSHB
+ 10
+ 21
+ 17
+ 18
+ 40
+ 37
+ 38
+ 40
+ 49
+ 8
+ 20
+CALL
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+179 490 m 1,0,1
+ 199 498 199 498 218.5 499 c 128,-1,2
+ 238 500 238 500 258 500 c 0,3,4
+ 316 500 316 500 363.5 483.5 c 128,-1,5
+ 411 467 411 467 445 436.5 c 128,-1,6
+ 479 406 479 406 497.5 363.5 c 128,-1,7
+ 516 321 516 321 516 269 c 0,8,9
+ 516 209 516 209 494 158 c 128,-1,10
+ 472 107 472 107 433 69.5 c 128,-1,11
+ 394 32 394 32 340.5 11 c 128,-1,12
+ 287 -10 287 -10 225 -10 c 0,13,14
+ 182 -10 182 -10 146 0 c 128,-1,15
+ 110 10 110 10 83.5 27 c 128,-1,16
+ 57 44 57 44 42 68 c 128,-1,17
+ 27 92 27 92 27 120 c 0,18,19
+ 27 152 27 152 46.5 173 c 128,-1,20
+ 66 194 66 194 98 194 c 0,21,22
+ 120 194 120 194 133 183.5 c 128,-1,23
+ 146 173 146 173 154 157.5 c 128,-1,24
+ 162 142 162 142 168 124 c 128,-1,25
+ 174 106 174 106 184 90.5 c 128,-1,26
+ 194 75 194 75 210 64.5 c 128,-1,27
+ 226 54 226 54 254 54 c 256,28,29
+ 282 54 282 54 305.5 65 c 128,-1,30
+ 329 76 329 76 346 96.5 c 128,-1,31
+ 363 117 363 117 372.5 144.5 c 128,-1,32
+ 382 172 382 172 382 205 c 256,33,34
+ 382 238 382 238 371 266 c 128,-1,35
+ 360 294 360 294 340 314.5 c 128,-1,36
+ 320 335 320 335 292 346 c 128,-1,37
+ 264 357 264 357 231 357 c 0,38,39
+ 204 357 204 357 178 349.5 c 128,-1,40
+ 152 342 152 342 131 328 c 1,41,-1
+ 90 328 l 1,42,-1
+ 149 757 l 1,43,-1
+ 421 757 l 1,44,45
+ 428 765 428 765 434.5 775.5 c 128,-1,46
+ 441 786 441 786 452 807 c 1,47,-1
+ 488 790 l 1,48,-1
+ 444 620 l 1,49,-1
+ 196 620 l 1,50,-1
+ 179 490 l 1,0,1
+EndSplineSet
+Kerns2: 443 -18 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 2" 16 -18 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 2"
+Substitution2: "'onum' Oldstyle Figures in Latin lookup 9 subtable" five.oldstyle
+Substitution2: "'numr' Numerators in Latin lookup 8 subtable" five.numerator
+Substitution2: "'dnom' Denominators in Latin lookup 7 subtable" five.denominator
+Substitution2: "'sups' Superscript in Latin lookup 6 subtable" fivesuperior
+Substitution2: "'sinf' Scientific Inferiors in Latin lookup 5 subtable" fiveinferior
+Substitution2: "'tnum' Tabular Numbers in Latin lookup 3 subtable" five.tnum
+EndChar
