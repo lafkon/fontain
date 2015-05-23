@@ -1,139 +1,17 @@
 StartChar: period
-Encoding: 46 46 17
-Width: 401
-GlyphClass: 2
-Flags: W
-TtInstrs:
-SVTCA[y-axis]
-PUSHB_3
- 10
- 0
- 0
-CALL
-PUSHB_1
- 9
-SHP[rp1]
-PUSHB_5
- 3
- 8
- 0
- 44
- 4
-CALL
-PUSHB_1
- 2
-SHP[rp2]
-SVTCA[x-axis]
-PUSHB_1
- 14
-MDAP[rnd]
-PUSHB_1
- 0
-MDRP[rp0,rnd,white]
-PUSHB_1
- 1
-SHP[rp2]
-PUSHB_5
- 7
- 10
- 0
- 37
- 4
-CALL
-PUSHB_1
- 8
-SHP[rp2]
-PUSHB_2
- 15
- 1
-CALL
-PUSHB_1
- 54
-SMD
-PUSHW_3
- 15845
- -4167
- 21
-CALL
-SPVFS
-SFVTCA[y-axis]
-PUSHB_1
- 0
-MDAP[no-rnd]
-SFVTCA[x-axis]
-PUSHB_1
- 2
-MDRP[grey]
-PUSHB_2
- 9
- 18
-MIRP[rp0,min,black]
-SFVTCA[y-axis]
-PUSHB_1
- 7
-MDRP[grey]
-PUSHB_1
- 0
-SRP0
-PUSHB_4
- 1
- 0
- 2
- 19
-CALL
-PUSHB_1
- 9
-SRP0
-PUSHB_4
- 8
- 9
- 7
- 19
-CALL
-SPVTCA[y-axis]
-PUSHB_4
- 0
- 7
- 1
- 8
-MDAP[no-rnd]
-MDAP[no-rnd]
-MDAP[no-rnd]
-MDAP[no-rnd]
-SVTCA[x-axis]
-PUSHB_2
- 2
- 9
-MDAP[no-rnd]
-MDAP[no-rnd]
-PUSHB_1
- 64
-SMD
-SVTCA[x-axis]
-PUSHB_2
- 7
- 0
-SRP1
-SRP2
-PUSHB_1
- 10
-IP
-SVTCA[y-axis]
-IUP[y]
-IUP[x]
-EndTTInstrs
+Encoding: 46 46 107
+Width: 204
+Flags: MW
+HStem: 0 21G<92.5 107.5> 46 20G<99 113.5>
+VStem: 76 54<28.5 38.5>
 LayerCount: 2
 Back
 Fore
 SplineSet
-143 63 m 0,0,1
- 147 92 147 92 165.5 112.5 c 128,-1,2
- 184 133 184 133 207 133 c 0,3,4
- 227 133 227 133 240 117 c 1,5,6
- 256 101 256 101 256 68 c 1,7,8
- 252 39 252 39 232.5 19.5 c 128,-1,9
- 213 0 213 0 190 0 c 256,10,11
- 167 0 167 0 158 14 c 1,12,13
- 140 34 140 34 143 63 c 0,0,1
+99 0 m 0
+ 86 0 76 14 76 29 c 0
+ 76 48 91 66 107 66 c 0
+ 120 66 130 53 130 39 c 0
+ 130 18 116 0 99 0 c 0
 EndSplineSet
 EndChar

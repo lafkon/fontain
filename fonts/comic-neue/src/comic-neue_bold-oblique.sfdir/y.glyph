@@ -1,105 +1,26 @@
 StartChar: y
-Encoding: 121 121 90
-Width: 972
-GlyphClass: 2
-Flags: W
-TtInstrs:
-SVTCA[y-axis]
-PUSHB_3
- 14
- 1
- 0
-CALL
-PUSHB_1
- 24
-SHP[rp1]
-SVTCA[x-axis]
-PUSHB_1
- 41
-MDAP[rnd]
-PUSHB_2
- 42
- 1
-CALL
-PUSHB_1
- 54
-SMD
-PUSHW_3
- -15765
- -4462
- 21
-CALL
-SPVFS
-SFVTPV
-PUSHB_1
- 6
-SRP0
-PUSHB_1
- 5
-MDRP[grey]
-PUSHB_2
- 18
- 26
-MIRP[rp0,min,black]
-PUSHB_1
- 19
-MDRP[grey]
-SVTCA[y-axis]
-PUSHB_4
- 5
- 6
- 18
- 19
-MDAP[no-rnd]
-MDAP[no-rnd]
-MDAP[no-rnd]
-MDAP[no-rnd]
-SVTCA[x-axis]
-PUSHB_4
- 5
- 6
- 18
- 19
-MDAP[no-rnd]
-MDAP[no-rnd]
-MDAP[no-rnd]
-MDAP[no-rnd]
-PUSHB_1
- 64
-SMD
-SVTCA[x-axis]
-SVTCA[y-axis]
-IUP[y]
-IUP[x]
-EndTTInstrs
+Encoding: 121 121 26
+Width: 515
+Flags: MW
+HStem: -179 21G<50 73.5> 480 20G<105.5 129.5> 481 20G<465.5 488.5>
 LayerCount: 2
 Back
 Fore
 SplineSet
--20 -264 m 0,0,1
- -21 -255 -21 -255 -21 -246 c 0,2,3
- -21 -213 -21 -213 2 -180 c 2,4,-1
- 240 172 l 1,5,-1
- 43 868 l 2,6,7
- 39 882 39 882 39 896 c 0,8,9
- 39 923 39 923 54 951 c 0,10,11
- 78 993 78 993 123 1014 c 1,12,13
- 147 1024 147 1024 170 1024 c 0,14,15
- 188 1024 188 1024 206 1018 c 0,16,17
- 246 1004 246 1004 256 963 c 1,18,-1
- 410 424 l 1,19,-1
- 772 958 l 2,20,21
- 799 999 799 999 843 1016 c 0,22,23
- 865 1024 865 1024 886 1024 c 256,24,25
- 907 1024 907 1024 926 1016 c 1,26,27
- 963 998 963 998 971 956 c 0,28,29
- 973 946 973 946 973 936 c 0,30,31
- 973 904 973 904 952 872 c 2,32,-1
- 180 -270 l 2,33,34
- 153 -311 153 -311 108 -326 c 0,35,36
- 87 -334 87 -334 68 -334 c 0,37,38
- 46 -334 46 -334 27 -324 c 1,39,40
- -12 -306 -12 -306 -20 -264 c 0,0,1
+505 432 m 2xa0
+ 115 -148 l 2
+ 103 -165 84 -179 63 -179 c 0
+ 37 -179 20 -157 26 -130 c 0
+ 27 -124 31 -116 35 -109 c 2
+ 160 78 l 1
+ 61 427 l 2
+ 60 433 58 442 60 451 c 0
+ 66 478 92 500 119 500 c 0xc0
+ 140 500 152 485 156 470 c 2
+ 236 191 l 1
+ 423 470 l 2
+ 435 487 455 501 476 501 c 0
+ 501 501 520 480 514 452 c 0
+ 512 446 510 439 505 432 c 2xa0
 EndSplineSet
-Kerns2: 81 -41 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar

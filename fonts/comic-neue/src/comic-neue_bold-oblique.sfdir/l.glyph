@@ -1,102 +1,18 @@
 StartChar: l
-Encoding: 108 108 77
-Width: 520
-GlyphClass: 2
-Flags: W
-TtInstrs:
-SVTCA[y-axis]
-PUSHB_3
- 14
- 0
- 0
-CALL
-SVTCA[x-axis]
-PUSHB_1
- 20
-MDAP[rnd]
-PUSHB_2
- 18
- 11
-CALL
-PUSHB_1
- 0
-SHP[rp2]
-PUSHB_2
- 8
- 15
-MIRP[min,black]
-PUSHB_1
- 10
-SHP[rp2]
-PUSHB_2
- 21
- 1
-CALL
-PUSHB_1
- 54
-SMD
-PUSHW_3
- 16025
- -3409
- 21
-CALL
-SPVFS
-SFVTCA[y-axis]
-PUSHB_1
- 0
-MDAP[no-rnd]
-SFVTPV
-PUSHB_1
- 1
-MDRP[grey]
-PUSHB_2
- 11
- 9
-MIRP[rp0,min,black]
-SFVTCA[y-axis]
-PUSHB_1
- 10
-MDRP[grey]
-SPVTCA[y-axis]
-PUSHB_4
- 0
- 1
- 10
- 11
-MDAP[no-rnd]
-MDAP[no-rnd]
-MDAP[no-rnd]
-MDAP[no-rnd]
-SVTCA[x-axis]
-PUSHB_2
- 1
- 11
-MDAP[no-rnd]
-MDAP[no-rnd]
-PUSHB_1
- 64
-SMD
-SVTCA[x-axis]
-SVTCA[y-axis]
-IUP[y]
-IUP[x]
-EndTTInstrs
+Encoding: 108 108 13
+Width: 252
+Flags: MW
+HStem: 0 21G<54.5 78.5> 652 20G<195 221.5>
 LayerCount: 2
 Back
 Fore
 SplineSet
-4 109 m 2,0,-1
- 258 1303 l 2,1,2
- 268 1348 268 1348 306 1379.5 c 128,-1,3
- 344 1411 344 1411 389 1411 c 0,4,5
- 436 1412 436 1412 460 1380 c 0,6,7
- 477 1358 477 1358 478 1328 c 0,8,9
- 478 1316 478 1316 475 1303 c 2,10,-1
- 221 109 l 2,11,12
- 211 62 211 62 174 31 c 128,-1,13
- 137 0 137 0 90 0 c 0,14,15
- 46 0 46 0 20 30 c 0,16,17
- 2 52 2 52 1 83 c 0,18,19
- 1 95 1 95 4 109 c 2,0,-1
+247 625 m 2
+ 124 45 l 2
+ 119 20 90 0 67 0 c 0
+ 42 0 23 20 28 45 c 2
+ 151 625 l 2
+ 157 651 181 672 209 672 c 0
+ 234 672 253 651 247 625 c 2
 EndSplineSet
 EndChar

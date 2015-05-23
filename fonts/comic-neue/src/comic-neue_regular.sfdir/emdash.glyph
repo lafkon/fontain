@@ -1,47 +1,18 @@
 StartChar: emdash
-Encoding: 8212 8212 123
-Width: 1796
-GlyphClass: 2
-Flags: W
-TtInstrs:
-SVTCA[y-axis]
-PUSHB_1
- 11
-MDAP[rnd]
-PUSHB_2
- 3
- 8
-MIRP[min,black]
-PUSHB_2
- 3
- 8
-MIRP[min,black]
-SVTCA[x-axis]
-PUSHB_1
- 14
-MDAP[rnd]
-PUSHB_2
- 15
- 1
-CALL
-SVTCA[y-axis]
-IUP[y]
-IUP[x]
-EndTTInstrs
+Encoding: 8212 8212 73
+Width: 877
+Flags: MW
+HStem: 221 56<92 772 100 772>
 LayerCount: 2
 Back
 Fore
 SplineSet
-147 510 m 0,0,1
- 147 533 147 533 163.5 550 c 128,-1,2
- 180 567 180 567 205 567 c 2,3,-1
- 1581 567 l 2,4,5
- 1606 567 1606 567 1622 549.5 c 128,-1,6
- 1638 532 1638 532 1638 510 c 0,7,8
- 1638 485 1638 485 1622 469 c 128,-1,9
- 1606 453 1606 453 1581 453 c 2,10,-1
- 205 453 l 2,11,12
- 180 453 180 453 163.5 469 c 128,-1,13
- 147 485 147 485 147 510 c 0,0,1
+100 277 m 2
+ 772 277 l 2
+ 788 277 800 264 800 249 c 0
+ 800 233 788 221 772 221 c 2
+ 100 221 l 2
+ 84 221 72 233 72 249 c 0
+ 72 264 84 277 100 277 c 2
 EndSplineSet
 EndChar

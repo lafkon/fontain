@@ -1,52 +1,16 @@
 StartChar: period
-Encoding: 46 46 17
-Width: 434
-GlyphClass: 2
-Flags: W
-TtInstrs:
-SVTCA[y-axis]
-PUSHB_3
- 11
- 0
- 0
-CALL
-PUSHB_2
- 4
- 4
-MIRP[min,black]
-SVTCA[x-axis]
-PUSHB_1
- 14
-MDAP[rnd]
-PUSHB_1
- 0
-MDRP[rp0,rnd,white]
-PUSHB_2
- 7
- 23
-MIRP[min,black]
-PUSHB_2
- 15
- 1
-CALL
-SVTCA[y-axis]
-IUP[y]
-IUP[x]
-EndTTInstrs
+Encoding: 46 46 107
+Width: 240
+Flags: MW
+HStem: 0 121<40.5 102.5>
 LayerCount: 2
 Back
 Fore
 SplineSet
-4 123 m 1,0,-1
- 29 199 l 1,1,2
- 43 248 43 248 87 280.5 c 128,-1,3
- 131 313 131 313 180 309 c 0,4,5
- 227 305 227 305 251.5 269 c 128,-1,6
- 276 233 276 233 266 184 c 1,7,-1
- 240 109 l 1,8,9
- 226 62 226 62 182.5 28 c 128,-1,10
- 139 -6 139 -6 90 -2 c 0,11,12
- 43 2 43 2 17.5 38 c 128,-1,13
- -8 74 -8 74 4 123 c 1,0,-1
+56 0 m 0
+ 25 0 9 25 16 57 c 0
+ 23 90 57 121 88 121 c 0
+ 117 121 135 96 128 65 c 0
+ 121 29 86 0 56 0 c 0
 EndSplineSet
 EndChar

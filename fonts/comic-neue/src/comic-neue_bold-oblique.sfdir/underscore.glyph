@@ -1,50 +1,19 @@
 StartChar: underscore
-Encoding: 95 95 65
-Width: 1210
-GlyphClass: 2
-Flags: W
-TtInstrs:
-SVTCA[y-axis]
-PUSHB_3
- 3
- 0
- 0
-CALL
-PUSHB_2
- 11
- 8
-MIRP[min,black]
-PUSHB_3
- 3
- 0
- 0
-CALL
-SVTCA[x-axis]
-PUSHB_1
- 14
-MDAP[rnd]
-PUSHB_2
- 15
- 1
-CALL
-SVTCA[y-axis]
-IUP[y]
-IUP[x]
-EndTTInstrs
+Encoding: 95 95 95
+Width: 516
+Flags: MW
+HStem: -51 96<-55 423 -22 403>
 LayerCount: 2
 Back
 Fore
 SplineSet
-4 -104 m 256,0,1
- 14 -61 14 -61 50 -30.5 c 128,-1,2
- 86 0 86 0 129 0 c 2,3,-1
- 1124 0 l 2,4,5
- 1167 0 1167 0 1192 -30.5 c 128,-1,6
- 1217 -61 1217 -61 1206 -104 c 0,7,8
- 1196 -147 1196 -147 1159 -178 c 128,-1,9
- 1122 -209 1122 -209 1079 -209 c 2,10,-1
- 84 -209 l 2,11,12
- 43 -209 43 -209 18.5 -178 c 128,-1,13
- -6 -147 -6 -147 4 -104 c 256,0,1
+403 -51 m 2
+ -42 -51 l 2
+ -68 -51 -85 -30 -79 -3 c 0
+ -74 23 -49 45 -22 45 c 2
+ 423 45 l 2
+ 449 45 466 23 461 -3 c 0
+ 455 -30 429 -51 403 -51 c 2
 EndSplineSet
+Kerns2: 11 60 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar

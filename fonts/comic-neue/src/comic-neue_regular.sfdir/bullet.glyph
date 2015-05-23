@@ -1,68 +1,17 @@
 StartChar: bullet
-Encoding: 8226 8226 128
-Width: 632
-GlyphClass: 2
-Flags: W
-TtInstrs:
-SVTCA[y-axis]
-PUSHB_1
- 9
-MDAP[rnd]
-PUSHB_5
- 3
- 4
- 0
- 12
- 4
-CALL
-PUSHB_5
- 3
- 4
- 0
- 12
- 4
-CALL
-SVTCA[x-axis]
-PUSHB_1
- 12
-MDAP[rnd]
-PUSHB_1
- 0
-MDRP[rp0,rnd,white]
-PUSHB_5
- 6
- 13
- 0
- 12
- 4
-CALL
-PUSHB_5
- 6
- 13
- 0
- 12
- 4
-CALL
-PUSHB_2
- 13
- 1
-CALL
-SVTCA[y-axis]
-IUP[y]
-IUP[x]
-EndTTInstrs
+Encoding: 8226 8226 78
+Width: 309
+Flags: MW
+HStem: 164 178<130.5 179.5>
+VStem: 66 177<228.5 277.5>
 LayerCount: 2
 Back
 Fore
 SplineSet
-135 518 m 256,0,1
- 135 594 135 594 188.5 647 c 128,-1,2
- 242 700 242 700 317 700 c 0,3,4
- 393 700 393 700 445.5 647 c 128,-1,5
- 498 594 498 594 498 518 c 256,6,7
- 498 442 498 442 445.5 389 c 128,-1,8
- 393 336 393 336 317 336 c 256,9,10
- 241 336 241 336 188 389 c 128,-1,11
- 135 442 135 442 135 518 c 256,0,1
+243 253 m 0
+ 243 204 204 164 155 164 c 0
+ 106 164 66 204 66 253 c 0
+ 66 302 106 342 155 342 c 0
+ 204 342 243 302 243 253 c 0
 EndSplineSet
 EndChar

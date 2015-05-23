@@ -207,7 +207,7 @@ AUTHOR
 
 LICENSE
 =======
-[CC0 1.0 Universal (CC0 1.0)](http://creativecommons.org/publicdomain/zero/1.0/)
+[SIL Open Font License (OFL)](http://scripts.sil.org/OFL)
 
 
 FONT STYLES

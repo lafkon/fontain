@@ -1,56 +1,24 @@
 StartChar: guilsinglright
-Encoding: 8250 8250 132
-Width: 598
-GlyphClass: 2
-Flags: W
-TtInstrs:
-SVTCA[y-axis]
-SVTCA[x-axis]
-PUSHB_1
- 21
-MDAP[rnd]
-PUSHB_1
- 1
-MDRP[rp0,rnd,white]
-PUSHB_1
- 13
-MDRP[min,rnd,black]
-PUSHB_2
- 22
- 1
-CALL
-PUSHB_2
- 13
- 1
-SRP1
-SRP2
-PUSHB_2
- 5
- 18
-IP
-IP
-SVTCA[y-axis]
-IUP[y]
-IUP[x]
-EndTTInstrs
+Encoding: 8250 8250 64
+Width: 377
+Flags: MW
+HStem: 76 21G<68.5 79.5> 413 20G<129 139>
 LayerCount: 2
 Back
 Fore
 SplineSet
-2 214 m 128,-1,1
- 8 238 8 238 31 254 c 1,2,-1
- 371 510 l 1,3,-1
- 111 786 l 2,4,5
- 97 802 97 802 99.5 826 c 128,-1,6
- 102 850 102 850 123 866 c 1,7,8
- 141 884 141 884 164.5 886.5 c 128,-1,9
- 188 889 188 889 205 872 c 2,10,-1
- 504 555 l 2,11,12
- 520 539 520 539 514 512 c 1,13,14
- 510 485 510 485 487 469 c 2,15,-1
- 88 170 l 1,16,17
- 72 156 72 156 47 156 c 0,18,19
- 20 156 20 156 8 174 c 1,20,0
- -4 190 -4 190 2 214 c 128,-1,1
+76 76 m 0
+ 61 76 50 88 53 103 c 0
+ 55 111 60 119 67 124 c 2
+ 233 249 l 1
+ 107 384 l 2
+ 102 390 100 397 102 405 c 0
+ 105 421 122 433 136 433 c 0
+ 142 433 148 430 152 426 c 2
+ 299 271 l 2
+ 304 266 305 258 304 250 c 0
+ 302 242 297 234 290 229 c 2
+ 96 83 l 2
+ 89 78 83 76 76 76 c 0
 EndSplineSet
 EndChar
