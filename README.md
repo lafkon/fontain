@@ -170,6 +170,7 @@ and use an apache web server add this to you `.htaccess`:
 FONT STYLES
 ===========
 
+comic-neue_bold
 ams-euler
 libre-caslon-text_italic
 pressuru
