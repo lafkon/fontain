@@ -170,6 +170,7 @@ and use an apache web server add this to you `.htaccess`:
 FONT STYLES
 ===========
 
+simple-print_regular
 rosario_regular
 comic-neue_bold
 ams-euler
