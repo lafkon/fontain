@@ -1,0 +1,72 @@
+
+StartChar: parenright
+Encoding: 41 41 185
+Width: 184
+Flags: W
+TtInstrs:
+PUSHW_3
+ 10
+ 2
+ 3
+CALL
+NPUSHW
+ 5
+ 234
+ 2
+ 250
+ 2
+ 2
+DELTAP1
+NPUSHW
+ 27
+ 25
+ 2
+ 41
+ 2
+ 57
+ 2
+ 73
+ 2
+ 89
+ 2
+ 105
+ 2
+ 121
+ 2
+ 137
+ 2
+ 153
+ 2
+ 169
+ 2
+ 185
+ 2
+ 201
+ 2
+ 217
+ 2
+ 13
+DELTAP1
+PUSHW_1
+ 10
+SRP0
+PUSHW_1
+ 17
+MDRP[rp0,min,rnd,grey]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+-5 -88 m 0,0,1
+ 132 189 132 189 131 474 c 0,2,3
+ 130 752 130 752 -5 1035 c 0,4,5
+ -15 1054 -15 1054 5 1065 c 1,6,7
+ 25 1073 25 1073 35 1054 c 0,8,9
+ 171 766 171 766 175 474 c 1,10,11
+ 176 177 176 177 34 -108 c 0,12,13
+ 25 -128 25 -128 5 -118 c 0,14,15
+ -15 -109 -15 -109 -5 -88 c 0,0,1
+EndSplineSet
+EndChar

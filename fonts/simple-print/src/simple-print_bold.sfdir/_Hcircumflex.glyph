@@ -1,0 +1,95 @@
+
+StartChar: Hcircumflex
+Encoding: 292 292 277
+Width: 624
+Flags: W
+TtInstrs:
+PUSHW_1
+ 41
+MDAP[rnd]
+PUSHW_1
+ 4
+MDAP[rnd]
+PUSHW_1
+ 0
+MDRP[rp0,min,rnd,grey]
+PUSHW_1
+ 41
+SRP0
+PUSHW_1
+ 11
+MDRP[rp0,grey]
+PUSHW_1
+ 11
+MDAP[rnd]
+PUSHW_1
+ 7
+MDRP[rp0,min,rnd,grey]
+PUSHW_1
+ 16
+MDRP[rp0,grey]
+PUSHW_1
+ 4
+SRP0
+PUSHW_1
+ 18
+MDRP[rp0,grey]
+PUSHW_1
+ 0
+SRP0
+PUSHW_1
+ 42
+MDRP[rp0,min,rnd,grey]
+SVTCA[y-axis]
+PUSHW_1
+ 24
+MDAP[rnd]
+PUSHW_1
+ 2
+MDAP[rnd]
+PUSHW_1
+ 9
+MDAP[rnd]
+PUSHW_3
+ 18
+ 5
+ 3
+CALL
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+582 19 m 2,0,1
+ 582 -21 582 -21 540 -21 c 0,2,3
+ 499 -21 499 -21 499 19 c 2,4,-1
+ 499 437 l 1,5,-1
+ 116 437 l 1,6,-1
+ 116 19 l 2,7,8
+ 116 -21 116 -21 74 -21 c 0,9,10
+ 33 -21 33 -21 33 19 c 2,11,-1
+ 33 971 l 2,12,13
+ 33 1012 33 1012 74 1012 c 0,14,15
+ 116 1012 116 1012 116 971 c 2,16,-1
+ 116 520 l 1,17,-1
+ 499 520 l 1,18,-1
+ 499 971 l 2,19,20
+ 499 1012 499 1012 540 1012 c 0,21,22
+ 582 1012 582 1012 582 971 c 2,23,-1
+ 582 19 l 2,0,1
+308 1301 m 1,24,-1
+ 428 1207 l 2,25,26
+ 443 1195 443 1195 446 1180 c 128,-1,27
+ 449 1165 449 1165 437 1149 c 1,28,29
+ 409 1121 409 1121 381 1142 c 0,30,31
+ 359 1159 359 1159 344 1170.5 c 128,-1,32
+ 329 1182 329 1182 308 1199 c 1,33,34
+ 290 1185 290 1185 271.5 1170 c 128,-1,35
+ 253 1155 253 1155 236 1141 c 1,36,37
+ 205 1121 205 1121 177 1148 c 1,38,39
+ 154 1180 154 1180 184 1206 c 1,40,-1
+ 308 1301 l 1,24,-1
+EndSplineSet
+Kerns2: 35 82 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 
+EndChar

@@ -1,0 +1,44 @@
+
+StartChar: imacron
+Encoding: 299 299 348
+Width: 170
+Flags: W
+TtInstrs:
+PUSHW_3
+ 0
+ 4
+ 3
+CALL
+SVTCA[y-axis]
+PUSHW_1
+ 2
+MDAP[rnd]
+PUSHW_3
+ 16
+ 20
+ 3
+CALL
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+124 19 m 2,0,1
+ 124 -21 124 -21 82 -21 c 0,2,3
+ 42 -21 42 -21 42 19 c 2,4,-1
+ 42 473 l 2,5,6
+ 42 514 42 514 82 514 c 0,7,8
+ 124 514 124 514 124 473 c 2,9,-1
+ 124 19 l 2,0,1
+-1 696 m 2,10,11
+ -21 696 -21 696 -32.5 706.5 c 128,-1,12
+ -44 717 -44 717 -43 738 c 1,13,14
+ -43 779 -43 779 -1 779 c 2,15,-1
+ 171 779 l 1,16,17
+ 211 776 211 776 211 736 c 0,18,19
+ 211 692 211 692 171 695 c 1,20,-1
+ -1 696 l 2,10,11
+EndSplineSet
+Kerns2: 93 -59 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1"  30 59 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1"  27 -47 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1"  22 -140 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1"  18 70 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" 
+EndChar

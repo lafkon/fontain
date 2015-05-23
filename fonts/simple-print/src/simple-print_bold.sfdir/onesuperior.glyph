@@ -1,0 +1,33 @@
+
+StartChar: onesuperior
+Encoding: 185 185 199
+Width: 127
+Flags: W
+TtInstrs:
+PUSHW_3
+ 0
+ 4
+ 3
+CALL
+SVTCA[y-axis]
+PUSHW_1
+ 2
+MDAP[rnd]
+PUSHW_1
+ 7
+MDAP[rnd]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+105 406 m 2,0,1
+ 105 363 105 363 61 363 c 0,2,3
+ 19 363 19 363 19 406 c 2,4,-1
+ 19 958 l 2,5,6
+ 19 1001 19 1001 61 1001 c 0,7,8
+ 105 1001 105 1001 105 958 c 2,9,-1
+ 105 406 l 2,0,1
+EndSplineSet
+EndChar

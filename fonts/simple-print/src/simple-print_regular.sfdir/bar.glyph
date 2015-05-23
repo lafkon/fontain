@@ -1,0 +1,33 @@
+
+StartChar: bar
+Encoding: 124 124 169
+Width: 145
+Flags: W
+TtInstrs:
+PUSHW_3
+ 1
+ 5
+ 3
+CALL
+SVTCA[y-axis]
+PUSHW_1
+ 8
+MDAP[rnd]
+PUSHW_1
+ 3
+MDAP[rnd]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+95 1055 m 2,0,-1
+ 95 -474 l 2,1,2
+ 95 -496 95 -496 72 -496 c 0,3,4
+ 50 -496 50 -496 50 -474 c 2,5,-1
+ 50 1055 l 2,6,7
+ 50 1077 50 1077 72 1077 c 0,8,9
+ 95 1077 95 1077 95 1055 c 2,0,-1
+EndSplineSet
+EndChar

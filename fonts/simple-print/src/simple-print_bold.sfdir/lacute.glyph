@@ -1,0 +1,40 @@
+
+StartChar: lacute
+Encoding: 314 314 356
+Width: 145
+Flags: W
+TtInstrs:
+PUSHW_3
+ 0
+ 4
+ 3
+CALL
+SVTCA[y-axis]
+PUSHW_1
+ 2
+MDAP[rnd]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+114 19 m 2,0,1
+ 114 -21 114 -21 72 -21 c 0,2,3
+ 32 -21 32 -21 32 19 c 2,4,-1
+ 32 961 l 2,5,6
+ 32 1001 32 1001 72 1001 c 0,7,8
+ 114 1001 114 1001 114 961 c 2,9,-1
+ 114 19 l 2,0,1
+92 1031 m 2,10,11
+ 59 1012 59 1012 38 1047 c 1,12,13
+ 17 1079 17 1079 52 1102 c 1,14,-1
+ 211 1197 l 2,15,16
+ 245 1218 245 1218 267 1183 c 0,17,18
+ 277 1166 277 1166 273.5 1151.5 c 128,-1,19
+ 270 1137 270 1137 252 1127 c 1,20,-1
+ 253 1128 l 1,21,-1
+ 92 1031 l 2,10,11
+EndSplineSet
+Kerns2: 35 82 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1"  12 59 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" 
+EndChar

@@ -1,0 +1,27 @@
+
+StartChar: hyphen
+Encoding: 45 45 145
+Width: 634
+Flags: W
+TtInstrs:
+SVTCA[y-axis]
+PUSHW_3
+ 6
+ 0
+ 3
+CALL
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+509 334 m 2,0,-1
+ 129 335 l 2,1,2
+ 105 335 105 335 106 359 c 0,3,4
+ 106 381 106 381 129 381 c 2,5,-1
+ 509 381 l 1,6,7
+ 531 380 531 380 531 356 c 0,8,9
+ 531 333 531 333 509 334 c 2,0,-1
+EndSplineSet
+EndChar

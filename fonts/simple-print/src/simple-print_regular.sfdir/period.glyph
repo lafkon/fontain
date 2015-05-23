@@ -1,0 +1,29 @@
+
+StartChar: period
+Encoding: 46 46 59
+Width: 202
+Flags: W
+TtInstrs:
+SVTCA[y-axis]
+PUSHW_3
+ 3
+ 9
+ 3
+CALL
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+52 41 m 256,0,1
+ 52 66 52 66 66.5 83.5 c 128,-1,2
+ 81 101 81 101 102 101 c 256,3,4
+ 123 101 123 101 138 83.5 c 128,-1,5
+ 153 66 153 66 153 41 c 256,6,7
+ 153 16 153 16 138 -1 c 128,-1,8
+ 123 -18 123 -18 102 -18 c 256,9,10
+ 81 -18 81 -18 66.5 -1 c 128,-1,11
+ 52 16 52 16 52 41 c 256,0,1
+EndSplineSet
+EndChar

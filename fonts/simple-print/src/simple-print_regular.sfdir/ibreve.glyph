@@ -1,0 +1,40 @@
+
+StartChar: ibreve
+Encoding: 301 301 349
+Width: 170
+Flags: W
+TtInstrs:
+PUSHW_3
+ 1
+ 5
+ 3
+CALL
+SVTCA[y-axis]
+PUSHW_1
+ 3
+MDAP[rnd]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+107 472 m 2,0,-1
+ 107 0 l 2,1,2
+ 107 -22 107 -22 84 -22 c 0,3,4
+ 62 -22 62 -22 62 0 c 2,5,-1
+ 62 472 l 2,6,7
+ 62 495 62 495 84 495 c 0,8,9
+ 107 495 107 495 107 472 c 2,0,-1
+14 720 m 0,10,11
+ 52 682 52 682 86 682 c 256,12,13
+ 120 682 120 682 156 719 c 0,14,15
+ 172 735 172 735 189 720 c 1,16,17
+ 205 704 205 704 189 688 c 0,18,19
+ 139 637 139 637 86 637 c 1,20,21
+ 34 638 34 638 -18 688 c 0,22,23
+ -34 703 -34 703 -18 720 c 1,24,25
+ -2 735 -2 735 14 720 c 0,10,11
+EndSplineSet
+Kerns2: 165 59 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1"  35 35 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1"  30 82 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1"  27 -70 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1"  22 -164 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1"  13 59 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" 
+EndChar

@@ -1,0 +1,83 @@
+
+StartChar: dagger
+Encoding: 8224 8224 249
+Width: 360
+Flags: W
+TtInstrs:
+PUSHW_3
+ 1
+ 5
+ 3
+CALL
+PUSHW_1
+ 5
+SRP0
+PUSHW_1
+ 14
+MDRP[rp0,grey]
+PUSHW_1
+ 1
+SRP0
+PUSHW_1
+ 19
+MDRP[rp0,grey]
+SVTCA[y-axis]
+PUSHW_1
+ 3
+MDAP[rnd]
+PUSHW_3
+ 17
+ 0
+ 3
+CALL
+PUSHW_1
+ 0
+SRP0
+PUSHW_1
+ 6
+MDRP[rp0,grey]
+PUSHW_1
+ 0
+SRP0
+PUSHW_1
+ 9
+MDRP[rp0,grey]
+PUSHW_1
+ 9
+MDAP[rnd]
+PUSHW_1
+ 0
+SRP0
+PUSHW_1
+ 20
+MDRP[rp0,min,rnd,grey]
+PUSHW_1
+ 13
+MDRP[rp0,grey]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+214 762 m 1,0,-1
+ 214 19 l 2,1,2
+ 214 -21 214 -21 173 -21 c 256,3,4
+ 132 -21 132 -21 132 19 c 2,5,-1
+ 132 762 l 1,6,7
+ 108 762 108 762 84.5 762.5 c 128,-1,8
+ 61 763 61 763 37 763 c 0,9,10
+ -5 763 -5 763 -3 805 c 1,11,12
+ -3 846 -3 846 37 846 c 2,13,-1
+ 132 846 l 1,14,-1
+ 132 961 l 2,15,16
+ 132 1001 132 1001 173 1001 c 256,17,18
+ 214 1001 214 1001 214 961 c 2,19,-1
+ 214 846 l 1,20,-1
+ 311 846 l 1,21,22
+ 332 844 332 844 341.5 834 c 128,-1,23
+ 351 824 351 824 352 804 c 1,24,25
+ 352 762 352 762 310 762 c 2,26,-1
+ 214 762 l 1,0,-1
+EndSplineSet
+EndChar

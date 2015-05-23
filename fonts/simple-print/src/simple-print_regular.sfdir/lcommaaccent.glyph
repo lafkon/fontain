@@ -1,0 +1,41 @@
+
+StartChar: lcommaaccent
+Encoding: 316 316 358
+Width: 145
+Flags: W
+TtInstrs:
+PUSHW_3
+ 1
+ 5
+ 3
+CALL
+SVTCA[y-axis]
+PUSHW_1
+ 8
+MDAP[rnd]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+95 979 m 2,0,-1
+ 95 0 l 2,1,2
+ 95 -22 95 -22 72 -22 c 0,3,4
+ 50 -22 50 -22 50 0 c 2,5,-1
+ 50 979 l 2,6,7
+ 50 1001 50 1001 72 1001 c 0,8,9
+ 95 1001 95 1001 95 979 c 2,0,-1
+43 -109 m 0,10,11
+ 33 -86 33 -86 69 -65 c 128,-1,12
+ 105 -44 105 -44 122 -69 c 1,13,14
+ 155 -112 155 -112 126 -188 c 1,15,16
+ 105 -248 105 -248 40 -343 c 0,17,18
+ 27 -361 27 -361 8 -348 c 0,19,20
+ -10 -335 -10 -335 2 -316 c 0,21,22
+ 63 -227 63 -227 83 -173 c 0,23,24
+ 101 -123 101 -123 75.5 -124.5 c 128,-1,25
+ 50 -126 50 -126 43 -109 c 0,10,11
+EndSplineSet
+Kerns2: 35 94 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" 
+EndChar
