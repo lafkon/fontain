@@ -1,0 +1,78 @@
+StartChar: one.denominator
+Encoding: 65551 -1 515
+Width: 192
+Flags: W
+TtInstrs:
+NPUSHB
+ 11
+ 12
+ 7
+ 2
+ 1
+ 0
+ 1
+ 71
+ 5
+ 1
+ 0
+ 69
+MPPEM
+PUSHB_1
+ 47
+LT
+IF
+NPUSHB
+ 11
+ 0
+ 0
+ 1
+ 0
+ 111
+ 0
+ 1
+ 1
+ 16
+ 1
+ 73
+ELSE
+NPUSHB
+ 11
+ 0
+ 0
+ 1
+ 0
+ 111
+ 0
+ 1
+ 1
+ 19
+ 1
+ 73
+EIF
+PUSHB_5
+ 39
+ 16
+ 2
+ 5
+ 22
+CALL
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+76 270 m 1,0,-1
+ 30 270 l 1,1,-1
+ 30 275 l 1,2,3
+ 66 279 66 279 86 289.5 c 128,-1,4
+ 106 300 106 300 123 322 c 1,5,-1
+ 128 321 l 1,6,-1
+ 128 12 l 1,7,-1
+ 169 8 l 1,8,-1
+ 169 0 l 1,9,-1
+ 30 0 l 1,10,-1
+ 30 8 l 1,11,-1
+ 76 12 l 1,12,-1
+ 76 270 l 1,0,-1
+EndSplineSet
+EndChar

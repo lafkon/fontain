@@ -1,0 +1,55 @@
+StartChar: apostrophe
+Encoding: 700 700 374
+Width: 144
+Flags: W
+TtInstrs:
+PUSHB_5
+ 13
+ 9
+ 2
+ 0
+ 68
+MPPEM
+PUSHB_1
+ 47
+LT
+IF
+PUSHB_6
+ 0
+ 0
+ 0
+ 15
+ 0
+ 73
+ELSE
+PUSHB_4
+ 0
+ 0
+ 0
+ 102
+EIF
+PUSHB_4
+ 37
+ 1
+ 5
+ 21
+CALL
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+47 651 m 2,0,1
+ 46 656 46 656 45.5 659.5 c 128,-1,2
+ 45 663 45 663 45 666 c 0,3,4
+ 45 682 45 682 52.5 689 c 128,-1,5
+ 60 696 60 696 72 696 c 256,6,7
+ 84 696 84 696 91.5 689 c 128,-1,8
+ 99 682 99 682 99 666 c 0,9,10
+ 99 663 99 663 98.5 659.5 c 128,-1,11
+ 98 656 98 656 97 651 c 2,12,-1
+ 74 530 l 1,13,-1
+ 70 530 l 1,14,-1
+ 47 651 l 2,0,1
+EndSplineSet
+EndChar

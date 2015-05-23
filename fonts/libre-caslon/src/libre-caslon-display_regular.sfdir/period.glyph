@@ -1,0 +1,62 @@
+StartChar: period
+Encoding: 46 46 16
+Width: 231
+Flags: W
+TtInstrs:
+MPPEM
+PUSHB_1
+ 47
+LT
+IF
+NPUSHB
+ 11
+ 0
+ 0
+ 0
+ 1
+ 88
+ 0
+ 1
+ 1
+ 16
+ 1
+ 73
+ELSE
+NPUSHB
+ 11
+ 0
+ 0
+ 0
+ 1
+ 88
+ 0
+ 1
+ 1
+ 19
+ 1
+ 73
+EIF
+PUSHB_5
+ 36
+ 34
+ 2
+ 5
+ 22
+CALL
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+64 48 m 256,0,1
+ 64 70 64 70 78.5 84.5 c 128,-1,2
+ 93 99 93 99 116 99 c 256,3,4
+ 139 99 139 99 153 84.5 c 128,-1,5
+ 167 70 167 70 167 48 c 256,6,7
+ 167 26 167 26 153 11 c 128,-1,8
+ 139 -4 139 -4 116 -4 c 256,9,10
+ 93 -4 93 -4 78.5 11 c 128,-1,11
+ 64 26 64 26 64 48 c 256,0,1
+EndSplineSet
+Kerns2: 542 -30 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 535 -49 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 532 -24 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 529 -23 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 509 -11 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 320 -9 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 88 -46 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 56 -71 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 27 -27 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 25 -16 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 18 -22 "'kern' Horizontal Kerning lookup 0 per glyph data 0"
+EndChar

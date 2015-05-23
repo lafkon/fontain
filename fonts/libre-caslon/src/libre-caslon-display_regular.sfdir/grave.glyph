@@ -1,0 +1,51 @@
+StartChar: grave
+Encoding: 96 96 66
+Width: 194
+Flags: W
+TtInstrs:
+PUSHB_4
+ 0
+ 1
+ 0
+ 68
+MPPEM
+PUSHB_1
+ 47
+LT
+IF
+PUSHB_6
+ 0
+ 0
+ 0
+ 15
+ 0
+ 73
+ELSE
+PUSHB_4
+ 0
+ 0
+ 0
+ 102
+EIF
+PUSHB_4
+ 39
+ 1
+ 5
+ 21
+CALL
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+149 524 m 1,0,-1
+ 146 523 l 1,1,-1
+ 81 605 l 2,2,3
+ 61 630 61 630 53 640 c 128,-1,4
+ 45 650 45 650 45 660 c 0,5,6
+ 45 673 45 673 52 682 c 128,-1,7
+ 59 691 59 691 73 691 c 0,8,9
+ 97 691 97 691 104 670 c 2,10,-1
+ 149 524 l 1,0,-1
+EndSplineSet
+EndChar

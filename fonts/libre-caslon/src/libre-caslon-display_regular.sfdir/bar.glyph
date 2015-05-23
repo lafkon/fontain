@@ -1,0 +1,63 @@
+StartChar: bar
+Encoding: 124 124 94
+Width: 208
+Flags: W
+TtInstrs:
+MPPEM
+PUSHB_1
+ 47
+LT
+IF
+NPUSHB
+ 12
+ 0
+ 0
+ 1
+ 0
+ 112
+ 2
+ 1
+ 1
+ 1
+ 15
+ 1
+ 73
+ELSE
+NPUSHB
+ 10
+ 2
+ 1
+ 1
+ 0
+ 1
+ 111
+ 0
+ 0
+ 0
+ 102
+EIF
+NPUSHB
+ 10
+ 0
+ 0
+ 0
+ 3
+ 0
+ 3
+ 17
+ 3
+ 5
+ 21
+CALL
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+115 690 m 1,0,-1
+ 115 -135 l 1,1,-1
+ 93 -135 l 1,2,-1
+ 93 690 l 1,3,-1
+ 115 690 l 1,0,-1
+EndSplineSet
+EndChar

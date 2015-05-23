@@ -1,0 +1,66 @@
+StartChar: fraction
+Encoding: 8260 8260 441
+Width: 100
+Flags: W
+TtInstrs:
+MPPEM
+PUSHB_1
+ 47
+LT
+IF
+NPUSHB
+ 12
+ 2
+ 1
+ 1
+ 1
+ 15
+ 72
+ 0
+ 0
+ 0
+ 16
+ 0
+ 73
+ELSE
+NPUSHB
+ 12
+ 2
+ 1
+ 1
+ 0
+ 1
+ 111
+ 0
+ 0
+ 0
+ 19
+ 0
+ 73
+EIF
+NPUSHB
+ 10
+ 0
+ 0
+ 0
+ 3
+ 0
+ 3
+ 17
+ 3
+ 5
+ 21
+CALL
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+241 690 m 1,0,-1
+ -116 -2 l 1,1,-1
+ -141 -2 l 1,2,-1
+ 216 690 l 1,3,-1
+ 241 690 l 1,0,-1
+EndSplineSet
+Kerns2: 549 -16 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 536 -27 "'kern' Horizontal Kerning lookup 0 per glyph data 0"
+EndChar

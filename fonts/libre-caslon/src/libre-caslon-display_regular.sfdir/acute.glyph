@@ -1,0 +1,51 @@
+StartChar: acute
+Encoding: 180 180 117
+Width: 194
+Flags: W
+TtInstrs:
+PUSHB_4
+ 9
+ 1
+ 0
+ 68
+MPPEM
+PUSHB_1
+ 47
+LT
+IF
+PUSHB_6
+ 0
+ 0
+ 0
+ 15
+ 0
+ 73
+ELSE
+PUSHB_4
+ 0
+ 0
+ 0
+ 102
+EIF
+PUSHB_4
+ 33
+ 1
+ 5
+ 21
+CALL
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+90 670 m 2,0,1
+ 97 691 97 691 121 691 c 0,2,3
+ 135 691 135 691 142 682 c 128,-1,4
+ 149 673 149 673 149 660 c 0,5,6
+ 149 650 149 650 141 640 c 128,-1,7
+ 133 630 133 630 113 605 c 2,8,-1
+ 48 523 l 1,9,-1
+ 45 524 l 1,10,-1
+ 90 670 l 2,0,1
+EndSplineSet
+EndChar

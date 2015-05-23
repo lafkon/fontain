@@ -1,0 +1,168 @@
+StartChar: three
+Encoding: 51 51 21
+Width: 516
+Flags: W
+TtInstrs:
+NPUSHB
+ 11
+ 19
+ 10
+ 2
+ 5
+ 0
+ 57
+ 1
+ 3
+ 5
+ 2
+ 71
+MPPEM
+PUSHB_1
+ 47
+LT
+IF
+NPUSHB
+ 36
+ 0
+ 5
+ 0
+ 3
+ 0
+ 5
+ 3
+ 109
+ 0
+ 3
+ 4
+ 0
+ 3
+ 4
+ 107
+ 0
+ 0
+ 0
+ 1
+ 88
+ 0
+ 1
+ 1
+ 23
+ 72
+ 0
+ 4
+ 4
+ 2
+ 88
+ 0
+ 2
+ 2
+ 24
+ 2
+ 73
+ELSE
+NPUSHB
+ 34
+ 0
+ 5
+ 0
+ 3
+ 0
+ 5
+ 3
+ 109
+ 0
+ 3
+ 4
+ 0
+ 3
+ 4
+ 107
+ 0
+ 1
+ 0
+ 0
+ 5
+ 1
+ 0
+ 96
+ 0
+ 4
+ 4
+ 2
+ 88
+ 0
+ 2
+ 2
+ 27
+ 2
+ 73
+EIF
+NPUSHB
+ 9
+ 38
+ 38
+ 38
+ 47
+ 37
+ 37
+ 6
+ 5
+ 26
+CALL
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+162 352 m 1,0,1
+ 237 382 237 382 278 433 c 128,-1,2
+ 319 484 319 484 319 544 c 0,3,4
+ 319 594 319 594 292.5 622.5 c 128,-1,5
+ 266 651 266 651 219 651 c 0,6,7
+ 173 651 173 651 136.5 624 c 128,-1,8
+ 100 597 100 597 77 546 c 1,9,-1
+ 68 550 l 1,10,11
+ 93 623 93 623 145.5 665 c 128,-1,12
+ 198 707 198 707 265 707 c 0,13,14
+ 328 707 328 707 367.5 672 c 128,-1,15
+ 407 637 407 637 407 581 c 0,16,17
+ 407 531 407 531 373.5 485 c 128,-1,18
+ 340 439 340 439 279 405 c 1,19,-1
+ 279 401 l 1,20,21
+ 319 400 319 400 353 384.5 c 128,-1,22
+ 387 369 387 369 412 343.5 c 128,-1,23
+ 437 318 437 318 451 283.5 c 128,-1,24
+ 465 249 465 249 465 209 c 0,25,26
+ 465 162 465 162 446 121 c 128,-1,27
+ 427 80 427 80 394.5 49.5 c 128,-1,28
+ 362 19 362 19 318.5 1.5 c 128,-1,29
+ 275 -16 275 -16 225 -16 c 0,30,31
+ 189 -16 189 -16 156.5 -6.5 c 128,-1,32
+ 124 3 124 3 99.5 19 c 128,-1,33
+ 75 35 75 35 60.5 56 c 128,-1,34
+ 46 77 46 77 46 101 c 0,35,36
+ 46 123 46 123 57.5 136 c 128,-1,37
+ 69 149 69 149 89 149 c 0,38,39
+ 110 149 110 149 124 132.5 c 128,-1,40
+ 138 116 138 116 155 69 c 0,41,42
+ 164 46 164 46 170.5 32 c 128,-1,43
+ 177 18 177 18 184.5 10.5 c 128,-1,44
+ 192 3 192 3 202.5 0.5 c 128,-1,45
+ 213 -2 213 -2 228 -2 c 0,46,47
+ 297 -2 297 -2 336 43 c 128,-1,48
+ 375 88 375 88 375 166 c 0,49,50
+ 375 207 375 207 364 241 c 128,-1,51
+ 353 275 353 275 333 299.5 c 128,-1,52
+ 313 324 313 324 285.5 337.5 c 128,-1,53
+ 258 351 258 351 225 351 c 0,54,55
+ 211 351 211 351 195 349 c 128,-1,56
+ 179 347 179 347 165 342 c 1,57,-1
+ 162 352 l 1,0,1
+EndSplineSet
+Kerns2: 340 -13 "'kern' Horizontal Kerning lookup 0 per glyph data 2" 135 -13 "'kern' Horizontal Kerning lookup 0 per glyph data 2" 113 -12 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 95 -17 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 63 -26 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 11 -22 "'kern' Horizontal Kerning lookup 0 per glyph data 0"
+Substitution2: "'numr' Numerators lookup 10 subtable" three.numerator
+Substitution2: "'dnom' Denominators lookup 9 subtable" three.denominator
+Substitution2: "'sups' Superscript lookup 8 subtable" threesuperior
+Substitution2: "'sinf' Scientific Inferiors lookup 7 subtable" threeinferior
+Substitution2: "'onum' Oldstyle Figures lookup 4 subtable" three.oldstyle
+EndChar

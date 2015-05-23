@@ -1,0 +1,140 @@
+StartChar: nine
+Encoding: 57 57 27
+Width: 511
+Flags: W
+TtInstrs:
+NPUSHB
+ 10
+ 12
+ 1
+ 3
+ 2
+ 1
+ 71
+ 9
+ 1
+ 1
+ 68
+MPPEM
+PUSHB_1
+ 47
+LT
+IF
+NPUSHB
+ 20
+ 0
+ 3
+ 0
+ 1
+ 3
+ 1
+ 92
+ 5
+ 1
+ 2
+ 2
+ 0
+ 88
+ 4
+ 1
+ 0
+ 0
+ 23
+ 2
+ 73
+ELSE
+NPUSHB
+ 26
+ 4
+ 1
+ 0
+ 5
+ 1
+ 2
+ 3
+ 0
+ 2
+ 96
+ 0
+ 3
+ 1
+ 1
+ 3
+ 84
+ 0
+ 3
+ 3
+ 1
+ 88
+ 0
+ 1
+ 3
+ 1
+ 76
+EIF
+NPUSHB
+ 19
+ 26
+ 25
+ 1
+ 0
+ 32
+ 30
+ 25
+ 39
+ 26
+ 39
+ 16
+ 14
+ 0
+ 24
+ 1
+ 24
+ 6
+ 5
+ 20
+CALL
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+252 714 m 0,0,1
+ 348 714 348 714 402.5 644.5 c 128,-1,2
+ 457 575 457 575 457 453 c 0,3,4
+ 457 376 457 376 434 304.5 c 128,-1,5
+ 411 233 411 233 367.5 172 c 128,-1,6
+ 324 111 324 111 262.5 63 c 128,-1,7
+ 201 15 201 15 124 -16 c 1,8,-1
+ 120 -8 l 1,9,10
+ 225 58 225 58 281.5 142.5 c 128,-1,11
+ 338 227 338 227 352 338 c 1,12,13
+ 329 312 329 312 295.5 298.5 c 128,-1,14
+ 262 285 262 285 222 285 c 0,15,16
+ 181 285 181 285 147 299.5 c 128,-1,17
+ 113 314 113 314 89 340.5 c 128,-1,18
+ 65 367 65 367 52 404.5 c 128,-1,19
+ 39 442 39 442 39 488 c 0,20,21
+ 39 537 39 537 54.5 578.5 c 128,-1,22
+ 70 620 70 620 98.5 650 c 128,-1,23
+ 127 680 127 680 166 697 c 128,-1,24
+ 205 714 205 714 252 714 c 0,0,1
+250 702 m 256,25,26
+ 194 702 194 702 163 650 c 128,-1,27
+ 132 598 132 598 132 506 c 0,28,29
+ 132 412 132 412 164 360.5 c 128,-1,30
+ 196 309 196 309 256 309 c 0,31,32
+ 285 309 285 309 310.5 321 c 128,-1,33
+ 336 333 336 333 354 356 c 1,34,35
+ 359 385 359 385 362 419.5 c 128,-1,36
+ 365 454 365 454 365 486 c 0,37,38
+ 365 591 365 591 335.5 646.5 c 128,-1,39
+ 306 702 306 702 250 702 c 256,25,26
+EndSplineSet
+Kerns2: 437 -50 "'kern' Horizontal Kerning lookup 0 per glyph data 2" 433 -50 "'kern' Horizontal Kerning lookup 0 per glyph data 2" 430 -50 "'kern' Horizontal Kerning lookup 0 per glyph data 2" 340 -51 "'kern' Horizontal Kerning lookup 0 per glyph data 2" 338 -35 "'kern' Horizontal Kerning lookup 0 per glyph data 2" 245 -11 "'kern' Horizontal Kerning lookup 0 per glyph data 2" 197 -35 "'kern' Horizontal Kerning lookup 0 per glyph data 2" 195 -35 "'kern' Horizontal Kerning lookup 0 per glyph data 2" 193 -35 "'kern' Horizontal Kerning lookup 0 per glyph data 2" 135 -51 "'kern' Horizontal Kerning lookup 0 per glyph data 2" 134 -35 "'kern' Horizontal Kerning lookup 0 per glyph data 2" 133 -35 "'kern' Horizontal Kerning lookup 0 per glyph data 2" 132 -35 "'kern' Horizontal Kerning lookup 0 per glyph data 2" 131 -35 "'kern' Horizontal Kerning lookup 0 per glyph data 2" 130 -35 "'kern' Horizontal Kerning lookup 0 per glyph data 2" 129 -35 "'kern' Horizontal Kerning lookup 0 per glyph data 2" 44 -11 "'kern' Horizontal Kerning lookup 0 per glyph data 2" 35 -35 "'kern' Horizontal Kerning lookup 0 per glyph data 2" 16 -50 "'kern' Horizontal Kerning lookup 0 per glyph data 2" 14 -50 "'kern' Horizontal Kerning lookup 0 per glyph data 2" 544 -34 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 95 -17 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 63 -25 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 58 -11 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 17 -13 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 11 -18 "'kern' Horizontal Kerning lookup 0 per glyph data 0"
+Substitution2: "'numr' Numerators lookup 10 subtable" nine.numerator
+Substitution2: "'dnom' Denominators lookup 9 subtable" nine.denominator
+Substitution2: "'sups' Superscript lookup 8 subtable" ninesuperior
+Substitution2: "'sinf' Scientific Inferiors lookup 7 subtable" nineinferior
+Substitution2: "'onum' Oldstyle Figures lookup 4 subtable" nine.oldstyle
+EndChar

@@ -1,0 +1,86 @@
+StartChar: one
+Encoding: 49 49 19
+Width: 344
+Flags: W
+TtInstrs:
+NPUSHB
+ 13
+ 12
+ 11
+ 8
+ 7
+ 4
+ 1
+ 0
+ 1
+ 71
+ 5
+ 1
+ 0
+ 69
+MPPEM
+PUSHB_1
+ 47
+LT
+IF
+NPUSHB
+ 11
+ 0
+ 0
+ 1
+ 0
+ 111
+ 0
+ 1
+ 1
+ 16
+ 1
+ 73
+ELSE
+NPUSHB
+ 11
+ 0
+ 0
+ 1
+ 0
+ 111
+ 0
+ 1
+ 1
+ 19
+ 1
+ 73
+EIF
+PUSHB_5
+ 24
+ 16
+ 2
+ 5
+ 22
+CALL
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+143 600 m 1,0,-1
+ 40 600 l 1,1,-1
+ 40 607 l 1,2,3
+ 104 615 104 615 145 640.5 c 128,-1,4
+ 186 666 186 666 215 714 c 1,5,-1
+ 220 712 l 1,6,-1
+ 220 17 l 1,7,-1
+ 312 9 l 1,8,-1
+ 312 0 l 1,9,-1
+ 41 0 l 1,10,-1
+ 41 9 l 1,11,-1
+ 143 17 l 1,12,-1
+ 143 600 l 1,0,-1
+EndSplineSet
+Kerns2: 427 -10 "'kern' Horizontal Kerning lookup 0 per glyph data 2" 426 -10 "'kern' Horizontal Kerning lookup 0 per glyph data 2" 340 44 "'kern' Horizontal Kerning lookup 0 per glyph data 2" 338 40 "'kern' Horizontal Kerning lookup 0 per glyph data 2" 197 40 "'kern' Horizontal Kerning lookup 0 per glyph data 2" 195 40 "'kern' Horizontal Kerning lookup 0 per glyph data 2" 193 40 "'kern' Horizontal Kerning lookup 0 per glyph data 2" 135 44 "'kern' Horizontal Kerning lookup 0 per glyph data 2" 134 40 "'kern' Horizontal Kerning lookup 0 per glyph data 2" 133 40 "'kern' Horizontal Kerning lookup 0 per glyph data 2" 132 40 "'kern' Horizontal Kerning lookup 0 per glyph data 2" 131 40 "'kern' Horizontal Kerning lookup 0 per glyph data 2" 130 40 "'kern' Horizontal Kerning lookup 0 per glyph data 2" 129 40 "'kern' Horizontal Kerning lookup 0 per glyph data 2" 110 -10 "'kern' Horizontal Kerning lookup 0 per glyph data 2" 35 40 "'kern' Horizontal Kerning lookup 0 per glyph data 2" 15 -10 "'kern' Horizontal Kerning lookup 0 per glyph data 2" 544 38 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 184 -12 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 152 -12 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 120 -13 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 95 -10 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 63 -12 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 13 -13 "'kern' Horizontal Kerning lookup 0 per glyph data 0"
+Substitution2: "'numr' Numerators lookup 10 subtable" one.numerator
+Substitution2: "'dnom' Denominators lookup 9 subtable" one.denominator
+Substitution2: "'sups' Superscript lookup 8 subtable" onesuperior
+Substitution2: "'sinf' Scientific Inferiors lookup 7 subtable" oneinferior
+Substitution2: "'onum' Oldstyle Figures lookup 4 subtable" one.oldstyle
+EndChar
