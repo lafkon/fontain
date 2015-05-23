@@ -224,3 +224,15 @@ comic-neue_light
     comic-neue-angular_light
 comic_neue_light-oblique
    comic-neue-angular_light-oblique
+
+
+TEX CONFIGURATION
+=================
+KARLBERRYNAME:rcn
+FOUNDRY:rozynski
+TEXSRCREGULAR:comic-neue_regular
+TEXSRCITALIC:comic-neue_regular-oblique
+TEXSRCBOLD:comic-neue_bold
+TEXSRCBOLD-ITALIC:comic-neue_bold-oblique
+
+
