@@ -170,6 +170,7 @@ and use an apache web server add this to you `.htaccess`:
 FONT STYLES
 ===========
 
+ams-euler
 libre-caslon-text_italic
 pressuru
 osifont
