@@ -1,6 +1,6 @@
 Rosario
 =======
-CLASSIFICATION: SansSerif
+CLASSIFICATION: Sans-Serif
 
 GENERAL INFORMATION
 ===================
