@@ -1,0 +1,63 @@
+StartChar: period
+Encoding: 46 46 14
+Width: 247
+GlyphClass: 2
+Flags: W
+TtInstrs:
+PUSHB_1
+ 12
+MDAP[rnd]
+PUSHB_3
+ 29
+ 12
+ 1
+DELTAP1
+PUSHB_3
+ 93
+ 12
+ 1
+DELTAP1
+PUSHB_3
+ 166
+ 12
+ 1
+DELTAP1
+PUSHB_1
+ 0
+MDRP[rp0,grey]
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 0
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 0
+ 2
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 6
+MDRP[rp0,min,rnd,grey]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+101 -13 m 0,0,1
+ 73 -13 73 -13 54 6.5 c 128,-1,2
+ 35 26 35 26 35 54 c 0,3,4
+ 35 81 35 81 54 100.5 c 128,-1,5
+ 73 120 73 120 100 120 c 0,6,7
+ 128 120 128 120 147.5 101 c 128,-1,8
+ 167 82 167 82 167 54 c 128,-1,9
+ 167 26 167 26 147.5 6.5 c 128,-1,10
+ 128 -13 128 -13 101 -13 c 0,0,1
+EndSplineSet
+Kerns2: 9 -80 "'kern' Horizontal Kerning lookup 0 per glyph data 0"
+EndChar

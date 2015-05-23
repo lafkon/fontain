@@ -1,0 +1,47 @@
+StartChar: fraction
+Encoding: 8260 8260 225
+Width: 132
+GlyphClass: 2
+Flags: W
+TtInstrs:
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 2
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 2
+ 8
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 0
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 0
+ 2
+MIAP[no-rnd]
+EIF
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+-89 -7 m 1,0,-1
+ -153 -7 l 1,1,-1
+ 220 730 l 1,2,-1
+ 286 730 l 1,3,-1
+ -89 -7 l 1,0,-1
+EndSplineSet
+EndChar

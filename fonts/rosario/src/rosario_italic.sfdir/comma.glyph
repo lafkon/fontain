@@ -1,0 +1,58 @@
+StartChar: comma
+Encoding: 44 44 12
+Width: 251
+GlyphClass: 2
+Flags: W
+TtInstrs:
+PUSHB_1
+ 17
+MDAP[rnd]
+PUSHB_3
+ 86
+ 17
+ 1
+DELTAP1
+PUSHB_3
+ 214
+ 17
+ 1
+DELTAP1
+PUSHB_3
+ 22
+ 17
+ 1
+DELTAP1
+PUSHB_3
+ 150
+ 17
+ 1
+DELTAP1
+PUSHB_1
+ 0
+MDRP[rp0,grey]
+SVTCA[y-axis]
+PUSHB_1
+ 13
+MDAP[rnd]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+171 50 m 0,0,1
+ 171 0 171 0 135 -45.5 c 128,-1,2
+ 99 -91 99 -91 48 -125 c 1,3,-1
+ 18 -92 l 1,4,-1
+ 24 -87 l 2,5,6
+ 76 -45 76 -45 76 -18 c 0,7,8
+ 76 -11 76 -11 56 11 c 128,-1,9
+ 36 33 36 33 36 54 c 0,10,11
+ 36 85 36 85 56 102.5 c 128,-1,12
+ 76 120 76 120 105 120 c 0,13,14
+ 136 120 136 120 153.5 100 c 128,-1,15
+ 171 80 171 80 171 50 c 0,0,1
+EndSplineSet
+Kerns2: 9 -80 "'kern' Horizontal Kerning lookup 0 per glyph data 0"
+EndChar

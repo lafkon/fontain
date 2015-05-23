@@ -1,0 +1,130 @@
+StartChar: u
+Encoding: 117 117 85
+Width: 510
+GlyphClass: 2
+Flags: W
+TtInstrs:
+PUSHB_1
+ 38
+MDAP[rnd]
+PUSHB_3
+ 166
+ 38
+ 1
+DELTAP1
+PUSHB_3
+ 134
+ 38
+ 1
+DELTAP1
+PUSHB_1
+ 0
+MDRP[rp0,grey]
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 15
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 15
+ 6
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 26
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 26
+ 6
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 2
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 2
+ 2
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 8
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 8
+ 2
+MIAP[no-rnd]
+EIF
+PUSHB_3
+ 6
+ 8
+ 26
+SRP1
+SRP2
+IP
+PUSHB_2
+ 21
+ 1
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 2
+SRP0
+PUSHB_2
+ 32
+ 1
+MIRP[rp0,rnd,grey]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+483 11 m 1,0,1
+ 439 -12 439 -12 408 -12 c 0,2,3
+ 379 -12 379 -12 354 10 c 128,-1,4
+ 329 32 329 32 329 73 c 1,5,-1
+ 325 73 l 1,6,7
+ 268 -13 268 -13 168 -13 c 0,8,9
+ 103 -13 103 -13 71.5 22 c 128,-1,10
+ 40 57 40 57 40 119 c 0,11,12
+ 40 138 40 138 43 159 c 2,13,-1
+ 81 433 l 1,14,-1
+ 81 490 l 1,15,-1
+ 168 490 l 1,16,-1
+ 125 171 l 2,17,18
+ 122 149 122 149 122 130 c 0,19,20
+ 122 49 122 49 189 49 c 0,21,22
+ 239 49 239 49 283.5 101.5 c 128,-1,23
+ 328 154 328 154 346 279 c 2,24,-1
+ 368 432 l 1,25,-1
+ 368 490 l 1,26,-1
+ 456 490 l 1,27,-1
+ 405 121 l 2,28,29
+ 403 101 403 101 403 95 c 0,30,31
+ 403 53 403 53 431 53 c 0,32,33
+ 440 53 440 53 450 55.5 c 128,-1,34
+ 460 58 460 58 466 60 c 2,35,-1
+ 472 63 l 1,36,-1
+ 483 11 l 1,0,1
+EndSplineSet
+Kerns2: 189 -20 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 187 -20 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 89 -20 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 87 -20 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 86 -20 "'kern' Horizontal Kerning lookup 0 per glyph data 0"
+EndChar

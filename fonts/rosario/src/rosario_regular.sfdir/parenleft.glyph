@@ -1,0 +1,44 @@
+StartChar: parenleft
+Encoding: 40 40 8
+Width: 306
+GlyphClass: 2
+Flags: W
+TtInstrs:
+SVTCA[y-axis]
+PUSHB_1
+ 5
+MDAP[rnd]
+PUSHB_1
+ 1
+MDAP[rnd]
+PUSHB_3
+ 0
+ 1
+ 5
+SRP1
+SRP2
+IP
+PUSHB_3
+ 6
+ 1
+ 5
+SRP1
+SRP2
+IP
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+285 -129 m 1,0,-1
+ 218 -138 l 1,1,2
+ 44 64 44 64 44 302 c 0,3,4
+ 44 543 44 543 218 743 c 1,5,-1
+ 285 733 l 1,6,7
+ 132 545 132 545 132 302 c 128,-1,8
+ 132 59 132 59 285 -129 c 1,0,-1
+EndSplineSet
+Kerns2: 52 26 "'kern' Horizontal Kerning lookup 0 per glyph data 0"
+EndChar

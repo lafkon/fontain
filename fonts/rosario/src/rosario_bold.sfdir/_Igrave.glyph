@@ -1,0 +1,42 @@
+StartChar: Igrave
+Encoding: 204 204 138
+Width: 261
+GlyphClass: 2
+Flags: W
+TtInstrs:
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 0
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 0
+ 2
+MIAP[no-rnd]
+EIF
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+205 0 m 1,0,-1
+ 67 0 l 1,1,-1
+ 67 613 l 2,2,3
+ 67 614 67 614 63.5 628 c 128,-1,4
+ 60 642 60 642 56.5 657 c 128,-1,5
+ 53 672 53 672 53 674 c 2,6,-1
+ 205 674 l 1,7,-1
+ 205 0 l 1,0,-1
+204 717 m 1,8,-1
+ 101 717 l 1,9,-1
+ -50 882 l 1,10,-1
+ 95 882 l 1,11,-1
+ 204 717 l 1,8,-1
+EndSplineSet
+EndChar

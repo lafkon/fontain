@@ -1,0 +1,60 @@
+StartChar: Delta
+Encoding: 8710 8710 230
+Width: 631
+GlyphClass: 2
+Flags: W
+TtInstrs:
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 3
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 3
+ 8
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 0
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 0
+ 2
+MIAP[no-rnd]
+EIF
+PUSHB_2
+ 6
+ 1
+MIRP[rp0,rnd,grey]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+564 0 m 1,0,-1
+ -30 0 l 1,1,-1
+ -21 67 l 1,2,-1
+ 312 732 l 1,3,-1
+ 415 732 l 1,4,-1
+ 573 67 l 1,5,-1
+ 564 0 l 1,0,-1
+103 99 m 1,6,-1
+ 424 99 l 1,7,8
+ 377 298 377 298 338 487 c 0,9,10
+ 335 505 335 505 332.5 543 c 128,-1,11
+ 330 581 330 581 329 586 c 1,12,13
+ 301 506 301 506 291 486 c 0,14,15
+ 171 232 171 232 103 99 c 1,6,-1
+EndSplineSet
+EndChar

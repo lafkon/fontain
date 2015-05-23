@@ -1,0 +1,43 @@
+StartChar: Icircumflex
+Encoding: 206 206 140
+Width: 270
+GlyphClass: 2
+Flags: W
+TtInstrs:
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 0
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 0
+ 2
+MIAP[no-rnd]
+EIF
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+181 0 m 1,0,-1
+ 86 0 l 1,1,-1
+ 86 602 l 1,2,-1
+ 71 668 l 1,3,-1
+ 181 668 l 1,4,-1
+ 181 0 l 1,0,-1
+277 696 m 1,5,-1
+ 208 696 l 1,6,-1
+ 129 778 l 1,7,-1
+ 53 697 l 1,8,-1
+ -14 697 l 1,9,-1
+ 88 851 l 1,10,-1
+ 171 851 l 1,11,-1
+ 277 696 l 1,5,-1
+EndSplineSet
+EndChar

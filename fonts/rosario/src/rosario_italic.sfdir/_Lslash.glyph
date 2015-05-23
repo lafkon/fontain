@@ -1,0 +1,62 @@
+StartChar: Lslash
+Encoding: 321 321 191
+Width: 471
+GlyphClass: 2
+Flags: W
+TtInstrs:
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 11
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 11
+ 8
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 4
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 4
+ 2
+MIAP[no-rnd]
+EIF
+PUSHB_2
+ 2
+ 1
+MIRP[rp0,rnd,grey]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+388 417 m 1,0,-1
+ 180 322 l 1,1,-1
+ 146 69 l 1,2,-1
+ 435 69 l 1,3,-1
+ 425 0 l 1,4,-1
+ 45 0 l 1,5,-1
+ 82 278 l 1,6,-1
+ 4 242 l 1,7,-1
+ 14 310 l 1,8,-1
+ 91 345 l 1,9,-1
+ 134 659 l 1,10,-1
+ 134 724 l 1,11,-1
+ 234 724 l 1,12,-1
+ 189 390 l 1,13,-1
+ 398 485 l 1,14,-1
+ 388 417 l 1,0,-1
+EndSplineSet
+EndChar

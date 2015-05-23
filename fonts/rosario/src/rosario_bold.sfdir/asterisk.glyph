@@ -1,0 +1,45 @@
+StartChar: asterisk
+Encoding: 42 42 10
+Width: 510
+GlyphClass: 2
+Flags: W
+TtInstrs:
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 11
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 11
+ 8
+MIAP[no-rnd]
+EIF
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+458 555 m 1,0,-1
+ 300 528 l 1,1,-1
+ 415 422 l 1,2,-1
+ 326 353 l 1,3,-1
+ 255 494 l 1,4,-1
+ 184 356 l 1,5,-1
+ 98 420 l 1,6,-1
+ 209 531 l 1,7,-1
+ 56 552 l 1,8,-1
+ 86 659 l 1,9,-1
+ 226 585 l 1,10,-1
+ 197 741 l 1,11,-1
+ 308 741 l 1,12,-1
+ 283 585 l 1,13,-1
+ 417 663 l 1,14,-1
+ 458 555 l 1,0,-1
+EndSplineSet
+EndChar

@@ -1,0 +1,41 @@
+StartChar: quoteright
+Encoding: 8217 8217 213
+Width: 286
+GlyphClass: 2
+Flags: W
+TtInstrs:
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 13
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 13
+ 8
+MIAP[no-rnd]
+EIF
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+228 652 m 0,0,1
+ 228 552 228 552 119 472 c 1,2,3
+ 92 499 92 499 80 513 c 1,4,5
+ 126 559 126 559 126 586 c 0,6,7
+ 126 596 126 596 114 607 c 128,-1,8
+ 102 618 102 618 90 634.5 c 128,-1,9
+ 78 651 78 651 78 675 c 0,10,11
+ 78 705 78 705 97.5 725 c 128,-1,12
+ 117 745 117 745 147 745 c 0,13,14
+ 184 745 184 745 206 717.5 c 128,-1,15
+ 228 690 228 690 228 652 c 0,0,1
+EndSplineSet
+Kerns2: 213 -92 "'kern' Horizontal Kerning lookup 0 subtable" 83 -74 "'kern' Horizontal Kerning lookup 0 subtable"
+EndChar

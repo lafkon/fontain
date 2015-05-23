@@ -1,0 +1,69 @@
+StartChar: Egrave
+Encoding: 200 200 134
+Width: 549
+GlyphClass: 2
+Flags: W
+TtInstrs:
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 0
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 0
+ 2
+MIAP[no-rnd]
+EIF
+PUSHB_4
+ 11
+ 1
+ 12
+ 4
+CALL
+PUSHB_4
+ 7
+ 1
+ 8
+ 4
+CALL
+PUSHB_1
+ 0
+SRP0
+PUSHB_2
+ 14
+ 1
+MIRP[rp0,rnd,grey]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+513 0 m 1,0,-1
+ 68 0 l 1,1,-1
+ 68 613 l 2,2,3
+ 68 614 68 614 64.5 628 c 128,-1,4
+ 61 642 61 642 57.5 657 c 128,-1,5
+ 54 672 54 672 54 674 c 2,6,-1
+ 513 674 l 1,7,-1
+ 513 575 l 1,8,-1
+ 206 575 l 1,9,-1
+ 206 391 l 1,10,-1
+ 441 391 l 1,11,-1
+ 441 292 l 1,12,-1
+ 206 292 l 1,13,-1
+ 206 99 l 1,14,-1
+ 513 99 l 1,15,-1
+ 513 0 l 1,0,-1
+366 717 m 1,16,-1
+ 263 717 l 1,17,-1
+ 112 882 l 1,18,-1
+ 257 882 l 1,19,-1
+ 366 717 l 1,16,-1
+EndSplineSet
+EndChar

@@ -1,0 +1,122 @@
+StartChar: x
+Encoding: 120 120 88
+Width: 446
+GlyphClass: 2
+Flags: W
+TtInstrs:
+PUSHB_1
+ 13
+MDAP[rnd]
+PUSHB_3
+ 61
+ 13
+ 1
+DELTAP1
+PUSHB_3
+ 29
+ 13
+ 1
+DELTAP1
+PUSHB_3
+ 134
+ 13
+ 1
+DELTAP1
+PUSHB_3
+ 246
+ 13
+ 1
+DELTAP1
+PUSHB_1
+ 0
+MDRP[rp0,grey]
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 6
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 6
+ 6
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 9
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 9
+ 6
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 0
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 0
+ 2
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 3
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 3
+ 2
+MIAP[no-rnd]
+EIF
+PUSHB_3
+ 2
+ 0
+ 9
+SRP1
+SRP2
+IP
+PUSHB_3
+ 8
+ 9
+ 0
+SRP1
+SRP2
+IP
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+436 -1 m 1,0,-1
+ 341 -1 l 1,1,-1
+ 218 192 l 1,2,-1
+ 92 -1 l 1,3,-1
+ 10 -1 l 1,4,-1
+ 176 254 l 1,5,-1
+ 21 497 l 1,6,-1
+ 116 497 l 1,7,-1
+ 225 325 l 1,8,-1
+ 340 497 l 1,9,-1
+ 421 497 l 1,10,-1
+ 267 263 l 1,11,-1
+ 436 -1 l 1,0,-1
+EndSplineSet
+Kerns2: 67 -18 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 194 -18 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 180 -18 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 179 -18 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 178 -18 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 177 -18 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 176 -18 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 169 -18 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 168 -18 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 167 -18 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 166 -18 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 165 -18 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 96 -18 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 88 15 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 81 -18 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 79 -18 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 69 -18 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 68 -18 "'kern' Horizontal Kerning lookup 0 per glyph data 0"
+EndChar

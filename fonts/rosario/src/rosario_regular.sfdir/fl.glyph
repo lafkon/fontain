@@ -1,0 +1,141 @@
+StartChar: fl
+Encoding: 64258 64258 243
+Width: 568
+GlyphClass: 3
+Flags: W
+TtInstrs:
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 33
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 33
+ 10
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 36
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 36
+ 10
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 11
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 11
+ 6
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 0
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 0
+ 2
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 15
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 15
+ 2
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 33
+SRP0
+PUSHB_2
+ 5
+ 1
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 11
+SRP0
+PUSHB_2
+ 13
+ 1
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 17
+MDRP[rp0,grey]
+PUSHB_3
+ 19
+ 11
+ 13
+SRP1
+SRP2
+IP
+PUSHB_1
+ 19
+MDAP[rnd]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+483 -1 m 1,0,-1
+ 401 -1 l 1,1,-1
+ 401 635 l 2,2,3
+ 401 668 401 668 371.5 687.5 c 128,-1,4
+ 342 707 342 707 308 707 c 0,5,6
+ 272 707 272 707 246 693 c 128,-1,7
+ 220 679 220 679 207 660 c 128,-1,8
+ 194 641 194 641 187 608.5 c 128,-1,9
+ 180 576 180 576 178.5 553.5 c 128,-1,10
+ 177 531 177 531 177 497 c 1,11,-1
+ 320 497 l 1,12,-1
+ 302 434 l 1,13,-1
+ 177 434 l 1,14,-1
+ 177 -1 l 1,15,-1
+ 95 -1 l 1,16,-1
+ 95 434 l 1,17,-1
+ 20 434 l 1,18,-1
+ 20 486 l 1,19,20
+ 24 486 24 486 34 487 c 128,-1,21
+ 44 488 44 488 48.5 488.5 c 128,-1,22
+ 53 489 53 489 61 490.5 c 128,-1,23
+ 69 492 69 492 73.5 494.5 c 128,-1,24
+ 78 497 78 497 83.5 501 c 128,-1,25
+ 89 505 89 505 92 511.5 c 128,-1,26
+ 95 518 95 518 97 526 c 0,27,28
+ 100 540 100 540 103.5 565.5 c 128,-1,29
+ 107 591 107 591 108 599 c 0,30,31
+ 123 679 123 679 173.5 724 c 128,-1,32
+ 224 769 224 769 306 769 c 0,33,34
+ 377 769 377 769 418 738 c 1,35,-1
+ 483 764 l 1,36,-1
+ 483 -1 l 1,0,-1
+EndSplineSet
+Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f l
+EndChar

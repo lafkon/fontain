@@ -1,0 +1,42 @@
+StartChar: Iacute
+Encoding: 205 205 139
+Width: 261
+GlyphClass: 2
+Flags: W
+TtInstrs:
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 0
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 0
+ 2
+MIAP[no-rnd]
+EIF
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+204 0 m 1,0,-1
+ 66 0 l 1,1,-1
+ 66 613 l 2,2,3
+ 66 614 66 614 62.5 628 c 128,-1,4
+ 59 642 59 642 55.5 657 c 128,-1,5
+ 52 672 52 672 52 674 c 2,6,-1
+ 204 674 l 1,7,-1
+ 204 0 l 1,0,-1
+300 881 m 1,8,-1
+ 149 716 l 1,9,-1
+ 46 716 l 1,10,-1
+ 155 881 l 1,11,-1
+ 300 881 l 1,8,-1
+EndSplineSet
+EndChar

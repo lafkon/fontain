@@ -1,0 +1,111 @@
+StartChar: onequarter
+Encoding: 188 188 122
+Width: 1049
+GlyphClass: 3
+Flags: W
+TtInstrs:
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 32
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 32
+ 8
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 0
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 0
+ 2
+MIAP[no-rnd]
+EIF
+PUSHB_4
+ 11
+ 1
+ 2
+ 4
+CALL
+PUSHB_4
+ 35
+ 1
+ 24
+ 4
+CALL
+PUSHB_1
+ 11
+SRP0
+PUSHB_1
+ 7
+MDRP[rp0,grey]
+PUSHB_1
+ 2
+SRP0
+PUSHB_1
+ 9
+MDRP[rp0,grey]
+PUSHB_1
+ 35
+SRP0
+PUSHB_1
+ 26
+MDRP[rp0,grey]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+880 0 m 1,0,-1
+ 772 0 l 1,1,-1
+ 785 101 l 1,2,-1
+ 578 101 l 1,3,-1
+ 578 153 l 1,4,-1
+ 837 486 l 1,5,-1
+ 944 486 l 1,6,-1
+ 903 180 l 1,7,-1
+ 971 180 l 1,8,-1
+ 960 101 l 1,9,-1
+ 893 101 l 1,10,-1
+ 880 0 l 1,0,-1
+795 180 m 1,11,-1
+ 811 297 l 2,12,13
+ 812 306 812 306 816.5 328 c 128,-1,14
+ 821 350 821 350 826 368 c 2,15,-1
+ 830 386 l 1,16,17
+ 807 333 807 333 769 283 c 2,18,-1
+ 690 180 l 1,19,-1
+ 795 180 l 1,11,-1
+399 -27 m 1,20,-1
+ 320 -27 l 1,21,-1
+ 719 753 l 1,22,-1
+ 799 753 l 1,23,-1
+ 399 -27 l 1,20,-1
+406 246 m 1,24,-1
+ 69 246 l 1,25,-1
+ 79 325 l 1,26,-1
+ 206 325 l 1,27,-1
+ 246 628 l 1,28,-1
+ 122 593 l 1,29,-1
+ 107 663 l 1,30,31
+ 199 691 199 691 286 732 c 1,32,-1
+ 367 732 l 1,33,-1
+ 314 325 l 1,34,-1
+ 416 325 l 1,35,-1
+ 406 246 l 1,24,-1
+EndSplineSet
+Ligature2: "Ligature Substitution lookup 6 subtable" one fraction four
+Ligature2: "Ligature Substitution lookup 6 subtable" one slash four
+EndChar

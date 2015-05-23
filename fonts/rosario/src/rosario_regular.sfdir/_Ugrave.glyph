@@ -1,0 +1,57 @@
+StartChar: Ugrave
+Encoding: 217 217 151
+Width: 707
+GlyphClass: 2
+Flags: W
+TtInstrs:
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 6
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 6
+ 2
+MIAP[no-rnd]
+EIF
+PUSHB_2
+ 19
+ 1
+MIRP[rp0,rnd,grey]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+543 257 m 2,0,-1
+ 543 668 l 1,1,-1
+ 620 668 l 1,2,-1
+ 620 257 l 2,3,4
+ 620 130 620 130 549.5 58.5 c 128,-1,5
+ 479 -13 479 -13 351 -13 c 0,6,7
+ 224 -13 224 -13 155 52.5 c 128,-1,8
+ 86 118 86 118 86 243 c 2,9,-1
+ 86 603 l 2,10,11
+ 86 604 86 604 82.5 619 c 128,-1,12
+ 79 634 79 634 75 650 c 128,-1,13
+ 71 666 71 666 71 668 c 2,14,-1
+ 181 668 l 1,15,-1
+ 181 243 l 2,16,17
+ 181 155 181 155 224.5 105.5 c 128,-1,18
+ 268 56 268 56 355 56 c 0,19,20
+ 445 56 445 56 494 111 c 128,-1,21
+ 543 166 543 166 543 257 c 2,0,-1
+404 721 m 1,22,-1
+ 326 721 l 1,23,-1
+ 186 873 l 1,24,-1
+ 309 873 l 1,25,-1
+ 404 721 l 1,22,-1
+EndSplineSet
+Kerns2: 132 -30 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 131 -30 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 130 -30 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 129 -30 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 128 -30 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 127 -30 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 126 -30 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 33 -30 "'kern' Horizontal Kerning lookup 0 per glyph data 0"
+EndChar

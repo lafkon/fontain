@@ -1,0 +1,163 @@
+StartChar: d
+Encoding: 100 100 68
+Width: 526
+GlyphClass: 2
+Flags: W
+TtInstrs:
+PUSHB_1
+ 49
+MDAP[rnd]
+PUSHB_3
+ 214
+ 49
+ 1
+DELTAP1
+PUSHB_3
+ 246
+ 49
+ 1
+DELTAP1
+PUSHB_1
+ 0
+MDRP[rp0,grey]
+PUSHB_1
+ 49
+SRP0
+PUSHB_1
+ 31
+MDRP[rp0,grey]
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 30
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 30
+ 10
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 26
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 26
+ 6
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 12
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 12
+ 2
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 18
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 18
+ 2
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 12
+SRP0
+PUSHB_2
+ 5
+ 1
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 26
+SRP0
+PUSHB_2
+ 35
+ 1
+MIRP[rp0,rnd,grey]
+PUSHB_3
+ 16
+ 18
+ 35
+SRP1
+SRP2
+IP
+PUSHB_3
+ 28
+ 26
+ 18
+SRP1
+SRP2
+IP
+PUSHB_1
+ 18
+SRP0
+PUSHB_2
+ 42
+ 1
+MIRP[rp0,rnd,grey]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+509 764 m 1,0,-1
+ 416 104 l 2,1,2
+ 415 95 415 95 415 92 c 0,3,4
+ 415 54 415 54 448 54 c 0,5,6
+ 456 54 456 54 466 56 c 128,-1,7
+ 476 58 476 58 482 60 c 2,8,-1
+ 488 62 l 1,9,-1
+ 499 12 l 1,10,11
+ 455 -11 455 -11 424 -11 c 0,12,13
+ 389 -11 389 -11 367 12.5 c 128,-1,14
+ 345 36 345 36 345 70 c 2,15,-1
+ 345 74 l 1,16,-1
+ 341 74 l 1,17,18
+ 280 -13 280 -13 194 -13 c 0,19,20
+ 114 -13 114 -13 75 40.5 c 128,-1,21
+ 36 94 36 94 36 176 c 0,22,23
+ 36 250 36 250 67 324 c 128,-1,24
+ 98 398 98 398 160.5 450.5 c 128,-1,25
+ 223 503 223 503 299 503 c 0,26,27
+ 353 503 353 503 388 464 c 1,28,-1
+ 422 710 l 1,29,-1
+ 422 764 l 1,30,-1
+ 509 764 l 1,0,-1
+377 383 m 2,31,-1
+ 379 404 l 1,32,33
+ 349 441 349 441 301 441 c 0,34,35
+ 246 441 246 441 204.5 392.5 c 128,-1,36
+ 163 344 163 344 145.5 285 c 128,-1,37
+ 128 226 128 226 128 173 c 0,38,39
+ 128 123 128 123 146.5 86.5 c 128,-1,40
+ 165 50 165 50 210 50 c 0,41,42
+ 240 50 240 50 264.5 66 c 128,-1,43
+ 289 82 289 82 306 113.5 c 128,-1,44
+ 323 145 323 145 335 174 c 128,-1,45
+ 347 203 347 203 355.5 249.5 c 128,-1,46
+ 364 296 364 296 368 319.5 c 128,-1,47
+ 372 343 372 343 377 383 c 2,31,-1
+EndSplineSet
+Kerns2: 86 -10 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 189 -10 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 187 -10 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 89 -10 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 87 -10 "'kern' Horizontal Kerning lookup 0 per glyph data 0"
+EndChar

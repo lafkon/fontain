@@ -1,0 +1,39 @@
+StartChar: radical
+Encoding: 8730 8730 234
+Width: 605
+GlyphClass: 2
+Flags: W
+TtInstrs:
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 0
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 0
+ 4
+MIAP[no-rnd]
+EIF
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+306 -230 m 1,0,-1
+ 196 -230 l 1,1,-1
+ 56 206 l 1,2,-1
+ -34 176 l 1,3,-1
+ -59 257 l 1,4,-1
+ 131 324 l 1,5,-1
+ 258 -78 l 1,6,-1
+ 555 968 l 1,7,-1
+ 648 968 l 1,8,-1
+ 306 -230 l 1,0,-1
+EndSplineSet
+EndChar

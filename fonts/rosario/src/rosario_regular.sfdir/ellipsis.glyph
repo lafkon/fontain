@@ -1,0 +1,96 @@
+StartChar: ellipsis
+Encoding: 8230 8230 221
+Width: 714
+GlyphClass: 2
+Flags: W
+TtInstrs:
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 8
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 8
+ 2
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 19
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 19
+ 2
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 30
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 30
+ 2
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 8
+SRP0
+PUSHB_2
+ 3
+ 1
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 14
+MDRP[rp0,grey]
+PUSHB_1
+ 25
+MDRP[rp0,grey]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+82 53 m 0,0,1
+ 82 81 82 81 101 100 c 128,-1,2
+ 120 119 120 119 148 119 c 0,3,4
+ 175 119 175 119 194.5 99.5 c 128,-1,5
+ 214 80 214 80 214 53 c 128,-1,6
+ 214 26 214 26 194.5 6.5 c 128,-1,7
+ 175 -13 175 -13 148 -13 c 256,8,9
+ 121 -13 121 -13 101.5 6.5 c 128,-1,10
+ 82 26 82 26 82 53 c 0,0,1
+293 53 m 0,11,12
+ 293 81 293 81 312 100 c 128,-1,13
+ 331 119 331 119 359 119 c 0,14,15
+ 386 119 386 119 405.5 99.5 c 128,-1,16
+ 425 80 425 80 425 53 c 128,-1,17
+ 425 26 425 26 405.5 6.5 c 128,-1,18
+ 386 -13 386 -13 359 -13 c 256,19,20
+ 332 -13 332 -13 312.5 6.5 c 128,-1,21
+ 293 26 293 26 293 53 c 0,11,12
+504 53 m 0,22,23
+ 504 81 504 81 523 100 c 128,-1,24
+ 542 119 542 119 570 119 c 0,25,26
+ 597 119 597 119 616.5 99.5 c 128,-1,27
+ 636 80 636 80 636 53 c 128,-1,28
+ 636 26 636 26 616.5 6.5 c 128,-1,29
+ 597 -13 597 -13 570 -13 c 256,30,31
+ 543 -13 543 -13 523.5 6.5 c 128,-1,32
+ 504 26 504 26 504 53 c 0,22,23
+EndSplineSet
+Kerns2: 247 -47 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 216 -47 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 215 -47 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 213 -47 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 212 -47 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 110 -47 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 15 25 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 9 -65 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 7 -47 "'kern' Horizontal Kerning lookup 0 per glyph data 0"
+EndChar

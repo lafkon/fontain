@@ -1,0 +1,144 @@
+StartChar: M
+Encoding: 77 77 45
+Width: 830
+GlyphClass: 2
+Flags: W
+TtInstrs:
+PUSHB_1
+ 28
+MDAP[rnd]
+PUSHB_3
+ 109
+ 28
+ 1
+DELTAP1
+PUSHB_3
+ 29
+ 28
+ 1
+DELTAP1
+PUSHB_3
+ 86
+ 28
+ 1
+DELTAP1
+PUSHB_1
+ 0
+MDRP[rp0,grey]
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 19
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 19
+ 8
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 26
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 26
+ 8
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 1
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 1
+ 2
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 9
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 9
+ 2
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 16
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 16
+ 2
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 26
+SRP0
+PUSHB_1
+ 6
+MDRP[rp0,grey]
+PUSHB_1
+ 19
+SRP0
+PUSHB_1
+ 13
+MDRP[rp0,grey]
+PUSHB_1
+ 9
+SRP0
+PUSHB_1
+ 23
+MDRP[rp0,grey]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+819 732 m 1,0,-1
+ 721 0 l 1,1,-1
+ 590 0 l 1,2,-1
+ 656 496 l 2,3,4
+ 658 510 658 510 663.5 535 c 128,-1,5
+ 669 560 669 560 670 568 c 1,6,7
+ 650 520 650 520 638 496 c 2,8,-1
+ 402 -1 l 1,9,-1
+ 314 -1 l 1,10,-1
+ 205 496 l 2,11,12
+ 193 551 193 551 191 568 c 1,13,14
+ 188 507 188 507 187 496 c 2,15,-1
+ 120 0 l 1,16,-1
+ 11 0 l 1,17,-1
+ 100 671 l 1,18,-1
+ 95 732 l 1,19,-1
+ 287 732 l 1,20,-1
+ 379 311 l 2,21,22
+ 386 282 386 282 390 190 c 1,23,24
+ 413 268 413 268 432 307 c 2,25,-1
+ 632 732 l 1,26,-1
+ 819 732 l 1,0,-1
+EndSplineSet
+Kerns2: 33 -25 "'kern' Horizontal Kerning lookup 1 per glyph data 1" 132 -25 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 131 -25 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 130 -25 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 129 -25 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 128 -25 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 127 -25 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 126 -25 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=7 dy=0 dh=14 dv=0
+EndChar

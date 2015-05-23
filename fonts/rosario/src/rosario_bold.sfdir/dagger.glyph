@@ -1,0 +1,47 @@
+StartChar: dagger
+Encoding: 8224 8224 218
+Width: 523
+GlyphClass: 2
+Flags: W
+TtInstrs:
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 13
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 13
+ 8
+MIAP[no-rnd]
+EIF
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+482 481 m 1,0,-1
+ 418 430 l 1,1,-1
+ 299 452 l 1,2,-1
+ 325 309 l 1,3,-1
+ 291 -138 l 1,4,-1
+ 245 -138 l 1,5,-1
+ 208 309 l 1,6,-1
+ 233 452 l 1,7,-1
+ 117 430 l 1,8,-1
+ 51 485 l 1,9,-1
+ 117 539 l 1,10,-1
+ 233 514 l 1,11,-1
+ 207 658 l 1,12,-1
+ 264 740 l 1,13,-1
+ 326 658 l 1,14,-1
+ 299 514 l 1,15,-1
+ 418 539 l 1,16,-1
+ 482 481 l 1,0,-1
+EndSplineSet
+EndChar

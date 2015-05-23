@@ -1,0 +1,50 @@
+StartChar: dotlessi
+Encoding: 305 305 190
+Width: 251
+GlyphClass: 2
+Flags: W
+TtInstrs:
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 6
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 6
+ 6
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 0
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 0
+ 2
+MIAP[no-rnd]
+EIF
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+185 0 m 1,0,-1
+ 65 0 l 1,1,-1
+ 65 443 l 2,2,3
+ 65 444 65 444 62.5 456 c 128,-1,4
+ 60 468 60 468 57 482 c 128,-1,5
+ 54 496 54 496 54 497 c 2,6,-1
+ 185 497 l 1,7,-1
+ 185 0 l 1,0,-1
+EndSplineSet
+EndChar

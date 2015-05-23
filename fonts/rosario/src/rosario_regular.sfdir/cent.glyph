@@ -1,0 +1,59 @@
+StartChar: cent
+Encoding: 162 162 96
+Width: 450
+GlyphClass: 2
+Flags: W
+TtInstrs:
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 30
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 30
+ 2
+MIAP[no-rnd]
+EIF
+PUSHB_2
+ 24
+ 1
+MIRP[rp0,rnd,grey]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+248 -118 m 1,0,-1
+ 176 -118 l 1,1,-1
+ 207 -6 l 1,2,3
+ 125 17 125 17 83 86.5 c 128,-1,4
+ 41 156 41 156 41 247 c 0,5,6
+ 41 353 41 353 97 425.5 c 128,-1,7
+ 153 498 153 498 256 507 c 1,8,-1
+ 266 612 l 1,9,-1
+ 340 612 l 1,10,-1
+ 310 505 l 1,11,12
+ 374 495 374 495 423 457 c 1,13,-1
+ 379 399 l 1,14,15
+ 348 424 348 424 325.5 433.5 c 128,-1,16
+ 303 443 303 443 266 443 c 0,17,18
+ 201 443 201 443 165.5 384 c 128,-1,19
+ 130 325 130 325 130 256 c 0,20,21
+ 130 210 130 210 143.5 166.5 c 128,-1,22
+ 157 123 157 123 190.5 89 c 128,-1,23
+ 224 55 224 55 271 55 c 0,24,25
+ 308 55 308 55 333 65 c 128,-1,26
+ 358 75 358 75 392 99 c 1,27,-1
+ 430 35 l 1,28,29
+ 358 -14 358 -14 273 -14 c 2,30,-1
+ 258 -14 l 1,31,-1
+ 248 -118 l 1,0,-1
+EndSplineSet
+Kerns2: 88 27 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 84 20 "'kern' Horizontal Kerning lookup 0 per glyph data 0"
+EndChar

@@ -1,0 +1,123 @@
+StartChar: r
+Encoding: 114 114 82
+Width: 349
+GlyphClass: 2
+Flags: W
+TtInstrs:
+PUSHB_1
+ 17
+MDAP[rnd]
+PUSHB_3
+ 70
+ 17
+ 1
+DELTAP1
+PUSHB_3
+ 29
+ 17
+ 1
+DELTAP1
+PUSHB_3
+ 214
+ 17
+ 1
+DELTAP1
+PUSHB_3
+ 118
+ 17
+ 1
+DELTAP1
+PUSHB_3
+ 166
+ 17
+ 1
+DELTAP1
+PUSHB_1
+ 0
+MDRP[rp0,grey]
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 11
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 11
+ 6
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 0
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 0
+ 6
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 6
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 6
+ 2
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+SRP0
+PUSHB_2
+ 1
+ 1
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 11
+SRP0
+PUSHB_1
+ 10
+MDRP[rp0,grey]
+PUSHB_1
+ 10
+MDAP[rnd]
+PUSHB_3
+ 13
+ 0
+ 6
+SRP1
+SRP2
+IP
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+352 507 m 1,0,-1
+ 332 388 l 1,1,-1
+ 328 388 l 2,2,3
+ 284 388 284 388 251.5 363.5 c 128,-1,4
+ 219 339 219 339 188 296 c 1,5,-1
+ 188 0 l 1,6,-1
+ 68 0 l 1,7,-1
+ 68 363 l 2,8,9
+ 68 454 68 454 36 497 c 1,10,-1
+ 163 507 l 1,11,12
+ 185 457 185 457 187 402 c 1,13,14
+ 213 446 213 446 258.5 476.5 c 128,-1,15
+ 304 507 304 507 352 507 c 1,0,-1
+EndSplineSet
+Kerns2: 165 -15 "'kern' Horizontal Kerning lookup 0 subtable" 162 -15 "'kern' Horizontal Kerning lookup 0 subtable" 161 -15 "'kern' Horizontal Kerning lookup 0 subtable" 160 -15 "'kern' Horizontal Kerning lookup 0 subtable" 159 -15 "'kern' Horizontal Kerning lookup 0 subtable" 158 -15 "'kern' Horizontal Kerning lookup 0 subtable" 89 20 "'kern' Horizontal Kerning lookup 0 subtable" 88 20 "'kern' Horizontal Kerning lookup 0 subtable" 87 20 "'kern' Horizontal Kerning lookup 0 subtable" 86 20 "'kern' Horizontal Kerning lookup 0 subtable" 84 25 "'kern' Horizontal Kerning lookup 0 subtable" 81 -10 "'kern' Horizontal Kerning lookup 0 subtable" 79 -10 "'kern' Horizontal Kerning lookup 0 subtable" 71 -15 "'kern' Horizontal Kerning lookup 0 subtable" 70 25 "'kern' Horizontal Kerning lookup 0 subtable" 69 -10 "'kern' Horizontal Kerning lookup 0 subtable" 68 -10 "'kern' Horizontal Kerning lookup 0 subtable" 67 -15 "'kern' Horizontal Kerning lookup 0 subtable" 65 -15 "'kern' Horizontal Kerning lookup 0 subtable" 14 -80 "'kern' Horizontal Kerning lookup 0 subtable" 13 -55 "'kern' Horizontal Kerning lookup 0 subtable" 12 -80 "'kern' Horizontal Kerning lookup 0 subtable"
+EndChar

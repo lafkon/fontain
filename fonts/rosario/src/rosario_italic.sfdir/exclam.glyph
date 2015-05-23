@@ -1,0 +1,66 @@
+StartChar: exclam
+Encoding: 33 33 246
+Width: 246
+GlyphClass: 2
+Flags: W
+TtInstrs:
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 6
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 6
+ 8
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 10
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 10
+ 2
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 16
+MDRP[rp0,min,rnd,grey]
+PUSHB_1
+ 2
+MDRP[rp0,min,rnd,grey]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+244 667 m 1,0,-1
+ 153 207 l 1,1,-1
+ 95 216 l 1,2,-1
+ 132 683 l 2,3,4
+ 133 701 133 701 149 713 c 128,-1,5
+ 165 725 165 725 186 725 c 0,6,7
+ 209 725 209 725 227 712 c 128,-1,8
+ 245 699 245 699 245 677 c 2,9,-1
+ 244 667 l 1,0,-1
+101 -14 m 0,10,11
+ 73 -14 73 -14 54 5.5 c 128,-1,12
+ 35 25 35 25 35 53 c 0,13,14
+ 35 80 35 80 54 99.5 c 128,-1,15
+ 73 119 73 119 100 119 c 0,16,17
+ 128 119 128 119 147.5 100 c 128,-1,18
+ 167 81 167 81 167 53 c 128,-1,19
+ 167 25 167 25 147.5 5.5 c 128,-1,20
+ 128 -14 128 -14 101 -14 c 0,10,11
+EndSplineSet
+EndChar

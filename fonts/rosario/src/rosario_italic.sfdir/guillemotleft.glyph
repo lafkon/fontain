@@ -1,0 +1,56 @@
+StartChar: guillemotleft
+Encoding: 171 171 105
+Width: 454
+GlyphClass: 2
+Flags: W
+TtInstrs:
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 5
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 5
+ 6
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 11
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 11
+ 6
+MIAP[no-rnd]
+EIF
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+422 482 m 1,0,-1
+ 283 331 l 1,1,-1
+ 380 181 l 1,2,-1
+ 320 172 l 1,3,-1
+ 193 332 l 1,4,-1
+ 360 493 l 1,5,-1
+ 422 482 l 1,0,-1
+272 482 m 1,6,-1
+ 135 331 l 1,7,-1
+ 231 181 l 1,8,-1
+ 172 172 l 1,9,-1
+ 45 332 l 1,10,-1
+ 212 493 l 1,11,-1
+ 272 482 l 1,6,-1
+EndSplineSet
+EndChar

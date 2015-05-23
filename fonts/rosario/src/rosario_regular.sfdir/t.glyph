@@ -1,0 +1,116 @@
+StartChar: t
+Encoding: 116 116 84
+Width: 327
+GlyphClass: 2
+Flags: W
+TtInstrs:
+PUSHB_1
+ 24
+MDAP[rnd]
+PUSHB_3
+ 86
+ 24
+ 1
+DELTAP1
+PUSHB_3
+ 134
+ 24
+ 1
+DELTAP1
+PUSHB_1
+ 0
+MDRP[rp0,grey]
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 14
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 14
+ 6
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 3
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 3
+ 2
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 14
+SRP0
+PUSHB_2
+ 7
+ 1
+MIRP[rp0,rnd,grey]
+PUSHB_3
+ 9
+ 14
+ 7
+SRP1
+SRP2
+IP
+PUSHB_1
+ 9
+MDAP[rnd]
+PUSHB_1
+ 14
+SRP0
+PUSHB_1
+ 12
+MDRP[rp0,grey]
+PUSHB_1
+ 12
+MDAP[rnd]
+PUSHB_1
+ 7
+SRP0
+PUSHB_1
+ 16
+MDRP[rp0,grey]
+PUSHB_1
+ 3
+SRP0
+PUSHB_2
+ 21
+ 1
+MIRP[rp0,rnd,grey]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+293 63 m 1,0,-1
+ 307 7 l 1,1,2
+ 248 -11 248 -11 208 -11 c 0,3,4
+ 147 -11 147 -11 120.5 21.5 c 128,-1,5
+ 94 54 94 54 94 118 c 2,6,-1
+ 94 434 l 1,7,-1
+ 20 434 l 1,8,-1
+ 20 484 l 1,9,10
+ 107 486 107 486 136 639 c 1,11,-1
+ 199 639 l 1,12,13
+ 177 549 177 549 177 497 c 1,14,-1
+ 307 497 l 1,15,-1
+ 289 434 l 1,16,-1
+ 177 434 l 1,17,-1
+ 177 116 l 2,18,19
+ 177 84 177 84 188.5 68.5 c 128,-1,20
+ 200 53 200 53 230 53 c 0,21,22
+ 253 53 253 53 293 63 c 1,0,-1
+EndSplineSet
+Kerns2: 67 -15 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 194 -15 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 180 -15 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 179 -15 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 178 -15 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 177 -15 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 176 -15 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 169 -15 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 168 -15 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 167 -15 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 166 -15 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 165 -15 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 96 -15 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 88 15 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 81 -15 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 79 -15 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 69 -15 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 68 -15 "'kern' Horizontal Kerning lookup 0 per glyph data 0"
+EndChar

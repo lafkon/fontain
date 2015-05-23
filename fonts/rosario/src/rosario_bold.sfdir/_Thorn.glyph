@@ -1,0 +1,77 @@
+StartChar: Thorn
+Encoding: 222 222 156
+Width: 575
+GlyphClass: 2
+Flags: W
+TtInstrs:
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 6
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 6
+ 8
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 0
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 0
+ 2
+MIAP[no-rnd]
+EIF
+PUSHB_4
+ 18
+ 1
+ 15
+ 4
+CALL
+PUSHB_4
+ 9
+ 1
+ 24
+ 4
+CALL
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+203 0 m 1,0,-1
+ 66 0 l 1,1,-1
+ 66 671 l 2,2,3
+ 66 672 66 672 63 686 c 128,-1,4
+ 60 700 60 700 56.5 715 c 128,-1,5
+ 53 730 53 730 53 732 c 2,6,-1
+ 205 732 l 1,7,-1
+ 205 617 l 1,8,-1
+ 283 617 l 2,9,10
+ 403 617 403 617 476 565.5 c 128,-1,11
+ 549 514 549 514 549 398 c 0,12,13
+ 549 290 549 290 472.5 234.5 c 128,-1,14
+ 396 179 396 179 285 179 c 2,15,-1
+ 203 179 l 1,16,-1
+ 203 0 l 1,0,-1
+204 276 m 1,17,-1
+ 288 276 l 2,18,19
+ 342 276 342 276 372.5 309.5 c 128,-1,20
+ 403 343 403 343 403 398 c 0,21,22
+ 403 454 403 454 374 486 c 128,-1,23
+ 345 518 345 518 289 518 c 2,24,-1
+ 204 518 l 1,25,-1
+ 204 276 l 1,17,-1
+EndSplineSet
+EndChar
