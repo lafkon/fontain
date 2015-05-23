@@ -1,0 +1,146 @@
+StartChar: period
+Encoding: 46 46 17
+Width: 438
+GlyphClass: 2
+Flags: W
+TtInstrs:
+SVTCA[y-axis]
+PUSHB_3
+ 9
+ 0
+ 0
+CALL
+PUSHB_1
+ 8
+SHP[rp1]
+PUSHB_5
+ 3
+ 10
+ 0
+ 47
+ 4
+CALL
+PUSHB_3
+ 9
+ 0
+ 0
+CALL
+PUSHB_5
+ 3
+ 10
+ 0
+ 47
+ 4
+CALL
+SVTCA[x-axis]
+PUSHB_1
+ 12
+MDAP[rnd]
+PUSHB_1
+ 0
+MDRP[rp0,rnd,white]
+PUSHB_1
+ 1
+SHP[rp2]
+PUSHB_5
+ 6
+ 13
+ 0
+ 42
+ 4
+CALL
+PUSHB_1
+ 7
+SHP[rp2]
+PUSHB_2
+ 13
+ 1
+CALL
+PUSHB_1
+ 54
+SMD
+PUSHW_3
+ 15877
+ -4043
+ 21
+CALL
+SPVFS
+SFVTCA[y-axis]
+PUSHB_1
+ 0
+MDAP[no-rnd]
+PUSHB_1
+ 6
+MDAP[no-rnd]
+SFVTCA[x-axis]
+PUSHB_1
+ 0
+SRP0
+PUSHB_2
+ 8
+ 21
+MIRP[rp0,min,black]
+SFVTCA[y-axis]
+PUSHB_1
+ 6
+SRP0
+PUSHB_2
+ 1
+ 21
+MIRP[rp0,min,black]
+PUSHB_1
+ 8
+SRP0
+PUSHB_4
+ 7
+ 8
+ 6
+ 19
+CALL
+SPVTCA[y-axis]
+PUSHB_4
+ 0
+ 6
+ 1
+ 7
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+SVTCA[x-axis]
+PUSHB_1
+ 8
+MDAP[no-rnd]
+PUSHB_1
+ 64
+SMD
+SVTCA[x-axis]
+PUSHB_2
+ 6
+ 0
+SRP1
+SRP2
+PUSHB_2
+ 3
+ 9
+IP
+IP
+SVTCA[y-axis]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+143 86 m 256,0,1
+ 147 121 147 121 171 145.5 c 128,-1,2
+ 195 170 195 170 225 170 c 0,3,4
+ 256 170 256 170 275.5 145.5 c 128,-1,5
+ 295 121 295 121 291 86 c 256,6,7
+ 287 51 287 51 263.5 25.5 c 128,-1,8
+ 240 0 240 0 209 0 c 256,9,10
+ 178 0 178 0 158.5 25.5 c 128,-1,11
+ 139 51 139 51 143 86 c 256,0,1
+EndSplineSet
+EndChar

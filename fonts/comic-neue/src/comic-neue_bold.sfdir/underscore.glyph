@@ -1,0 +1,50 @@
+StartChar: underscore
+Encoding: 95 95 65
+Width: 1089
+GlyphClass: 2
+Flags: W
+TtInstrs:
+SVTCA[y-axis]
+PUSHB_3
+ 3
+ 0
+ 0
+CALL
+PUSHB_2
+ 11
+ 7
+MIRP[min,black]
+PUSHB_3
+ 3
+ 0
+ 0
+CALL
+SVTCA[x-axis]
+PUSHB_1
+ 14
+MDAP[rnd]
+PUSHB_2
+ 15
+ 1
+CALL
+SVTCA[y-axis]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+-57 -104 m 256,0,1
+ -57 -61 -57 -61 -26.5 -30.5 c 128,-1,2
+ 4 0 4 0 47 0 c 2,3,-1
+ 1042 0 l 2,4,5
+ 1085 0 1085 0 1116 -30.5 c 128,-1,6
+ 1147 -61 1147 -61 1147 -104 c 256,7,8
+ 1147 -147 1147 -147 1116 -178 c 128,-1,9
+ 1085 -209 1085 -209 1042 -209 c 2,10,-1
+ 47 -209 l 2,11,12
+ 4 -209 4 -209 -26.5 -178 c 128,-1,13
+ -57 -147 -57 -147 -57 -104 c 256,0,1
+EndSplineSet
+EndChar

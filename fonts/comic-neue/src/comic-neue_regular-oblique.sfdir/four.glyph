@@ -1,0 +1,187 @@
+StartChar: four
+Encoding: 52 52 23
+Width: 1011
+GlyphClass: 2
+Flags: W
+TtInstrs:
+SVTCA[y-axis]
+PUSHB_3
+ 22
+ 0
+ 0
+CALL
+PUSHB_1
+ 17
+MDAP[rnd]
+PUSHB_2
+ 18
+ 26
+SHP[rp1]
+SHP[rp1]
+PUSHB_2
+ 11
+ 3
+MIRP[min,black]
+PUSHB_2
+ 10
+ 30
+SHP[rp2]
+SHP[rp2]
+SVTCA[x-axis]
+PUSHB_1
+ 32
+MDAP[rnd]
+PUSHB_2
+ 33
+ 1
+CALL
+PUSHB_1
+ 54
+SMD
+PUSHW_3
+ 16019
+ -3438
+ 21
+CALL
+SPVFS
+SFVTPV
+PUSHB_1
+ 25
+SRP0
+PUSHB_1
+ 3
+MDRP[grey]
+PUSHB_2
+ 19
+ 8
+MIRP[rp0,min,black]
+PUSHB_1
+ 9
+MDRP[grey]
+SFVTCA[x-axis]
+PUSHB_4
+ 10
+ 19
+ 9
+ 19
+CALL
+PUSHB_4
+ 18
+ 19
+ 9
+ 19
+CALL
+PUSHB_1
+ 25
+SRP0
+PUSHB_4
+ 26
+ 25
+ 3
+ 19
+CALL
+PUSHB_4
+ 30
+ 25
+ 3
+ 19
+CALL
+PUSHW_3
+ 16007
+ -3495
+ 21
+CALL
+SFVFS
+PUSHB_4
+ 31
+ 25
+ 3
+ 19
+CALL
+PUSHB_3
+ 31
+ 25
+ 3
+DUP
+ROLL
+DUP
+ROLL
+SWAP
+SPVTL[parallel]
+SFVTPV
+SRP1
+SRP2
+IP
+SVTCA[y-axis]
+PUSHB_5
+ 3
+ 9
+ 19
+ 25
+ 31
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+SVTCA[x-axis]
+NPUSHB
+ 9
+ 3
+ 9
+ 10
+ 18
+ 19
+ 25
+ 26
+ 30
+ 31
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+PUSHB_1
+ 64
+SMD
+SVTCA[x-axis]
+SVTCA[y-axis]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+4 379 m 256,0,1
+ -6 410 -6 410 18 436 c 1,2,-1
+ 786 1374 l 2,3,4
+ 798 1390 798 1390 819 1397.5 c 128,-1,5
+ 840 1405 840 1405 856 1399 c 1,6,7
+ 872 1395 872 1395 881.5 1379.5 c 128,-1,8
+ 891 1364 891 1364 887 1343 c 2,9,-1
+ 696 453 l 1,10,-1
+ 768 451 l 2,11,12
+ 791 451 791 451 804 433.5 c 128,-1,13
+ 817 416 817 416 811 393 c 1,14,15
+ 807 368 807 368 785.5 352 c 128,-1,16
+ 764 336 764 336 741 336 c 2,17,-1
+ 674 338 l 1,18,-1
+ 612 55 l 1,19,20
+ 608 32 608 32 587 15 c 128,-1,21
+ 566 -2 566 -2 543 -2 c 0,22,23
+ 518 -2 518 -2 506 15.5 c 128,-1,24
+ 494 33 494 33 498 55 c 2,25,-1
+ 559 340 l 1,26,-1
+ 47 348 l 2,27,28
+ 14 348 14 348 4 379 c 256,0,1
+172 461 m 1,29,-1
+ 584 455 l 1,30,-1
+ 729 1139 l 1,31,-1
+ 172 461 l 1,29,-1
+EndSplineSet
+EndChar

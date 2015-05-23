@@ -1,0 +1,154 @@
+StartChar: K
+Encoding: 75 75 46
+Width: 1206
+GlyphClass: 2
+Flags: W
+TtInstrs:
+SVTCA[y-axis]
+PUSHB_3
+ 30
+ 0
+ 0
+CALL
+PUSHB_1
+ 37
+SHP[rp1]
+PUSHB_3
+ 4
+ 2
+ 0
+CALL
+PUSHB_1
+ 11
+SHP[rp1]
+SVTCA[x-axis]
+PUSHB_1
+ 43
+MDAP[rnd]
+PUSHB_2
+ 44
+ 1
+CALL
+PUSHB_1
+ 54
+SMD
+PUSHW_3
+ 16022
+ -3424
+ 21
+CALL
+SPVFS
+SFVTPV
+PUSHB_1
+ 0
+SRP0
+PUSHB_1
+ 1
+MDRP[grey]
+PUSHB_2
+ 34
+ 9
+MIRP[rp0,min,black]
+PUSHB_1
+ 7
+MDRP[grey]
+PUSHB_4
+ 8
+ 34
+ 7
+ 19
+CALL
+PUSHB_4
+ 33
+ 34
+ 7
+ 19
+CALL
+PUSHB_3
+ 33
+ 34
+ 7
+DUP
+ROLL
+DUP
+ROLL
+SWAP
+SPVTL[parallel]
+SFVTPV
+SRP1
+SRP2
+IP
+PUSHB_1
+ 8
+IP
+SVTCA[y-axis]
+PUSHB_6
+ 0
+ 1
+ 7
+ 8
+ 33
+ 34
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+SVTCA[x-axis]
+PUSHB_6
+ 0
+ 1
+ 7
+ 8
+ 33
+ 34
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+PUSHB_1
+ 64
+SMD
+SVTCA[x-axis]
+SVTCA[y-axis]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+2 57 m 2,0,-1
+ 276 1339 l 2,1,2
+ 280 1362 280 1362 299.5 1378.5 c 128,-1,3
+ 319 1395 319 1395 342 1395 c 256,4,5
+ 365 1395 365 1395 379 1378.5 c 128,-1,6
+ 393 1362 393 1362 389 1339 c 2,7,-1
+ 272 797 l 1,8,-1
+ 1081 1382 l 1,9,10
+ 1099 1397 1099 1397 1120 1397 c 1,11,12
+ 1122 1396 1122 1396 1124 1396 c 0,13,14
+ 1147 1394 1147 1394 1157 1376 c 1,15,16
+ 1165 1365 1165 1365 1165 1351 c 0,17,18
+ 1165 1344 1165 1344 1163 1336 c 0,19,20
+ 1157 1312 1157 1312 1137 1296 c 1,21,-1
+ 293 686 l 1,22,-1
+ 922 100 l 2,23,24
+ 938 84 938 84 935 61.5 c 128,-1,25
+ 932 39 932 39 915 20 c 1,26,27
+ 893 -2 893 -2 866 -2 c 0,28,29
+ 865 -2 865 -2 864 -2 c 0,30,31
+ 846 -2 846 -2 834 10 c 2,32,-1
+ 225 578 l 1,33,-1
+ 115 57 l 2,34,35
+ 111 34 111 34 90.5 17 c 128,-1,36
+ 70 0 70 0 47 0 c 256,37,38
+ 24 0 24 0 11 18 c 0,39,40
+ 1 31 1 31 1 47 c 0,41,42
+ 1 52 1 52 2 57 c 2,0,-1
+EndSplineSet
+Kerns2: 70 -61 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
+EndChar
