@@ -4,6 +4,7 @@ FullName: Libre Caslon Display
 FamilyName: Libre Caslon Display
 Weight: Book
 Copyright: Copyright (c) 2012, Pablo Impallari (www.impallari.com|impallari@gmail.com), Rodrigo Fuenzalida (www.rfuenzalida.com|hello@rfuenzalida.com), with Reserved Font Name Libre Caslon.
+FontLog: "This file provides detailed information on the Libre Caslon Font Software.+AAoA-This information should be distributed along with the Libre Caslon fonts and any derivative works.+AAoACgAA-Libre Caslon Font Information+AAoACgAA-Libre Caslon in Display and Text versions.+AAoA-The Display style is optimized for Headlines.+AAoA-The Text style is optimized for web body text.+AAoACgAA-Join the project at:+AAoA-http://www.impallari.com/projects/overview/libre-caslon-display-and-text+AAoACgAA-Documentation can be found at www.impallari.com+AAoACgAA-To contribute to the project contact Pablo Impallari at impallari@gmail.com+AAoACgAA-ChangeLog+AAoACgAA-23 May 2015 (Christoph Haag) +AAoA-- created fontforge sources as base to work on GNU/Linux+AAoA-- added FONTLOG to .sfdir+AAoA-- Mastered Font from Fontforge SFDIR to UFO,OTF,TTF,EOT,WOFF,SVG+AAoACgAA-27 Nov 2014 (Pablo Impallari, Rodrigo Fuenzalida) Libre Caslon Display v1.00+AAoA-- Lots of small tweaks+AAoA-- iKerned+AAoACgAA-23 Nov 2013 (Pablo Impallari, Rodrigo Fuenzalida) Libre Caslon Display v0.41+AAoA-- Added old style, numerator, denominator, superior and inferior number sets.+AAoA-- Added some compound glyphs and trademarks symbols.+AAoACgAK-17 Nov 2013 (Pablo Impallari, Rodrigo Fuenzalida) Libre Caslon Display v0.39+AAoA-- Made some tweaks and changes on some glyphs.+AAoA-- Finished punctuation signs.+AAoA-- Added monetary symbols, and ligatures.+AAoACgAA-10 Nov 2013 (Pablo Impallari, Rodrigo Fuenzalida) Libre Caslon Display v0.37+AAoA-- Reviewed the drawing on the lowercase and some caps.+AAoA-- Reviewed and fixed some metrics.+AAoA-- Added numbers, diacritics and other compound signs.+AAoACgAA-07 Marc 2013 (Pablo Impallari, Rodrigo Fuenzalida) Libre Caslon v0.34+AAoA-- Completed charset on the Text styles+AAoA-- Normalized Vertical Metrics+AAoA-- Lots of bugs fixed+AAoA-- Text Styles (Regular, Italic and Bold) are ready for iKern+AAoACgAA-06 Dec 2012 (Pablo Impallari, Rodrigo Fuenzalida) Libre Caslon Text Italic v0.03+AAoA-- First draft of the Text Italic version.+AAoACgAA-19 Nov 2012 (Pablo Impallari, Rodrigo Fuenzalida) Libre Caslon v 0.22+AAoA-- Lower and Uppercase+AAoA-- Text Bold Style added+AAoA-- Some tentative kerning in the Display version+AAoA-- OT features calt and ss01+AAoACgAA-08 Nov 2012 (Pablo Impallari, Rodrigo Fuenzalida) Libre Caslon v0.03+AAoA-- Initial release+AAoA-- a-z lowercase only+AAoA-- Display and Text styles+AAoACgAA-Acknowledgements+AAoACgAA-If you make modifications be sure to add your name (N), +AAoA-email (E), web-address (if you have one) (W) and +AAoA-description (D). This list is in alphabetical order.+AAoACgAA-N: Christoph Haag+AAoA-E: christoph@lafkon.net+AAoA-W: www.lafkon.net+AAoA-D: Transformer+AAoACgAA-N: Pablo Impallari+AAoA-E: impallari@gmail.com+AAoA-W: http://www.impallari.com+AAoA-D: Designer+AAoACgAA-N: Rodrigo Fuenzalida+AAoA-E: hello@rfuenzalida.com+AAoA-W: http://www.rfuenzalida.com+AAoA-D: Designer+AAoACgAA"
 Version: 1.000; ttfautohint (v1.1) -l 8 -r 50 -G 50 -x 14 -D latn -f none -w G
 ItalicAngle: 0
 UnderlinePosition: 0
@@ -22,7 +23,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: -795060858
-ModificationTime: 1417065198
+ModificationTime: 1432374982
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -70,6 +71,7 @@ Lookup: 1 0 0 "'dnom' Denominators lookup 9" { "'dnom' Denominators lookup 9 sub
 Lookup: 1 0 0 "'numr' Numerators lookup 10" { "'numr' Numerators lookup 10 subtable"  } ['numr' ('DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 11" { "Single Substitution lookup 11 subtable"  } []
 Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 0" { "'kern' Horizontal Kerning lookup 0 per glyph data 0"  "'kern' Horizontal Kerning lookup 0 per glyph data 1"  "'kern' Horizontal Kerning lookup 0 per glyph data 2"  "'kern' Horizontal Kerning lookup 0 kerning class 3"  } ['kern' ('DFLT' <'dflt' > ) ]
+MarkAttachClasses: 1
 DEI: 91125
 KernClass2: 46+ 37 "'kern' Horizontal Kerning lookup 0 kerning class 3"
  84 A Agrave Aacute Acircumflex Atilde Adieresis Aring Amacron Abreve Aogonek Aringacute
@@ -3300,4 +3302,6 @@ DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
 WinInfo: 51 17 7
+BeginPrivate: 0
+EndPrivate
 EndSplineFont
