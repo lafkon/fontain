@@ -74,13 +74,11 @@ LICENSE
 
 FONT STYLES
 ===========
-libre-caslon-display_regular
-libre-caslon-text_bold
-libre-caslon-text_italic
 libre-caslon-text_regular
+libre-caslon-text_italic
+libre-caslon-text_bold
+    libre-caslon-display_regular
 
-T!EX HOWTO
-=========
 
 TEX CONFIGURATION
 =================
