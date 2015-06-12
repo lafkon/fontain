@@ -1,0 +1,32 @@
+StartChar: underscore
+Encoding: 95 95 591
+Width: 1126
+Flags: W
+TtInstrs:
+PUSHB_6
+ 2
+ 0
+ 2
+ 253
+ 0
+ 87
+SVTCA[y-axis]
+MIAP[rnd]
+MIRP[min,rnd,black]
+SVTCA[x-axis]
+MDAP[rnd]
+MDRP[min,rnd,black]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+0 -410 m 1,0,-1
+ 0 -217 l 1,1,-1
+ 1126 -217 l 1,2,-1
+ 1126 -410 l 1,3,-1
+ 0 -410 l 1,0,-1
+EndSplineSet
+EndChar

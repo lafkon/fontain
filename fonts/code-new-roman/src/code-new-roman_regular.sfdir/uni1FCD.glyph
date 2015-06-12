@@ -1,0 +1,78 @@
+StartChar: uni1FCD
+Encoding: 8141 8141 2348
+Width: 1126
+Flags: W
+TtInstrs:
+NPUSHB
+ 18
+ 24
+ 22
+ 25
+ 23
+ 0
+ 3
+ 64
+ 17
+ 128
+ 11
+ 25
+ 23
+ 25
+ 6
+ 16
+ 24
+ 26
+ 79
+SVTCA[y-axis]
+MIAP[rnd]
+MDRP[min,rnd,white]
+MDRP[rp0,min,rnd,white]
+MDRP[rp0,min,rnd,grey]
+MDRP[rnd,grey]
+SVTCA[x-axis]
+MDAP[rnd]
+MDRP[rp0,min,rnd,black]
+MDRP[rp0,min,rnd,white]
+SMD
+MDRP[min,rnd,black]
+SMD
+MDRP[min,rnd,black]
+IP
+SRP1
+SRP2
+IP
+IP
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+373 1264 m 1,0,1
+ 320 1268 320 1268 297.5 1292.5 c 128,-1,2
+ 275 1317 275 1317 275 1353 c 0,3,4
+ 275 1401 275 1401 299 1426.5 c 128,-1,5
+ 323 1452 323 1452 378 1452 c 0,6,7
+ 410 1452 410 1452 432.5 1442.5 c 128,-1,8
+ 455 1433 455 1433 468.5 1416.5 c 128,-1,9
+ 482 1400 482 1400 488 1377.5 c 128,-1,10
+ 494 1355 494 1355 494 1330 c 0,11,12
+ 494 1293 494 1293 483.5 1261 c 128,-1,13
+ 473 1229 473 1229 452.5 1199 c 128,-1,14
+ 432 1169 432 1169 403 1139 c 128,-1,15
+ 374 1109 374 1109 338 1076 c 1,16,-1
+ 283 1124 l 1,17,18
+ 294 1135 294 1135 308.5 1151 c 128,-1,19
+ 323 1167 323 1167 336.5 1185 c 128,-1,20
+ 350 1203 350 1203 360.5 1223.5 c 128,-1,21
+ 371 1244 371 1244 373 1264 c 1,0,1
+743 1434 m 1,22,-1
+ 851 1135 l 1,23,-1
+ 725 1135 l 1,24,-1
+ 549 1434 l 1,25,-1
+ 743 1434 l 1,22,-1
+0 1004 m 1024,26,-1
+EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 11 subtable" uni1FBF uni1FEF
+EndChar

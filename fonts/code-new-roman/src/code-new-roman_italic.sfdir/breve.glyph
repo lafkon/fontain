@@ -1,0 +1,66 @@
+StartChar: breve
+Encoding: 728 728 331
+Width: 1126
+Flags: W
+TtInstrs:
+PUSHW_5
+ 0
+ 307
+ 17
+ 10
+ 307
+NPUSHB
+ 15
+ 11
+ 0
+ 11
+ 14
+ 183
+ 127
+ 5
+ 143
+ 5
+ 159
+ 5
+ 3
+ 5
+ 18
+ 79
+SVTCA[y-axis]
+MIAP[rnd]
+MDRP[rp0,rnd,white]
+DELTAP1
+MIRP[rp0,min,rnd,black]
+MDRP[min,rnd,white]
+SHP[rp2]
+SVTCA[x-axis]
+MDAP[rnd]
+MIRP[min,rnd,black]
+MDRP[rp0,rnd,white]
+MIRP[min,rnd,black]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+987 1413 m 1,0,1
+ 975 1352 975 1352 948.5 1306.5 c 128,-1,2
+ 922 1261 922 1261 884.5 1231 c 128,-1,3
+ 847 1201 847 1201 800.5 1186 c 128,-1,4
+ 754 1171 754 1171 702 1171 c 0,5,6
+ 652 1171 652 1171 608.5 1186 c 128,-1,7
+ 565 1201 565 1201 535 1231 c 128,-1,8
+ 505 1261 505 1261 492.5 1306.5 c 128,-1,9
+ 480 1352 480 1352 492 1413 c 1,10,-1
+ 627 1413 l 1,11,12
+ 616 1362 616 1362 635.5 1331 c 128,-1,13
+ 655 1300 655 1300 711 1300 c 0,14,15
+ 766 1300 766 1300 803.5 1331 c 128,-1,16
+ 841 1362 841 1362 852 1413 c 1,17,-1
+ 987 1413 l 1,0,1
+0 1004 m 1024,18,-1
+EndSplineSet
+Substitution2: "'locl' Localized Forms in Cyrillic lookup 19 subtable" breve.locl
+EndChar

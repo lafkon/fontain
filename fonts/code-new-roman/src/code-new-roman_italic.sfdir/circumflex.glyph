@@ -1,0 +1,96 @@
+StartChar: circumflex
+Encoding: 710 710 320
+Width: 1126
+Flags: W
+TtInstrs:
+PUSHB_3
+ 6
+ 3
+ 4
+PUSHW_1
+ 364
+PUSHB_7
+ 64
+ 5
+ 3
+ 32
+ 0
+ 3
+ 2
+PUSHW_1
+ 356
+NPUSHB
+ 26
+ 64
+ 1
+ 32
+ 3
+ 3
+ 8
+ 9
+ 3
+ 191
+ 6
+ 207
+ 6
+ 2
+ 6
+ 128
+ 2
+ 127
+ 5
+ 143
+ 5
+ 159
+ 5
+ 3
+ 5
+ 7
+ 79
+SVTCA[y-axis]
+MIAP[rnd]
+MDRP[rp0,min,rnd,white]
+DELTAP1
+SHP[rp2]
+SMD
+MDRP[min,rnd,black]
+DELTAP1
+IP
+SRP1
+SRP2
+SVTCA[x-axis]
+IP
+RTHG
+MDAP[rnd]
+SMD
+RTG
+MDRP[rp0,min,rnd,black]
+SMD
+MIRP[min,rnd,black]
+SRP2
+IP
+SMD
+SRP0
+MDRP[rp0,min,rnd,black]
+SMD
+MIRP[min,rnd,black]
+SRP2
+IP
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+815 1413 m 1,0,-1
+ 1010 1171 l 1,1,-1
+ 840 1171 l 1,2,-1
+ 723 1292 l 1,3,-1
+ 557 1171 l 1,4,-1
+ 379 1171 l 1,5,-1
+ 672 1413 l 1,6,-1
+ 815 1413 l 1,0,-1
+0 1004 m 1024,7,-1
+EndSplineSet
+EndChar

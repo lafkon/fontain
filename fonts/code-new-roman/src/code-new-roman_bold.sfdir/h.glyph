@@ -1,0 +1,129 @@
+StartChar: h
+Encoding: 104 104 138
+Width: 1126
+GlyphClass: 2
+Flags: W
+TtInstrs:
+PUSHB_2
+ 1
+ 2
+RS
+NEQ
+IF
+PUSHB_2
+ 11
+ 6
+PUSHW_4
+ 523
+ 8
+ 22
+ 523
+PUSHB_7
+ 0
+ 8
+ 23
+ 81
+ 12
+ 8
+ 3
+PUSHW_1
+ 305
+PUSHB_7
+ 64
+ 17
+ 80
+ 9
+ 83
+ 8
+ 81
+SVTCA[y-axis]
+RTG
+MIAP[rnd]
+MIAP[rnd]
+MIAP[rnd]
+SMD
+FLIPON
+MIRP[min,rnd,black]
+SRP2
+IP
+MIAP[rnd]
+SVTCA[x-axis]
+MDAP[rnd]
+MDRP[rp0,rnd,grey]
+MIRP[min,rnd,black]
+SRP0
+MIRP[rp0,min,rnd,black]
+MDRP[rnd,grey]
+IUP[x]
+IUP[y]
+ELSE
+PUSHB_5
+ 23
+ 81
+ 12
+ 8
+ 3
+PUSHW_1
+ 305
+PUSHB_7
+ 64
+ 17
+ 80
+ 9
+ 83
+ 8
+ 81
+SVTCA[y-axis]
+RTG
+MIAP[rnd]
+MIAP[rnd]
+MIAP[rnd]
+SMD
+FLIPON
+MIRP[min,rnd,black]
+SRP2
+IP
+MIAP[rnd]
+IUP[x]
+IUP[y]
+EIF
+EndTTInstrs
+AnchorPoint: "Anchor-11" 0 1700 basechar 0
+AnchorPoint: "Anchor-10" 1126 1700 basechar 0
+AnchorPoint: "Anchor-9" 910 0 basechar 0
+AnchorPoint: "Anchor-7" 820 970 basechar 0
+AnchorPoint: "Anchor-6" 1126 -350 basechar 0
+AnchorPoint: "Anchor-5" 1126 1700 basechar 0
+AnchorPoint: "Anchor-4" 860 950 basechar 0
+AnchorPoint: "Anchor-2" 563 -180 basechar 0
+AnchorPoint: "Anchor-1" 938 1400 basechar 0
+AnchorPoint: "Anchor-0" 563 1520 basechar 0
+LayerCount: 2
+Back
+Fore
+SplineSet
+745 0 m 1,0,-1
+ 745 662 l 2,1,2
+ 745 829 745 829 621 829 c 0,3,4
+ 559 829 559 829 502.5 779 c 128,-1,5
+ 446 729 446 729 383 643 c 1,6,-1
+ 383 0 l 1,7,-1
+ 139 0 l 1,8,-1
+ 139 1413 l 1,9,-1
+ 383 1413 l 1,10,-1
+ 383 1065 l 1,11,-1
+ 371 881 l 1,12,13
+ 402 918 402 918 434 947.5 c 128,-1,14
+ 466 977 466 977 503 997 c 128,-1,15
+ 540 1017 540 1017 583 1027.5 c 128,-1,16
+ 626 1038 626 1038 678 1038 c 0,17,18
+ 756 1038 756 1038 814 1012.5 c 128,-1,19
+ 872 987 872 987 911 940.5 c 128,-1,20
+ 950 894 950 894 969.5 828.5 c 128,-1,21
+ 989 763 989 763 989 682 c 2,22,-1
+ 989 0 l 1,23,-1
+ 745 0 l 1,0,-1
+EndSplineSet
+Substitution2: "'ordn' Ordinals in Latin lookup 38 subtable" uni02B0
+Substitution2: "'sups' Superscript lookup 34 subtable" uni02B0
+EndChar

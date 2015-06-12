@@ -1,0 +1,185 @@
+StartChar: a
+Encoding: 97 97 131
+Width: 1126
+GlyphClass: 2
+Flags: W
+TtInstrs:
+PUSHB_2
+ 1
+ 2
+RS
+NEQ
+IF
+NPUSHB
+ 13
+ 31
+ 34
+ 10
+ 6
+ 3
+ 4
+ 6
+ 4
+ 12
+ 34
+ 34
+ 36
+ 25
+PUSHW_1
+ 362
+NPUSHB
+ 20
+ 20
+ 36
+ 34
+ 39
+ 28
+ 226
+ 15
+ 82
+ 12
+ 6
+ 0
+ 11
+ 81
+ 4
+ 80
+ 39
+ 193
+ 64
+ 0
+ 80
+SVTCA[y-axis]
+RTG
+MIAP[rnd]
+SMD
+FLIPON
+MIRP[min,rnd,black]
+MIAP[rnd]
+MIAP[rnd]
+SRP2
+IP
+IP
+MIAP[rnd]
+MIRP[min,rnd,black]
+SRP1
+IP
+IP
+SVTCA[x-axis]
+MDAP[rnd]
+MIRP[min,rnd,black]
+MDRP[rnd,grey]
+IP
+SRP1
+SHP[rp1]
+SHP[rp2]
+SHP[rp1]
+SRP1
+IP
+SRP1
+SHP[rp1]
+SRP1
+SHP[rp1]
+IUP[x]
+IUP[y]
+ELSE
+NPUSHB
+ 19
+ 36
+ 34
+ 39
+ 28
+ 226
+ 15
+ 82
+ 12
+ 6
+ 0
+ 11
+ 81
+ 4
+ 80
+ 39
+ 193
+ 64
+ 0
+ 80
+SVTCA[y-axis]
+RTG
+MIAP[rnd]
+SMD
+FLIPON
+MIRP[min,rnd,black]
+MIAP[rnd]
+MIAP[rnd]
+SRP2
+IP
+IP
+MIAP[rnd]
+MIRP[min,rnd,black]
+SRP1
+IP
+IP
+IUP[x]
+IUP[y]
+EIF
+EndTTInstrs
+AnchorPoint: "Anchor-11" 0 1700 basechar 0
+AnchorPoint: "Anchor-10" 1126 1700 basechar 0
+AnchorPoint: "Anchor-9" 950 0 basechar 0
+AnchorPoint: "Anchor-8" 500 0 basechar 0
+AnchorPoint: "Anchor-7" 800 990 basechar 0
+AnchorPoint: "Anchor-6" 1126 -350 basechar 0
+AnchorPoint: "Anchor-5" 1126 1700 basechar 0
+AnchorPoint: "Anchor-4" 820 990 basechar 0
+AnchorPoint: "Anchor-2" 563 -180 basechar 0
+AnchorPoint: "Anchor-1" 961 1160 basechar 0
+AnchorPoint: "Anchor-0" 563 1200 basechar 0
+LayerCount: 2
+Back
+Fore
+SplineSet
+668 1016 m 0,0,1
+ 733 1016 733 1016 792 1007.5 c 128,-1,2
+ 851 999 851 999 905 983 c 1,3,-1
+ 1063 1022 l 1,4,-1
+ 950 461 l 2,5,6
+ 946 442 946 442 941.5 411 c 128,-1,7
+ 937 380 937 380 931 327.5 c 128,-1,8
+ 925 275 925 275 916 195.5 c 128,-1,9
+ 907 116 907 116 895 0 c 1,10,-1
+ 731 0 l 1,11,-1
+ 756 231 l 1,12,13
+ 687 111 687 111 588.5 46.5 c 128,-1,14
+ 490 -18 490 -18 375 -18 c 0,15,16
+ 303 -18 303 -18 249.5 6 c 128,-1,17
+ 196 30 196 30 161 74.5 c 128,-1,18
+ 126 119 126 119 109 181 c 128,-1,19
+ 92 243 92 243 92 319 c 0,20,21
+ 92 463 92 463 129.5 589.5 c 128,-1,22
+ 167 716 167 716 240 811 c 128,-1,23
+ 313 906 313 906 420.5 961 c 128,-1,24
+ 528 1016 528 1016 668 1016 c 0,0,1
+268 336 m 0,25,26
+ 268 241 268 241 301 187 c 128,-1,27
+ 334 133 334 133 408 133 c 0,28,29
+ 451 133 451 133 494 153 c 128,-1,30
+ 537 173 537 173 578 208 c 128,-1,31
+ 619 243 619 243 655.5 290.5 c 128,-1,32
+ 692 338 692 338 722.5 392.5 c 128,-1,33
+ 753 447 753 447 775 506.5 c 128,-1,34
+ 797 566 797 566 809 625 c 2,35,-1
+ 850 831 l 1,36,37
+ 803 851 803 851 753.5 862.5 c 128,-1,38
+ 704 874 704 874 662 874 c 0,39,40
+ 580 874 580 874 519 846 c 128,-1,41
+ 458 818 458 818 414 773 c 128,-1,42
+ 370 728 370 728 342 670.5 c 128,-1,43
+ 314 613 314 613 297.5 553 c 128,-1,44
+ 281 493 281 493 274.5 436 c 128,-1,45
+ 268 379 268 379 268 336 c 0,25,26
+EndSplineSet
+Substitution2: "'locl' Localized Forms in Latin lookup 39 subtable" a.locl
+Substitution2: "'ordn' Ordinals in Latin lookup 38 subtable" uni1D43
+Substitution2: "'sups' Superscript lookup 34 subtable" uni1D43
+EndChar

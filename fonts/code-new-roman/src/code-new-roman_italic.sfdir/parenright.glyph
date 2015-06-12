@@ -1,0 +1,54 @@
+StartChar: parenright
+Encoding: 41 41 384
+Width: 1126
+Flags: W
+TtInstrs:
+PUSHB_4
+ 17
+ 17
+ 9
+ 3
+PUSHW_1
+ 364
+PUSHB_5
+ 14
+ 8
+ 86
+ 0
+ 109
+SVTCA[y-axis]
+MIAP[rnd]
+MIAP[rnd]
+SVTCA[x-axis]
+MDAP[rnd]
+MIRP[min,rnd,black]
+MDRP[rnd,white]
+IP
+MDAP[rnd]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+550 1485 m 1,0,1
+ 699 1320 699 1320 775 1134 c 128,-1,2
+ 851 948 851 948 851 745 c 0,3,4
+ 851 599 851 599 814.5 452 c 128,-1,5
+ 778 305 778 305 697 158.5 c 128,-1,6
+ 616 12 616 12 488 -133 c 128,-1,7
+ 360 -278 360 -278 177 -420 c 1,8,-1
+ 93 -313 l 1,9,10
+ 262 -172 262 -172 374 -32.5 c 128,-1,11
+ 486 107 486 107 552.5 240.5 c 128,-1,12
+ 619 374 619 374 646 499 c 128,-1,13
+ 673 624 673 624 673 737 c 0,14,15
+ 673 911 673 911 615 1069.5 c 128,-1,16
+ 557 1228 557 1228 431 1386 c 1,17,-1
+ 550 1485 l 1,0,1
+EndSplineSet
+Substitution2: "'sups' Superscript lookup 34 subtable" uni207E
+Substitution2: "'subs' Subscript lookup 22 subtable" uni208E
+Substitution2: "'case' Case-Sensitive Forms lookup 0 subtable" parenright.case
+EndChar

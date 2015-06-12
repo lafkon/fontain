@@ -1,0 +1,144 @@
+StartChar: two
+Encoding: 50 50 623
+Width: 1126
+Flags: W
+TtInstrs:
+PUSHB_2
+ 1
+ 2
+RS
+NEQ
+IF
+PUSHB_8
+ 2
+ 1
+ 15
+ 32
+ 15
+ 32
+ 1
+ 25
+PUSHW_1
+ 371
+PUSHB_4
+ 8
+ 1
+ 14
+ 11
+PUSHW_1
+ 258
+PUSHB_7
+ 8
+ 30
+ 1
+ 20
+ 99
+ 2
+ 32
+PUSHW_1
+ 272
+PUSHB_3
+ 64
+ 1
+ 100
+SVTCA[y-axis]
+RTG
+MIAP[rnd]
+SMD
+FLIPON
+MIRP[min,rnd,black]
+SHP[rp2]
+MIAP[rnd]
+SRP2
+IP
+IP
+MIRP[rp0,min,rnd,black]
+MDRP[rnd,white]
+SVTCA[x-axis]
+MDAP[rnd]
+MDRP[rp0,rnd,grey]
+MIRP[min,rnd,black]
+SRP1
+IP
+IP
+MDAP[rnd]
+MDAP[rnd]
+SRP2
+IP
+IUP[x]
+IUP[y]
+ELSE
+PUSHB_2
+ 14
+ 11
+PUSHW_1
+ 258
+PUSHB_7
+ 8
+ 30
+ 1
+ 20
+ 99
+ 2
+ 32
+PUSHW_1
+ 272
+PUSHB_3
+ 64
+ 1
+ 100
+SVTCA[y-axis]
+RTG
+MIAP[rnd]
+SMD
+FLIPON
+MIRP[min,rnd,black]
+SHP[rp2]
+MIAP[rnd]
+SRP2
+IP
+IP
+MIRP[rp0,min,rnd,black]
+MDRP[rnd,white]
+IUP[x]
+IUP[y]
+EIF
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+905 0 m 1,0,-1
+ 45 0 l 1,1,-1
+ 76 156 l 1,2,-1
+ 481 496 l 2,3,4
+ 595 592 595 592 665.5 664 c 128,-1,5
+ 736 736 736 736 775 793.5 c 128,-1,6
+ 814 851 814 851 828 898.5 c 128,-1,7
+ 842 946 842 946 842 993 c 0,8,9
+ 842 1073 842 1073 797 1122 c 128,-1,10
+ 752 1171 752 1171 657 1171 c 0,11,12
+ 574 1171 574 1171 498.5 1134 c 128,-1,13
+ 423 1097 423 1097 354 1038 c 1,14,-1
+ 268 1153 l 1,15,16
+ 313 1192 313 1192 360.5 1223.5 c 128,-1,17
+ 408 1255 408 1255 459.5 1277.5 c 128,-1,18
+ 511 1300 511 1300 567.5 1312.5 c 128,-1,19
+ 624 1325 624 1325 686 1325 c 0,20,21
+ 763 1325 763 1325 826 1303 c 128,-1,22
+ 889 1281 889 1281 934 1239.5 c 128,-1,23
+ 979 1198 979 1198 1003.5 1140 c 128,-1,24
+ 1028 1082 1028 1082 1028 1010 c 0,25,26
+ 1028 931 1028 931 1005.5 861.5 c 128,-1,27
+ 983 792 983 792 932 721 c 128,-1,28
+ 881 650 881 650 799 572 c 128,-1,29
+ 717 494 717 494 598 397 c 2,30,-1
+ 313 166 l 1,31,-1
+ 938 166 l 1,32,-1
+ 905 0 l 1,0,-1
+EndSplineSet
+Substitution2: "'subs' Subscript lookup 22 subtable" uni2082
+Substitution2: "'onum' Oldstyle Figures lookup 21 subtable" two.oldstyle
+Substitution2: "'numr' Numerators lookup 20 subtable" uni00B2
+Substitution2: "'dnom' Denominators lookup 6 subtable" two.dnom
+EndChar

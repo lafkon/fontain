@@ -1,0 +1,181 @@
+StartChar: R
+Encoding: 82 82 21
+Width: 1126
+GlyphClass: 2
+Flags: W
+TtInstrs:
+PUSHB_2
+ 1
+ 2
+RS
+NEQ
+IF
+PUSHB_7
+ 21
+ 23
+ 2
+ 2
+ 6
+ 0
+ 14
+PUSHW_1
+ 512
+PUSHB_4
+ 24
+ 7
+ 29
+ 6
+PUSHW_1
+ 501
+NPUSHB
+ 22
+ 7
+ 23
+ 67
+ 19
+ 30
+ 21
+ 2
+ 7
+ 4
+ 216
+ 30
+ 30
+ 7
+ 28
+ 226
+ 64
+ 8
+ 65
+ 7
+ 67
+ 0
+ 67
+SVTCA[y-axis]
+RTG
+MIAP[rnd]
+MIAP[rnd]
+MIAP[rnd]
+SMD
+FLIPON
+MIRP[min,rnd,black]
+SRP2
+IP
+MDAP[rnd]
+MIRP[min,rnd,black]
+SRP1
+IP
+IP
+SRP1
+IP
+MIAP[rnd]
+SVTCA[x-axis]
+MDAP[rnd]
+MIRP[rp0,min,rnd,black]
+MDRP[rnd,grey]
+SRP0
+MDRP[rp0,rnd,grey]
+MIRP[min,rnd,black]
+MDRP[rnd,grey]
+SRP1
+IP
+MDAP[rnd]
+SHP[rp2]
+SHP[rp1]
+IUP[x]
+IUP[y]
+ELSE
+NPUSHB
+ 21
+ 23
+ 67
+ 19
+ 30
+ 21
+ 2
+ 7
+ 4
+ 216
+ 30
+ 30
+ 7
+ 28
+ 226
+ 64
+ 8
+ 65
+ 7
+ 67
+ 0
+ 67
+SVTCA[y-axis]
+RTG
+MIAP[rnd]
+MIAP[rnd]
+MIAP[rnd]
+SMD
+FLIPON
+MIRP[min,rnd,black]
+SRP2
+IP
+MDAP[rnd]
+MIRP[min,rnd,black]
+SRP1
+IP
+IP
+SRP1
+IP
+MIAP[rnd]
+IUP[x]
+IUP[y]
+EIF
+EndTTInstrs
+AnchorPoint: "Anchor-11" 0 1700 basechar 0
+AnchorPoint: "Anchor-10" 1126 1700 basechar 0
+AnchorPoint: "Anchor-9" 990 0 basechar 0
+AnchorPoint: "Anchor-8" 563 -50 basechar 0
+AnchorPoint: "Anchor-7" 770 1250 basechar 0
+AnchorPoint: "Anchor-6" 1126 -350 basechar 0
+AnchorPoint: "Anchor-5" 1126 1700 basechar 0
+AnchorPoint: "Anchor-4" 860 1210 basechar 0
+AnchorPoint: "Anchor-2" 563 -180 basechar 0
+AnchorPoint: "Anchor-1" 951 1390 basechar 0
+AnchorPoint: "Anchor-0" 523 1430 basechar 0
+LayerCount: 2
+Back
+Fore
+SplineSet
+788 0 m 1,0,-1
+ 604 420 l 2,1,2
+ 578 480 578 480 531.5 510.5 c 128,-1,3
+ 485 541 485 541 422 541 c 2,4,-1
+ 375 541 l 1,5,-1
+ 375 0 l 1,6,-1
+ 129 0 l 1,7,-1
+ 129 1307 l 1,8,-1
+ 510 1307 l 2,9,10
+ 618 1307 618 1307 706 1288.5 c 128,-1,11
+ 794 1270 794 1270 856 1227 c 128,-1,12
+ 918 1184 918 1184 951.5 1115 c 128,-1,13
+ 985 1046 985 1046 985 946 c 0,14,15
+ 985 874 985 874 964 818 c 128,-1,16
+ 943 762 943 762 905 721.5 c 128,-1,17
+ 867 681 867 681 814.5 656 c 128,-1,18
+ 762 631 762 631 700 621 c 1,19,20
+ 748 611 748 611 788 566.5 c 128,-1,21
+ 828 522 828 522 868 438 c 2,22,-1
+ 1077 0 l 1,23,-1
+ 788 0 l 1,0,-1
+727 922 m 0,24,25
+ 727 1018 727 1018 666 1060 c 128,-1,26
+ 605 1102 605 1102 483 1102 c 2,27,-1
+ 375 1102 l 1,28,-1
+ 375 733 l 1,29,-1
+ 475 733 l 2,30,31
+ 532 733 532 733 578.5 745 c 128,-1,32
+ 625 757 625 757 658 781 c 128,-1,33
+ 691 805 691 805 709 840.5 c 128,-1,34
+ 727 876 727 876 727 922 c 0,24,25
+EndSplineSet
+Substitution2: "'sups' Superscript lookup 34 subtable" R.superior
+EndChar

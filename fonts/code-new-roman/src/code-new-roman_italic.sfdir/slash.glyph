@@ -1,0 +1,43 @@
+StartChar: slash
+Encoding: 47 47 373
+Width: 1126
+Flags: W
+TtInstrs:
+NPUSHB
+ 11
+ 0
+ 1
+ 3
+ 2
+ 3
+ 83
+ 1
+ 2
+ 89
+ 0
+ 83
+SVTCA[y-axis]
+MIAP[rnd]
+MIAP[rnd]
+SHP[rp1]
+MIAP[rnd]
+SVTCA[x-axis]
+MDAP[rnd]
+MDRP[min,rnd,black]
+SHP[rp1]
+SHP[rp2]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+1153 1413 m 1,0,-1
+ 139 -215 l 1,1,-1
+ -39 -215 l 1,2,-1
+ 975 1413 l 1,3,-1
+ 1153 1413 l 1,0,-1
+EndSplineSet
+Substitution2: "Single Substitution lookup 8 subtable" fraction
+EndChar

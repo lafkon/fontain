@@ -1,0 +1,228 @@
+StartChar: i
+Encoding: 105 105 139
+Width: 1126
+GlyphClass: 2
+Flags: W
+TtInstrs:
+PUSHB_2
+ 1
+ 2
+RS
+NEQ
+IF
+PUSHB_7
+ 55
+ 48
+ 45
+ 48
+ 27
+ 30
+ 10
+PUSHW_1
+ 399
+NPUSHB
+ 20
+ 0
+ 37
+ 30
+ 30
+ 56
+ 57
+ 38
+ 229
+ 37
+ 34
+ 220
+ 41
+ 27
+ 48
+ 30
+ 45
+ 4
+ 41
+ 23
+ 5
+PUSHW_1
+ 286
+NPUSHB
+ 16
+ 15
+ 64
+ 16
+ 23
+ 72
+ 15
+ 41
+ 80
+ 20
+ 229
+ 55
+ 52
+ 220
+ 64
+ 23
+ 82
+SVTCA[y-axis]
+RTG
+MIAP[rnd]
+SMD
+FLIPON
+MIRP[rp0,min,rnd,black]
+MDRP[rp0,rnd,white]
+MIRP[min,rnd,black]
+MIAP[rnd]
+MDRP[rp0,rnd,white]
+CALL
+MIRP[min,rnd,black]
+SRP1
+SRP2
+SLOOP
+IP
+SRP0
+MIRP[rp0,min,rnd,black]
+MDRP[rp0,rnd,white]
+MIRP[min,rnd,black]
+SRP1
+SRP2
+SVTCA[x-axis]
+IP
+MDAP[rnd]
+MDRP[rnd,white]
+MDRP[rp0,rnd,grey]
+MIRP[min,rnd,black]
+SRP0
+MDRP[min,rnd,black]
+SHP[rp2]
+SHP[rp1]
+SRP0
+MDRP[rnd,white]
+IUP[x]
+IUP[y]
+ELSE
+NPUSHB
+ 14
+ 38
+ 229
+ 37
+ 34
+ 220
+ 41
+ 27
+ 48
+ 30
+ 45
+ 4
+ 41
+ 23
+ 5
+PUSHW_1
+ 286
+NPUSHB
+ 16
+ 15
+ 64
+ 16
+ 23
+ 72
+ 15
+ 41
+ 80
+ 20
+ 229
+ 55
+ 52
+ 220
+ 64
+ 23
+ 82
+SVTCA[y-axis]
+RTG
+MIAP[rnd]
+SMD
+FLIPON
+MIRP[rp0,min,rnd,black]
+MDRP[rp0,rnd,white]
+MIRP[min,rnd,black]
+MIAP[rnd]
+MDRP[rp0,rnd,white]
+CALL
+MIRP[min,rnd,black]
+SRP1
+SRP2
+SLOOP
+IP
+SRP0
+MIRP[rp0,min,rnd,black]
+MDRP[rp0,rnd,white]
+MIRP[min,rnd,black]
+IUP[x]
+IUP[y]
+EIF
+EndTTInstrs
+AnchorPoint: "Anchor-11" 0 1700 basechar 0
+AnchorPoint: "Anchor-10" 1126 1700 basechar 0
+AnchorPoint: "Anchor-9" 870 0 basechar 0
+AnchorPoint: "Anchor-8" 693 0 basechar 0
+AnchorPoint: "Anchor-7" 530 900 basechar 0
+AnchorPoint: "Anchor-6" 1126 -350 basechar 0
+AnchorPoint: "Anchor-5" 1126 1700 basechar 0
+AnchorPoint: "Anchor-4" 480 1000 basechar 0
+AnchorPoint: "Anchor-2" 563 -180 basechar 0
+AnchorPoint: "Anchor-1" 777 1500 basechar 0
+AnchorPoint: "Anchor-0" 563 1500 basechar 0
+LayerCount: 2
+Back
+Fore
+SplineSet
+543 1282 m 0,0,1
+ 543 1313 543 1313 554 1339 c 128,-1,2
+ 565 1365 565 1365 584.5 1384 c 128,-1,3
+ 604 1403 604 1403 630 1414 c 128,-1,4
+ 656 1425 656 1425 686 1425 c 0,5,6
+ 715 1425 715 1425 739 1414.5 c 128,-1,7
+ 763 1404 763 1404 780.5 1386.5 c 128,-1,8
+ 798 1369 798 1369 807.5 1345 c 128,-1,9
+ 817 1321 817 1321 817 1294 c 0,10,11
+ 817 1263 817 1263 806 1237 c 128,-1,12
+ 795 1211 795 1211 775.5 1192 c 128,-1,13
+ 756 1173 756 1173 730 1162 c 128,-1,14
+ 704 1151 704 1151 674 1151 c 0,15,16
+ 645 1151 645 1151 620.5 1161.5 c 128,-1,17
+ 596 1172 596 1172 579 1189.5 c 128,-1,18
+ 562 1207 562 1207 552.5 1231 c 128,-1,19
+ 543 1255 543 1255 543 1282 c 0,0,1
+956 63 m 1,20,21
+ 887 25 887 25 810.5 3.5 c 128,-1,22
+ 734 -18 734 -18 647 -18 c 0,23,24
+ 576 -18 576 -18 528 2 c 128,-1,25
+ 480 22 480 22 454.5 65.5 c 128,-1,26
+ 429 109 429 109 426 177 c 128,-1,27
+ 423 245 423 245 442 342 c 2,28,-1
+ 510 678 l 2,29,30
+ 522 735 522 735 521.5 773.5 c 128,-1,31
+ 521 812 521 812 511 835 c 128,-1,32
+ 501 858 501 858 481.5 867.5 c 128,-1,33
+ 462 877 462 877 436 877 c 0,34,35
+ 368 877 368 877 302 850.5 c 128,-1,36
+ 236 824 236 824 168 786 c 1,37,-1
+ 168 940 l 1,38,39
+ 237 978 237 978 313.5 1000 c 128,-1,40
+ 390 1022 390 1022 477 1022 c 0,41,42
+ 548 1022 548 1022 596 1002 c 128,-1,43
+ 644 982 644 982 669.5 938.5 c 128,-1,44
+ 695 895 695 895 698 827 c 128,-1,45
+ 701 759 701 759 682 662 c 2,46,-1
+ 614 326 l 2,47,48
+ 603 268 603 268 603 230 c 128,-1,49
+ 603 192 603 192 613.5 169 c 128,-1,50
+ 624 146 624 146 643 136.5 c 128,-1,51
+ 662 127 662 127 688 127 c 0,52,53
+ 756 127 756 127 822 153.5 c 128,-1,54
+ 888 180 888 180 956 217 c 1,55,-1
+ 956 63 l 1,20,21
+EndSplineSet
+Substitution2: "'ss05' Style Set 5 lookup 30 subtable" i.ss05
+Substitution2: "'ss04' Style Set 4 lookup 29 subtable" i.ss04
+AlternateSubs2: "'salt' Stylistic Alternatives lookup 23 subtable" i.ss05 i.ss04
+Substitution2: "Single Substitution lookup 15 subtable" dotlessi
+EndChar

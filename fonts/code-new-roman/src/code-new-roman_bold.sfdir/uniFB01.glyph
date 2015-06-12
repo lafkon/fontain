@@ -1,0 +1,117 @@
+StartChar: uniFB01
+Encoding: 64257 64257 186
+Width: 1126
+Flags: W
+TtInstrs:
+NPUSHB
+ 9
+ 7
+ 7
+ 5
+ 35
+ 21
+ 21
+ 33
+ 32
+ 4
+PUSHW_4
+ 483
+ 5
+ 33
+ 483
+NPUSHB
+ 22
+ 2
+ 9
+ 5
+ 21
+ 26
+ 253
+ 15
+ 9
+ 32
+ 250
+ 6
+ 10
+ 15
+ 3
+ 3
+ 5
+ 15
+ 84
+ 5
+ 81
+ 0
+ 81
+SVTCA[y-axis]
+MIAP[rnd]
+MIAP[rnd]
+MIAP[rnd]
+SRP2
+IP
+MDAP[rnd]
+SRP2
+IP
+SHP[rp1]
+MIRP[min,rnd,black]
+SHP[rp2]
+SRP0
+MIRP[rp0,min,rnd,black]
+MDRP[rnd,white]
+SVTCA[x-axis]
+MDAP[rnd]
+MDRP[rnd,grey]
+MDRP[rp0,rnd,grey]
+MIRP[min,rnd,black]
+SRP0
+MIRP[rp0,min,rnd,black]
+MDRP[rnd,grey]
+SRP2
+IP
+MDAP[rnd]
+SRP1
+SRP2
+IP
+MDAP[rnd]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+979 0 m 1,0,-1
+ 739 0 l 1,1,-1
+ 739 723 l 1,2,-1
+ 430 723 l 1,3,-1
+ 430 0 l 1,4,-1
+ 190 0 l 1,5,-1
+ 190 723 l 1,6,-1
+ 33 723 l 1,7,-1
+ 33 913 l 1,8,-1
+ 190 913 l 1,9,-1
+ 190 1020 l 2,10,11
+ 190 1130 190 1130 223.5 1208 c 128,-1,12
+ 257 1286 257 1286 320 1336 c 128,-1,13
+ 383 1386 383 1386 473.5 1409 c 128,-1,14
+ 564 1432 564 1432 678 1432 c 0,15,16
+ 711 1432 711 1432 746.5 1429.5 c 128,-1,17
+ 782 1427 782 1427 817 1422 c 128,-1,18
+ 852 1417 852 1417 885 1410.5 c 128,-1,19
+ 918 1404 918 1404 946 1397 c 1,20,-1
+ 946 1200 l 1,21,22
+ 921 1209 921 1209 889 1216 c 128,-1,23
+ 857 1223 857 1223 822.5 1228 c 128,-1,24
+ 788 1233 788 1233 752.5 1236 c 128,-1,25
+ 717 1239 717 1239 686 1239 c 0,26,27
+ 629 1239 629 1239 582 1227.5 c 128,-1,28
+ 535 1216 535 1216 501.5 1190 c 128,-1,29
+ 468 1164 468 1164 449 1123 c 128,-1,30
+ 430 1082 430 1082 430 1024 c 2,31,-1
+ 430 913 l 1,32,-1
+ 979 913 l 1,33,-1
+ 979 0 l 1,0,-1
+0 1016 m 1024,34,-1
+EndSplineSet
+Ligature2: "'dlig' Discretionary Ligatures in Latin lookup 37 subtable" f i
+EndChar

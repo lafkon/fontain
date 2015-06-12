@@ -1,0 +1,156 @@
+StartChar: five
+Encoding: 53 53 626
+Width: 1126
+Flags: W
+TtInstrs:
+PUSHB_2
+ 1
+ 2
+RS
+NEQ
+IF
+PUSHB_5
+ 29
+ 26
+ 30
+ 25
+ 21
+PUSHW_1
+ 372
+NPUSHB
+ 13
+ 0
+ 26
+ 0
+ 25
+ 25
+ 27
+ 10
+ 25
+ 254
+ 30
+ 30
+ 5
+ 29
+PUSHW_1
+ 256
+NPUSHB
+ 9
+ 26
+ 27
+ 98
+ 11
+ 16
+ 255
+ 64
+ 5
+ 101
+SVTCA[y-axis]
+RTG
+MIAP[rnd]
+SMD
+FLIPON
+MIRP[rp0,min,rnd,black]
+MDRP[rnd,white]
+MIAP[rnd]
+SHP[rp1]
+MIRP[min,rnd,black]
+SRP2
+IP
+MDAP[rnd]
+MIRP[min,rnd,black]
+SVTCA[x-axis]
+MDAP[rnd]
+MDRP[rnd,grey]
+IP
+MDAP[rnd]
+IP
+IP
+SRP0
+MIRP[min,rnd,black]
+SRP1
+SHP[rp1]
+SRP1
+SHP[rp1]
+IUP[x]
+IUP[y]
+ELSE
+PUSHB_6
+ 25
+ 254
+ 30
+ 30
+ 5
+ 29
+PUSHW_1
+ 256
+NPUSHB
+ 9
+ 26
+ 27
+ 98
+ 11
+ 16
+ 255
+ 64
+ 5
+ 101
+SVTCA[y-axis]
+RTG
+MIAP[rnd]
+SMD
+FLIPON
+MIRP[rp0,min,rnd,black]
+MDRP[rnd,white]
+MIAP[rnd]
+SHP[rp1]
+MIRP[min,rnd,black]
+SRP2
+IP
+MDAP[rnd]
+MIRP[min,rnd,black]
+IUP[x]
+IUP[y]
+EIF
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+961 481 m 0,0,1
+ 961 377 961 377 913.5 286 c 128,-1,2
+ 866 195 866 195 782 127.5 c 128,-1,3
+ 698 60 698 60 583 21 c 128,-1,4
+ 468 -18 468 -18 332 -18 c 0,5,6
+ 299 -18 299 -18 264 -16.5 c 128,-1,7
+ 229 -15 229 -15 195.5 -12.5 c 128,-1,8
+ 162 -10 162 -10 131 -6.5 c 128,-1,9
+ 100 -3 100 -3 76 2 c 1,10,-1
+ 106 156 l 1,11,12
+ 132 150 132 150 162.5 145.5 c 128,-1,13
+ 193 141 193 141 224.5 138 c 128,-1,14
+ 256 135 256 135 287.5 134 c 128,-1,15
+ 319 133 319 133 348 133 c 0,16,17
+ 442 133 442 133 520 158 c 128,-1,18
+ 598 183 598 183 654.5 227.5 c 128,-1,19
+ 711 272 711 272 742.5 332 c 128,-1,20
+ 774 392 774 392 774 461 c 0,21,22
+ 774 549 774 549 701 594 c 128,-1,23
+ 628 639 628 639 475 639 c 2,24,-1
+ 225 639 l 1,25,-1
+ 360 1307 l 1,26,-1
+ 1065 1307 l 1,27,-1
+ 1034 1155 l 1,28,-1
+ 494 1155 l 1,29,-1
+ 420 788 l 1,30,-1
+ 524 788 l 2,31,32
+ 613 788 613 788 692.5 771 c 128,-1,33
+ 772 754 772 754 831.5 717.5 c 128,-1,34
+ 891 681 891 681 926 622.5 c 128,-1,35
+ 961 564 961 564 961 481 c 0,0,1
+EndSplineSet
+Substitution2: "'subs' Subscript lookup 22 subtable" uni2085
+Substitution2: "'onum' Oldstyle Figures lookup 21 subtable" five.oldstyle
+Substitution2: "'numr' Numerators lookup 20 subtable" uni2075
+Substitution2: "'dnom' Denominators lookup 6 subtable" five.dnom
+EndChar

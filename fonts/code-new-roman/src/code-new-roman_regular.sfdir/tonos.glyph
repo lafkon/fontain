@@ -1,0 +1,47 @@
+StartChar: tonos
+Encoding: 900 900 472
+Width: 1126
+Flags: W
+TtInstrs:
+PUSHW_2
+ 0
+ 479
+PUSHB_3
+ 3
+ 64
+ 1
+PUSHW_1
+ 390
+PUSHB_6
+ 2
+ 3
+ 128
+ 2
+ 4
+ 79
+SVTCA[y-axis]
+MIAP[rnd]
+MDRP[rp0,min,rnd,white]
+SMD
+MDRP[min,rnd,black]
+SVTCA[x-axis]
+MDAP[rnd]
+MIRP[black]
+SMD
+MDRP[rp0,min,rnd,black]
+MIRP[black]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+809 1434 m 1,0,-1
+ 631 1165 l 1,1,-1
+ 469 1165 l 1,2,-1
+ 598 1434 l 1,3,-1
+ 809 1434 l 1,0,-1
+0 1004 m 1024,4,-1
+EndSplineSet
+EndChar

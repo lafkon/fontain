@@ -1,0 +1,63 @@
+StartChar: asciicircum
+Encoding: 94 94 593
+Width: 1126
+Flags: W
+TtInstrs:
+PUSHB_8
+ 5
+ 4
+ 6
+ 0
+ 2
+ 2
+ 4
+ 1
+PUSHW_4
+ 320
+ 0
+ 3
+ 340
+PUSHB_7
+ 4
+ 2
+ 0
+ 4
+ 5
+ 6
+ 65
+SVTCA[y-axis]
+MIAP[rnd]
+SHP[rp1]
+MDRP[min,rnd,black]
+SHP[rp2]
+IP
+SVTCA[x-axis]
+MDAP[rnd]
+MIRP[min,rnd,black]
+MDRP[rp0,rnd,grey]
+MIRP[min,rnd,black]
+SRP2
+IP
+RTHG
+MDAP[rnd]
+SRP2
+IP
+SRP2
+IP
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+1044 668 m 1,0,-1
+ 881 668 l 1,1,-1
+ 692 1169 l 1,2,-1
+ 319 668 l 1,3,-1
+ 152 668 l 1,4,-1
+ 647 1307 l 1,5,-1
+ 788 1307 l 1,6,-1
+ 1044 668 l 1,0,-1
+EndSplineSet
+EndChar

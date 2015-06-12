@@ -1,0 +1,206 @@
+StartChar: three
+Encoding: 51 51 624
+Width: 1126
+Flags: W
+TtInstrs:
+PUSHB_2
+ 1
+ 2
+RS
+NEQ
+IF
+PUSHW_2
+ 14
+ 370
+NPUSHB
+ 13
+ 54
+ 49
+ 20
+ 54
+ 33
+ 20
+ 54
+ 54
+ 20
+ 33
+ 3
+ 3
+ 44
+PUSHW_1
+ 371
+PUSHB_3
+ 27
+ 3
+ 34
+PUSHW_1
+ 256
+NPUSHB
+ 13
+ 33
+ 30
+ 255
+ 39
+ 49
+ 21
+ 207
+ 20
+ 20
+ 0
+ 39
+ 99
+ 3
+PUSHW_1
+ 256
+PUSHB_6
+ 4
+ 7
+ 255
+ 64
+ 0
+ 101
+SVTCA[y-axis]
+RTG
+MIAP[rnd]
+SMD
+FLIPON
+MIRP[rp0,min,rnd,black]
+MDRP[rp0,rnd,white]
+MIRP[min,rnd,black]
+MIAP[rnd]
+SRP2
+IP
+MDAP[rnd]
+MIRP[min,rnd,black]
+IP
+SRP0
+MIRP[rp0,min,rnd,black]
+MDRP[rp0,rnd,white]
+MIRP[min,rnd,black]
+SVTCA[x-axis]
+MDAP[rnd]
+MDRP[rp0,rnd,grey]
+MIRP[min,rnd,black]
+SRP1
+SLOOP
+IP
+MDAP[rnd]
+MDAP[rnd]
+MDAP[rnd]
+SRP1
+SRP2
+IP
+SRP0
+MIRP[min,rnd,black]
+IUP[x]
+IUP[y]
+ELSE
+PUSHW_2
+ 34
+ 256
+NPUSHB
+ 13
+ 33
+ 30
+ 255
+ 39
+ 49
+ 21
+ 207
+ 20
+ 20
+ 0
+ 39
+ 99
+ 3
+PUSHW_1
+ 256
+PUSHB_6
+ 4
+ 7
+ 255
+ 64
+ 0
+ 101
+SVTCA[y-axis]
+RTG
+MIAP[rnd]
+SMD
+FLIPON
+MIRP[rp0,min,rnd,black]
+MDRP[rp0,rnd,white]
+MIRP[min,rnd,black]
+MIAP[rnd]
+SRP2
+IP
+MDAP[rnd]
+MIRP[min,rnd,black]
+IP
+SRP0
+MIRP[rp0,min,rnd,black]
+MDRP[rp0,rnd,white]
+MIRP[min,rnd,black]
+IUP[x]
+IUP[y]
+EIF
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+328 -18 m 0,0,1
+ 250 -18 250 -18 182 -12.5 c 128,-1,2
+ 114 -7 114 -7 61 2 c 1,3,-1
+ 92 154 l 1,4,5
+ 151 144 151 144 214.5 138.5 c 128,-1,6
+ 278 133 278 133 350 133 c 0,7,8
+ 437 133 437 133 503 147 c 128,-1,9
+ 569 161 569 161 617 184 c 128,-1,10
+ 665 207 665 207 696.5 237.5 c 128,-1,11
+ 728 268 728 268 746.5 300.5 c 128,-1,12
+ 765 333 765 333 772.5 366 c 128,-1,13
+ 780 399 780 399 780 428 c 0,14,15
+ 780 472 780 472 759.5 504.5 c 128,-1,16
+ 739 537 739 537 701.5 559 c 128,-1,17
+ 664 581 664 581 610.5 591.5 c 128,-1,18
+ 557 602 557 602 492 602 c 2,19,-1
+ 342 602 l 1,20,-1
+ 371 745 l 1,21,-1
+ 508 745 l 2,22,23
+ 572 745 572 745 631.5 764 c 128,-1,24
+ 691 783 691 783 736.5 819.5 c 128,-1,25
+ 782 856 782 856 809 908.5 c 128,-1,26
+ 836 961 836 961 836 1028 c 0,27,28
+ 836 1103 836 1103 783 1138.5 c 128,-1,29
+ 730 1174 730 1174 625 1174 c 0,30,31
+ 559 1174 559 1174 490.5 1161 c 128,-1,32
+ 422 1148 422 1148 338 1122 c 1,33,-1
+ 338 1274 l 1,34,35
+ 375 1286 375 1286 415.5 1295.5 c 128,-1,36
+ 456 1305 456 1305 497.5 1311.5 c 128,-1,37
+ 539 1318 539 1318 578.5 1321.5 c 128,-1,38
+ 618 1325 618 1325 653 1325 c 0,39,40
+ 745 1325 745 1325 814.5 1306 c 128,-1,41
+ 884 1287 884 1287 930 1252.5 c 128,-1,42
+ 976 1218 976 1218 999 1169.5 c 128,-1,43
+ 1022 1121 1022 1121 1022 1061 c 0,44,45
+ 1022 1017 1022 1017 1010 966 c 128,-1,46
+ 998 915 998 915 966.5 864 c 128,-1,47
+ 935 813 935 813 880 765.5 c 128,-1,48
+ 825 718 825 718 739 682 c 1,49,50
+ 786 673 786 673 827 653 c 128,-1,51
+ 868 633 868 633 899 602.5 c 128,-1,52
+ 930 572 930 572 947.5 530.5 c 128,-1,53
+ 965 489 965 489 965 438 c 0,54,55
+ 965 390 965 390 950 337.5 c 128,-1,56
+ 935 285 935 285 903.5 234.5 c 128,-1,57
+ 872 184 872 184 821.5 138 c 128,-1,58
+ 771 92 771 92 700.5 57.5 c 128,-1,59
+ 630 23 630 23 537.5 2.5 c 128,-1,60
+ 445 -18 445 -18 328 -18 c 0,0,1
+EndSplineSet
+Substitution2: "'subs' Subscript lookup 22 subtable" uni2083
+Substitution2: "'onum' Oldstyle Figures lookup 21 subtable" three.oldstyle
+Substitution2: "'numr' Numerators lookup 20 subtable" uni00B3
+Substitution2: "'dnom' Denominators lookup 6 subtable" three.dnom
+EndChar

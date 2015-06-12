@@ -1,0 +1,62 @@
+StartChar: bracketright
+Encoding: 93 93 388
+Width: 1126
+Flags: W
+TtInstrs:
+NPUSHB
+ 20
+ 4
+ 7
+ 3
+ 0
+ 5
+ 7
+ 1
+ 0
+ 7
+ 108
+ 4
+ 191
+ 6
+ 108
+ 3
+ 191
+ 1
+ 85
+ 0
+ 85
+SVTCA[y-axis]
+MIAP[rnd]
+MIAP[rnd]
+MIRP[min,rnd,black]
+MIAP[rnd]
+MIRP[min,rnd,black]
+MIAP[rnd]
+SVTCA[x-axis]
+MDAP[rnd]
+MDRP[min,rnd,black]
+MDRP[rp0,min,rnd,black]
+MDRP[min,rnd,black]
+SRP1
+SHP[rp1]
+SRP1
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+596 -410 m 1,0,-1
+ 103 -410 l 1,1,-1
+ 131 -270 l 1,2,-1
+ 456 -270 l 1,3,-1
+ 772 1308 l 1,4,-1
+ 447 1308 l 1,5,-1
+ 475 1448 l 1,6,-1
+ 968 1448 l 1,7,-1
+ 596 -410 l 1,0,-1
+EndSplineSet
+Substitution2: "'case' Case-Sensitive Forms lookup 0 subtable" bracketright.case
+EndChar

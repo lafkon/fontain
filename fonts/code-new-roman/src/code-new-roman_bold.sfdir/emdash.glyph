@@ -1,0 +1,33 @@
+StartChar: emdash
+Encoding: 8212 8212 377
+Width: 1126
+Flags: W
+TtInstrs:
+PUSHB_3
+ 2
+ 0
+ 2
+PUSHW_2
+ 308
+ 0
+SVTCA[y-axis]
+MDAP[rnd]
+MIRP[min,rnd,black]
+SVTCA[x-axis]
+MDAP[rnd]
+MDRP[min,rnd,black]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+-4 438 m 1,0,-1
+ -4 651 l 1,1,-1
+ 1130 651 l 1,2,-1
+ 1130 438 l 1,3,-1
+ -4 438 l 1,0,-1
+EndSplineSet
+Substitution2: "'case' Case-Sensitive Forms lookup 0 subtable" emdash.case
+EndChar

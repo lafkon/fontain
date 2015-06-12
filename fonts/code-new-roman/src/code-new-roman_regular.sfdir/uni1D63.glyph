@@ -1,0 +1,70 @@
+StartChar: uni1D63
+Encoding: 7523 7523 1727
+Width: 1126
+Flags: W
+TtInstrs:
+PUSHB_2
+ 2
+ 20
+PUSHW_1
+ 317
+NPUSHB
+ 14
+ 21
+ 11
+ 10
+ 21
+ 2
+ 19
+ 20
+ 14
+ 155
+ 10
+ 5
+ 0
+ 20
+ 94
+SVTCA[y-axis]
+MIAP[rnd]
+MDRP[rp0,min,rnd,black]
+MDRP[rp0,rnd,grey]
+MDRP[min,rnd,black]
+MIRP[min,rnd,black]
+SRP2
+IP
+IP
+SVTCA[x-axis]
+MDAP[rnd]
+MDRP[rp0,min,rnd,grey]
+MDRP[min,rnd,black]
+SRP0
+MIRP[rp0,min,rnd,black]
+MDRP[rnd,black]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+330 400 m 1,0,-1
+ 453 400 l 1,1,-1
+ 456 287 l 1,2,3
+ 514 353 514 353 569 382 c 128,-1,4
+ 624 411 624 411 681 411 c 0,5,6
+ 731 411 731 411 769.5 392.5 c 128,-1,7
+ 808 374 808 374 833.5 339.5 c 128,-1,8
+ 859 305 859 305 871 256 c 128,-1,9
+ 883 207 883 207 881 146 c 1,10,-1
+ 748 146 l 1,11,12
+ 750 227 750 227 730 263.5 c 128,-1,13
+ 710 300 710 300 658 300 c 0,14,15
+ 635 300 635 300 613.5 292 c 128,-1,16
+ 592 284 592 284 569 267.5 c 128,-1,17
+ 546 251 546 251 520.5 224 c 128,-1,18
+ 495 197 495 197 464 160 c 1,19,-1
+ 464 -215 l 1,20,-1
+ 330 -215 l 1,21,-1
+ 330 400 l 1,0,-1
+EndSplineSet
+EndChar

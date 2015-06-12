@@ -1,0 +1,118 @@
+StartChar: uni02F5
+Encoding: 757 757 2020
+Width: 1126
+Flags: W
+TtInstrs:
+NPUSHB
+ 55
+ 5
+ 7
+ 4
+ 6
+ 6
+ 4
+ 3
+ 1
+ 2
+ 2
+ 0
+ 0
+ 4
+ 4
+ 0
+ 64
+ 14
+ 19
+ 72
+ 0
+ 3
+ 128
+ 7
+ 7
+ 223
+ 3
+ 1
+ 32
+ 3
+ 1
+ 31
+ 3
+ 1
+ 255
+ 3
+ 1
+ 48
+ 3
+ 128
+ 3
+ 160
+ 3
+ 3
+ 0
+ 3
+ 16
+ 3
+ 160
+ 3
+ 176
+ 3
+ 192
+ 3
+ 5
+ 3
+PUSHW_1
+ -64
+PUSHB_4
+ 13
+ 16
+ 72
+ 3
+SVTCA[y-axis]
+MDAP[rnd]
+CALL
+DELTAP1
+DELTAP2
+DELTAP2
+DELTAP3
+DELTAP3
+DELTAP3
+SHP[rp1]
+MDAP[rnd]
+SMD
+SRP0
+MDRP[min,rnd,black]
+CALL
+SHP[rp2]
+SVTCA[x-axis]
+MDAP[rnd]
+SHP[rp1]
+MDAP[rnd]
+SHP[rp2]
+MDAP[rnd]
+IP
+IP
+SRP1
+SHP[rp1]
+MDAP[rnd]
+SRP2
+IP
+IP
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+453 673 m 1,0,-1
+ 731 673 l 1,1,-1
+ 932 411 l 1,2,-1
+ 715 411 l 1,3,-1
+ 453 673 l 1,0,-1
+-2 673 m 1,4,-1
+ 301 673 l 1,5,-1
+ 537 411 l 1,6,-1
+ 316 411 l 1,7,-1
+ -2 673 l 1,4,-1
+EndSplineSet
+EndChar

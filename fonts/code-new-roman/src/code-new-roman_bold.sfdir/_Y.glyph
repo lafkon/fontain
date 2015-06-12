@@ -1,0 +1,122 @@
+StartChar: Y
+Encoding: 89 89 28
+Width: 1126
+GlyphClass: 2
+Flags: W
+TtInstrs:
+PUSHB_2
+ 1
+ 2
+RS
+NEQ
+IF
+PUSHW_2
+ 5
+ 544
+PUSHB_3
+ 4
+ 3
+ 9
+PUSHW_1
+ 516
+PUSHB_3
+ 10
+ 7
+ 0
+PUSHW_1
+ 505
+NPUSHB
+ 15
+ 64
+ 3
+ 3
+ 11
+ 12
+ 10
+ 65
+ 9
+ 65
+ 7
+ 2
+ 4
+ 65
+ 2
+ 67
+SVTCA[y-axis]
+RTG
+MIAP[rnd]
+MIAP[rnd]
+SRP2
+IP
+MIAP[rnd]
+MIAP[rnd]
+SRP1
+SRP2
+SVTCA[x-axis]
+IP
+MDAP[rnd]
+SMD
+FLIPON
+MIRP[rp0,min,rnd,black]
+IP
+MDRP[rp0,min,rnd,black]
+MIRP[min,rnd,black]
+SRP0
+MDRP[rp0,min,rnd,black]
+MIRP[min,rnd,black]
+IUP[x]
+IUP[y]
+ELSE
+NPUSHB
+ 10
+ 10
+ 65
+ 9
+ 65
+ 7
+ 2
+ 4
+ 65
+ 2
+ 67
+SVTCA[y-axis]
+RTG
+MIAP[rnd]
+MIAP[rnd]
+SRP2
+IP
+MIAP[rnd]
+MIAP[rnd]
+IUP[x]
+IUP[y]
+EIF
+EndTTInstrs
+AnchorPoint: "Anchor-11" 0 1700 basechar 0
+AnchorPoint: "Anchor-10" 1126 1700 basechar 0
+AnchorPoint: "Anchor-9" 600 0 basechar 0
+AnchorPoint: "Anchor-7" 940 1300 basechar 0
+AnchorPoint: "Anchor-6" 1126 -350 basechar 0
+AnchorPoint: "Anchor-5" 1126 1700 basechar 0
+AnchorPoint: "Anchor-4" 920 1300 basechar 0
+AnchorPoint: "Anchor-2" 563 -180 basechar 0
+AnchorPoint: "Anchor-1" 1176 1390 basechar 0
+AnchorPoint: "Anchor-0" 563 1430 basechar 0
+LayerCount: 2
+Back
+Fore
+SplineSet
+685 463 m 1,0,-1
+ 685 0 l 1,1,-1
+ 435 0 l 1,2,-1
+ 435 461 l 1,3,-1
+ 10 1307 l 1,4,-1
+ 283 1307 l 1,5,-1
+ 475 903 l 1,6,-1
+ 563 705 l 1,7,-1
+ 651 909 l 1,8,-1
+ 852 1307 l 1,9,-1
+ 1114 1307 l 1,10,-1
+ 685 463 l 1,0,-1
+EndSplineSet
+Substitution2: "'sups' Superscript lookup 34 subtable" Y.superior
+EndChar
