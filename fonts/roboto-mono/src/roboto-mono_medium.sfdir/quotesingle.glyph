@@ -1,0 +1,63 @@
+StartChar: quotesingle
+Encoding: 39 39 9
+Width: 1229
+Flags: W
+TtInstrs:
+MPPEM
+PUSHB_1
+ 44
+LT
+IF
+NPUSHB
+ 11
+ 0
+ 0
+ 0
+ 1
+ 89
+ 0
+ 1
+ 1
+ 62
+ 0
+ 76
+ELSE
+NPUSHB
+ 16
+ 0
+ 1
+ 0
+ 0
+ 1
+ 85
+ 0
+ 1
+ 1
+ 0
+ 89
+ 0
+ 0
+ 1
+ 0
+ 77
+EIF
+PUSHB_5
+ 17
+ 17
+ 2
+ 8
+ 22
+CALL
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+665 1412 m 1,0,-1
+ 640 1022 l 1,1,-1
+ 473 1022 l 1,2,-1
+ 473 1536 l 1,3,-1
+ 665 1536 l 1,4,-1
+ 665 1412 l 1,0,-1
+EndSplineSet
+EndChar
