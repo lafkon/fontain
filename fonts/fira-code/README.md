@@ -1,4 +1,4 @@
-FIRA-SANS
+FIRA CODE
 =========
 CLASSIFICATION: Sans-Serif Monospaced
 
