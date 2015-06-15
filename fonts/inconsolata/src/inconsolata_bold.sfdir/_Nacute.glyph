@@ -1,0 +1,103 @@
+StartChar: Nacute
+Encoding: 323 323 219
+Width: 1024
+Flags: W
+TtInstrs:
+NPUSHB
+ 15
+ 15
+ 8
+ 3
+ 3
+ 0
+ 2
+ 1
+ 62
+ 19
+ 18
+ 17
+ 16
+ 4
+ 2
+ 60
+MPPEM
+PUSHB_1
+ 43
+LT
+IF
+NPUSHB
+ 13
+ 3
+ 1
+ 2
+ 2
+ 11
+ 63
+ 1
+ 1
+ 0
+ 0
+ 12
+ 0
+ 64
+ELSE
+MPPEM
+PUSHB_1
+ 47
+LT
+IF
+NPUSHB
+ 13
+ 3
+ 1
+ 2
+ 2
+ 11
+ 63
+ 1
+ 1
+ 0
+ 0
+ 15
+ 0
+ 64
+ELSE
+NPUSHB
+ 19
+ 3
+ 1
+ 2
+ 0
+ 0
+ 2
+ 73
+ 3
+ 1
+ 2
+ 2
+ 0
+ 77
+ 1
+ 1
+ 0
+ 2
+ 0
+ 65
+EIF
+EIF
+PUSHB_6
+ 18
+ 17
+ 18
+ 17
+ 4
+ 27
+CALL
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+Refer: 303 -1 N 1 0 0 1 66 0 0
+Refer: 49 78 N 1 0 0 1 0 0 3
+Refer: 293 -1 N 1 0 0 1 -34 0 2
+EndChar

@@ -1,0 +1,206 @@
+StartChar: breve.cap
+Encoding: 65540 -1 289
+Width: 500
+Flags: W
+TtInstrs:
+PUSHB_1
+ 11
+MDAP[rnd]
+PUSHB_1
+ 0
+MDRP[rp0,grey]
+PUSHB_1
+ 11
+SRP0
+PUSHB_1
+ 6
+MDRP[rp0,min,rnd,grey]
+PUSHB_1
+ 5
+MDRP[rp0,grey]
+SVTCA[y-axis]
+PUSHB_1
+ 9
+MDAP[rnd]
+NPUSHB
+ 9
+ 31
+ 9
+ 47
+ 9
+ 63
+ 9
+ 79
+ 9
+ 4
+DELTAP1
+PUSHB_3
+ 255
+ 9
+ 1
+DELTAP1
+PUSHB_3
+ 111
+ 9
+ 1
+DELTAP1
+PUSHB_3
+ 159
+ 9
+ 1
+DELTAP1
+PUSHB_1
+ 0
+MDRP[rp0,min,rnd,grey]
+PUSHB_7
+ 47
+ 0
+ 63
+ 0
+ 79
+ 0
+ 3
+DELTAP2
+PUSHB_3
+ 79
+ 0
+ 1
+DELTAP1
+PUSHB_1
+ 9
+SRP0
+PUSHB_2
+ 3
+ 3
+MIRP[rp0,rnd,grey]
+PUSHB_7
+ 47
+ 3
+ 63
+ 3
+ 79
+ 3
+ 3
+DELTAP2
+PUSHB_1
+ 0
+SRP0
+PUSHB_1
+ 5
+MDRP[rp0,grey]
+IUP[y]
+IUP[x]
+SVTCA[x-axis]
+PUSHB_7
+ 41
+ 5
+ 57
+ 5
+ 73
+ 5
+ 3
+DELTAP2
+PUSHB_5
+ 215
+ 6
+ 231
+ 6
+ 2
+DELTAP1
+PUSHB_5
+ 215
+ 7
+ 231
+ 7
+ 2
+DELTAP1
+PUSHB_3
+ 246
+ 10
+ 1
+DELTAP1
+NPUSHB
+ 11
+ 6
+ 10
+ 22
+ 10
+ 38
+ 10
+ 54
+ 10
+ 70
+ 10
+ 5
+DELTAP2
+PUSHB_5
+ 216
+ 11
+ 232
+ 11
+ 2
+DELTAP1
+SVTCA[y-axis]
+PUSHB_5
+ 216
+ 6
+ 232
+ 6
+ 2
+DELTAP1
+PUSHB_3
+ 246
+ 7
+ 1
+DELTAP1
+NPUSHB
+ 11
+ 6
+ 7
+ 22
+ 7
+ 38
+ 7
+ 54
+ 7
+ 70
+ 7
+ 5
+DELTAP2
+PUSHB_5
+ 217
+ 7
+ 233
+ 7
+ 2
+DELTAP1
+PUSHB_5
+ 217
+ 10
+ 233
+ 10
+ 2
+DELTAP1
+PUSHB_5
+ 216
+ 11
+ 232
+ 11
+ 2
+DELTAP1
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+128 784 m 1,0,1
+ 147 754 147 754 176.5 734 c 128,-1,2
+ 206 714 206 714 240 714 c 0,3,4
+ 305 714 305 714 359 784 c 1,5,-1
+ 387 742 l 1,6,7
+ 361 706 361 706 322.5 684 c 128,-1,8
+ 284 662 284 662 242 662 c 0,9,10
+ 156 662 156 662 91 739 c 1,11,-1
+ 128 784 l 1,0,1
+EndSplineSet
+EndChar

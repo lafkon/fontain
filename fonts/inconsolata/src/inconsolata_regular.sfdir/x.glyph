@@ -1,0 +1,634 @@
+StartChar: x
+Encoding: 120 120 90
+Width: 500
+Flags: W
+TtInstrs:
+PUSHB_3
+ 3
+ 7
+ 3
+CALL
+PUSHB_5
+ 208
+ 3
+ 224
+ 3
+ 2
+DELTAP1
+PUSHB_3
+ 96
+ 3
+ 1
+DELTAP1
+PUSHB_3
+ 250
+ 3
+ 1
+DELTAP1
+NPUSHB
+ 9
+ 10
+ 3
+ 26
+ 3
+ 42
+ 3
+ 58
+ 3
+ 4
+DELTAP2
+PUSHB_3
+ 90
+ 3
+ 1
+DELTAP2
+PUSHB_3
+ 128
+ 3
+ 1
+DELTAP1
+PUSHB_3
+ 32
+ 3
+ 1
+DELTAP1
+PUSHB_3
+ 176
+ 3
+ 1
+DELTAP1
+PUSHB_3
+ 64
+ 3
+ 1
+DELTAP2
+PUSHB_1
+ 3
+SRP0
+PUSHB_1
+ 4
+MDRP[rp0,grey]
+PUSHB_5
+ 121
+ 4
+ 137
+ 4
+ 2
+DELTAP1
+PUSHB_3
+ 187
+ 4
+ 1
+DELTAP1
+PUSHB_7
+ 204
+ 4
+ 220
+ 4
+ 236
+ 4
+ 3
+DELTAP1
+PUSHB_5
+ 154
+ 4
+ 170
+ 4
+ 2
+DELTAP1
+PUSHB_3
+ 102
+ 4
+ 1
+DELTAP2
+PUSHB_3
+ 245
+ 4
+ 1
+DELTAP1
+NPUSHB
+ 11
+ 5
+ 4
+ 21
+ 4
+ 37
+ 4
+ 53
+ 4
+ 69
+ 4
+ 5
+DELTAP2
+PUSHB_1
+ 0
+MDRP[rp0,grey]
+PUSHB_3
+ 218
+ 0
+ 1
+DELTAP1
+NPUSHB
+ 11
+ 121
+ 0
+ 137
+ 0
+ 153
+ 0
+ 169
+ 0
+ 185
+ 0
+ 5
+DELTAP1
+PUSHB_5
+ 88
+ 0
+ 104
+ 0
+ 2
+DELTAP1
+PUSHB_1
+ 3
+SRP0
+PUSHB_1
+ 1
+MDRP[rp0,grey]
+PUSHB_3
+ 218
+ 1
+ 1
+DELTAP1
+NPUSHB
+ 11
+ 121
+ 1
+ 137
+ 1
+ 153
+ 1
+ 169
+ 1
+ 185
+ 1
+ 5
+DELTAP1
+NPUSHB
+ 9
+ 56
+ 1
+ 72
+ 1
+ 88
+ 1
+ 104
+ 1
+ 4
+DELTAP1
+PUSHB_3
+ 92
+ 7
+ 1
+DELTAP2
+PUSHB_3
+ 31
+ 7
+ 1
+DELTAP1
+PUSHB_3
+ 63
+ 7
+ 1
+DELTAP1
+PUSHB_3
+ 32
+ 7
+ 1
+DELTAP1
+PUSHB_3
+ 64
+ 7
+ 1
+DELTAP2
+PUSHB_3
+ 2
+ 3
+ 7
+SRP1
+SRP2
+IP
+PUSHB_3
+ 248
+ 2
+ 1
+DELTAP1
+NPUSHB
+ 11
+ 8
+ 2
+ 24
+ 2
+ 40
+ 2
+ 56
+ 2
+ 72
+ 2
+ 5
+DELTAP2
+NPUSHB
+ 15
+ 118
+ 2
+ 134
+ 2
+ 150
+ 2
+ 166
+ 2
+ 182
+ 2
+ 198
+ 2
+ 214
+ 2
+ 7
+DELTAP1
+PUSHB_3
+ 8
+ 7
+ 3
+SRP1
+SRP2
+IP
+NPUSHB
+ 9
+ 121
+ 8
+ 137
+ 8
+ 153
+ 8
+ 169
+ 8
+ 4
+DELTAP1
+PUSHB_3
+ 186
+ 8
+ 1
+DELTAP1
+PUSHB_7
+ 201
+ 8
+ 217
+ 8
+ 233
+ 8
+ 3
+DELTAP1
+PUSHB_3
+ 247
+ 8
+ 1
+DELTAP1
+NPUSHB
+ 11
+ 7
+ 8
+ 23
+ 8
+ 39
+ 8
+ 55
+ 8
+ 71
+ 8
+ 5
+DELTAP2
+PUSHB_3
+ 5
+ 8
+ 2
+SRP1
+SRP2
+IP
+PUSHB_1
+ 7
+SRP0
+PUSHB_1
+ 6
+MDRP[rp0,grey]
+PUSHB_5
+ 149
+ 6
+ 165
+ 6
+ 2
+DELTAP1
+PUSHB_3
+ 105
+ 6
+ 1
+DELTAP2
+PUSHB_3
+ 250
+ 6
+ 1
+DELTAP1
+NPUSHB
+ 11
+ 10
+ 6
+ 26
+ 6
+ 42
+ 6
+ 58
+ 6
+ 74
+ 6
+ 5
+DELTAP2
+PUSHB_5
+ 118
+ 6
+ 134
+ 6
+ 2
+DELTAP1
+PUSHB_3
+ 180
+ 6
+ 1
+DELTAP1
+PUSHB_7
+ 195
+ 6
+ 211
+ 6
+ 227
+ 6
+ 3
+DELTAP1
+PUSHB_1
+ 7
+SRP0
+PUSHB_1
+ 9
+MDRP[rp0,grey]
+PUSHB_1
+ 6
+SRP0
+PUSHB_1
+ 10
+MDRP[rp0,grey]
+PUSHB_3
+ 11
+ 8
+ 2
+SRP1
+SRP2
+IP
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 10
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 10
+ 12
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 6
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 6
+ 8
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 10
+SRP0
+PUSHB_1
+ 0
+MDRP[rp0,grey]
+PUSHB_3
+ 5
+ 6
+ 10
+SRP1
+SRP2
+IP
+PUSHB_3
+ 185
+ 5
+ 1
+DELTAP1
+PUSHB_3
+ 246
+ 5
+ 1
+DELTAP1
+NPUSHB
+ 13
+ 6
+ 5
+ 22
+ 5
+ 38
+ 5
+ 54
+ 5
+ 70
+ 5
+ 86
+ 5
+ 6
+DELTAP2
+PUSHB_3
+ 11
+ 10
+ 6
+SRP1
+SRP2
+IP
+PUSHB_3
+ 249
+ 11
+ 1
+DELTAP1
+NPUSHB
+ 13
+ 9
+ 11
+ 25
+ 11
+ 41
+ 11
+ 57
+ 11
+ 73
+ 11
+ 89
+ 11
+ 6
+DELTAP2
+PUSHB_3
+ 2
+ 5
+ 11
+SRP1
+SRP2
+IP
+PUSHB_1
+ 6
+SRP0
+PUSHB_1
+ 4
+MDRP[rp0,grey]
+PUSHB_3
+ 8
+ 11
+ 5
+SRP1
+SRP2
+IP
+PUSHB_3
+ 184
+ 8
+ 1
+DELTAP1
+IUP[y]
+IUP[x]
+SVTCA[x-axis]
+PUSHB_3
+ 201
+ 0
+ 1
+DELTAP1
+PUSHB_3
+ 234
+ 0
+ 1
+DELTAP1
+PUSHB_3
+ 202
+ 1
+ 1
+DELTAP1
+PUSHB_3
+ 234
+ 1
+ 1
+DELTAP1
+PUSHB_3
+ 230
+ 2
+ 1
+DELTAP1
+PUSHB_5
+ 216
+ 5
+ 232
+ 5
+ 2
+DELTAP1
+PUSHB_3
+ 231
+ 6
+ 1
+DELTAP1
+PUSHB_3
+ 231
+ 7
+ 1
+DELTAP1
+PUSHB_3
+ 234
+ 8
+ 1
+DELTAP1
+PUSHB_3
+ 230
+ 9
+ 1
+DELTAP1
+PUSHB_3
+ 230
+ 10
+ 1
+DELTAP1
+PUSHB_5
+ 215
+ 11
+ 231
+ 11
+ 2
+DELTAP1
+SVTCA[y-axis]
+PUSHB_3
+ 22
+ 5
+ 1
+DELTAP1
+PUSHB_3
+ 202
+ 5
+ 1
+DELTAP1
+PUSHB_3
+ 234
+ 5
+ 1
+DELTAP1
+PUSHB_3
+ 219
+ 5
+ 1
+DELTAP1
+PUSHB_3
+ 231
+ 8
+ 1
+DELTAP1
+PUSHB_7
+ 197
+ 11
+ 213
+ 11
+ 229
+ 11
+ 3
+DELTAP1
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+362 457 m 1,0,-1
+ 436 457 l 1,1,-1
+ 288 235 l 1,2,-1
+ 456 0 l 1,3,-1
+ 374 0 l 1,4,-1
+ 248 178 l 1,5,-1
+ 129 0 l 1,6,-1
+ 47 0 l 1,7,-1
+ 208 232 l 1,8,-1
+ 50 457 l 1,9,-1
+ 129 457 l 1,10,-1
+ 248 288 l 1,11,-1
+ 362 457 l 1,0,-1
+EndSplineSet
+EndChar

@@ -1,0 +1,46 @@
+StartChar: idieresis
+Encoding: 239 239 176
+Width: 500
+Flags: W
+TtInstrs:
+PUSHB_1
+ 18
+MDAP[rnd]
+PUSHB_5
+ 79
+ 18
+ 95
+ 18
+ 2
+DELTAP1
+PUSHB_5
+ 96
+ 18
+ 112
+ 18
+ 2
+DELTAP1
+PUSHB_3
+ 240
+ 18
+ 1
+DELTAP1
+PUSHB_5
+ 0
+ 18
+ 16
+ 18
+ 2
+DELTAP2
+PUSHB_1
+ 31
+MDRP[rp0,min,rnd,grey]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+Refer: 212 305 N 1 0 0 1 0 0 3
+Refer: 105 168 N 1 0 0 1 -8 0 2
+EndChar
