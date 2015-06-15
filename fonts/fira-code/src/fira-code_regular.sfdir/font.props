@@ -4,8 +4,8 @@ FullName: Fira Code Regular
 FamilyName: Fira Code
 Weight: Regular
 Copyright: Digitized data copyright (c) 2012-2014, The Mozilla Foundation and Telefonica S.A.
+FontLog: "This file provides detailed information on the Fira Code font software.+AAoA-This information should be distributed along with the Fira Code font and any derivative works.+AAoACgAA-Fira Code Font Information+AAoACgAA-Fira Code is a Fira Mono font extended with a set of ligatures for common programming multi-character combinations. This is just a font rendering feature: underlying code remains ASCII-compatible. This helps to read and understand code faster. For some frequent sequences like .. or // ligatures allow us to correct spacing.+AAoACgAA-ChangeLog+AAoACgAA-12 Jun 2015 (Christoph Haag)+AAoA-- created fontforge sources as base to work on GNU/Linux+AAoA-- added FONTLOG to .sfdir+AAoA-- Mastered Font from Fontforge SFDIR to UFO,OTF,TTF,EOT,WOFF,SVG+AAoACgAA-26 May 2015 (Nikita Prokopov)+AAoA-- Version 0.5+AAoACgAA-25 May 2015 (Nikita Prokopov)+AAoA-- Version 0.4+AAoACgAA-11 May 2015 (Nikita Prokopov)+AAoA-- Version 0.3: +AH4A@ #? +AD0A:+AD0A +AD0A<+AAoACgAA-7 May 2015 (Nikita Prokopov)+AAoA-- Version 0.2.1+AAoACgAA-11 Nov 2014 (Nikita Prokopov)+AAoA-- Starting from Fira Mono+AAoACgAA-Acknowledgements+AAoACgAA-If you make modifications be sure to add your name (N), email (E), web-address (if you have one) (W) and description (D). This list is in alphabetical order.+AAoACgAA-N: Christoph Haag+AAoA-E: christoph@lafkon.net+AAoA-W: www.lafkon.net+AAoA-D: Transformer+AAoACgAA-N: Nikita Prokopov+AAoA-E: prokopov@gmail.com+AAoA-W: tonsky.me+AAoA-D: Designer/Ligature Maker"
 Version: 3.111
-StyleMapFamilyName: 
 ItalicAngle: 0
 UnderlinePosition: -50
 UnderlineWidth: 50
@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1434102488
-ModificationTime: 1434102488
+ModificationTime: 1434364537
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -59,6 +59,7 @@ OS2Vendor: 'CTDB'
 OS2CodePages: 0000009f.00000000
 OS2UnicodeRanges: 00000887.8000e001.00000000.00000000
 Lookup: 4 0 1 "'liga' Standard Ligatures lookup 0" { "'liga' Standard Ligatures lookup 0 subtable"  } ['liga' ('DFLT' <'dflt' > ) ]
+MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033 "Digitized data copyright +AKkA 2012-2014, The Mozilla Foundation and Telefonica S.A." "" "" "3.111;CTDB;FiraCode-Regular" "" "Version 3.111;PS 3.111;hotconv 1.0.72;makeotf.lib2.5.5900" "" "Fira Mono is a trademark of The Mozilla Corporation." "Carrois Corporate GbR & Edenspiekermann AG" "Carrois Corporate & Edenspiekermann AG" "" "http://www.carrois.com" "http://www.carrois.com" "Licensed under the Open Font License, version 1.1 or later" "http://scripts.sil.org/OFL"
 PickledDataWithLists: "(dp1
@@ -2387,23 +2388,23 @@ aS'semicolon_semicolon'
 p1136
 aS'less_slash'
 p1137
-asS'com.typemytype.robofont.compileSettings.path'
+asS'com.typemytype.robofont.compileSettings.releaseMode'
 p1138
-S'/Users/prokopov/Dropbox/Public/Fonts/FiraCode/FiraCode-Regular.ttf'
-p1139
-sS'com.typemytype.robofont.compileSettings.checkOutlines'
-p1140
-I0
-sS'com.typemytype.robofont.compileSettings.releaseMode'
-p1141
 I1
-sS'com.typemytype.robofont.segmentType'
-p1142
-S'curve'
-p1143
+sS'com.typemytype.robofont.compileSettings.checkOutlines'
+p1139
+I0
+sS'com.typemytype.robofont.compileSettings.path'
+p1140
+S'/Users/prokopov/Dropbox/Public/Fonts/FiraCode/FiraCode-Regular.ttf'
+p1141
 sS'com.typemytype.robofont.layerOrder'
+p1142
+(lp1143
+sS'com.typemytype.robofont.segmentType'
 p1144
-(lp1145
+S'curve'
+p1145
 sS'com.typemytype.robofont.compileSettings.generateFormat'
 p1146
 I1
