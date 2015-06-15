@@ -4,6 +4,7 @@ FullName: Code New Roman Italic
 FamilyName: Code New Roman
 Weight: Book
 Copyright: (c) 2014 Sam Radian. All Rights Reserved.
+FontLog: "This file provides detailed information on the Code New Roman font software.+AAoA-This information should be distributed along with the Code New Roman font and any derivative works.+AAoACgAA-Code New Roman Font Information+AAoACgAA-Code New Roman is aimed for use in programming environments and other circumstances where a mono spaced font is specified. All characters have the same width, like old typewriters, making it a good choice for personal and business correspondence. This font improved and based on Mac OS Western New Roman,MONACO, Windows Consolas/Lusida Consolas, ABeeZee and Bit stream Vera Sans Mono.This font display allowed a design with proportions closer to normal text than traditional mono spaced fonts like Courier. This allows for more comfortably reading of extended text on screen. OpenType features include hanging or lining numerals; slashed, dotted and normal zeros; and alternative shapes for a number of lower case letters. The look of text can be tuned to personal taste by varying the number of bars and waves.+AAoACgAA-ChangeLog+AAoACgAA-12 Jun 2015 (Christoph Haag)+AAoA-- created fontforge sources as base to work on GNU/Linux+AAoA-- added FONTLOG to .sfdir+AAoA-- Mastered Font from Fontforge SFDIR to UFO,OTF,TTF,EOT,WOFF,SVG+AAoACgAA-1 Aug 2014 (Sam Radian)+AAoA-- Initial Release+AAoACgAA-Acknowledgements+AAoACgAA-If you make modifications be sure to add your name (N), email (E), web-address (if you have one) (W) and description (D). This list is in alphabetical order.+AAoACgAA-N: Christoph Haag+AAoA-E: christoph@lafkon.net+AAoA-W: www.lafkon.net+AAoA-D: Transformer+AAoACgAA-N: Sam Radian+AAoA-D: Test publisher"
 Version: 1.508 October 19, 2014
 ItalicAngle: -11
 UnderlinePosition: -338
@@ -22,7 +23,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1412276427
-ModificationTime: 1413753571
+ModificationTime: 1434366041
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -110,6 +111,7 @@ Lookup: 260 0 0 "'mark' Mark Positioning lookup 7" { "'mark' Mark Positioning lo
 Lookup: 257 0 0 "'mkmk' Mark to Mark lookup 8" { "'mkmk' Mark to Mark lookup 8 subtable"  } ['mark' ('cyrl' <'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'IPPH' 'ROM ' 'TRK ' 'dflt' > ) 'mkmk' ('cyrl' <'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'IPPH' 'ROM ' 'TRK ' 'dflt' > ) ]
 Lookup: 262 0 0 "'mkmk' Mark to Mark lookup 9" { "'mkmk' Mark to Mark lookup 9 subtable"  } ['mkmk' ('cyrl' <'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'IPPH' 'ROM ' 'TRK ' 'dflt' > ) ]
 Lookup: 262 0 0 "'mkmk' Mark to Mark lookup 10" { "'mkmk' Mark to Mark lookup 10 subtable"  } ['mkmk' ('cyrl' <'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'IPPH' 'ROM ' 'TRK ' 'dflt' > ) ]
+MarkAttachClasses: 1
 DEI: 91125
 ChainSub2: coverage "'ccmp' Glyph Composition/Decomposition lookup 16 subtable" 0 0 0 1
  1 0 1
@@ -5429,5 +5431,7 @@ DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
 WinInfo: 51 17 8
+BeginPrivate: 0
+EndPrivate
 AnchorClass2: "Anchor-0" "'mark' Mark Positioning lookup 0 subtable" "Anchor-1" "'mark' Mark Positioning lookup 0 subtable" "Anchor-2" "'mark' Mark Positioning lookup 0 subtable" "Anchor-3" "'mark' Mark Positioning lookup 1 subtable" "Anchor-4" "'mark' Mark Positioning lookup 2 subtable" "Anchor-5" "'mark' Mark Positioning lookup 3 subtable" "Anchor-6" "'mark' Mark Positioning lookup 3 subtable" "Anchor-7" "'mark' Mark Positioning lookup 4 subtable" "Anchor-8" "'mark' Mark Positioning lookup 5 subtable" "Anchor-9" "'mark' Mark Positioning lookup 6 subtable" "Anchor-10" "'mark' Mark Positioning lookup 7 subtable" "Anchor-11" "'mark' Mark Positioning lookup 7 subtable" "Anchor-12" "'mkmk' Mark to Mark lookup 9 subtable" "Anchor-13" "'mkmk' Mark to Mark lookup 10 subtable" 
 EndSplineFont
