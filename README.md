@@ -170,6 +170,7 @@ and use an apache web server add this to you `.htaccess`:
 FONT STYLES
 ===========
 
+monoid_regular
 roboto-mono_thin
 code-new-roman_italic
 inconsolata_regular
