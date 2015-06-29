@@ -178,7 +178,7 @@ input.fontdemo {
   font-size: 120px;
   white-space: nowrap;
   text-align: left;
-  padding: 0px 0px 0px 0px;
+  padding: 0.15em 0px 0.1em 0px;
   z-index: -1;
   cursor: text;
   -moz-font-feature-settings:"liga=1, dlig=1"; 
@@ -192,7 +192,7 @@ input.fontdemo:focus {}
 input.fontdemo:hover {}
 
 .excluded {
-    display: none;
+   display: none;
 }
 .excluded span.divlink{
     border-left:3px solid #0ECCAA;
@@ -244,6 +244,24 @@ input.fontdemo:hover {}
     border-right:1px solid;
 }
 
+.auf {
+
+}
+
+.zu {
+
+  margin-top: -24px;
+  height: 24px;
+
+}
+
+input.fontdemo {
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
 
 /*ACCORDION SPECIAL
 ================================================== */
@@ -285,48 +303,6 @@ a.fontdemo-showmore {
 #resetDemoText:hover {
   border-color: #111;
 }
-
-
-/*#resetDemoText {
-  position: relative;
-  float: right;
-  top: 0px;
-  right: -4px;
-  z-index: 4;
-  display: none;
-  padding: 4px 8px 5px 8px;
-  margin: 0px -8px 0px -24px;
-  -moz-border-radius: 12px;
-  -webkit-border-radius: 12px;
-  border-radius: 12px;
-}
-
-#resetDemoTextLabel {
-  position: relative;
-  float: right;
-  top: 5px;
-  right: 80px;
-  z-index: 3;
-  display: none;
-//  padding: 2px 5px 2px 15px;
-//  margin: 0px -138px 0px 0px;
-  font-weight: normal;
-  font-size: 9px; 
-  line-height: 9px;
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  -webkit-transform: rotate(90deg);
-  transform: rotate(90deg);   
-  right: 109px;   
-  padding: 2px 5px 2px 15px;
-  margin: 32px -138px 0px 0px;   
-}*/
-
-/*button:hover + #resetDemoTextLabel {
-    background: #0ECCAA;
-    color: #eee;
-}*/
 
 .sortable-placeholder {
     background: #0ECCAA;
@@ -395,7 +371,6 @@ hr.hrsection {
   padding: 0px 0px 0px 0px;
   
 }
-
 
 /*ABOUT+CONTACT
 ================================================== */
