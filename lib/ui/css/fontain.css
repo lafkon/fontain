@@ -217,17 +217,22 @@ input.fontdemo:hover {}
     padding: 0px 0px 0px 0px;
     height: 24px;
     color: inherit;
+    border-right: 1px solid #111;
+}
+
+.accordion-section-header:hover {
+    border-right: 1px solid #0ECCAA;
 }
 
 .accordion-section-title {
     display:inline-block;
     font-size:10px;
-    margin: 0px 1px 0px -1px;
+ /* margin: 0px 1px 0px -1px; */
     padding: 2px 0px 2px 0px;
     width: 100%;
     height: 24px;
     text-decoration: none;
-/*     transition:all linear 0.15s; */
+/*  transition:all linear 0.15s; */
 }
 
 .accordion-section-title.active {
@@ -236,7 +241,7 @@ input.fontdemo:hover {}
 
 .accordion-section-title:hover {
     background: rgba(10,10,10,0.2);
-    margin: 0px 1px 0px -1px;
+ /* margin: 0px 1px 0px -1px; */
 }
 
 .accordion-section-content {
