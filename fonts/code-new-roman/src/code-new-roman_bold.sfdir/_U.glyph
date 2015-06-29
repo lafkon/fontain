@@ -1,0 +1,110 @@
+StartChar: U
+Encoding: 85 85 24
+Width: 1126
+GlyphClass: 2
+Flags: W
+TtInstrs:
+PUSHB_2
+ 1
+ 2
+RS
+NEQ
+IF
+PUSHW_5
+ 0
+ 501
+ 23
+ 13
+ 501
+NPUSHB
+ 10
+ 10
+ 25
+ 65
+ 11
+ 65
+ 18
+ 224
+ 64
+ 5
+ 68
+SVTCA[y-axis]
+RTG
+MIAP[rnd]
+SMD
+FLIPON
+MIRP[min,rnd,black]
+MIAP[rnd]
+MIAP[rnd]
+SVTCA[x-axis]
+MDAP[rnd]
+MIRP[min,rnd,black]
+MDRP[rp0,rnd,grey]
+MIRP[min,rnd,black]
+IUP[x]
+IUP[y]
+ELSE
+NPUSHB
+ 9
+ 25
+ 65
+ 11
+ 65
+ 18
+ 224
+ 64
+ 5
+ 68
+SVTCA[y-axis]
+RTG
+MIAP[rnd]
+SMD
+FLIPON
+MIRP[min,rnd,black]
+MIAP[rnd]
+MIAP[rnd]
+IUP[x]
+IUP[y]
+EIF
+EndTTInstrs
+AnchorPoint: "Anchor-11" 0 1700 basechar 0
+AnchorPoint: "Anchor-10" 1126 1700 basechar 0
+AnchorPoint: "Anchor-9" 670 0 basechar 0
+AnchorPoint: "Anchor-8" 563 0 basechar 0
+AnchorPoint: "Anchor-7" 930 1300 basechar 0
+AnchorPoint: "Anchor-6" 1126 -350 basechar 0
+AnchorPoint: "Anchor-5" 1126 1700 basechar 0
+AnchorPoint: "Anchor-4" 930 1300 basechar 0
+AnchorPoint: "Anchor-2" 563 -180 basechar 0
+AnchorPoint: "Anchor-1" 1068 1390 basechar 0
+AnchorPoint: "Anchor-0" 563 1430 basechar 0
+LayerCount: 2
+Back
+Fore
+SplineSet
+1039 481 m 2,0,1
+ 1039 356 1039 356 1005.5 261.5 c 128,-1,2
+ 972 167 972 167 909.5 104 c 128,-1,3
+ 847 41 847 41 757 9 c 128,-1,4
+ 667 -23 667 -23 555 -23 c 0,5,6
+ 429 -23 429 -23 339 9 c 128,-1,7
+ 249 41 249 41 193 101 c 128,-1,8
+ 137 161 137 161 112 247 c 128,-1,9
+ 87 333 87 333 87 440 c 2,10,-1
+ 87 1307 l 1,11,-1
+ 333 1307 l 1,12,-1
+ 333 455 l 2,13,14
+ 333 389 333 389 344.5 338 c 128,-1,15
+ 356 287 356 287 384.5 251.5 c 128,-1,16
+ 413 216 413 216 456 198 c 128,-1,17
+ 499 180 499 180 564 180 c 0,18,19
+ 625 180 625 180 667 195.5 c 128,-1,20
+ 709 211 709 211 737 245.5 c 128,-1,21
+ 765 280 765 280 779 334 c 128,-1,22
+ 793 388 793 388 793 465 c 2,23,-1
+ 793 1307 l 1,24,-1
+ 1039 1307 l 1,25,-1
+ 1039 481 l 2,0,1
+EndSplineSet
+Substitution2: "'sups' Superscript lookup 34 subtable" U.superior
+EndChar

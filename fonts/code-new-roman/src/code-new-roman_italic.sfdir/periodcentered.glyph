@@ -1,0 +1,55 @@
+StartChar: periodcentered
+Encoding: 183 183 381
+AltUni2: 002219.ffffffff.0
+Width: 1126
+Flags: W
+TtInstrs:
+PUSHW_5
+ 5
+ 406
+ 15
+ 0
+ 293
+PUSHB_8
+ 127
+ 10
+ 143
+ 10
+ 159
+ 10
+ 3
+ 10
+SVTCA[y-axis]
+MDAP[rnd]
+DELTAP1
+MIRP[min,rnd,black]
+SVTCA[x-axis]
+MDAP[rnd]
+MIRP[min,rnd,black]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+575 713 m 0,0,1
+ 611 713 611 713 640.5 700 c 128,-1,2
+ 670 687 670 687 691 664.5 c 128,-1,3
+ 712 642 712 642 723.5 612.5 c 128,-1,4
+ 735 583 735 583 735 551 c 0,5,6
+ 735 515 735 515 721 483.5 c 128,-1,7
+ 707 452 707 452 683.5 429 c 128,-1,8
+ 660 406 660 406 628.5 392.5 c 128,-1,9
+ 597 379 597 379 563 379 c 0,10,11
+ 528 379 528 379 499 392 c 128,-1,12
+ 470 405 470 405 448.5 427.5 c 128,-1,13
+ 427 450 427 450 415 478.5 c 128,-1,14
+ 403 507 403 507 403 539 c 0,15,16
+ 403 576 403 576 417 607.5 c 128,-1,17
+ 431 639 431 639 455 662.5 c 128,-1,18
+ 479 686 479 686 510 699.5 c 128,-1,19
+ 541 713 541 713 575 713 c 0,0,1
+EndSplineSet
+Substitution2: "'case' Case-Sensitive Forms lookup 0 subtable" periodcentered.case
+EndChar

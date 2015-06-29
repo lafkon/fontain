@@ -1,0 +1,62 @@
+StartChar: dagger
+Encoding: 8224 8224 396
+Width: 1126
+Flags: W
+TtInstrs:
+PUSHB_3
+ 11
+ 9
+ 0
+PUSHW_1
+ 521
+NPUSHB
+ 12
+ 6
+ 4
+ 3
+ 0
+ 4
+ 246
+ 6
+ 10
+ 10
+ 2
+ 8
+ 83
+SVTCA[y-axis]
+MIAP[rnd]
+MDRP[min,rnd,black]
+IP
+MDAP[rnd]
+SHP[rp1]
+MIRP[min,rnd,black]
+SHP[rp2]
+SVTCA[x-axis]
+MDAP[rnd]
+MDRP[min,rnd,black]
+MDRP[rnd,grey]
+MIRP[rp0,min,rnd,black]
+MDRP[rnd,grey]
+MDRP[min,rnd,black]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+682 961 m 1,0,-1
+ 682 254 l 1,1,-1
+ 440 254 l 1,2,-1
+ 440 961 l 1,3,-1
+ 160 961 l 1,4,-1
+ 160 1147 l 1,5,-1
+ 440 1147 l 1,6,-1
+ 440 1413 l 1,7,-1
+ 682 1413 l 1,8,-1
+ 682 1147 l 1,9,-1
+ 966 1147 l 1,10,-1
+ 966 961 l 1,11,-1
+ 682 961 l 1,0,-1
+EndSplineSet
+EndChar

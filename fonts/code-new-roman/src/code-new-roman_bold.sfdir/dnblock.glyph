@@ -1,0 +1,36 @@
+StartChar: dnblock
+Encoding: 9604 9604 877
+Width: 1126
+Flags: W
+TtInstrs:
+PUSHB_6
+ 0
+ 5
+ 3
+ 4
+ 3
+ 2
+PUSHW_1
+ 613
+SVTCA[y-axis]
+MIAP[rnd]
+MDRP[min,rnd,black]
+SVTCA[x-axis]
+SRP0
+MDRP[rnd,grey]
+SRP0
+MDRP[rnd,grey]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+1126 685 m 1,0,-1
+ 1126 -514 l 1,1,-1
+ 0 -514 l 1,2,-1
+ 0 685 l 1,3,-1
+ 1126 685 l 1,0,-1
+EndSplineSet
+EndChar

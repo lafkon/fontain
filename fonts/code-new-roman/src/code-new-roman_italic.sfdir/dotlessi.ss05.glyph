@@ -1,0 +1,75 @@
+StartChar: dotlessi.ss05
+Encoding: 65549 -1 276
+Width: 1126
+Flags: W
+TtInstrs:
+NPUSHB
+ 23
+ 12
+ 9
+ 14
+ 7
+ 9
+ 9
+ 18
+ 10
+ 7
+ 7
+ 14
+ 3
+ 9
+ 221
+ 12
+ 79
+ 0
+ 219
+ 18
+ 16
+ 220
+ 3
+ 82
+SVTCA[y-axis]
+MIAP[rnd]
+MIRP[rp0,min,rnd,black]
+MDRP[rp0,rnd,white]
+MIRP[min,rnd,black]
+MIAP[rnd]
+MIRP[min,rnd,black]
+SRP2
+IP
+IP
+SVTCA[x-axis]
+MDAP[rnd]
+MDRP[rnd,white]
+MDRP[rnd,grey]
+SHP[rp1]
+MDAP[rnd]
+SRP1
+SHP[rp1]
+SRP1
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+901 10 m 1,0,1
+ 861 -2 861 -2 813 -8 c 128,-1,2
+ 765 -14 765 -14 713 -14 c 0,3,4
+ 641 -14 641 -14 582 3.5 c 128,-1,5
+ 523 21 523 21 485 62.5 c 128,-1,6
+ 447 104 447 104 433.5 172.5 c 128,-1,7
+ 420 241 420 241 440 342 c 2,8,-1
+ 545 858 l 1,9,-1
+ 207 858 l 1,10,-1
+ 236 1004 l 1,11,-1
+ 750 1004 l 1,12,-1
+ 614 326 l 2,13,14
+ 594 227 594 227 626 179 c 128,-1,15
+ 658 131 658 131 748 131 c 0,16,17
+ 829 131 829 131 901 154 c 1,18,-1
+ 901 10 l 1,0,1
+EndSplineSet
+EndChar

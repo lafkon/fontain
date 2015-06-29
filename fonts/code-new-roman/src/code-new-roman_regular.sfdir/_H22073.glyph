@@ -1,0 +1,49 @@
+StartChar: H22073
+Encoding: 9633 9633 2628
+Width: 1126
+Flags: W
+TtInstrs:
+PUSHW_5
+ 6
+ 310
+ 2
+ 5
+ 310
+PUSHB_8
+ 3
+ 4
+ 140
+ 0
+ 5
+ 140
+ 3
+ 67
+SVTCA[y-axis]
+MIAP[rnd]
+MIRP[rp0,min,rnd,black]
+MDRP[rp0,min,rnd,black]
+MIRP[min,rnd,black]
+SVTCA[x-axis]
+MDAP[rnd]
+MIRP[rp0,min,rnd,black]
+MDRP[rp0,min,rnd,black]
+MIRP[min,rnd,black]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+91 944 m 1,0,-1
+ 1035 944 l 1,1,-1
+ 1035 0 l 1,2,-1
+ 91 0 l 1,3,-1
+ 91 944 l 1,0,-1
+166 868 m 1,4,-1
+ 166 76 l 1,5,-1
+ 959 76 l 1,6,-1
+ 959 868 l 1,7,-1
+ 166 868 l 1,4,-1
+EndSplineSet
+EndChar

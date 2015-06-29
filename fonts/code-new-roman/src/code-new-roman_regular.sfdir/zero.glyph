@@ -1,0 +1,128 @@
+StartChar: zero
+Encoding: 48 48 613
+Width: 1126
+Flags: W
+TtInstrs:
+PUSHB_2
+ 24
+ 34
+PUSHW_1
+ 397
+PUSHB_3
+ 10
+ 38
+ 0
+PUSHW_1
+ 397
+PUSHB_4
+ 20
+ 10
+ 48
+ 23
+PUSHW_4
+ 283
+ 38
+ 37
+ 284
+NPUSHB
+ 17
+ 24
+ 34
+ 20
+ 24
+ 38
+ 24
+ 38
+ 24
+ 5
+ 43
+ 238
+ 15
+ 99
+ 29
+ 238
+ 5
+ 101
+SVTCA[y-axis]
+MIAP[rnd]
+MIRP[min,rnd,black]
+MIAP[rnd]
+MIRP[min,rnd,black]
+SRP2
+IP
+IP
+MDAP[rnd]
+MDAP[rnd]
+SRP2
+IP
+IP
+SRP0
+MIRP[min,rnd,black]
+SRP0
+MIRP[min,rnd,black]
+SVTCA[x-axis]
+SRP0
+MDRP[rp0,rnd,white]
+MDRP[rp0,rnd,grey]
+MIRP[black]
+SHP[rp1]
+SRP0
+MIRP[black]
+SHP[rp2]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+1038 653 m 0,0,1
+ 1038 503 1038 503 1008 379.5 c 128,-1,2
+ 978 256 978 256 917 167.5 c 128,-1,3
+ 856 79 856 79 765.5 30.5 c 128,-1,4
+ 675 -18 675 -18 553 -18 c 0,5,6
+ 448 -18 448 -18 362 21.5 c 128,-1,7
+ 276 61 276 61 215 143 c 128,-1,8
+ 154 225 154 225 121 352 c 128,-1,9
+ 88 479 88 479 88 653 c 0,10,11
+ 88 803 88 803 118.5 927 c 128,-1,12
+ 149 1051 149 1051 209.5 1139.5 c 128,-1,13
+ 270 1228 270 1228 361 1276.5 c 128,-1,14
+ 452 1325 452 1325 573 1325 c 0,15,16
+ 678 1325 678 1325 764 1285.5 c 128,-1,17
+ 850 1246 850 1246 911 1163.5 c 128,-1,18
+ 972 1081 972 1081 1005 954 c 128,-1,19
+ 1038 827 1038 827 1038 653 c 0,0,1
+862 647 m 0,20,21
+ 862 681 862 681 859.5 714.5 c 128,-1,22
+ 857 748 857 748 854 780 c 1,23,-1
+ 301 369 l 1,24,25
+ 316 317 316 317 339 273 c 128,-1,26
+ 362 229 362 229 394.5 197.5 c 128,-1,27
+ 427 166 427 166 468.5 148.5 c 128,-1,28
+ 510 131 510 131 563 131 c 0,29,30
+ 631 131 631 131 686.5 164 c 128,-1,31
+ 742 197 742 197 781 262 c 128,-1,32
+ 820 327 820 327 841 423.5 c 128,-1,33
+ 862 520 862 520 862 647 c 0,20,21
+264 659 m 0,34,35
+ 264 628 264 628 264.5 597 c 128,-1,36
+ 265 566 265 566 268 537 c 1,37,-1
+ 821 946 l 1,38,39
+ 806 997 806 997 783 1039 c 128,-1,40
+ 760 1081 760 1081 728 1111.5 c 128,-1,41
+ 696 1142 696 1142 655 1159 c 128,-1,42
+ 614 1176 614 1176 563 1176 c 0,43,44
+ 495 1176 495 1176 439.5 1143 c 128,-1,45
+ 384 1110 384 1110 345 1044.5 c 128,-1,46
+ 306 979 306 979 285 882.5 c 128,-1,47
+ 264 786 264 786 264 659 c 0,34,35
+EndSplineSet
+Substitution2: "'ss08' Style Set 8 lookup 33 subtable" zero.ss08
+Substitution2: "'ss07' Style Set 7 lookup 32 subtable" zero.ss07
+AlternateSubs2: "'salt' Stylistic Alternatives lookup 23 subtable" zero.ss07 zero.ss08
+Substitution2: "'subs' Subscript lookup 22 subtable" uni2080
+Substitution2: "'onum' Oldstyle Figures lookup 21 subtable" zero.oldstyle
+Substitution2: "'numr' Numerators lookup 20 subtable" uni2070
+Substitution2: "'dnom' Denominators lookup 6 subtable" zero.dnom
+EndChar

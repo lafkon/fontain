@@ -1,0 +1,204 @@
+StartChar: W
+Encoding: 87 87 26
+Width: 1126
+GlyphClass: 2
+Flags: W
+TtInstrs:
+PUSHB_2
+ 1
+ 2
+RS
+NEQ
+IF
+NPUSHB
+ 27
+ 5
+ 10
+ 10
+ 6
+ 1
+ 15
+ 15
+ 0
+ 6
+ 0
+ 6
+ 0
+ 7
+ 17
+ 18
+ 8
+ 7
+ 13
+ 12
+ 3
+ 3
+ 19
+ 20
+ 13
+ 3
+ 64
+ 11
+PUSHW_3
+ -24
+ 14
+ -48
+NPUSHB
+ 19
+ 10
+ 15
+ 14
+ 11
+ 3
+ 5
+ 12
+ 12
+ 6
+ 18
+ 17
+ 8
+ 7
+ 65
+ 5
+ 1
+ 0
+ 6
+ 67
+SVTCA[y-axis]
+RTG
+MIAP[rnd]
+SHP[rp1]
+SHP[rp1]
+SHP[rp1]
+MIAP[rnd]
+SHP[rp1]
+SHP[rp1]
+SHP[rp1]
+SRP2
+IP
+MDAP[rnd]
+SLOOP
+IP
+SHPIX
+SHPIX
+SHPIX
+SHP[rp1]
+SRP1
+SRP2
+SVTCA[x-axis]
+IP
+RTHG
+MDAP[rnd]
+SHP[rp1]
+SHP[rp1]
+RTG
+MDRP[rnd,grey]
+SHP[rp2]
+MDRP[rnd,grey]
+SHP[rp2]
+SRP1
+IP
+IP
+MDAP[rnd]
+MDAP[rnd]
+SRP1
+SHP[rp1]
+SRP1
+SHP[rp1]
+SRP1
+SHP[rp1]
+SRP1
+SHP[rp1]
+IUP[x]
+IUP[y]
+ELSE
+PUSHB_4
+ 13
+ 3
+ 64
+ 11
+PUSHW_3
+ -24
+ 14
+ -48
+NPUSHB
+ 19
+ 10
+ 15
+ 14
+ 11
+ 3
+ 5
+ 12
+ 12
+ 6
+ 18
+ 17
+ 8
+ 7
+ 65
+ 5
+ 1
+ 0
+ 6
+ 67
+SVTCA[y-axis]
+RTG
+MIAP[rnd]
+SHP[rp1]
+SHP[rp1]
+SHP[rp1]
+MIAP[rnd]
+SHP[rp1]
+SHP[rp1]
+SHP[rp1]
+SRP2
+IP
+MDAP[rnd]
+SLOOP
+IP
+SHPIX
+SHPIX
+SHPIX
+SHP[rp1]
+IUP[x]
+IUP[y]
+EIF
+EndTTInstrs
+AnchorPoint: "Anchor-11" 0 1700 basechar 0
+AnchorPoint: "Anchor-10" 1126 1700 basechar 0
+AnchorPoint: "Anchor-9" 940 0 basechar 0
+AnchorPoint: "Anchor-7" 990 1300 basechar 0
+AnchorPoint: "Anchor-6" 1126 -350 basechar 0
+AnchorPoint: "Anchor-5" 1126 1700 basechar 0
+AnchorPoint: "Anchor-4" 970 1300 basechar 0
+AnchorPoint: "Anchor-2" 563 -180 basechar 0
+AnchorPoint: "Anchor-1" 1131 1390 basechar 0
+AnchorPoint: "Anchor-0" 563 1430 basechar 0
+LayerCount: 2
+Back
+Fore
+SplineSet
+1020 0 m 1,0,-1
+ 731 0 l 1,1,-1
+ 602 403 l 1,2,-1
+ 555 567 l 1,3,-1
+ 510 399 l 1,4,-1
+ 383 0 l 1,5,-1
+ 106 0 l 1,6,-1
+ 33 1307 l 1,7,-1
+ 250 1307 l 1,8,-1
+ 281 469 l 1,9,-1
+ 289 240 l 1,10,-1
+ 348 444 l 1,11,-1
+ 492 909 l 1,12,-1
+ 647 909 l 1,13,-1
+ 799 416 l 1,14,-1
+ 848 242 l 1,15,-1
+ 852 446 l 1,16,-1
+ 885 1307 l 1,17,-1
+ 1094 1307 l 1,18,-1
+ 1020 0 l 1,0,-1
+EndSplineSet
+Substitution2: "'sups' Superscript lookup 34 subtable" W.superior
+EndChar

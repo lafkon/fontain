@@ -1,0 +1,34 @@
+StartChar: filledrect
+Encoding: 9644 9644 872
+Width: 1126
+Flags: W
+TtInstrs:
+PUSHB_6
+ 2
+ 5
+ 1
+ 4
+ 2
+ 0
+SVTCA[y-axis]
+MDAP[rnd]
+MDRP[min,rnd,black]
+SVTCA[x-axis]
+SRP0
+MDRP[rnd,white]
+SRP0
+MDRP[rnd,white]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+50 564 m 1,0,-1
+ 50 1006 l 1,1,-1
+ 1076 1006 l 1,2,-1
+ 1076 564 l 1,3,-1
+ 50 564 l 1,0,-1
+EndSplineSet
+EndChar

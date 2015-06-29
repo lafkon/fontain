@@ -1,0 +1,65 @@
+StartChar: uni02F1
+Encoding: 753 753 2016
+Width: 1126
+Flags: W
+TtInstrs:
+PUSHB_4
+ 5
+ 0
+ 128
+ 6
+PUSHW_1
+ 350
+NPUSHB
+ 15
+ 64
+ 2
+ 3
+ 2
+ 6
+ 6
+ 0
+ 1
+ 128
+ 5
+ 15
+ 4
+ 1
+ 4
+ 7
+SVTCA[y-axis]
+SRP0
+MDRP[rp0,min,rnd,white]
+DELTAP1
+SHP[rp2]
+SMD
+MDRP[min,rnd,white]
+SHP[rp2]
+IP
+SRP1
+SHP[rp1]
+SHP[rp1]
+SVTCA[x-axis]
+MDAP[rnd]
+SMD
+MIRP[min,rnd,black]
+SMD
+MDRP[min,rnd,black]
+SHP[rp2]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+703 -342 m 1,0,-1
+ 703 -448 l 1,1,-1
+ 423 -268 l 1,2,-1
+ 423 -216 l 1,3,-1
+ 703 -35 l 1,4,-1
+ 703 -142 l 1,5,-1
+ 533 -242 l 1,6,-1
+ 703 -342 l 1,0,-1
+EndSplineSet
+EndChar

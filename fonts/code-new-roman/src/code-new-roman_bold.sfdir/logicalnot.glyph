@@ -1,0 +1,41 @@
+StartChar: logicalnot
+Encoding: 172 172 695
+Width: 1126
+Flags: W
+TtInstrs:
+PUSHW_2
+ 1
+ 425
+PUSHB_3
+ 4
+ 2
+ 3
+PUSHW_1
+ 257
+PUSHB_2
+ 0
+ 2
+SVTCA[y-axis]
+MDAP[rnd]
+MDRP[rnd,white]
+MIRP[min,rnd,black]
+SVTCA[x-axis]
+MDAP[rnd]
+MDRP[rp0,min,rnd,black]
+MIRP[min,rnd,black]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+776 168 m 1,0,-1
+ 776 446 l 1,1,-1
+ 102 446 l 1,2,-1
+ 102 643 l 1,3,-1
+ 989 643 l 1,4,-1
+ 989 168 l 1,5,-1
+ 776 168 l 1,0,-1
+EndSplineSet
+EndChar

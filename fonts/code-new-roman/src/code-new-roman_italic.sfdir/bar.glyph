@@ -1,0 +1,42 @@
+StartChar: bar
+Encoding: 124 124 374
+Width: 1126
+Flags: W
+TtInstrs:
+NPUSHB
+ 11
+ 3
+ 0
+ 2
+ 1
+ 3
+ 93
+ 2
+ 93
+ 0
+ 1
+ 85
+SVTCA[y-axis]
+MIAP[rnd]
+SHP[rp1]
+MIAP[rnd]
+MIAP[rnd]
+SVTCA[x-axis]
+MDAP[rnd]
+MDRP[min,rnd,black]
+SHP[rp1]
+SHP[rp2]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+461 -410 m 1,0,-1
+ 297 -410 l 1,1,-1
+ 707 1638 l 1,2,-1
+ 870 1638 l 1,3,-1
+ 461 -410 l 1,0,-1
+EndSplineSet
+EndChar

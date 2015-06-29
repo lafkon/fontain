@@ -1,0 +1,82 @@
+StartChar: caron
+Encoding: 711 711 322
+Width: 1126
+Flags: W
+TtInstrs:
+PUSHB_3
+ 6
+ 3
+ 4
+PUSHW_1
+ 425
+PUSHB_7
+ 64
+ 5
+ 3
+ 32
+ 0
+ 3
+ 2
+PUSHW_1
+ 428
+NPUSHB
+ 16
+ 64
+ 1
+ 32
+ 3
+ 3
+ 4
+ 2
+ 64
+ 14
+ 19
+ 72
+ 2
+ 128
+ 0
+ 7
+ 79
+SVTCA[y-axis]
+MIAP[rnd]
+MDRP[rp0,min,rnd,white]
+SMD
+MDRP[min,rnd,black]
+CALL
+SHP[rp2]
+IP
+SVTCA[x-axis]
+RTHG
+MDAP[rnd]
+SMD
+RTG
+MDRP[rp0,min,rnd,black]
+SMD
+MIRP[min,rnd,black]
+SRP2
+IP
+SMD
+SRP0
+MDRP[rp0,min,rnd,black]
+SMD
+MIRP[min,rnd,black]
+SRP2
+IP
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+471 1151 m 1,0,-1
+ 225 1413 l 1,1,-1
+ 442 1413 l 1,2,-1
+ 565 1290 l 1,3,-1
+ 688 1413 l 1,4,-1
+ 901 1413 l 1,5,-1
+ 655 1151 l 1,6,-1
+ 471 1151 l 1,0,-1
+0 1016 m 1024,7,-1
+EndSplineSet
+EndChar

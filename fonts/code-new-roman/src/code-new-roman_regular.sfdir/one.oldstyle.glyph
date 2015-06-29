@@ -1,0 +1,80 @@
+StartChar: one.oldstyle
+Encoding: 65632 -1 628
+Width: 1126
+Flags: W
+TtInstrs:
+PUSHB_4
+ 6
+ 1
+ 10
+ 9
+PUSHW_1
+ 446
+NPUSHB
+ 11
+ 7
+ 3
+ 3
+ 11
+ 12
+ 6
+ 237
+ 5
+ 5
+ 1
+ 4
+PUSHW_1
+ 284
+PUSHB_4
+ 8
+ 102
+ 9
+ 3
+PUSHW_1
+ 282
+PUSHB_2
+ 1
+ 100
+SVTCA[y-axis]
+MIAP[rnd]
+MIRP[min,rnd,black]
+SHP[rp2]
+MIAP[rnd]
+MIRP[min,rnd,black]
+SRP2
+IP
+MDAP[rnd]
+MIRP[min,rnd,black]
+SRP1
+SRP2
+SVTCA[x-axis]
+IP
+MDAP[rnd]
+SHP[rp1]
+MIRP[black]
+MDRP[rnd,grey]
+MDRP[rp0,min,rnd,black]
+MDRP[rnd,white]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+997 0 m 1,0,-1
+ 176 0 l 1,1,-1
+ 176 162 l 1,2,-1
+ 512 162 l 1,3,-1
+ 512 956 l 1,4,-1
+ 199 786 l 1,5,-1
+ 135 934 l 1,6,-1
+ 551 1153 l 1,7,-1
+ 705 1153 l 1,8,-1
+ 705 162 l 1,9,-1
+ 997 162 l 1,10,-1
+ 997 0 l 1,0,-1
+EndSplineSet
+Substitution2: "'sups' Superscript lookup 34 subtable" uni00B9
+Substitution2: "'subs' Subscript lookup 22 subtable" uni2081
+EndChar

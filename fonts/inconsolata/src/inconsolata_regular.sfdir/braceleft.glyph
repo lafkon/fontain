@@ -1,0 +1,204 @@
+StartChar: braceleft
+Encoding: 123 123 93
+Width: 500
+Flags: W
+TtInstrs:
+PUSHB_1
+ 0
+MDAP[rnd]
+PUSHB_1
+ 5
+MDRP[rp0,min,rnd,grey]
+PUSHB_1
+ 0
+SRP0
+PUSHB_1
+ 11
+MDRP[rp0,grey]
+PUSHB_1
+ 0
+SRP0
+PUSHB_1
+ 28
+MDRP[rp0,min,rnd,grey]
+PUSHB_1
+ 15
+MDRP[rp0,grey]
+PUSHB_1
+ 11
+SRP0
+PUSHB_2
+ 18
+ 5
+MIRP[rp0,rnd,grey]
+PUSHB_3
+ 21
+ 18
+ 5
+SRP1
+SRP2
+IP
+PUSHB_1
+ 0
+SRP0
+PUSHB_2
+ 24
+ 5
+MIRP[rp0,rnd,grey]
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 14
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 14
+ 14
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 29
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 29
+ 10
+MIAP[no-rnd]
+EIF
+PUSHB_3
+ 6
+ 14
+ 29
+SRP1
+SRP2
+IP
+PUSHB_1
+ 6
+MDAP[rnd]
+PUSHB_2
+ 5
+ 1
+MIRP[rp0,rnd,grey]
+PUSHB_1
+ 14
+SRP0
+PUSHB_2
+ 15
+ 1
+MIRP[rp0,rnd,grey]
+PUSHB_3
+ 21
+ 6
+ 5
+SRP1
+SRP2
+IP
+PUSHB_1
+ 29
+SRP0
+PUSHB_2
+ 28
+ 1
+MIRP[rp0,rnd,grey]
+IUP[y]
+IUP[x]
+SVTCA[x-axis]
+PUSHB_5
+ 186
+ 12
+ 202
+ 12
+ 2
+DELTAP1
+PUSHB_7
+ 184
+ 33
+ 200
+ 33
+ 216
+ 33
+ 3
+DELTAP1
+PUSHB_3
+ 233
+ 33
+ 1
+DELTAP1
+PUSHB_3
+ 185
+ 34
+ 1
+DELTAP1
+SVTCA[y-axis]
+PUSHB_5
+ 182
+ 12
+ 198
+ 12
+ 2
+DELTAP1
+PUSHB_3
+ 56
+ 33
+ 1
+DELTAP1
+PUSHB_3
+ 232
+ 33
+ 1
+DELTAP1
+PUSHB_7
+ 185
+ 33
+ 201
+ 33
+ 217
+ 33
+ 3
+DELTAP1
+PUSHB_3
+ 184
+ 34
+ 1
+DELTAP1
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+159 16 m 1,0,-1
+ 163 116 l 2,1,2
+ 163 182 163 182 139.5 205 c 128,-1,3
+ 116 228 116 228 73 228 c 2,4,-1
+ 53 228 l 1,5,-1
+ 53 284 l 1,6,-1
+ 72 284 l 2,7,8
+ 118 284 118 284 141.5 309 c 128,-1,9
+ 165 334 165 334 165 391 c 2,10,-1
+ 163 463 l 1,11,12
+ 163 637 163 637 345 637 c 2,13,-1
+ 408 637 l 1,14,-1
+ 408 580 l 1,15,-1
+ 326 580 l 2,16,17
+ 233 580 233 580 233 474 c 2,18,-1
+ 235 404 l 2,19,20
+ 235 293 235 293 148 256 c 1,21,22
+ 233 228 233 228 233 101 c 1,23,-1
+ 230 17 l 2,24,25
+ 230 -51 230 -51 259.5 -77 c 128,-1,26
+ 289 -103 289 -103 356 -103 c 2,27,-1
+ 407 -103 l 1,28,-1
+ 407 -159 l 1,29,-1
+ 371 -159 l 2,30,31
+ 323 -159 323 -159 284.5 -155.5 c 128,-1,32
+ 246 -152 246 -152 215 -129 c 0,33,34
+ 159 -85 159 -85 159 16 c 1,0,-1
+EndSplineSet
+EndChar

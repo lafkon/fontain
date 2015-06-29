@@ -1,0 +1,52 @@
+StartChar: uni035C
+Encoding: 860 860 1054
+Width: 1126
+GlyphClass: 4
+Flags: W
+TtInstrs:
+PUSHB_3
+ 7
+ 0
+ 10
+PUSHW_1
+ 266
+PUSHB_7
+ 2
+ 13
+ 15
+ 8
+ 1
+ 8
+ 14
+SVTCA[y-axis]
+SRP0
+MDRP[rp0,min,rnd,white]
+DELTAP1
+MDRP[rnd,grey]
+MDRP[rp0,min,rnd,grey]
+MIRP[min,rnd,black]
+SVTCA[x-axis]
+MDAP[rnd]
+MDAP[rnd]
+IUP[x]
+IUP[y]
+EndTTInstrs
+AnchorPoint: "Anchor-6" 563 -50 mark 0
+LayerCount: 2
+Back
+Fore
+SplineSet
+1130 -177 m 1,0,1
+ 878 -448 878 -448 572 -448 c 0,2,3
+ 501 -448 501 -448 430 -434 c 128,-1,4
+ 359 -420 359 -420 287.5 -388 c 128,-1,5
+ 216 -356 216 -356 144.5 -304 c 128,-1,6
+ 73 -252 73 -252 3 -177 c 1,7,-1
+ 56 -86 l 1,8,9
+ 284 -279 284 -279 562 -279 c 0,10,11
+ 701 -279 701 -279 828.5 -230.5 c 128,-1,12
+ 956 -182 956 -182 1069 -86 c 1,13,-1
+ 1130 -177 l 1,0,1
+EndSplineSet
+Position2: "'mkmk' Mark to Mark lookup 8 subtable" dx=0 dy=0 dh=-1126 dv=0
+EndChar

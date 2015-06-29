@@ -1,0 +1,38 @@
+StartChar: hyphen
+Encoding: 45 45 16
+Width: 500
+Flags: W
+TtInstrs:
+PUSHB_1
+ 3
+MDAP[rnd]
+PUSHB_3
+ 32
+ 3
+ 1
+DELTAP1
+PUSHB_1
+ 2
+MDRP[rp0,min,rnd,grey]
+SVTCA[y-axis]
+PUSHB_1
+ 3
+MDAP[rnd]
+PUSHB_2
+ 0
+ 1
+MIRP[rp0,rnd,grey]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+71 348 m 1,0,-1
+ 431 348 l 1,1,-1
+ 431 281 l 1,2,-1
+ 71 281 l 1,3,-1
+ 71 348 l 1,0,-1
+EndSplineSet
+EndChar

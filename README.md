@@ -170,6 +170,11 @@ and use an apache web server add this to you `.htaccess`:
 FONT STYLES
 ===========
 
+roboto-mono_thin
+code-new-roman_italic
+inconsolata_regular
+lekton_bold
+fira-code_regular
 unna_regular
 tgl_regular
 simple-print_regular

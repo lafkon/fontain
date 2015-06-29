@@ -1,0 +1,57 @@
+StartChar: L
+Encoding: 76 76 15
+Width: 1126
+GlyphClass: 2
+Flags: W
+TtInstrs:
+PUSHW_2
+ 4
+ 423
+NPUSHB
+ 9
+ 0
+ 1
+ 6
+ 2
+ 65
+ 4
+ 229
+ 1
+ 67
+SVTCA[y-axis]
+MIAP[rnd]
+MIRP[min,rnd,black]
+MIAP[rnd]
+SVTCA[x-axis]
+SRP0
+MDRP[rp0,rnd,white]
+MDRP[min,rnd,black]
+MIRP[black]
+IUP[x]
+IUP[y]
+EndTTInstrs
+AnchorPoint: "Anchor-11" 0 1700 basechar 0
+AnchorPoint: "Anchor-10" 1126 1700 basechar 0
+AnchorPoint: "Anchor-9" 920 0 basechar 0
+AnchorPoint: "Anchor-8" 640 0 basechar 0
+AnchorPoint: "Anchor-7" 320 1300 basechar 0
+AnchorPoint: "Anchor-6" 1126 -350 basechar 0
+AnchorPoint: "Anchor-5" 1126 1700 basechar 0
+AnchorPoint: "Anchor-4" 320 1300 basechar 0
+AnchorPoint: "Anchor-2" 563 -180 basechar 0
+AnchorPoint: "Anchor-1" 985 1390 basechar 0
+AnchorPoint: "Anchor-0" 563 1430 basechar 0
+LayerCount: 2
+Back
+Fore
+SplineSet
+985 0 m 1,0,-1
+ 233 0 l 1,1,-1
+ 233 1307 l 1,2,-1
+ 414 1307 l 1,3,-1
+ 414 152 l 1,4,-1
+ 985 152 l 1,5,-1
+ 985 0 l 1,0,-1
+EndSplineSet
+Substitution2: "'sups' Superscript lookup 34 subtable" L.superior
+EndChar

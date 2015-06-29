@@ -1,0 +1,212 @@
+StartChar: W
+Encoding: 87 87 26
+Width: 1126
+GlyphClass: 2
+Flags: W
+TtInstrs:
+PUSHB_2
+ 1
+ 2
+RS
+NEQ
+IF
+NPUSHB
+ 23
+ 9
+ 8
+ 6
+ 11
+ 11
+ 7
+ 14
+ 13
+ 4
+ 4
+ 18
+ 0
+ 7
+ 2
+ 16
+ 16
+ 1
+ 14
+ 4
+ 32
+ 10
+ 64
+ 12
+PUSHW_5
+ -24
+ 17
+ -24
+ 15
+ -32
+NPUSHB
+ 23
+ 16
+ 11
+ 15
+ 17
+ 12
+ 10
+ 4
+ 7
+ 13
+ 13
+ 7
+ 9
+ 8
+ 65
+ 6
+ 7
+ 67
+ 2
+ 1
+ 67
+ 18
+ 0
+ 65
+SVTCA[y-axis]
+RTG
+MIAP[rnd]
+SHP[rp1]
+MIAP[rnd]
+SHP[rp1]
+MIAP[rnd]
+SHP[rp1]
+MIAP[rnd]
+SHP[rp1]
+SRP2
+IP
+MDAP[rnd]
+SLOOP
+IP
+SHPIX
+SHPIX
+SHPIX
+SHPIX
+SHPIX
+SHP[rp1]
+SVTCA[x-axis]
+MDAP[rnd]
+SHP[rp1]
+SRP1
+SHP[rp1]
+MDAP[rnd]
+MDRP[rnd,grey]
+SHP[rp2]
+IP
+RTHG
+MDAP[rnd]
+SHP[rp1]
+SHP[rp1]
+SRP1
+SHP[rp1]
+SRP1
+SHP[rp1]
+RTG
+MDAP[rnd]
+SHP[rp1]
+IUP[x]
+IUP[y]
+ELSE
+PUSHB_6
+ 14
+ 4
+ 32
+ 10
+ 64
+ 12
+PUSHW_5
+ -24
+ 17
+ -24
+ 15
+ -32
+NPUSHB
+ 23
+ 16
+ 11
+ 15
+ 17
+ 12
+ 10
+ 4
+ 7
+ 13
+ 13
+ 7
+ 9
+ 8
+ 65
+ 6
+ 7
+ 67
+ 2
+ 1
+ 67
+ 18
+ 0
+ 65
+SVTCA[y-axis]
+RTG
+MIAP[rnd]
+SHP[rp1]
+MIAP[rnd]
+SHP[rp1]
+MIAP[rnd]
+SHP[rp1]
+MIAP[rnd]
+SHP[rp1]
+SRP2
+IP
+MDAP[rnd]
+SLOOP
+IP
+SHPIX
+SHPIX
+SHPIX
+SHPIX
+SHPIX
+SHP[rp1]
+IUP[x]
+IUP[y]
+EIF
+EndTTInstrs
+AnchorPoint: "Anchor-11" 0 1700 basechar 0
+AnchorPoint: "Anchor-10" 1126 1700 basechar 0
+AnchorPoint: "Anchor-9" 920 0 basechar 0
+AnchorPoint: "Anchor-7" 990 1300 basechar 0
+AnchorPoint: "Anchor-6" 1126 -350 basechar 0
+AnchorPoint: "Anchor-5" 1126 1700 basechar 0
+AnchorPoint: "Anchor-4" 990 1300 basechar 0
+AnchorPoint: "Anchor-2" 563 -180 basechar 0
+AnchorPoint: "Anchor-1" 1131 1390 basechar 0
+AnchorPoint: "Anchor-0" 563 1430 basechar 0
+LayerCount: 2
+Back
+Fore
+SplineSet
+1241 1307 m 1,0,-1
+ 891 0 l 1,1,-1
+ 664 0 l 1,2,-1
+ 594 465 l 1,3,-1
+ 580 614 l 1,4,-1
+ 500 453 l 1,5,-1
+ 260 0 l 1,6,-1
+ 33 0 l 1,7,-1
+ 205 1307 l 1,8,-1
+ 371 1307 l 1,9,-1
+ 244 418 l 1,10,-1
+ 209 174 l 1,11,-1
+ 313 381 l 1,12,-1
+ 569 866 l 1,13,-1
+ 692 866 l 1,14,-1
+ 770 346 l 1,15,-1
+ 797 174 l 1,16,-1
+ 838 354 l 1,17,-1
+ 1079 1307 l 1,18,-1
+ 1241 1307 l 1,0,-1
+EndSplineSet
+Substitution2: "'sups' Superscript lookup 34 subtable" W.superior
+EndChar

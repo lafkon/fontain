@@ -1,0 +1,109 @@
+StartChar: f
+Encoding: 102 102 136
+Width: 1126
+GlyphClass: 2
+Flags: W
+TtInstrs:
+PUSHB_2
+ 5
+ 8
+PUSHW_1
+ 434
+NPUSHB
+ 27
+ 14
+ 11
+ 11
+ 12
+ 7
+ 0
+ 22
+ 12
+ 21
+ 14
+ 5
+ 246
+ 11
+ 15
+ 8
+ 8
+ 17
+ 10
+ 19
+ 251
+ 0
+ 2
+ 246
+ 17
+ 84
+ 10
+ 81
+SVTCA[y-axis]
+MIAP[rnd]
+MIAP[rnd]
+MIRP[rp0,min,rnd,black]
+MDRP[rp0,rnd,white]
+MIRP[min,rnd,black]
+SRP1
+SRP2
+IP
+MDAP[rnd]
+IP
+SHP[rp1]
+MIRP[min,rnd,black]
+SHP[rp2]
+SVTCA[x-axis]
+SRP0
+MDRP[rnd,white]
+SRP0
+MDRP[rp0,rnd,white]
+MDRP[min,rnd,white]
+SRP2
+IP
+MDAP[rnd]
+MDRP[rnd,grey]
+MIRP[rp0,black]
+MDRP[rnd,black]
+IUP[x]
+IUP[y]
+EndTTInstrs
+AnchorPoint: "Anchor-11" 0 1700 basechar 0
+AnchorPoint: "Anchor-10" 1126 1700 basechar 0
+AnchorPoint: "Anchor-9" 510 0 basechar 0
+AnchorPoint: "Anchor-7" 950 1413 basechar 0
+AnchorPoint: "Anchor-6" 1126 -350 basechar 0
+AnchorPoint: "Anchor-5" 1126 1700 basechar 0
+AnchorPoint: "Anchor-4" 950 1413 basechar 0
+AnchorPoint: "Anchor-2" 493 -180 basechar 0
+AnchorPoint: "Anchor-1" 1101 1500 basechar 0
+AnchorPoint: "Anchor-0" 663 1500 basechar 0
+LayerCount: 2
+Back
+Fore
+SplineSet
+1051 1251 m 1,0,1
+ 914 1280 914 1280 815 1280 c 0,2,3
+ 580 1280 580 1280 580 1034 c 2,4,-1
+ 580 858 l 1,5,-1
+ 1020 858 l 1,6,-1
+ 1020 713 l 1,7,-1
+ 580 713 l 1,8,-1
+ 580 0 l 1,9,-1
+ 403 0 l 1,10,-1
+ 403 713 l 1,11,-1
+ 80 713 l 1,12,-1
+ 80 858 l 1,13,-1
+ 403 858 l 1,14,-1
+ 403 1024 l 2,15,16
+ 403 1425 403 1425 821 1425 c 0,17,18
+ 925 1425 925 1425 1051 1401 c 1,19,-1
+ 1051 1251 l 1,0,1
+0 1004 m 1024,20,-1
+EndSplineSet
+Substitution2: "'ordn' Ordinals in Latin lookup 38 subtable" uni1DA0
+Substitution2: "'sups' Superscript lookup 34 subtable" uni1DA0
+AlternateSubs2: "'ss06' Style Set 6 lookup 31 subtable" f.ss05
+Substitution2: "'ss05' Style Set 5 lookup 30 subtable" f.ss05
+Substitution2: "'ss04' Style Set 4 lookup 29 subtable" f.ss04
+AlternateSubs2: "'salt' Stylistic Alternatives lookup 23 subtable" f.ss04 f.ss05
+EndChar

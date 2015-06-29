@@ -1,0 +1,76 @@
+StartChar: ogonek
+Encoding: 731 731 265
+Width: 500
+Flags: W
+TtInstrs:
+PUSHB_1
+ 14
+MDAP[rnd]
+PUSHB_1
+ 3
+MDRP[rp0,min,rnd,grey]
+PUSHB_1
+ 14
+SRP0
+PUSHB_1
+ 9
+MDRP[rp0,min,rnd,grey]
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 11
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 11
+ 10
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 0
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 0
+ 8
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 11
+SRP0
+PUSHB_1
+ 6
+MDRP[rp0,min,rnd,grey]
+PUSHB_1
+ 11
+SRP0
+PUSHB_1
+ 8
+MDRP[rp0,min,rnd,grey]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+356 0 m 1,0,-1
+ 422 0 l 1,1,2
+ 338 -75 338 -75 338 -102 c 0,3,4
+ 338 -114 338 -114 346 -122 c 128,-1,5
+ 354 -130 354 -130 366 -130 c 0,6,7
+ 395 -130 395 -130 424 -107 c 1,8,-1
+ 424 -153 l 1,9,10
+ 396 -176 396 -176 357 -176 c 0,11,12
+ 317 -176 317 -176 296.5 -158.5 c 128,-1,13
+ 276 -141 276 -141 276 -115 c 0,14,15
+ 276 -65 276 -65 356 0 c 1,0,-1
+EndSplineSet
+EndChar

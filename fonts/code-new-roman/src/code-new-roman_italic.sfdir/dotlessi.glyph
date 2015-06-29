@@ -1,0 +1,105 @@
+StartChar: dotlessi
+Encoding: 305 305 202
+Width: 1126
+GlyphClass: 2
+Flags: W
+TtInstrs:
+NPUSHB
+ 27
+ 35
+ 25
+ 25
+ 28
+ 10
+ 17
+ 7
+ 18
+ 229
+ 17
+ 14
+ 220
+ 7
+ 28
+ 10
+ 25
+ 4
+ 3
+ 21
+ 80
+ 0
+ 229
+ 35
+ 32
+ 220
+ 3
+ 82
+SVTCA[y-axis]
+MIAP[rnd]
+MIRP[rp0,min,rnd,black]
+MDRP[rp0,rnd,white]
+MIRP[min,rnd,black]
+MIAP[rnd]
+SRP2
+SLOOP
+IP
+MIRP[rp0,min,rnd,black]
+MDRP[rp0,rnd,white]
+MIRP[min,rnd,black]
+SVTCA[x-axis]
+MDAP[rnd]
+MDRP[rnd,white]
+MDRP[black]
+SHP[rp1]
+SHP[rp2]
+SRP0
+MDRP[rnd,white]
+IUP[x]
+IUP[y]
+EndTTInstrs
+AnchorPoint: "Anchor-11" 0 1700 basechar 0
+AnchorPoint: "Anchor-10" 1126 1700 basechar 0
+AnchorPoint: "Anchor-9" 870 0 basechar 0
+AnchorPoint: "Anchor-6" 1126 -350 basechar 0
+AnchorPoint: "Anchor-5" 1126 1700 basechar 0
+AnchorPoint: "Anchor-4" 480 1000 basechar 0
+AnchorPoint: "Anchor-2" 563 -180 basechar 0
+AnchorPoint: "Anchor-1" 777 1184 basechar 0
+AnchorPoint: "Anchor-0" 563 1184 basechar 0
+LayerCount: 2
+Back
+Fore
+SplineSet
+956 63 m 1,0,1
+ 887 25 887 25 810.5 3.5 c 128,-1,2
+ 734 -18 734 -18 647 -18 c 0,3,4
+ 576 -18 576 -18 528 2 c 128,-1,5
+ 480 22 480 22 454.5 65.5 c 128,-1,6
+ 429 109 429 109 426 177 c 128,-1,7
+ 423 245 423 245 442 342 c 2,8,-1
+ 510 678 l 2,9,10
+ 522 735 522 735 521.5 773.5 c 128,-1,11
+ 521 812 521 812 511 835 c 128,-1,12
+ 501 858 501 858 481.5 867.5 c 128,-1,13
+ 462 877 462 877 436 877 c 0,14,15
+ 368 877 368 877 302 850.5 c 128,-1,16
+ 236 824 236 824 168 786 c 1,17,-1
+ 168 940 l 1,18,19
+ 237 978 237 978 313.5 1000 c 128,-1,20
+ 390 1022 390 1022 477 1022 c 0,21,22
+ 548 1022 548 1022 596 1002 c 128,-1,23
+ 644 982 644 982 669.5 938.5 c 128,-1,24
+ 695 895 695 895 698 827 c 128,-1,25
+ 701 759 701 759 682 662 c 2,26,-1
+ 614 326 l 2,27,28
+ 603 268 603 268 603 230 c 128,-1,29
+ 603 192 603 192 613.5 169 c 128,-1,30
+ 624 146 624 146 643 136.5 c 128,-1,31
+ 662 127 662 127 688 127 c 0,32,33
+ 756 127 756 127 822 153.5 c 128,-1,34
+ 888 180 888 180 956 217 c 1,35,-1
+ 956 63 l 1,0,1
+EndSplineSet
+Substitution2: "'ss05' Style Set 5 lookup 30 subtable" dotlessi.ss05
+Substitution2: "'ss04' Style Set 4 lookup 29 subtable" dotlessi.ss04
+AlternateSubs2: "'salt' Stylistic Alternatives lookup 23 subtable" dotlessi.ss05 dotlessi.ss04
+EndChar

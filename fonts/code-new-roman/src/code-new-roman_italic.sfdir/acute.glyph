@@ -1,0 +1,61 @@
+StartChar: acute
+Encoding: 180 180 318
+Width: 1126
+Flags: W
+TtInstrs:
+PUSHW_5
+ 0
+ 395
+ 3
+ 2
+ 360
+NPUSHB
+ 19
+ 64
+ 1
+ 191
+ 3
+ 207
+ 3
+ 2
+ 3
+ 128
+ 127
+ 2
+ 143
+ 2
+ 159
+ 2
+ 3
+ 2
+ 4
+ 79
+SVTCA[y-axis]
+MIAP[rnd]
+MDRP[rp0,min,rnd,white]
+DELTAP1
+SMD
+MDRP[min,rnd,black]
+DELTAP1
+SVTCA[x-axis]
+MDAP[rnd]
+SMD
+MIRP[rp0,min,rnd,black]
+MDRP[rp0,min,rnd,black]
+MIRP[min,rnd,black]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+1104 1413 m 1,0,-1
+ 772 1171 l 1,1,-1
+ 598 1171 l 1,2,-1
+ 852 1413 l 1,3,-1
+ 1104 1413 l 1,0,-1
+0 1004 m 1024,4,-1
+EndSplineSet
+Substitution2: "'locl' Localized Forms in Greek lookup 36 subtable" uni1FFD
+EndChar

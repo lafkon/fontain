@@ -1,0 +1,55 @@
+StartChar: gravecomb
+Encoding: 768 768 165
+Width: 1229
+Flags: W
+TtInstrs:
+MPPEM
+PUSHB_1
+ 25
+LT
+IF
+NPUSHB
+ 11
+ 0
+ 0
+ 1
+ 0
+ 115
+ 0
+ 1
+ 1
+ 62
+ 1
+ 76
+ELSE
+NPUSHB
+ 9
+ 0
+ 1
+ 0
+ 1
+ 114
+ 0
+ 0
+ 0
+ 105
+EIF
+PUSHB_5
+ 17
+ 16
+ 2
+ 8
+ 22
+CALL
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+-483 1210 m 1,0,-1
+ -653 1210 l 1,1,-1
+ -872 1560 l 1,2,-1
+ -647 1560 l 1,3,-1
+ -483 1210 l 1,0,-1
+EndSplineSet
+EndChar

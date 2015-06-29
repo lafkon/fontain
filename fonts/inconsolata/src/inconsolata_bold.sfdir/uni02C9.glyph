@@ -1,0 +1,61 @@
+StartChar: uni02C9
+Encoding: 713 713 258
+Width: 1024
+Flags: W
+TtInstrs:
+MPPEM
+PUSHB_1
+ 26
+LT
+IF
+NPUSHB
+ 11
+ 0
+ 1
+ 1
+ 0
+ 77
+ 0
+ 0
+ 0
+ 11
+ 1
+ 64
+ELSE
+NPUSHB
+ 16
+ 0
+ 0
+ 1
+ 1
+ 0
+ 73
+ 0
+ 0
+ 0
+ 1
+ 77
+ 0
+ 1
+ 0
+ 1
+ 65
+EIF
+PUSHB_4
+ 17
+ 16
+ 2
+ 14
+CALL
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+221 1313 m 1,0,-1
+ 795 1313 l 1,1,-1
+ 795 1133 l 1,2,-1
+ 221 1133 l 1,3,-1
+ 221 1313 l 1,0,-1
+EndSplineSet
+EndChar
