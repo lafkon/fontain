@@ -22,8 +22,7 @@ GENERAL INFORMATION
 
 AUTHORS
 =======
-[Sam Radian](http://typostyle.com/cat/reg/cnr/)    
-[Raph Levien]()
+[Raph Levien](http://www.levien.com)
 
 
 LICENSE
