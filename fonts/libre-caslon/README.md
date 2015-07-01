@@ -54,8 +54,8 @@ Documentation can be found at [www.impallari.com](http://www.impallari.com)
 
 AUTHOR
 ======
-[Pablo Impallari](www.impallari.com),
-[Rodrigo Fuenzalida](www.rfuenzalida.com)
+[Pablo Impallari](http://www.impallari.com),
+[Rodrigo Fuenzalida](http://www.rfuenzalida.com)
 
 LICENSE
 =======
