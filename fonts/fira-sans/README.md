@@ -25,11 +25,11 @@ LICENSE
 FONT STYLES
 ===========
 fira-sans_regular    
-fira-sans_two    
+    fira-sans_two    
     fira-sans_two-italic    
-fira-sans_four    
+    fira-sans_four    
     fira-sans_four-italic    
-fira-sans_eight    
+    fira-sans_eight    
     fira-sans_eight-italic    
 fira-sans_hair    
     fira-sans_hair-italic    
