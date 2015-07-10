@@ -5,16 +5,16 @@
   var fontstyles = FLOWTEXTARRAY
 </script>
 
-<div class="flowtextcontainer twelve columns offset-by-one clearfix" id="flowFontSelectR">
+<div class="flowtextcontainer sixteen columns offset-by-one clearfix" id="flowFontSelectR">
   <button class="flowfontvariant positiv jsonly" id="prev">&lt;</button>
   <button class="flowfontvariant positiv jsonly " id="next">&gt;</button>
   <button class="flowfontvariant positiv" id="label">FLOWTEXTMASTER</button>
   <button class="flowfontvariant positiv" id="invert">T</button>
   <hr style="margin-top: -2px;" />
   
-  <div class="twelve columns clearfix alpha">
-	<div class="eleven columns jsonly alpha">
-	  <input class="flowtext-fontsize" id="flowtextFontsizeSlider" type="range"  min="4" max="26" value="12"/>
+  <div class="sixteen columns clearfix alpha">
+	<div class="fifteen columns jsonly alpha">
+	  <input class="flowtext-fontsize" id="flowtextFontsizeSlider" type="range"  min="4" max="36" value="24"/>
 	</div>
 	<div class="one column jsonly omega">
 	  <label class="sliderLabel positiv" id="flowtextFontsizeSliderLabel" for="flowtextFontsizeSlider">-- px</label>

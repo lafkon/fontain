@@ -140,7 +140,7 @@ h1, h2, h3, h4,h5, h6 {
 }
 .templatecontent h6 {
   font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   margin-left:0px;
 }
 
@@ -152,6 +152,13 @@ pre {
 
 .templatecontent p {
   margin-top: 20px 0px 0px 0px;
+  padding: 0px 2% 0px 2%;
+
+  font-size: 16px; 
+  line-height: 24px; 
+
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
 }
 .templatecontent p:first-of-type {
   margin: 0px 0px 0px 0px;
@@ -162,10 +169,9 @@ pre {
 }
 
 .templatecontent blockquote {
- margin-top: 5px;
- padding-top: 0px; 
- margin-left: -14px;
- padding-left: 14px;
+ margin-top: 10px;
+ border-left: 0px solid #ddd;
+ padding: 20px 4% 20px 4%;
   
 }
 
@@ -191,6 +197,14 @@ pre {
 .specimen img {
   margin: 0px 0px 10px 0px;  
   width: 100%;
+}
+
+.author,
+.license {
+
+  font-size: 16px; 
+  line-height: 22px; 
+  padding-bottom: 50px;
 }
 
 
