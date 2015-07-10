@@ -326,11 +326,15 @@
         fi
         if [ X$SPECIMENTYPE == Xsvg ] ; then
 
-             PNG=$SPECIMENTARGET/`basename $SPECIMEN | cut -d "." -f 1`.png
-             inkscape --export-png=$PNG $SPECIMEN
-             PNG=`echo $PNG | rev | cut -d "/" -f 1-2 | rev`
+             SPMN=$SPECIMENTARGET/`basename $SPECIMEN | cut -d "." -f 1`
+            #inkscape --export-png=${SPMN}.png -w 1000 $SPECIMEN
+             inkscape --export-pdf=${SPMN}.pdf -T $SPECIMEN
+             inkscape --export-plain-svg=${SPMN}.svg -T ${SPMN}.pdf
+             rm ${SPMN}.pdf
+
+             SPMN=`echo $SPMN | rev | cut -d "/" -f 1-2 | rev`.svg
              grep "<!-- LOOP -->" $TMPLT_SPECIMEN | \
-             sed "s,SPEZIPIC,$PNG,g" | \
+             sed "s,SPEZIPIC,$SPMN,g" | \
              sed 's/<!-- LOOP -->//g'                             >> $INDEX
         fi
         if [ X$SPECIMENTYPE == Xbody ]; then
