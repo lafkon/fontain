@@ -1,16 +1,17 @@
-
 StartChar: Upsilondieresis
-Encoding: 939 939 725
+Encoding: 939 939 1531
 Width: 544
 GlyphClass: 2
 Flags: MW
 HStem: 0 21G<187 283 187 187> 669 20G<65 164 164 164 497 600 600 600> 780 114<240.5 263 448 470.5>
 VStem: 196 111 404 111
+AnchorPoint: "Anchor-9" 0 0 basechar 0
+AnchorPoint: "Anchor-8" 0 0 basechar 0
 AnchorPoint: "Anchor-7" 0 0 basechar 0
-AnchorPoint: "Anchor-6" -32 534 basechar 0
-AnchorPoint: "Anchor-5" 0 0 basechar 0
-AnchorPoint: "Anchor-4" 353 813 basechar 0
+AnchorPoint: "Anchor-6" 235 0 basechar 0
+AnchorPoint: "Anchor-5" 358 894 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 256 894 m 0
@@ -23,7 +24,8 @@ SplineSet
  511 802 486 780 455 780 c 0
  421 780 399 808 404 842 c 0
  408 872 433 894 463 894 c 0
-320 265 m 1
+600 689 m 1
+ 320 265 l 1
  283 0 l 1
  187 0 l 1
  225 264 l 1
@@ -32,9 +34,8 @@ SplineSet
  282 348 l 1
  497 689 l 1
  600 689 l 1
- 320 265 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" upsilondieresis.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" upsilondieresis.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" upsilondieresis.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

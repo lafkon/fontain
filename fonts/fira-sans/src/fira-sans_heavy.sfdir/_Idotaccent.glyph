@@ -1,16 +1,17 @@
-
 StartChar: Idotaccent
-Encoding: 304 304 49
+Encoding: 304 304 127
 Width: 292
 GlyphClass: 2
 Flags: MW
 HStem: 0 21G<43 249 43 43> 676 20G<43 249 249 249> 743 212<113.5 178.5>
-VStem: 35 222<819 879> 43 206<0 696>
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 43 696 basechar 0
-AnchorPoint: "Anchor-9" 146 696 basechar 0
-AnchorPoint: "Anchor-8" 213 0 basechar 0
+VStem: 35 222<819 879> 43 206<0 696 0 696>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 148 955 basechar 0
+AnchorPoint: "Anchor-11" 213 0 basechar 0
+AnchorPoint: "Anchor-10" 146 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 146 955 m 0xf0
@@ -18,13 +19,13 @@ SplineSet
  257 789 211 743 146 743 c 0
  81 743 35 789 35 849 c 0
  35 909 81 955 146 955 c 0xf0
-249 0 m 1xe8
+249 696 m 1xe8
+ 249 0 l 1
  43 0 l 1
  43 696 l 1
- 249 696 l 1
- 249 0 l 1xe8
+ 249 696 l 1xe8
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" i.sc.loclTRK
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" i.sc.loclTRK
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" i.sc.loclTRK
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

@@ -1,25 +1,25 @@
-
 StartChar: tilde
-Encoding: 732 732 1264
+Encoding: 732 732 2529
 Width: 337
 Flags: MW
-HStem: 674 30<267.5 299.5 267.5 304.5> 713 20G<373 373> 717 30<176 176>
+HStem: 674 30<267.5 299.5 267.5 304.5> 717 30<176 176>
 VStem: 91 282<695 733>
 LayerCount: 2
+Back
 Fore
 SplineSet
-292 674 m 0xb0
- 234 674 212 718 176 717 c 0
+292 674 m 0
+ 235 674 213 718 176 717 c 0
  145 716 135 706 111 680 c 1
  91 695 l 1
- 117 728 142 747 176 747 c 0x30
+ 117 728 142 747 176 747 c 0xe0
  217 747 246 704 289 704 c 0
- 310 704 328 716 352 748 c 1xb0
- 373 733 l 1x50
- 344 690 317 674 292 674 c 0xb0
+ 310 704 328 716 353 748 c 1
+ 373 733 l 1
+ 344 690 317 674 292 674 c 0
 EndSplineSet
-Substitution2: "'case' Case-Sensitive Forms lookup 25 subtable" tilde.case
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" tilde.sc
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" tilde.sc
+Substitution2: "'case' Case-Sensitive Forms lookup 29 subtable" tilde.case
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 28 subtable" tilde.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" tilde.sc
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" tilde.sc tilde.case
 EndChar

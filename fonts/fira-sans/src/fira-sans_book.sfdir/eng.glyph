@@ -1,34 +1,37 @@
-
 StartChar: eng
-Encoding: 331 331 206
+Encoding: 331 331 547
 Width: 585
 GlyphClass: 2
 Flags: MW
-HStem: -210 21G<332 332> 0 21G<98 182 98 98> 472 66<306.5 348> 506 20G<98 170 170 170>
-VStem: 98 84<0 375 0 526> 409 84<24 29 29 365 365 377>
-AnchorPoint: "Anchor-11" 37 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 37 67 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+HStem: -211 68<327 363.5 327 391.5> 0 21G<98 182 98 98> 472 66<306.5 349> 506 20G<98 170 170 170>
+VStem: 98 84<0 375 0 526> 409 84<-67 -60 -60 365 365 377>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 298 526 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 283 -201 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-342 538 m 0xec
- 437 538 493 476 493 377 c 2
- 493 29 l 2
- 493 -118 440 -161 332 -210 c 1
- 308 -149 l 1
- 377 -116 409 -90 409 24 c 2
+493 -60 m 2xec
+ 493 -160 435 -211 348 -211 c 0
+ 297 -211 261 -193 236 -174 c 1
+ 269 -121 l 1
+ 292 -134 310 -143 344 -143 c 0
+ 383 -143 409 -122 409 -67 c 2
  409 365 l 2
- 409 446 375 472 321 472 c 0
+ 409 446 376 472 322 472 c 0
  260 472 218 433 182 375 c 1xec
  182 0 l 1
  98 0 l 1
  98 526 l 1
  170 526 l 1xdc
- 177 447 l 1
- 216 501 271 538 342 538 c 0xec
+ 177 446 l 1
+ 215 501 271 538 342 538 c 0
+ 438 538 493 477 493 377 c 2
+ 493 -60 l 2xec
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" eng.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" eng.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" eng.sc
 EndChar

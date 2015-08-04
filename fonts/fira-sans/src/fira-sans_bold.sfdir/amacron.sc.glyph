@@ -1,24 +1,26 @@
-
 StartChar: amacron.sc
-Encoding: 1114138 -1 286
+Encoding: 1114170 -1 769
 Width: 519
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G<-13 150 -13 -13 367 367 367 533> 115 111<203 313 203 340 177 313> 459 109<258 258> 548 20G<166 354 354 354> 685 110<107 412 107 412>
+HStem: 0 21G<-13 150 -13 -13 367 533 367 367> 115 111<203 313 203 339 177 313> 459 109<258 258> 548 20G<166 354 354 354> 685 110<107 412 107 412>
 VStem: 107 305<685 795 685 795>
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 152 568 basechar 0
-AnchorPoint: "Anchor-9" 260 568 basechar 0
-AnchorPoint: "Anchor-8" 470 0 basechar 0
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 261 775 basechar 0
+AnchorPoint: "Anchor-11" 470 0 basechar 0
+AnchorPoint: "Anchor-10" 258 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-412 685 m 1xdc
+412 795 m 1xdc
+ 412 685 l 1
  107 685 l 1
  107 795 l 1
- 412 795 l 1
- 412 685 l 1xdc
-340 115 m 1
+ 412 795 l 1xdc
+367 0 m 1
+ 339 115 l 1
  177 115 l 1
  150 0 l 1
  -13 0 l 1
@@ -26,10 +28,9 @@ SplineSet
  354 568 l 1
  533 0 l 1
  367 0 l 1
- 340 115 l 1
-313 226 m 1
+203 226 m 1
+ 313 226 l 1
  258 459 l 1xec
  203 226 l 1
- 313 226 l 1
 EndSplineSet
 EndChar

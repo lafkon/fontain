@@ -1,33 +1,34 @@
-
 StartChar: itilde
-Encoding: 297 297 187
+Encoding: 297 297 497
 Width: 282
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G<70 212 70 70> 510 20G<70 212 212 212> 640 102<181 209 181 228.5> 686 102<72.5 101> 730 20G<324 324>
-VStem: 70 142<0 530>
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 141 530 basechar 0
-AnchorPoint: "Anchor-8" 203 0 basechar 0
+HStem: 0 21G<70 212 70 70> 510 20G<70 212 212 212> 640 102<181 209 181 227> 686 102<72.5 101> 730 20G<324 324>
+VStem: 70 142<0 530 0 530>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 141 744 basechar 0
+AnchorPoint: "Anchor-11" 203 0 basechar 0
+AnchorPoint: "Anchor-10" 141 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-202 640 m 0xe4
- 139 640 118 686 84 686 c 0
+199 640 m 0xe4
+ 142 640 118 686 84 686 c 0
  61 686 47 670 31 641 c 1
  -42 677 l 1xd4
- -18 737 25 788 83 788 c 0
- 143 788 164 742 198 742 c 0
+ -18 737 25 788 82 788 c 0
+ 142 788 164 742 198 742 c 0
  220 742 234 757 251 786 c 1xe4
  324 750 l 1xcc
- 298 685 255 640 202 640 c 0xe4
-212 0 m 1xcc
+ 298 685 255 640 199 640 c 0xe4
+212 530 m 1xcc
+ 212 0 l 1
  70 0 l 1
  70 530 l 1
- 212 530 l 1
- 212 0 l 1xcc
+ 212 530 l 1xcc
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" itilde.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" itilde.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" itilde.sc
 EndChar

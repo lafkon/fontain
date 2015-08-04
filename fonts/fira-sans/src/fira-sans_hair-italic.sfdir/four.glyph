@@ -1,36 +1,36 @@
-
 StartChar: four
-Encoding: 52 52 883
+Encoding: 52 52 2021
 Width: 499
 Flags: MW
-HStem: 0 21G 190.43 13.14
-VStem: 42.99 408.43
+HStem: 0 21G<315 329 315 315> 190 14<61 342 358 449 61 356>
+VStem: 43 408<190 204>
 LayerCount: 2
+Back
 Fore
 SplineSet
-449.14 190.43 m 1
- 355.729 190.431 l 1
- 328.849 0.000976562 l 1
- 314.849 0.000976562 l 1
- 341.919 190.431 l 1
- 42.9893 190.431 l 1
- 45.2793 202.86 l 1
- 316.709 671.71 l 1
- 328.989 666.43 l 1
- 60.5596 203.569 l 1
- 343.81 203.569 l 1
- 375.56 417.999 l 1
- 387.85 417.999 l 1
- 357.58 203.569 l 1
- 451.42 203.569 l 1
- 449.14 190.43 l 1
+451 204 m 1
+ 449 190 l 1
+ 356 190 l 1
+ 329 0 l 1
+ 315 0 l 1
+ 342 190 l 1
+ 43 190 l 1
+ 45 203 l 1
+ 317 672 l 1
+ 329 666 l 1
+ 61 204 l 1
+ 344 204 l 1
+ 376 418 l 1
+ 388 418 l 1
+ 358 204 l 1
+ 451 204 l 1
 EndSplineSet
-Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" four.osf
-Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" four.tf
-Substitution2: "'frac' Diagonal Fractions lookup 16 subtable" four.numr
-Substitution2: "'dnom' Denominators lookup 14 subtable" four.dnom
-Substitution2: "'numr' Numerators lookup 13 subtable" four.numr
-Substitution2: "'sups' Superscript lookup 12 subtable" foursuperior
-Substitution2: "'subs' Subscript lookup 11 subtable" fourinferior
-AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" fourinferior foursuperior four.numr four.dnom four.tf four.osf
+Substitution2: "'onum' Oldstyle Figures lookup 26 subtable" four.osf
+Substitution2: "'tnum' Tabular Numbers lookup 25 subtable" four.tf
+Substitution2: "'frac' Diagonal Fractions lookup 19 subtable" four.numr
+Substitution2: "'dnom' Denominators lookup 17 subtable" four.dnom
+Substitution2: "'numr' Numerators lookup 16 subtable" four.numr
+Substitution2: "'sups' Superscript lookup 15 subtable" uni2074
+Substitution2: "'subs' Subscript lookup 14 subtable" uni2084
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" uni2084 uni2074 four.numr four.dnom four.tf four.osf
 EndChar

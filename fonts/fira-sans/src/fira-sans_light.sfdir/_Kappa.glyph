@@ -1,32 +1,33 @@
-
 StartChar: Kappa
-Encoding: 922 922 700
+Encoding: 922 922 1502
 Width: 547
 GlyphClass: 2
 Flags: MW
 HStem: 0 21G<111 171 111 111 474 474 474 547> 665 20G<111 171 171 171 461 530 530 530>
-VStem: 111 60<0 685>
-AnchorPoint: "Anchor-7" 307 0 basechar 0
-AnchorPoint: "Anchor-6" 0 0 basechar 0
-AnchorPoint: "Anchor-5" 0 0 basechar 0
-AnchorPoint: "Anchor-4" 307 685 basechar 0
+VStem: 111 60<0 685 0 685>
+AnchorPoint: "Anchor-9" 0 0 basechar 0
+AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-7" 0 0 basechar 0
+AnchorPoint: "Anchor-6" 307 0 basechar 0
+AnchorPoint: "Anchor-5" 307 685 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-171 0 m 1
+171 685 m 1
+ 171 0 l 1
  111 0 l 1
  111 685 l 1
  171 685 l 1
- 171 0 l 1
-246 370 m 1
+530 685 m 1
+ 246 370 l 1
  547 0 l 1
  474 0 l 1
  175 367 l 1
  461 685 l 1
  530 685 l 1
- 246 370 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" kappa.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" kappa.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" kappa.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

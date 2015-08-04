@@ -1,16 +1,16 @@
-
 StartChar: gamma
-Encoding: 947 947 746
+Encoding: 947 947 1643
 Width: 501
 GlyphClass: 2
 Flags: MW
 HStem: -221 21G<187 187> -206 21G<300 300> 525 20G<362 362> 526 20G<115 115>
 VStem: 155.12 134.86
 LayerCount: 2
+Back
 Fore
 SplineSet
 115 546 m 1x58
- 162 488 218 363 249 152 c 1
+ 162 488 218 363 249 147 c 1
  362 545 l 1
  503 515 l 1
  317 26 l 2
@@ -20,6 +20,7 @@ SplineSet
  118 254 51 421 -14 500 c 1
  115 546 l 1x58
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" gamma.sc
-Substitution2: "'aalt' Access All Alternates lookup 0 subtable" gamma.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" gamma.sc
+Substitution2: "'sups' Superscript lookup 14 subtable" uni02E0
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" uni02E0 gamma.sc
 EndChar

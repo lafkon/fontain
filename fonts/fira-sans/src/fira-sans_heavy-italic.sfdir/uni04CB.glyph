@@ -1,20 +1,22 @@
-
 StartChar: uni04CB
-Encoding: 1227 1227 488
-Width: 607
+Encoding: 1227 1227 1169
+Width: 611
 GlyphClass: 2
 Flags: MW
-HStem: 0 154<246 527 246 394> 195 146<147.5 315> 676 20G<70 268 268 268 426 624 624 624>
+HStem: 0 154<246 531 246 394> 195 146<147.5 315> 676 20G<70 268 268 268 426 628 628 628>
 VStem: 31.04 199.45
+AnchorPoint: "Anchor-4" 0 0 basechar 0
 AnchorPoint: "Anchor-3" 0 0 basechar 0
-AnchorPoint: "Anchor-2" 0 0 basechar 0
-AnchorPoint: "Anchor-1" 347 696 basechar 0
+AnchorPoint: "Anchor-2" 347 696 basechar 0
+AnchorPoint: "Anchor-1" 0 0 basechar 0
 AnchorPoint: "Anchor-0" 0 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-624 696 m 1
- 527 0 l 1
+426 696 m 1
+ 628 696 l 1
+ 531 0 l 1
  394 0 l 1
  335 -175 l 1
  201 -175 l 1
@@ -22,16 +24,15 @@ SplineSet
  350 154 l 1
  363 242 l 1
  320 210 274 195 218 195 c 0
- 77 195 14 294 35 452 c 1
+ 77 195 14 294 35 452 c 2
  70 696 l 1
  268 696 l 1
  233 450 l 2
  223 373 239 341 296 341 c 0
  334 341 359 352 380 369 c 1
  426 696 l 1
- 624 696 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" uni04CC.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" uni04CC.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uni04CC.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

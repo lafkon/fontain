@@ -1,29 +1,31 @@
-
 StartChar: uni04D2
-Encoding: 1234 1234 490
+Encoding: 1234 1234 1172
 Width: 566
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G<-29 59 -29 -29 432 432 432 520> 176 71<168 392 168 403 137 392> 616 72<332 332> 668 20G<289 397 397 397> 782 106<251 272 454 475.5>
-VStem: -29 549<0 0> 210 103 413 103
-AnchorPoint: "Anchor-3" 0 0 basechar 0
-AnchorPoint: "Anchor-2" 151 526 basechar 0
-AnchorPoint: "Anchor-1" 360 807 basechar 0
-AnchorPoint: "Anchor-0" 496 0 basechar 0
+HStem: 0 21G<-29 59 -29 -29 432 520 432 432> 176 71<169 392 169 403 137 392> 616 72<332 332> 668 20G<289 397 397 397> 782 106<252 273 455 476.5>
+VStem: -29 549<0 0> 211 103 414 103
+AnchorPoint: "Anchor-4" 0 0 basechar 0
+AnchorPoint: "Anchor-3" 496 0 basechar 0
+AnchorPoint: "Anchor-2" 367 888 basechar 0
+AnchorPoint: "Anchor-1" 0 0 basechar 0
+AnchorPoint: "Anchor-0" 245 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-258 782 m 0xdb
- 226 782 205 808 210 840 c 1
- 213 867 237 888 265 888 c 0
- 297 888 318 862 313 830 c 0
- 309 803 286 782 258 782 c 0xdb
-461 782 m 0
- 429 782 408 808 413 840 c 0
- 417 867 440 888 468 888 c 0
- 501 888 521 862 516 830 c 1
- 513 803 490 782 461 782 c 0
-403 176 m 1
+259 782 m 0xdb
+ 227 782 206 808 211 840 c 0
+ 214 867 238 888 266 888 c 0
+ 298 888 319 862 314 830 c 0
+ 310 803 287 782 259 782 c 0xdb
+462 782 m 0
+ 430 782 409 808 414 840 c 0
+ 418 867 441 888 469 888 c 0
+ 502 888 522 862 517 830 c 0
+ 514 803 491 782 462 782 c 0
+432 0 m 1
+ 403 176 l 1
  137 176 l 1
  59 0 l 1
  -29 0 l 1
@@ -31,13 +33,12 @@ SplineSet
  397 688 l 1
  520 0 l 1
  432 0 l 1
- 403 176 l 1
-392 247 m 1
- 332 616 l 1xec
- 168 247 l 1
+169 247 m 1
  392 247 l 1
+ 332 616 l 1xec
+ 169 247 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" uni04D3.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" uni04D3.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uni04D3.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

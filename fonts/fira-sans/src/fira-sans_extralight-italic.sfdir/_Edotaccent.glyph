@@ -1,24 +1,26 @@
-
 StartChar: Edotaccent
-Encoding: 278 278 30
+Encoding: 278 278 78
 Width: 502
 GlyphClass: 2
 Flags: MW
-HStem: 0 41<131 422> 336 41<178 419 173 424> 643 41<215 500 215 215> 800 70<360 376.5>
-VStem: 333 70
-AnchorPoint: "Anchor-11" 247 0 basechar 0
-AnchorPoint: "Anchor-10" 78 524 basechar 0
-AnchorPoint: "Anchor-9" 347 684 basechar 0
-AnchorPoint: "Anchor-8" 403 0 basechar 0
+HStem: 0 41<131 422> 336 41<178 419 173 424> 643 41<215 500 215 215> 800 70<361 377.5>
+VStem: 334 70
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 371 870 basechar 0
+AnchorPoint: "Anchor-11" 403 0 basechar 0
+AnchorPoint: "Anchor-10" 247 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-370 870 m 0
- 394 870 406 853 403 832 c 0
- 400 814 387 800 366 800 c 0
- 343 800 330 817 333 838 c 0
- 336 856 350 870 370 870 c 0
-500 643 m 1
+371 870 m 0
+ 395 870 407 853 404 832 c 0
+ 401 814 388 800 367 800 c 0
+ 344 800 331 817 334 838 c 0
+ 337 856 351 870 371 870 c 0
+512 684 m 1
+ 500 643 l 1
  215 643 l 1
  178 377 l 1
  424 377 l 1
@@ -30,9 +32,8 @@ SplineSet
  78 0 l 1
  174 684 l 1
  512 684 l 1
- 500 643 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" edotaccent.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" edotaccent.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" edotaccent.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

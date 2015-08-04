@@ -1,34 +1,35 @@
-
 StartChar: idieresis
-Encoding: 239 239 181
+Encoding: 239 239 484
 Width: 253
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G<88.2012 92.2012 88.2012 88.2012> 497.21 20G 678.35 14.72
-VStem: 93.35 14.78 243.98 14.79
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 168 609 basechar 0
-AnchorPoint: "Anchor-8" 102 0 basechar 0
+HStem: 0 21G<88 92 88 88> 497 20G<160 164 164 164> 678 15<108.5 112.5 259 263.5> 686 7
+VStem: 103 15<684 687.5 684 688>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 188 693 basechar 0
+AnchorPoint: "Anchor-11" 102 0 basechar 0
+AnchorPoint: "Anchor-10" 90 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-100.85 693.07 m 0
- 105.779 693.07 108.271 689.42 108.131 685.57 c 0
- 107.98 681.851 105.41 678.351 100.63 678.351 c 0
- 95.7695 678.351 93.1992 682.001 93.3496 685.851 c 0
- 93.4893 689.57 96.1396 693.07 100.85 693.07 c 0
-251.561 693.07 m 0
- 256.41 693.07 258.911 689.42 258.771 685.57 c 0
- 258.621 681.851 256.051 678.351 251.341 678.351 c 0
- 246.411 678.351 243.841 682.001 243.98 685.851 c 0
- 244.131 689.57 246.771 693.07 251.561 693.07 c 0
-92.2012 0 m 1
- 88.2012 -0 l 1
- 160.352 517.21 l 1
- 164.352 517.21 l 1
- 92.2012 0 l 1
+111 693 m 0xd8
+ 116 693 118 689 118 686 c 0
+ 118 682 115 678 110 678 c 0
+ 106 678 103 682 103 686 c 0
+ 103 690 106 693 111 693 c 0xd8
+261 693 m 0xe8
+ 266 693 269 689 269 686 c 0
+ 268 682 266 678 261 678 c 0
+ 256 678 254 682 254 686 c 0
+ 254 690 257 693 261 693 c 0xe8
+164 517 m 1
+ 92 0 l 1
+ 88 0 l 1
+ 160 517 l 1
+ 164 517 l 1
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" idieresis.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 28 subtable" idieresis.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" idieresis.sc
 EndChar

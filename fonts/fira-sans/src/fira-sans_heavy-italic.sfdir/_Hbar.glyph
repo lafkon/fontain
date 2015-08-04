@@ -1,19 +1,21 @@
-
 StartChar: Hbar
-Encoding: 294 294 41
+Encoding: 294 294 108
 Width: 669
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G<16 218 16 16 373 575 373 373> 281 158<279 411 257 434> 495 106<51 85 36 100 302 442 659 693> 495 201<36 315 36 315 287 287 287 315 113 442 644 672 644 644>
+HStem: 0 21G<16 218 16 16 373 575 373 373> 281 158<279 411 257 434> 495 106<51 86 36 101 302 442 659 693> 495 201<36 315 36 315 287 287 287 315 114 442 644 672 644 644>
 VStem: 16 692<0 601>
+AnchorPoint: "Anchor-14" 345 348 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 393 696 basechar 0
 AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" -40 534 basechar 0
-AnchorPoint: "Anchor-9" 393 696 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 295 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-693 495 m 1xd8
+708 601 m 1xe8
+ 693 495 l 1
  644 495 l 1
  575 0 l 1
  373 0 l 1
@@ -21,11 +23,11 @@ SplineSet
  257 281 l 1
  218 0 l 1
  16 0 l 1
- 85 495 l 1
+ 86 495 l 1
  36 495 l 1xd8
  51 601 l 1
- 100 601 l 1xe8
- 113 696 l 1
+ 101 601 l 1xe8
+ 114 696 l 1
  315 696 l 1xd8
  302 601 l 1
  457 601 l 1xe8
@@ -33,14 +35,13 @@ SplineSet
  672 696 l 1xd8
  659 601 l 1
  708 601 l 1xe8
- 693 495 l 1xd8
-442 495 m 1
+434 439 m 1
+ 442 495 l 1
  287 495 l 1
  279 439 l 1
  434 439 l 1
- 442 495 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" hbar.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" hbar.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" hbar.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

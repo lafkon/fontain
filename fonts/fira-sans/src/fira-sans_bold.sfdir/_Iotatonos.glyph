@@ -1,30 +1,32 @@
-
 StartChar: Iotatonos
-Encoding: 906 906 718
-Width: 294
+Encoding: 906 906 1520
+Width: 492
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G<65 229 65 65> 673 20G<44 44 65 229 229 229>
-VStem: 65 164<0 693>
-AnchorPoint: "Anchor-7" 0 0 basechar 0
-AnchorPoint: "Anchor-6" 61 693 basechar 0
-AnchorPoint: "Anchor-5" 210 0 basechar 0
-AnchorPoint: "Anchor-4" 147 693 basechar 0
+HStem: 0 21G<264 428 264 264> 673 20G<237 237 264 428 428 428>
+VStem: 264 164<0 693 0 693>
+AnchorPoint: "Anchor-9" 0 0 basechar 0
+AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-7" 409 0 basechar 0
+AnchorPoint: "Anchor-6" 345 0 basechar 0
+AnchorPoint: "Anchor-5" 345 693 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-44 693 m 1
- -43 467 l 1
- -145 484 l 1
- -107 724 l 1
- 44 693 l 1
-229 0 m 1
- 65 0 l 1
- 65 693 l 1
- 229 693 l 1
- 229 0 l 1
+86 724 m 1
+ 237 693 l 1
+ 150 467 l 1
+ 49 484 l 1
+ 86 724 l 1
+428 693 m 1
+ 428 0 l 1
+ 264 0 l 1
+ 264 693 l 1
+ 428 693 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" iotatonos.sc
-Substitution2: "'aalt' Access All Alternates lookup 0 subtable" iotatonos.sc
+Substitution2: "Single Substitution lookup 41 subtable" Iota
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" iotatonos.sc
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" iotatonos.sc Iota
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

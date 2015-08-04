@@ -1,14 +1,16 @@
-
 StartChar: notequal.osf
-Encoding: 1114540 -1 1140
+Encoding: 1114902 -1 2284
 Width: 530
+GlyphClass: 2
 Flags: MW
 HStem: 147 150<40 90 40 180 311 490 40 221> 367 150<40 222 40 312 442 490 40 353> 568 20G<485 485>
 VStem: 40 450<147 297 147 297 367 517 147 517>
 LayerCount: 2
+Back
 Fore
 SplineSet
-353 367 m 1
+490 367 m 1
+ 353 367 l 1
  311 297 l 1
  490 297 l 1
  490 147 l 1
@@ -28,9 +30,8 @@ SplineSet
  442 517 l 1
  490 517 l 1
  490 367 l 1
- 353 367 l 1
 EndSplineSet
-Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" notequal.tosf
-Substitution2: "'lnum' Lining Figures lookup 19 subtable" notequal
+Substitution2: "'tnum' Tabular Numbers lookup 24 subtable" notequal.tosf
+Substitution2: "'lnum' Lining Figures lookup 22 subtable" notequal
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" notequal notequal.tosf
 EndChar

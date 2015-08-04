@@ -1,35 +1,36 @@
-
 StartChar: racute
-Encoding: 341 341 224
+Encoding: 341 341 608
 Width: 361
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G 497.21 20G 502.14 20G 518.36 8.85001
-VStem: 124.28 212.57
-AnchorPoint: "Anchor-11" 126 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 230 517 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+HStem: 0 21G<124 128 124 124> 497 20G<124 128 128 128> 518 9
+VStem: 124 213<0 522 517 522>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 230 748 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 126 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-141.36 661.21 m 1xa8
- 139.641 664.57 l 1
- 307.501 747.5 l 1
- 309.431 743.36 l 1
- 141.36 661.21 l 1xa8
-290.431 527.221 m 0x98
- 310.711 527.221 324.001 525.141 336.851 522.141 c 1
- 336.421 518.36 l 1
- 323.421 521.431 310.211 523.431 290.421 523.431 c 0x98
- 209.44 523.431 162.12 480.101 128.28 365.791 c 1
- 128.28 0.000976562 l 1
- 124.28 0.000976562 l 1
- 124.28 517.211 l 1
- 127.99 517.211 l 1xc8
- 128.061 376.741 l 1
- 160.7 484.841 209.351 527.221 290.431 527.221 c 0x98
+310 743 m 1
+ 142 661 l 1
+ 140 665 l 1
+ 308 748 l 1
+ 310 743 l 1
+290 527 m 0
+ 311 527 324 525 337 522 c 1
+ 336 518 l 1
+ 323 521 310 523 290 523 c 0xb0
+ 209 523 162 480 128 366 c 1
+ 128 0 l 1
+ 124 0 l 1
+ 124 517 l 1
+ 128 517 l 1xd0
+ 128 377 l 1
+ 161 485 209 527 290 527 c 0
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" racute.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" racute.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" racute.sc
 EndChar

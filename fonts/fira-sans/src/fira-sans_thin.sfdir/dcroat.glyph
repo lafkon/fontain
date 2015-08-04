@@ -1,39 +1,44 @@
-
 StartChar: dcroat
-Encoding: 273 273 156
+Encoding: 273 273 396
 Width: 579
 GlyphClass: 2
 Flags: MW
-HStem: -10 21<218.5 311 218.5 312.5> 0 21G<437 456 437 437> 509 20<226 318.5> 629 20<264 434 264 264 456 531> 629 107<264 434 434 531 434 456> 713 20G<456 456>
-VStem: 78 23<179.5 258 179.5 338> 434 22<89 89 123 418 418 418 446 629 0 629 649 733>
+HStem: -10 21<218.5 311 218.5 313> 0 21G<437 456 437 437> 509 20<226 318.5> 629 20<261 434 261 434 456 531> 629 107<261 434 434 531 434 456> 713 20G<456 456>
+VStem: 78 23<179.5 258 179.5 338> 434 22<123 417 417 417 446 629 0 629 649 733>
+AnchorPoint: "Anchor-14" 292 260 basechar 0
+AnchorPoint: "Anchor-13" 492 732 basechar 0
+AnchorPoint: "Anchor-12" 279 732 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 295 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-531 649 m 1xb7
+456 649 m 1xb7
+ 531 649 l 1
  531 629 l 1
  456 629 l 1
  456 0 l 1
  437 0 l 1x77
- 434 89 l 1
- 404 36 356 -10 269 -10 c 0
+ 435 90 l 1
+ 405 37 357 -10 269 -10 c 0
  154 -10 78 89 78 258 c 0
  78 418 152 529 280 529 c 0
- 361 529 407 487 434 446 c 1
+ 361 529 408 486 434 446 c 1
  434 629 l 1
- 264 629 l 1
+ 261 629 l 1
  261 649 l 1
  434 649 l 1xb7
  434 736 l 1xab
  456 733 l 1
- 456 649 l 1
- 531 649 l 1xb7
+ 456 649 l 1xb7
 270 11 m 0xb7
- 352 11 399 54 434 123 c 1
- 434 418 l 1
- 404 465 357 509 280 509 c 0
- 172 509 100 413 101 258 c 1
+ 352 11 398 54 434 123 c 1
+ 434 417 l 1
+ 405 465 357 509 280 509 c 0
+ 172 509 100 413 101 258 c 0
  101 101 167 11 270 11 c 0xb7
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" dcroat.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" dcroat.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" dcroat.sc
 EndChar

@@ -1,39 +1,40 @@
-
 StartChar: Zcaron
-Encoding: 381 381 126
+Encoding: 381 381 308
 Width: 505
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G<8.5791 401.509 8.5791 8.5791> 660.14 20G 676.21 92.5
-VStem: 8.58 504.92
+HStem: 0 21G<9 9 9 402> 660 20G<141 514 514 514> 676 93<319 319 319 508>
+VStem: 9 505
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 333 847 basechar 0
 AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 313 680 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 208 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-441.85 844.57 m 1xb0
- 320.64 764.5 l 1
- 317.64 764.5 l 1
- 220.5 844.57 l 1
- 223.5 846.71 l 1
- 319.43 768.71 l 1
- 439 846.78 l 1
- 441.85 844.57 l 1xb0
-513.29 676.35 m 1xd0
- 14.4385 4 l 1
- 402.148 4 l 1
- 401.509 0 l 1
- 8.5791 -0 l 1
- 8.85938 3.84961 l 1
- 507.72 676.21 l 1xb0
- 140.43 676.21 l 1
- 140.72 680.14 l 1
- 513.5 680.14 l 1
- 513.29 676.35 l 1xd0
+439 847 m 1xb0
+ 441 845 l 1
+ 320 765 l 1
+ 317 765 l 1
+ 220 845 l 1
+ 223 847 l 1
+ 319 769 l 1
+ 439 847 l 1xb0
+9 0 m 1
+ 9 4 l 1
+ 508 676 l 1xb0
+ 140 676 l 1
+ 141 680 l 1
+ 514 680 l 1
+ 513 676 l 1xd0
+ 14 4 l 1
+ 402 4 l 1
+ 402 0 l 1
+ 9 0 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" zcaron.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" zcaron.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" zcaron.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

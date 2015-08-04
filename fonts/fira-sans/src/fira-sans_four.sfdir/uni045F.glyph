@@ -1,32 +1,35 @@
-
 StartChar: uni045F
-Encoding: 1119 1119 542
+Encoding: 1119 1119 1242
 Width: 568
 GlyphClass: 2
 Flags: MW
-HStem: -131.72 135.58 0 21G<124.28 282.07 124.28 124.28 286.28 443.21 286.28 286.28> 497.21 20G
-VStem: 124.28 162 282.46 160.75
-AnchorPoint: "Anchor-3" 284 0 basechar 0
+HStem: -132 136<283 286 283 283> 0 21G<124 282 124 124 286 443 286 286> 497 20G<124 128 128 128 439 443 443 443>
+VStem: 124 162<-132 4 -132 517> 282.5 160.5
+AnchorPoint: "Anchor-4" 0 0 basechar 0
+AnchorPoint: "Anchor-3" 0 0 basechar 0
 AnchorPoint: "Anchor-2" 0 0 basechar 0
 AnchorPoint: "Anchor-1" 0 0 basechar 0
-AnchorPoint: "Anchor-0" 0 0 basechar 0
+AnchorPoint: "Anchor-0" 284 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-443.21 0 m 1x68
- 286.28 0 l 1x70
- 286.28 -131.72 l 1
- 282.851 -131.72 l 1xa8
- 282.07 0 l 1x68
- 124.28 -0 l 1x70
- 124.28 517.21 l 1
- 128.28 517.21 l 1
- 128.28 3.86035 l 1xb0
- 439.21 3.86035 l 1xa8
- 439.21 517.21 l 1
- 443.21 517.21 l 1
- 443.21 0 l 1x68
+443 517 m 1xa8
+ 443 0 l 1x68
+ 286 0 l 1x70
+ 286 -132 l 1
+ 283 -132 l 1xa8
+ 282 0 l 1x68
+ 124 0 l 1x70
+ 124 517 l 1
+ 128 517 l 1
+ 128 4 l 1xb0
+ 230 4 l 1
+ 286 4 l 1
+ 439 4 l 1
+ 439 517 l 1
+ 443 517 l 1xa8
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" uni045F.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" uni045F.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uni045F.sc
 EndChar

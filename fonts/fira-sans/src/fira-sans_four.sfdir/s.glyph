@@ -1,34 +1,36 @@
-
 StartChar: s
-Encoding: 115 115 227
+Encoding: 115 115 623
 Width: 457
 GlyphClass: 2
 Flags: MW
-HStem: -9.07001 21G 507.21 20G
-VStem: 59.29 328.71
-AnchorPoint: "Anchor-11" 229 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 234 517 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+HStem: -9 21G<187.5 273> 507 20G<184 257>
+VStem: 59 329<57 173>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 234 517 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 229 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-224.5 527.21 m 0
- 289.22 527.21 332.501 509.21 373.151 474.85 c 1
- 370.932 471.5 l 1
- 329.651 506.43 288.001 523.359 224.571 523.359 c 0
- 145.722 523.359 80.502 475.069 80.502 404.569 c 0
- 80.502 339.069 122.222 307.569 231.502 276.859 c 0
- 345.792 244.859 388.002 215.499 388.002 130.359 c 0
- 388.002 44.3594 318.862 -9.07031 227.072 -9.07031 c 0
- 147.862 -9.07031 100.572 19 59.292 56.9297 c 1
- 61.502 60.21 l 1
- 102.932 22.2803 148.651 -5.21973 227.081 -5.21973 c 0
- 316.431 -5.21973 383.931 46.9307 383.931 130.36 c 0
- 383.931 214.431 341.721 241.36 229.57 273.29 c 0
- 119.57 304.14 76.4307 336.359 76.4307 404.64 c 0
- 76.4307 477 142.78 527.21 224.5 527.21 c 0
+225 527 m 0
+ 289 527 333 509 373 475 c 1
+ 371 472 l 1
+ 330 506 288 523 225 523 c 0
+ 146 523 81 475 81 405 c 0
+ 81 339 122 308 232 277 c 0
+ 346 245 388 216 388 130 c 0
+ 388 44 319 -9 227 -9 c 0
+ 148 -9 101 19 59 57 c 1
+ 62 60 l 1
+ 103 22 149 -5 227 -5 c 0
+ 316 -5 384 47 384 130 c 0
+ 384 214 342 241 230 273 c 0
+ 120 304 76 336 76 405 c 0
+ 76 477 143 527 225 527 c 0
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" s.sc
-Substitution2: "'aalt' Access All Alternates lookup 0 subtable" s.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" s.sc
+Substitution2: "'sups' Superscript lookup 14 subtable" uni02E2
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" uni02E2 s.sc
 EndChar

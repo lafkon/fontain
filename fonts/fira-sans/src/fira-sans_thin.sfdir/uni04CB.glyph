@@ -1,27 +1,29 @@
-
 StartChar: uni04CB
-Encoding: 1227 1227 488
+Encoding: 1227 1227 1163
 Width: 575
 GlyphClass: 2
 Flags: MW
-HStem: 0 21<393 430 369 452 393 393> 231 21<191 280.5 191 280.5> 661 20G<53 76 76 76 430 452 452 452>
-VStem: 53 23<414 416 416 681> 369 20.5 430 22<21 319 319 319 345 681 0 681>
+HStem: 0 21<401 430 377 452 401 401> 231 21<191 280> 661 20G<53 76 76 76 430 452 452 452>
+VStem: 53 23<414 416 416 681> 377 20.5 430 22<21 318 318 318 345 681 0 681>
+AnchorPoint: "Anchor-4" 0 0 basechar 0
 AnchorPoint: "Anchor-3" 0 0 basechar 0
-AnchorPoint: "Anchor-2" 0 0 basechar 0
-AnchorPoint: "Anchor-1" 253 681 basechar 0
+AnchorPoint: "Anchor-2" 253 681 basechar 0
+AnchorPoint: "Anchor-1" 0 0 basechar 0
 AnchorPoint: "Anchor-0" 0 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-452 681 m 1
+430 681 m 1
+ 452 681 l 1
  452 0 l 1
- 393 0 l 1
- 386 -138 l 1
- 369 -138 l 1
- 369 21 l 1
+ 401 0 l 1
+ 394 -138 l 1
+ 377 -138 l 1
+ 377 21 l 1
  430 21 l 1
- 430 319 l 1
- 384 266 323 231 238 231 c 0
+ 430 318 l 1
+ 384 266 322 231 238 231 c 0
  129 231 53 299 53 414 c 2
  53 681 l 1
  76 681 l 1
@@ -29,9 +31,8 @@ SplineSet
  76 312 141 252 241 252 c 0
  320 252 388 289 430 345 c 1
  430 681 l 1
- 452 681 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" uni04CC.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" uni04CC.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uni04CC.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

@@ -1,37 +1,38 @@
-
 StartChar: Tcaron
-Encoding: 356 356 98
+Encoding: 356 356 240
 Width: 472
 GlyphClass: 2
 Flags: MW
-HStem: -0.00999451 21G 660.14 20G 676.14 92.57
-VStem: 78.36 433.71
-AnchorPoint: "Anchor-11" 200 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 282 680 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+HStem: 0 21G<198 202 198 198> 660 20G<79 512 512 512> 676 93<78 302 302 302 302 511 297 302>
+VStem: 78 434<676 680>
+AnchorPoint: "Anchor-14" 248 341 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 316 847 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 200 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-411.14 844.57 m 1xb0
- 289.93 764.5 l 1
- 286.93 764.5 l 1
- 189.779 844.57 l 1
- 192.779 846.71 l 1
- 288.709 768.71 l 1
- 408.279 846.78 l 1
- 411.14 844.57 l 1xb0
-511.43 676.14 m 1
- 296.93 676.14 l 1
- 202.14 -0.0107422 l 1
- 198.069 -0.0107422 l 1
- 292.859 676.14 l 1xb0
- 78.3594 676.14 l 1
- 78.6396 680.14 l 1xd0
- 512.069 680.14 l 1
- 511.43 676.14 l 1
+422 847 m 1xb0
+ 424 845 l 1
+ 303 765 l 1
+ 300 765 l 1
+ 203 845 l 1
+ 206 847 l 1
+ 302 769 l 1
+ 422 847 l 1xb0
+512 680 m 1xd0
+ 511 676 l 1xd0
+ 297 676 l 1
+ 202 0 l 1
+ 198 0 l 1
+ 293 676 l 1xb0
+ 78 676 l 1
+ 79 680 l 1
+ 512 680 l 1xd0
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" tcaron.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" tcaron.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" tcaron.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

@@ -1,14 +1,16 @@
-
 StartChar: product.osf
-Encoding: 1114546 -1 1146
+Encoding: 1114908 -1 2290
 Width: 605
+GlyphClass: 2
 Flags: MW
 HStem: -222 21G<98 98 360 360> -205 21G<248 248 509 509> 556 120<31 98 31 575 248 360 248 248 509 575 509 509>
 VStem: 98 150<-205 556 -205 556 -205 556> 360 149<-205 556 -205 556 -205 556>
 LayerCount: 2
+Back
 Fore
 SplineSet
-509 556 m 1x78
+575 556 m 1x78
+ 509 556 l 1
  509 -205 l 1x78
  360 -222 l 1xb8
  360 556 l 1
@@ -19,10 +21,9 @@ SplineSet
  31 556 l 1
  31 676 l 1
  575 676 l 1
- 575 556 l 1
- 509 556 l 1x78
+ 575 556 l 1x78
 EndSplineSet
-Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" product.tosf
-Substitution2: "'lnum' Lining Figures lookup 19 subtable" product
+Substitution2: "'tnum' Tabular Numbers lookup 24 subtable" product.tosf
+Substitution2: "'lnum' Lining Figures lookup 22 subtable" product
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" product product.tosf
 EndChar

@@ -1,11 +1,12 @@
-
 StartChar: ampersand
-Encoding: 38 38 1219
+Encoding: 38 38 2373
 Width: 734
+GlyphClass: 2
 Flags: MW
 HStem: -9 21G<253 360> 0 21G<654 654> 671 20G<265.5 347>
 VStem: 119 535<0 204.5>
 LayerCount: 2
+Back
 Fore
 SplineSet
 306 691 m 0x70
@@ -24,7 +25,7 @@ SplineSet
  190 436 163 473 163 549 c 0
  162 631 225 691 306 691 c 0x70
 306 689 m 0
- 225 689 165 631 165 549 c 1
+ 225 689 165 631 165 549 c 0
  166 473 191 438 272 362 c 1
  377 422 442 463 442 550 c 0
  442 630 388 689 306 689 c 0
@@ -34,4 +35,6 @@ SplineSet
  410 -7 480 35 531 115 c 1
  272 360 l 1
 EndSplineSet
+Substitution2: "'ss03' Style Set 3 lookup 35 subtable" ampersand.ss03
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" ampersand.ss03
 EndChar

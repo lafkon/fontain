@@ -1,29 +1,31 @@
-
 StartChar: uni04DC
-Encoding: 1244 1244 494
+Encoding: 1244 1244 1170
 Width: 987
 GlyphClass: 2
 Flags: MW
 HStem: 0 21G<-20 223 -20 -20 390 597 390 390 759 1006 759 759> 284 153<353 390 353 390 346 390 597 634> 678 20G<-2 218 218 218 390 597 597 597 771 988 988 988> 754 201<338 395.5 590.5 648.5>
 VStem: 262 207<827 883> 390 207<0 284 0 284 437 698> 515 207<827 883>
+AnchorPoint: "Anchor-4" 0 0 basechar 0
 AnchorPoint: "Anchor-3" 0 0 basechar 0
-AnchorPoint: "Anchor-2" 0 0 basechar 0
-AnchorPoint: "Anchor-1" 488 883 basechar 0
+AnchorPoint: "Anchor-2" 495 955 basechar 0
+AnchorPoint: "Anchor-1" 0 0 basechar 0
 AnchorPoint: "Anchor-0" 0 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-366 955 m 0xfa
- 425 955 469 911 469 855 c 0
+366 955 m 0xf4
+ 425 955 469 911 469 855 c 0xf4
  469 799 425 754 366 754 c 0
- 310 754 262 799 262 855 c 0
- 262 911 310 955 366 955 c 0xfa
-619 955 m 0
- 678 955 722 911 722 855 c 0
+ 310 754 262 799 262 855 c 0xf8
+ 262 911 310 955 366 955 c 0xf4
+619 955 m 0xf2
+ 678 955 722 911 722 855 c 0xf2
  722 799 678 754 619 754 c 0
- 562 754 515 799 515 855 c 0
- 515 911 562 955 619 955 c 0
-825 392 m 1
+ 562 754 515 799 515 855 c 0xf4
+ 515 911 562 955 619 955 c 0xf2
+988 698 m 1xf4
+ 825 392 l 1
  1006 0 l 1
  759 0 l 1
  639 284 l 1
@@ -42,10 +44,9 @@ SplineSet
  390 698 l 1
  597 698 l 1
  597 437 l 1
- 634 437 l 1xf4
+ 634 437 l 1
  771 698 l 1
- 988 698 l 1
- 825 392 l 1
+ 988 698 l 1xf4
 EndSplineSet
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

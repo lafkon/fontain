@@ -1,38 +1,39 @@
-
 StartChar: Amacron
-Encoding: 256 256 7
+Encoding: 256 256 27
 Width: 557
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G<30.71 45.1396 30.71 30.71 510.85 510.85 510.85 526.14> 207 13.57 669 11.85 812.43 13.57
-VStem: 30.71 495.43
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 153 681 basechar 0
-AnchorPoint: "Anchor-9" 278 681 basechar 0
-AnchorPoint: "Anchor-8" 536 0 basechar 0
+HStem: 0 21G<31 45 31 31 511 526 511 511> 207 14<122 434 122 439 117 434> 669 12<278 278> 812 14<178 378 178 378>
+VStem: 31 495<0 0>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 280 826 basechar 0
+AnchorPoint: "Anchor-11" 536 0 basechar 0
+AnchorPoint: "Anchor-10" 278 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-378.57 812.43 m 1
- 178.28 812.43 l 1
- 178.28 826 l 1
- 378.57 826 l 1
- 378.57 812.43 l 1
-438.76 207 m 1
- 117.14 207 l 1
- 45.1396 0 l 1
- 30.71 -0 l 1
- 269.14 680.85 l 1
- 286.569 680.85 l 1
- 526.14 0 l 1
- 510.85 0 l 1
- 438.76 207 l 1
-434.029 220.57 m 1
- 277.859 669 l 1
- 121.869 220.57 l 1
- 434.029 220.57 l 1
+378 826 m 1
+ 378 812 l 1
+ 178 812 l 1
+ 178 826 l 1
+ 378 826 l 1
+511 0 m 1
+ 439 207 l 1
+ 117 207 l 1
+ 45 0 l 1
+ 31 0 l 1
+ 269 681 l 1
+ 287 681 l 1
+ 526 0 l 1
+ 511 0 l 1
+122 221 m 1
+ 434 221 l 1
+ 278 669 l 1
+ 122 221 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" amacron.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" amacron.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" amacron.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

@@ -1,26 +1,27 @@
-
 StartChar: ecaron
-Encoding: 283 283 160
+Encoding: 283 283 413
 Width: 559
 GlyphClass: 2
 Flags: MW
 HStem: -22 155<303.5 347.5 303.5 357> 206 122<232 338 230 552 232 232> 421 136<271 311> 736 20G<74 74 499 499>
-VStem: 8 222<328 328 328 345> 338 219<328 335 335 335>
-AnchorPoint: "Anchor-11" 294 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 286 536 basechar 0
-AnchorPoint: "Anchor-8" 468 12 basechar 0
+VStem: 8 222<328 328 328 345> 8 549<264.5 345>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 289 840 basechar 0
+AnchorPoint: "Anchor-11" 468 12 basechar 0
+AnchorPoint: "Anchor-10" 294 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-221 596 m 1
+352 596 m 1x74
+ 221 596 l 1
  74 756 l 1
  147 840 l 1
  287 741 l 1
  426 840 l 1
  499 756 l 1
- 352 596 l 1
- 221 596 l 1
+ 352 596 l 1x74
 557 273 m 0
  557 256 555 227 552 206 c 1
  232 206 l 1
@@ -28,15 +29,15 @@ SplineSet
  365 133 401 148 447 180 c 1
  537 60 l 1
  483 17 406 -22 308 -22 c 0
- 101 -22 8 103 8 268 c 0
+ 101 -22 8 103 8 268 c 0xf8
  8 422 98 557 285 557 c 0
  446 557 557 456 557 273 c 0
 338 328 m 1
- 338 335 l 1
+ 338 335 l 2
  337 378 333 421 289 421 c 0
- 253 421 236 401 230 328 c 1
+ 253 421 235 401 230 328 c 1x78
  338 328 l 1
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" ecaron.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" ecaron.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" ecaron.sc
 EndChar

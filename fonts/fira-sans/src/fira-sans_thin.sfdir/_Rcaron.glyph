@@ -1,45 +1,46 @@
-
 StartChar: Rcaron
-Encoding: 344 344 88
+Encoding: 344 344 227
 Width: 572
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G<123 146 123 123 499 499 499 528> 324 21<146 287 287 313 146 287> 660 21<146 269 146 146> 760 24<286 292 292 292 292 298>
-VStem: 123 23<0 324 0 345 345 660> 473 23<448.5 553>
-AnchorPoint: "Anchor-11" 304 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 287 681 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+HStem: 0 21G<123 146 123 123 499 528 499 499> 324 21<146 287 287 313 146 287> 660 21<146 269 146 146> 760 24<287 287 287 293 281 287>
+VStem: 123 23<0 324 345 660> 473 23<448.5 553>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 289 863 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 304 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-286 760 m 1
- 166 850 l 1
- 177 863 l 1
- 292 784 l 1
- 406 863 l 1
- 418 850 l 1
- 298 760 l 1
- 286 760 l 1
-313 324 m 1
+293 760 m 1
+ 281 760 l 1
+ 161 850 l 1
+ 172 863 l 1
+ 287 784 l 1
+ 401 863 l 1
+ 413 850 l 1
+ 293 760 l 1
+499 0 m 1
+ 313 324 l 1
  146 324 l 1
  146 0 l 1
  123 0 l 1
  123 681 l 1
  272 681 l 2
  431 681 496 616 496 504 c 0
- 496 393 428 344 337 327 c 1
+ 496 393 428 344 338 327 c 1
  528 0 l 1
  499 0 l 1
- 313 324 l 1
-287 345 m 2
+146 345 m 1
+ 287 345 l 2
  398 345 473 393 473 504 c 0
  473 602 420 660 269 660 c 2
  146 660 l 1
  146 345 l 1
- 287 345 l 2
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" rcaron.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" rcaron.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" rcaron.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

@@ -1,30 +1,35 @@
-
 StartChar: P
-Encoding: 80 80 83
-Width: 600
+Encoding: 80 80 211
+Width: 601
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G<6 208 6 6> 217 145<258 304 304 306 238 304> 553 143<285 328 285 285>
-VStem: 409 208<460.5 505.5>
+HStem: 0 21G<7 209 7 7> 217 145<259 305 305 307 239 305> 553 143<286 329 286 286>
+VStem: 410 208<460.5 505.5>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 361 696 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 263 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-349 696 m 2
- 516 696 617 627 617 495 c 0
- 617 370 534 217 306 217 c 2
- 238 217 l 1
- 208 0 l 1
- 6 0 l 1
- 103 696 l 1
- 349 696 l 2
-304 362 m 2
- 389 362 409 438 409 483 c 0
- 409 528 385 553 328 553 c 2
- 285 553 l 1
- 258 362 l 1
- 304 362 l 2
+350 696 m 2
+ 517 696 618 627 618 495 c 0
+ 618 370 535 217 307 217 c 2
+ 239 217 l 1
+ 209 0 l 1
+ 7 0 l 1
+ 104 696 l 1
+ 350 696 l 2
+305 362 m 2
+ 390 362 410 438 410 483 c 0
+ 410 528 386 553 329 553 c 2
+ 286 553 l 1
+ 259 362 l 1
+ 305 362 l 2
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" p.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" p.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" p.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

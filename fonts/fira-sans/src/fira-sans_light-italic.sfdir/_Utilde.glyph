@@ -1,28 +1,30 @@
-
 StartChar: Utilde
-Encoding: 360 360 111
+Encoding: 360 360 280
 Width: 649
 GlyphClass: 2
 Flags: MW
-HStem: -11 52<234.5 349 234.5 363> 665 20G<160 219 219 219 548 608 608 608> 792 47<445 475 445 482.5> 838 46<353 370>
+HStem: -11 52<234.5 349 234.5 363> 665 20G<160 219 219 219 548 608 608 608> 792 47<443 473 443 480.5> 838 46<351 368>
 VStem: 90.92 59.73
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 386 685 basechar 0
-AnchorPoint: "Anchor-8" 378 0 basechar 0
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 618 685 basechar 0
+AnchorPoint: "Anchor-12" 408 885 basechar 0
+AnchorPoint: "Anchor-11" 378 0 basechar 0
+AnchorPoint: "Anchor-10" 288 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-467 792 m 0xe8
- 409 792 387 838 353 838 c 1
- 325 837 311 824 289 796 c 1
- 256 818 l 1
- 283 858 314 884 354 884 c 0xd8
- 402 884 426 839 464 839 c 0
- 486 839 504 853 527 884 c 1
- 561 862 l 1
- 530 813 498 792 467 792 c 0xe8
-542 212 m 2xd8
+465 792 m 0xe8
+ 407 792 385 838 351 838 c 0
+ 323 837 309 824 287 796 c 1
+ 254 818 l 1
+ 281 858 312 884 352 884 c 0xd8
+ 400 884 424 839 462 839 c 0
+ 484 839 502 853 525 884 c 1
+ 559 862 l 1
+ 528 813 496 792 465 792 c 0xe8
+608 685 m 1xd8
+ 542 212 l 2
  523 80 437 -11 289 -11 c 0
  136 -11 76 84 94 216 c 2
  160 685 l 1
@@ -31,10 +33,9 @@ SplineSet
  138 106 178 41 291 41 c 0
  407 41 467 111 482 221 c 2
  548 685 l 1
- 608 685 l 1
- 542 212 l 2xd8
+ 608 685 l 1xd8
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" utilde.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" utilde.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" utilde.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

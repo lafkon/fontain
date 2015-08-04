@@ -1,37 +1,38 @@
-
 StartChar: Tbar
-Encoding: 358 358 97
+Encoding: 358 358 248
 Width: 457
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G 372.57 307.57
-VStem: 112.14 126.07 234.14 128.22
-AnchorPoint: "Anchor-11" 236 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 223 680 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+HStem: 0 21G<234 238 234 234> 373 307<111 234 111 111 238 361 238 238>
+VStem: 111 127<0 376 0 376> 234 127<0 376 373 376 373 676>
+AnchorPoint: "Anchor-14" 236 341 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 236 680 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 236 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-238.21 676.14 m 1xe0
- 238.211 376.43 l 1xe0
- 362.361 376.43 l 1
- 362.361 372.569 l 1xd0
- 238.211 372.569 l 1xe0
- 238.211 -0.000976562 l 1
- 234.141 -0.000976562 l 1
- 234.141 372.569 l 1xd0
- 112.141 372.569 l 1
- 112.141 376.43 l 1xe0
- 234.141 376.43 l 1
- 234.141 676.14 l 1xd0
- 19.6406 676.14 l 1
- 19.6406 680.14 l 1
- 453.07 680.14 l 1
- 452.71 676.14 l 1
- 238.21 676.14 l 1xe0
+453 676 m 1xe0
+ 238 676 l 1
+ 238 376 l 1xe0
+ 361 376 l 1
+ 361 373 l 1xd0
+ 238 373 l 1xe0
+ 238 0 l 1
+ 234 0 l 1
+ 234 373 l 1xd0
+ 111 373 l 1
+ 111 376 l 1xe0
+ 234 376 l 1
+ 234 676 l 1xd0
+ 20 676 l 1
+ 20 680 l 1
+ 453 680 l 1
+ 453 676 l 1xe0
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" tbar.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" tbar.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" tbar.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

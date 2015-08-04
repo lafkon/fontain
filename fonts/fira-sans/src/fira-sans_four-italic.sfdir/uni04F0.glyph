@@ -1,41 +1,42 @@
-
 StartChar: uni04F0
-Encoding: 1264 1264 503
+Encoding: 1264 1264 1186
 Width: 485
 GlyphClass: 2
 Flags: MW
-HStem: -3.57001 21G 660.14 20G 804.35 14.72
-VStem: 247.49 14.78 398.13 14.78
+HStem: -4 21G<64 64> 660 20G<79 83 83 83 525 530 530 530> 804 15<252.5 256.5 403 407.5> 812 7
+VStem: 247 15<810 813.5 810 814>
+AnchorPoint: "Anchor-4" 0 0 basechar 0
 AnchorPoint: "Anchor-3" 0 0 basechar 0
-AnchorPoint: "Anchor-2" 0 0 basechar 0
-AnchorPoint: "Anchor-1" 322 735 basechar 0
+AnchorPoint: "Anchor-2" 332 819 basechar 0
+AnchorPoint: "Anchor-1" 0 0 basechar 0
 AnchorPoint: "Anchor-0" 0 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-255 819.07 m 0
- 259.93 819.07 262.421 815.42 262.271 811.57 c 0
- 262.131 807.851 259.561 804.351 254.771 804.351 c 0
- 249.921 804.351 247.351 808.001 247.49 811.851 c 0
- 247.641 815.57 250.28 819.07 255 819.07 c 0
-405.701 819.07 m 0
- 410.562 819.07 413.061 815.42 412.91 811.57 c 0
- 412.771 807.851 410.2 804.351 405.48 804.351 c 0
- 400.551 804.351 397.98 808.001 398.131 811.851 c 0
- 398.271 815.57 400.921 819.07 405.701 819.07 c 0
-254.7 194.78 m 2
- 167.271 39.6299 149.99 16.5 65.2705 -7.21973 c 1
- 63.9209 -3.56934 l 1
- 148.061 20.6406 161.921 39.5703 250.771 195.931 c 1
- 249.271 195.86 l 1
- 78.6309 680.141 l 1
- 82.8408 680.141 l 1
- 252.561 198.501 l 1
- 525.271 680.141 l 1
- 529.561 680.141 l 1
- 254.7 194.78 l 2
+255 819 m 0xd8
+ 260 819 262 815 262 812 c 0
+ 262 808 259 804 254 804 c 0
+ 250 804 247 808 247 812 c 0
+ 247 816 250 819 255 819 c 0xd8
+405 819 m 0xe8
+ 410 819 413 815 413 812 c 0
+ 412 808 410 804 405 804 c 0
+ 400 804 398 808 398 812 c 0
+ 398 816 401 819 405 819 c 0xe8
+530 680 m 1
+ 255 195 l 2
+ 167 40 150 17 65 -7 c 1
+ 64 -4 l 1
+ 148 21 162 40 251 196 c 1
+ 249 196 l 1
+ 79 680 l 1
+ 83 680 l 1
+ 253 199 l 1
+ 525 680 l 1
+ 530 680 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" uni04F1.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" uni04F1.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uni04F1.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

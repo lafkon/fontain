@@ -1,37 +1,26 @@
-
 StartChar: tilde
-Encoding: 732 732 1262
+Encoding: 732 732 2538
 Width: 305
 Flags: MW
-HStem: 667.14 20G 709.96 20G 710.19 20G 711.07 20G
-VStem: 31.37 242.43
+HStem: 669 20G<187 222> 685 48 713 20G<81.5 115>
+VStem: 30 245<696 725>
 LayerCount: 2
+Back
 Fore
 SplineSet
-84.6104 730.19 m 1x98
- 88.4404 730.78 92.5098 731.07 96.8594 731.07 c 0
- 100.039 731.07 103.249 730.67 106.489 729.95 c 1
- 103.279 730.63 100.069 731 96.8594 731 c 0
- 92.4697 731 88.4199 730.73 84.6104 730.19 c 1x98
-31.3701 695.07 m 1xa8
- 50.6104 716.181 63.9902 727.25 84.6201 730.19 c 1
- 64.2705 727.08 50.3203 715.61 31.8701 694.931 c 1
- 31.3701 695.07 l 1xa8
-160.19 703.319 m 1xc8
- 141.19 713.819 123.361 726.229 106.501 729.959 c 1
- 123.841 726.319 141.36 713.869 160.19 703.319 c 1xc8
-273.792 725.498 m 1
- 258.682 705.888 246.233 694.677 230.623 689.907 c 1
- 246.183 694.777 258.862 706.138 273.292 725.638 c 1
- 273.792 725.498 l 1
-160.193 703.317 m 1
- 176.023 694.567 192.674 687.138 210.304 687.138 c 0
- 217.804 687.138 224.464 688.018 230.624 689.897 c 1
- 224.474 687.978 217.863 687.067 210.523 687.067 c 0
- 192.403 687.067 175.844 694.537 160.193 703.317 c 1
+208 685 m 0x50
+ 165 685 133 729 95 729 c 0x50
+ 70 729 55 718 33 694 c 1
+ 30 696 l 1
+ 53 721 68 733 95 733 c 0
+ 135 733 166 689 208 689 c 0xb0
+ 236 689 252 700 272 726 c 1
+ 275 725 l 1
+ 254 697 237 685 208 685 c 0x50
 EndSplineSet
-Substitution2: "'case' Case-Sensitive Forms lookup 25 subtable" tilde.case
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" tilde.sc
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" tilde.sc
+Substitution2: "Single Substitution lookup 41 subtable" tilde.case
+Substitution2: "'case' Case-Sensitive Forms lookup 28 subtable" tilde.case
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" tilde.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" tilde.sc
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" tilde.sc tilde.case
 EndChar

@@ -1,19 +1,21 @@
-
 StartChar: Ncommaaccent
-Encoding: 325 325 68
+Encoding: 325 325 165
 Width: 681
 GlyphClass: 2
 Flags: MW
 HStem: 0 21G<103 184 103 103 462 578 462 462> 0 94<508 508 508 578 462 508> 593 95<172 172> 668 20G<103 216 216 216 497 578 578 578>
-VStem: 103 81<0 332 0 688> 289 109<-140 -117 -140 -117> 497 81<303 688>
-AnchorPoint: "Anchor-11" 342 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 351 688 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+VStem: 103 81<0 332 0 688> 289 109<-140 -117 -140 -117> 497 81<303 688 0 688>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 351 688 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 342 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-578 0 m 1x9a
+578 688 m 1x9a
+ 578 0 l 1
  462 0 l 1
  172 593 l 1xae
  177 538 184 459 184 332 c 2
@@ -24,18 +26,17 @@ SplineSet
  508 94 l 1x5a
  506 113 497 218 497 303 c 2
  497 688 l 1
- 578 688 l 1
- 578 0 l 1x9a
+ 578 688 l 1x9a
 344 -79 m 0
  375 -79 398 -102 398 -132 c 0
  398 -148 393 -164 373 -206 c 2
  332 -292 l 1
  283 -292 l 1
  313 -176 l 1
- 298 -165 289 -150 289 -132 c 0
- 289 -102 313 -79 344 -79 c 0
+ 299 -165 289 -150 289 -132 c 0
+ 289 -102 314 -79 344 -79 c 0
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" ncommaaccent.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" ncommaaccent.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" ncommaaccent.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

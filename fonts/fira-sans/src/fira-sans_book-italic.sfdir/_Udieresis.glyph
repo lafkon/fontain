@@ -1,29 +1,31 @@
-
 StartChar: Udieresis
-Encoding: 220 220 105
-Width: 655
+Encoding: 220 220 260
+Width: 654
 GlyphClass: 2
 Flags: MW
 HStem: -12 74<245.5 347 245.5 366.5> 668 20G<152 237 237 237 536 622 622 622> 782 106<295 316 498 519.5>
 VStem: 82.94 85.97 254 103 457 103
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 404 807 basechar 0
-AnchorPoint: "Anchor-8" 385 0 basechar 0
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 632 688 basechar 0
+AnchorPoint: "Anchor-12" 410 888 basechar 0
+AnchorPoint: "Anchor-11" 385 0 basechar 0
+AnchorPoint: "Anchor-10" 290 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 309 888 m 0
  341 888 362 862 357 830 c 0
  353 803 330 782 302 782 c 0
- 270 782 249 808 254 840 c 1
+ 270 782 249 808 254 840 c 0
  257 867 281 888 309 888 c 0
 512 888 m 0
- 545 888 565 862 560 830 c 1
+ 545 888 565 862 560 830 c 0
  557 803 534 782 505 782 c 0
  473 782 452 808 457 840 c 0
  461 867 484 888 512 888 c 0
-556 217 m 2
+622 688 m 1
+ 556 217 l 2
  537 81 442 -12 291 -12 c 0
  135 -12 67 86 86 222 c 2
  152 688 l 1
@@ -33,9 +35,8 @@ SplineSet
  399 62 456 121 471 229 c 2
  536 688 l 1
  622 688 l 1
- 556 217 l 2
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" udieresis.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" udieresis.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" udieresis.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

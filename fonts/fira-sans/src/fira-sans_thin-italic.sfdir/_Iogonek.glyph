@@ -1,32 +1,33 @@
-
 StartChar: Iogonek
-Encoding: 302 302 52
+Encoding: 302 302 130
 Width: 268
 GlyphClass: 2
 Flags: MW
-HStem: -203 22<8 36> -196 21G<80 80> 661 20G<182 205 205 205>
-VStem: -57 24<-143 -99.5>
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 88 519 basechar 0
-AnchorPoint: "Anchor-9" 193 681 basechar 0
-AnchorPoint: "Anchor-8" 119 0 basechar 0
+HStem: -203 22<0 28> -196 21G<72 72> 0 21G<102 109 102 102> 661 20G<182 205 205 205>
+VStem: -65 24<-143 -98.5>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 194 681 basechar 0
+AnchorPoint: "Anchor-11" 111 0 basechar 0
+AnchorPoint: "Anchor-10" 98 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-110 0 m 1xb0
- 23 -35 -33 -69 -33 -126 c 0
- -33 -160 -14 -181 30 -181 c 0xb0
- 49 -181 62 -179 85 -174 c 1x70
- 80 -196 l 1
- 59 -201 45 -203 27 -203 c 0
- -30 -203 -57 -175 -57 -134 c 0
- -57 -65 1 -28 87 7 c 1
- 182 681 l 1
+182 681 m 1xb8
  205 681 l 1
- 109 1 l 1
- 110 0 l 1xb0
+ 109 0 l 1
+ 102 0 l 1
+ 15 -35 -41 -69 -41 -126 c 0
+ -41 -160 -22 -181 22 -181 c 0xb8
+ 41 -181 54 -179 77 -174 c 1x78
+ 72 -196 l 1
+ 51 -201 37 -203 19 -203 c 0
+ -38 -203 -65 -175 -65 -134 c 0
+ -65 -63 -3 -26 88 10 c 1
+ 182 681 l 1xb8
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" iogonek.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" iogonek.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" iogonek.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

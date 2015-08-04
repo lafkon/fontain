@@ -1,41 +1,42 @@
-
 StartChar: Uring
-Encoding: 366 366 110
+Encoding: 366 366 288
 Width: 635
 GlyphClass: 2
 Flags: MW
-HStem: -9.08 21G 660.14 20G 779.92 129.93
-VStem: 260.36 129.28 385.71 129.64
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 322 680 basechar 0
-AnchorPoint: "Anchor-8" 398 0 basechar 0
+HStem: -9 21G<244 389.5> 660 20G<119 123 123 123 511 515 515 515> 780 130<298 338>
+VStem: 253 129<825.5 863.5>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 525 680 basechar 0
+AnchorPoint: "Anchor-12" 320 910 basechar 0
+AnchorPoint: "Anchor-11" 398 0 basechar 0
+AnchorPoint: "Anchor-10" 317 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-325 909.85 m 0xf0
- 366.71 909.85 389.64 883.35 389.64 845.35 c 0
- 389.64 806.42 364.859 779.92 324.999 779.92 c 0
- 283.289 779.92 260.359 806.42 260.359 844.42 c 0
- 260.359 883.35 285.14 909.85 325 909.85 c 0xf0
-325 906.279 m 0xe8
- 287.07 906.279 264.28 880.569 264.28 844.419 c 0
- 264.28 807.349 286.141 783.499 324.99 783.499 c 0
- 362.92 783.499 385.71 809.209 385.71 845.359 c 0
- 385.71 882.43 363.85 906.279 325 906.279 c 0xe8
-515.35 206.14 m 2
- 515.35 82.8496 461.569 -9.08008 317.35 -9.08008 c 0
- 171.14 -9.08008 119.279 82.8496 119.279 206.14 c 2
- 119.279 680.14 l 1
- 123.35 680.14 l 1
- 123.35 206.35 l 2
- 123.35 84.9199 174.5 -5.15039 317.35 -5.15039 c 0
- 459.35 -5.15039 511.279 85.1396 511.279 206.35 c 2
- 511.279 680.14 l 1
- 515.35 680.14 l 1
- 515.35 206.14 l 2
+318 910 m 0
+ 359 910 382 883 382 845 c 0
+ 382 806 358 780 318 780 c 0
+ 276 780 253 806 253 844 c 0
+ 253 883 278 910 318 910 c 0
+318 906 m 0
+ 280 906 257 881 257 844 c 0
+ 257 807 279 784 318 784 c 0
+ 356 784 378 809 378 845 c 0
+ 378 882 357 906 318 906 c 0
+515 680 m 1
+ 515 206 l 2
+ 515 83 462 -9 317 -9 c 0
+ 171 -9 119 83 119 206 c 2
+ 119 680 l 1
+ 123 680 l 1
+ 123 206 l 2
+ 123 85 175 -5 317 -5 c 0
+ 459 -5 511 85 511 206 c 2
+ 511 680 l 1
+ 515 680 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" uring.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" uring.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uring.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

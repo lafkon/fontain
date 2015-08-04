@@ -1,32 +1,32 @@
-
 StartChar: two
-Encoding: 50 50 881
+Encoding: 50 50 2019
 Width: 463
 Flags: MW
-HStem: 0 7.89 663.29 7.56
-VStem: 14.15 11.36 416.86 8.22
+HStem: 0 8<15 15 26 360 14 15> 663 8<240.5 320>
+VStem: 14.5 11.5 417 8<469.5 566.5>
 LayerCount: 2
+Back
 Fore
 SplineSet
-276.93 670.85 m 0
- 369.069 670.85 425.077 609.5 425.077 527.57 c 0
- 425.077 406.721 365.938 341.65 25.5078 7.79004 c 1
- 362.288 8.00977 l 1
- 359.938 0.00976562 l 1
- 13.7188 0.00976562 l 1
- 14.5791 8.00977 l 1
- 362.859 348.859 416.859 411.649 416.859 527.359 c 0
- 416.859 605.93 363.359 663.29 276.72 663.29 c 0
- 203.569 663.29 152.789 632.86 100.719 582.71 c 1
- 94.4287 587.57 l 1
- 149.499 640.92 202.569 670.85 276.93 670.85 c 0
+277 671 m 0
+ 369 671 425 610 425 528 c 0
+ 425 407 366 342 26 8 c 1
+ 362 8 l 1
+ 360 0 l 1
+ 14 0 l 1
+ 15 8 l 1
+ 363 349 417 412 417 527 c 0
+ 417 606 363 663 277 663 c 0
+ 204 663 153 633 101 583 c 1
+ 94 588 l 1
+ 150 641 203 671 277 671 c 0
 EndSplineSet
-Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" two.osf
-Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" two.tf
-Substitution2: "'frac' Diagonal Fractions lookup 16 subtable" two.numr
-Substitution2: "'dnom' Denominators lookup 14 subtable" two.dnom
-Substitution2: "'numr' Numerators lookup 13 subtable" two.numr
-Substitution2: "'sups' Superscript lookup 12 subtable" twosuperior
-Substitution2: "'subs' Subscript lookup 11 subtable" twoinferior
-AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" twoinferior twosuperior two.numr two.dnom two.tf two.osf
+Substitution2: "'onum' Oldstyle Figures lookup 26 subtable" two.osf
+Substitution2: "'tnum' Tabular Numbers lookup 25 subtable" two.tf
+Substitution2: "'frac' Diagonal Fractions lookup 19 subtable" two.numr
+Substitution2: "'dnom' Denominators lookup 17 subtable" two.dnom
+Substitution2: "'numr' Numerators lookup 16 subtable" two.numr
+Substitution2: "'sups' Superscript lookup 15 subtable" uni00B2
+Substitution2: "'subs' Subscript lookup 14 subtable" uni2082
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" uni2082 uni00B2 two.numr two.dnom two.tf two.osf
 EndChar

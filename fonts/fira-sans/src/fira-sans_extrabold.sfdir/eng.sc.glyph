@@ -1,23 +1,27 @@
-
 StartChar: eng.sc
-Encoding: 1114207 -1 355
+Encoding: 1114305 -1 904
 Width: 595
 GlyphClass: 2
 Flags: MW
-HStem: -224 21G<313 313> 0 21G<54 210 54 54 320 382 320 320 541 541> 419 151<183 183> 550 20G<54 271 271 271 385 541 541 541>
+HStem: -224 127<295.5 326 294.5 392.5> 0 21G<54 210 54 54 320 363 320 320> 419 151<183 183> 550 20G<54 271 271 271 385 541 541 541>
 VStem: 54 156<0 170 0 570> 385 156<399 570>
-AnchorPoint: "Anchor-11" 298 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 298 570 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 298 570 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 298 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 541 570 m 1xdc
- 541 0 l 2
- 541 -118 451 -179 313 -224 c 1
- 267 -115 l 1
- 349 -83 382 -57 382 0 c 1
+ 541 -24 l 2
+ 541 -158 456 -224 329 -224 c 0
+ 262 -224 215 -205 181 -181 c 1
+ 240 -76 l 1
+ 263 -89 280 -97 309 -97 c 0
+ 343 -97 363 -78 363 -40 c 2
+ 363 0 l 1
  320 0 l 1
  183 419 l 1xec
  195 354 210 276 210 170 c 2
@@ -30,4 +34,7 @@ SplineSet
  385 570 l 1
  541 570 l 1xdc
 EndSplineSet
+Substitution2: "'ss01' Style Set 1 lookup 33 subtable" eng.sc.ss01
+Substitution2: "'salt' Stylistic Alternatives lookup 32 subtable" eng.sc.ss01
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" eng.sc.ss01
 EndChar

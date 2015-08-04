@@ -1,16 +1,17 @@
-
 StartChar: zdotaccent.sc
-Encoding: 1114266 -1 414
+Encoding: 1114447 -1 1047
 Width: 449
 GlyphClass: 2
 Flags: MW
 HStem: 0 21G<9 348 9 9> 537 20G<119 441 441 441> 555 181<303 307 303 438 303 441> 724 12<303 307>
 VStem: 9 432
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 306 736 basechar 0
 AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 281 557 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 184 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 305 736 m 0xd8
@@ -18,7 +19,8 @@ SplineSet
  311 727 309 724 305 724 c 0
  301 724 299 727 299 730 c 0
  299 733 301 736 305 736 c 0xd8
-441 555 m 1
+441 557 m 1
+ 441 555 l 1xd8
  12 2 l 1
  348 2 l 1
  348 0 l 1
@@ -28,6 +30,5 @@ SplineSet
  119 555 l 1
  119 557 l 1
  441 557 l 1
- 441 555 l 1
 EndSplineSet
 EndChar

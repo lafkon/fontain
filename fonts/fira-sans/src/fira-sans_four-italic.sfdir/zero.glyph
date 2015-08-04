@@ -1,33 +1,33 @@
-
 StartChar: zero
-Encoding: 48 48 879
+Encoding: 48 48 2017
 Width: 537
 Flags: MW
-HStem: -9.07001 21G
-VStem: 80.64 396.15
+HStem: -9 21G<180.5 330>
+VStem: 81 396<134.5 524.5>
 LayerCount: 2
+Back
 Fore
 SplineSet
-325.21 670.28 m 0
- 427.28 670.28 476.79 597.07 476.79 452.431 c 0
- 476.79 287.86 429.07 -9.06934 231.36 -9.06934 c 0
- 130.21 -9.06934 80.6396 63.2803 80.6396 206 c 0
- 80.6396 374 127.43 670.28 325.21 670.28 c 0
-325.22 666.43 m 0
- 199.72 666.43 120.939 542.09 93.7197 337.439 c 0
- 86.79 284.229 84.7197 242.51 84.7197 205.729 c 0
- 84.7197 66.2998 132.51 -5.2002 231.359 -5.2002 c 0
- 359.72 -4.27051 435.569 122.8 463.72 323.649 c 0
- 471.569 377.869 472.72 422.439 472.72 452.789 c 0
- 472.72 595.859 424.069 666.43 325.22 666.43 c 0
+325 670 m 0
+ 427 670 477 597 477 452 c 0
+ 477 288 429 -9 231 -9 c 0
+ 130 -9 81 63 81 206 c 0
+ 81 374 127 670 325 670 c 0
+325 666 m 0
+ 200 666 121 542 94 337 c 0
+ 87 284 85 243 85 206 c 0
+ 85 66 133 -5 231 -5 c 0
+ 360 -4 436 123 464 324 c 0
+ 472 378 473 422 473 453 c 0
+ 473 596 424 666 325 666 c 0
 EndSplineSet
-Substitution2: "'zero' Slashed Zero lookup 28 subtable" zero.zero
-Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" zero.osf
-Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" zero.tf
-Substitution2: "'frac' Diagonal Fractions lookup 16 subtable" zero.numr
-Substitution2: "'dnom' Denominators lookup 14 subtable" zero.dnom
-Substitution2: "'numr' Numerators lookup 13 subtable" zero.numr
-Substitution2: "'sups' Superscript lookup 12 subtable" zerosuperior
-Substitution2: "'subs' Subscript lookup 11 subtable" zeroinferior
-AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" zeroinferior zerosuperior zero.numr zero.dnom zero.tf zero.osf zero.zero
+Substitution2: "'zero' Slashed Zero lookup 32 subtable" zero.zero
+Substitution2: "'onum' Oldstyle Figures lookup 26 subtable" zero.osf
+Substitution2: "'tnum' Tabular Numbers lookup 25 subtable" zero.tf
+Substitution2: "'frac' Diagonal Fractions lookup 19 subtable" zero.numr
+Substitution2: "'dnom' Denominators lookup 17 subtable" zero.dnom
+Substitution2: "'numr' Numerators lookup 16 subtable" zero.numr
+Substitution2: "'sups' Superscript lookup 15 subtable" uni2070
+Substitution2: "'subs' Subscript lookup 14 subtable" uni2080
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" uni2080 uni2070 zero.numr zero.dnom zero.tf zero.osf zero.zero
 EndChar

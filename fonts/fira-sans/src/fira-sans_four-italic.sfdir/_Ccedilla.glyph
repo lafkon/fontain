@@ -1,40 +1,43 @@
-
 StartChar: Ccedilla
-Encoding: 199 199 17
+Encoding: 199 199 45
 Width: 531
 GlyphClass: 2
 Flags: MW
-HStem: -202.99 120.85 -84.64 79.57 -9.07001 21G -9.03999 21G 670.14 20G
-VStem: 90.21 457.71
-AnchorPoint: "Anchor-11" 306 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 403 680 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+HStem: -203 121<290 290 290 321.5> -86 81<285 305> -9 21G<301 301 304 305 304 304> 670 20G<284.5 440>
+VStem: 90 458<169 633>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 403 680 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 306 -203 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-403.14 686.21 m 0x9c
- 167.5 686.21 94.2705 424.072 94.2705 253.502 c 0
- 94.2705 85.0723 176.271 -5.06738 305.061 -5.06738 c 0x4c
- 385.7 -5.06738 437.061 26.3623 473.7 53.8623 c 1
- 475.92 50.292 l 1
- 438.99 22.502 386.63 -9.06836 304.979 -9.06836 c 1
- 290.779 -82.1387 l 1
- 343.129 -83.3486 373.849 -97.709 373.849 -135.849 c 0
- 373.849 -170.919 347.988 -202.989 295.208 -202.989 c 0
- 265.918 -202.989 249.568 -196.779 234.498 -186.779 c 1
- 236.498 -183.279 l 1
- 251.278 -194.06 268.349 -199.21 295.209 -199.21 c 0xac
- 348.639 -199.21 369.639 -165.49 369.709 -136.141 c 0
- 369.779 -101.421 343.209 -85.6406 286.779 -84.6406 c 1x4c
- 301.56 -9.04102 l 1
- 171.489 -7.46094 90.209 84.4893 90.209 253.43 c 0
- 90.209 429.79 165.989 690.14 402.989 690.14 c 0
- 476.989 690.14 517.209 664.359 547.919 632.999 c 1
- 545.639 629.569 l 1
- 512.919 661.93 476.989 686.21 403.14 686.21 c 0x9c
+403 686 m 0xb8
+ 168 686 94 424 94 254 c 0
+ 94 86 175 -4 302 -5 c 2
+ 305 -5 l 2x58
+ 386 -5 437 26 474 54 c 1
+ 476 50 l 1
+ 439 23 387 -9 305 -9 c 2
+ 304 -9 l 1
+ 290 -82 l 1
+ 344 -83 373 -99 373 -139 c 0
+ 373 -171 348 -203 295 -203 c 0
+ 265 -203 249 -197 234 -187 c 1
+ 236 -183 l 1
+ 251 -194 268 -199 295 -199 c 0xb8
+ 348 -199 369 -166 369 -139 c 0
+ 369 -101 342 -87 285 -86 c 1x58
+ 301 -9 l 1
+ 171 -7 90 85 90 253 c 0
+ 90 430 166 690 403 690 c 0
+ 477 690 517 664 548 633 c 1
+ 546 630 l 1
+ 513 662 477 686 403 686 c 0xb8
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" ccedilla.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" ccedilla.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" ccedilla.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

@@ -1,42 +1,43 @@
-
 StartChar: oslash
-Encoding: 248 248 216
+Encoding: 248 248 586
 Width: 575
 GlyphClass: 2
 Flags: MW
-HStem: -16 106<258 316.5 258 360.5> -13 21G<212 212> 440 106<258.5 318> 523 20G<364 364>
-VStem: 33 139<182.5 241 182.5 280> 403 139<332 347>
+HStem: -16 106<258 319 258 360.5> -13 21G<211 211> 440 106<256.5 318> 523 20G<364 364>
+VStem: 34 133<182.5 242.5 182.5 280> 407 134<287.5 322 251 345>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 325 530 basechar 0
 AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 319 549 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 256 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-520 633 m 1xac
- 460 507 l 1
- 514 469 542 405 542 322 c 0
- 542 180 470 -16 251 -16 c 0xac
- 237 -16 224 -15 212 -13 c 1
- 158 -134 l 1
+158 -134 m 1xac
  57 -103 l 1
- 115 22 l 1
- 61 60 33 124 33 208 c 0
- 33 352 105 546 324 546 c 0x6c
- 338 546 351 545 364 543 c 1x9c
+ 116 24 l 1
+ 63 62 34 127 34 208 c 0
+ 34 352 105 546 324 546 c 0xac
+ 338 546 351 545 364 543 c 1
  418 664 l 1
- 520 633 l 1xac
-315 440 m 0
- 202 440 172 284 172 198 c 0
- 172 167 178 144 189 130 c 1
+ 520 633 l 1
+ 459 506 l 1
+ 513 467 542 402 541 322 c 0
+ 541 180 470 -16 251 -16 c 0x9c
+ 237 -16 224 -15 211 -13 c 1x6c
+ 158 -134 l 1xac
+185 123 m 1
  332 439 l 1
  327 440 321 440 315 440 c 0
-244 92 m 1
- 249 91 255 90 261 90 c 0
- 372 90 402 246 403 332 c 0
- 403 362 398 384 387 398 c 1
+ 198 440 167 284 167 201 c 0
+ 167 164 174 140 185 123 c 1
+261 90 m 0
+ 377 90 407 247 407 328 c 0
+ 407 362 401 387 390 403 c 1
  244 92 l 1
+ 249 91 255 90 261 90 c 0
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" oslash.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 28 subtable" oslash.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" oslash.sc
 EndChar

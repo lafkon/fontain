@@ -1,12 +1,17 @@
-
 StartChar: dcroat
-Encoding: 273 273 156
-Width: 600
+Encoding: 273 273 395
+Width: 601
 GlyphClass: 2
 Flags: MW
-HStem: -16 106<229 239.5> 0 21G<361 485 361 361> 441 105<266 319 198.5 337.5> 598 87<296 429 296 441 581 634> 721 20G<589 589> 737 20G<451 451>
+HStem: -16 106<229 239.5> 0 21G<361 485 361 361> 441 105<266 319 198.5 337.5> 598 87<296 429 296 441 581 634> 721 20G<589 589> 736 20G<451 451>
 VStem: 37 146<155 240.5 155 268.5> 446 139
+AnchorPoint: "Anchor-14" 298 265 basechar 0
+AnchorPoint: "Anchor-13" 601 741 basechar 0
+AnchorPoint: "Anchor-12" 344 741 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 257 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 646 685 m 1x77
@@ -23,17 +28,17 @@ SplineSet
  296 598 l 1
  296 685 l 1
  441 685 l 1
- 451 757 l 1xb7
+ 451 756 l 1xb7
  589 741 l 1x7b
  581 685 l 1
  646 685 l 1x77
-401 396 m 1
+372 193 m 1
+ 401 396 l 1
  380 426 356 441 319 441 c 0
  213 441 183 287 183 194 c 0
  183 116 209 90 249 90 c 0xb7
  298 90 336 136 372 193 c 1
- 401 396 l 1
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" dcroat.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 28 subtable" dcroat.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" dcroat.sc
 EndChar

@@ -1,37 +1,38 @@
-
 StartChar: Tcaron
-Encoding: 356 356 98
+Encoding: 356 356 240
 Width: 472
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G<199 201 199 199> 660 20G<79 511 511 511> 678 89<288 288 288 294 288 511 288 296>
+HStem: 0 21G<199 201 199 199> 660 20G<79 511 511 511> 678 89<79 301 301 301 301 511 296 301>
 VStem: 79 432<678 680 678 680>
-AnchorPoint: "Anchor-11" 200 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 282 680 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-14" 248 340 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 315 845 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 200 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-409 844 m 1xb0
- 289 765 l 1
- 287 765 l 1
- 191 844 l 1
- 193 845 l 1
- 288 767 l 1
- 407 845 l 1
- 409 844 l 1xb0
-511 678 m 1
+420 845 m 1xb0
+ 422 844 l 1
+ 302 765 l 1
+ 300 765 l 1
+ 204 844 l 1
+ 206 845 l 1
+ 301 767 l 1
+ 420 845 l 1xb0
+511 680 m 1xd0
+ 511 678 l 1xd0
  296 678 l 1
  201 0 l 1
  199 0 l 1
  294 678 l 1xb0
  79 678 l 1
- 79 680 l 1xd0
- 511 680 l 1
- 511 678 l 1
+ 79 680 l 1
+ 511 680 l 1xd0
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" tcaron.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" tcaron.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" tcaron.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

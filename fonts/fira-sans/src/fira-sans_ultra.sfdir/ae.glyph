@@ -1,22 +1,23 @@
-
 StartChar: ae
-Encoding: 230 230 144
+Encoding: 230 230 368
 Width: 860
 GlyphClass: 2
 Flags: MW
-HStem: -22 155<133.5 280.5 605.5 649> 206 122<533 640 531 854 533 533> 217 119<281 302 302 309 281 314> 400 157<242 268> 421 136<572.5 612.5>
-VStem: 8 230<158.5 187 158.5 210.5> 309 222<328 340 328 364.5> 640 218<328 335 335 335>
+HStem: -22 155<133.5 280.5 605 649> 206 122<533 640 531 854 533 533> 217 119<281 302 302 310 281 314> 400 157<242 268> 421 136<573 612.5>
+VStem: 8 230<158.5 187 158.5 210.5> 640 218<328 335 335 335>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 431 536 basechar 0
 AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 433 536 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 417 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-858 273 m 0xcf
+858 273 m 0x4a
  858 256 856 227 854 206 c 1
- 533 206 l 1xcf
- 544 141 579 133 632 133 c 0
+ 533 206 l 1xca
+ 544 141 578 133 632 133 c 0
  666 133 703 148 749 180 c 1
  838 60 l 1
  785 17 707 -22 610 -22 c 0
@@ -24,28 +25,28 @@ SplineSet
  333 -2 259 -22 190 -22 c 0
  77 -22 8 51 8 151 c 0
  8 270 99 336 281 336 c 2
- 309 336 l 1
- 309 340 l 2
+ 310 336 l 1
+ 309 340 l 1
  309 389 296 400 240 400 c 0
- 211 400 156 390 103 372 c 1xb7
+ 211 400 156 390 103 372 c 1xb4
  55 514 l 1
  123 542 211 557 273 557 c 0
- 351 557 403 536 439 501 c 1
- 478 535 528 557 593 557 c 0
- 747 557 858 456 858 273 c 0xcf
-640 328 m 1
- 640 335 l 1
+ 352 557 405 535 440 500 c 1
+ 482 535 535 557 605 557 c 0
+ 747 557 858 456 858 273 c 0x4a
+640 328 m 1xce
+ 640 335 l 2
  639 378 634 421 591 421 c 0
- 554 421 537 401 531 328 c 1
- 640 328 l 1
+ 555 421 537 401 531 328 c 1
+ 640 328 l 1xce
 269 133 m 0
- 292 133 306 151 321 169 c 1
- 317 183 315 198 314 212 c 1
+ 292 133 306 151 321 170 c 1
+ 317 184 315 198 314 212 c 2
  314 217 l 1
- 302 217 l 2xaf
+ 302 217 l 2xac
  259 217 238 206 238 168 c 0
  238 149 249 133 269 133 c 0
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" ae.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" ae.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" ae.sc
 EndChar

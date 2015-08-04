@@ -1,29 +1,30 @@
-
 StartChar: Ccedilla
-Encoding: 199 199 17
+Encoding: 199 199 47
 Width: 560
 GlyphClass: 2
 Flags: MW
-HStem: -241 60<329 356 329 379> -217 21G<254 254> -99 167<303 335> -11 79<314 314> -10 78<376 376> 623 78<295 371>
+HStem: -241 60<329 356 329 379> -99 167<303 335> -11 79<314 314> -10 78<376 376> 623 78<295 371>
 VStem: 55 101<245.5 449 245.5 461.5> 308.5 67.5 392 77<-155.5 -127.5>
-AnchorPoint: "Anchor-11" 346 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 347 689 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-14" 341 346 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 347 689 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 364 -241 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-540 65 m 1x4e
- 508 31 452 -3 376 -10 c 1x4f
- 376 -56 l 1x67
+540 65 m 1x9c
+ 508 31 452 -3 376 -10 c 1x9e
+ 376 -56 l 1xce
  444 -62 469 -100 469 -141 c 0
- 469 -207 413 -241 345 -241 c 0x8e80
- 307 -241 274 -232 254 -217 c 1x4e
+ 469 -207 413 -241 345 -241 c 0
+ 307 -241 274 -232 254 -217 c 1
  279 -165 l 1
  298 -175 316 -181 342 -181 c 0
- 370 -181 392 -170 392 -141 c 0xa680
- 392 -114 367 -99 303 -99 c 1x67
- 314 -11 l 1x56
+ 370 -181 392 -170 392 -141 c 0xcd
+ 392 -114 367 -99 303 -99 c 1xce
+ 314 -11 l 1xac
  162 3 55 127 55 345 c 0
  55 578 185 701 341 701 c 0
  428 701 477 677 532 633 c 1
@@ -32,9 +33,9 @@ SplineSet
  243 623 156 553 156 345 c 0
  156 146 239 68 346 68 c 0
  411 68 453 97 492 126 c 1
- 540 65 l 1x4e
+ 540 65 l 1x9c
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" ccedilla.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" ccedilla.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" ccedilla.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

@@ -1,32 +1,33 @@
-
 StartChar: IJ
-Encoding: 306 306 44
-Width: 611
+Encoding: 306 306 119
+Width: 610
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G<65 229 65 65> 673 20G<65 229 229 229 386 550 550 550>
-VStem: 65 164<0 693> 386 164<111 693>
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 61 693 basechar 0
-AnchorPoint: "Anchor-9" 468 693 basechar 0
-AnchorPoint: "Anchor-8" 210 0 basechar 0
+HStem: 0 21G<65 229 65 65> 673 20G<65 229 229 229 385 549 549 549>
+VStem: 65 164<0 693 0 693> 385 164<111 693>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 467 693 basechar 0
+AnchorPoint: "Anchor-11" 210 0 basechar 0
+AnchorPoint: "Anchor-10" 146 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-229 0 m 1
+229 693 m 1
+ 229 0 l 1
  65 0 l 1
  65 693 l 1
  229 693 l 1
- 229 0 l 1
-550 105 m 2
- 550 -70 444 -131 327 -169 c 1
- 283 -53 l 1
- 373 -18 386 29 386 111 c 2
- 386 693 l 1
- 550 693 l 1
- 550 105 l 2
+549 693 m 1
+ 549 105 l 2
+ 549 -70 443 -131 326 -169 c 1
+ 282 -53 l 1
+ 372 -18 385 29 385 111 c 2
+ 385 693 l 1
+ 549 693 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" ij.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" ij.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" ij.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

@@ -1,29 +1,31 @@
-
 StartChar: Aring
-Encoding: 197 197 9
+Encoding: 197 197 29
 Width: 566
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G<-29 59 -29 -29 432 432 432 520> 176 71<168 392 168 403 137 392> 616 72<332 332> 668 20G<289 397 397 397> 752 47<342 375 342 387> 912 46<357.5 390.5>
-VStem: 257 56 419 56
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 151 526 basechar 0
-AnchorPoint: "Anchor-9" 343 688 basechar 0
-AnchorPoint: "Anchor-8" 496 0 basechar 0
+HStem: 0 21G<-29 59 -29 -29 432 520 432 432> 176 71<169 392 169 403 137 392> 616 72<332 332> 668 20G<289 397 397 397> 752 47<344 379.5 344 390.5> 912 46<355.5 390>
+VStem: 257 57<831.5 863.5 831.5 876.5> 421 56<849 880>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 377 958 basechar 0
+AnchorPoint: "Anchor-11" 496 0 basechar 0
+AnchorPoint: "Anchor-10" 245 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-356 752 m 0xdf
- 290 752 249 801 257 860 c 0
- 265 916 314 958 377 958 c 0
- 443 958 483 910 475 851 c 0
- 467 795 418 752 356 752 c 0xdf
-313 851 m 0
- 309 819 326 799 358 799 c 0
- 392 799 413 822 419 860 c 0
- 424 891 406 912 375 912 c 0
- 340 912 318 890 313 851 c 0
-403 176 m 1
+357 752 m 0xdf
+ 297 752 257 793 257 845 c 0
+ 257 908 311 958 378 958 c 0
+ 438 958 477 918 477 865 c 0
+ 477 802 424 752 357 752 c 0xdf
+376 912 m 0
+ 335 912 314 881 314 846 c 0
+ 314 817 329 799 359 799 c 0
+ 400 799 421 833 421 865 c 0
+ 421 895 404 912 376 912 c 0
+432 0 m 1
+ 403 176 l 1
  137 176 l 1
  59 0 l 1
  -29 0 l 1
@@ -31,13 +33,12 @@ SplineSet
  397 688 l 1
  520 0 l 1
  432 0 l 1
- 403 176 l 1
-392 247 m 1
- 332 616 l 1xef
- 168 247 l 1
+169 247 m 1
  392 247 l 1
+ 332 616 l 1xef
+ 169 247 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" aring.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" aring.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" aring.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

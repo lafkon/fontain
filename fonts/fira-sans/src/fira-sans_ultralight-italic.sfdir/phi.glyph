@@ -1,33 +1,34 @@
-
 StartChar: phi
-Encoding: 966 966 767
-Width: 710
+Encoding: 966 966 1668
+Width: 713
 GlyphClass: 2
 Flags: MW
-HStem: -200 21G<270 270> -10 31<298 301 301 331> 500 20G<178 211 211 211> 502 29<481 544>
-VStem: 78 34<126.5 236 126.5 238> 610 34<280 414.5>
+HStem: -200 21G<271 271> -10 31<298 302 302 332> 500 20G<177 212 212 212> 502 29<482 544.5>
+VStem: 79 34<126.5 236 126.5 238> 611 34<279 413>
 LayerCount: 2
+Back
 Fore
 SplineSet
-513 531 m 0xdc
- 592 531 644 486 644 359 c 0
- 644 188 606 1 331 -10 c 1
- 305 -196 l 1
- 270 -200 l 1
+514 531 m 0xdc
+ 592 531 645 486 645 362 c 0
+ 645 188 607 1 332 -10 c 1
+ 306 -196 l 1
+ 271 -200 l 1
  298 -10 l 1
- 151 -1 78 57 78 185 c 0
- 78 291 121 409 178 520 c 1
- 211 520 l 1xec
- 154 411 112 285 112 187 c 0
- 112 66 180 29 301 21 c 1
- 348 354 l 2
- 366 479 427 531 513 531 c 0xdc
-513 502 m 0
- 449 502 399 469 381 345 c 2
+ 152 -1 79 57 79 185 c 0
+ 79 291 121 409 177 520 c 1
+ 212 520 l 1xec
+ 155 411 113 285 113 187 c 0
+ 113 66 181 29 302 21 c 1
+ 349 354 l 2
+ 367 479 428 531 514 531 c 0xdc
+514 502 m 0
+ 450 502 400 469 382 345 c 2
  336 20 l 1
- 576 30 610 196 610 364 c 0
- 610 465 575 502 513 502 c 0
+ 577 30 611 196 611 362 c 0
+ 611 464 575 502 514 502 c 0
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" phi.sc
-Substitution2: "'aalt' Access All Alternates lookup 0 subtable" phi.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 28 subtable" phi.sc
+Substitution2: "'mgrk' Mathematical Greek lookup 13 subtable" uni03D5
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" uni03D5 phi.sc
 EndChar

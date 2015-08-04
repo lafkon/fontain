@@ -1,34 +1,35 @@
-
 StartChar: ldot
-Encoding: 320 320 198
-Width: 397
+Encoding: 320 320 521
+Width: 392
 GlyphClass: 2
 Flags: MW
-HStem: -15 21G<156.5 212.5> -15 103<156.5 235> 299 155<305.5 353> 721 20G<72 72> 735 20G<200 200>
-VStem: 72 128<120 129 129 741 741 741> 249 161<354.5 398>
-AnchorPoint: "Anchor-11" 160 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 136 741 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+HStem: -15 21G<161.5 218.5> -15 103<161.5 236> 300 155<305.5 353> 721 20G<72 72> 735 20G<200 200>
+VStem: 72 128<121 125 125 741 741 741> 249 161<355.5 399>
+AnchorPoint: "Anchor-14" 328 378 basechar 0
+AnchorPoint: "Anchor-13" 211 741 basechar 0
+AnchorPoint: "Anchor-12" 332 455 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 181 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-200 129 m 2x6c
- 200 100 209 88 230 88 c 0
- 240 88 251 90 260 93 c 1x6c
- 287 3 l 1
- 261 -8 229 -15 196 -15 c 0
- 117 -15 72 32 72 120 c 2
+202 -15 m 0xac
+ 121 -15 72 34 72 121 c 2
  72 741 l 1xb4
  200 755 l 1
- 200 129 l 2x6c
-329 454 m 0xae
- 377 454 410 420 410 376 c 0
- 410 333 377 299 329 299 c 0
- 282 299 249 333 249 376 c 0
- 249 420 282 454 329 454 c 0xae
+ 200 125 l 2
+ 200 100 209 88 230 88 c 0
+ 242 88 251 90 260 93 c 1x6c
+ 287 3 l 1
+ 265 -7 235 -15 202 -15 c 0xac
+329 455 m 0xae
+ 377 455 410 421 410 377 c 0
+ 410 334 377 300 329 300 c 0
+ 282 300 249 334 249 377 c 0
+ 249 421 282 455 329 455 c 0xae
 EndSplineSet
-Ligature2: "Ligature Substitution lookup 29 subtable" l periodcentered
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" ldot.sc
+Ligature2: "Ligature Substitution lookup 40 subtable" l periodcentered
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" ldot.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" ldot.sc
 EndChar

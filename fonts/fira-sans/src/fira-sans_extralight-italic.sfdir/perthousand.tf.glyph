@@ -1,23 +1,24 @@
-
 StartChar: perthousand.tf
-Encoding: 1114567 -1 1167
+Encoding: 1114932 -1 2325
 Width: 1200
+GlyphClass: 2
 Flags: MW
-HStem: -11 36<551 630.5 551 642.5 896 975.5> 1 21G<146 146> 275 35<571 651.5 916 996.5> 373 36<226.5 306 226.5 318.5> 659 35<247 327.5> 678 20G<742 742>
+HStem: -11 36<551 630.5 551 642.5 896 975.5> 275 35<571 651.5 916 996.5> 373 36<226.5 306 226.5 318.5> 659 35<247 327.5>
 VStem: 130 43<476.5 529.5 476.5 543.5> 380 43<539 591> 454 44<92.5 146 92.5 159.5> 704 43<155 207> 799 44<92.5 146 92.5 159.5> 1049 43<155 207>
 LayerCount: 2
+Back
 Fore
 SplineSet
-742 698 m 1x4440
+709 721 m 1
+ 742 698 l 1
  179 -21 l 1
  146 1 l 1
  709 721 l 1
- 742 698 l 1x4440
-296 694 m 0xbbf0
+296 694 m 0
  374 694 423 643 423 563 c 0
  423 487 380 373 257 373 c 0
  179 373 130 425 130 505 c 0
- 130 582 174 694 296 694 c 0xbbf0
+ 130 582 174 694 296 694 c 0
 297 659 m 0
  197 659 173 556 173 503 c 0
  173 450 196 409 257 409 c 0
@@ -44,7 +45,7 @@ SplineSet
  1025 25 1049 129 1049 181 c 0
  1049 233 1027 275 966 275 c 0
 EndSplineSet
-Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" perthousand.tosf
-Substitution2: "'pnum' Proportional Numbers lookup 20 subtable" perthousand
+Substitution2: "'onum' Oldstyle Figures lookup 26 subtable" perthousand.tosf
+Substitution2: "'pnum' Proportional Numbers lookup 24 subtable" perthousand
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" perthousand perthousand.tosf
 EndChar

@@ -1,30 +1,31 @@
-
 StartChar: ohungarumlaut
-Encoding: 337 337 214
+Encoding: 337 337 576
 Width: 575
 GlyphClass: 2
 Flags: MW
 HStem: -16 106<232.5 316 232.5 360.5> 440 106<258.5 342>
 VStem: 34 144<160.5 241 160.5 280> 397 144<289 322 251 369.5>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 527 530 basechar 0
+AnchorPoint: "Anchor-12" 320 530 basechar 0
 AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 320 530 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 253 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-415 805 m 1
+322 853 m 1
+ 415 805 l 1
  284 632 l 1
  212 664 l 1
  322 853 l 1
- 415 805 l 1
-581 803 m 1
+489 853 m 1
+ 581 803 l 1
  441 627 l 1
  370 662 l 1
  489 853 l 1
- 581 803 l 1
 324 546 m 0
- 463 546 542 460 541 322 c 1
+ 463 546 542 460 541 322 c 0
  541 180 470 -16 251 -16 c 0
  112 -16 34 69 34 208 c 0
  34 352 105 546 324 546 c 0
@@ -34,6 +35,6 @@ SplineSet
  372 90 397 246 397 332 c 0
  397 407 369 440 315 440 c 0
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" ohungarumlaut.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 28 subtable" ohungarumlaut.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" ohungarumlaut.sc
 EndChar

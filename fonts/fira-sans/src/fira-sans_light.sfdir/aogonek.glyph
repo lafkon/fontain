@@ -1,31 +1,33 @@
-
 StartChar: aogonek
-Encoding: 261 261 141
+Encoding: 261 261 362
 Width: 536
 GlyphClass: 2
 Flags: MW
-HStem: -229 48<382 408> -11 47<193.5 253> 272 43<273 282 282 373> 485 49<232.5 295.5>
-VStem: 56 62<112 189.5 112 200> 286 54<-144.5 -106.5> 373 58<128 272 272 272 315 365 365 368>
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 258 523 basechar 0
-AnchorPoint: "Anchor-8" 472 -11 basechar 0
+HStem: -229 48<380 408> -11 47<193.5 253> 272 42<273 282 282 373> 485 49<232.5 295.5>
+VStem: 56 62<112 189.5 112 200> 286 54<-144.5 -106.5> 373 58<130 272 272 272 314 365 365 368>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 258 523 basechar 0
+AnchorPoint: "Anchor-11" 472 -11 basechar 0
+AnchorPoint: "Anchor-10" 258 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-462 -11 m 1
+475 30 m 1
+ 462 -11 l 1
  373 -51 340 -82 340 -129 c 0
- 340 -160 360 -181 404 -181 c 0
- 423 -181 438 -179 461 -174 c 1
+ 340 -160 358 -181 402 -181 c 0
+ 422 -181 438 -179 461 -174 c 1
  455 -222 l 1
  435 -226 419 -229 397 -229 c 0
  324 -229 286 -189 286 -137 c 0
  286 -76 331 -33 422 4 c 1
- 400 18 386 40 381 77 c 1
- 344 17 288 -11 218 -11 c 0
+ 400 18 386 40 381 76 c 1
+ 343 18 288 -11 218 -11 c 0
  117 -11 56 52 56 145 c 0
- 56 255 139 315 273 315 c 2
- 373 315 l 1
+ 56 255 139 314 273 314 c 2
+ 373 314 l 1
  373 365 l 2
  373 448 339 485 252 485 c 0
  210 485 162 474 110 455 c 1
@@ -34,14 +36,13 @@ SplineSet
  379 534 431 475 431 368 c 2
  431 116 l 2
  431 58 447 41 475 30 c 1
- 462 -11 l 1
 228 36 m 0
- 294 36 340 69 373 128 c 1
+ 295 36 341 69 373 130 c 1
  373 272 l 1
  282 272 l 2
  177 272 118 231 118 148 c 0
  118 76 159 36 228 36 c 0
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" aogonek.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" aogonek.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" aogonek.sc
 EndChar

@@ -1,14 +1,15 @@
-
 StartChar: four
-Encoding: 52 52 883
+Encoding: 52 52 2021
 Width: 548
 Flags: MW
 HStem: 0 21G<275 411 275 275> 150 108<180 295 448 510>
 VStem: 13 512<150 258>
 LayerCount: 2
+Back
 Fore
 SplineSet
-510 150 m 1
+525 258 m 1
+ 510 150 l 1
  432 150 l 1
  411 0 l 1
  275 0 l 1
@@ -18,19 +19,18 @@ SplineSet
  275 689 l 1
  392 644 l 1
  180 258 l 1
- 312 258 l 1
+ 311 258 l 1
  350 423 l 1
  471 423 l 1
  448 258 l 1
  525 258 l 1
- 510 150 l 1
 EndSplineSet
-Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" four.osf
-Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" four.tf
-Substitution2: "'frac' Diagonal Fractions lookup 16 subtable" four.numr
-Substitution2: "'dnom' Denominators lookup 14 subtable" four.dnom
-Substitution2: "'numr' Numerators lookup 13 subtable" four.numr
-Substitution2: "'sups' Superscript lookup 12 subtable" foursuperior
-Substitution2: "'subs' Subscript lookup 11 subtable" fourinferior
-AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" fourinferior foursuperior four.numr four.dnom four.tf four.osf
+Substitution2: "'onum' Oldstyle Figures lookup 26 subtable" four.osf
+Substitution2: "'tnum' Tabular Numbers lookup 25 subtable" four.tf
+Substitution2: "'frac' Diagonal Fractions lookup 19 subtable" four.numr
+Substitution2: "'dnom' Denominators lookup 17 subtable" four.dnom
+Substitution2: "'numr' Numerators lookup 16 subtable" four.numr
+Substitution2: "'sups' Superscript lookup 15 subtable" uni2074
+Substitution2: "'subs' Subscript lookup 14 subtable" uni2084
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" uni2084 uni2074 four.numr four.dnom four.tf four.osf
 EndChar

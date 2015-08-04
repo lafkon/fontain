@@ -1,32 +1,33 @@
-
 StartChar: Lcaron
-Encoding: 317 317 60
-Width: 474
+Encoding: 317 317 148
+Width: 477
 GlyphClass: 2
 Flags: MW
-HStem: 0 54<171 449> 506 20G<241 241> 665 20G<111 171 171 171 314 314> 671 20G<258 258>
-VStem: 111 60<54 54 54 685>
-AnchorPoint: "Anchor-11" 282 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 141 685 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+HStem: 0 54<171 449> 506 20G<234 234> 665 20G<111 171 171 171 309 309> 671 20G<253 253>
+VStem: 111 60<54 685 54 685 54 685>
+AnchorPoint: "Anchor-14" 369 370 basechar 0
+AnchorPoint: "Anchor-13" 196 685 basechar 0
+AnchorPoint: "Anchor-12" 141 685 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 282 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-314 685 m 1xe8
- 277 521 l 1
- 241 526 l 1
- 258 691 l 1xd8
- 314 685 l 1xe8
-171 54 m 1
+253 691 m 1xd8
+ 309 685 l 1xe8
+ 270 521 l 1
+ 234 526 l 1
+ 253 691 l 1xd8
+171 685 m 1
+ 171 54 l 1
  457 54 l 1
  449 0 l 1
  111 0 l 1
  111 685 l 1
- 171 685 l 1xe8
- 171 54 l 1
+ 171 685 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" lcaron.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" lcaron.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" lcaron.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

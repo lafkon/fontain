@@ -1,20 +1,21 @@
-
 StartChar: pi
-Encoding: 960 960 761
+Encoding: 960 960 1662
 Width: 588
 GlyphClass: 2
 Flags: MW
 HStem: -10 21G<452 452> 0 21G<80 164 80 80> 457 69<144 599 227 413 227 227 497 588 497 497>
-VStem: 364.69 83.76
+VStem: 364.74 83.71
 LayerCount: 2
+Back
 Fore
 SplineSet
-588 457 m 1x70
+599 526 m 1x70
+ 588 457 l 1
  497 457 l 1
  451 134 l 2
  443 82 453 65 486 50 c 1
  452 -10 l 1xb0
- 377 8 357 51 367 131 c 1
+ 378 10 357 51 367 131 c 2
  413 457 l 1
  227 457 l 1
  164 0 l 1
@@ -22,10 +23,9 @@ SplineSet
  144 457 l 1
  108 456 93 452 66 445 c 1
  55 511 l 1
- 87 522 124 527 182 526 c 1
- 599 526 l 1
- 588 457 l 1x70
+ 87 522 124 527 182 526 c 2
+ 599 526 l 1x70
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" pi.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 28 subtable" pi.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" pi.sc
 EndChar

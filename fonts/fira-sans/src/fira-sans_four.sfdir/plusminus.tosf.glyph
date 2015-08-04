@@ -1,32 +1,33 @@
-
 StartChar: plusminus.tosf
-Encoding: 1114589 -1 1189
+Encoding: 1114951 -1 2343
 Width: 560
+GlyphClass: 2
 Flags: MW
-HStem: 0 332.93 173.14 159.79 329 159.78
-VStem: 124.86 157.14 277.93 157.07
+HStem: 0 333<125 278 125 278 282 435 125 435> 173 160<125 282 125 278> 329 160<125 282 125 282 278 435 278 282>
+VStem: 125 157<173 333 173 333> 278 157<329 329 333 333>
 LayerCount: 2
+Back
 Fore
 SplineSet
-282 332.93 m 1x90
- 435 332.93 l 1
+282 489 m 1x30
+ 282 333 l 1x90
+ 435 333 l 1
  435 329 l 1x28
  282 329 l 1x30
- 282 173.14 l 1
- 277.93 173.14 l 1x48
- 277.93 329 l 1x28
- 124.859 329 l 1
- 124.859 332.93 l 1x90
- 277.93 332.93 l 1x88
- 277.93 488.779 l 1
- 282 488.779 l 1x30
- 282 332.93 l 1x90
-123.93 3.92969 m 1x90
- 434.069 3.92969 l 1
- 434.069 0 l 1
- 123.93 -0 l 1
- 123.93 3.92969 l 1x90
+ 282 173 l 1
+ 278 173 l 1x48
+ 278 329 l 1x28
+ 125 329 l 1
+ 125 333 l 1x90
+ 278 333 l 1x88
+ 278 489 l 1
+ 282 489 l 1x30
+125 0 m 1
+ 125 4 l 1
+ 435 4 l 1
+ 435 0 l 1
+ 125 0 l 1
 EndSplineSet
-Substitution2: "'pnum' Proportional Numbers lookup 20 subtable" plusminus.osf
+Substitution2: "'pnum' Proportional Numbers lookup 23 subtable" plusminus.osf
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" plusminus.osf
 EndChar

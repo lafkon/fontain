@@ -1,36 +1,41 @@
-
 StartChar: dcaron
-Encoding: 271 271 155
+Encoding: 271 271 394
 Width: 585
 GlyphClass: 2
 Flags: MW
-HStem: -11 48<230 303> 0 21G<429 479 429 429> 486 48<238 309.5 210 316> 716 20G<479 479 615 615> 722 20G<559 559> 723 20G<421 421>
+HStem: -11 48<230 303> 0 21G<429 479 429 429> 486 48<238 310 210 316> 716 20G<479 479 613 613> 722 20G<557 557> 723 20G<421 421>
 VStem: 69 62<187 260 187 339.5> 421 58<134 407 407 407 463 736 0 743 0 743>
+AnchorPoint: "Anchor-14" 298 262 basechar 0
+AnchorPoint: "Anchor-13" 500 736 basechar 0
+AnchorPoint: "Anchor-12" 289 736 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 303 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-421 743 m 1xa7
+421 463 m 1xa7
+ 421 743 l 1xa7
  479 736 l 1
  479 0 l 1
  429 0 l 1x73
  422 80 l 1
- 391 28 341 -11 265 -11 c 0
+ 392 28 341 -11 265 -11 c 0
  143 -11 69 93 69 259 c 0
  69 420 146 534 274 534 c 0
- 345 534 391 500 421 463 c 1
- 421 743 l 1xa7
-615 736 m 1
- 578 572 l 1
- 542 577 l 1
- 559 742 l 1xab
- 615 736 l 1
+ 346 534 391 500 421 463 c 1xa7
+557 742 m 1xab
+ 613 736 l 1xb3
+ 574 572 l 1
+ 538 577 l 1
+ 557 742 l 1xab
 274 37 m 0
- 343 37 385 72 421 134 c 1
+ 344 37 386 73 421 134 c 1
  421 407 l 1
  390 451 348 486 284 486 c 0
  192 486 130 407 131 260 c 0
  131 114 186 37 274 37 c 0
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" dcaron.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" dcaron.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" dcaron.sc
 EndChar

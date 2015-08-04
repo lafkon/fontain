@@ -1,20 +1,21 @@
-
 StartChar: uni04A0
-Encoding: 1184 1184 474
-Width: 585
+Encoding: 1184 1184 1147
+Width: 591
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G<113 160 113 113 492 541 492 492> 340 41<214 328 208 329> 642 42<59 203 53 257> 674 20G<603 603>
+HStem: 0 21G<113 160 113 113 492 541 492 492> 340 41<214 328 208 329> 642 42<59 203 53 209> 674 20G<603 603>
 VStem: 53 563<642 658>
+AnchorPoint: "Anchor-4" 0 0 basechar 0
 AnchorPoint: "Anchor-3" 0 0 basechar 0
-AnchorPoint: "Anchor-2" 0 0 basechar 0
-AnchorPoint: "Anchor-1" 401 684 basechar 0
+AnchorPoint: "Anchor-2" 401 684 basechar 0
+AnchorPoint: "Anchor-1" 0 0 basechar 0
 AnchorPoint: "Anchor-0" 0 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 616 658 m 1xd8
- 576 646 561 637 506 561 c 1
+ 576 646 561 637 506 561 c 2
  367 362 l 1
  541 0 l 1
  492 0 l 1
@@ -25,6 +26,7 @@ SplineSet
  203 642 l 1
  53 642 l 1
  59 684 l 1
+ 209 684 l 1
  257 684 l 1xe8
  214 381 l 1
  329 381 l 1
@@ -32,7 +34,7 @@ SplineSet
  530 667 551 677 603 694 c 1
  616 658 l 1xd8
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" uni04A1.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" uni04A1.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uni04A1.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

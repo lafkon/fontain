@@ -1,16 +1,17 @@
-
 StartChar: zdotaccent
-Encoding: 380 380 265
+Encoding: 380 380 721
 Width: 465
 GlyphClass: 2
 Flags: MW
 HStem: 0 133<216 436> 401 132<29 241 29 445> 624 196<207 267>
 VStem: 135 204<694.5 749.5>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 239 820 basechar 0
 AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 237 533 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 225 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 237 820 m 0
@@ -18,7 +19,8 @@ SplineSet
  339 667 297 624 237 624 c 0
  177 624 135 667 135 722 c 0
  135 777 177 820 237 820 c 0
-445 408 m 1
+445 533 m 1
+ 445 408 l 1
  216 133 l 1
  452 133 l 1
  436 0 l 1
@@ -28,8 +30,7 @@ SplineSet
  29 401 l 1
  29 533 l 1
  445 533 l 1
- 445 408 l 1
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" zdotaccent.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" zdotaccent.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" zdotaccent.sc
 EndChar

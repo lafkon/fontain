@@ -1,16 +1,17 @@
-
 StartChar: Uring
-Encoding: 366 366 110
+Encoding: 366 366 288
 Width: 651
 GlyphClass: 2
 Flags: MW
 HStem: -17 122<288 362.5 288 415.5> 673 20G<55 219 219 219 432 596 596 596> 731 81<311.5 338 311.5 368> 912 81<311.5 338.5>
 VStem: 55 164<230 237 237 693> 186 94<845.5 878.5 845.5 897.5> 370 94<845.5 878.5> 432 164<237 693>
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 325 693 basechar 0
-AnchorPoint: "Anchor-8" 448 0 basechar 0
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 606 693 basechar 0
+AnchorPoint: "Anchor-12" 327 993 basechar 0
+AnchorPoint: "Anchor-11" 448 0 basechar 0
+AnchorPoint: "Anchor-10" 325 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 325 993 m 0xf6
@@ -23,7 +24,8 @@ SplineSet
  280 829 298 812 325 812 c 0
  351 812 370 829 370 862 c 0
  370 895 352 912 325 912 c 0
-596 230 m 2xf9
+596 693 m 1xf9
+ 596 230 l 2
  596 90 506 -17 325 -17 c 0
  144 -17 55 84 55 230 c 2
  55 693 l 1
@@ -32,10 +34,9 @@ SplineSet
  219 148 251 105 325 105 c 0
  400 105 432 148 432 237 c 2
  432 693 l 1
- 596 693 l 1
- 596 230 l 2xf9
+ 596 693 l 1xf9
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" uring.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" uring.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uring.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

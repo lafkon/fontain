@@ -1,23 +1,24 @@
-
 StartChar: omacron
-Encoding: 333 333 215
+Encoding: 333 333 579
 Width: 560
 GlyphClass: 2
 Flags: MW
-HStem: -10 21<194.5 329 194.5 338> 509 20<230.5 366> 685 21<236 447 240 443>
+HStem: -10 21<194.5 329 194.5 338> 509 20<230.5 366> 685 21<240 443 236 447>
 VStem: 68 23<136 255 136 262.5> 470 23<265 386>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 485 519 basechar 0
+AnchorPoint: "Anchor-12" 344 706 basechar 0
 AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 317 519 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 243 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-236 685 m 1
+443 685 m 1
+ 236 685 l 1
  240 706 l 1
  447 706 l 1
  443 685 l 1
- 236 685 l 1
 317 529 m 0
  427 529 493 458 493 327 c 0
  493 197 433 -10 243 -10 c 0
@@ -29,6 +30,6 @@ SplineSet
  415 11 470 203 470 327 c 0
  470 445 415 509 317 509 c 0
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" omacron.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 28 subtable" omacron.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" omacron.sc
 EndChar

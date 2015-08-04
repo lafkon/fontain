@@ -1,14 +1,16 @@
-
 StartChar: summation
-Encoding: 8721 8721 1119
+Encoding: 8721 8721 2302
 Width: 471
+GlyphClass: 2
 Flags: MW
 HStem: 0 20.5 641 20<93 410 93 93>
 VStem: 287 23<334 334>
 LayerCount: 2
+Back
 Fore
 SplineSet
-410 641 m 1
+410 661 m 1
+ 410 641 l 1
  93 641 l 1
  310 340 l 1
  310 328 l 1
@@ -21,9 +23,8 @@ SplineSet
  61 649 l 1
  61 661 l 1
  410 661 l 1
- 410 641 l 1
 EndSplineSet
-Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" summation.osf
-Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" summation.tf
+Substitution2: "'onum' Oldstyle Figures lookup 25 subtable" summation.osf
+Substitution2: "'tnum' Tabular Numbers lookup 24 subtable" summation.tf
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" summation.tf summation.osf
 EndChar

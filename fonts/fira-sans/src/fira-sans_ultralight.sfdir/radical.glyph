@@ -1,14 +1,16 @@
-
 StartChar: radical
-Encoding: 8730 8730 1118
+Encoding: 8730 8730 2301
 Width: 560
+GlyphClass: 2
 Flags: MW
 HStem: 0 37<271 271 271 291 253 271> 791 31<517 665 517 517>
-VStem: 76 589<454 791>
+VStem: 76 589<454 822>
 LayerCount: 2
+Back
 Fore
 SplineSet
-665 791 m 1
+665 822 m 1
+ 665 791 l 1
  517 791 l 1
  291 0 l 1
  253 0 l 1
@@ -17,9 +19,8 @@ SplineSet
  271 37 l 1
  492 822 l 1
  665 822 l 1
- 665 791 l 1
 EndSplineSet
-Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" radical.osf
-Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" radical.tf
+Substitution2: "'onum' Oldstyle Figures lookup 25 subtable" radical.osf
+Substitution2: "'tnum' Tabular Numbers lookup 24 subtable" radical.tf
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" radical.tf radical.osf
 EndChar

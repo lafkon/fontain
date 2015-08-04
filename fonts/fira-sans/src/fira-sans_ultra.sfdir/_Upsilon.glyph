@@ -1,19 +1,21 @@
-
 StartChar: Upsilon
-Encoding: 933 933 710
+Encoding: 933 933 1512
 Width: 636
 GlyphClass: 2
 Flags: MW
 HStem: 0 21G<202 433 202 202> 678 20G<-20 233 233 233 410 655 655 655>
 VStem: 202 231<0 254 254 254>
+AnchorPoint: "Anchor-9" 0 0 basechar 0
+AnchorPoint: "Anchor-8" 0 0 basechar 0
 AnchorPoint: "Anchor-7" 0 0 basechar 0
-AnchorPoint: "Anchor-6" -13 698 basechar 0
-AnchorPoint: "Anchor-5" 0 0 basechar 0
-AnchorPoint: "Anchor-4" 317 698 basechar 0
+AnchorPoint: "Anchor-6" 318 0 basechar 0
+AnchorPoint: "Anchor-5" 318 698 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-433 255 m 1
+655 698 m 1
+ 433 255 l 1
  433 0 l 1
  202 0 l 1
  202 254 l 1
@@ -22,9 +24,9 @@ SplineSet
  321 426 l 1
  410 698 l 1
  655 698 l 1
- 433 255 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" upsilon.sc
-Substitution2: "'aalt' Access All Alternates lookup 0 subtable" upsilon.sc
+Substitution2: "Single Substitution lookup 41 subtable" Upsilondieresis
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" upsilon.sc
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" upsilon.sc Upsilondieresis
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

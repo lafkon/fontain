@@ -1,24 +1,25 @@
-
 StartChar: Racute
-Encoding: 340 340 87
+Encoding: 340 340 219
 Width: 596
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G<65 151 65 65 437 532 437 437> 296 67<201 306 306 308 192 306> 620 68<237 332 237 237>
-VStem: 477 91<488 559.5>
-AnchorPoint: "Anchor-11" 269 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 355 688 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+HStem: 0 21G<65 151 65 65 437 532 437 437> 296 67<201 306 306 308 192 306> 620 68<237 237 237 332>
+VStem: 477 91<484.5 555.5>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 377 906 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 269 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-273 756 m 1
+493 834 m 1
+ 273 756 l 1
  258 801 l 1
  466 906 l 1
  493 834 l 1
- 273 756 l 1
-568 524 m 0
+568 520 m 0
  568 436 523 344 392 309 c 1
  532 0 l 1
  437 0 l 1
@@ -28,15 +29,15 @@ SplineSet
  65 0 l 1
  162 688 l 1
  335 688 l 2
- 492 688 568 632 568 524 c 0
-201 363 m 1
- 306 363 l 2
- 441 363 477 450 477 526 c 0
- 477 593 433 620 332 620 c 2
- 237 620 l 1
+ 492 688 568 632 568 520 c 0
+237 620 m 1
  201 363 l 1
+ 306 363 l 2
+ 441 363 477 449 477 520 c 0
+ 477 591 433 620 332 620 c 2
+ 237 620 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" racute.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" racute.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" racute.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

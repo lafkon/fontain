@@ -1,14 +1,16 @@
-
 StartChar: cent
-Encoding: 162 162 1060
+Encoding: 162 162 2198
 Width: 479
+GlyphClass: 2
 Flags: MW
 HStem: -15 21G<356 356> -11 21G<221 221> 526 20G<222 222> 529 20G<356 356> 676 20G<222 356 356 356>
 VStem: 17 206<209.5 317 209.5 334.5> 221 135<-165 -15 -165 -11 -165 -11>
 LayerCount: 2
+Back
 Fore
 SplineSet
-489 46 m 1x5a
+404 167 m 1x5a
+ 489 46 l 1
  452 16 409 -6 356 -15 c 1x9a
  356 -165 l 1
  221 -165 l 1
@@ -23,10 +25,9 @@ SplineSet
  375 394 345 405 313 405 c 0
  255 405 223 371 223 263 c 0
  223 156 260 133 311 133 c 0x5c
- 344 133 367 144 401 170 c 1
- 489 46 l 1x5a
+ 344 133 367 144 404 167 c 1x5a
 EndSplineSet
-Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" cent.osf
-Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" cent.tf
+Substitution2: "'onum' Oldstyle Figures lookup 25 subtable" cent.osf
+Substitution2: "'tnum' Tabular Numbers lookup 24 subtable" cent.tf
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" cent.tf cent.osf
 EndChar

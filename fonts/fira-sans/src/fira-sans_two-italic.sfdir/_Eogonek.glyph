@@ -1,19 +1,21 @@
-
 StartChar: Eogonek
-Encoding: 280 280 33
+Encoding: 280 280 84
 Width: 495
 GlyphClass: 2
 Flags: MW
-HStem: -194 196<271 300.5> 0 21G<94 375.14 94 94 379 409 379 379> 360 320<189 407 147 494>
+HStem: -194 196<271 300.5> 0 21G<94 375 94 94 379 409 379 379> 360 320<189 407 147 494>
 VStem: 94 400
-AnchorPoint: "Anchor-11" 248 0 basechar 0
-AnchorPoint: "Anchor-10" 88 517 basechar 0
-AnchorPoint: "Anchor-9" 343 680 basechar 0
-AnchorPoint: "Anchor-8" 389 0 basechar 0
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 343 680 basechar 0
+AnchorPoint: "Anchor-11" 389 0 basechar 0
+AnchorPoint: "Anchor-10" 248 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-191 678 m 1xb0
+494 678 m 1xb0
+ 191 678 l 1
  147 362 l 1
  407 362 l 1
  407 360 l 1
@@ -28,14 +30,13 @@ SplineSet
  345 -186 l 1
  323 -192 310 -194 291 -194 c 0
  251 -194 224 -174 224 -132 c 0xb0
- 224 -62.9697 306.67 -24.0801 375.14 0 c 1
+ 224 -63 307 -24 375 0 c 1
  94 0 l 1x70
  189 680 l 1
  494 680 l 1
- 494 678 l 1
- 191 678 l 1xb0
+ 494 678 l 1xb0
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" eogonek.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" eogonek.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" eogonek.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

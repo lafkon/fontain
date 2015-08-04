@@ -1,24 +1,29 @@
-
 StartChar: Lambda
-Encoding: 923 923 703
+Encoding: 923 923 1509
 Width: 574
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G<-42 94 -42 -42 405 542 405 405> 590 101<333 333> 671 20G<267 428 428 428>
+HStem: 0 21G<-42 95 -42 -42 407 542 407 407> 590 101<334 334> 671 20G<267 428 428 428>
 VStem: -42 584<0 0>
+AnchorPoint: "Anchor-9" 0 0 basechar 0
+AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-7" 0 0 basechar 0
+AnchorPoint: "Anchor-6" 251 0 basechar 0
+AnchorPoint: "Anchor-5" 348 691 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-542 0 m 1xb0
- 405 0 l 1
- 333 590 l 1xd0
- 94 0 l 1
+428 691 m 1xb0
+ 542 0 l 1
+ 407 0 l 1
+ 334 590 l 1xd0
+ 95 0 l 1
  -42 0 l 1
  267 691 l 1
- 428 691 l 1
- 542 0 l 1xb0
+ 428 691 l 1xb0
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" lambda.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" lambda.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" lambda.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

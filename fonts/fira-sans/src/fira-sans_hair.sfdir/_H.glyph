@@ -1,33 +1,34 @@
-
 StartChar: H
-Encoding: 72 72 40
+Encoding: 72 72 109
 Width: 657
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G<125.711 140.141 125.711 125.711 517.28 517.28 517.28 531.71> 353.57 13.57 660.85 20G
-VStem: 125.71 14.43 517.28 14.43
+HStem: 0 21G<126 140 126 126 517 532 517 517> 354 13<140 517 140 517> 661 20G<126 140 140 140 517 532 532 532>
+VStem: 126 14<0 354 0 367 367 681> 517 15<0 354 354 354 367 681 0 681>
+AnchorPoint: "Anchor-14" 327 340 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 327 681 basechar 0
 AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 84 681 basechar 0
-AnchorPoint: "Anchor-9" 327 681 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 329 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-517.28 353.57 m 1
- 140.141 353.57 l 1
- 140.141 0 l 1
- 125.711 -0 l 1
- 125.711 680.85 l 1
- 140.141 680.85 l 1
- 140.141 367.14 l 1
- 517.28 367.14 l 1
- 517.28 680.85 l 1
- 531.71 680.85 l 1
- 531.71 0 l 1
- 517.28 0 l 1
- 517.28 353.57 l 1
+517 0 m 1
+ 517 354 l 1
+ 140 354 l 1
+ 140 0 l 1
+ 126 0 l 1
+ 126 681 l 1
+ 140 681 l 1
+ 140 367 l 1
+ 517 367 l 1
+ 517 681 l 1
+ 532 681 l 1
+ 532 0 l 1
+ 517 0 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" h.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" h.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" h.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

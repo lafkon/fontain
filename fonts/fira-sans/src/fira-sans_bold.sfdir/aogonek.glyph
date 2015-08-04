@@ -1,28 +1,29 @@
-
 StartChar: aogonek
-Encoding: 261 261 141
+Encoding: 261 261 362
 Width: 548
 GlyphClass: 2
 Flags: MW
-HStem: -260 98<404 415.5> -17 113<225.5 230.5> 241 87<275 290 290 329> 433 115<234 271.5>
-VStem: 26 157<142 189.5 142 207> 255 114<-131 -105.5> 329 155<147 154 154 241 241 241 328 351 351 360>
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 271 531 basechar 0
-AnchorPoint: "Anchor-8" 497 -14 basechar 0
+HStem: -260 98<404 415.5> -17 113<225.5 230.5> -14 21G<486 486 486 487> 241 87<275 290 290 329> 433 115<234 271.5>
+VStem: 26 157<142 189.5 142 207> 255 114<-131 -105.5> 329 155<146 154 154 241 241 241 328 351 351 360>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 271 531 basechar 0
+AnchorPoint: "Anchor-11" 497 -14 basechar 0
+AnchorPoint: "Anchor-10" 271 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-487 -14 m 1xfa
+486 -14 m 1xbd
  389 -51 369 -88 369 -116 c 0
  369 -146 386 -162 422 -162 c 0
  442 -162 460 -159 483 -154 c 1
  472 -252 l 1
  451 -257 429 -260 402 -260 c 0
- 317 -260 255 -215 255 -143 c 0xfc
- 255 -68 310 -19 396 15 c 1
- 381 26 369 42 359 63 c 1
- 321 4 262 -17 199 -17 c 0
+ 317 -260 255 -215 255 -143 c 0
+ 255 -68 309 -19 396 15 c 1
+ 381 26 369 41 359 62 c 1
+ 321 4 262 -17 199 -17 c 0xde
  93 -17 26 52 26 149 c 0
  26 265 114 328 275 328 c 2
  329 328 l 1
@@ -34,14 +35,15 @@ SplineSet
  418 548 484 483 484 360 c 2
  484 154 l 2
  484 113 495 98 520 89 c 1
- 487 -14 l 1xfa
-245 96 m 0
- 282 96 310 115 329 147 c 1
+ 487 -14 l 1
+ 487 -14 486 -14 486 -14 c 1xbd
+245 96 m 0xdd
+ 281 96 310 115 329 146 c 1
  329 241 l 1
  290 241 l 2
  218 241 183 216 183 163 c 0
- 183 121 206 96 245 96 c 0
+ 183 121 206 96 245 96 c 0xdd
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" aogonek.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" aogonek.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" aogonek.sc
 EndChar

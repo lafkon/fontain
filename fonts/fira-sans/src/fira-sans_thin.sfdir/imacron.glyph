@@ -1,29 +1,30 @@
-
 StartChar: imacron
-Encoding: 299 299 185
+Encoding: 299 299 493
 Width: 258
 GlyphClass: 2
 Flags: MW
 HStem: 0 21G<118 140 118 118> 499 20G<118 140 140 140> 685 21<25 232 25 232>
-VStem: 118 22<0 519>
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 129 519 basechar 0
-AnchorPoint: "Anchor-8" 150 0 basechar 0
+VStem: 118 22<0 519 0 519>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 131 706 basechar 0
+AnchorPoint: "Anchor-11" 150 0 basechar 0
+AnchorPoint: "Anchor-10" 129 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-25 685 m 1
+232 685 m 1
+ 25 685 l 1
  25 706 l 1
  232 706 l 1
  232 685 l 1
- 25 685 l 1
-140 0 m 1
+140 519 m 1
+ 140 0 l 1
  118 0 l 1
  118 519 l 1
  140 519 l 1
- 140 0 l 1
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" imacron.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" imacron.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" imacron.sc
 EndChar

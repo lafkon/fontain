@@ -1,38 +1,39 @@
-
 StartChar: otilde
-Encoding: 245 245 218
+Encoding: 245 245 591
 Width: 581
 GlyphClass: 2
 Flags: MW
-HStem: -12 68<244.5 335.5 244.5 363.5> 470 68<246 336.5> 658 65<329.5 358 329.5 371> 667 20G<127 127> 706 64<220 250> 721 20G<453 453>
+HStem: -12 68<244.5 335.5 244.5 363.5> 470 68<246 336.5> 658 65<329.5 358 329.5 369.5> 706 64<220.5 250> 721 20G<453 453>
 VStem: 59 90<192.5 332.5 192.5 344.5> 432 90<193.5 333.5>
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 291 526 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 473 526 basechar 0
+AnchorPoint: "Anchor-12" 290 726 basechar 0
+AnchorPoint: "Anchor-11" 377 0 basechar 0
+AnchorPoint: "Anchor-10" 291 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-351 658 m 0xe3
- 293 658 268 706 232 706 c 0
- 208 706 195 691 178 661 c 1
+348 658 m 0xe6
+ 296 658 268 706 232 706 c 0
+ 209 706 195 691 178 661 c 1
  127 687 l 1
- 150 734 184 770 233 770 c 0xdb
- 285 770 311 723 348 723 c 0
- 368 723 383 737 402 767 c 1xe3
- 453 741 l 1xd7
- 428 686 391 658 351 658 c 0xe3
-291 538 m 0xd7
+ 150 734 184 770 232 770 c 0xd6
+ 286 770 311 723 348 723 c 0
+ 368 723 383 737 402 767 c 1xe6
+ 453 741 l 1xce
+ 428 686 391 658 348 658 c 0xe6
+291 538 m 0xce
  439 538 522 432 522 264 c 0
  522 99 437 -12 290 -12 c 0
  143 -12 59 95 59 262 c 0
- 59 427 144 538 291 538 c 0xd7
+ 59 427 144 538 291 538 c 0xce
 291 470 m 0
  201 470 149 403 149 262 c 0
  149 123 199 56 290 56 c 0
  381 56 432 123 432 264 c 0
  432 403 382 470 291 470 c 0
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" otilde.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" otilde.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" otilde.sc
 EndChar

@@ -1,33 +1,33 @@
-
 StartChar: nine
-Encoding: 57 57 886
+Encoding: 57 57 2020
 Width: 515
 Flags: MW
 HStem: 250 40<200.5 270.5> 636 39<208.5 308>
-VStem: 56 48<403.5 514.5 403.5 525.5> 404 47<395 474.5>
+VStem: 56 48<403.5 514.5 403.5 525.5> 404 47<396 475>
 LayerCount: 2
+Back
 Fore
 SplineSet
 254 675 m 0
  390 675 451 572 451 404 c 0
  451 146 335 48 124 -18 c 1
  112 18 l 1
- 288 73 393 160 404 348 c 1
+ 287 73 392 160 403 347 c 1
  363 286 306 250 235 250 c 0
  133 250 56 329 56 458 c 0
  56 593 140 675 254 675 c 0
 242 290 m 0
- 311 290 360 328 404 395 c 1
+ 311 290 360 328 404 396 c 1
  404 554 361 636 255 636 c 0
  162 636 104 572 104 457 c 0
  104 350 159 290 242 290 c 0
 EndSplineSet
-Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" nine.osf
-Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" nine.tf
-Substitution2: "'frac' Diagonal Fractions lookup 16 subtable" nine.numr
-Substitution2: "'dnom' Denominators lookup 14 subtable" nine.dnom
-Substitution2: "'numr' Numerators lookup 13 subtable" nine.numr
-Substitution2: "'sups' Superscript lookup 12 subtable" ninesuperior
-Substitution2: "'subs' Subscript lookup 11 subtable" nineinferior
-AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" nineinferior ninesuperior nine.numr nine.dnom nine.tf nine.osf
+Substitution2: "'onum' Oldstyle Figures lookup 25 subtable" nine.osf
+Substitution2: "'tnum' Tabular Numbers lookup 24 subtable" nine.tf
+Substitution2: "'frac' Diagonal Fractions lookup 18 subtable" nine.numr
+Substitution2: "'dnom' Denominators lookup 16 subtable" nine.dnom
+Substitution2: "'numr' Numerators lookup 15 subtable" nine.numr
+Substitution2: "'sups' Superscript lookup 14 subtable" uni2079
+Substitution2: "'subs' Subscript lookup 13 subtable" uni2089
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" uni2089 uni2079 nine.numr nine.dnom nine.tf nine.osf
 EndChar

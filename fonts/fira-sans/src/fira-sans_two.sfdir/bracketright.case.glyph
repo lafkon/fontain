@@ -1,14 +1,15 @@
-
 StartChar: bracketright.case
-Encoding: 1114483 -1 1014
+Encoding: 1114833 -1 2147
 Width: 310
 Flags: MW
 HStem: -110 890<90 200 90 200>
-VStem: 90 110<-110 -108 -108 -108 778 780>
+VStem: 90 110<-110 -108 -108 -108 778 780 -110 780>
 LayerCount: 2
+Back
 Fore
 SplineSet
-200 -110 m 1
+200 780 m 1
+ 200 -110 l 1
  90 -110 l 1
  90 -108 l 1
  198 -108 l 1
@@ -16,6 +17,5 @@ SplineSet
  90 778 l 1
  90 780 l 1
  200 780 l 1
- 200 -110 l 1
 EndSplineSet
 EndChar

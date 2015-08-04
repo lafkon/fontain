@@ -1,23 +1,24 @@
-
 StartChar: Oslashacute
-Encoding: 510 510 80
+Encoding: 510 510 213
 Width: 690
 GlyphClass: 2
 Flags: MW
-HStem: -20 146<345 385 345 449.5> 570 146<306 345>
+HStem: -20 146<342 385 342 449.5> 570 146<306 348>
 VStem: 20 214<312 429.5 312 462> 456 214<268.5 385.5>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 347 1029 basechar 0
 AnchorPoint: "Anchor-11" 0 0 basechar 0
 AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 345 741 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-238 794 m 1
- 188 893 l 1
- 419 1029 l 1
- 492 885 l 1
- 238 794 l 1
+497 885 m 1
+ 243 794 l 1
+ 193 893 l 1
+ 424 1029 l 1
+ 497 885 l 1
 531 667 m 1
  622 608 670 498 670 349 c 0
  670 123 554 -20 345 -20 c 0
@@ -31,18 +32,18 @@ SplineSet
  421 833 l 1
  571 793 l 1
  531 667 l 1
-345 570 m 1
+345 570 m 0
  267 570 234 510 234 349 c 0
  234 275 239 225 249 192 c 1
  363 569 l 1
- 345 570 l 1
-345 126 m 1
+ 357 570 351 570 345 570 c 0
+345 126 m 0
  425 126 456 188 456 349 c 0
  456 422 451 471 441 504 c 1
  328 127 l 1
- 345 126 l 1
+ 333 126 339 126 345 126 c 0
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" oslashacute.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" oslashacute.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" oslashacute.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

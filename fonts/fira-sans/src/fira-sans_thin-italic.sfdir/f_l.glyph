@@ -1,21 +1,21 @@
-
 StartChar: f_l
-Encoding: 1114126 -1 272
-Width: 583
+Encoding: 1114132 -1 730
+Width: 575
 GlyphClass: 3
 Flags: MW
-HStem: -195 21G<-32 -32> -10 19<432 457 432 457> 0 21G<497 497> 499 20<67 155 65 157 179 320 67 176> 717 20<286.5 352>
+HStem: -195 21G<-32 -32> -10 19<432 457 432 457> 0 21G<497 497> 499 20<67 154 65 157 179 320 67 176> 689 19 717 20<286.5 352>
 VStem: 386 22<73 75>
 LayerCount: 2
+Back
 Fore
 SplineSet
-450 9 m 0xdc
- 464 9 478 13 491 18 c 1xbc
+450 9 m 0xd6
+ 464 9 478 13 491 18 c 1xb6
  497 0 l 1
  483 -5 465 -10 449 -10 c 0
  402 -10 378 18 386 75 c 2
  473 689 l 1
- 424 707 381 717 323 717 c 0
+ 424 706 381 717 323 717 c 0
  250 717 202 686 192 614 c 2
  179 519 l 1
  326 519 l 1
@@ -25,18 +25,19 @@ SplineSet
  90 -123 51 -155 -32 -195 c 1
  -39 -177 l 1
  35 -141 69 -110 86 7 c 2
- 155 499 l 1
+ 154 499 l 1
  65 499 l 1
  67 519 l 1
  157 519 l 1
  171 617 l 2
- 182 695 239 737 325 737 c 0
- 379 737 430 726 477 706 c 1
- 497 709 l 1
+ 182 695 239 737 325 737 c 0xd6
+ 379 737 429 727 476 707 c 1
+ 497 709 l 1xde
  408 73 l 2
- 402 32 414 9 450 9 c 0xdc
+ 402 32 414 9 450 9 c 0xd6
 EndSplineSet
-Ligature2: "'dlig' Discretionary Ligatures lookup 26 subtable" f l
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" f_l.sc
-Substitution2: "'aalt' Access All Alternates lookup 0 subtable" f_l.sc
+Ligature2: "'dlig' Discretionary Ligatures lookup 30 subtable" f l
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 28 subtable" f_l.sc
+Substitution2: "'locl' Localized Forms in Latin lookup 11 subtable" f_l.loclEWE
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" f_l.loclEWE f_l.sc
 EndChar

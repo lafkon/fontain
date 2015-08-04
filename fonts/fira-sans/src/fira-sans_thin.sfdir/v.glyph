@@ -1,23 +1,28 @@
-
 StartChar: v
-Encoding: 118 118 250
+Encoding: 118 118 690
 Width: 447
 GlyphClass: 2
 Flags: MW
 HStem: 0 19<228 228 228 243 214 228> 499 20G<23 48 48 48 400 424 424 424>
 VStem: 23 401<519 519>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 224 519 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 229 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-243 0 m 1
+424 519 m 1
+ 243 0 l 1
  214 0 l 1
  23 519 l 1
  48 519 l 1
  228 19 l 1
  400 519 l 1
  424 519 l 1
- 243 0 l 1
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" v.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" v.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" v.sc
 EndChar

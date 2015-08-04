@@ -1,41 +1,42 @@
-
 StartChar: Ncommaaccent
-Encoding: 325 325 68
+Encoding: 325 325 165
 Width: 655
 GlyphClass: 2
 Flags: MW
-HStem: -0.00999451 21G 0 21G<525.43 525.43> 660.14 20G
-VStem: 323.01 13.93
-AnchorPoint: "Anchor-11" 322 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 332 680 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+HStem: -120 14<330 330> 0 21G<129 133 129 129 520 525 520 520> 660 20G<129 135 135 135 521 525 525 525>
+VStem: 330 7<-120 -111>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 332 680 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 322 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-525.43 0 m 1x70
- 519.938 -0.00195312 l 1x70
- 133.009 675.778 l 1
- 133.219 651.639 133.289 617.349 133.289 565.209 c 2
- 133.289 -0.0107422 l 1
- 129.289 -0.0107422 l 1xb0
- 129.289 680.14 l 1
- 134.859 680.14 l 1
- 521.72 4.34961 l 1
- 521.569 45.2793 521.43 98.209 521.43 142.859 c 2
- 521.43 680.14 l 1
- 525.43 680.14 l 1
- 525.43 0 l 1x70
-329.938 -105.862 m 0
- 334.299 -105.862 336.938 -108.712 336.938 -112.712 c 0
- 336.938 -115.712 336.578 -117.352 334.648 -124.212 c 2
- 308.648 -240.852 l 1
- 306.219 -240.852 l 1
- 330.009 -119.502 l 1
- 325.148 -119.142 323.009 -116.642 323.009 -112.712 c 0
- 323.009 -108.712 325.719 -105.862 329.938 -105.862 c 0
+525 680 m 1
+ 525 0 l 1
+ 520 0 l 1
+ 133 676 l 1
+ 133 565 l 1
+ 133 0 l 1
+ 129 0 l 1
+ 129 680 l 1
+ 135 680 l 1
+ 522 4 l 1
+ 522 45 521 98 521 143 c 2
+ 521 680 l 1
+ 525 680 l 1
+330 -106 m 0
+ 334 -106 337 -109 337 -113 c 0
+ 337 -116 336 -117 334 -124 c 2
+ 308 -241 l 1
+ 306 -241 l 1
+ 330 -120 l 1
+ 325 -119 323 -117 323 -113 c 0
+ 323 -109 326 -106 330 -106 c 0
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" ncommaaccent.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" ncommaaccent.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" ncommaaccent.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

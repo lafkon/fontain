@@ -1,44 +1,45 @@
-
 StartChar: scedilla
-Encoding: 351 351 230
+Encoding: 351 351 623
 Width: 468
 GlyphClass: 2
 Flags: MW
-HStem: -253 75<146 172.5 146 215> -14 21G<229 229> -12 21G<153 153> 449 95<241 290.5>
-VStem: 54 127<376 410.5 376 423.5> 214 95 300 128<133.5 170>
-AnchorPoint: "Anchor-11" 198 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 277 529 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+HStem: -253 75<146.5 175.5 146.5 214> -14 21G<229 229> -12 21G<153 153> 449 95<239.5 289>
+VStem: 54 127<376 410.5 376 423.5> 214 95 300 128<133 170>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 277 529 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 182 -253 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 285 322 m 0xba
- 379 293 428 247 428 161 c 0xda
+ 379 292 428 246 428 163 c 0xda
  428 64 351 -4 229 -14 c 1
  223 -52 l 1xdc
- 283 -58 309 -92 309 -134 c 0
- 309 -188 269 -253 161 -253 c 0
- 118 -253 83 -239 62 -223 c 1
+ 283 -58 309 -92 309 -137 c 0
+ 309 -189 267 -253 161 -253 c 0
+ 118 -253 84 -239 62 -223 c 1
  100 -162 l 1
- 117 -172 134 -178 158 -178 c 0
- 187 -178 213 -166 214 -141 c 0
+ 117 -172 134 -178 159 -178 c 0
+ 192 -178 213 -166 214 -141 c 0
  215 -115 194 -106 130 -106 c 1
  153 -12 l 1xbc
  82 -2 26 30 -10 67 c 1
- 59 139 l 1
- 93 104 143 81 200 81 c 0
- 274 81 300 118 300 149 c 0
- 300 191 275 204 192 233 c 1
- 99 264 54 310 54 383 c 0
- 54 464 125 544 270 544 c 0
- 341 544 407 518 452 477 c 1
- 393 403 l 1
- 358 434 311 449 270 449 c 0
+ 56 137 l 1
+ 93 104 141 81 201 81 c 0
+ 273 81 300 117 300 149 c 0
+ 300 191 276 205 192 233 c 0
+ 96 264 54 307 54 383 c 0
+ 54 464 125 544 267 544 c 0
+ 343 544 405 518 452 477 c 1
+ 394 406 l 1
+ 355 434 311 449 267 449 c 0
  212 449 181 428 181 393 c 0
- 181 359 208 346 285 322 c 0xba
+ 181 359 208 347 285 322 c 0xba
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" scedilla.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 28 subtable" scedilla.sc
 Substitution2: "'locl' Localized Forms in Latin lookup 5 subtable" scommaaccent
 Substitution2: "'locl' Localized Forms in Latin lookup 4 subtable" scommaaccent
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" scommaaccent scedilla.sc

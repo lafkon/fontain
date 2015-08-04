@@ -1,31 +1,31 @@
-
 StartChar: Xi
-Encoding: 926 926 704
+Encoding: 926 926 1506
 Width: 508
 GlyphClass: 2
 Flags: MW
 HStem: 0 81<46 461 46 461> 312 78<107 394 107 394> 609 79<46 441 46 453>
-VStem: 46 415<0 81 0 81>
+VStem: 46 415<0 81 0 81> 107 287<312 390 312 390>
 LayerCount: 2
+Back
 Fore
 SplineSet
-441 609 m 1
+453 688 m 1xf0
+ 441 609 l 1
  46 609 l 1
  46 688 l 1
- 453 688 l 1
- 441 609 l 1
-394 312 m 1
+ 453 688 l 1xf0
+394 390 m 1xe8
+ 394 312 l 1
  107 312 l 1
  107 390 l 1
- 394 390 l 1
- 394 312 l 1
-461 0 m 1
+ 394 390 l 1xe8
+461 81 m 1
+ 461 0 l 1
  46 0 l 1
  46 81 l 1
  461 81 l 1
- 461 0 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" xi.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" xi.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" xi.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

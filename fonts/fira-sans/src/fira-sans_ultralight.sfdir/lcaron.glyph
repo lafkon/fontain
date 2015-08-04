@@ -1,33 +1,34 @@
-
 StartChar: lcaron
-Encoding: 318 318 196
+Encoding: 318 318 517
 Width: 278
 GlyphClass: 2
 Flags: MW
-HStem: -10 31<174.5 197.5> 714 20G<109 109 267 267> 718 20G<231 231> 719 20G<143 143>
-VStem: 109 34<80 734 734 734>
-AnchorPoint: "Anchor-11" 130 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 0 0 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+HStem: -10 31<175 198 175 198> 714 20G<109 109 266 266> 718 20G<230 230> 719 20G<143 143>
+VStem: 109 34<77 78 78 734 734 734>
+AnchorPoint: "Anchor-14" 264 375 basechar 0
+AnchorPoint: "Anchor-13" 171 734 basechar 0
+AnchorPoint: "Anchor-12" 126 734 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 179 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-143 79 m 2x98
- 143 40 156 21 193 21 c 0
- 205 21 217 24 229 29 c 1
- 239 1 l 1
- 226 -5 207 -10 188 -10 c 0
- 139 -10 109 17 109 80 c 2
+189 -10 m 0x98
+ 142 -10 109 16 109 77 c 2
  109 734 l 1xc8
  143 739 l 1
- 143 79 l 2x98
-267 734 m 1xc8
- 236 584 l 1
- 213 587 l 1
- 231 738 l 1xa8
- 267 734 l 1xc8
+ 143 78 l 2
+ 143 40 159 21 191 21 c 0
+ 205 21 217 24 229 29 c 1
+ 239 1 l 1
+ 226 -5 207 -10 189 -10 c 0x98
+230 738 m 1xa8
+ 266 734 l 1xc8
+ 235 584 l 1
+ 212 587 l 1
+ 230 738 l 1xa8
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" lcaron.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" lcaron.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" lcaron.sc
 EndChar

@@ -1,31 +1,33 @@
-
 StartChar: Udieresis
-Encoding: 220 220 105
+Encoding: 220 220 269
 Width: 648
 GlyphClass: 2
 Flags: MW
-HStem: -11 43<264 384.5 264 398.5> 664 20G<105 152 152 152 495 543 543 543> 792 66<225 245 407 426.5>
-VStem: 105 47<211 215 215 684> 201 68<815.5 834.5> 383 67<815.5 834.5> 495 48<215 684>
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 326 768 basechar 0
-AnchorPoint: "Anchor-8" 412 0 basechar 0
+HStem: -11 43<264 384.5 264 398.5> 664 20G<105 152 152 152 495 543 543 543> 792 66<223 243 405 424.5>
+VStem: 105 47<211 215 215 684> 199 68<815.5 834.5> 381 67<815.5 834.5> 495 48<215 684>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 553 684 basechar 0
+AnchorPoint: "Anchor-12" 326 858 basechar 0
+AnchorPoint: "Anchor-11" 412 0 basechar 0
+AnchorPoint: "Anchor-10" 324 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-235 858 m 0
- 255 858 269 844 269 825 c 0
- 269 806 255 792 235 792 c 0
- 215 792 201 806 201 825 c 0
- 201 844 215 858 235 858 c 0
-417 858 m 0
- 436 858 450 844 450 825 c 0
- 450 806 436 792 417 792 c 0
- 397 792 383 806 383 825 c 0
- 383 844 397 858 417 858 c 0
-543 211 m 2
+233 858 m 0
+ 253 858 267 844 267 825 c 0
+ 267 806 253 792 233 792 c 0
+ 213 792 199 806 199 825 c 0
+ 199 844 213 858 233 858 c 0
+415 858 m 0
+ 434 858 448 844 448 825 c 0
+ 448 806 434 792 415 792 c 0
+ 395 792 381 806 381 825 c 0
+ 381 844 395 858 415 858 c 0
+543 684 m 1
+ 543 211 l 2
  543 82 473 -11 324 -11 c 0
- 173 -11 105 82 105 211 c 2
+ 174 -11 105 82 105 211 c 2
  105 684 l 1
  152 684 l 1
  152 215 l 2
@@ -33,9 +35,8 @@ SplineSet
  445 32 495 105 495 215 c 2
  495 684 l 1
  543 684 l 1
- 543 211 l 2
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" udieresis.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" udieresis.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" udieresis.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

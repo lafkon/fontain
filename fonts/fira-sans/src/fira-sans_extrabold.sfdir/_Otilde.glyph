@@ -1,27 +1,28 @@
-
 StartChar: Otilde
-Encoding: 213 213 81
+Encoding: 213 213 214
 Width: 690
 GlyphClass: 2
 Flags: MW
-HStem: -18 133<303 388.5 303 446> 580 133<302.5 388> 754 126<386 413.5 386 437> 798 126<277.5 306>
+HStem: -18 133<303 388.5 303 446> 580 133<302.5 388> 754 126<386 413.5 386 435.5> 798 126<277.5 306>
 VStem: 27 192<264 432 264 461> 471 193<264 432>
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 105 695 basechar 0
-AnchorPoint: "Anchor-9" 346 695 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 581 695 basechar 0
+AnchorPoint: "Anchor-12" 348 924 basechar 0
+AnchorPoint: "Anchor-11" 475 0 basechar 0
+AnchorPoint: "Anchor-10" 345 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-407 754 m 0xec
- 341 754 322 798 290 798 c 0
+404 754 m 0xec
+ 344 754 322 798 290 798 c 0
  265 798 253 783 237 755 c 1
  151 797 l 1
  176 865 223 924 286 924 c 0xdc
- 351 924 370 880 402 880 c 0
+ 348 924 370 880 402 880 c 0
  425 880 438 894 454 923 c 1
  540 881 l 1
- 514 811 467 754 407 754 c 0xec
+ 514 811 467 754 404 754 c 0xec
 345 713 m 0xdc
  547 713 664 579 664 348 c 0
  664 122 547 -18 345 -18 c 0
@@ -33,7 +34,7 @@ SplineSet
  432 115 471 180 471 348 c 0
  471 516 431 580 345 580 c 0
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" otilde.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" otilde.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" otilde.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

@@ -1,19 +1,21 @@
-
 StartChar: Tbar
-Encoding: 358 358 97
+Encoding: 358 358 248
 Width: 536
 GlyphClass: 2
 Flags: MW
 HStem: -1 21G<194 341 194 194> 302 87<77 194 77 194 341 458> 576 115<10 194 10 532 341 516 341 341>
 VStem: 194 147<-1 302 -1 302 389 576>
-AnchorPoint: "Anchor-11" 267 -1 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 267 691 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-14" 267 345 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 267 691 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 267 -1 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-341 576 m 1
+516 576 m 1
+ 341 576 l 1
  341 389 l 1
  458 389 l 1
  458 302 l 1
@@ -29,9 +31,8 @@ SplineSet
  10 691 l 1
  532 691 l 1
  516 576 l 1
- 341 576 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" tbar.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" tbar.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" tbar.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

@@ -1,24 +1,25 @@
-
 StartChar: asciitilde.tf
-Encoding: 1114552 -1 1152
+Encoding: 1114917 -1 2310
 Width: 560
+GlyphClass: 2
 Flags: MW
-HStem: 269 41<302.5 341.5 302.5 346.5> 325 41<160.5 200>
-VStem: 72 356<299 335>
+HStem: 269 41<339 379.5 339 384> 325 41<198 239>
+VStem: 110 356<299 335>
 LayerCount: 2
+Back
 Fore
 SplineSet
-181 366 m 0
- 244 366 280 310 325 310 c 0
- 358 310 376 328 399 354 c 1
- 428 335 l 1
- 399 297 370 269 323 269 c 0xe0
- 261 269 222 325 178 325 c 0
- 143 325 124 305 101 279 c 1
- 72 299 l 1
- 101 336 131 366 181 366 c 0
+360 269 m 0
+ 301 269 262 325 216 325 c 0
+ 180 325 161 305 138 280 c 1
+ 110 299 l 1
+ 139 336 169 366 218 366 c 0x60
+ 280 366 315 310 363 310 c 0
+ 396 310 415 328 438 354 c 1
+ 466 335 l 1
+ 436 297 408 269 360 269 c 0
 EndSplineSet
-Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" asciitilde.tosf
-Substitution2: "'pnum' Proportional Numbers lookup 20 subtable" asciitilde
+Substitution2: "'onum' Oldstyle Figures lookup 26 subtable" asciitilde.tosf
+Substitution2: "'pnum' Proportional Numbers lookup 24 subtable" asciitilde
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" asciitilde asciitilde.tosf
 EndChar

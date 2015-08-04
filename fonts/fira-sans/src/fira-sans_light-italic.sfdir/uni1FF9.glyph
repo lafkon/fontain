@@ -1,35 +1,37 @@
-
 StartChar: uni1FF9
-Encoding: 8185 8185 739
-Width: 688
+Encoding: 8185 8185 1618
+Width: 746
 GlyphClass: 2
 Flags: MW
-HStem: -11 51<256.5 415.5 256.5 433.5> 645 51<298 456.5>
-VStem: 71 62<182.5 333 182.5 348.5> 578 62<355 504>
+HStem: -11 51<314.5 473.5 314.5 491.5> 511 20G<69 69> 645 51<356 514.5> 665 20G<192 192>
+VStem: 129 62<184.5 335 184.5 348.5> 636 62<352.5 501.5>
+AnchorPoint: "Anchor-9" 657 685 basechar 0
+AnchorPoint: "Anchor-8" 0 0 basechar 0
 AnchorPoint: "Anchor-7" 0 0 basechar 0
-AnchorPoint: "Anchor-6" 73 526 basechar 0
-AnchorPoint: "Anchor-5" 0 0 basechar 0
-AnchorPoint: "Anchor-4" 397 685 basechar 0
+AnchorPoint: "Anchor-6" 364 0 basechar 0
+AnchorPoint: "Anchor-5" 463 685 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-526 836 m 1
- 318 758 l 1
- 307 792 l 1
- 506 888 l 1
- 526 836 l 1
-404 696 m 0
- 548 696 640 602 640 424 c 0
- 640 245 558 -11 309 -11 c 0
- 164 -11 71 85 71 262 c 0
- 71 435 156 696 404 696 c 0
-401 645 m 0
- 195 645 133 410 133 256 c 0
- 133 109 203 40 310 40 c 0
- 521 40 578 278 578 432 c 0
- 578 576 512 645 401 645 c 0
+127 698 m 1xec
+ 192 685 l 1xdc
+ 111 523 l 1
+ 69 531 l 1
+ 127 698 l 1xec
+462 696 m 0xec
+ 606 696 698 602 698 424 c 0
+ 698 245 616 -11 367 -11 c 0
+ 222 -11 129 85 129 262 c 0
+ 129 435 214 696 462 696 c 0xec
+459 645 m 0
+ 253 645 191 410 191 260 c 0
+ 191 109 261 40 368 40 c 0
+ 579 40 636 278 636 427 c 0
+ 636 576 570 645 459 645 c 0
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" uni1F79.sc
-Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uni1F79.sc
+Substitution2: "Single Substitution lookup 41 subtable" Omicron
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" uni1F79.sc
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" uni1F79.sc Omicron
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

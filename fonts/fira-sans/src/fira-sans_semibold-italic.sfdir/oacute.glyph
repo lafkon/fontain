@@ -1,25 +1,26 @@
-
 StartChar: oacute
-Encoding: 243 243 209
+Encoding: 243 243 552
 Width: 575
 GlyphClass: 2
 Flags: MW
 HStem: -16 106<232.5 316 232.5 360.5> 440 106<258.5 342>
 VStem: 34 144<160.5 241 160.5 280> 397 144<289 322 251 369.5>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 527 530 basechar 0
+AnchorPoint: "Anchor-12" 351 827 basechar 0
 AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 320 530 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 253 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-470 718 m 1
- 231 626 l 1
- 202 699 l 1
- 429 827 l 1
- 470 718 l 1
+441 827 m 1
+ 482 718 l 1
+ 243 626 l 1
+ 214 699 l 1
+ 441 827 l 1
 324 546 m 0
- 463 546 542 460 541 322 c 1
+ 463 546 542 460 541 322 c 0
  541 180 470 -16 251 -16 c 0
  112 -16 34 69 34 208 c 0
  34 352 105 546 324 546 c 0
@@ -29,7 +30,7 @@ SplineSet
  372 90 397 246 397 332 c 0
  397 407 369 440 315 440 c 0
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" oacute.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 28 subtable" oacute.sc
 Substitution2: "'locl' Localized Forms in Latin lookup 7 subtable" oacute.loclPLK
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" oacute.loclPLK oacute.sc
 EndChar

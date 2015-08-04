@@ -1,24 +1,26 @@
-
 StartChar: umacron
-Encoding: 363 363 246
+Encoding: 363 363 684
 Width: 578
 GlyphClass: 2
 Flags: MW
 HStem: -11 40<226 294.5> 0 21G<429 468 429 429> 502 20G<105 151 151 151 422 468 468 468> 679 39<172 401 172 401>
-VStem: 105 46<149 153 153 522> 172 229<679 718 679 718> 422 46<141 522>
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 287 522 basechar 0
-AnchorPoint: "Anchor-8" 478 0 basechar 0
+VStem: 105 46<149 153 153 522> 172 229<679 718 679 718> 422 46<141 522 0 522>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 478 522 basechar 0
+AnchorPoint: "Anchor-12" 289 718 basechar 0
+AnchorPoint: "Anchor-11" 478 0 basechar 0
+AnchorPoint: "Anchor-10" 287 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-172 679 m 1xbe
+401 679 m 1xbe
+ 172 679 l 1
  172 718 l 1
  401 718 l 1
- 401 679 l 1
- 172 679 l 1xbe
-468 0 m 1x7a
+ 401 679 l 1xbe
+468 522 m 1xba
+ 468 0 l 1
  429 0 l 1x7a
  426 97 l 1
  391 35 336 -11 253 -11 c 0
@@ -26,12 +28,11 @@ SplineSet
  105 522 l 1
  151 522 l 1
  151 153 l 2
- 151 66 190 29 262 29 c 0xba
+ 151 66 190 29 262 29 c 0
  335 29 385 76 422 141 c 1
  422 522 l 1
- 468 522 l 1
- 468 0 l 1x7a
+ 468 522 l 1xba
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" umacron.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" umacron.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" umacron.sc
 EndChar

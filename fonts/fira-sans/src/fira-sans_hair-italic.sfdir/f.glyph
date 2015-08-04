@@ -1,34 +1,40 @@
-
 StartChar: f
-Encoding: 102 102 167
+Encoding: 102 102 447
 Width: 304
 GlyphClass: 2
 Flags: MW
-HStem: -193.14 21G 505.57 12.72 723 12.71
-VStem: -36.86 457.43
+HStem: -193 21G<-32 -32> 506 12<69 158 67 160 174 319> 723 13<277 329>
+VStem: -37 458
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 308 730 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 67 -190 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-308.43 723 m 0
- 245.72 723 197.86 688.719 187.29 615.858 c 2
- 173.63 518.288 l 1
- 322 518.288 l 1
- 318.57 505.568 l 1
- 171.851 505.568 l 1
- 101.57 3.56836 l 2
- 84.1406 -121.002 47.7109 -154.852 -31.999 -193.142 c 1
- -36.8594 -182.281 l 1
- 37.1406 -145.711 71.5703 -112.711 88 4.85938 c 2
- 158.05 505.569 l 1
- 67.1396 505.569 l 1
- 68.8594 518.289 l 1
- 159.829 518.289 l 1
- 173.719 617.569 l 2
- 184.719 694.43 238.289 735.71 309.289 735.71 c 0
- 351.569 735.71 386.43 723.14 420.569 699.43 c 1
- 413.43 689.43 l 1
- 379.859 711.71 349.859 723 308.43 723 c 0
+308 723 m 0
+ 246 723 198 689 187 616 c 2
+ 174 518 l 1
+ 322 518 l 1
+ 319 506 l 1
+ 172 506 l 1
+ 102 4 l 2
+ 84 -121 48 -155 -32 -193 c 1
+ -37 -182 l 1
+ 37 -146 72 -113 88 5 c 2
+ 158 506 l 1
+ 67 506 l 1
+ 69 518 l 1
+ 160 518 l 1
+ 174 618 l 2
+ 185 694 238 736 309 736 c 0
+ 352 736 386 723 421 699 c 1
+ 413 689 l 1
+ 380 712 350 723 308 723 c 0
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" f.sc
-Substitution2: "'aalt' Access All Alternates lookup 0 subtable" f.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 28 subtable" f.sc
+Substitution2: "'locl' Localized Forms in Latin lookup 11 subtable" f.loclEWE
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" f.loclEWE f.sc
 EndChar

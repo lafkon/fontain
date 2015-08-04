@@ -1,36 +1,37 @@
-
 StartChar: Zdotaccent
-Encoding: 379 379 127
+Encoding: 379 379 309
 Width: 530
 GlyphClass: 2
 Flags: MW
-HStem: 0 118.5 576 116<112 374 96 556> 763 166<337.5 368.5>
-VStem: 268 169
+HStem: 0 118.5 576 116<112 374 96 556> 763 166<339.5 371>
+VStem: 270 170
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 363 929 basechar 0
 AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 331 692 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 215 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-362 929 m 0
- 414 929 444 891 437 842 c 0
- 431 797 393 763 344 763 c 0
- 292 763 262 801 268 850 c 0
- 274 895 313 929 362 929 c 0
-540 579 m 1
- 170 118 l 1
- 479 119 l 1
- 448 0 l 1
- -17 0 l 1
+364 929 m 0
+ 416 929 446 891 440 842 c 0
+ 433 797 396 763 346 763 c 0
+ 295 763 264 801 270 850 c 0
+ 277 895 315 929 364 929 c 0
+-17 0 m 1
  -3 111 l 1
  374 576 l 1
  96 576 l 1
  112 692 l 1
  556 692 l 1
  540 579 l 1
+ 170 118 l 1
+ 479 119 l 1
+ 448 0 l 1
+ -17 0 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" zdotaccent.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" zdotaccent.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" zdotaccent.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

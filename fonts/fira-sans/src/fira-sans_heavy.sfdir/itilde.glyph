@@ -1,33 +1,34 @@
-
 StartChar: itilde
-Encoding: 297 297 187
+Encoding: 297 297 497
 Width: 282
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G<42 240 42 42> 514 20G<42 240 240 240> 622 138<181.5 209 181.5 234.5> 665 138<73.5 101.5>
-VStem: 42 198<0 534>
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 141 534 basechar 0
-AnchorPoint: "Anchor-8" 210 0 basechar 0
+HStem: 0 21G<42 240 42 42> 514 20G<42 240 240 240> 622 138<181.5 209 181.5 233> 665 138<73.5 101.5>
+VStem: 42 198<0 534 0 534>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 141 760 basechar 0
+AnchorPoint: "Anchor-11" 210 0 basechar 0
+AnchorPoint: "Anchor-10" 141 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-202 622 m 0xe8
- 135 622 117 665 86 665 c 0xd8
+199 622 m 0xe8
+ 138 622 117 665 86 665 c 0xd8
  61 665 49 650 33 622 c 1xe8
  -60 667 l 1xd8
  -34 740 15 803 81 803 c 0
- 148 803 166 760 197 760 c 0
+ 145 803 166 760 197 760 c 0
  221 760 233 775 249 803 c 1
  342 758 l 1
- 316 685 267 622 202 622 c 0xe8
-240 0 m 1
+ 316 685 267 622 199 622 c 0xe8
+240 534 m 1
+ 240 0 l 1
  42 0 l 1
  42 534 l 1
  240 534 l 1
- 240 0 l 1
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" itilde.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" itilde.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" itilde.sc
 EndChar

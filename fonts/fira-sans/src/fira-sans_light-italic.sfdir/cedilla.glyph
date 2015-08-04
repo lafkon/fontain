@@ -1,27 +1,27 @@
-
 StartChar: cedilla
-Encoding: 184 184 1255
+Encoding: 184 184 2520
 Width: 243
 Flags: MW
-HStem: -227 42<29.5 58 29.5 77.5> -205 20 -96 32<24 75>
+HStem: -227 42<30 61 30 77.5> -205 20 -96 32<24 75>
 VStem: 106 52
 LayerCount: 2
+Back
 Fore
 SplineSet
-75 -64 m 1x70
- 132 -69 158 -94 158 -133 c 0
- 158 -184 112 -227 43 -227 c 0xb0
+88 16 m 1x70
+ 75 -64 l 1
+ 132 -69 158 -95 158 -136 c 0
+ 158 -188 112 -227 43 -227 c 0xb0
  7 -227 -18 -217 -36 -205 c 1
  -14 -170 l 1
- 0 -179 17 -185 42 -185 c 0
- 74 -185 105 -169 106 -138 c 0
+ 0 -179 17 -185 43 -185 c 0
+ 79 -185 105 -170 106 -138 c 0
  107 -108 87 -96 24 -96 c 1
  49 16 l 1
- 88 16 l 1
- 75 -64 l 1x70
+ 88 16 l 1x70
 EndSplineSet
-Substitution2: "'case' Case-Sensitive Forms lookup 25 subtable" cedilla.case
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" cedilla.sc
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" cedilla.sc
+Substitution2: "'case' Case-Sensitive Forms lookup 29 subtable" cedilla.case
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 28 subtable" cedilla.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" cedilla.sc
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" cedilla.sc cedilla.case
 EndChar

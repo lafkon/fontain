@@ -1,16 +1,17 @@
-
 StartChar: Utilde
-Encoding: 360 360 111
-Width: 626
+Encoding: 360 360 280
+Width: 627
 GlyphClass: 2
 Flags: MW
 HStem: -22 164<269 319 269 375> 678 20G<80 307 307 307 440 666 666 666> 740 154<440 466 440 474> 782 154<321.5 348>
 VStem: 13.51 226.2
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 373 698 basechar 0
-AnchorPoint: "Anchor-8" 420 0 basechar 0
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 676 698 basechar 0
+AnchorPoint: "Anchor-12" 396 937 basechar 0
+AnchorPoint: "Anchor-11" 420 0 basechar 0
+AnchorPoint: "Anchor-10" 276 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 440 740 m 0xe8
@@ -22,7 +23,8 @@ SplineSet
  478 894 493 910 512 937 c 1
  604 887 l 1
  569 810 508 740 440 740 c 0xe8
-603 239 m 2xd8
+666 698 m 1xd8
+ 603 239 l 2
  583 96 475 -22 275 -22 c 0
  74 -22 -5 85 17 240 c 2
  80 698 l 1
@@ -31,10 +33,9 @@ SplineSet
  233 174 244 142 294 142 c 0
  344 142 366 176 376 246 c 2
  440 698 l 1
- 666 698 l 1
- 603 239 l 2xd8
+ 666 698 l 1xd8
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" utilde.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" utilde.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" utilde.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

@@ -1,16 +1,17 @@
-
 StartChar: ubreve
-Encoding: 365 365 241
+Encoding: 365 365 664
 Width: 577
 GlyphClass: 2
 Flags: MW
 HStem: -10 31<223.5 299.5> 0 21G 500 20G<109 143 143 143 430 464 464 464> 660 31<262.5 309.5 262.5 317>
-VStem: 109 34<149 152 152 520> 430 34<139 520>
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 286 520 basechar 0
-AnchorPoint: "Anchor-8" 474 0 basechar 0
+VStem: 109 34<149 152 152 520> 430 34<139 520 0 520>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 474 520 basechar 0
+AnchorPoint: "Anchor-12" 289 760 basechar 0
+AnchorPoint: "Anchor-11" 474 0 basechar 0
+AnchorPoint: "Anchor-10" 286 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 286 660 m 0xbc
@@ -20,7 +21,8 @@ SplineSet
  333 691 365 716 377 760 c 1
  402 754 l 1
  393 699 348 660 286 660 c 0xbc
-464 0 m 1x7c
+464 520 m 1
+ 464 0 l 1
  434 0 l 1x7c
  433 101 l 1
  399 40 342 -10 257 -10 c 0
@@ -28,12 +30,11 @@ SplineSet
  109 520 l 1
  143 520 l 1
  143 152 l 2
- 143 61 185 21 262 21 c 0xbc
+ 143 61 185 21 262 21 c 0
  339 21 390 70 430 139 c 1
  430 520 l 1
  464 520 l 1
- 464 0 l 1x7c
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" ubreve.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" ubreve.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" ubreve.sc
 EndChar

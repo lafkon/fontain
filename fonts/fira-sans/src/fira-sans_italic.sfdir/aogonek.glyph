@@ -1,16 +1,17 @@
-
 StartChar: aogonek
-Encoding: 261 261 141
+Encoding: 261 261 362
 Width: 569
 GlyphClass: 2
 Flags: MW
 HStem: -243 70<358 372> -12 21G<163 249 468 468> -12 73<210.5 249> 466 73<266 351.5>
 VStem: 50 98<145 248 145 262> 246 80<-149 -122.5 -149 -122.5> 375 85
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 333 527 basechar 0
-AnchorPoint: "Anchor-8" 476 -12 basechar 0
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 338 527 basechar 0
+AnchorPoint: "Anchor-11" 476 -12 basechar 0
+AnchorPoint: "Anchor-10" 276 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 460 99 m 0xbe
@@ -30,13 +31,13 @@ SplineSet
  394 539 449 528 519 494 c 1
  462 120 l 2
  461 112 460 105 460 99 c 0xbe
-422 449 m 1
+378 158 m 1
+ 422 449 l 1
  392 462 370 466 333 466 c 0
  199 466 148 307 148 189 c 0
  148 101 181 61 240 61 c 0
  296 61 337 103 378 158 c 1
- 422 449 l 1
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" aogonek.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 28 subtable" aogonek.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" aogonek.sc
 EndChar

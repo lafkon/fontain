@@ -1,25 +1,25 @@
-
 StartChar: eight
-Encoding: 56 56 887
+Encoding: 56 56 2025
 Width: 532
 Flags: MW
 HStem: -11 41<187 282.5 187 309> 637 38<276.5 356>
 VStem: 41 48<113 185 113 190.5> 119 45<469 537.5 469 554> 418 47<144 229.5> 438 46<497.5 567.5>
 LayerCount: 2
+Back
 Fore
 SplineSet
-338 350 m 1xd8
- 422 313 465 268 465 195 c 0
+338 349 m 1xd8
+ 423 313 465 268 465 195 c 0
  465 93 389 -11 229 -11 c 0
  111 -11 41 58 41 152 c 0xf8
  41 229 83 312 217 359 c 1
  151 391 119 433 119 497 c 0
  119 611 220 675 321 675 c 0
  407 675 484 627 484 533 c 0xd4
- 484 447 439 397 338 350 c 1xd8
+ 484 447 439 397 338 349 c 1xd8
 164 496 m 0
  164 442 193 408 269 378 c 2
- 303 365 l 1
+ 303 364 l 1
  402 412 438 461 438 534 c 0xd4
  438 601 390 637 322 637 c 0
  231 637 164 579 164 496 c 0
@@ -27,15 +27,15 @@ SplineSet
  335 30 418 88 418 198 c 0
  418 261 377 294 290 329 c 2
  256 343 l 1
- 115 293 89 219 89 151 c 0xf8
+ 116 293 89 219 89 151 c 0xf8
  89 75 144 30 230 30 c 0
 EndSplineSet
-Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" eight.osf
-Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" eight.tf
-Substitution2: "'frac' Diagonal Fractions lookup 16 subtable" eight.numr
-Substitution2: "'dnom' Denominators lookup 14 subtable" eight.dnom
-Substitution2: "'numr' Numerators lookup 13 subtable" eight.numr
-Substitution2: "'sups' Superscript lookup 12 subtable" eightsuperior
-Substitution2: "'subs' Subscript lookup 11 subtable" eightinferior
-AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" eightinferior eightsuperior eight.numr eight.dnom eight.tf eight.osf
+Substitution2: "'onum' Oldstyle Figures lookup 26 subtable" eight.osf
+Substitution2: "'tnum' Tabular Numbers lookup 25 subtable" eight.tf
+Substitution2: "'frac' Diagonal Fractions lookup 19 subtable" eight.numr
+Substitution2: "'dnom' Denominators lookup 17 subtable" eight.dnom
+Substitution2: "'numr' Numerators lookup 16 subtable" eight.numr
+Substitution2: "'sups' Superscript lookup 15 subtable" uni2078
+Substitution2: "'subs' Subscript lookup 14 subtable" uni2088
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" uni2088 uni2078 eight.numr eight.dnom eight.tf eight.osf
 EndChar

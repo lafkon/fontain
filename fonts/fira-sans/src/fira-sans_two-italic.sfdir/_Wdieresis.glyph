@@ -1,16 +1,17 @@
-
 StartChar: Wdieresis
-Encoding: 7812 7812 116
+Encoding: 7812 7812 288
 Width: 776
 GlyphClass: 2
 Flags: MW
 HStem: 0 21G<169 171 169 169 533 535 533 533> 660 20G<104 106 106 106 446 448 448 448 788 790 790 790> 805 12<389 393 538 542>
 VStem: 104 686<680 680>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 468 817 basechar 0
 AnchorPoint: "Anchor-11" 0 0 basechar 0
 AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 457 733 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 391 817 m 0
@@ -23,7 +24,8 @@ SplineSet
  546 808 544 805 540 805 c 0
  536 805 534 808 534 811 c 0
  534 814 536 817 540 817 c 0
-535 0 m 1
+790 680 m 1
+ 535 0 l 1
  533 0 l 1
  447 678 l 1
  171 0 l 1
@@ -36,9 +38,8 @@ SplineSet
  534 3 l 1
  788 680 l 1
  790 680 l 1
- 535 0 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" wdieresis.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" wdieresis.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" wdieresis.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

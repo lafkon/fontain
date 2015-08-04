@@ -1,22 +1,23 @@
-
 StartChar: acute
-Encoding: 180 180 1250
+Encoding: 180 180 2511
 Width: 330
 Flags: MW
 HStem: 626 201<70 244>
 VStem: 30 270<699 718>
 LayerCount: 2
+Back
 Fore
 SplineSet
-300 718 m 1
+244 827 m 1
+ 300 718 l 1
  70 626 l 1
  30 699 l 1
  244 827 l 1
- 300 718 l 1
 EndSplineSet
-Substitution2: "'case' Case-Sensitive Forms lookup 25 subtable" acute.case
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" acute.sc
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" acute.sc
+Substitution2: "Single Substitution lookup 41 subtable" acute.case
+Substitution2: "'case' Case-Sensitive Forms lookup 28 subtable" acute.case
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" acute.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" acute.sc
 Substitution2: "'locl' Localized Forms in Latin lookup 7 subtable" acute.loclPLK
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" acute.loclPLK acute.sc acute.case
 EndChar

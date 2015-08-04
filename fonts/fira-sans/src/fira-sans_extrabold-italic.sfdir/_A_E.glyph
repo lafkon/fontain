@@ -1,23 +1,25 @@
-
 StartChar: AE
-Encoding: 198 198 11
+Encoding: 198 198 33
 Width: 839
 GlyphClass: 2
 Flags: MW
-HStem: 0 131<568 777> 142 132<260 398 260 401 200 398> 287 128<560 774 560 560> 564 131<547 547 547 802>
-VStem: 394.5 156 403 161
+HStem: 0 131<568 777> 142 132<260 398 260 401 200 398> 287 128<561 774 561 561> 564 131<547 802 547 547>
+VStem: 394.5 156.5 403 161.5
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 539 695 basechar 0
 AnchorPoint: "Anchor-11" 0 0 basechar 0
 AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 539 695 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-547 564 m 1xb8
- 554 415 l 1
+802 564 m 1xb8
+ 547 564 l 1
+ 555 415 l 1
  790 415 l 1
  774 287 l 1
- 560 287 l 1
+ 561 287 l 1
  568 131 l 1xb8
  796 131 l 1
  777 0 l 1
@@ -28,14 +30,13 @@ SplineSet
  -61 0 l 1
  293 695 l 1
  839 695 l 1
- 802 564 l 1
- 547 564 l 1xb8
-398 274 m 1xf8
+ 802 564 l 1xb8
+260 274 m 1xf8
+ 398 274 l 1
  391 561 l 1
- 260 274 l 1
- 398 274 l 1xf8
+ 260 274 l 1xf8
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" ae.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" ae.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" ae.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

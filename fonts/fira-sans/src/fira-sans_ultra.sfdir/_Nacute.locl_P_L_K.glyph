@@ -1,24 +1,26 @@
-
 StartChar: Nacute.loclPLK
-Encoding: 1114115 -1 130
+Encoding: 1114116 -1 162
 Width: 644
 GlyphClass: 2
 Flags: MW
 HStem: 0 21G<30 233 30 30 326 614 326 326> 678 20G<30 312 312 312 411 614 614 614>
-VStem: 30 203<0 193 0 698> 411 203<509 698>
-AnchorPoint: "Anchor-11" 322 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 320 698 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+VStem: 30 203<0 193 0 698> 411 203<509 698 0 698>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 320 698 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 322 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-478 917 m 1
+318 1002 m 1
+ 478 917 l 1
  326 749 l 1
  229 801 l 1
  318 1002 l 1
- 478 917 l 1
-614 0 m 1
+614 698 m 1
+ 614 0 l 1
  326 0 l 1
  203 491 l 1
  214 421 233 323 233 193 c 2
@@ -30,7 +32,6 @@ SplineSet
  427 301 411 374 411 509 c 2
  411 698 l 1
  614 698 l 1
- 614 0 l 1
 EndSplineSet
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

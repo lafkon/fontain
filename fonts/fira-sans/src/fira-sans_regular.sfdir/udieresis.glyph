@@ -1,16 +1,17 @@
-
 StartChar: udieresis
-Encoding: 252 252 243
+Encoding: 252 252 668
 Width: 582
 GlyphClass: 2
 Flags: MW
 HStem: -12 72<234.5 274.5> 0 21G<408 487 408 408> 507 20G<90 182 182 182 395 487 487 487> 654 114<167.5 200 377 409.5>
-VStem: 90 92<149 159 159 527> 126 115<695 727> 336 115<695 727> 395 92<151 527>
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 289 677 basechar 0
-AnchorPoint: "Anchor-8" 497 0 basechar 0
+VStem: 90 92<149 159 159 527> 126 115<695 727> 336 115<695 727> 395 92<151 527 0 527>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 497 527 basechar 0
+AnchorPoint: "Anchor-12" 291 768 basechar 0
+AnchorPoint: "Anchor-11" 497 0 basechar 0
+AnchorPoint: "Anchor-10" 289 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 184 768 m 0xb6
@@ -23,7 +24,8 @@ SplineSet
  451 679 426 654 393 654 c 0
  361 654 336 679 336 711 c 0
  336 743 361 768 393 768 c 0
-487 0 m 1x79
+487 527 m 1xb9
+ 487 0 l 1
  408 0 l 1x79
  401 82 l 1
  361 18 312 -12 237 -12 c 0
@@ -32,11 +34,10 @@ SplineSet
  182 527 l 1
  182 159 l 2
  182 87 206 60 263 60 c 0
- 320 60 363 98 395 151 c 1xb9
+ 320 60 363 98 395 151 c 1
  395 527 l 1
- 487 527 l 1
- 487 0 l 1x79
+ 487 527 l 1xb9
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" udieresis.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" udieresis.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" udieresis.sc
 EndChar

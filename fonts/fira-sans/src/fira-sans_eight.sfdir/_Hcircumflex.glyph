@@ -1,41 +1,42 @@
-
 StartChar: Hcircumflex
-Encoding: 292 292 42
+Encoding: 292 292 112
 Width: 656
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G 356.78 7.78999 660.43 20G 847.14 8.64999
-VStem: 127.86 8.21001 519.64 8.22
+HStem: 0 21G<128 136 128 128 520 528 520 520> 357 8<136 520 136 520> 660 20G<128 136 136 136 520 528 528 528> 847 9<325 325>
+VStem: 128 8<0 357 365 680> 520 8<0 357 357 357 365 680 0 680>
+AnchorPoint: "Anchor-14" 327 340 basechar 0
+AnchorPoint: "Anchor-13" 399 706 basechar 0
+AnchorPoint: "Anchor-12" 325 856 basechar 0
 AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 82 680 basechar 0
-AnchorPoint: "Anchor-9" 327 680 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 328 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-325.86 847.14 m 1
- 217.29 768.93 l 1
- 212.5 773.569 l 1
- 323.36 855.789 l 1
- 328.36 855.789 l 1
- 440.57 773.569 l 1
- 435.79 768.93 l 1
- 325.86 847.14 l 1
-519.64 356.779 m 1
- 136.069 356.779 l 1
- 136.069 -0.000976562 l 1
- 127.859 -0.000976562 l 1
- 127.859 680.429 l 1
- 136.069 680.429 l 1
- 136.069 364.568 l 1
- 519.64 364.568 l 1
- 519.64 680.429 l 1
- 527.859 680.429 l 1
- 527.859 -0.000976562 l 1
- 519.64 -0.000976562 l 1
- 519.64 356.779 l 1
+435 769 m 1
+ 325 847 l 1
+ 217 769 l 1
+ 212 774 l 1
+ 323 856 l 1
+ 328 856 l 1
+ 440 774 l 1
+ 435 769 l 1
+520 0 m 1
+ 520 357 l 1
+ 136 357 l 1
+ 136 0 l 1
+ 128 0 l 1
+ 128 680 l 1
+ 136 680 l 1
+ 136 365 l 1
+ 520 365 l 1
+ 520 680 l 1
+ 528 680 l 1
+ 528 0 l 1
+ 520 0 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" hcircumflex.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" hcircumflex.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" hcircumflex.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

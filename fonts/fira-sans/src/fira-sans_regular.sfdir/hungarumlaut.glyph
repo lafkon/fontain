@@ -1,26 +1,27 @@
-
 StartChar: hungarumlaut
-Encoding: 733 733 1258
+Encoding: 733 733 2532
 Width: 366
 Flags: MW
 HStem: 634 198<106 230>
 VStem: 30 306<664 791>
 LayerCount: 2
+Back
 Fore
 SplineSet
-184 791 m 1
+106 832 m 1
+ 184 791 l 1
  88 639 l 1
  30 664 l 1
  106 832 l 1
- 184 791 l 1
-336 791 m 1
+258 832 m 1
+ 336 791 l 1
  230 634 l 1
  172 659 l 1
  258 832 l 1
- 336 791 l 1
 EndSplineSet
-Substitution2: "'case' Case-Sensitive Forms lookup 25 subtable" hungarumlaut.case
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" hungarumlaut.sc
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" hungarumlaut.sc
+Substitution2: "Single Substitution lookup 41 subtable" hungarumlaut.case
+Substitution2: "'case' Case-Sensitive Forms lookup 28 subtable" hungarumlaut.case
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" hungarumlaut.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" hungarumlaut.sc
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" hungarumlaut.sc hungarumlaut.case
 EndChar

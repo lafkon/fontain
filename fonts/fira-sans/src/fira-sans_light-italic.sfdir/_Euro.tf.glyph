@@ -1,27 +1,28 @@
-
 StartChar: Euro.tf
-Encoding: 1114513 -1 1078
+Encoding: 1114871 -1 2229
 Width: 560
+GlyphClass: 2
 Flags: MW
-HStem: -11 51<284 355> 252 43<52 120 36 123 183 412> 398 43<73 137 56 144 204 462> 646 50<377 451>
-VStem: 120 58<252 252>
+HStem: -11 51<284 355> 252 43<52 120 36 123 183 412> 398 43<73 137 56 144 205 462> 646 50<377 451>
+VStem: 120 59<252 252>
 LayerCount: 2
+Back
 Fore
 SplineSet
 424 646 m 0
- 330 646 246 585 204 441 c 1
+ 330 646 246 585 205 441 c 1
  479 441 l 1
  462 398 l 1
- 195 398 l 1
+ 196 398 l 1
  183 295 l 1
  427 295 l 1
  412 252 l 1
- 178 252 l 1
+ 179 252 l 1
  175 99 232 40 336 40 c 0
  396 40 437 59 481 83 c 1
  477 28 l 1
  431 4 384 -11 326 -11 c 0
- 193 -11 118 76 120 252 c 1
+ 193 -11 118 77 120 252 c 1
  36 252 l 1
  52 295 l 1
  123 295 l 1
@@ -34,6 +35,7 @@ SplineSet
  559 600 l 1
  513 634 478 646 424 646 c 0
 EndSplineSet
-Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" Euro.tosf
-Substitution2: "'aalt' Access All Alternates lookup 0 subtable" Euro.tosf
+Substitution2: "'onum' Oldstyle Figures lookup 26 subtable" Euro.tosf
+Substitution2: "'pnum' Proportional Numbers lookup 24 subtable" Euro
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" Euro Euro.tosf
 EndChar

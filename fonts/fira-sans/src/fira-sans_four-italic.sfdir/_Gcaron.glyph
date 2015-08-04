@@ -1,0 +1,44 @@
+StartChar: Gcaron
+Encoding: 486 486 100
+Width: 601
+GlyphClass: 2
+Flags: MW
+HStem: -9 21G<246.5 351.5> 670 20G<296.5 435.5> 686 83<404 404 404 434.5>
+VStem: 90 465<169.5 635>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 418 847 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 303 0 basechar 0
+LayerCount: 2
+Back
+Fore
+SplineSet
+524 847 m 1xb0
+ 526 845 l 1
+ 405 765 l 1
+ 402 765 l 1
+ 305 845 l 1
+ 308 847 l 1
+ 404 769 l 1
+ 524 847 l 1xb0
+404 690 m 0xd0
+ 467 690 511 671 555 635 c 1
+ 553 631 l 1
+ 509 667 465 686 404 686 c 0xb0
+ 189 686 94 445 94 256 c 0
+ 94 85 178 -5 317 -5 c 0
+ 388 -5 443 18 486 41 c 1
+ 529 339 l 1
+ 379 339 l 1
+ 379 343 l 1
+ 533 343 l 1
+ 490 39 l 1
+ 445 15 386 -9 317 -9 c 0
+ 176 -9 90 83 90 256 c 0
+ 90 451 189 690 404 690 c 0xd0
+EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" gcaron.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" gcaron.sc
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
+EndChar

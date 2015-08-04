@@ -1,38 +1,40 @@
-
 StartChar: Epsilontonos
-Encoding: 904 904 718
-Width: 495
+Encoding: 904 904 1524
+Width: 517
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G<94 409 94 94> 360 320<189 407 109 147>
-VStem: 64 430<572 678>
-AnchorPoint: "Anchor-7" 248 0 basechar 0
-AnchorPoint: "Anchor-6" 88 517 basechar 0
-AnchorPoint: "Anchor-5" 389 0 basechar 0
-AnchorPoint: "Anchor-4" 343 680 basechar 0
+HStem: 0 21G<116 431 116 116> 360 320<211 429 119 169>
+VStem: 74 442<572 680>
+AnchorPoint: "Anchor-9" 0 0 basechar 0
+AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-7" 411 0 basechar 0
+AnchorPoint: "Anchor-6" 270 0 basechar 0
+AnchorPoint: "Anchor-5" 365 680 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-111 680 m 1
- 66 572 l 1
- 64 572 l 1
- 109 680 l 1
- 111 680 l 1
-494 678 m 1
- 191 678 l 1
- 147 362 l 1
- 407 362 l 1
- 407 360 l 1
- 147 360 l 1
- 96 2 l 1
- 409 2 l 1
- 409 0 l 1
- 94 0 l 1
- 189 680 l 1
- 494 680 l 1
- 494 678 l 1
+119 680 m 1
+ 121 680 l 1
+ 76 572 l 1
+ 74 572 l 1
+ 119 680 l 1
+516 680 m 1
+ 516 678 l 1
+ 213 678 l 1
+ 169 362 l 1
+ 429 362 l 1
+ 429 360 l 1
+ 169 360 l 1
+ 118 2 l 1
+ 431 2 l 1
+ 431 0 l 1
+ 116 0 l 1
+ 211 680 l 1
+ 516 680 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" epsilontonos.sc
-Substitution2: "'aalt' Access All Alternates lookup 0 subtable" epsilontonos.sc
+Substitution2: "Single Substitution lookup 41 subtable" Epsilon
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" epsilontonos.sc
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" epsilontonos.sc Epsilon
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

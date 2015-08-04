@@ -1,11 +1,11 @@
-
 StartChar: exclamdown
-Encoding: 161 161 986
+Encoding: 161 161 2123
 Width: 238
 Flags: MW
 HStem: -192 21G<109 130 109 109> 406 47<111.5 126>
-VStem: 96 47<423.5 436> 109 21<-192 252>
+VStem: 96 47<423.5 436> 109 21<-192 252 -192 252>
 LayerCount: 2
+Back
 Fore
 SplineSet
 119 453 m 0xe0
@@ -13,12 +13,12 @@ SplineSet
  143 417 133 406 119 406 c 0
  104 406 96 417 96 430 c 0
  96 442 104 453 119 453 c 0xe0
-130 -192 m 1xd0
+130 252 m 1xd0
+ 130 -192 l 1
  109 -192 l 1
  109 252 l 1
- 130 252 l 1
- 130 -192 l 1xd0
+ 130 252 l 1xd0
 EndSplineSet
-Substitution2: "'case' Case-Sensitive Forms lookup 25 subtable" exclamdown.case
+Substitution2: "'case' Case-Sensitive Forms lookup 28 subtable" exclamdown.case
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" exclamdown.case
 EndChar

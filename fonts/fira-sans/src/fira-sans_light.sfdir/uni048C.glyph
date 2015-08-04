@@ -1,0 +1,38 @@
+StartChar: uni048C
+Encoding: 1164 1164 1206
+Width: 566
+GlyphClass: 2
+Flags: MW
+HStem: 0 50<175 283> 371 49<175 285 285 287 175 285> 535 47<23 115 23 115 175 331> 535 150<23 175 23 175 115 175 115 331>
+VStem: 115 60<50 371 420 535 582 685> 467 63<154 271>
+LayerCount: 2
+Back
+Fore
+SplineSet
+285 420 m 2xec
+ 437 420 530 354 530 216 c 0
+ 530 63 428 0 283 0 c 2
+ 115 0 l 1
+ 115 535 l 1
+ 23 535 l 1
+ 23 582 l 1
+ 115 582 l 1xec
+ 115 685 l 1
+ 175 685 l 1xdc
+ 175 582 l 1
+ 331 582 l 1
+ 331 535 l 1
+ 175 535 l 1
+ 175 420 l 1
+ 285 420 l 2xec
+291 50 m 2
+ 395 50 467 92 467 216 c 0
+ 467 326 400 371 287 371 c 2
+ 175 371 l 1
+ 175 50 l 1
+ 291 50 l 2
+EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" uni048D.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uni048D.sc
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
+EndChar

@@ -1,28 +1,30 @@
-
 StartChar: Atilde
-Encoding: 195 195 10
+Encoding: 195 195 32
 Width: 583
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G<-5 132 -5 -5 447 447 447 587> 160 100<201 377 201 404 175 377> 590 101<289 289> 671 20G<210 373 373 373> 770 94<331.5 359.5 331.5 377.5> 817 93<223 252>
+HStem: 0 21G<-5 132 -5 -5 447 587 447 447> 160 100<201 378 201 404 175 378> 590 101<289 289> 671 20G<210 373 373 373> 770 94<331.5 359.5 331.5 376> 817 93<223 252>
 VStem: -5 592<0 0>
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 143 691 basechar 0
-AnchorPoint: "Anchor-9" 292 691 basechar 0
-AnchorPoint: "Anchor-8" 533 0 basechar 0
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 294 910 basechar 0
+AnchorPoint: "Anchor-11" 533 0 basechar 0
+AnchorPoint: "Anchor-10" 292 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 235 817 m 0xd6
  211 817 198 801 182 772 c 1
  113 806 l 1
- 137 863 177 910 234 910 c 0xd6
+ 137 863 177 910 233 910 c 0xd6
  292 910 314 864 349 864 c 0
  370 864 384 878 402 907 c 1
  470 873 l 1
- 444 811 402 770 353 770 c 0xda
- 291 770 269 817 235 817 c 0xd6
-404 160 m 1
+ 444 811 402 770 350 770 c 0xda
+ 294 770 269 817 235 817 c 0xd6
+447 0 m 1
+ 404 160 l 1
  175 160 l 1
  132 0 l 1
  -5 0 l 1
@@ -30,13 +32,12 @@ SplineSet
  373 691 l 1
  587 0 l 1
  447 0 l 1
- 404 160 l 1
-377 260 m 1
+201 260 m 1
+ 378 260 l 1
  289 590 l 1xe6
  201 260 l 1
- 377 260 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" atilde.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" atilde.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" atilde.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

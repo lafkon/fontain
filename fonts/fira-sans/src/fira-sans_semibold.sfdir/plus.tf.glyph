@@ -1,14 +1,16 @@
-
 StartChar: plus.tf
-Encoding: 1114566 -1 1166
+Encoding: 1114928 -1 2320
 Width: 560
+GlyphClass: 2
 Flags: MW
 HStem: 276 111<75 224 75 224 344 494> 522 20G<224 344 344 344>
 VStem: 224 120<122 276 122 276 387 542>
 LayerCount: 2
+Back
 Fore
 SplineSet
-344 387 m 1
+344 542 m 1
+ 344 387 l 1
  494 387 l 1
  494 276 l 1
  344 276 l 1
@@ -20,9 +22,8 @@ SplineSet
  224 387 l 1
  224 542 l 1
  344 542 l 1
- 344 387 l 1
 EndSplineSet
-Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" plus.tosf
-Substitution2: "'pnum' Proportional Numbers lookup 20 subtable" plus
+Substitution2: "'onum' Oldstyle Figures lookup 25 subtable" plus.tosf
+Substitution2: "'pnum' Proportional Numbers lookup 23 subtable" plus
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" plus plus.tosf
 EndChar

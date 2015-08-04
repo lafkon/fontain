@@ -1,16 +1,17 @@
-
 StartChar: aring.sc
-Encoding: 1114140 -1 288
+Encoding: 1114172 -1 771
 Width: 533
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G<-32 199 -32 -32 332 332 332 565> 93 149<236 294 236 317 213 294> 429 144<264 264> 553 20G<137 397 397 397> 616 113<255.5 276.5 255.5 318> 816 111<255.5 276.5>
+HStem: 0 21G<-32 199 -32 -32 332 565 332 332> 93 149<236 294 236 317 213 294> 429 144<264 264> 553 20G<137 397 397 397> 616 113<255.5 276.5 255.5 318> 816 111<255.5 276.5>
 VStem: 103 126<756.5 788 756.5 813.5> 303 126<756.5 788>
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 138 573 basechar 0
-AnchorPoint: "Anchor-9" 266 573 basechar 0
-AnchorPoint: "Anchor-8" 461 0 basechar 0
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 268 927 basechar 0
+AnchorPoint: "Anchor-11" 461 0 basechar 0
+AnchorPoint: "Anchor-10" 266 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 266 616 m 0xdf
@@ -23,7 +24,8 @@ SplineSet
  229 741 245 729 266 729 c 0
  287 729 303 741 303 772 c 0
  303 804 287 816 266 816 c 0
-317 93 m 1
+332 0 m 1
+ 317 93 l 1
  213 93 l 1
  199 0 l 1
  -32 0 l 1
@@ -31,10 +33,9 @@ SplineSet
  397 573 l 1
  565 0 l 1
  332 0 l 1
- 317 93 l 1
-294 242 m 1
+236 242 m 1
+ 294 242 l 1
  264 429 l 1xef
  236 242 l 1
- 294 242 l 1
 EndSplineSet
 EndChar

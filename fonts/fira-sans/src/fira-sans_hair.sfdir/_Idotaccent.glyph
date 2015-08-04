@@ -1,30 +1,31 @@
-
 StartChar: Idotaccent
-Encoding: 304 304 49
+Encoding: 304 304 127
 Width: 266
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G<125.71 140.14 125.71 125.71> 660.85 20G 814.43 28.28
-VStem: 125.71 14.43
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 84 681 basechar 0
-AnchorPoint: "Anchor-9" 133 681 basechar 0
-AnchorPoint: "Anchor-8" 150 0 basechar 0
+HStem: 0 21G<126 140 126 126> 661 20G<126 140 140 140> 814 29<128 137.5>
+VStem: 126 14<0 681 0 681>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 135 843 basechar 0
+AnchorPoint: "Anchor-11" 150 0 basechar 0
+AnchorPoint: "Anchor-10" 133 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-132.71 842.71 m 0
- 142.28 842.71 147.28 835.86 147.28 828.57 c 0
- 147.28 821.29 142.28 814.43 132.71 814.43 c 0
- 123.57 814.43 118.141 821.29 118.141 828.57 c 0
- 118.141 835.86 123.57 842.71 132.71 842.71 c 0
-140.14 0 m 1
- 125.71 -0 l 1
- 125.71 680.85 l 1
- 140.14 680.85 l 1
- 140.14 0 l 1
+133 843 m 0
+ 142 843 147 836 147 829 c 0
+ 147 821 142 814 133 814 c 0
+ 123 814 118 821 118 829 c 0
+ 118 836 123 843 133 843 c 0
+140 681 m 1
+ 140 0 l 1
+ 126 0 l 1
+ 126 681 l 1
+ 140 681 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" i.sc.loclTRK
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" i.sc.loclTRK
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" i.sc.loclTRK
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

@@ -1,31 +1,32 @@
-
 StartChar: ibreve
-Encoding: 301 301 179
+Encoding: 301 301 480
 Width: 278
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G<32 172 32 32> 510 20G<106 246 246 246> 635 100<179 224 179 241.5>
-VStem: 49 81<800 811>
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 176 530 basechar 0
-AnchorPoint: "Anchor-8" 163 0 basechar 0
+HStem: 0 21G<32 172 32 32> 510 20G<106 246 246 246> 635 100<171 216 171 233.5>
+VStem: 41 81<800 811>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 208 814 basechar 0
+AnchorPoint: "Anchor-11" 147 0 basechar 0
+AnchorPoint: "Anchor-10" 102 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-193 635 m 0
- 94 635 44 707 49 800 c 1
- 130 811 l 1
- 135 762 157 735 201 735 c 0
- 247 735 282 766 300 814 c 1
- 378 796 l 1
- 358 703 290 635 193 635 c 0
-172 0 m 1
+185 635 m 0
+ 86 635 36 707 41 800 c 1
+ 122 811 l 1
+ 127 762 149 735 193 735 c 0
+ 239 735 274 766 292 814 c 1
+ 370 796 l 1
+ 350 703 282 635 185 635 c 0
+246 530 m 1
+ 172 0 l 1
  32 0 l 1
  106 530 l 1
  246 530 l 1
- 172 0 l 1
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" ibreve.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 28 subtable" ibreve.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" ibreve.sc
 EndChar

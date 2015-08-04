@@ -1,19 +1,21 @@
-
 StartChar: uni0426
-Encoding: 1062 1062 447
-Width: 689
+Encoding: 1062 1062 1102
+Width: 699
 GlyphClass: 2
 Flags: MW
 HStem: 0 158<249 403 249 532> 676 20G<43 249 249 249 403 609 609 609>
-VStem: 43 206<158 696 158 696 158 696> 403 206<158 696 154 696>
-AnchorPoint: "Anchor-3" 327 0 basechar 0
+VStem: 43 206<158 696 158 696 158 696> 403 206<158 696>
+AnchorPoint: "Anchor-4" 0 0 basechar 0
+AnchorPoint: "Anchor-3" 0 0 basechar 0
 AnchorPoint: "Anchor-2" 0 0 basechar 0
 AnchorPoint: "Anchor-1" 0 0 basechar 0
-AnchorPoint: "Anchor-0" 0 0 basechar 0
+AnchorPoint: "Anchor-0" 327 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-689 154 m 1
+609 154 m 1
+ 689 154 l 1
  689 -175 l 1
  552 -175 l 1
  532 0 l 1
@@ -25,9 +27,8 @@ SplineSet
  403 696 l 1
  609 696 l 1
  609 154 l 1
- 689 154 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" uni0446.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" uni0446.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uni0446.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

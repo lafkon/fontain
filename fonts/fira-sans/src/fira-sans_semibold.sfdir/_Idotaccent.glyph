@@ -1,16 +1,17 @@
-
 StartChar: Idotaccent
-Encoding: 304 304 49
+Encoding: 304 304 127
 Width: 294
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G<73 221 73 73> 672 20G<73 221 221 221> 763 166<120.5 171.5>
-VStem: 60 173<822.5 869.5> 73 148<0 692>
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 68 692 basechar 0
-AnchorPoint: "Anchor-9" 147 692 basechar 0
-AnchorPoint: "Anchor-8" 209 0 basechar 0
+HStem: 0 21G<73 220 73 73> 672 20G<73 220 220 220> 763 166<120.5 171.5>
+VStem: 60 173<822.5 869.5> 73 147<0 692 0 692>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 149 929 basechar 0
+AnchorPoint: "Anchor-11" 209 0 basechar 0
+AnchorPoint: "Anchor-10" 147 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 146 929 m 0xf0
@@ -18,13 +19,13 @@ SplineSet
  233 799 197 763 146 763 c 0
  95 763 60 799 60 846 c 0
  60 893 95 929 146 929 c 0xf0
-221 0 m 1xe8
+220 692 m 1xe8
+ 220 0 l 1
  73 0 l 1
  73 692 l 1
- 221 692 l 1
- 221 0 l 1xe8
+ 220 692 l 1xe8
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" i.sc.loclTRK
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" i.sc.loclTRK
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" i.sc.loclTRK
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

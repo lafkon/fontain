@@ -1,16 +1,17 @@
-
 StartChar: Ccedilla
-Encoding: 199 199 17
+Encoding: 199 199 47
 Width: 589
 GlyphClass: 2
 Flags: MW
-HStem: -283 112<304.5 324 298.5 388.5> -20 21G<391 391> -15 21G<273 273> 556 163<327 387>
+HStem: -283 112<304.5 324 298.5 388.5> -20 21G<391 391> -14 21G<273 273> 556 163<327 387>
 VStem: 12 240<283.5 417.5 283.5 467> 354 151<-158.5 -140.5>
-AnchorPoint: "Anchor-11" 337 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 360 698 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-14" 383 356 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 360 698 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 354 -283 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 391 -40 m 1xdc
@@ -21,7 +22,7 @@ SplineSet
  266 -164 287 -171 310 -171 c 0
  338 -171 354 -166 354 -151 c 0
  354 -130 324 -125 259 -125 c 1
- 273 -15 l 1xbc
+ 273 -14 l 1xbc
  111 16 12 142 12 351 c 0
  12 583 149 719 350 719 c 0
  449 719 526 687 586 634 c 1
@@ -31,10 +32,10 @@ SplineSet
  252 216 293 150 371 150 c 0
  416 150 453 175 494 208 c 1
  594 80 l 1
- 546 32 476 -10 391 -20 c 1
+ 546 32 475 -10 391 -20 c 1
  391 -40 l 1xdc
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" ccedilla.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" ccedilla.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" ccedilla.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

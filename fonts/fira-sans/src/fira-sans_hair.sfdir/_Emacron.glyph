@@ -1,38 +1,39 @@
-
 StartChar: Emacron
-Encoding: 274 274 32
+Encoding: 274 274 85
 Width: 494
 GlyphClass: 2
 Flags: MW
-HStem: 0 13.57 353.57 13.14 667.28 13.57 812.43 13.57
-VStem: 125.71 14.43
-AnchorPoint: "Anchor-11" 284 0 basechar 0
-AnchorPoint: "Anchor-10" 84 681 basechar 0
-AnchorPoint: "Anchor-9" 286 681 basechar 0
-AnchorPoint: "Anchor-8" 431 0 basechar 0
+HStem: 0 14<140 448 140 448> 354 13<140 397 140 397> 667 14<140 438 140 140> 812 14<186 386 186 386>
+VStem: 126 14<14 354 367 667>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 288 826 basechar 0
+AnchorPoint: "Anchor-11" 431 0 basechar 0
+AnchorPoint: "Anchor-10" 284 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-185.57 812.43 m 1
- 185.57 826 l 1
- 385.851 826 l 1
- 385.851 812.43 l 1
- 185.57 812.43 l 1
-438.42 667.28 m 1
- 140.14 667.281 l 1
- 140.14 366.711 l 1
- 396.71 366.711 l 1
- 396.71 353.571 l 1
- 140.14 353.571 l 1
- 140.14 13.5713 l 1
- 448.42 13.5713 l 1
- 448.42 0.000976562 l 1
- 125.71 0.000976562 l 1
- 125.71 680.851 l 1
- 440.14 680.851 l 1
- 438.42 667.28 l 1
+386 812 m 1
+ 186 812 l 1
+ 186 826 l 1
+ 386 826 l 1
+ 386 812 l 1
+440 681 m 1
+ 438 667 l 1
+ 140 667 l 1
+ 140 367 l 1
+ 397 367 l 1
+ 397 354 l 1
+ 140 354 l 1
+ 140 14 l 1
+ 448 14 l 1
+ 448 0 l 1
+ 126 0 l 1
+ 126 681 l 1
+ 440 681 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" emacron.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" emacron.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" emacron.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

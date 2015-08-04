@@ -1,28 +1,29 @@
-
 StartChar: sigma
-Encoding: 963 963 762
+Encoding: 963 963 1659
 Width: 585
 GlyphClass: 2
 Flags: MW
-HStem: -12 68<244.5 335.5 244.5 363.5> 462.5 69.5 469 63 506 20G<554 554>
-VStem: 59 90<192.5 335 192.5 342> 432 90<193.5 315 181.5 316.5>
+HStem: -12 68<244.5 335.5 244.5 363.5> 462.5 69.5 469 63<273 349 349 354> 506 20G<554 554>
+VStem: 59 90<192.5 335.5 192.5 342> 432 90<193.5 315 181.5 316.5>
 LayerCount: 2
+Back
 Fore
 SplineSet
-554 458 m 1xcc
+554 526 m 1x9c
+ 554 458 l 1
  427 467 l 1xcc
- 479 437 522 366 522 264 c 0
+ 480 437 522 366 522 264 c 0
  522 99 437 -12 290 -12 c 0
  143 -12 59 95 59 262 c 0
  59 422 140 532 317 532 c 0xac
- 394 532 485 529 554 526 c 1x9c
- 554 458 l 1xcc
+ 394 532 486 529 554 526 c 1x9c
 290 56 m 0
  381 56 432 123 432 264 c 0
- 432 369 395 437 354 469 c 1xac
- 196 468 149 408 149 262 c 0
+ 432 369 395 437 354 469 c 1
+ 349 469 l 2xac
+ 197 469 149 409 149 262 c 0
  149 123 199 56 290 56 c 0
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" sigma.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" sigma.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" sigma.sc
 EndChar

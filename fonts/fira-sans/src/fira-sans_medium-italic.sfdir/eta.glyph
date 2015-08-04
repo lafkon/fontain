@@ -1,16 +1,17 @@
-
 StartChar: eta
-Encoding: 951 951 752
+Encoding: 951 951 1653
 Width: 577
 GlyphClass: 2
 Flags: MW
-HStem: -220 21G<313 313> 0 21G<44 170 44 44> 442 102<323.5 442.5> 520 20G<211 211>
+HStem: -220 21G<313 313> 0 21G<44 170 44 44> 442 102<323 442.5> 520 20G<211 211>
 VStem: 101.62 118.38 395.32 130.33
+AnchorPoint: "Anchor-9" 0 0 basechar 0
+AnchorPoint: "Anchor-8" 0 0 basechar 0
 AnchorPoint: "Anchor-7" 0 0 basechar 0
-AnchorPoint: "Anchor-6" 0 0 basechar 0
-AnchorPoint: "Anchor-5" 0 0 basechar 0
-AnchorPoint: "Anchor-4" 325 529 basechar 0
+AnchorPoint: "Anchor-6" 88 0 basechar 0
+AnchorPoint: "Anchor-5" 325 529 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 396 544 m 0xec
@@ -19,15 +20,15 @@ SplineSet
  313 -220 l 1
  393 359 l 2
  403 426 382 442 345 442 c 0xec
- 302 442 268 408 214 308 c 1
+ 301 442 268 408 214 308 c 1
  170 0 l 1
  44 0 l 1
- 97 373 l 1
+ 97 373 l 2
  105 439 102 489 95 528 c 1
  211 540 l 1xdc
  219 518 225 493 220 433 c 1
  274 514 334 544 396 544 c 0xec
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" eta.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 28 subtable" eta.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" eta.sc
 EndChar

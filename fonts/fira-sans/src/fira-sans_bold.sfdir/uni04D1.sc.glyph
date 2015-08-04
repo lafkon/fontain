@@ -1,16 +1,17 @@
-
 StartChar: uni04D1.sc
-Encoding: 1114338 -1 674
+Encoding: 1114544 -1 1448
 Width: 519
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G<-13 150 -13 -13 367 367 367 533> 115 111<203 313 203 340 177 313> 459 109<258 258> 548 20G<166 354 354 354> 662 110<236 282 236 311.5>
+HStem: 0 21G<-13 150 -13 -13 367 533 367 367> 115 111<203 313 203 339 177 313> 459 109<258 258> 548 20G<166 354 354 354> 662 110<236 282 236 311.5>
 VStem: -13 546<0 0>
-AnchorPoint: "Anchor-3" 0 0 basechar 0
-AnchorPoint: "Anchor-2" 152 568 basechar 0
-AnchorPoint: "Anchor-1" 260 568 basechar 0
-AnchorPoint: "Anchor-0" 470 0 basechar 0
+AnchorPoint: "Anchor-4" 0 0 basechar 0
+AnchorPoint: "Anchor-3" 470 0 basechar 0
+AnchorPoint: "Anchor-2" 260 568 basechar 0
+AnchorPoint: "Anchor-1" 0 0 basechar 0
+AnchorPoint: "Anchor-0" 258 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 259 662 m 0xdc
@@ -20,7 +21,8 @@ SplineSet
  305 772 332 789 345 832 c 1
  432 816 l 1
  424 726 364 662 259 662 c 0xdc
-340 115 m 1
+367 0 m 1
+ 339 115 l 1
  177 115 l 1
  150 0 l 1
  -13 0 l 1
@@ -28,10 +30,9 @@ SplineSet
  354 568 l 1
  533 0 l 1
  367 0 l 1
- 340 115 l 1
-313 226 m 1
+203 226 m 1
+ 313 226 l 1
  258 459 l 1xec
  203 226 l 1
- 313 226 l 1
 EndSplineSet
 EndChar

@@ -1,40 +1,41 @@
-
 StartChar: Dcaron
-Encoding: 270 270 22
+Encoding: 270 270 55
 Width: 639
 GlyphClass: 2
 Flags: MW
-HStem: 0 75<167 228> 613 76<242 242 242 300 300 314> 754 74<372 372 372 396 336 372>
+HStem: 0 75<167 228> 613 76<242 300 300 314 242 242>
 VStem: 505 96<347.5 510.5>
+AnchorPoint: "Anchor-14" 331 345 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 382 909 basechar 0
 AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 360 689 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 251 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-544 864 m 1
+509 909 m 1
+ 544 864 l 1
  396 754 l 1
  336 754 l 1
  216 864 l 1
  259 909 l 1
  372 828 l 1
  509 909 l 1
- 544 864 l 1
 300 689 m 2
  456 689 601 643 601 428 c 0
  601 207 500 0 228 0 c 2
  62 0 l 1
  159 689 l 1
  300 689 l 2
-242 613 m 1
+314 613 m 2
+ 242 613 l 1
  167 75 l 1
  242 75 l 2
  442 75 505 265 505 430 c 0
  505 591 410 613 314 613 c 2
- 242 613 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" dcaron.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" dcaron.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" dcaron.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

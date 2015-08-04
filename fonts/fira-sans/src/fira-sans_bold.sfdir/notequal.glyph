@@ -1,14 +1,16 @@
-
 StartChar: notequal
-Encoding: 8800 8800 1109
+Encoding: 8800 8800 2267
 Width: 519
+GlyphClass: 2
 Flags: MW
-HStem: 165 123<48 108 48 181 288 470 48 215> 375 123<48 233 48 307 414 470 48 340> 561 20G<463 463>
+HStem: 165 123<48 108 48 181 288 470 48 215> 375 123<48 234 48 307 414 470 48 340> 561 20G<463 463>
 VStem: 48 422<165 288 165 288 375 498 165 498>
 LayerCount: 2
+Back
 Fore
 SplineSet
-340 375 m 1
+470 375 m 1
+ 340 375 l 1
  288 288 l 1
  470 288 l 1
  470 165 l 1
@@ -19,7 +21,7 @@ SplineSet
  48 165 l 1
  48 288 l 1
  181 288 l 1
- 233 375 l 1
+ 234 375 l 1
  48 375 l 1
  48 498 l 1
  307 498 l 1
@@ -28,9 +30,8 @@ SplineSet
  414 498 l 1
  470 498 l 1
  470 375 l 1
- 340 375 l 1
 EndSplineSet
-Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" notequal.osf
-Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" notequal.tf
+Substitution2: "'onum' Oldstyle Figures lookup 25 subtable" notequal.osf
+Substitution2: "'tnum' Tabular Numbers lookup 24 subtable" notequal.tf
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" notequal.tf notequal.osf
 EndChar

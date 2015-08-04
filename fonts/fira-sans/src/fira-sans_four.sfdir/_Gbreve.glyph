@@ -1,48 +1,43 @@
-
 StartChar: Gbreve
-Encoding: 286 286 36
+Encoding: 286 286 101
 Width: 600
 GlyphClass: 2
 Flags: MW
-HStem: -9.08 21G 670.13 20G 686.21 96.99
-VStem: 365.7 154.65
-AnchorPoint: "Anchor-11" 338 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 338 680 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+HStem: -9 21G<271.5 388> 670 20G<280 374.5> 686 92<314 362 314 374>
+VStem: 366 154<339 343 39 343>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 340 837 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 338 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-295.2 783.2 m 1xd0
- 267.021 794.03 249.96 815.109 242.22 835.64 c 1
- 242.5 836.21 l 1
- 251.08 812.78 269.26 793.351 295.2 783.2 c 1xd0
-433.499 835.64 m 1
- 425.759 815.109 408.698 794.021 380.519 783.2 c 1
- 406.459 793.351 424.639 812.78 433.219 836.21 c 1
- 433.499 835.64 l 1
-380.518 783.2 m 1xb0
- 368.027 778.311 353.728 775.57 337.848 775.57 c 0
- 321.968 775.57 307.678 778.311 295.188 783.2 c 1
- 307.308 778.54 321.487 775.78 337.857 775.78 c 0
- 354.228 775.78 368.397 778.54 380.518 783.2 c 1xb0
-520.348 343.21 m 1
- 520.357 39.2109 l 1
- 479.138 14.4912 422.498 -9.0791 352.998 -9.0791 c 0
- 189.928 -9.0791 84.2773 113.641 84.2773 344.99 c 0
- 84.2773 582.061 216.848 690.131 343.348 690.131 c 0xd0
- 406.208 690.131 453.278 671.061 501.639 634.711 c 1
- 499.349 631.351 l 1
- 452.278 667.421 404.498 686.211 343.348 686.211 c 0
- 219.067 686.211 88.417 579.561 88.417 344.99 c 0
- 88.417 116.641 191.207 -5.14941 352.987 -5.14941 c 0
- 423.558 -5.14941 477.777 18.1406 516.277 41.2803 c 1
- 516.277 339.28 l 1
- 365.848 339.28 l 1
- 365.558 343.21 l 1
- 520.348 343.21 l 1
+338 774 m 0xb0
+ 283 774 252 805 241 835 c 1
+ 244 837 l 1
+ 257 803 290 778 338 778 c 0
+ 386 778 419 803 432 837 c 1
+ 435 835 l 1
+ 425 805 394 774 338 774 c 0xb0
+343 690 m 0xd0
+ 406 690 453 671 502 635 c 1
+ 499 631 l 1
+ 452 667 405 686 343 686 c 0xb0
+ 219 686 88 580 88 345 c 0
+ 88 117 191 -5 353 -5 c 0
+ 424 -5 478 18 516 41 c 1
+ 516 339 l 1
+ 366 339 l 1
+ 366 343 l 1
+ 520 343 l 1
+ 520 39 l 1
+ 479 15 423 -9 353 -9 c 0
+ 190 -9 84 114 84 345 c 0
+ 84 582 217 690 343 690 c 0xd0
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" gbreve.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" gbreve.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" gbreve.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

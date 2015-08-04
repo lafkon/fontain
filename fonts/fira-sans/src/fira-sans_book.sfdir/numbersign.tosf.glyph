@@ -1,15 +1,16 @@
-
 StartChar: numbersign.tosf
-Encoding: 1114479 -1 1000
+Encoding: 1114829 -1 2135
 Width: 560
 Flags: MW
-HStem: 0 21G<82 154 82 82 314 387 314 314> 167 64<38 104 38 113 185 336 38 176 418 485> 458 65<75 143 75 151 75 215 223 375 456 522> 668 20G<173 245 245 245 405 478 478 478>
-VStem: 38 484<167 523 231 523>
+HStem: 0 21G<82 154 82 82 314 387 314 314> 167 64<38 104 38 113 185 336 38 176 417 485> 458 65<75 143 75 151 75 215 224 375 456 522> 668 20G<173 245 245 245 405 478 478 478>
+VStem: 38 484<167 458 231 458>
 LayerCount: 2
+Back
 Fore
 SplineSet
-448 458 m 1
- 418 231 l 1
+522 458 m 1
+ 447 458 l 1
+ 417 231 l 1
  485 231 l 1
  485 167 l 1
  409 167 l 1
@@ -29,20 +30,19 @@ SplineSet
  151 523 l 1
  173 688 l 1
  245 688 l 1
- 223 523 l 1
+ 224 523 l 1
  383 523 l 1
  405 688 l 1
  478 688 l 1
  456 523 l 1
  522 523 l 1
  522 458 l 1
- 448 458 l 1
-375 458 m 1
+345 231 m 1
+ 375 458 l 1
  215 458 l 1
  185 231 l 1
  345 231 l 1
- 375 458 l 1
 EndSplineSet
-Substitution2: "'pnum' Proportional Numbers lookup 20 subtable" numbersign.osf
+Substitution2: "'pnum' Proportional Numbers lookup 23 subtable" numbersign.osf
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" numbersign.osf
 EndChar

@@ -1,19 +1,21 @@
-
 StartChar: Tau
-Encoding: 932 932 711
+Encoding: 932 932 1517
 Width: 530
 GlyphClass: 2
 Flags: MW
 HStem: 0 21G<147 309 147 147> 567 126<68 227 50 591 388 556 388 388>
 VStem: 50 541<567 693>
-AnchorPoint: "Anchor-7" 228 0 basechar 0
-AnchorPoint: "Anchor-6" 0 0 basechar 0
-AnchorPoint: "Anchor-5" 0 0 basechar 0
-AnchorPoint: "Anchor-4" 325 693 basechar 0
+AnchorPoint: "Anchor-9" 0 0 basechar 0
+AnchorPoint: "Anchor-8" 277 347 basechar 0
+AnchorPoint: "Anchor-7" 0 0 basechar 0
+AnchorPoint: "Anchor-6" 228 0 basechar 0
+AnchorPoint: "Anchor-5" 325 693 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-556 567 m 1
+591 693 m 1
+ 556 567 l 1
  388 567 l 1
  309 0 l 1
  147 0 l 1
@@ -21,9 +23,8 @@ SplineSet
  50 567 l 1
  68 693 l 1
  591 693 l 1
- 556 567 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" tau.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" tau.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" tau.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

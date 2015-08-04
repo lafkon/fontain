@@ -1,39 +1,40 @@
-
 StartChar: kcommaaccent
-Encoding: 311 311 192
+Encoding: 311 311 508
 Width: 552
 GlyphClass: 2
 Flags: MW
 HStem: -210 21G<231 231> 0 21G<62 220 62 62 383 383 383 561> 511 20G<387 548 548 548> 722 20G<62 62> 739 20G<220 220>
 VStem: 62 158<0 742 742 742> 198 158<-158 -124>
-AnchorPoint: "Anchor-11" 276 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 0 0 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 297 742 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 276 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-220 0 m 1xec
+220 759 m 1xec
+ 220 0 l 1
  62 0 l 1
  62 742 l 1xf4
- 220 759 l 1
- 220 0 l 1xec
-387 298 m 1
+ 220 759 l 1xec
+548 531 m 1
+ 387 298 l 1
  561 0 l 1
  383 0 l 1
  225 290 l 1
  387 531 l 1
  548 531 l 1
- 387 298 l 1
 277 -68 m 0xea
- 322 -68 356 -101 356 -145 c 0
+ 323 -68 356 -101 356 -145 c 0
  356 -171 348 -191 329 -229 c 2
  283 -325 l 1
  204 -325 l 1
  231 -210 l 1
  212 -195 198 -174 198 -145 c 0
- 198 -103 232 -68 277 -68 c 0xea
+ 198 -103 231 -68 277 -68 c 0xea
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" kcommaaccent.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" kcommaaccent.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" kcommaaccent.sc
 EndChar

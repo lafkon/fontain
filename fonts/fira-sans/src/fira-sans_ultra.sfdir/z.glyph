@@ -1,19 +1,21 @@
-
 StartChar: z
-Encoding: 122 122 262
+Encoding: 122 122 716
 Width: 480
 GlyphClass: 2
 Flags: MW
 HStem: 0 162<260 456> 377 159<20 211 20 467>
-VStem: 20 447<383 383 383 536 383 536>
+VStem: 0 474<0 162 154 162>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 246 536 basechar 0
 AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 246 536 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 230 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-467 383 m 1
+467 536 m 1
+ 467 383 l 1
  260 162 l 1
  474 162 l 1
  456 0 l 1
@@ -23,8 +25,7 @@ SplineSet
  20 377 l 1
  20 536 l 1
  467 536 l 1
- 467 383 l 1
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" z.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" z.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" z.sc
 EndChar

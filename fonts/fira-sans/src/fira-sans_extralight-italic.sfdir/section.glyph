@@ -1,41 +1,42 @@
-
 StartChar: section
-Encoding: 167 167 1225
+Encoding: 167 167 2383
 Width: 531
+GlyphClass: 2
 Flags: MW
 HStem: -67 39<185.5 263.5 185.5 265> 636 38<281 352.5>
-VStem: 95 46<290.5 335 290.5 339> 153 45<520 561.5 517 582.5> 346 47<48 89.5 28 93> 402 45<277.5 315.5>
+VStem: 95 46<290.5 335 290.5 339> 153 45<520.5 561.5 517 582.5> 346 47<48 89 28 93> 402 45<277.5 315.5>
 LayerCount: 2
+Back
 Fore
 SplineSet
 327 636 m 0
  231 636 198 584 198 539 c 0
- 198 495 225 468 315 435 c 1
- 407 403 447 360 447 298 c 0xd4
- 447 241 420 202 347 161 c 1
- 378 137 393 109 393 70 c 0
+ 198 495 225 468 315 435 c 0
+ 407 403 447 360 447 298 c 0xdc
+ 447 241 420 202 347 160 c 1
+ 378 137 393 108 393 70 c 0
  393 -14 320 -67 210 -67 c 0
  144 -67 98 -49 53 -21 c 1
  77 13 l 1
  117 -15 160 -28 211 -28 c 0
  316 -28 346 26 346 70 c 0
- 346 116 320 140 235 172 c 1
- 142 205 95 246 95 310 c 0xfc
+ 346 116 320 140 235 172 c 0
+ 142 205 95 246 95 310 c 0xf8
  95 368 128 409 198 449 c 1
- 167 474 153 502 153 538 c 0
+ 167 474 153 503 153 538 c 0
  153 627 234 674 328 674 c 0
  395 674 438 654 478 626 c 1
  454 595 l 1
  414 622 378 636 327 636 c 0
-402 296 m 0
+402 296 m 0xfc
  402 335 381 369 298 400 c 0
- 270 410 247 420 227 430 c 1
- 165 392 141 359 141 311 c 0xf4
+ 270 409 246 420 227 430 c 1
+ 165 392 141 359 141 311 c 0
  141 270 168 239 251 207 c 0
  277 198 299 189 318 179 c 1
- 387 221 402 259 402 296 c 0
+ 387 221 402 259 402 296 c 0xfc
 EndSplineSet
-Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" section.osf
-Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" section.tf
+Substitution2: "'onum' Oldstyle Figures lookup 26 subtable" section.osf
+Substitution2: "'tnum' Tabular Numbers lookup 25 subtable" section.tf
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" section.tf section.osf
 EndChar

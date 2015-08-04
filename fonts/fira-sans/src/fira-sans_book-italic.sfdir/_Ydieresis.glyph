@@ -1,29 +1,31 @@
-
 StartChar: Ydieresis
-Encoding: 376 376 122
+Encoding: 376 376 296
 Width: 538
 GlyphClass: 2
 Flags: MW
 HStem: 0 21G<189 276 189 189> 668 20G<67 157 157 157 498 592 592 592> 782 106<239 260 442 463.5>
 VStem: 198 103 401 103
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 354 888 basechar 0
 AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" -26 532 basechar 0
-AnchorPoint: "Anchor-9" 348 807 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 232 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 253 888 m 0
  285 888 306 862 301 830 c 0
  297 803 274 782 246 782 c 0
- 214 782 193 808 198 840 c 1
+ 214 782 193 808 198 840 c 0
  201 867 225 888 253 888 c 0
 456 888 m 0
- 489 888 509 862 504 830 c 1
+ 489 888 509 862 504 830 c 0
  501 803 478 782 449 782 c 0
  417 782 396 808 401 840 c 0
  405 867 428 888 456 888 c 0
-313 266 m 1
+592 688 m 1
+ 313 266 l 1
  276 0 l 1
  189 0 l 1
  227 265 l 1
@@ -32,9 +34,8 @@ SplineSet
  279 342 l 1
  498 688 l 1
  592 688 l 1
- 313 266 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" ydieresis.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" ydieresis.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" ydieresis.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

@@ -1,35 +1,36 @@
-
 StartChar: uni1FD6
-Encoding: 8150 8150 792
-Width: 276
+Encoding: 8150 8150 1765
+Width: 282
 GlyphClass: 2
 Flags: MW
-HStem: -15 21G<206 206> 509 20G<72 200 200 200> 644 94<175.5 203.5 175.5 221.5> 691 93<67 96> 727 20G<314 314>
+HStem: -15 21G<206 206> 509 20G<72 200 200 200> 644 94<175.5 203.5 175.5 220> 691 93<67 96> 727 20G<314 314>
 VStem: 72 128<146 162 162 529>
+AnchorPoint: "Anchor-9" 0 0 basechar 0
+AnchorPoint: "Anchor-8" 0 0 basechar 0
 AnchorPoint: "Anchor-7" 0 0 basechar 0
 AnchorPoint: "Anchor-6" 0 0 basechar 0
-AnchorPoint: "Anchor-5" 0 0 basechar 0
-AnchorPoint: "Anchor-4" 136 529 basechar 0
+AnchorPoint: "Anchor-5" 136 740 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-197 644 m 0xe4
- 135 644 113 691 79 691 c 0
+194 644 m 0xe4
+ 138 644 113 691 79 691 c 0
  55 691 42 675 26 646 c 1
  -43 680 l 1
- -19 737 21 784 78 784 c 0xd4
+ -19 737 21 784 77 784 c 0xd4
  136 784 158 738 193 738 c 0
  214 738 228 752 246 781 c 1xe4
  314 747 l 1xcc
- 288 685 246 644 197 644 c 0xe4
-200 162 m 2xcc
+ 288 685 246 644 194 644 c 0xe4
+200 529 m 1xcc
+ 200 162 l 2
  200 112 212 94 244 79 c 1
  206 -15 l 1
- 113 3 72 48 72 146 c 2
+ 115 5 72 48 72 146 c 2
  72 529 l 1
- 200 529 l 1
- 200 162 l 2xcc
+ 200 529 l 1xcc
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" uni1FD6.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" uni1FD6.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uni1FD6.sc
 EndChar

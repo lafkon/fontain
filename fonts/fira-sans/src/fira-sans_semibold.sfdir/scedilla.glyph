@@ -1,20 +1,21 @@
-
 StartChar: scedilla
-Encoding: 351 351 230
+Encoding: 351 351 628
 Width: 479
 GlyphClass: 2
 Flags: MW
-HStem: -257 80<214.5 241 214.5 279.5> -15 21G<195 195> -15 102<195 249> -12 21G<279 279> 443 103<230.5 277>
-VStem: 36 143<379.5 409.5 379.5 433> 275 105<-157 -132.5> 310 146<126.5 164.5>
-AnchorPoint: "Anchor-11" 240 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 248 530 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+HStem: -257 80<214.5 241 214.5 279.5> -15 21G<195 195> -15 102<195 249.5> -12 21G<279 279> 443 103<228.5 275>
+VStem: 36 143<379.5 409.5 379.5 433> 275 105<-157 -132.5> 310 146<127 165>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 248 530 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 257 -257 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 456 156 m 0x9d
- 456 62 380 3 279 -12 c 1
+ 456 61 380 3 279 -12 c 1
  279 -50 l 1x9e
  349 -57 380 -95 380 -146 c 0
  380 -213 322 -257 237 -257 c 0
@@ -24,21 +25,21 @@ SplineSet
  255 -177 275 -169 275 -145 c 0
  275 -120 248 -109 183 -109 c 1
  195 -15 l 1xce
- 118 -8 55 20 11 61 c 1
- 82 140 l 1
- 121 108 170 87 222 87 c 0
- 276 87 310 109 310 144 c 0xad
+ 118 -8 55 21 11 61 c 1
+ 81 139 l 1
+ 121 108 170 87 223 87 c 0
+ 276 87 310 109 310 145 c 0xad
  310 185 291 198 193 225 c 0
  86 255 36 308 36 388 c 0
  36 478 118 546 246 546 c 0
  323 546 388 522 438 482 c 1
- 384 399 l 1
- 341 428 298 443 256 443 c 0
+ 384 401 l 1
+ 341 428 298 443 252 443 c 0
  205 443 179 424 179 395 c 0
- 179 364 197 350 290 323 c 1
+ 179 364 197 350 290 323 c 0
  396 294 456 250 456 156 c 0x9d
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" scedilla.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" scedilla.sc
 Substitution2: "'locl' Localized Forms in Latin lookup 5 subtable" scommaaccent
 Substitution2: "'locl' Localized Forms in Latin lookup 4 subtable" scommaaccent
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" scommaaccent scedilla.sc

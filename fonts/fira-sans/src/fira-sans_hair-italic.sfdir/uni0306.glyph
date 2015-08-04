@@ -1,24 +1,30 @@
-
 StartChar: uni0306
-Encoding: 774 774 1281
+Encoding: 774 774 2433
 Width: 0
 GlyphClass: 4
 Flags: MW
-HStem: 647.43 11.28
-VStem: 121.43 204.29
-AnchorPoint: "Anchor-12" 200 518 mark 0
-AnchorPoint: "Anchor-9" 200 518 mark 0
-AnchorPoint: "Anchor-4" 200 518 mark 0
-AnchorPoint: "Anchor-1" 200 518 mark 0
+HStem: 664 13<-99.5 -52 -99.5 -48>
+VStem: -169 11<744 746>
+AnchorPoint: "Anchor-19" -95 518 mark 0
+AnchorPoint: "Anchor-16" -63 746 basemark 0
+AnchorPoint: "Anchor-16" -95 518 mark 0
+AnchorPoint: "Anchor-12" -95 518 mark 0
+AnchorPoint: "Anchor-5" -95 518 mark 0
+AnchorPoint: "Anchor-2" -95 518 mark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-215.14 647.43 m 0
- 161.56 647.43 127.289 678.43 121.429 716.71 c 1
- 129.719 717.43 l 1
- 136.719 686.279 163.999 658.709 215.149 658.709 c 0
- 267.149 658.709 301.579 687.139 317.429 718.289 c 1
- 325.719 715.859 l 1
- 308.999 677.569 267.859 647.43 215.14 647.43 c 0
+-76 664 m 0
+ -134 664 -165 699 -169 744 c 1
+ -158 746 l 1
+ -152 702 -123 677 -76 677 c 0
+ -28 677 9 702 27 746 c 1
+ 37 743 l 1
+ 21 698 -20 664 -76 664 c 0
 EndSplineSet
+Substitution2: "'case' Case-Sensitive Forms lookup 29 subtable" uni0306.case
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 28 subtable" uni0306.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" uni0306.sc
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" uni0306.sc uni0306.case
 EndChar

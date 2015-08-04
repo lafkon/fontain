@@ -1,12 +1,17 @@
-
 StartChar: beta.sc
-Encoding: 1114356 -1 812
+Encoding: 1114589 -1 1824
 Width: 563
 GlyphClass: 2
 Flags: MW
-HStem: 0 136<240 264> 237 121<240 258 258 270 240 258> 439 132<43 240 240 258>
-VStem: 43 197<136 237 358 439> 324 199<385 413> 345 203<165.5 203>
+HStem: 0 136<240 264> 237 121<240 258 258 270 240 258> 439 132<240 258 43 240>
+VStem: 43 197<136 237 358 439> 324 199<385 410.5> 345 203<165.5 203>
+AnchorPoint: "Anchor-9" 0 0 basechar 0
+AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-7" 0 0 basechar 0
+AnchorPoint: "Anchor-6" 280 0 basechar 0
+AnchorPoint: "Anchor-5" 0 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 414 303 m 1xf4
@@ -17,12 +22,12 @@ SplineSet
  240 571 l 2
  413 571 523 538 523 422 c 0xf8
  523 348 467 317 414 303 c 1xf4
-240 439 m 1
+258 439 m 2xf8
+ 240 439 l 1
  240 358 l 1
  258 358 l 2
- 310 358 324 368 324 402 c 0
+ 310 358 324 371 324 397 c 0
  324 424 308 439 258 439 c 2xf8
- 240 439 l 1
 266 136 m 2xf4
  314 136 345 145 345 186 c 0
  345 220 323 237 270 237 c 2

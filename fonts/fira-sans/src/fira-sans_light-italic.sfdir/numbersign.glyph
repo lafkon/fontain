@@ -1,14 +1,15 @@
-
 StartChar: numbersign
-Encoding: 35 35 989
+Encoding: 35 35 2128
 Width: 500
 Flags: MW
 HStem: 0 21G<26 79 26 26 257 311 257 257> 180 47<10 75 3 88 141 306 10 128 373 438> 452 47<85 149 79 162 85 202 215 381 447 513>
 VStem: 3 516<180 499>
 LayerCount: 2
+Back
 Fore
 SplineSet
-434 452 m 1
+513 452 m 1
+ 434 452 l 1
  373 227 l 1
  444 227 l 1
  438 180 l 1
@@ -30,20 +31,19 @@ SplineSet
  207 665 l 1
  260 665 l 1
  215 499 l 1
- 394 499 l 1
+ 393 499 l 1
  439 665 l 1
  492 665 l 1
  447 499 l 1
  519 499 l 1
  513 452 l 1
- 434 452 l 1
-381 452 m 1
+319 227 m 1
+ 381 452 l 1
  202 452 l 1
  141 227 l 1
  319 227 l 1
- 381 452 l 1
 EndSplineSet
-Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" numbersign.osf
-Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" numbersign.tf
+Substitution2: "'onum' Oldstyle Figures lookup 26 subtable" numbersign.osf
+Substitution2: "'tnum' Tabular Numbers lookup 25 subtable" numbersign.tf
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" numbersign.tf numbersign.osf
 EndChar

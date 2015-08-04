@@ -1,26 +1,28 @@
-
 StartChar: Umacron
-Encoding: 362 362 108
+Encoding: 362 362 285
 Width: 648
 GlyphClass: 2
 Flags: MW
-HStem: -11 43<264 384.5 264 398.5> 664 20G<105 152 152 152 495 543 543 543> 803 39<212 441 212 441>
-VStem: 105 47<211 215 215 684> 212 229<803 842 803 842> 495 48<215 684>
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 327 684 basechar 0
-AnchorPoint: "Anchor-8" 412 0 basechar 0
+HStem: -11 43<264 384.5 264 398.5> 664 20G<105 152 152 152 495 543 543 543> 805 39<210 439 210 439>
+VStem: 105 47<211 215 215 684> 210 229<805 844 805 844> 495 48<215 684>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 553 684 basechar 0
+AnchorPoint: "Anchor-12" 327 844 basechar 0
+AnchorPoint: "Anchor-11" 412 0 basechar 0
+AnchorPoint: "Anchor-10" 324 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-212 803 m 1
- 212 842 l 1
- 441 842 l 1
- 441 803 l 1
- 212 803 l 1
-543 211 m 2
+439 805 m 1
+ 210 805 l 1
+ 210 844 l 1
+ 439 844 l 1
+ 439 805 l 1
+543 684 m 1
+ 543 211 l 2
  543 82 473 -11 324 -11 c 0
- 173 -11 105 82 105 211 c 2
+ 174 -11 105 82 105 211 c 2
  105 684 l 1
  152 684 l 1
  152 215 l 2
@@ -28,9 +30,8 @@ SplineSet
  445 32 495 105 495 215 c 2
  495 684 l 1
  543 684 l 1
- 543 211 l 2
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" umacron.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" umacron.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" umacron.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

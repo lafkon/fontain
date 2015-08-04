@@ -1,44 +1,45 @@
-
 StartChar: Scedilla
-Encoding: 350 350 93
+Encoding: 350 350 231
 Width: 569
 GlyphClass: 2
 Flags: MW
-HStem: -269 94<186.5 212.5 186.5 267.5> -16 21G<285 285> -15 21G<187 187> 580 133<320 375.5>
-VStem: 63 191<495 533.5 495 545.5> 249 124 352 192<180 219>
-AnchorPoint: "Anchor-11" 246 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 356 695 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+HStem: -269 94<197 223.5 197 278> -17 21G<198 198> -16 21G<295 295> 580 133<320 375.5>
+VStem: 63 191<495 533.5 495 545.5> 260 123 352 192<181 219>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 356 695 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 241 -269 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-367 432 m 1xba
- 483 394 544 335 544 233 c 0xda
- 544 127 479 1 285 -16 c 1
- 280 -45 l 1xd4
- 342 -53 373 -87 373 -138 c 0
- 373 -191 332 -269 203 -269 c 0
- 154 -269 115 -253 90 -235 c 1
- 139 -158 l 1
- 157 -169 175 -175 198 -175 c 0
- 227 -175 248 -166 249 -144 c 0
- 250 -123 226 -116 162 -116 c 1
- 187 -15 l 1xb4
- 92 -4 25 38 -20 85 c 1
+367 432 m 0xba
+ 483 394 544 335 544 233 c 0xb2
+ 544 129 481 5 295 -16 c 1
+ 290 -45 l 1xb4
+ 352 -53 383 -87 383 -138 c 0
+ 383 -192 342 -269 214 -269 c 0
+ 164 -269 125 -253 101 -235 c 1
+ 149 -158 l 1
+ 168 -169 185 -175 209 -175 c 0
+ 238 -175 259 -166 260 -144 c 0
+ 261 -123 236 -116 173 -116 c 1
+ 198 -17 l 1xd4
+ 97 -7 26 36 -20 85 c 1
  83 189 l 1
  125 145 176 121 240 121 c 0
  310 121 352 151 352 198 c 0
- 352 240 327 265 248 292 c 1
+ 352 240 327 265 248 292 c 0
  113 336 63 401 63 492 c 0
  63 599 146 713 347 713 c 0
  449 713 525 679 581 620 c 1
  487 524 l 1
  446 562 402 580 349 580 c 0
  291 580 254 554 254 513 c 0
- 254 477 281 463 367 432 c 1xba
+ 254 477 281 463 367 432 c 0xba
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" scedilla.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" scedilla.sc
 Substitution2: "'locl' Localized Forms in Latin lookup 5 subtable" Scommaaccent
 Substitution2: "'locl' Localized Forms in Latin lookup 4 subtable" Scommaaccent
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" Scommaaccent scedilla.sc

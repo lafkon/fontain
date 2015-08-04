@@ -1,22 +1,23 @@
-
 StartChar: upsilon
-Encoding: 965 965 766
+Encoding: 965 965 1667
 Width: 548
 GlyphClass: 2
 Flags: MW
-HStem: -20 142<230.5 291.5 230.5 356> 514 20G<73 267 267 267 344 527 527 527>
+HStem: -20 142<230.5 291.5 230.5 354.5> 514 20G<73 267 267 267 344 527 527 527>
 VStem: 21.68 195.23 348 187<402 447.5 298.5 469.5>
+AnchorPoint: "Anchor-9" 0 0 basechar 0
+AnchorPoint: "Anchor-8" 0 0 basechar 0
 AnchorPoint: "Anchor-7" 0 0 basechar 0
 AnchorPoint: "Anchor-6" 0 0 basechar 0
-AnchorPoint: "Anchor-5" 0 0 basechar 0
-AnchorPoint: "Anchor-4" 305 534 basechar 0
+AnchorPoint: "Anchor-5" 305 534 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 527 534 m 1
  532 504 535 469 535 426 c 0
- 535 171 485 -20 227 -20 c 0
- 63 -20 9 84 24 182 c 1
+ 535 171 482 -20 227 -20 c 0
+ 63 -20 9 84 24 182 c 2
  73 534 l 1
  267 534 l 1
  219 190 l 2
@@ -25,6 +26,6 @@ SplineSet
  348 483 347 508 344 534 c 1
  527 534 l 1
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" upsilon.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 28 subtable" upsilon.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" upsilon.sc
 EndChar

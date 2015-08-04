@@ -1,15 +1,16 @@
-
 StartChar: Lslash
-Encoding: 321 321 63
+Encoding: 321 321 151
 Width: 455
 GlyphClass: 2
 Flags: MW
 HStem: 0 21G<104 394 104 104> 660 20G<199 201 201 201>
 VStem: 64 330<0 278>
 LayerCount: 2
+Back
 Fore
 SplineSet
-394 0 m 1
+394 2 m 1
+ 394 0 l 1
  104 0 l 1
  149 324 l 1
  65 276 l 1
@@ -23,9 +24,8 @@ SplineSet
  151 325 l 1
  106 2 l 1
  394 2 l 1
- 394 0 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" lslash.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" lslash.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" lslash.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

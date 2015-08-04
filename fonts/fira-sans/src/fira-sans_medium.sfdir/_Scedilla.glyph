@@ -1,20 +1,21 @@
-
 StartChar: Scedilla
-Encoding: 350 350 93
+Encoding: 350 350 240
 Width: 560
 GlyphClass: 2
 Flags: MW
 HStem: -253 75<252.5 279 252.5 314> -14 101<234 234> 605 101<257 316.5>
 VStem: 45 136<498 550 498 572.5> 228.5 83.5 314 97<-156.5 -131> 390 138<156.5 219>
-AnchorPoint: "Anchor-11" 276 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 287 691 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 287 691 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 294 -253 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 528 197 m 0xfa
- 528 85 449 2 312 -13 c 1
+ 528 85 449 3 312 -12 c 1
  312 -52 l 1xfa
  382 -59 411 -96 411 -144 c 0
  411 -211 354 -253 274 -253 c 0
@@ -25,20 +26,20 @@ SplineSet
  314 -118 287 -106 223 -106 c 1
  234 -14 l 1
  140 -7 68 30 17 80 c 1
- 87 158 l 1
- 135 113 191 87 263 87 c 0
+ 86 156 l 1
+ 136 113 191 87 263 87 c 0
  337 87 390 123 390 190 c 0
  390 248 361 274 253 307 c 0
  108 352 45 410 45 515 c 0
  45 630 144 706 280 706 c 0
  381 706 448 676 508 621 c 1
- 441 545 l 1
+ 443 546 l 1
  393 587 345 605 288 605 c 0
  226 605 181 577 181 523 c 0
  181 473 208 451 323 415 c 0
  444 377 528 327 528 197 c 0xfa
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" scedilla.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" scedilla.sc
 Substitution2: "'locl' Localized Forms in Latin lookup 5 subtable" Scommaaccent
 Substitution2: "'locl' Localized Forms in Latin lookup 4 subtable" Scommaaccent
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" Scommaaccent scedilla.sc

@@ -1,19 +1,21 @@
-
 StartChar: fi.sc
-Encoding: 1114168 -1 316
+Encoding: 1114238 -1 837
 Width: 698
 GlyphClass: 2
 Flags: MW
 HStem: 0 21G<123 145 123 123 554 554 554 576> 273 20<145 362 145 362> 539 20<145 396 145 145>
-VStem: 123 22<0 273 293 539> 554 22<0 559>
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 524 559 basechar 0
-AnchorPoint: "Anchor-9" 565 559 basechar 0
-AnchorPoint: "Anchor-8" 586 0 basechar 0
+VStem: 123 22<0 273 293 539> 554 22<0 559 0 559>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 565 559 basechar 0
+AnchorPoint: "Anchor-11" 586 0 basechar 0
+AnchorPoint: "Anchor-10" 565 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-396 539 m 1
+398 559 m 1
+ 396 539 l 1
  145 539 l 1
  145 293 l 1
  362 293 l 1
@@ -23,11 +25,10 @@ SplineSet
  123 0 l 1
  123 559 l 1
  398 559 l 1
- 396 539 l 1
-576 0 m 1
+576 559 m 1
+ 576 0 l 1
  554 0 l 1
  554 559 l 1
  576 559 l 1
- 576 0 l 1
 EndSplineSet
 EndChar

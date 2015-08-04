@@ -1,18 +1,19 @@
-
 StartChar: perthousand
-Encoding: 8240 8240 1112
+Encoding: 8240 8240 2295
 Width: 1094
+GlyphClass: 2
 Flags: MW
 HStem: -10 19<524 600.5 524 604.5 859 935> -4 21G<144 144> 283 19<524 600 858.5 934.5> 361 19<160 236 160 240> 654 19<159.5 235.5> 664 20G<624 624>
 VStem: 63 23<478 555.5 478 564> 310 22<479.5 557.5> 428 22<107 184.5 107 193> 674 23<108.5 186.5> 762 23<107 184.5 107 193> 1009 22<108.5 186.5>
 LayerCount: 2
+Back
 Fore
 SplineSet
-624 684 m 1x45
+606 695 m 1xbbf0
+ 624 684 l 1
  163 -15 l 1
- 144 -4 l 1
- 606 695 l 1
- 624 684 l 1x45
+ 144 -4 l 1x45
+ 606 695 l 1xbbf0
 198 673 m 0xbbf0
  279 673 332 614 332 519 c 0
  332 424 282 361 198 361 c 0
@@ -44,7 +45,7 @@ SplineSet
  973 9 1009 69 1009 148 c 0
  1009 225 972 283 897 283 c 0
 EndSplineSet
-Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" perthousand.osf
-Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" perthousand.tf
+Substitution2: "'onum' Oldstyle Figures lookup 25 subtable" perthousand.osf
+Substitution2: "'tnum' Tabular Numbers lookup 24 subtable" perthousand.tf
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" perthousand.tf perthousand.osf
 EndChar

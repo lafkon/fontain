@@ -1,32 +1,33 @@
-
 StartChar: icircumflex
-Encoding: 238 238 180
+Encoding: 238 238 483
 Width: 282
 GlyphClass: 2
 Flags: MW
 HStem: 0 21G<70 212 70 70> 510 20G<70 212 212 212>
-VStem: 70 142<0 530>
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 141 530 basechar 0
-AnchorPoint: "Anchor-8" 203 0 basechar 0
+VStem: 70 142<0 530 0 530>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 143 815 basechar 0
+AnchorPoint: "Anchor-11" 203 0 basechar 0
+AnchorPoint: "Anchor-10" 141 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
--43 684 m 1
+9 624 m 1
+ -43 684 l 1
  97 815 l 1
  185 815 l 1
  325 684 l 1
  272 624 l 1
  141 713 l 1
  9 624 l 1
- -43 684 l 1
-212 0 m 1
+212 530 m 1
+ 212 0 l 1
  70 0 l 1
  70 530 l 1
  212 530 l 1
- 212 0 l 1
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" icircumflex.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" icircumflex.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" icircumflex.sc
 EndChar

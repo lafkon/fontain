@@ -1,32 +1,33 @@
-
 StartChar: cent.tf
-Encoding: 1114510 -1 1075
+Encoding: 1114867 -1 2225
 Width: 560
+GlyphClass: 2
 Flags: MW
-HStem: -11 41<247 247> -8 21G<207 207> 493 39<323 323 323 337.5>
-VStem: 55 48<141 256 141 263>
+HStem: -11 41<287 287> 493 39<363 363 363 376>
+VStem: 95 48<140.5 256 140.5 263>
 LayerCount: 2
+Back
 Fore
 SplineSet
-314 493 m 0xb0
- 156 493 103 315 103 197 c 0
- 103 85 159 30 243 30 c 0
- 294 30 335 48 374 76 c 1
- 395 43 l 1
- 352 10 302 -10 247 -11 c 1xb0
+352 493 m 0
+ 195 493 143 315 143 197 c 0
+ 143 84 197 30 282 30 c 0
+ 333 30 374 48 413 76 c 1
+ 435 43 l 1
+ 392 10 343 -9 287 -11 c 1
+ 267 -149 l 1
  227 -149 l 1
- 187 -149 l 1
- 207 -8 l 1x70
- 112 6 55 79 55 199 c 0
- 55 327 117 511 284 530 c 1
- 305 679 l 1
- 344 679 l 1
- 323 532 l 1
- 374 530 415 514 450 480 c 1
- 423 451 l 1
- 394 479 361 493 314 493 c 0xb0
+ 247 -9 l 1
+ 154 5 95 78 95 199 c 0
+ 95 327 156 512 324 531 c 1
+ 345 679 l 1
+ 384 679 l 1
+ 363 532 l 1
+ 414 530 456 514 490 480 c 1
+ 463 451 l 1
+ 434 477 400 493 352 493 c 0
 EndSplineSet
-Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" cent.tosf
-Substitution2: "'pnum' Proportional Numbers lookup 20 subtable" cent
+Substitution2: "'onum' Oldstyle Figures lookup 26 subtable" cent.tosf
+Substitution2: "'pnum' Proportional Numbers lookup 24 subtable" cent
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" cent cent.tosf
 EndChar

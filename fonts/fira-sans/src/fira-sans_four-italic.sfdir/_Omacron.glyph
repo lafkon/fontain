@@ -1,35 +1,36 @@
-
 StartChar: Omacron
-Encoding: 332 332 78
+Encoding: 332 332 199
 Width: 687
 GlyphClass: 2
 Flags: MW
-HStem: -9.07001 21G 670.14 20G 686.28 132.22
-VStem: 89.28 532.58
+HStem: -9 21G<237.5 428.5> 670 20G<286 472> 686 133<324 471>
+VStem: 89 533<169 512.5>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 578 680 basechar 0
+AnchorPoint: "Anchor-12" 422 819 basechar 0
 AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 106 517 basechar 0
-AnchorPoint: "Anchor-9" 400 680 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 306 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-323.14 814.57 m 1xb0
- 323.499 818.5 l 1
- 515.209 818.5 l 1
- 514.859 814.57 l 1
- 323.14 814.57 l 1xb0
-403.139 690.14 m 0xd0
- 541.209 690.14 621.858 596.351 621.858 428.78 c 0
- 621.858 260.21 551.208 -9.07031 306.208 -9.07031 c 0
- 168.998 -9.07031 89.2783 85.9297 89.2783 251.569 c 0
- 89.2783 418.859 168.568 690.14 403.139 690.14 c 0xd0
-403.067 686.28 m 0xb0
- 170.848 686.28 93.4268 414.99 93.4268 253.2 c 0
- 93.4268 88.8506 171.356 -5.14941 306.217 -5.14941 c 0
- 549.146 -5.14941 617.717 265.351 617.717 428.851 c 0
- 617.717 594.28 538.997 686.28 403.067 686.28 c 0xb0
+516 815 m 1xb0
+ 324 815 l 1
+ 324 819 l 1
+ 516 819 l 1
+ 516 815 l 1xb0
+403 690 m 0xd0
+ 541 690 622 596 622 429 c 0
+ 622 260 551 -9 306 -9 c 0
+ 169 -9 89 86 89 252 c 0
+ 89 419 169 690 403 690 c 0xd0
+403 686 m 0xb0
+ 171 686 93 417 93 252 c 0
+ 93 88 171 -5 306 -5 c 0
+ 549 -5 618 263 618 429 c 0
+ 618 594 539 686 403 686 c 0xb0
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" omacron.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" omacron.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" omacron.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

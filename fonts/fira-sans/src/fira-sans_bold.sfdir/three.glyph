@@ -1,11 +1,11 @@
-
 StartChar: three
-Encoding: 51 51 880
+Encoding: 51 51 2014
 Width: 520
 Flags: MW
 HStem: -17 120<192.5 250 192.5 311.5> 298 109<175 214 175 214 158 214> 573 117<196 248.5>
 VStem: 311 153<477 519.5> 324 162<170 236.5>
 LayerCount: 2
+Back
 Fore
 SplineSet
 239 690 m 0xf0
@@ -14,8 +14,8 @@ SplineSet
  416 348 486 298 486 191 c 0
  486 78 395 -17 228 -17 c 0
  126 -17 49 21 -4 85 c 1
- 83 169 l 1
- 125 123 166 103 219 103 c 0
+ 81 168 l 1
+ 126 123 166 103 219 103 c 0
  281 103 324 139 324 201 c 0xe8
  324 272 285 298 214 298 c 2
  158 298 l 1
@@ -27,12 +27,12 @@ SplineSet
  11 599 l 1
  74 659 149 690 239 690 c 0xf0
 EndSplineSet
-Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" three.osf
-Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" three.tf
-Substitution2: "'frac' Diagonal Fractions lookup 16 subtable" three.numr
-Substitution2: "'dnom' Denominators lookup 14 subtable" three.dnom
-Substitution2: "'numr' Numerators lookup 13 subtable" three.numr
-Substitution2: "'sups' Superscript lookup 12 subtable" threesuperior
-Substitution2: "'subs' Subscript lookup 11 subtable" threeinferior
-AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" threeinferior threesuperior three.numr three.dnom three.tf three.osf
+Substitution2: "'onum' Oldstyle Figures lookup 25 subtable" three.osf
+Substitution2: "'tnum' Tabular Numbers lookup 24 subtable" three.tf
+Substitution2: "'frac' Diagonal Fractions lookup 18 subtable" three.numr
+Substitution2: "'dnom' Denominators lookup 16 subtable" three.dnom
+Substitution2: "'numr' Numerators lookup 15 subtable" three.numr
+Substitution2: "'sups' Superscript lookup 14 subtable" uni00B3
+Substitution2: "'subs' Subscript lookup 13 subtable" uni2083
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" uni2083 uni00B3 three.numr three.dnom three.tf three.osf
 EndChar

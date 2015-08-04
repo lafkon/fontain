@@ -1,24 +1,25 @@
-
 StartChar: tcaron
-Encoding: 357 357 236
+Encoding: 357 357 640
 Width: 410
 GlyphClass: 2
 Flags: MW
-HStem: -22 21G<259 284.5> -22 173<259 319> 387 149<-4 53 -4 53 275 372> 565 20G<305 305>
+HStem: -22 173<259 319> 387 149<-4 53 -4 53 275 372> 562 20G<289 289>
 VStem: 53 222<210 212 212 387 187.5 387 536 646 646 646>
-AnchorPoint: "Anchor-11" 234 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 0 0 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-14" 202 268 basechar 0
+AnchorPoint: "Anchor-13" 267 811 basechar 0
+AnchorPoint: "Anchor-12" 164 646 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 234 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-413 577 m 1xb8
- 305 585 l 1
- 307 841 l 1
- 462 822 l 1
- 413 577 l 1xb8
-312 151 m 0x78
+469 809 m 1
+ 409 564 l 1
+ 289 582 l 1
+ 315 833 l 1
+ 469 809 l 1
+312 151 m 0
  326 151 342 154 358 163 c 1
  428 26 l 1
  382 -6 310 -22 259 -22 c 0
@@ -34,8 +35,8 @@ SplineSet
  372 387 l 1
  275 387 l 1
  275 212 l 2
- 275 163 292 151 312 151 c 0x78
+ 275 163 292 151 312 151 c 0
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" tcaron.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" tcaron.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" tcaron.sc
 EndChar

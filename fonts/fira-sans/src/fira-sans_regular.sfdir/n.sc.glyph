@@ -1,19 +1,21 @@
-
 StartChar: n.sc
-Encoding: 1114202 -1 350
+Encoding: 1114295 -1 894
 Width: 625
 GlyphClass: 2
 Flags: MW
 HStem: 0 21G<100 185 100 100 402 525 402 402> 0 89<453 453 453 525 402 453> 473 91<172 172> 544 20G<100 220 220 220 440 525 525 525>
-VStem: 100 85<0 246 0 564> 440 85<277 564>
-AnchorPoint: "Anchor-11" 313 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 322 564 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+VStem: 100 85<0 246 0 564> 440 85<277 564 0 564>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 322 564 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 313 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-525 0 m 1x9c
+525 564 m 1x9c
+ 525 0 l 1
  402 0 l 1
  172 473 l 1xac
  177 416 185 351 185 246 c 2
@@ -24,7 +26,6 @@ SplineSet
  453 89 l 1x5c
  449 109 440 203 440 277 c 2
  440 564 l 1
- 525 564 l 1
- 525 0 l 1x9c
+ 525 564 l 1x9c
 EndSplineSet
 EndChar

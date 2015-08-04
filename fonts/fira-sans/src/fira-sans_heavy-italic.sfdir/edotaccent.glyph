@@ -1,23 +1,24 @@
-
 StartChar: edotaccent
-Encoding: 279 279 163
-Width: 542
+Encoding: 279 279 422
+Width: 543
 GlyphClass: 2
 Flags: MW
 HStem: -20 140<265.5 306> 429 125<281 324.5> 617 212<324.5 361.5>
-VStem: 12 194 234 218 351 194<380.5 401>
-AnchorPoint: "Anchor-11" 251 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 316 534 basechar 0
-AnchorPoint: "Anchor-8" 412 11 basechar 0
+VStem: 12 194 12 533<143 444.5> 351 194<380.5 401>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 356 829 basechar 0
+AnchorPoint: "Anchor-11" 412 11 basechar 0
+AnchorPoint: "Anchor-10" 251 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-330 617 m 0xf8
+330 617 m 0xe8
  265 617 226 664 234 726 c 0
  242 784 293 829 356 829 c 0
  421 829 460 782 452 720 c 0
- 444 662 393 617 330 617 c 0xf8
+ 444 662 393 617 330 617 c 0xe8
 545 401 m 0xf4
  545 252 362 205 206 191 c 1
  211 137 244 120 287 120 c 0
@@ -32,6 +33,6 @@ SplineSet
  351 413 341 429 308 429 c 0
  254 429 226 367 214 302 c 1
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" edotaccent.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 28 subtable" edotaccent.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" edotaccent.sc
 EndChar

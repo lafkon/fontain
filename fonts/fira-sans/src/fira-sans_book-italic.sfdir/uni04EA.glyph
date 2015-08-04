@@ -1,47 +1,48 @@
-
 StartChar: uni04EA
-Encoding: 1258 1258 500
-Width: 686
+Encoding: 1258 1258 1183
+Width: 685
 GlyphClass: 2
 Flags: MW
-HStem: -12 72<262.5 368.5 262.5 392.5> 318 65<163 548 153 557> 628 72<343.5 448.5> 782 106<311 332 514 535.5>
-VStem: 63 87<187.5 267.5 187.5 277> 270 103 473 103 559 87<426 502>
+HStem: -12 72<262.5 368.5 262.5 392> 318 65<163 548 153 557> 628 72<344 448.5> 782 106<311 332 514 535.5>
+VStem: 63 87<187.5 267 187.5 277> 270 103 473 103 559 87<426 502>
+AnchorPoint: "Anchor-4" 0 0 basechar 0
 AnchorPoint: "Anchor-3" 0 0 basechar 0
-AnchorPoint: "Anchor-2" 0 0 basechar 0
-AnchorPoint: "Anchor-1" 420 807 basechar 0
+AnchorPoint: "Anchor-2" 426 888 basechar 0
+AnchorPoint: "Anchor-1" 0 0 basechar 0
 AnchorPoint: "Anchor-0" 0 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 318 782 m 0xfd
- 286 782 265 808 270 840 c 1
+ 286 782 265 808 270 840 c 0
  273 867 297 888 325 888 c 0
  357 888 378 862 373 830 c 0
  369 803 346 782 318 782 c 0xfd
 521 782 m 0xfe
  489 782 468 808 473 840 c 0
  477 867 500 888 528 888 c 0
- 561 888 581 862 576 830 c 1
+ 561 888 581 862 576 830 c 0
  573 803 550 782 521 782 c 0xfe
-401 700 m 0xfd
+400 700 m 0xfd
  551 700 646 603 646 422 c 0
  646 395 644 368 640 339 c 0
- 608 114 477 -12 308 -12 c 0
+ 608 114 476 -12 308 -12 c 0
  159 -12 63 85 63 264 c 0
  63 290 65 318 69 347 c 0
- 101 572 234 700 401 700 c 0xfd
+ 100 572 234 700 400 700 c 0xfd
 399 628 m 0
- 288 628 200 554 163 383 c 1
+ 289 628 199 554 163 383 c 1
  557 383 l 1
  559 401 559 418 559 434 c 0
  559 570 498 628 399 628 c 0
 311 60 m 0
  426 60 515 137 548 318 c 1
  153 318 l 1
- 151 296 150 277 150 258 c 0
+ 151 296 150 276 150 258 c 0
  150 117 214 60 311 60 c 0
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" uni04EB.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" uni04EB.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uni04EB.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

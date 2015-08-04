@@ -1,15 +1,16 @@
-
 StartChar: uni04D4
-Encoding: 1236 1236 603
+Encoding: 1236 1236 1359
 Width: 808
 GlyphClass: 3
 Flags: MW
-HStem: 0 76<504 718> 173 77<179 398 179 405 139 398> 311 76<479 713 479 479> 613 76<364 364 446 446 446 753>
+HStem: 0 76<504 718> 173 77<179 398 179 405 139 398> 311 76<479 713 479 479> 613 76<364 364 446 753 446 446>
 VStem: -49 824<0 689>
 LayerCount: 2
+Back
 Fore
 SplineSet
-446 613 m 1
+753 613 m 1
+ 446 613 l 1
  470 387 l 1
  723 387 l 1
  713 311 l 1
@@ -25,10 +26,11 @@ SplineSet
  317 689 l 1
  775 689 l 1
  753 613 l 1
- 446 613 l 1
-398 250 m 1
+179 250 m 1
+ 398 250 l 1
  364 613 l 1
  179 250 l 1
- 398 250 l 1
 EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" uni04D5.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uni04D5.sc
 EndChar

@@ -1,37 +1,37 @@
-
 StartChar: six
-Encoding: 54 54 885
-Width: 516
+Encoding: 54 54 2023
+Width: 515
 Flags: MW
-HStem: -10 31<189.5 307 189.5 316.5> 399 30<266.5 338> 644 30<297 376.5>
-VStem: 70 35<146.5 212.5 146.5 219> 422 35<222.5 310.5>
+HStem: -10 31<188.5 306 188.5 315.5> 399 30<265.5 337> 644 30<296 376>
+VStem: 69 35<146.5 212 146.5 219> 421 35<222.5 310.5>
 LayerCount: 2
+Back
 Fore
 SplineSet
-306 429 m 0
- 390 429 457 375 457 266 c 0
- 457 157 395 -10 238 -10 c 0
- 115 -10 70 82 70 205 c 0
- 70 233 73 262 77 293 c 0
- 111 532 218 674 359 674 c 0
- 408 674 439 659 469 636 c 1
- 450 612 l 1
- 423 632 395 644 358 644 c 0
- 236 644 145 506 115 323 c 1
- 162 388 227 429 306 429 c 0
-238 21 m 0
- 376 21 422 180 422 265 c 0
- 422 356 372 399 304 399 c 0
- 227 399 163 349 109 273 c 1
- 106 248 105 224 105 201 c 0
- 105 92 141 21 238 21 c 0
+305 429 m 0
+ 390 429 456 375 456 266 c 0
+ 456 157 394 -10 237 -10 c 0
+ 114 -10 69 82 69 205 c 0
+ 69 233 72 262 76 293 c 0
+ 110 532 217 674 358 674 c 0
+ 407 674 438 659 468 636 c 1
+ 449 612 l 1
+ 422 632 395 644 357 644 c 0
+ 235 644 144 505 113 322 c 1
+ 160 387 226 429 305 429 c 0
+237 21 m 0
+ 375 21 421 180 421 265 c 0
+ 421 356 371 399 303 399 c 0
+ 226 399 161 349 108 273 c 1
+ 105 247 104 223 104 201 c 0
+ 104 92 140 21 237 21 c 0
 EndSplineSet
-Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" six.osf
-Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" six.tf
-Substitution2: "'frac' Diagonal Fractions lookup 16 subtable" six.numr
-Substitution2: "'dnom' Denominators lookup 14 subtable" six.dnom
-Substitution2: "'numr' Numerators lookup 13 subtable" six.numr
-Substitution2: "'sups' Superscript lookup 12 subtable" sixsuperior
-Substitution2: "'subs' Subscript lookup 11 subtable" sixinferior
-AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" sixinferior sixsuperior six.numr six.dnom six.tf six.osf
+Substitution2: "'onum' Oldstyle Figures lookup 26 subtable" six.osf
+Substitution2: "'tnum' Tabular Numbers lookup 25 subtable" six.tf
+Substitution2: "'frac' Diagonal Fractions lookup 19 subtable" six.numr
+Substitution2: "'dnom' Denominators lookup 17 subtable" six.dnom
+Substitution2: "'numr' Numerators lookup 16 subtable" six.numr
+Substitution2: "'sups' Superscript lookup 15 subtable" uni2076
+Substitution2: "'subs' Subscript lookup 14 subtable" uni2086
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" uni2086 uni2076 six.numr six.dnom six.tf six.osf
 EndChar

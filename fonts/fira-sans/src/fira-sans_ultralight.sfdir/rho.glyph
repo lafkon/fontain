@@ -1,18 +1,23 @@
-
 StartChar: rho
-Encoding: 961 961 760
+Encoding: 961 961 1657
 Width: 562
 GlyphClass: 2
 Flags: MW
 HStem: -200 21G<104 104> -194 21G<138 138> -10 31<260.5 342 259 354> 500 31<242.5 346.5>
-VStem: 104 34<-194 79 120 291> 451 37<182 340.5>
+VStem: 104 34<-194 76 121 291> 451 37<182 340.5>
+AnchorPoint: "Anchor-9" 0 0 basechar 0
+AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-7" 0 0 basechar 0
+AnchorPoint: "Anchor-6" 0 0 basechar 0
+AnchorPoint: "Anchor-5" 296 520 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 296 531 m 0x7c
- 422 531 488 428 488 264 c 0
+ 421 531 488 428 488 264 c 0
  488 83 412 -10 296 -10 c 0
- 225 -10 170 26 138 79 c 1
+ 225 -10 171 26 138 76 c 1
  138 -194 l 1x7c
  104 -200 l 1xbc
  104 295 l 2
@@ -21,9 +26,9 @@ SplineSet
  391 21 451 100 451 264 c 0
  451 417 398 500 295 500 c 0
  190 500 138 420 138 291 c 2
- 138 120 l 1
- 172 58 225 21 293 21 c 0
+ 138 121 l 1
+ 173 58 225 21 293 21 c 0
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" rho.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" rho.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" rho.sc
 EndChar

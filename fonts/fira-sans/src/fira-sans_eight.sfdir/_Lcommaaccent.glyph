@@ -1,35 +1,36 @@
-
 StartChar: Lcommaaccent
-Encoding: 315 315 61
-Width: 447
+Encoding: 315 315 150
+Width: 448
 GlyphClass: 2
 Flags: MW
-HStem: 0 8<136.07 423.001> 660.43 20G
-VStem: 127.85 8.22 271.92 21.79
-AnchorPoint: "Anchor-11" 276 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 132 680 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+HStem: 0 8<136 423> 660 20G<128 136 136 136>
+VStem: 128 8<8 680 8 680 8 680> 272 22<-116.5 -111 -116.5 -111>
+AnchorPoint: "Anchor-14" 350 355 basechar 0
+AnchorPoint: "Anchor-13" 182 680 basechar 0
+AnchorPoint: "Anchor-12" 132 680 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 276 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-136.07 8 m 1
- 424.281 8 l 1
- 423.001 0 l 1
- 127.851 -0 l 1
- 127.851 680.43 l 1
- 136.07 680.43 l 1
- 136.07 8 l 1
-282.711 -103.57 m 0
- 289.781 -103.57 293.712 -108.142 293.712 -114.142 c 0
- 293.712 -119.142 292.642 -122.071 288.852 -132.642 c 1
- 260.852 -244.571 l 1
- 255.571 -244.571 l 1
- 280.921 -124.501 l 1
- 274.351 -123.431 271.921 -119.931 271.921 -114.141 c 0
- 271.921 -108.141 276.071 -103.57 282.711 -103.57 c 0
+136 680 m 1
+ 136 8 l 1
+ 424 8 l 1
+ 423 0 l 1
+ 128 0 l 1
+ 128 680 l 1
+ 136 680 l 1
+283 -104 m 0
+ 290 -104 294 -108 294 -114 c 0
+ 294 -119 293 -122 289 -133 c 2
+ 261 -245 l 1
+ 256 -245 l 1
+ 281 -125 l 1
+ 275 -123 272 -120 272 -114 c 0
+ 272 -108 277 -104 283 -104 c 0
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" lcommaaccent.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" lcommaaccent.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" lcommaaccent.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

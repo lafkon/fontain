@@ -1,0 +1,40 @@
+StartChar: uni01C8
+Encoding: 456 456 153
+Width: 790
+GlyphClass: 2
+Flags: MW
+HStem: -219 21G<518 518> 0 118<220 478> 510 20G<578 720 720 720> 637 166<623.5 674.5> 672 20G<73 220 220 220>
+VStem: 73 147<118 692 118 692 118 692> 563 173<696.5 743.5> 578 142<44 53 53 530>
+AnchorPoint: "Anchor-14" 396 397 basechar 0
+AnchorPoint: "Anchor-13" 236 692 basechar 0
+AnchorPoint: "Anchor-12" 651 803 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 649 -208 basechar 0
+LayerCount: 2
+Back
+Fore
+SplineSet
+649 803 m 0xf6
+ 700 803 736 767 736 720 c 0
+ 736 673 700 637 649 637 c 0
+ 598 637 563 673 563 720 c 0
+ 563 767 598 803 649 803 c 0xf6
+220 692 m 1xed
+ 220 118 l 1
+ 494 118 l 1
+ 478 0 l 1
+ 73 0 l 1
+ 73 692 l 1
+ 220 692 l 1xed
+720 530 m 1
+ 720 53 l 2
+ 720 -114 639 -172 518 -219 c 1
+ 471 -116 l 1
+ 539 -84 578 -56 578 44 c 2
+ 578 530 l 1
+ 720 530 l 1
+EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" uni01C9.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uni01C9.sc
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
+EndChar

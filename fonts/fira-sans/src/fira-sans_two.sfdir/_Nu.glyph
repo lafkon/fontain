@@ -1,33 +1,34 @@
-
 StartChar: Nu
-Encoding: 925 925 703
+Encoding: 925 925 1505
 Width: 654
 GlyphClass: 2
 Flags: MW
 HStem: 0 21G<130 132 130 130 521 524 521 521> 660 20G<130 133 133 133 522 524 524 524>
-VStem: 130 394<0 680>
-AnchorPoint: "Anchor-7" 321 0 basechar 0
-AnchorPoint: "Anchor-6" 0 0 basechar 0
-AnchorPoint: "Anchor-5" 0 0 basechar 0
-AnchorPoint: "Anchor-4" 331 680 basechar 0
+VStem: 130 394<0 680 0 680>
+AnchorPoint: "Anchor-9" 0 0 basechar 0
+AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-7" 0 0 basechar 0
+AnchorPoint: "Anchor-6" 321 0 basechar 0
+AnchorPoint: "Anchor-5" 331 680 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-524 0 m 1
+524 680 m 1
+ 524 0 l 1
  521 0 l 1
  132 678 l 1
- 132 655 132 622 132 575 c 2
+ 132 575 l 1
  132 0 l 1
  130 0 l 1
  130 680 l 1
  133 680 l 1
  522 2 l 1
- 522 43 522 95 522 136 c 2
+ 522 136 l 1
  522 680 l 1
  524 680 l 1
- 524 0 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" nu.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" nu.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" nu.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

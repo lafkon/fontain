@@ -1,16 +1,17 @@
-
 StartChar: abreve.sc
-Encoding: 1114134 -1 282
+Encoding: 1114155 -1 755
 Width: 516
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G<-62 141 -62 -62 301 301 301 504> 101 135<173 291 215 291 215 297> 450 121<282 282> 551 20G<187 416 416 416> 656 134<296.5 340.5 296.5 362.5>
+HStem: 0 21G<-62 141 -62 -62 301 301 301 504> 101 135<215 291 215 297 173 291> 450 121<282 282> 551 20G<187 416 416 416> 656 134<296.5 340.5 296.5 362.5>
 VStem: -62 571 147 102<853 868>
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 182 571 basechar 0
-AnchorPoint: "Anchor-9" 301 571 basechar 0
-AnchorPoint: "Anchor-8" 417 0 basechar 0
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 330 870 basechar 0
+AnchorPoint: "Anchor-11" 417 0 basechar 0
+AnchorPoint: "Anchor-10" 221 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 304 656 m 0xda
@@ -20,7 +21,8 @@ SplineSet
  363 790 394 823 411 870 c 1
  509 851 l 1
  489 749 421 656 304 656 c 0xda
-173 101 m 1
+297 101 m 1
+ 173 101 l 1
  141 0 l 1
  -62 0 l 1
  187 571 l 1
@@ -28,10 +30,9 @@ SplineSet
  504 0 l 1
  301 0 l 1
  297 101 l 1
- 173 101 l 1
-282 450 m 1xec
+291 236 m 1
+ 282 450 l 1xec
  215 236 l 1
  291 236 l 1
- 282 450 l 1xec
 EndSplineSet
 EndChar

@@ -1,30 +1,30 @@
-
 StartChar: Q
-Encoding: 81 81 85
+Encoding: 81 81 223
 Width: 674
 GlyphClass: 2
 Flags: MW
-HStem: -8.92 21G -7 21G<264.001 426.001> 670 20G<265.5 423.5>
-VStem: 85 531
+HStem: -9 21G<263.5 343 343 350> -7 21G<264 426> 670 20G<265.5 423.5>
+VStem: 85 531<-72 447.5>
 LayerCount: 2
+Back
 Fore
 SplineSet
 373 -7 m 1x70
- 480 -8 553.001 -21 616.001 -72 c 1
- 614.001 -73 l 1
- 554.061 -24.8496 487.36 -7.59961 350.33 -8.91992 c 0
- 347.43 -9 345.21 -9 343 -9 c 0xb0
+ 480 -8 553 -21 616 -72 c 1
+ 614 -73 l 1
+ 554 -25 487 -8 350 -9 c 2
+ 343 -9 l 2xb0
  184 -9 85 119 85 338 c 0
  85 557 188 690 343 690 c 0
  504 690 602 563 602 340 c 0
  602 133 520 6 373 -7 c 1x70
-87.001 338 m 0
- 87.001 121 185.001 -7 343.001 -7 c 0
- 509.001 -7 600.001 122 600.001 340 c 0
- 600.001 561 503.001 688 343.001 688 c 0
- 189.001 688 87.001 555 87.001 338 c 0
+87 338 m 0
+ 87 121 185 -7 343 -7 c 0
+ 509 -7 600 122 600 340 c 0
+ 600 561 503 688 343 688 c 0
+ 189 688 87 555 87 338 c 0
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" q.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" q.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" q.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

@@ -1,16 +1,17 @@
-
 StartChar: idieresis
-Encoding: 239 239 181
+Encoding: 239 239 485
 Width: 282
 GlyphClass: 2
 Flags: MW
 HStem: 0 21G<77 205 77 77> 509 20G<77 205 205 205> 647 138<10.5 50 232 271.5>
-VStem: -40 140<696.5 735.5> 77 128<0 529> 182 140<696.5 735.5>
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 140 699 basechar 0
-AnchorPoint: "Anchor-8" 201 0 basechar 0
+VStem: -40 140<696.5 735.5> 77 128<0 529 0 529> 182 140<696.5 735.5>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 143 785 basechar 0
+AnchorPoint: "Anchor-11" 201 0 basechar 0
+AnchorPoint: "Anchor-10" 141 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 30 785 m 0xf4
@@ -23,12 +24,12 @@ SplineSet
  322 677 292 647 251 647 c 0
  213 647 182 677 182 716 c 0
  182 755 213 785 251 785 c 0
-205 0 m 1xe8
+205 529 m 1xe8
+ 205 0 l 1
  77 0 l 1
  77 529 l 1
- 205 529 l 1
- 205 0 l 1xe8
+ 205 529 l 1xe8
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" idieresis.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" idieresis.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" idieresis.sc
 EndChar

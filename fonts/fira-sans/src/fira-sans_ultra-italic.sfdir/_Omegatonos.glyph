@@ -1,42 +1,44 @@
-
 StartChar: Omegatonos
-Encoding: 911 911 723
-Width: 676
+Encoding: 911 911 1529
+Width: 933
 GlyphClass: 2
 Flags: MW
-HStem: 0 156<18 128 18 280 -4 128 514 606> 558 161<322.5 407>
-VStem: 27 223<224.5 423> 452 234<429 489.5>
+HStem: 0 156<275 385 275 537 253 385 771 863> 558 161<579.5 664> 699 20G<519 752.5>
+VStem: 284 223<224.5 423> 709 234<429 489.5>
+AnchorPoint: "Anchor-9" 0 0 basechar 0
+AnchorPoint: "Anchor-8" 0 0 basechar 0
 AnchorPoint: "Anchor-7" 0 0 basechar 0
-AnchorPoint: "Anchor-6" 0 0 basechar 0
-AnchorPoint: "Anchor-5" 0 0 basechar 0
-AnchorPoint: "Anchor-4" 396 698 basechar 0
+AnchorPoint: "Anchor-6" 557 0 basechar 0
+AnchorPoint: "Anchor-5" 653 698 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-81 696 m 1
- -51 441 l 1
- -171 465 l 1
- -97 739 l 1
- 81 696 l 1
-400 719 m 0
- 591 719 686 593 686 448 c 0
- 686 344 639 221 514 156 c 1
- 628 156 l 1
- 606 0 l 1
- 322 0 l 1
- 341 145 l 1
- 447 199 452 399 452 459 c 0
- 452 520 433 558 381 558 c 0
- 264 558 250 345 250 247 c 0
- 250 202 259 168 299 143 c 1
- 280 0 l 1
- -4 0 l 1
- 18 156 l 1
- 128 156 l 1
- 66 200 27 269 27 362 c 0
- 27 484 124 719 400 719 c 0
+172 741 m 1xd8
+ 361 698 l 1xb8
+ 224 445 l 1
+ 97 468 l 1
+ 172 741 l 1xd8
+657 719 m 0xd8
+ 848 719 943 593 943 448 c 0
+ 943 344 896 221 771 156 c 1
+ 885 156 l 1
+ 863 0 l 1
+ 579 0 l 1
+ 598 145 l 1
+ 704 199 709 399 709 459 c 0
+ 709 520 690 558 638 558 c 0
+ 521 558 507 345 507 247 c 0
+ 507 202 516 168 556 143 c 1
+ 537 0 l 1
+ 253 0 l 1
+ 275 156 l 1
+ 385 156 l 1
+ 323 200 284 269 284 362 c 0
+ 284 484 381 719 657 719 c 0xd8
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" omegatonos.sc
-Substitution2: "'aalt' Access All Alternates lookup 0 subtable" omegatonos.sc
+Substitution2: "Single Substitution lookup 41 subtable" uni03A9
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" omegatonos.sc
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" omegatonos.sc uni03A9
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

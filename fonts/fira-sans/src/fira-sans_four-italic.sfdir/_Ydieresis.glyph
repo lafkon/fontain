@@ -1,40 +1,41 @@
-
 StartChar: Ydieresis
-Encoding: 376 376 122
+Encoding: 376 376 296
 Width: 481
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G<202.712 206.782 202.712 202.712> 660.14 20G 804.35 14.72
-VStem: 235.28 14.78 385.91 14.79
+HStem: 0 21G<203 207 203 203> 660 20G<84 88 88 88 510 515 515 515> 804 15<240.5 244.5 391 395.5> 812 7
+VStem: 235 15<810 813.5 810 814>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 320 819 basechar 0
 AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 27 517 basechar 0
-AnchorPoint: "Anchor-9" 310 735 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 205 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-242.78 819.07 m 0
- 247.71 819.07 250.201 815.42 250.062 811.57 c 0
- 249.911 807.851 247.341 804.351 242.561 804.351 c 0
- 237.7 804.351 235.13 808.001 235.28 811.851 c 0
- 235.42 815.57 238.07 819.07 242.78 819.07 c 0
-393.491 819.07 m 0
- 398.341 819.07 400.842 815.42 400.702 811.57 c 0
- 400.552 807.851 397.981 804.351 393.271 804.351 c 0
- 388.342 804.351 385.771 808.001 385.911 811.851 c 0
- 386.062 815.57 388.701 819.07 393.491 819.07 c 0
-243.922 271 m 1
- 206.782 0 l 1
- 202.712 -0 l 1
- 239.782 270.93 l 1
- 83.6318 680.14 l 1
- 87.9219 680.14 l 1
- 241.992 275 l 1
- 510.422 680.14 l 1
- 514.852 680.14 l 1
- 243.922 271 l 1
+243 819 m 0xd8
+ 248 819 250 815 250 812 c 0
+ 250 808 247 804 242 804 c 0
+ 238 804 235 808 235 812 c 0
+ 235 816 238 819 243 819 c 0xd8
+393 819 m 0xe8
+ 398 819 401 815 401 812 c 0
+ 400 808 398 804 393 804 c 0
+ 388 804 386 808 386 812 c 0
+ 386 816 389 819 393 819 c 0xe8
+515 680 m 1
+ 244 271 l 1
+ 207 0 l 1
+ 203 0 l 1
+ 240 271 l 1
+ 84 680 l 1
+ 88 680 l 1
+ 242 275 l 1
+ 510 680 l 1
+ 515 680 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" ydieresis.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" ydieresis.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" ydieresis.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

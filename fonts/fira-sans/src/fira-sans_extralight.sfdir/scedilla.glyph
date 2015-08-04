@@ -1,20 +1,21 @@
-
 StartChar: scedilla
-Encoding: 351 351 230
+Encoding: 351 351 628
 Width: 463
 GlyphClass: 2
 Flags: MW
-HStem: -222 35<222 250.5 222 262.5> -202 21G<160 160> -95 28<203 243> -11 40<210 210 243 243> 493 39<198 261.5>
-VStem: 64 47<371 427.5 371 438> 206.5 36.5 292 43<-156 -125> 361 48<102 170>
-AnchorPoint: "Anchor-11" 231 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 238 522 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+HStem: -222 35<222 250.5 222 262.5> -202 21G<160 160> -95 28<203 243> -10 39<210 210 243 243> 493 39<198 261.5>
+VStem: 64 47<371 427.5 371 437.5> 206.5 36.5 292 43<-156 -125> 361 48<102.5 170.5>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 238 522 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 250 -222 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 409 138 m 0x7e80
- 409 51 338 -5 243 -11 c 1
+ 409 51 338 -4 243 -10 c 1
  243 -67 l 1
  307 -72 335 -99 335 -140 c 0
  335 -193 289 -222 236 -222 c 0xbf80
@@ -23,22 +24,22 @@ SplineSet
  191 -180 209 -187 235 -187 c 0
  266 -187 292 -172 292 -140 c 0xbf80
  292 -110 266 -95 203 -95 c 1
- 210 -11 l 1
- 136 -7 86 21 44 56 c 1
+ 210 -10 l 1
+ 136 -6 86 21 44 56 c 1
  70 86 l 1
  115 50 159 29 226 29 c 0
- 304 29 361 68 361 136 c 0
+ 304 29 361 68 361 137 c 0
  361 204 331 228 220 258 c 0
- 109 287 64 326 64 399 c 0
+ 109 287 64 326 64 398 c 0
  64 477 137 532 233 532 c 0
  297 532 346 513 395 475 c 1
- 372 443 l 1
+ 372 444 l 1
  327 477 289 493 234 493 c 0
  162 493 111 457 111 398 c 0
  111 344 147 320 243 294 c 0
  359 263 409 227 409 138 c 0x7e80
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" scedilla.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" scedilla.sc
 Substitution2: "'locl' Localized Forms in Latin lookup 5 subtable" scommaaccent
 Substitution2: "'locl' Localized Forms in Latin lookup 4 subtable" scommaaccent
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" scommaaccent scedilla.sc

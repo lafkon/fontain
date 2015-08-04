@@ -1,14 +1,15 @@
-
 StartChar: five
-Encoding: 53 53 884
+Encoding: 53 53 2022
 Width: 556
 Flags: MW
 HStem: -22 162<191 241 191 329.5> 291.5 168.5 316 144<246.5 417> 530 152<290 513 290 290>
 VStem: 314 222<210.5 276.5>
 LayerCount: 2
+Back
 Fore
 SplineSet
-513 530 m 1xd8
+557 682 m 1x58
+ 513 530 l 1
  290 530 l 1
  277 440 l 1
  309 455 342 460 369 460 c 0
@@ -22,15 +23,14 @@ SplineSet
  237 316 216 310 186 291 c 1
  46 292 l 1
  100 682 l 1
- 557 682 l 1
- 513 530 l 1xd8
+ 557 682 l 1x58
 EndSplineSet
-Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" five.osf
-Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" five.tf
-Substitution2: "'frac' Diagonal Fractions lookup 16 subtable" five.numr
-Substitution2: "'dnom' Denominators lookup 14 subtable" five.dnom
-Substitution2: "'numr' Numerators lookup 13 subtable" five.numr
-Substitution2: "'sups' Superscript lookup 12 subtable" fivesuperior
-Substitution2: "'subs' Subscript lookup 11 subtable" fiveinferior
-AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" fiveinferior fivesuperior five.numr five.dnom five.tf five.osf
+Substitution2: "'onum' Oldstyle Figures lookup 26 subtable" five.osf
+Substitution2: "'tnum' Tabular Numbers lookup 25 subtable" five.tf
+Substitution2: "'frac' Diagonal Fractions lookup 19 subtable" five.numr
+Substitution2: "'dnom' Denominators lookup 17 subtable" five.dnom
+Substitution2: "'numr' Numerators lookup 16 subtable" five.numr
+Substitution2: "'sups' Superscript lookup 15 subtable" uni2075
+Substitution2: "'subs' Subscript lookup 14 subtable" uni2085
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" uni2085 uni2075 five.numr five.dnom five.tf five.osf
 EndChar

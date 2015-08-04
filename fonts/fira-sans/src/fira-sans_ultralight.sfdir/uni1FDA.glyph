@@ -1,30 +1,32 @@
-
 StartChar: uni1FDA
-Encoding: 8154 8154 732
-Width: 273
+Encoding: 8154 8154 1601
+Width: 317
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G<119 154 119 119> 662 20G<119 154 154 154>
-VStem: 119 35<0 682>
-AnchorPoint: "Anchor-7" 0 0 basechar 0
-AnchorPoint: "Anchor-6" 90 682 basechar 0
-AnchorPoint: "Anchor-5" 164 0 basechar 0
-AnchorPoint: "Anchor-4" 136 682 basechar 0
+HStem: 0 21G<163 198 163 163> 662 20G<19 19 163 198 198 198> 671 20G<62 62>
+VStem: 163 35<0 682 0 682>
+AnchorPoint: "Anchor-9" 0 0 basechar 0
+AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-7" 208 0 basechar 0
+AnchorPoint: "Anchor-6" 181 0 basechar 0
+AnchorPoint: "Anchor-5" 180 682 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-228 783 m 1
- 218 761 l 1
- 32 837 l 1
- 49 872 l 1
- 228 783 l 1
-154 0 m 1
- 119 0 l 1
- 119 682 l 1
- 154 682 l 1
- 154 0 l 1
+62 691 m 1xb0
+ 94 552 l 1
+ 69 547 l 1
+ 19 682 l 1
+ 62 691 l 1xb0
+198 682 m 1xd0
+ 198 0 l 1
+ 163 0 l 1
+ 163 682 l 1
+ 198 682 l 1xd0
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" uni1F76.sc
-Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uni1F76.sc
+Substitution2: "Single Substitution lookup 41 subtable" Iota
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" uni1F76.sc
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" uni1F76.sc Iota
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

@@ -1,26 +1,28 @@
-
 StartChar: gbreve
-Encoding: 287 287 169
+Encoding: 287 287 454
 Width: 537
 GlyphClass: 2
 Flags: MW
-HStem: -218 90<205.5 309.5 205.5 342.5> 5 96<168 327 246 301> 169 83<255.5 292.5 232.5 333.5> 457 87<231 258 194 292> 483 61 637 92<243 289 243 313>
+HStem: -218 90<205.5 309.5 205.5 342.5> 5 96<168 327 246 301> 169 83<255.5 292.5 232.5 333.5> 457 87<231 258 194 292> 483 61 637 92<244 290 244 314>
 VStem: 15 115<-78.5 -52 -78.5 -52> 39 129<324 386.5 324 411.5> 70 112<79.5 146> 356 124<323.5 380 295.5 390.5> 391 129<-79 -38.5>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 270 806 basechar 0
 AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 267 529 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 252 -206 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-266 637 m 0xf540
- 172 637 112 702 104 792 c 1
- 179 806 l 1
- 192 757 220 729 266 729 c 0
- 312 729 342 757 354 806 c 1
- 430 792 l 1
- 422 702 360 637 266 637 c 0xf540
-537 501 m 1
+267 637 m 0xf540
+ 173 637 113 702 105 792 c 1
+ 180 806 l 1
+ 193 757 221 729 267 729 c 0
+ 313 729 343 757 355 806 c 1
+ 431 792 l 1
+ 423 702 361 637 267 637 c 0xf540
+505 603 m 1
+ 537 501 l 1
  497 487 447 483 384 483 c 1
  448 454 480 413 480 347 c 0
  480 244 400 169 267 169 c 0
@@ -39,15 +41,14 @@ SplineSet
  115 5 70 52 70 107 c 0xf4a0
  70 144 93 181 132 205 c 1
  67 239 39 286 39 354 c 0
- 39 469 130 544 258 544 c 1
+ 39 469 130 544 258 544 c 0
  383 541 441 569 505 603 c 1
- 537 501 l 1
-260 457 m 0
+260 457 m 0xf540
  202 457 168 417 168 356 c 0
  168 292 203 252 262 252 c 0
  323 252 356 290 356 357 c 0
- 356 424 324 457 260 457 c 0
+ 356 424 324 457 260 457 c 0xf540
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" gbreve.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" gbreve.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" gbreve.sc
 EndChar

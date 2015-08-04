@@ -1,32 +1,33 @@
-
 StartChar: scedilla
-Encoding: 351 351 230
+Encoding: 351 351 628
 Width: 457
 GlyphClass: 2
 Flags: MW
-HStem: -202 120 -84 77 -8.96001 21G -8.92999 21G 507 20G<183.5 256.5>
-VStem: 217.97 90.03
-AnchorPoint: "Anchor-11" 229 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 234 517 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+HStem: -202 120<218 257> -84 77<216 216> -9 21G<220 220 222 227 222 222> 507 20G<183.5 256.5>
+VStem: 218 90<-163.5 -82>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 234 517 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 246 -202 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-227 -9 m 0xac
- 225.3 -9 223.62 -8.99121 221.95 -8.96094 c 1
- 218 -82.001 l 1
- 273 -83.001 308 -98.001 308 -141.001 c 0
- 308 -186.001 274 -202.001 240 -202.001 c 0
- 211 -202.001 195 -196.001 179 -186.001 c 1
- 180 -184.001 l 1
- 197 -195.001 213 -200.001 240 -200.001 c 0xac
- 273 -200.001 306 -185.001 306 -141.001 c 0
- 306 -104.001 280 -85.001 216 -84.001 c 1x4c
- 219.95 -8.93066 l 1x9c
- 145.17 -7.31055 99.7598 20.1396 60 57 c 1
+227 -9 m 2xb8
+ 222 -9 l 1
+ 218 -82 l 1
+ 273 -83 308 -98 308 -141 c 0
+ 308 -186 274 -202 240 -202 c 0
+ 211 -202 195 -196 179 -186 c 1
+ 180 -184 l 1
+ 197 -195 213 -200 240 -200 c 0xb8
+ 273 -200 306 -185 306 -141 c 0
+ 306 -104 280 -85 216 -84 c 1x58
+ 220 -9 l 1xb8
+ 145 -7 100 20 60 57 c 1
  61 59 l 1
- 102 21 148 -7 227 -7 c 0x4c
+ 102 21 148 -7 227 -7 c 0x58
  317 -7 385 46 385 130 c 0
  385 215 342 242 230 274 c 0
  120 305 77 337 77 405 c 0
@@ -37,9 +38,9 @@ SplineSet
  145 525 79 476 79 405 c 0
  79 339 121 307 231 276 c 0
  345 244 387 215 387 130 c 0
- 387 44 318 -9 227 -9 c 0xac
+ 387 44 318 -9 227 -9 c 2xb8
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" scedilla.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" scedilla.sc
 Substitution2: "'locl' Localized Forms in Latin lookup 5 subtable" scommaaccent
 Substitution2: "'locl' Localized Forms in Latin lookup 4 subtable" scommaaccent
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" scommaaccent scedilla.sc

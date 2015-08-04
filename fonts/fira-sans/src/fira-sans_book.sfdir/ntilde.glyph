@@ -1,41 +1,42 @@
-
 StartChar: ntilde
-Encoding: 241 241 207
+Encoding: 241 241 552
 Width: 585
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G<98 182 98 98 409 493 409 409> 472 66<306.5 349> 506 20G<98 170 170 170> 658 65<337.5 366 337.5 379> 667 20G<135 135> 706 64<228 258> 721 20G<461 461>
+HStem: 0 21G<98 182 98 98 409 493 409 409> 472 66<306.5 349> 506 20G<98 170 170 170> 658 65<337.5 366 337.5 377.5> 706 64<228.5 258> 721 20G<461 461>
 VStem: 98 84<0 375 0 526> 409 84<0 365 365 377 0 405.5>
-AnchorPoint: "Anchor-11" 292 0 basechar 0
-AnchorPoint: "Anchor-10" 88 526 basechar 0
-AnchorPoint: "Anchor-9" 298 526 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 298 726 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 292 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-240 706 m 0xcd80
- 216 706 203 691 186 661 c 1
+240 706 m 0xcb
+ 217 706 203 691 186 661 c 1
  135 687 l 1
- 158 734 192 770 241 770 c 0xcd80
- 293 770 319 723 356 723 c 0
- 376 723 391 737 410 767 c 1xd180
+ 158 734 192 770 240 770 c 0xcb
+ 294 770 319 723 356 723 c 0
+ 376 723 391 737 410 767 c 1xd3
  461 741 l 1
- 436 686 399 658 359 658 c 0xcb80
- 301 658 276 706 240 706 c 0xcd80
-342 538 m 0xcb80
+ 436 686 399 658 356 658 c 0xc7
+ 304 658 276 706 240 706 c 0xcb
+342 538 m 0xc7
  438 538 493 477 493 377 c 2
  493 0 l 1
  409 0 l 1
  409 365 l 2
  409 446 376 472 322 472 c 0
- 260 472 218 433 182 375 c 1xcb80
+ 260 472 218 433 182 375 c 1xc7
  182 0 l 1
  98 0 l 1
  98 526 l 1
- 170 526 l 1xab80
- 177 447 l 1
- 216 501 271 538 342 538 c 0xcb80
+ 170 526 l 1xa7
+ 177 446 l 1
+ 215 501 271 538 342 538 c 0xc7
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" ntilde.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" ntilde.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" ntilde.sc
 EndChar

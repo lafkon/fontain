@@ -1,32 +1,33 @@
-
 StartChar: Ibreve
-Encoding: 300 300 46
+Encoding: 300 300 118
 Width: 268
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G<86 109 86 86> 661 20G<182 205 205 205> 772 20<178.5 228 178.5 230.5>
-VStem: 104 15<848 850>
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 88 519 basechar 0
-AnchorPoint: "Anchor-9" 193 681 basechar 0
-AnchorPoint: "Anchor-8" 119 0 basechar 0
+HStem: 0 21G<86 109 86 86> 661 20G<182 205 205 205> 772 20<179.5 229 179.5 231.5>
+VStem: 105 15<848 850>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 214 851 basechar 0
+AnchorPoint: "Anchor-11" 111 0 basechar 0
+AnchorPoint: "Anchor-10" 98 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-203 772 m 0
- 145 772 108 807 104 848 c 1
- 119 850 l 1
- 126 817 154 792 203 792 c 0
- 253 792 287 819 304 851 c 1
- 319 846 l 1
- 303 805 258 772 203 772 c 0
-109 0 m 1
+204 772 m 0
+ 146 772 109 807 105 848 c 1
+ 120 850 l 1
+ 127 817 155 792 204 792 c 0
+ 254 792 288 819 305 851 c 1
+ 320 846 l 1
+ 304 805 259 772 204 772 c 0
+205 681 m 1
+ 109 0 l 1
  86 0 l 1
  182 681 l 1
  205 681 l 1
- 109 0 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" ibreve.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" ibreve.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" ibreve.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

@@ -1,14 +1,15 @@
-
 StartChar: four.tosf
-Encoding: 1114445 -1 911
+Encoding: 1114795 -1 2045
 Width: 560
 Flags: MW
 HStem: 55 20<101 390 101 390 412 508> 546 20G<283 283>
-VStem: 78 23<55 75 73 75> 391 21
+VStem: 78 23<55 75 73 75> 390 22<-102 55 -102 55 -102 75>
 LayerCount: 2
+Back
 Fore
 SplineSet
-508 55 m 1
+508 75 m 1
+ 508 55 l 1
  412 55 l 1
  412 -102 l 1
  390 -102 l 1
@@ -23,8 +24,7 @@ SplineSet
  412 286 l 1
  412 75 l 1
  508 75 l 1
- 508 55 l 1
 EndSplineSet
-Substitution2: "'pnum' Proportional Numbers lookup 20 subtable" four.osf
+Substitution2: "'pnum' Proportional Numbers lookup 23 subtable" four.osf
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" four.osf
 EndChar

@@ -1,16 +1,17 @@
-
 StartChar: iotadieresis
-Encoding: 970 970 770
-Width: 276
+Encoding: 970 970 1667
+Width: 283
 GlyphClass: 2
 Flags: MW
 HStem: -12 21G<199 199> 507 20G<90 182 182 182> 654 114<14.5 47 224 256.5>
 VStem: -27 115<695 727> 90 92<130 141 141 527> 183 115<695 727>
+AnchorPoint: "Anchor-9" 0 0 basechar 0
+AnchorPoint: "Anchor-8" 0 0 basechar 0
 AnchorPoint: "Anchor-7" 0 0 basechar 0
 AnchorPoint: "Anchor-6" 0 0 basechar 0
-AnchorPoint: "Anchor-5" 0 0 basechar 0
-AnchorPoint: "Anchor-4" 136 677 basechar 0
+AnchorPoint: "Anchor-5" 138 768 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 31 768 m 0
@@ -23,14 +24,14 @@ SplineSet
  298 679 273 654 240 654 c 0
  208 654 183 679 183 711 c 0
  183 743 208 768 240 768 c 0
-182 141 m 2xe8
+182 527 m 1xe8
+ 182 141 l 2
  182 89 195 72 228 57 c 1
  199 -12 l 1
- 117 6 90 46 90 130 c 2
+ 120 9 90 46 90 130 c 2
  90 527 l 1
- 182 527 l 1
- 182 141 l 2xe8
+ 182 527 l 1xe8
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" iotadieresis.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" iotadieresis.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" iotadieresis.sc
 EndChar

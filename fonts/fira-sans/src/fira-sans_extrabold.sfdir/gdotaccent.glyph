@@ -1,16 +1,17 @@
-
 StartChar: gdotaccent
-Encoding: 289 289 172
+Encoding: 289 289 458
 Width: 561
 GlyphClass: 2
 Flags: MW
 HStem: -224 115<223 311 223 357> -11 123<167.5 340 262 305> 161 114<269 296 252 351> 435 116<251 267 194.5 296> 476 75 624 196<250 310>
 VStem: 1 159<-71.5 -50 -71.5 -50> 25 177<329.5 382 329.5 415.5> 178 204<694.5 749.5> 343 167<331 373.5 287 385.5> 371 179<-70.5 -44.5>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 282 820 basechar 0
 AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 281 533 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 252 -213 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 280 820 m 0xf480
@@ -18,7 +19,8 @@ SplineSet
  382 667 340 624 280 624 c 0
  220 624 178 667 178 722 c 0
  178 777 220 820 280 820 c 0xf480
-561 499 m 1
+521 627 m 1
+ 561 499 l 1
  525 484 476 476 408 476 c 1
  477 448 510 409 510 338 c 0xed40
  510 236 422 161 280 161 c 0
@@ -39,13 +41,12 @@ SplineSet
  52 237 25 285 25 353 c 0xf520
  25 478 122 551 267 551 c 1
  382 547 455 585 521 627 c 1
- 561 499 l 1
 272 435 m 0xf540
  230 435 202 407 202 357 c 0
  202 302 231 275 273 275 c 0
  319 275 343 303 343 359 c 0
  343 412 320 435 272 435 c 0xf540
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" gdotaccent.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" gdotaccent.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" gdotaccent.sc
 EndChar

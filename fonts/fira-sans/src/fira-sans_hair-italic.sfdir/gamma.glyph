@@ -1,25 +1,26 @@
-
 StartChar: gamma
-Encoding: 947 947 748
+Encoding: 947 947 1649
 Width: 436
 GlyphClass: 2
 Flags: MW
-HStem: -194.43 21G -191.29 21G 497.43 20G 501 20G 501.71 20G
-VStem: 141.71 14.87
+HStem: -194 21G<156 156> -191 21G<169 169> 501 20G<432 432> 502 20G<70 70>
+VStem: 141.61 14.76
 LayerCount: 2
+Back
 Fore
 SplineSet
-70.2803 521.71 m 1x4c
- 115.57 451 160.15 325.571 186 28.2812 c 1
- 431.72 521.001 l 1x54
- 446.149 517.431 l 1
- 192.72 14.8604 l 2
- 153.29 -65.29 147.29 -119.57 169.14 -191.29 c 1x64
- 156.43 -194.43 l 1x8c
- 132.859 -123.29 136.14 -69 175.43 12 c 1
- 146 312.71 104.57 442.71 56.71 518.14 c 1
- 70.2803 521.71 l 1x4c
+70 522 m 1x58
+ 116 451 160 326 186 28 c 1
+ 432 521 l 1
+ 446 517 l 1
+ 193 15 l 2
+ 153 -65 147 -120 169 -191 c 1x68
+ 156 -194 l 1x98
+ 133 -123 136 -69 175 12 c 1
+ 146 313 105 443 57 518 c 1
+ 70 522 l 1x58
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" gamma.sc
-Substitution2: "'aalt' Access All Alternates lookup 0 subtable" gamma.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 28 subtable" gamma.sc
+Substitution2: "'sups' Superscript lookup 15 subtable" uni02E0
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" uni02E0 gamma.sc
 EndChar

@@ -1,0 +1,42 @@
+StartChar: uni20BD.tf
+Encoding: 1114868 -1 2224
+Width: 560
+GlyphClass: 2
+Flags: MW
+HStem: 0 199<46 241 46 114> 127 72<46 114 46 114 241 389> 265 84<46 114 46 114 241 270 270 272> 599 92<241 269 241 241>
+VStem: 114 127<0 127 0 127 199 265 349 599> 405 131<429 520>
+LayerCount: 2
+Back
+Fore
+SplineSet
+241 265 m 1xbc
+ 241 199 l 1
+ 389 199 l 1xbc
+ 389 127 l 1
+ 241 127 l 1x7c
+ 241 0 l 1
+ 114 0 l 1xbc
+ 114 127 l 1
+ 46 127 l 1x7c
+ 46 199 l 1
+ 114 199 l 1
+ 114 265 l 1
+ 46 265 l 1
+ 46 349 l 1
+ 114 349 l 1
+ 114 691 l 1
+ 271 691 l 2
+ 434 691 536 620 536 478 c 0
+ 536 327 425 265 272 265 c 2
+ 241 265 l 1xbc
+269 599 m 2
+ 241 599 l 1
+ 241 349 l 1
+ 270 349 l 2
+ 350 349 405 381 405 477 c 0
+ 405 563 353 599 269 599 c 2
+EndSplineSet
+Substitution2: "'onum' Oldstyle Figures lookup 25 subtable" uni20BD.tosf
+Substitution2: "'pnum' Proportional Numbers lookup 23 subtable" uni20BD
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" uni20BD uni20BD.tosf
+EndChar

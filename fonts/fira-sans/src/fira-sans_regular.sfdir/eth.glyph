@@ -1,12 +1,17 @@
-
 StartChar: eth
-Encoding: 240 240 154
+Encoding: 240 240 392
 Width: 570
 GlyphClass: 2
 Flags: MW
-HStem: -12 73<239.5 317.5 239.5 346> 403 72<225 290.5 189.5 303.5> 551 20G<151 151> 682 20G<281 281> 730 20G<132 132>
+HStem: -12 73<239.5 317.5 239.5 346> 403 72<225 290.5 189.5 303.5> 549 20G<151 151> 682 20G<281 281> 730 20G<132 132>
 VStem: 57 94<180.5 283 180.5 294> 415 93<198.5 276.5>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 294 739 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 278 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 342 664 m 1
@@ -15,10 +20,10 @@ SplineSet
  155 -12 57 77 57 235 c 0
  57 353 121 475 258 475 c 0
  323 475 370 450 405 408 c 1
- 389 491 353 555 286 607 c 1
- 214 539 l 1
- 151 571 l 1
- 225 645 l 1
+ 389 491 353 554 286 607 c 1
+ 214 537 l 1
+ 151 569 l 1
+ 225 644 l 1
  186 662 153 672 112 680 c 1
  132 750 l 1
  188 739 234 725 281 702 c 1
@@ -32,6 +37,6 @@ SplineSet
  178 403 151 327 151 239 c 0
  151 122 202 61 277 61 c 0
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" eth.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" eth.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" eth.sc
 EndChar

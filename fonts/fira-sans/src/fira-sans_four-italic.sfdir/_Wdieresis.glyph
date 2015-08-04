@@ -1,44 +1,45 @@
-
 StartChar: Wdieresis
-Encoding: 7812 7812 116
+Encoding: 7812 7812 288
 Width: 777
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G<168.12 172.55 168.12 168.12 532.69 537.131 532.69 532.69> 660.14 20G 804.35 14.72
-VStem: 383.56 14.78 534.2 14.78
+HStem: 0 21G<168 173 168 168 533 537 533 533> 660 20G<103 107 107 107 445 450 450 450 788 792 792 792> 804 15<389.5 393.5 540 544.5> 812 7
+VStem: 384 15<810 813.5 810 814>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 469 819 basechar 0
 AnchorPoint: "Anchor-11" 0 0 basechar 0
 AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 458 735 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-391.07 819.07 m 0
- 396 819.07 398.491 815.42 398.341 811.57 c 0
- 398.201 807.851 395.631 804.351 390.841 804.351 c 0
- 385.991 804.351 383.421 808.001 383.561 811.851 c 0
- 383.711 815.57 386.351 819.07 391.07 819.07 c 0
-541.771 819.07 m 0
- 546.632 819.07 549.131 815.42 548.98 811.57 c 0
- 548.841 807.851 546.271 804.351 541.551 804.351 c 0
- 536.621 804.351 534.051 808.001 534.201 811.851 c 0
- 534.341 815.57 536.991 819.07 541.771 819.07 c 0
-537.131 0 m 1
- 532.69 0 l 1
- 447.41 676.07 l 1
- 172.55 0 l 1
- 168.12 -0 l 1
- 103.271 680.14 l 1
- 107.41 680.14 l 1
- 170.771 4.35938 l 1
- 445.341 680.14 l 1
- 449.98 680.14 l 1
- 535.2 5.13965 l 1
- 787.98 680.14 l 1
- 792.131 680.14 l 1
- 537.131 0 l 1
+392 819 m 0xd8
+ 397 819 399 815 399 812 c 0
+ 399 808 396 804 391 804 c 0
+ 387 804 384 808 384 812 c 0
+ 384 816 387 819 392 819 c 0xd8
+542 819 m 0xe8
+ 547 819 550 815 550 812 c 0
+ 549 808 547 804 542 804 c 0
+ 537 804 535 808 535 812 c 0
+ 535 816 538 819 542 819 c 0xe8
+792 680 m 1
+ 537 0 l 1
+ 533 0 l 1
+ 447 676 l 1
+ 173 0 l 1
+ 168 0 l 1
+ 103 680 l 1
+ 107 680 l 1
+ 171 4 l 1
+ 445 680 l 1
+ 450 680 l 1
+ 535 5 l 1
+ 788 680 l 1
+ 792 680 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" wdieresis.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" wdieresis.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" wdieresis.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

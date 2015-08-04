@@ -1,34 +1,35 @@
-
 StartChar: A
-Encoding: 65 65 1
+Encoding: 65 65 2
 Width: 566
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G<-29 59 -29 -29 432 432 432 520> 176 71<168 392 168 403 137 392> 616 72<332 332> 668 20G<289 397 397 397>
+HStem: 0 21G<-29 59 -29 -29 432 520 432 432> 176 71<169 392 169 403 137 392> 616 72<332 332> 668 20G<289 397 397 397>
 VStem: -29 549<0 0>
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 151 526 basechar 0
-AnchorPoint: "Anchor-9" 343 688 basechar 0
-AnchorPoint: "Anchor-8" 496 0 basechar 0
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 343 688 basechar 0
+AnchorPoint: "Anchor-11" 496 0 basechar 0
+AnchorPoint: "Anchor-10" 245 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-403 176 m 1xd8
+432 0 m 1xd8
+ 403 176 l 1
  137 176 l 1
  59 0 l 1
  -29 0 l 1
  289 688 l 1
  397 688 l 1
  520 0 l 1
- 432 0 l 1
- 403 176 l 1xd8
-392 247 m 1
- 332 616 l 1xe8
- 168 247 l 1
+ 432 0 l 1xd8
+169 247 m 1
  392 247 l 1
+ 332 616 l 1xe8
+ 169 247 l 1
 EndSplineSet
-Substitution2: "Single Substitution lookup 30 subtable" ordfeminine
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" a.sc
+Substitution2: "Single Substitution lookup 41 subtable" ordfeminine
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" a.sc
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" ordfeminine a.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

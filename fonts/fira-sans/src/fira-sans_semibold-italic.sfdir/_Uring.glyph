@@ -1,29 +1,31 @@
-
 StartChar: Uring
-Encoding: 366 366 110
+Encoding: 366 366 279
 Width: 645
 GlyphClass: 2
 Flags: MW
-HStem: -16 112<256.5 335.5 256.5 370.5> 672 20G<123 268 268 268 497 642 642 642> 735 74<383.5 411.5 383.5 430> 913 73<399 427.5>
-VStem: 54.87 145.18 275 83 453 83
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 382 692 basechar 0
-AnchorPoint: "Anchor-8" 400 0 basechar 0
+HStem: -16 112<256.5 335.5 256.5 370.5> 672 20G<123 268 268 268 497 642 642 642> 735 74<385 416 385 435> 913 73<396.5 427.5>
+VStem: 54.87 145.18 274 84<837.5 866 837.5 884> 455 83<855 884>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 652 692 basechar 0
+AnchorPoint: "Anchor-12" 421 986 basechar 0
+AnchorPoint: "Anchor-11" 400 0 basechar 0
+AnchorPoint: "Anchor-10" 285 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-420 986 m 0
- 501 986 545 927 536 857 c 0
- 527 791 469 735 391 735 c 0
- 309 735 265 795 275 865 c 0
- 284 931 342 986 420 986 c 0
-414 913 m 0
- 384 913 363 894 358 857 c 0
- 353 826 370 809 397 809 c 0
- 426 809 447 829 453 865 c 0
- 457 895 441 913 414 913 c 0
-577 226 m 2
+421 986 m 0
+ 494 986 538 937 538 873 c 0
+ 538 800 478 735 392 735 c 0
+ 318 735 274 784 274 848 c 0
+ 274 920 335 986 421 986 c 0
+415 913 m 0
+ 378 913 358 881 358 851 c 0
+ 358 824 373 809 397 809 c 0
+ 435 809 455 840 455 870 c 0
+ 455 898 440 913 415 913 c 0
+642 692 m 1
+ 577 226 l 2
  557 87 456 -16 285 -16 c 0
  111 -16 38 86 58 230 c 2
  123 692 l 1
@@ -33,9 +35,8 @@ SplineSet
  376 96 419 144 432 237 c 2
  497 692 l 1
  642 692 l 1
- 577 226 l 2
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" uring.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" uring.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uring.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

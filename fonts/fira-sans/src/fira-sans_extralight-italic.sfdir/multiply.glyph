@@ -1,14 +1,16 @@
-
 StartChar: multiply
-Encoding: 215 215 1110
+Encoding: 215 215 2268
 Width: 490
+GlyphClass: 2
 Flags: MW
 HStem: 149 317<105 147 147 355>
 VStem: 77 348<178 436>
 LayerCount: 2
+Back
 Fore
 SplineSet
-425 436 m 1
+398 466 m 1
+ 425 436 l 1
  280 307 l 1
  389 178 l 1
  355 149 l 1
@@ -20,9 +22,8 @@ SplineSet
  147 466 l 1
  253 336 l 1
  398 466 l 1
- 425 436 l 1
 EndSplineSet
-Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" multiply.osf
-Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" multiply.tf
+Substitution2: "'onum' Oldstyle Figures lookup 26 subtable" multiply.osf
+Substitution2: "'tnum' Tabular Numbers lookup 25 subtable" multiply.tf
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" multiply.tf multiply.osf
 EndChar

@@ -1,23 +1,28 @@
-
 StartChar: Eng
-Encoding: 330 330 69
+Encoding: 330 330 165
 Width: 661
 GlyphClass: 2
 Flags: MW
-HStem: -195 21G<363 363> 0 21G<86 108 86 86 474 482 474 474 502 502> 0 25<474 487 474 487 487 502> 658 23<197 197>
+HStem: -197 21<358.5 397.5 358.5 404.5> 0 21G<86 108 86 86 474 479 474 474 502 502> 658 23<197 197>
 VStem: 86 511
-AnchorPoint: "Anchor-11" 292 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 396 681 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 396 681 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 292 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-597 681 m 1xd8
- 502 0 l 2
- 484 -122 446 -155 363 -195 c 1
- 356 -177 l 1
- 429 -141 465 -111 482 0 c 1
+597 681 m 1
+ 502 0 l 1
+ 489 -87 l 2
+ 478 -162 433 -197 376 -197 c 0
+ 335 -197 310 -181 292 -166 c 1
+ 304 -151 l 1
+ 321 -165 341 -176 376 -176 c 0
+ 419 -176 457 -152 467 -84 c 2
+ 479 0 l 1
  474 0 l 1
  197 658 l 1
  195 619 189 575 175 476 c 2
@@ -25,12 +30,14 @@ SplineSet
  86 0 l 1
  182 681 l 1
  211 681 l 1
- 487 25 l 1xb8
- 491 67 498 127 509 205 c 2
+ 487 25 l 1
+ 491 67 498 128 509 205 c 2
  575 681 l 1
- 597 681 l 1xd8
+ 597 681 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" eng.sc
-Substitution2: "'aalt' Access All Alternates lookup 0 subtable" eng.sc
+Substitution2: "'ss01' Style Set 1 lookup 34 subtable" Eng.ss01
+Substitution2: "'salt' Stylistic Alternatives lookup 33 subtable" Eng.ss01
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" eng.sc
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" eng.sc Eng.ss01
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

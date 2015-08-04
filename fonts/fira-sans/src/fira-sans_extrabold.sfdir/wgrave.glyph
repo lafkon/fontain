@@ -1,24 +1,26 @@
-
 StartChar: wgrave
-Encoding: 7809 7809 255
+Encoding: 7809 7809 698
 Width: 758
 GlyphClass: 2
 Flags: MW
 HStem: 0 135<223 223 223 316 110 223> 374 159<379 379> 513 20G<0 179 179 179 300 469 469 469 588 759 759 759> 687 20G<535 535> 694 20G<243 243>
 VStem: 0 759<533 533>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 391 846 basechar 0
 AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 379 533 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 380 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-535 707 m 1xb4
+311 846 m 1xac
+ 535 707 l 1
  487 618 l 1xb4
- 243 714 l 1xac
- 311 846 l 1
- 535 707 l 1xb4
-651 0 m 1
+ 243 714 l 1
+ 311 846 l 1xac
+759 533 m 1
+ 651 0 l 1
  443 0 l 1
  379 374 l 1xcc
  316 0 l 1
@@ -31,8 +33,7 @@ SplineSet
  533 135 l 1
  588 533 l 1
  759 533 l 1
- 651 0 l 1
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" wgrave.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" wgrave.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" wgrave.sc
 EndChar

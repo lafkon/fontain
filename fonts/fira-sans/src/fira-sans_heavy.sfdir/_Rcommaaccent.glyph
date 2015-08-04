@@ -1,19 +1,21 @@
-
 StartChar: Rcommaaccent
-Encoding: 342 342 89
+Encoding: 342 342 228
 Width: 624
 GlyphClass: 2
 Flags: MW
-HStem: -228 21G<258 258> 0 21G<43 249 43 43 416 644 416 416> 248 138<249 287 249 303> 555 141<249 293 249 249>
-VStem: 43 206<0 248 386 555> 220 184<-168.5 -128.5> 387 210<444.5 502.5>
-AnchorPoint: "Anchor-11" 312 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 312 696 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+HStem: 0 21G<43 249 43 43 416 644 416 416> 248 138<249 287 249 303> 555 141<249 249 249 293>
+VStem: 43 206<0 248 0 386 386 555> 220 184<-168.5 -128.5> 387 210<444.5 502.5>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 312 696 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 312 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-644 0 m 1xfa
+474 286 m 1xf4
+ 644 0 l 1
  416 0 l 1
  287 248 l 1
  249 248 l 1
@@ -22,24 +24,23 @@ SplineSet
  43 696 l 1
  298 696 l 2
  497 696 597 628 597 475 c 0
- 597 387 559 335 474 286 c 1
- 644 0 l 1xfa
-249 386 m 1
+ 597 387 559 335 474 286 c 1xf4
+249 555 m 1
+ 249 386 l 1
  303 386 l 2
  359 386 387 414 387 475 c 0
  387 530 354 555 293 555 c 2
  249 555 l 1
- 249 386 l 1
-312 -62 m 0xf4
- 365 -62 404 -101 404 -153 c 0
+312 -62 m 0xe8
+ 366 -62 404 -101 404 -153 c 0
  404 -184 394 -206 377 -241 c 2
  327 -342 l 1
  233 -342 l 1
  258 -228 l 1
  236 -211 220 -187 220 -153 c 0
- 220 -104 259 -62 312 -62 c 0xf4
+ 220 -104 258 -62 312 -62 c 0xe8
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" rcommaaccent.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" rcommaaccent.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" rcommaaccent.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

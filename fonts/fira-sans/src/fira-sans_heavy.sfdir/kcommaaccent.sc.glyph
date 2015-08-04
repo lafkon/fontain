@@ -1,37 +1,38 @@
-
 StartChar: kcommaaccent.sc
-Encoding: 1114193 -1 341
+Encoding: 1114279 -1 878
 Width: 598
 GlyphClass: 2
 Flags: MW
-HStem: -228 21G<250 250> 0 21G<43 240 43 43 396 396 396 618> 551 20G<43 240 240 240 402 603 603 603>
-VStem: 43 197<0 571> 212 184<-168.5 -128.5>
-AnchorPoint: "Anchor-11" 304 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 301 571 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+HStem: 0 21G<43 240 43 43 396 396 396 618> 551 20G<43 240 240 240 402 603 603 603>
+VStem: 43 197<0 571 0 571> 212 184<-168.5 -128.5>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 301 571 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 304 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-240 0 m 1xf0
+240 571 m 1xe0
+ 240 0 l 1
  43 0 l 1
  43 571 l 1
- 240 571 l 1
- 240 0 l 1xf0
-443 321 m 1
+ 240 571 l 1xe0
+603 571 m 1
+ 443 321 l 1
  618 0 l 1
  396 0 l 1
  245 305 l 1
  402 571 l 1
  603 571 l 1
- 443 321 l 1
-304 -62 m 0xe8
- 357 -62 396 -101 396 -153 c 0
+304 -62 m 0xd0
+ 358 -62 396 -101 396 -153 c 0
  396 -184 386 -206 369 -241 c 2
  319 -342 l 1
  225 -342 l 1
  250 -228 l 1
  228 -211 212 -187 212 -153 c 0
- 212 -104 251 -62 304 -62 c 0xe8
+ 212 -104 250 -62 304 -62 c 0xd0
 EndSplineSet
 EndChar

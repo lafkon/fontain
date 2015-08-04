@@ -1,44 +1,45 @@
-
 StartChar: edieresis
-Encoding: 235 235 162
+Encoding: 235 235 422
 Width: 559
 GlyphClass: 2
 Flags: MW
 HStem: -22 155<303.5 347.5 303.5 357> 206 122<232 338 230 552 232 232> 421 136<271 311> 628 201<131 188.5 383.5 441.5>
-VStem: 8 222<328 328 328 345> 55 207<701 757> 308 207<701 757> 338 219<328 335 335 335>
-AnchorPoint: "Anchor-11" 294 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 281 757 basechar 0
-AnchorPoint: "Anchor-8" 468 12 basechar 0
+VStem: 8 222<328 328 328 345> 55 207<701 757> 308 207<701 757>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 288 829 basechar 0
+AnchorPoint: "Anchor-11" 468 12 basechar 0
+AnchorPoint: "Anchor-10" 294 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-159 628 m 0xf6
+159 628 m 0x76
  103 628 55 673 55 729 c 0
  55 785 103 829 159 829 c 0
  218 829 262 785 262 729 c 0
- 262 673 218 628 159 628 c 0xf6
+ 262 673 218 628 159 628 c 0x76
 412 628 m 0
  355 628 308 673 308 729 c 0
  308 785 355 829 412 829 c 0
  471 829 515 785 515 729 c 0
  515 673 471 628 412 628 c 0
-557 273 m 0xe9
+557 273 m 0
  557 256 555 227 552 206 c 1
  232 206 l 1
  243 141 277 133 330 133 c 0
  365 133 401 148 447 180 c 1
  537 60 l 1
  483 17 406 -22 308 -22 c 0
- 101 -22 8 103 8 268 c 0
+ 101 -22 8 103 8 268 c 0xe8
  8 422 98 557 285 557 c 0
- 446 557 557 456 557 273 c 0xe9
-338 328 m 1
- 338 335 l 1
+ 446 557 557 456 557 273 c 0
+338 328 m 1x6a
+ 338 335 l 2
  337 378 333 421 289 421 c 0
- 253 421 236 401 230 328 c 1
- 338 328 l 1
+ 253 421 235 401 230 328 c 1
+ 338 328 l 1x6a
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" edieresis.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" edieresis.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" edieresis.sc
 EndChar

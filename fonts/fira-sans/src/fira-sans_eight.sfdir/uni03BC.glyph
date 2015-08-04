@@ -1,0 +1,33 @@
+StartChar: uni03BC
+Encoding: 956 956 1652
+Width: 581
+GlyphClass: 2
+Flags: MW
+HStem: -191 21G<123 131 123 123> -9 7<220.5 299 220.5 300.5> 0 21G<479 479> 498 20G<123 131 131 131 443 451 451 451>
+VStem: 123 8<-191 -59 85.5 136 136 518> 443 8<151 163 163 518>
+LayerCount: 2
+Back
+Fore
+SplineSet
+479 0 m 1
+ 471 -1 l 1xbc
+ 456 43 446 85 444 139 c 1
+ 408 54 346 -9 255 -9 c 0
+ 184 -9 141 26 130 94 c 1
+ 131 28 131 -13 131 -59 c 2
+ 131 -191 l 1
+ 123 -191 l 1
+ 123 518 l 1
+ 131 518 l 1
+ 131 136 l 2
+ 131 35 186 -2 255 -2 c 0xdc
+ 343 -2 406 62 443 151 c 1
+ 443 518 l 1
+ 451 518 l 1
+ 451 163 l 2
+ 451 97 462 48 479 0 c 1
+EndSplineSet
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" uni03BC.sc
+Substitution2: "'mgrk' Mathematical Greek lookup 12 subtable" uni00B5
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" uni00B5 uni03BC.sc
+EndChar

@@ -1,15 +1,16 @@
-
 StartChar: Pi
-Encoding: 928 928 706
+Encoding: 928 928 1508
 Width: 656
 GlyphClass: 2
 Flags: MW
 HStem: 0 21G<123 146 123 123 511 533 511 511> 660 21<146 511 146 146>
 VStem: 123 23<0 660 0 681 0 681> 511 22<0 660 660 660>
 LayerCount: 2
+Back
 Fore
 SplineSet
-533 0 m 1
+533 681 m 1
+ 533 0 l 1
  511 0 l 1
  511 660 l 1
  146 660 l 1
@@ -17,9 +18,9 @@ SplineSet
  123 0 l 1
  123 681 l 1
  533 681 l 1
- 533 0 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" pi.sc
-Substitution2: "'aalt' Access All Alternates lookup 0 subtable" pi.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" pi.sc
+Substitution2: "'mgrk' Mathematical Greek lookup 12 subtable" product
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" product pi.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

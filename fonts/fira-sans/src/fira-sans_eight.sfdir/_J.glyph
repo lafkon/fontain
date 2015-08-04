@@ -1,27 +1,28 @@
-
 StartChar: J
-Encoding: 74 74 54
+Encoding: 74 74 137
 Width: 275
 GlyphClass: 2
 Flags: MW
-HStem: 660.43 20G
-VStem: 145 8.21001
+HStem: 660 20G<145 153 153 153>
+VStem: 145 8<86 680>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 149 680 basechar 0
 AnchorPoint: "Anchor-11" 0 0 basechar 0
 AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 149 680 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-153.21 85.6396 m 2
- 153.21 -8.7207 133.14 -50.8506 30.5693 -93.7803 c 1
- 27.8594 -87.2803 l 1
- 125.14 -46.4307 145 -5.36035 145 86.0693 c 2
- 145 680.43 l 1
- 153.21 680.43 l 1
- 153.21 85.6396 l 2
+153 680 m 1
+ 153 86 l 2
+ 153 -9 133 -51 31 -94 c 1
+ 28 -87 l 1
+ 125 -46 145 -5 145 86 c 2
+ 145 680 l 1
+ 153 680 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" j.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" j.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" j.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

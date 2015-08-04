@@ -1,27 +1,29 @@
-
 StartChar: Hcircumflex
-Encoding: 292 292 42
+Encoding: 292 292 110
 Width: 650
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G<17 198 17 17 378 378 378 560> 289 143<258 418 238 438> 675 20G<114 295 295 295 475 657 657 657>
+HStem: 0 21G<17 198 17 17 378 560 378 378> 289 143<258 418 238 438> 675 20G<114 295 295 295 475 657 657 657>
 VStem: 17 640
+AnchorPoint: "Anchor-14" 337 347 basechar 0
+AnchorPoint: "Anchor-13" 505 843 basechar 0
+AnchorPoint: "Anchor-12" 415 959 basechar 0
 AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" -32 534 basechar 0
-AnchorPoint: "Anchor-9" 386 695 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 289 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-413 839 m 1
- 269 753 l 1
- 215 824 l 1
- 374 959 l 1
- 480 959 l 1
- 601 824 l 1
- 534 753 l 1
- 413 839 l 1
-418 289 m 1
+523 753 m 1
+ 402 839 l 1
+ 258 753 l 1
+ 204 824 l 1
+ 363 959 l 1
+ 469 959 l 1
+ 590 824 l 1
+ 523 753 l 1
+378 0 m 1
+ 418 289 l 1
  238 289 l 1
  198 0 l 1
  17 0 l 1
@@ -33,9 +35,8 @@ SplineSet
  657 695 l 1
  560 0 l 1
  378 0 l 1
- 418 289 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" hcircumflex.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" hcircumflex.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" hcircumflex.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

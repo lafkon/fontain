@@ -1,24 +1,25 @@
-
 StartChar: emacron
-Encoding: 275 275 165
-Width: 542
+Encoding: 275 275 427
+Width: 543
 GlyphClass: 2
 Flags: MW
 HStem: -20 140<265.5 306> 429 125<281 324.5> 648 134<191 491 172 510>
-VStem: 12 194 351 194<380.5 401>
-AnchorPoint: "Anchor-11" 251 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 316 534 basechar 0
-AnchorPoint: "Anchor-8" 412 11 basechar 0
+VStem: 12 194 12 533<143 444.5> 351 194<380.5 401>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 343 782 basechar 0
+AnchorPoint: "Anchor-11" 412 11 basechar 0
+AnchorPoint: "Anchor-10" 251 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-491 648 m 1
+510 782 m 1xe8
+ 491 648 l 1
  172 648 l 1
  191 782 l 1
- 510 782 l 1
- 491 648 l 1
-545 401 m 0
+ 510 782 l 1xe8
+545 401 m 0xf4
  545 252 362 205 206 191 c 1
  211 137 244 120 287 120 c 0
  331 120 369 137 419 169 c 1
@@ -26,12 +27,12 @@ SplineSet
  427 13 351 -20 261 -20 c 0
  90 -20 12 75 12 211 c 0
  12 356 94 554 331 554 c 0
- 470 554 545 488 545 401 c 0
+ 470 554 545 488 545 401 c 0xf4
 214 302 m 1
  335 309 351 372 351 389 c 0
  351 413 341 429 308 429 c 0
  254 429 226 367 214 302 c 1
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" emacron.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 28 subtable" emacron.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" emacron.sc
 EndChar

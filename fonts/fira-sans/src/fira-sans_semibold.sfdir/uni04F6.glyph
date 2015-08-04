@@ -1,19 +1,21 @@
-
 StartChar: uni04F6
-Encoding: 1270 1270 506
+Encoding: 1270 1270 1183
 Width: 509
 GlyphClass: 2
 Flags: MW
-HStem: 0 114<73 300> 574 118<220 220 220 490>
+HStem: 0 114<73 300> 574 118<220 490 220 220>
 VStem: 73 147<114 574 114 692 114 692>
+AnchorPoint: "Anchor-4" 0 0 basechar 0
 AnchorPoint: "Anchor-3" 0 0 basechar 0
-AnchorPoint: "Anchor-2" 0 0 basechar 0
-AnchorPoint: "Anchor-1" 302 692 basechar 0
+AnchorPoint: "Anchor-2" 302 692 basechar 0
+AnchorPoint: "Anchor-1" 0 0 basechar 0
 AnchorPoint: "Anchor-0" 0 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-220 574 m 1
+490 574 m 1
+ 220 574 l 1
  220 114 l 1
  300 114 l 1
  300 -162 l 1
@@ -23,9 +25,9 @@ SplineSet
  73 692 l 1
  506 692 l 1
  490 574 l 1
- 220 574 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" uni04F7.sc
+Kerns2: 1209 -40 "'kern' Horizontal Kerning lookup 2 per glyph data 0"
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" uni04F7.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uni04F7.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

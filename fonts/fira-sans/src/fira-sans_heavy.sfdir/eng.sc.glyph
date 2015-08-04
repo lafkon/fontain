@@ -1,23 +1,28 @@
-
 StartChar: eng.sc
-Encoding: 1114207 -1 355
+Encoding: 1114305 -1 904
 Width: 588
 GlyphClass: 2
 Flags: MW
-HStem: -227 21G<303 303> 0 21G<43 216 43 43 301 367 301 301 545 545> 406 165<185 185> 551 20G<43 283 283 283 372 545 545 545>
+HStem: -227 140<283.5 311.5 281 386.5> 0 21G<43 216 43 43 301 347 301 301> 406 165<185 185> 551 20G<43 283 283 283 372 545 545 545>
 VStem: 43 173<0 152 0 571> 372 173<427 571>
-AnchorPoint: "Anchor-11" 294 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 293 571 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 293 571 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 294 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-545 571 m 1xdc
- 545 0 l 2
- 545 -119 446 -183 303 -227 c 1
- 252 -106 l 1
- 335 -75 367 -49 367 0 c 1
+372 571 m 1xdc
+ 545 571 l 1
+ 545 -16 l 2
+ 545 -157 454 -227 319 -227 c 0
+ 248 -227 199 -208 163 -182 c 1
+ 227 -67 l 1
+ 251 -79 267 -87 295 -87 c 0
+ 328 -87 347 -69 347 -34 c 2
+ 347 0 l 1
  301 0 l 1
  185 406 l 1xec
  199 339 216 258 216 152 c 2
@@ -27,7 +32,9 @@ SplineSet
  283 571 l 1
  403 166 l 1
  386 256 372 313 372 427 c 2
- 372 571 l 1
- 545 571 l 1xdc
+ 372 571 l 1xdc
 EndSplineSet
+Substitution2: "'ss01' Style Set 1 lookup 33 subtable" eng.sc.ss01
+Substitution2: "'salt' Stylistic Alternatives lookup 32 subtable" eng.sc.ss01
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" eng.sc.ss01
 EndChar

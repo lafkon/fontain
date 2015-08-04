@@ -1,33 +1,34 @@
-
 StartChar: plusminus.osf
-Encoding: 1114545 -1 1145
+Encoding: 1114907 -1 2289
 Width: 480
+GlyphClass: 2
 Flags: MW
-HStem: 0 332.93 173.14 159.79 329 159.78
-VStem: 85.21 157.14 238.28 157.07
+HStem: 0 333<85 238 85 238 242 395 85 395> 173 160<85 242 85 238> 329 160<85 242 85 242 238 395 238 242>
+VStem: 85 157<173 333 173 333> 238 157<329 329 333 333>
 LayerCount: 2
+Back
 Fore
 SplineSet
-242.35 332.93 m 1x90
- 395.35 332.93 l 1
- 395.35 329 l 1x28
- 242.35 329 l 1x30
- 242.35 173.14 l 1
- 238.279 173.14 l 1x48
- 238.279 329 l 1x28
- 85.209 329 l 1
- 85.209 332.93 l 1x90
- 238.279 332.93 l 1x88
- 238.279 488.779 l 1
- 242.35 488.779 l 1x30
- 242.35 332.93 l 1x90
-84.2793 3.92969 m 1x90
- 394.43 3.92969 l 1
- 394.43 0 l 1
- 84.2793 -0 l 1
- 84.2793 3.92969 l 1x90
+242 489 m 1x30
+ 242 333 l 1x90
+ 395 333 l 1
+ 395 329 l 1x28
+ 242 329 l 1x30
+ 242 173 l 1
+ 238 173 l 1x48
+ 238 329 l 1x28
+ 85 329 l 1
+ 85 333 l 1x90
+ 238 333 l 1x88
+ 238 489 l 1
+ 242 489 l 1x30
+85 0 m 1
+ 85 4 l 1
+ 395 4 l 1
+ 395 0 l 1
+ 85 0 l 1
 EndSplineSet
-Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" plusminus.tosf
-Substitution2: "'lnum' Lining Figures lookup 19 subtable" plusminus
+Substitution2: "'tnum' Tabular Numbers lookup 24 subtable" plusminus.tosf
+Substitution2: "'lnum' Lining Figures lookup 22 subtable" plusminus
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" plusminus plusminus.tosf
 EndChar

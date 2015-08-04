@@ -1,42 +1,43 @@
-
 StartChar: udieresis
-Encoding: 252 252 243
+Encoding: 252 252 664
 Width: 576
 GlyphClass: 2
 Flags: MW
-HStem: -10 21<181.5 261.5> 0 21G<405 422 405 405> 499 20G<150 172 172 172 473 495 495 495> 673 39<252.5 261.5 418 427.5>
-VStem: 95.19 22.28 237 40 402 40
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 332 631 basechar 0
-AnchorPoint: "Anchor-8" 432 0 basechar 0
+HStem: -10 21<181.5 261> 0 21G<405 422 405 405> 499 20G<149 171 171 171 473 495 495 495> 673 39<259.5 268.5 425 434.5>
+VStem: 95.19 22 244 40 409 40
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 505 519 basechar 0
+AnchorPoint: "Anchor-12" 349 712 basechar 0
+AnchorPoint: "Anchor-11" 432 0 basechar 0
+AnchorPoint: "Anchor-10" 251 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-258 712 m 0xbe
- 271 712 278 702 277 691 c 1
- 275 681 267 673 256 673 c 0
- 243 673 235 682 237 694 c 0
- 238 704 247 712 258 712 c 0xbe
-424 712 m 0
- 436 712 443 702 442 691 c 0
- 441 681 433 673 422 673 c 0
- 408 673 401 682 402 694 c 1
- 404 704 412 712 424 712 c 0
-422 0 m 1x7e
+265 712 m 0xbe
+ 278 712 285 702 284 691 c 0
+ 282 681 274 673 263 673 c 0
+ 250 673 242 682 244 694 c 0
+ 245 704 254 712 265 712 c 0xbe
+431 712 m 0
+ 443 712 450 702 449 691 c 0
+ 448 681 440 673 429 673 c 0
+ 415 673 408 682 409 694 c 0
+ 411 704 419 712 431 712 c 0
+495 519 m 1
+ 422 0 l 1
  405 0 l 1x7e
  426 164 l 1
- 381 61 307 -10 216 -10 c 0
+ 381 61 306 -10 216 -10 c 0
  129 -10 83 47 98 150 c 2
- 150 519 l 1
- 172 519 l 1
+ 149 519 l 1
+ 171 519 l 1
  120 150 l 2
- 107 55 145 11 218 11 c 0xbe
- 306 11 379 89 429 204 c 1
+ 106 55 145 11 218 11 c 0
+ 306 11 378 89 429 204 c 1
  473 519 l 1
  495 519 l 1
- 422 0 l 1x7e
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" udieresis.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 28 subtable" udieresis.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" udieresis.sc
 EndChar

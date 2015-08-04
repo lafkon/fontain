@@ -1,29 +1,31 @@
-
 StartChar: gcommaaccent
-Encoding: 291 291 171
+Encoding: 291 291 457
 Width: 503
 GlyphClass: 2
 Flags: MW
-HStem: -205 48<188.5 312 188.5 327.5> 29 50<172.5 310 225 301> 183 42<237.5 290.5 208 309> 489 45<203.5 248 190.5 292.5> 497 37 548 20G<477 477>
-VStem: 56 60<322 395.5 315 409.5> 87 55<117.5 138.5> 207 88<638 658> 380 59<314.5 391 304 397> 419 59<-89 -30>
+HStem: -205 48<188.5 312 188.5 327.5> 29 50<172.5 310 225 301> 183 42<237.5 290.5 208 309> 489 45<203.5 248 190.5 292.5> 497 37 514 20G<190.5 248> 548 20G<477 477>
+VStem: 56 60<322 395.5 315 409.5> 87 55<117.5 138.5> 208 88<619 639> 380 59<314.5 391 304 397> 419 59<-89 -30>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 252 523 basechar 0
 AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 252 523 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 252 -197 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-251 608 m 0xf6c0
- 225 608 207 626 207 650 c 0
- 207 666 212 679 229 716 c 2
- 269 802 l 1
- 305 802 l 1
- 273 688 l 1
- 288 679 295 667 295 650 c 0
- 295 626 277 608 251 608 c 0xf6c0
-495 512 m 1xeec0
+252 589 m 0xf360
+ 226 589 208 607 208 631 c 0
+ 208 647 213 660 230 697 c 2
+ 270 783 l 1
+ 306 783 l 1
+ 274 669 l 1
+ 288 660 296 648 296 631 c 0
+ 296 607 277 589 252 589 c 0xf360
+477 568 m 1
+ 495 512 l 1xe760
  459 502 413 498 350 497 c 1
- 405 471 439 427 439 355 c 0xeec0
+ 405 471 439 427 439 355 c 0xeb60
  439 253 368 183 250 183 c 0
  225 183 202 186 182 193 c 1
  157 179 142 157 142 133 c 0
@@ -37,18 +39,17 @@ SplineSet
  373 -157 419 -120 419 -58 c 0
  419 -2 375 29 301 29 c 2
  216 29 l 2
- 129 29 87 71 87 121 c 0xf5a0
+ 129 29 87 71 87 121 c 0xf2d0
  87 156 108 187 144 210 c 1
  84 241 56 287 56 357 c 0
- 56 462 133 534 248 534 c 1xf6c0
+ 56 462 133 534 248 534 c 0
  388 532 426 547 477 568 c 1
- 495 512 l 1xeec0
-248 489 m 0xf6c0
+248 489 m 0xf360
  159 489 116 434 116 357 c 0
  116 273 168 225 248 225 c 0
  333 225 380 273 380 356 c 0
- 380 438 337 489 248 489 c 0xf6c0
+ 380 438 337 489 248 489 c 0xf360
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" gcommaaccent.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" gcommaaccent.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" gcommaaccent.sc
 EndChar

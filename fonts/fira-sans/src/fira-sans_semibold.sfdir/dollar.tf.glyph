@@ -1,36 +1,37 @@
-
 StartChar: dollar.tf
-Encoding: 1114510 -1 1075
+Encoding: 1114864 -1 2220
 Width: 560
+GlyphClass: 2
 Flags: MW
-HStem: -159 261<229 293 225 335 229 229> -5 107<229 229> 0 21G<335 335> 593 257<258 314> 676 20G<335 335> 677 20G<229 229>
-VStem: 45 145<495.5 543 495.5 559.5> 229 106<-159 -5 -5 -5 697 850> 375 146<164.5 221>
+HStem: -159 261<229 293 225 335 229 229> -5 107<229 229> 0 21G<335 335> 593 257<258 314> 676 20G<229 229 335 335>
+VStem: 45 145<495.5 543 495.5 559> 229 106<-159 -5 -5 -5 696 850> 375 146<164.5 221>
 LayerCount: 2
+Back
 Fore
 SplineSet
-521 204 m 0x2580
- 521 100 453 22 335 0 c 1x2580
+521 204 m 0x2b
+ 521 100 453 22 335 0 c 1x2b
  335 -159 l 1
- 229 -159 l 1x8580
+ 229 -159 l 1x8b
  229 -5 l 1
- 136 3 67 40 18 87 c 1
+ 136 2 67 39 18 87 c 1
  91 170 l 1
  137 127 191 102 259 102 c 0
  327 102 375 135 375 194 c 0
  375 248 348 271 247 303 c 0
  104 348 45 407 45 509 c 0
- 45 610 120 681 229 697 c 1x4780
+ 45 609 120 680 229 696 c 1x4f
  229 850 l 1
- 335 850 l 1x3180
+ 335 850 l 1x33
  335 696 l 1
- 405 687 457 659 501 615 c 1x2980
+ 404 686 456 659 501 615 c 1x2b
  433 535 l 1
  388 574 341 593 287 593 c 0
- 229 593 190 567 190 519 c 0x3380
- 190 472 215 453 323 418 c 1
- 444 380 521 329 521 204 c 0x2580
+ 229 593 190 567 190 519 c 0x37
+ 190 472 215 453 323 418 c 0
+ 444 380 521 329 521 204 c 0x2b
 EndSplineSet
-Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" dollar.tosf
-Substitution2: "'pnum' Proportional Numbers lookup 20 subtable" dollar
+Substitution2: "'onum' Oldstyle Figures lookup 25 subtable" dollar.tosf
+Substitution2: "'pnum' Proportional Numbers lookup 23 subtable" dollar
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" dollar dollar.tosf
 EndChar

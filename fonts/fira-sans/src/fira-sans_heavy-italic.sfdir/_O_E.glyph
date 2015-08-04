@@ -1,15 +1,16 @@
-
 StartChar: OE
-Encoding: 338 338 82
+Encoding: 338 338 210
 Width: 890
 GlyphClass: 2
 Flags: MW
-HStem: -20 146<281.5 302.5> 0 126<281.5 831 281.5 393> 0 144<573 831> 284 139<650 827 638 845> 553 143<622 622 622 892> 570 146<315 396.5>
+HStem: -20 146<281.5 302.5> 0 126<281.5 831 281.5 393> 0 144<573 831> 284 139<650 827 638 845> 553 143<622 892 622 622> 570 146<315 396.5>
 VStem: 25 207<202 317 202 360.5> 447 203<423 423 423 496>
 LayerCount: 2
+Back
 Fore
 SplineSet
-622 553 m 1x3b
+892 553 m 1x3b
+ 622 553 l 1
  639 515 648 471 650 423 c 1
  845 423 l 1
  827 284 l 1
@@ -23,15 +24,14 @@ SplineSet
  25 454 113 716 382 716 c 0x97
  422 716 459 709 488 696 c 1
  932 696 l 1
- 892 553 l 1
- 622 553 l 1x3b
+ 892 553 l 1x3b
 306 126 m 0x57
  417 126 447 306 447 455 c 0
  447 537 421 570 372 570 c 0
  258 570 232 390 232 244 c 0
  232 160 257 126 306 126 c 0x57
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" oe.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" oe.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" oe.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

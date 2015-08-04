@@ -1,36 +1,36 @@
-
 StartChar: five
-Encoding: 53 53 882
+Encoding: 53 53 2016
 Width: 471
 Flags: MW
-HStem: -9.2 7.57001 358.07 8.02 403.15 7.58 652.87 7.56
-VStem: 89.93 8 395.86 8.42999
+HStem: -9 7<180 272.5 180 275> 358 8<90 98> 403 8<200 280.5> 653 7<98 382 98 98>
+VStem: 90 8<366 653 366 660 366 660> 396 8<150.5 273>
 LayerCount: 2
+Back
 Fore
 SplineSet
-382 652.86 m 1
- 97.9297 652.868 l 1
- 97.9297 366.088 l 1
- 131.43 392.158 170.79 410.729 227.93 410.729 c 0
- 338.79 410.729 404.29 336.078 404.29 213.229 c 0
- 404.29 84.0088 336.93 -9.20117 212.93 -9.20117 c 0
- 144.359 -9.20117 87.5791 18.0088 47.8594 63.6592 c 1
- 54.1494 68.5088 l 1
- 92.2197 24.5088 146.859 -1.63086 213.149 -1.63086 c 0
- 331.649 -1.63086 395.859 88.1494 395.859 213.22 c 0
- 395.859 332.58 332.859 403.15 227.72 403.15 c 0
- 171.79 403.15 136.86 387.221 97.4307 358.07 c 1
- 89.9307 358.07 l 1
- 89.9307 660.431 l 1
- 383.28 660.431 l 1
- 382 652.86 l 1
+383 660 m 1
+ 382 653 l 1
+ 98 653 l 1
+ 98 366 l 1
+ 131 392 171 411 228 411 c 0
+ 339 411 404 336 404 213 c 0
+ 404 84 337 -9 213 -9 c 0
+ 144 -9 88 18 48 64 c 1
+ 54 69 l 1
+ 92 25 147 -2 213 -2 c 0
+ 332 -2 396 88 396 213 c 0
+ 396 333 333 403 228 403 c 0
+ 172 403 137 387 97 358 c 1
+ 90 358 l 1
+ 90 660 l 1
+ 383 660 l 1
 EndSplineSet
-Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" five.osf
-Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" five.tf
-Substitution2: "'frac' Diagonal Fractions lookup 16 subtable" five.numr
-Substitution2: "'dnom' Denominators lookup 14 subtable" five.dnom
-Substitution2: "'numr' Numerators lookup 13 subtable" five.numr
-Substitution2: "'sups' Superscript lookup 12 subtable" fivesuperior
-Substitution2: "'subs' Subscript lookup 11 subtable" fiveinferior
-AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" fiveinferior fivesuperior five.numr five.dnom five.tf five.osf
+Substitution2: "'onum' Oldstyle Figures lookup 25 subtable" five.osf
+Substitution2: "'tnum' Tabular Numbers lookup 24 subtable" five.tf
+Substitution2: "'frac' Diagonal Fractions lookup 18 subtable" five.numr
+Substitution2: "'dnom' Denominators lookup 16 subtable" five.dnom
+Substitution2: "'numr' Numerators lookup 15 subtable" five.numr
+Substitution2: "'sups' Superscript lookup 14 subtable" uni2075
+Substitution2: "'subs' Subscript lookup 13 subtable" uni2085
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" uni2085 uni2075 five.numr five.dnom five.tf five.osf
 EndChar

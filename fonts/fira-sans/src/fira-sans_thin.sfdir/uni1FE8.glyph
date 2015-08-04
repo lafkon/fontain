@@ -1,26 +1,28 @@
-
 StartChar: uni1FE8
-Encoding: 8168 8168 740
+Encoding: 8168 8168 1620
 Width: 494
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G<237 260 237 237> 661 20G<21 47 47 47 447 473 473 473> 772 20<219.5 268.5 219.5 272.5>
+HStem: 0 21G<237 260 237 237> 661 20G<21 47 47 47 447 473 473 473> 771 21<223.5 270.5 223.5 276.5>
 VStem: 237 23<0 270 270 270>
+AnchorPoint: "Anchor-9" 0 0 basechar 0
+AnchorPoint: "Anchor-8" 0 0 basechar 0
 AnchorPoint: "Anchor-7" 0 0 basechar 0
-AnchorPoint: "Anchor-6" 15 681 basechar 0
-AnchorPoint: "Anchor-5" 0 0 basechar 0
-AnchorPoint: "Anchor-4" 244 681 basechar 0
+AnchorPoint: "Anchor-6" 249 0 basechar 0
+AnchorPoint: "Anchor-5" 249 851 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-244 772 m 0
- 188 772 147 806 137 847 c 1
- 152 850 l 1
- 163 818 195 792 244 792 c 0
- 293 792 325 818 337 850 c 1
- 352 847 l 1
- 342 806 301 772 244 772 c 0
-260 271 m 1
+247 771 m 0
+ 189 771 149 807 139 847 c 1
+ 155 851 l 1
+ 168 817 200 792 247 792 c 0
+ 294 792 327 817 339 851 c 1
+ 355 847 l 1
+ 346 807 306 771 247 771 c 0
+473 681 m 1
+ 260 271 l 1
  260 0 l 1
  237 0 l 1
  237 270 l 1
@@ -29,9 +31,9 @@ SplineSet
  249 290 l 1
  447 681 l 1
  473 681 l 1
- 260 271 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" uni1FE0.sc
-Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uni1FE0.sc
+Substitution2: "Single Substitution lookup 41 subtable" Upsilon
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" uni1FE0.sc
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" uni1FE0.sc Upsilon
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

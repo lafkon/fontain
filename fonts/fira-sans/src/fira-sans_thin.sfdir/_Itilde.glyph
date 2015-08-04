@@ -1,34 +1,35 @@
-
 StartChar: Itilde
-Encoding: 296 296 53
+Encoding: 296 296 136
 Width: 268
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G<123 146 123 123> 661 20G<123 146 146 146> 805 18<172 204 172 207.5> 848 19<61 93>
-VStem: 123 23<0 681>
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 87 681 basechar 0
-AnchorPoint: "Anchor-9" 134 681 basechar 0
-AnchorPoint: "Anchor-8" 156 0 basechar 0
+HStem: 0 21G<123 146 123 123> 661 20G<123 146 146 146> 804 20<171.5 203.5 171.5 206.5> 847 20<63 92>
+VStem: 123 23<0 681 0 681>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 136 867 basechar 0
+AnchorPoint: "Anchor-11" 156 0 basechar 0
+AnchorPoint: "Anchor-10" 135 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-195 805 m 0
- 143 805 110 848 76 848 c 0
- 46 848 35 838 15 813 c 1
- 2 820 l 1
- 23 850 44 867 76 867 c 0xf8
- 113 867 151 823 193 823 c 0
- 215 823 230 834 252 865 c 1
+192 804 m 0
+ 144 804 109 847 75 847 c 0
+ 51 847 36 837 15 812 c 1
+ 1 821 l 1
+ 23 851 45 867 75 867 c 0xf8
+ 114 867 151 824 192 824 c 0
+ 215 824 230 835 251 865 c 1
  265 857 l 1
- 243 819 220 805 195 805 c 0
-146 0 m 1
+ 244 819 221 804 192 804 c 0
+146 681 m 1
+ 146 0 l 1
  123 0 l 1
  123 681 l 1
  146 681 l 1
- 146 0 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" itilde.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" itilde.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" itilde.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

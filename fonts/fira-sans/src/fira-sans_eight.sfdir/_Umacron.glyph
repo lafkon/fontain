@@ -1,36 +1,37 @@
-
 StartChar: Umacron
-Encoding: 362 362 108
+Encoding: 362 362 285
 Width: 636
 GlyphClass: 2
 Flags: MW
-HStem: -9.21001 7.78 660.43 20G 813.71 7.78999
-VStem: 117.85 8.22 509.85 8.22
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 323 680 basechar 0
-AnchorPoint: "Anchor-8" 399 0 basechar 0
+HStem: -9 8<248 388 248 390.5> 660 20G<118 126 126 126 510 518 518 518> 814 8<221 416 221 416>
+VStem: 118 8<206 207 207 680> 510 8<207 680>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 528 680 basechar 0
+AnchorPoint: "Anchor-12" 321 822 basechar 0
+AnchorPoint: "Anchor-11" 399 0 basechar 0
+AnchorPoint: "Anchor-10" 318 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-225.07 813.71 m 1
- 225.07 821.5 l 1
- 420.21 821.5 l 1
- 420.21 813.71 l 1
- 225.07 813.71 l 1
-518.07 206.43 m 2
- 518.07 82.5693 462.711 -9.21094 318.071 -9.21094 c 0
- 171.421 -9.21094 117.851 82.5693 117.851 206.43 c 2
- 117.851 680.43 l 1
- 126.07 680.43 l 1
- 126.07 207.069 l 2
- 126.07 86.7891 177.5 -1.43066 318.07 -1.43066 c 0
- 458.07 -1.43066 509.851 87.4297 509.851 207.069 c 2
- 509.851 680.43 l 1
- 518.07 680.43 l 1
- 518.07 206.43 l 2
+416 814 m 1
+ 221 814 l 1
+ 221 822 l 1
+ 416 822 l 1
+ 416 814 l 1
+518 680 m 1
+ 518 206 l 2
+ 518 83 463 -9 318 -9 c 0
+ 172 -9 118 83 118 206 c 2
+ 118 680 l 1
+ 126 680 l 1
+ 126 207 l 2
+ 126 87 178 -1 318 -1 c 0
+ 458 -1 510 87 510 207 c 2
+ 510 680 l 1
+ 518 680 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" umacron.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" umacron.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" umacron.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

@@ -1,36 +1,37 @@
-
 StartChar: dollar.tf
-Encoding: 1114510 -1 1075
+Encoding: 1114864 -1 2220
 Width: 560
+GlyphClass: 2
 Flags: MW
-HStem: -5 21G<225 225> -5 116<225 290.5> 0 21G<340 340> 677 20G<225 225 340 340>
-VStem: 40 160<495.5 538.5 495.5 557> 225 115<-161 -5 -5 -5 697 851> 364 162<168 219>
+HStem: -6 21G<225 225> -6 117<225 290.5> 0 21G<340 340> 677 20G<225 225 340 340>
+VStem: 40 160<495.5 538.5 495.5 557.5> 225 115<-161 -6 -6 -6 697 851> 364 162<168 219>
 LayerCount: 2
+Back
 Fore
 SplineSet
 526 206 m 0x3e
  526 102 458 23 340 0 c 1x34
  340 -161 l 1
  225 -161 l 1
- 225 -5 l 1x94
+ 225 -6 l 1x94
  130 3 61 41 13 89 c 1
  92 178 l 1
  138 136 192 111 258 111 c 0
  323 111 364 142 364 194 c 0
- 364 244 339 266 243 297 c 1
+ 364 244 339 266 243 297 c 0
  95 343 40 405 40 506 c 0x5e
- 40 608 116 680 225 697 c 1
+ 40 609 116 680 225 697 c 1
  225 851 l 1
  340 851 l 1
  340 697 l 1x34
- 410 686 462 658 507 614 c 1
+ 409 687 462 658 507 614 c 1
  434 527 l 1
  389 566 343 584 290 584 c 0
  235 584 200 560 200 517 c 0
  200 474 225 457 329 424 c 0
  453 384 526 330 526 206 c 0x3e
 EndSplineSet
-Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" dollar.tosf
-Substitution2: "'pnum' Proportional Numbers lookup 20 subtable" dollar
+Substitution2: "'onum' Oldstyle Figures lookup 25 subtable" dollar.tosf
+Substitution2: "'pnum' Proportional Numbers lookup 23 subtable" dollar
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" dollar dollar.tosf
 EndChar

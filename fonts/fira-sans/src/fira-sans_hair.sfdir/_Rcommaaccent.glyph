@@ -1,45 +1,46 @@
-
 StartChar: Rcommaaccent
-Encoding: 342 342 89
+Encoding: 342 342 228
 Width: 568
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G<519.28 519.28> 328 13.57 667.28 13.57
-VStem: 125.71 14.43 290 33.57 475.71 14.86
-AnchorPoint: "Anchor-11" 303 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 285 681 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+HStem: 0 21G<126 140 126 126 501 519 501 501> 328 14<140 295 295 312 140 295> 667 14<140 268 140 140>
+VStem: 126 14<0 328 342 667> 290 34<-120 -111.5 -120 -111.5> 476 15<447.5 555.5>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 285 681 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 303 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-519.28 0 m 1
- 500.859 0.000976562 l 1
- 312.199 328.001 l 1
- 140.14 328.001 l 1
- 140.14 0.000976562 l 1
- 125.71 0.000976562 l 1
- 125.71 680.851 l 1
- 270 680.851 l 2
- 429.57 680.851 490.57 614.57 490.57 504.71 c 0
- 490.57 389.62 415.62 341.14 328.25 329.58 c 1
- 519.28 0 l 1
-294.859 341.571 m 2
- 395.43 341.571 475.71 388.992 475.71 504.712 c 0
- 475.71 605.852 422.14 667.281 268.29 667.281 c 2
- 140.14 667.281 l 1
- 140.14 341.571 l 1
- 294.859 341.571 l 2
-306.569 -100.147 m 0
- 317.709 -100.147 323.569 -107.298 323.569 -116.298 c 0
- 323.569 -124.298 321.43 -129.158 314.859 -145.298 c 1
- 283.859 -250.158 l 1
- 274.289 -250.158 l 1
- 301.999 -132.008 l 1
- 292.859 -129.868 289.999 -124.868 289.999 -116.298 c 0
- 289.999 -107.298 296.289 -100.147 306.569 -100.147 c 0
+328 330 m 1
+ 519 0 l 1
+ 501 0 l 1
+ 312 328 l 1
+ 140 328 l 1
+ 140 0 l 1
+ 126 0 l 1
+ 126 681 l 1
+ 270 681 l 2
+ 430 681 491 615 491 505 c 0
+ 491 390 416 341 328 330 c 1
+140 342 m 1
+ 295 342 l 2
+ 395 342 476 389 476 505 c 0
+ 476 606 422 667 268 667 c 2
+ 140 667 l 1
+ 140 342 l 1
+307 -100 m 0
+ 318 -100 324 -107 324 -116 c 0
+ 324 -124 322 -129 315 -145 c 2
+ 284 -250 l 1
+ 275 -250 l 1
+ 302 -132 l 1
+ 294 -130 290 -125 290 -116 c 0
+ 290 -107 297 -100 307 -100 c 0
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" rcommaaccent.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" rcommaaccent.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" rcommaaccent.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

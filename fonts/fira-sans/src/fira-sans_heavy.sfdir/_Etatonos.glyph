@@ -1,38 +1,40 @@
-
 StartChar: Etatonos
-Encoding: 905 905 717
-Width: 657
+Encoding: 905 905 1519
+Width: 914
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G<43 249 43 43 408 408 408 614> 281 158<249 408 249 408> 676 20G<23 23 43 249 249 249 408 614 614 614>
-VStem: 43 206<0 281 0 439 439 696> 408 206<0 281 281 281 439 696 0 696>
+HStem: 0 21G<300 506 300 300 665 871 665 665> 281 158<506 665 506 665> 676 20G<277 277 300 506 506 506 665 871 871 871>
+VStem: 300 206<0 281 0 439 439 696> 665 206<0 281 281 281 439 696 0 696>
+AnchorPoint: "Anchor-9" 0 0 basechar 0
+AnchorPoint: "Anchor-8" 586 348 basechar 0
 AnchorPoint: "Anchor-7" 0 0 basechar 0
-AnchorPoint: "Anchor-6" 43 696 basechar 0
-AnchorPoint: "Anchor-5" 0 0 basechar 0
-AnchorPoint: "Anchor-4" 329 696 basechar 0
+AnchorPoint: "Anchor-6" 586 0 basechar 0
+AnchorPoint: "Anchor-5" 586 696 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-23 696 m 1
- -73 453 l 1
- -194 474 l 1
- -156 735 l 1
- 23 696 l 1
-408 281 m 1
- 249 281 l 1
- 249 0 l 1
- 43 0 l 1
- 43 696 l 1
- 249 696 l 1
- 249 439 l 1
- 408 439 l 1
- 408 696 l 1
- 614 696 l 1
- 614 0 l 1
- 408 0 l 1
- 408 281 l 1
+98 735 m 1
+ 277 696 l 1
+ 181 453 l 1
+ 60 474 l 1
+ 98 735 l 1
+665 0 m 1
+ 665 281 l 1
+ 506 281 l 1
+ 506 0 l 1
+ 300 0 l 1
+ 300 696 l 1
+ 506 696 l 1
+ 506 439 l 1
+ 665 439 l 1
+ 665 696 l 1
+ 871 696 l 1
+ 871 0 l 1
+ 665 0 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" etatonos.sc
-Substitution2: "'aalt' Access All Alternates lookup 0 subtable" etatonos.sc
+Substitution2: "Single Substitution lookup 41 subtable" Eta
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" etatonos.sc
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" etatonos.sc Eta
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

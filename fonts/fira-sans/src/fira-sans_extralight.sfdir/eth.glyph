@@ -1,27 +1,32 @@
-
 StartChar: eth
-Encoding: 240 240 154
+Encoding: 240 240 392
 Width: 558
 GlyphClass: 2
 Flags: MW
-HStem: -11 40<221.5 321 221.5 333> 427 39<215 294 196.5 297.5> 551 20G<176 176> 665 20G<288 288> 722 20G<144 144>
+HStem: -11 40<221.5 321 221.5 333> 427 39<215 294.5 196.5 297.5> 550 20G<176 176> 665 20G<287 287> 722 20G<144 144>
 VStem: 67 48<167.5 286 167.5 292.5> 432 47<203 297.5>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 291 735 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 271 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 318 664 m 1
- 424 583 479 472 479 285 c 0
+ 424 583 479 471 479 285 c 0
  479 87 395 -11 271 -11 c 0
  144 -11 67 83 67 232 c 0
  67 353 134 466 259 466 c 0
- 329 466 383 434 427 381 c 1
- 415 487 371 569 289 635 c 1
+ 330 466 383 434 427 380 c 1
+ 415 486 372 569 289 635 c 1
  211 556 l 1
- 176 571 l 1
+ 176 570 l 1
  259 655 l 1
- 223 677 178 695 134 704 c 1
+ 223 677 178 696 134 704 c 1
  144 742 l 1
- 193 732 242 713 288 685 c 1
+ 193 732 242 713 287 685 c 1
  356 757 l 1
  385 732 l 1
  318 664 l 1
@@ -32,6 +37,6 @@ SplineSet
  165 427 115 340 115 232 c 0
  115 103 172 29 271 29 c 0
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" eth.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" eth.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" eth.sc
 EndChar

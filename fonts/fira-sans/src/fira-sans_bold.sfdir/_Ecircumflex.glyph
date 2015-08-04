@@ -1,27 +1,29 @@
-
 StartChar: Ecircumflex
-Encoding: 202 202 28
+Encoding: 202 202 72
 Width: 526
 GlyphClass: 2
 Flags: MW
 HStem: 0 118<229 490 229 490> 295 115<229 442 229 442> 576 117<229 473 229 229>
 VStem: 65 164<118 295 410 576>
-AnchorPoint: "Anchor-11" 277 0 basechar 0
-AnchorPoint: "Anchor-10" 61 693 basechar 0
-AnchorPoint: "Anchor-9" 279 693 basechar 0
-AnchorPoint: "Anchor-8" 460 0 basechar 0
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 386 830 basechar 0
+AnchorPoint: "Anchor-12" 279 949 basechar 0
+AnchorPoint: "Anchor-11" 460 0 basechar 0
+AnchorPoint: "Anchor-10" 277 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-279 839 m 1
+412 755 m 1
+ 279 839 l 1
  146 755 l 1
  89 820 l 1
  231 949 l 1
  327 949 l 1
  468 820 l 1
  412 755 l 1
- 279 839 l 1
-473 576 m 1
+490 693 m 1
+ 473 576 l 1
  229 576 l 1
  229 410 l 1
  442 410 l 1
@@ -33,9 +35,8 @@ SplineSet
  65 0 l 1
  65 693 l 1
  490 693 l 1
- 473 576 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" ecircumflex.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" ecircumflex.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" ecircumflex.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar
