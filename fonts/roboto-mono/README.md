@@ -42,9 +42,9 @@ T!EX CONFIGURATION
 =================
 KARLBERRYNAME:grm
 FOUNDRY:google
-TEXSRCREGULAR:
-TEXSRCITALIC:
-TEXSRCBOLD:
-TEXSRCBOLD-ITALIC:
+TEXSRCREGULAR:roboto-mono_regular
+TEXSRCITALIC:roboto-mono_light-italic
+TEXSRCBOLD:roboto-mono_bold
+TEXSRCBOLD-ITALIC:roboto-mono_medium-italic
 
 
