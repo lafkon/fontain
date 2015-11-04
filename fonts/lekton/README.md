@@ -34,13 +34,13 @@ LICENSE
 [SIL Open Font License (OFL)](http://scripts.sil.org/OFL)
 
 
-T!EX CONFIGURATION
+TEX CONFIGURATION
 =================
 KARLBERRYNAME:ile
 FOUNDRY:isiaurbino
-TEXSRCREGULAR:
-TEXSRCITALIC:
-TEXSRCBOLD:
-TEXSRCBOLD-ITALIC:
+TEXSRCREGULAR:lekton_regular
+TEXSRCITALIC:lekton_italic
+TEXSRCBOLD:lekton_bold
+
 
 

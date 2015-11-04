@@ -34,10 +34,11 @@ LICENSE
 [SIL Open Font License (OFL)](http://scripts.sil.org/OFL)
 
 
-
-T!EX CONFIGURATION
+TEX CONFIGURATION
 =================
-KARLBERRYNAME:
-FOUNDRY:
-TEXSRCREGULAR:
+KARLBERRYNAME:tcn
+FOUNDRY:typostyle
+TEXSRCREGULAR:code-new-roman_regular
+TEXSRCITALIC:code-new-roman_italic
+TEXSRCBOLD:code-new-roman_bold
 
