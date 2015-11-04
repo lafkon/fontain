@@ -1,0 +1,180 @@
+StartChar: quotedbl
+Encoding: 34 34 331
+Width: 255
+Flags: W
+TtInstrs:
+NPUSHB
+ 18
+ 15
+ 14
+ 1
+ 0
+ 22
+ 20
+ 14
+ 27
+ 15
+ 27
+ 8
+ 6
+ 0
+ 13
+ 1
+ 13
+ 6
+ 8
+CALL
+MPPEM
+PUSHB_1
+ 243
+LT
+IF
+NPUSHB
+ 18
+ 3
+ 1
+ 1
+ 1
+ 0
+ 1
+ 0
+ 39
+ 5
+ 2
+ 4
+ 3
+ 0
+ 0
+ 14
+ 1
+ 35
+ 2
+ELSE
+MPPEM
+PUSHW_1
+ 500
+LT
+IF
+NPUSHB
+ 28
+ 0
+ 3
+ 3
+ 2
+ 1
+ 0
+ 39
+ 5
+ 1
+ 2
+ 2
+ 14
+ 34
+ 0
+ 1
+ 1
+ 0
+ 1
+ 0
+ 39
+ 4
+ 1
+ 0
+ 0
+ 14
+ 1
+ 35
+ 4
+ELSE
+MPPEM
+PUSHW_1
+ 501
+LT
+IF
+NPUSHB
+ 18
+ 3
+ 1
+ 1
+ 1
+ 0
+ 1
+ 0
+ 39
+ 5
+ 2
+ 4
+ 3
+ 0
+ 0
+ 14
+ 1
+ 35
+ 2
+ELSE
+NPUSHB
+ 28
+ 0
+ 3
+ 3
+ 2
+ 1
+ 0
+ 39
+ 5
+ 1
+ 2
+ 2
+ 14
+ 34
+ 0
+ 1
+ 1
+ 0
+ 1
+ 0
+ 39
+ 4
+ 1
+ 0
+ 0
+ 14
+ 1
+ 35
+ 4
+EIF
+EIF
+EIF
+PUSHB_1
+ 59
+CALL
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+67 768 m 256,0,1
+ 75 768 75 768 83.5 763.5 c 128,-1,2
+ 92 759 92 759 92 751 c 2,3,-1
+ 82 599 l 2,4,5
+ 82 592 82 592 78.5 586.5 c 128,-1,6
+ 75 581 75 581 67 581 c 256,7,8
+ 59 581 59 581 56 586.5 c 128,-1,9
+ 53 592 53 592 53 599 c 2,10,-1
+ 43 751 l 2,11,12
+ 43 759 43 759 51 763.5 c 128,-1,13
+ 59 768 59 768 67 768 c 256,0,1
+187 768 m 256,14,15
+ 195 768 195 768 203.5 763.5 c 128,-1,16
+ 212 759 212 759 212 751 c 2,17,-1
+ 202 599 l 2,18,19
+ 202 592 202 592 198.5 586.5 c 128,-1,20
+ 195 581 195 581 187 581 c 256,21,22
+ 179 581 179 581 176 586.5 c 128,-1,23
+ 173 592 173 592 173 599 c 2,24,-1
+ 163 751 l 2,25,26
+ 163 759 163 759 171 763.5 c 128,-1,27
+ 179 768 179 768 187 768 c 256,14,15
+EndSplineSet
+Kerns2: 394 -101 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 337 -81 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 332 -128 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 320 -81 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 260 14 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 258 33 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 254 15 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 250 14 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 246 -101 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 208 -101 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 207 -101 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 178 -81 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"
+EndChar

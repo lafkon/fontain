@@ -1,0 +1,60 @@
+StartChar: emdash
+Encoding: 8212 8212 207
+Width: 735
+Flags: W
+TtInstrs:
+NPUSHB
+ 6
+ 12
+ 9
+ 5
+ 2
+ 2
+ 8
+CALL
+NPUSHB
+ 23
+ 0
+ 0
+ 1
+ 1
+ 0
+ 1
+ 0
+ 38
+ 0
+ 0
+ 0
+ 1
+ 1
+ 0
+ 39
+ 0
+ 1
+ 0
+ 1
+ 1
+ 0
+ 36
+ 3
+PUSHB_1
+ 59
+CALL
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+50 240 m 0,0,1
+ 50 248 50 248 54.5 253 c 128,-1,2
+ 59 258 59 258 67 258 c 2,3,-1
+ 667 258 l 2,4,5
+ 674 258 674 258 679.5 253 c 128,-1,6
+ 685 248 685 248 685 240 c 256,7,8
+ 685 232 685 232 679.5 227.5 c 128,-1,9
+ 674 223 674 223 667 223 c 2,10,-1
+ 67 223 l 2,11,12
+ 50 223 50 223 50 240 c 0,0,1
+EndSplineSet
+Kerns2: 331 -101 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"
+EndChar
