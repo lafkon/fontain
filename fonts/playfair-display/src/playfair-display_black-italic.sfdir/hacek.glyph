@@ -1,0 +1,62 @@
+StartChar: hacek
+Encoding: 65883 -1 840
+Width: 391
+Flags: W
+TtInstrs:
+NPUSHB
+ 31
+ 10
+ 1
+ 1
+ 64
+ 16
+ 1
+ 0
+ 63
+ 2
+ 1
+ 1
+ 0
+ 0
+ 1
+ 79
+ 2
+ 1
+ 1
+ 1
+ 0
+ 83
+ 0
+ 0
+ 1
+ 0
+ 71
+ 33
+ 17
+ 19
+ 3
+ 18
+CALL
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+138 1349 m 128,-1,1
+ 169 1455 169 1455 169 1501 c 0,2,3
+ 169 1540 169 1540 142 1540 c 1,4,-1
+ 149 1583 l 1,5,-1
+ 184 1582 l 2,6,7
+ 195 1581 195 1581 214 1581 c 0,8,9
+ 333 1581 333 1581 443 1606 c 1,10,11
+ 445 1602 445 1602 445 1581 c 0,12,13
+ 445 1505 445 1505 345 1375 c 128,-1,14
+ 245 1245 245 1245 73 1098 c 1,15,-1
+ 44 1106 l 1,16,0
+ 107 1243 107 1243 138 1349 c 128,-1,1
+EndSplineSet
+Substitution2: "'case' Case-Sensitive Forms lookup 25 subtable" hacek.case
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" hacek.smcp
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" hacek.smcp
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" hacek.smcp hacek.case
+EndChar
