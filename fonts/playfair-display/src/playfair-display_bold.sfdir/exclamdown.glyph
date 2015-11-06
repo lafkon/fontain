@@ -1,0 +1,78 @@
+StartChar: exclamdown
+Encoding: 161 161 678
+Width: 566
+Flags: W
+TtInstrs:
+NPUSHB
+ 35
+ 0
+ 0
+ 0
+ 1
+ 83
+ 4
+ 1
+ 1
+ 1
+ 23
+ 67
+ 0
+ 3
+ 3
+ 2
+ 83
+ 0
+ 2
+ 2
+ 25
+ 2
+ 68
+ 0
+ 0
+ 30
+ 29
+ 21
+ 19
+ 0
+ 11
+ 0
+ 10
+ 36
+ 5
+ 16
+CALL
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+411 1046.5 m 128,-1,1
+ 458 1004 458 1004 458 930 c 0,2,3
+ 458 857 458 857 411 814.5 c 128,-1,4
+ 364 772 364 772 283 772 c 0,5,6
+ 203 772 203 772 156 814.5 c 128,-1,7
+ 109 857 109 857 109 930 c 0,8,9
+ 109 1004 109 1004 156 1046.5 c 128,-1,10
+ 203 1089 203 1089 283 1089 c 0,11,0
+ 364 1089 364 1089 411 1046.5 c 128,-1,1
+328 405 m 128,-1,13
+ 351 284 351 284 391 121 c 0,14,15
+ 421 -1 421 -1 435 -69.5 c 128,-1,16
+ 449 -138 449 -138 449 -192 c 0,17,18
+ 449 -286 449 -286 403 -335.5 c 128,-1,19
+ 357 -385 357 -385 282 -385 c 256,20,21
+ 207 -385 207 -385 160 -334.5 c 128,-1,22
+ 113 -284 113 -284 113 -192 c 0,23,24
+ 113 -140 113 -140 126 -75.5 c 128,-1,25
+ 139 -11 139 -11 170 118 c 0,26,27
+ 211 280 211 280 234.5 403 c 128,-1,28
+ 258 526 258 526 263 651 c 1,29,-1
+ 300 651 l 1,30,12
+ 305 526 305 526 328 405 c 128,-1,13
+EndSplineSet
+Kerns2: 405 -18 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 113 -61 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
+Substitution2: "'case' Case-Sensitive Forms lookup 25 subtable" exclamdown.case
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" exclamdown.smcp
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" exclamdown.smcp
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" exclamdown.smcp exclamdown.case
+EndChar
