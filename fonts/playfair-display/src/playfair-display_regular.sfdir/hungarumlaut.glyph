@@ -1,0 +1,55 @@
+StartChar: hungarumlaut
+Encoding: 733 733 800
+Width: 842
+Flags: W
+TtInstrs:
+NPUSHB
+ 16
+ 25
+ 24
+ 8
+ 7
+ 4
+ 0
+ 63
+ 1
+ 1
+ 0
+ 0
+ 97
+ 47
+ 45
+ 2
+ 17
+CALL
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+424 1608 m 0,1,2
+ 424 1575 424 1575 396 1538 c 0,3,4
+ 364 1498 364 1498 279 1423 c 0,5,6
+ 162 1321 162 1321 73 1227 c 1,7,-1
+ 50 1245 l 1,8,9
+ 116 1348 116 1348 191 1494 c 0,10,11
+ 246 1599 246 1599 273 1634 c 0,12,13
+ 308 1680 308 1680 352 1680 c 0,14,15
+ 377 1680 377 1680 396 1665 c 0,16,0
+ 424 1642 424 1642 424 1608 c 0,1,2
+789 1608 m 0,18,19
+ 789 1575 789 1575 761 1538 c 0,20,21
+ 732 1501 732 1501 645 1425 c 0,22,23
+ 526 1321 526 1321 437 1227 c 1,24,-1
+ 415 1245 l 1,25,26
+ 481 1348 481 1348 556 1494 c 0,27,28
+ 611 1599 611 1599 638 1634 c 0,29,30
+ 673 1680 673 1680 716 1680 c 0,31,32
+ 742 1680 742 1680 761 1665 c 0,33,17
+ 789 1642 789 1642 789 1608 c 0,18,19
+EndSplineSet
+Substitution2: "'case' Case-Sensitive Forms lookup 25 subtable" hungarumlaut.case
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" hungarumlaut.smcp
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" hungarumlaut.smcp
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" hungarumlaut.smcp hungarumlaut.case
+EndChar

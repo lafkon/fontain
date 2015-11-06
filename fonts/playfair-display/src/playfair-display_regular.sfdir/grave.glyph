@@ -1,0 +1,41 @@
+StartChar: grave
+Encoding: 96 96 799
+Width: 457
+Flags: W
+TtInstrs:
+NPUSHB
+ 12
+ 8
+ 7
+ 2
+ 0
+ 63
+ 0
+ 0
+ 0
+ 97
+ 32
+ 1
+ 16
+CALL
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+113 1680 m 0,1,2
+ 157 1680 157 1680 192 1634 c 0,3,4
+ 219 1599 219 1599 274 1494 c 0,5,6
+ 349 1348 349 1348 415 1245 c 1,7,-1
+ 392 1227 l 1,8,9
+ 303 1321 303 1321 186 1423 c 0,10,11
+ 101 1498 101 1498 69 1538 c 0,12,13
+ 41 1575 41 1575 41 1608 c 0,14,15
+ 41 1642 41 1642 69 1665 c 0,16,0
+ 88 1680 88 1680 113 1680 c 0,1,2
+EndSplineSet
+Substitution2: "'case' Case-Sensitive Forms lookup 25 subtable" grave.case
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" grave.smcp
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" grave.smcp
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" grave.smcp grave.case
+EndChar
