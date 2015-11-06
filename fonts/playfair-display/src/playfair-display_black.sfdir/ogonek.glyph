@@ -1,0 +1,56 @@
+StartChar: ogonek
+Encoding: 731 731 802
+Width: 496
+Flags: W
+TtInstrs:
+NPUSHB
+ 21
+ 21
+ 11
+ 10
+ 3
+ 0
+ 64
+ 0
+ 0
+ 1
+ 0
+ 106
+ 0
+ 1
+ 1
+ 25
+ 1
+ 68
+ 37
+ 38
+ 2
+ 17
+CALL
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+381 -8 m 0,1,2
+ 307 -45 307 -45 274.5 -91.5 c 128,-1,3
+ 242 -138 242 -138 242 -184 c 0,4,5
+ 242 -225 242 -225 262.5 -243.5 c 128,-1,6
+ 283 -262 283 -262 324 -262 c 0,7,8
+ 358 -262 358 -262 397 -248.5 c 128,-1,9
+ 436 -235 436 -235 459 -215 c 1,10,-1
+ 485 -246 l 1,11,12
+ 426 -320 426 -320 352.5 -352.5 c 128,-1,13
+ 279 -385 279 -385 172 -385 c 0,14,15
+ 73 -385 73 -385 21 -347.5 c 128,-1,16
+ -31 -310 -31 -310 -31 -240 c 0,17,18
+ -31 -152 -31 -152 64 -89.5 c 128,-1,19
+ 159 -27 159 -27 334 6 c 1,20,-1
+ 432 27 l 1,21,0
+ 419 10 419 10 381 -8 c 0,1,2
+EndSplineSet
+Substitution2: "'case' Case-Sensitive Forms lookup 25 subtable" ogonek.case
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" ogonek.smcp
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" ogonek.smcp
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" ogonek.smcp ogonek.case
+EndChar

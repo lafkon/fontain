@@ -1,0 +1,34 @@
+StartChar: parenright
+Encoding: 41 41 643
+Width: 684
+Flags: W
+TtInstrs:
+PUSHB_4
+ 13
+ 5
+ 1
+ 40
+CALL
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+485 1226.5 m 128,-1,1
+ 624 980 624 980 624 639 c 256,2,3
+ 624 298 624 298 485 51.5 c 128,-1,4
+ 346 -195 346 -195 71 -373 c 1,5,-1
+ 40 -348 l 1,6,7
+ 157 -114 157 -114 212 119.5 c 128,-1,8
+ 267 353 267 353 267 639 c 0,9,10
+ 267 924 267 924 211 1161.5 c 128,-1,11
+ 155 1399 155 1399 40 1626 c 1,12,-1
+ 71 1651 l 1,13,0
+ 346 1473 346 1473 485 1226.5 c 128,-1,1
+EndSplineSet
+Kerns2: 643 -45 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 639 -29 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
+Substitution2: "'case' Case-Sensitive Forms lookup 25 subtable" parenright.case
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" parenright.smcp
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" parenright.smcp
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" parenright.smcp parenright.case
+EndChar

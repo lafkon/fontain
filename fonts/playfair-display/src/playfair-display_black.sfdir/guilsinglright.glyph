@@ -1,0 +1,36 @@
+StartChar: guilsinglright
+Encoding: 8250 8250 660
+Width: 791
+Flags: W
+TtInstrs:
+PUSHB_4
+ 16
+ 6
+ 1
+ 40
+CALL
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+430.5 794 m 128,-1,1
+ 579 662 579 662 744 551 c 1,2,-1
+ 744 510 l 1,3,4
+ 578 399 578 399 429 266.5 c 128,-1,5
+ 280 134 280 134 118 -33 c 1,6,-1
+ 89 -25 l 1,7,8
+ 108 60 108 60 150 170.5 c 128,-1,9
+ 192 281 192 281 242.5 379.5 c 128,-1,10
+ 293 478 293 478 337 530 c 1,11,12
+ 293 583 293 583 242.5 682 c 128,-1,13
+ 192 781 192 781 150 891.5 c 128,-1,14
+ 108 1002 108 1002 89 1087 c 1,15,-1
+ 118 1096 l 1,16,0
+ 282 926 282 926 430.5 794 c 128,-1,1
+EndSplineSet
+Substitution2: "'case' Case-Sensitive Forms lookup 25 subtable" guilsinglright.case
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" guilsinglright.smcp
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" guilsinglright.smcp
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" guilsinglright.smcp guilsinglright.case
+EndChar
