@@ -1,0 +1,45 @@
+StartChar: caron
+Encoding: 711 711 793
+Width: 823
+Flags: W
+TtInstrs:
+NPUSHB
+ 15
+ 13
+ 10
+ 9
+ 2
+ 1
+ 5
+ 0
+ 64
+ 0
+ 0
+ 0
+ 97
+ 21
+ 1
+ 16
+CALL
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+1011 1679 m 1,1,-1
+ 1021 1651 l 1,2,3
+ 873 1587 873 1587 743.5 1478.5 c 128,-1,4
+ 614 1370 614 1370 532 1249 c 1,5,-1
+ 495 1249 l 1,6,7
+ 467 1394 467 1394 411 1487.5 c 128,-1,8
+ 355 1581 355 1581 251 1651 c 1,9,-1
+ 260 1679 l 1,10,11
+ 386 1652 386 1652 473 1616 c 128,-1,12
+ 560 1580 560 1580 640 1528 c 1,13,0
+ 816 1625 816 1625 1011 1679 c 1,1,-1
+EndSplineSet
+Substitution2: "'case' Case-Sensitive Forms lookup 25 subtable" caron.case
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" caron.smcp
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" caron.smcp
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" caron.smcp caron.case
+EndChar

@@ -1,0 +1,45 @@
+StartChar: circumflex
+Encoding: 710 710 795
+Width: 823
+Flags: W
+TtInstrs:
+NPUSHB
+ 15
+ 13
+ 10
+ 9
+ 2
+ 1
+ 5
+ 0
+ 63
+ 0
+ 0
+ 0
+ 97
+ 21
+ 1
+ 16
+CALL
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+81 1249 m 1,1,-1
+ 71 1278 l 1,2,3
+ 219 1342 219 1342 348.5 1450 c 128,-1,4
+ 478 1558 478 1558 560 1679 c 1,5,-1
+ 597 1679 l 1,6,7
+ 625 1535 625 1535 681 1441.5 c 128,-1,8
+ 737 1348 737 1348 841 1278 c 1,9,-1
+ 833 1249 l 1,10,11
+ 706 1277 706 1277 619 1313 c 128,-1,12
+ 532 1349 532 1349 452 1401 c 1,13,0
+ 277 1305 277 1305 81 1249 c 1,1,-1
+EndSplineSet
+Substitution2: "'case' Case-Sensitive Forms lookup 25 subtable" circumflex.case
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" circumflex.smcp
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" circumflex.smcp
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" circumflex.smcp circumflex.case
+EndChar
