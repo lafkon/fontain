@@ -1,0 +1,66 @@
+StartChar: dieresis
+Encoding: 168 168 797
+Width: 799
+Flags: W
+TtInstrs:
+NPUSHB
+ 25
+ 2
+ 1
+ 0
+ 1
+ 1
+ 0
+ 79
+ 2
+ 1
+ 0
+ 0
+ 1
+ 83
+ 3
+ 1
+ 1
+ 0
+ 1
+ 71
+ 37
+ 37
+ 37
+ 34
+ 4
+ 19
+CALL
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+79 1451 m 128,-1,1
+ 98 1482 98 1482 130 1502 c 128,-1,2
+ 162 1522 162 1522 198 1522 c 0,3,4
+ 241 1522 241 1522 270.5 1492 c 128,-1,5
+ 300 1462 300 1462 300 1419 c 0,6,7
+ 300 1386 300 1386 281 1354.5 c 128,-1,8
+ 262 1323 262 1323 230.5 1303.5 c 128,-1,9
+ 199 1284 199 1284 163 1284 c 0,10,11
+ 117 1284 117 1284 88.5 1313.5 c 128,-1,12
+ 60 1343 60 1343 60 1389 c 0,13,0
+ 60 1420 60 1420 79 1451 c 128,-1,1
+514 1451 m 128,-1,15
+ 533 1482 533 1482 564.5 1502 c 128,-1,16
+ 596 1522 596 1522 632 1522 c 0,17,18
+ 675 1522 675 1522 704.5 1492 c 128,-1,19
+ 734 1462 734 1462 734 1419 c 0,20,21
+ 734 1386 734 1386 715 1354.5 c 128,-1,22
+ 696 1323 696 1323 664.5 1303.5 c 128,-1,23
+ 633 1284 633 1284 597 1284 c 0,24,25
+ 552 1284 552 1284 523.5 1314 c 128,-1,26
+ 495 1344 495 1344 495 1389 c 0,27,14
+ 495 1420 495 1420 514 1451 c 128,-1,15
+EndSplineSet
+Substitution2: "'case' Case-Sensitive Forms lookup 25 subtable" dieresis.case
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" dieresis.smcp
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" dieresis.smcp
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" dieresis.smcp dieresis.case
+EndChar
