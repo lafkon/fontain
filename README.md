@@ -170,6 +170,56 @@ and use an apache web server add this to you `.htaccess`:
 FONT STYLES
 ===========
 
+  courier-prime_bold-italic
+  courier-prime_bold
+courier-prime_italic
+  courier-prime_regular
+whois-mono
+  titillium_black
+titillium_bold-italic
+  titillium_bold
+  titillium_bold-upright
+  titillium_light-italic
+  titillium_light
+  titillium_light-upright
+  titillium_regular-italic
+  titillium_regular
+  titillium_regular-upright
+  titillium_semibold-italic
+  titillium_semibold
+  titillium_semibold-upright
+  titillium_thin-italic
+  titillium_thin
+  titillium_thin-upright
+paperwork_black
+  paperwork_dots
+  paperwork_outline
+  paperwork_striped
+  playfair-display_black-italic
+  playfair-display_black
+  playfair-display_bold-italic
+  playfair-display_bold
+  playfair-display_italic
+playfair-display_regular
+  manifont-grotesk_bold-italic
+  manifont-grotesk_bold
+  manifont-grotesk_book-dot
+  manifont-grotesk_book-italic
+manifont-grotesk_book
+garoa-hacker-clube_bold
+futhark-adapted
+  dosis_bold
+  dosis_book
+  dosis_extra-bold
+dosis_extra-light
+  dosis_light
+  dosis_medium
+  dosis_semi-bold
+  courier-code_bold-italic
+  courier-code_bold
+  courier-code_italic
+courier-code_regular
+autobahn
 roboto-mono_thin
 code-new-roman_italic
 inconsolata_regular
