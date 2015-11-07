@@ -1,0 +1,72 @@
+StartChar: breve
+Encoding: 728 728 331
+Width: 1126
+Flags: W
+TtInstrs:
+PUSHW_5
+ 0
+ 372
+ 19
+ 10
+ 372
+NPUSHB
+ 18
+ 95
+ 11
+ 1
+ 11
+ 0
+ 95
+ 11
+ 111
+ 11
+ 127
+ 11
+ 3
+ 11
+ 16
+ 201
+ 5
+ 20
+ 79
+SVTCA[y-axis]
+MIAP[rnd]
+MDRP[rp0,min,rnd,white]
+MIRP[rp0,min,rnd,black]
+MDRP[min,rnd,white]
+DELTAP1
+SHP[rp2]
+SVTCA[x-axis]
+MDAP[rnd]
+DELTAP1
+MIRP[min,rnd,black]
+MDRP[rp0,rnd,white]
+MIRP[min,rnd,black]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+851 1413 m 1,0,1
+ 851 1356 851 1356 831 1305.5 c 128,-1,2
+ 811 1255 811 1255 773.5 1217.5 c 128,-1,3
+ 736 1180 736 1180 682 1158.5 c 128,-1,4
+ 628 1137 628 1137 560 1137 c 256,5,6
+ 492 1137 492 1137 439 1159 c 128,-1,7
+ 386 1181 386 1181 349.5 1219 c 128,-1,8
+ 313 1257 313 1257 294 1307 c 128,-1,9
+ 275 1357 275 1357 275 1413 c 1,10,-1
+ 456 1413 l 1,11,12
+ 456 1391 456 1391 463.5 1371.5 c 128,-1,13
+ 471 1352 471 1352 485 1337 c 128,-1,14
+ 499 1322 499 1322 518.5 1313.5 c 128,-1,15
+ 538 1305 538 1305 562 1305 c 0,16,17
+ 607 1305 607 1305 638.5 1332.5 c 128,-1,18
+ 670 1360 670 1360 670 1413 c 1,19,-1
+ 851 1413 l 1,0,1
+0 1016 m 1024,20,-1
+EndSplineSet
+Substitution2: "'locl' Localized Forms in Cyrillic lookup 19 subtable" breve.locl
+EndChar

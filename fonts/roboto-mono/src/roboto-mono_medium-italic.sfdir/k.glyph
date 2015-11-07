@@ -1,0 +1,89 @@
+StartChar: k
+Encoding: 107 107 77
+Width: 1202
+Flags: W
+TtInstrs:
+PUSHB_7
+ 10
+ 6
+ 2
+ 0
+ 2
+ 1
+ 74
+MPPEM
+PUSHB_1
+ 46
+LT
+IF
+NPUSHB
+ 17
+ 0
+ 1
+ 1
+ 62
+ 75
+ 0
+ 2
+ 2
+ 63
+ 75
+ 3
+ 1
+ 0
+ 0
+ 61
+ 0
+ 76
+ELSE
+NPUSHB
+ 17
+ 0
+ 1
+ 2
+ 1
+ 114
+ 0
+ 2
+ 2
+ 63
+ 75
+ 3
+ 1
+ 0
+ 0
+ 61
+ 0
+ 76
+EIF
+PUSHB_7
+ 18
+ 19
+ 17
+ 18
+ 4
+ 8
+ 24
+CALL
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+495 471 m 1,0,-1
+ 339 340 l 1,1,-1
+ 280 0 l 1,2,-1
+ 47 0 l 1,3,-1
+ 313 1536 l 1,4,-1
+ 547 1536 l 1,5,-1
+ 391 642 l 1,6,-1
+ 501 747 l 1,7,-1
+ 865 1082 l 1,8,-1
+ 1161 1081 l 1,9,-1
+ 668 622 l 1,10,-1
+ 1020 0 l 1,11,-1
+ 745 0 l 1,12,-1
+ 495 471 l 1,0,-1
+EndSplineSet
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 0 subtable" K.smcp
+EndChar

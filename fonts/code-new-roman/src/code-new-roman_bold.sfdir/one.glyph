@@ -1,0 +1,139 @@
+StartChar: one
+Encoding: 49 49 616
+Width: 1126
+Flags: W
+TtInstrs:
+PUSHB_2
+ 1
+ 2
+RS
+NEQ
+IF
+PUSHB_2
+ 9
+ 8
+PUSHW_1
+ 488
+NPUSHB
+ 19
+ 2
+ 5
+ 0
+ 6
+ 2
+ 2
+ 11
+ 12
+ 5
+ 235
+ 3
+ 7
+ 4
+ 4
+ 0
+ 7
+ 98
+ 8
+ 2
+PUSHW_1
+ 299
+PUSHB_3
+ 64
+ 0
+ 100
+SVTCA[y-axis]
+RTG
+MIAP[rnd]
+SMD
+FLIPON
+MIRP[min,rnd,black]
+SHP[rp2]
+MIAP[rnd]
+SRP2
+IP
+MDAP[rnd]
+SRP2
+IP
+MIRP[min,rnd,black]
+SRP1
+SRP2
+SVTCA[x-axis]
+IP
+MDAP[rnd]
+SHP[rp1]
+MDRP[rp0,min,rnd,black]
+MDRP[rnd,white]
+SRP0
+MIRP[rp0,min,rnd,black]
+MDRP[min,rnd,black]
+IUP[x]
+IUP[y]
+ELSE
+NPUSHB
+ 15
+ 2
+ 2
+ 11
+ 12
+ 5
+ 235
+ 3
+ 7
+ 4
+ 4
+ 0
+ 7
+ 98
+ 8
+ 2
+PUSHW_1
+ 299
+PUSHB_3
+ 64
+ 0
+ 100
+SVTCA[y-axis]
+RTG
+MIAP[rnd]
+SMD
+FLIPON
+MIRP[min,rnd,black]
+SHP[rp2]
+MIAP[rnd]
+SRP2
+IP
+MDAP[rnd]
+SRP2
+IP
+MIRP[min,rnd,black]
+SRP1
+SRP2
+SVTCA[x-axis]
+IP
+MDAP[rnd]
+IUP[x]
+IUP[y]
+EIF
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+152 0 m 1,0,-1
+ 152 217 l 1,1,-1
+ 485 217 l 1,2,-1
+ 485 1057 l 1,3,-1
+ 195 897 l 1,4,-1
+ 115 1096 l 1,5,-1
+ 530 1315 l 1,6,-1
+ 735 1315 l 1,7,-1
+ 735 217 l 1,8,-1
+ 1022 217 l 1,9,-1
+ 1022 0 l 1,10,-1
+ 152 0 l 1,0,-1
+EndSplineSet
+Substitution2: "'subs' Subscript lookup 22 subtable" uni2081
+Substitution2: "'onum' Oldstyle Figures lookup 21 subtable" one.oldstyle
+Substitution2: "'numr' Numerators lookup 20 subtable" uni00B9
+Substitution2: "'dnom' Denominators lookup 6 subtable" one.dnom
+EndChar

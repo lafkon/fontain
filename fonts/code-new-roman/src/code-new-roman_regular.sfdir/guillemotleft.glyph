@@ -1,0 +1,79 @@
+StartChar: guillemotleft
+Encoding: 171 171 369
+Width: 1126
+Flags: W
+TtInstrs:
+PUSHW_8
+ 9
+ 333
+ 8
+ 11
+ 333
+ 6
+ 7
+ 431
+PUSHB_3
+ 10
+ 0
+ 3
+PUSHW_1
+ 338
+PUSHB_3
+ 2
+ 0
+ 4
+PUSHW_4
+ 435
+ 1
+ 5
+ 338
+PUSHB_5
+ 0
+ 11
+ 5
+ 9
+ 3
+SVTCA[y-axis]
+MDAP[rnd]
+SHP[rp1]
+MDRP[rnd,grey]
+SHP[rp2]
+SVTCA[x-axis]
+MDAP[rnd]
+MIRP[black]
+MDRP[rp0,min,rnd,black]
+MIRP[black]
+SRP0
+MDRP[rp0,rnd,grey]
+MIRP[black]
+SRP0
+MDRP[rp0,min,rnd,white]
+MIRP[rp0,black]
+MDRP[rp0,rnd,black]
+MIRP[black]
+MDRP[rp0,rnd,grey]
+MIRP[black]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+539 877 m 1,0,-1
+ 321 543 l 1,1,-1
+ 539 207 l 1,2,-1
+ 401 137 l 1,3,-1
+ 143 543 l 1,4,-1
+ 401 946 l 1,5,-1
+ 539 877 l 1,0,-1
+971 870 m 1,6,-1
+ 737 543 l 1,7,-1
+ 971 215 l 1,8,-1
+ 838 143 l 1,9,-1
+ 563 543 l 1,10,-1
+ 838 942 l 1,11,-1
+ 971 870 l 1,6,-1
+EndSplineSet
+Substitution2: "'case' Case-Sensitive Forms lookup 0 subtable" guillemotleft.case
+EndChar

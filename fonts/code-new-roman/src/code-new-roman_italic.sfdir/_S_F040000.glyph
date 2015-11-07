@@ -1,0 +1,48 @@
+StartChar: SF040000
+Encoding: 9496 9496 892
+Width: 1126
+Flags: W
+TtInstrs:
+PUSHW_2
+ 0
+ 600
+PUSHB_6
+ 3
+ 3
+ 7
+ 2
+ 6
+ 5
+PUSHW_5
+ 614
+ 3
+ 600
+ 0
+ 610
+SVTCA[y-axis]
+MIAP[rnd]
+MIRP[min,rnd,black]
+MIAP[rnd]
+SVTCA[x-axis]
+SRP0
+MDRP[rnd,grey]
+SRP2
+IP
+MDAP[rnd]
+MIRP[min,rnd,black]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+638 610 m 1,0,-1
+ 0 610 l 1,1,-1
+ 0 760 l 1,2,-1
+ 488 760 l 1,3,-1
+ 488 1884 l 1,4,-1
+ 638 1884 l 1,5,-1
+ 638 610 l 1,0,-1
+EndSplineSet
+EndChar

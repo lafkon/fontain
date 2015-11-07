@@ -1,0 +1,78 @@
+StartChar: uni036F
+Encoding: 879 879 1089
+Width: 1126
+GlyphClass: 4
+Flags: W
+TtInstrs:
+NPUSHB
+ 18
+ 11
+ 8
+ 2
+ 5
+ 4
+ 10
+ 6
+ 4
+ 10
+ 0
+ 192
+ 4
+ 2
+ 11
+ 5
+ 8
+ 4
+ 10
+PUSHW_7
+ 644
+ 7
+ 644
+ 3
+ 645
+ 0
+ 645
+SVTCA[y-axis]
+MIAP[rnd]
+MIAP[rnd]
+MIAP[rnd]
+MIAP[rnd]
+SLOOP
+IP
+SVTCA[x-axis]
+MDAP[rnd]
+SMD
+MDRP[rp0,min,rnd,grey]
+MDRP[rnd,white]
+SRP0
+MDRP[rnd,white]
+SRP1
+SLOOP
+IP
+IUP[x]
+IUP[y]
+EndTTInstrs
+AnchorPoint: "Anchor-12" 563 1646 basemark 0
+AnchorPoint: "Anchor-12" 563 1045 mark 0
+AnchorPoint: "Anchor-0" 563 1045 mark 0
+LayerCount: 2
+Back
+Fore
+SplineSet
+839 1045 m 1,0,-1
+ 705 1045 l 1,1,-1
+ 560 1239 l 1,2,-1
+ 416 1045 l 1,3,-1
+ 286 1045 l 1,4,-1
+ 494 1302 l 1,5,-1
+ 296 1556 l 1,6,-1
+ 425 1556 l 1,7,-1
+ 566 1359 l 1,8,-1
+ 705 1556 l 1,9,-1
+ 829 1556 l 1,10,-1
+ 628 1299 l 1,11,-1
+ 839 1045 l 1,0,-1
+EndSplineSet
+Substitution2: "Single Substitution lookup 13 subtable" glyph1090
+Position2: "'mkmk' Mark to Mark lookup 8 subtable" dx=0 dy=0 dh=-1126 dv=0
+EndChar

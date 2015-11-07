@@ -1,0 +1,173 @@
+StartChar: nine
+Encoding: 57 57 624
+Width: 1126
+Flags: W
+TtInstrs:
+PUSHB_2
+ 1
+ 2
+RS
+NEQ
+IF
+PUSHB_8
+ 34
+ 29
+ 24
+ 47
+ 8
+ 8
+ 24
+ 0
+PUSHW_1
+ 493
+PUSHB_3
+ 16
+ 47
+ 39
+PUSHW_1
+ 490
+NPUSHB
+ 14
+ 24
+ 52
+ 42
+ 236
+ 16
+ 14
+ 19
+ 19
+ 8
+ 34
+ 239
+ 29
+ 99
+ 9
+PUSHW_1
+ 293
+PUSHB_3
+ 64
+ 8
+ 100
+SVTCA[y-axis]
+RTG
+MIAP[rnd]
+SMD
+FLIPON
+MIRP[min,rnd,black]
+MIAP[rnd]
+MIRP[min,rnd,black]
+SRP2
+IP
+MDAP[rnd]
+IP
+MDRP[min,rnd,black]
+MIRP[min,rnd,black]
+SVTCA[x-axis]
+SRP0
+MDRP[rp0,rnd,white]
+MIRP[min,rnd,black]
+MDRP[rp0,rnd,grey]
+SHP[rp2]
+MIRP[min,rnd,black]
+SRP1
+IP
+MDAP[rnd]
+SRP1
+SRP2
+IP
+IP
+IUP[x]
+IUP[y]
+ELSE
+NPUSHB
+ 12
+ 42
+ 236
+ 16
+ 14
+ 19
+ 19
+ 8
+ 34
+ 239
+ 29
+ 99
+ 9
+PUSHW_1
+ 293
+PUSHB_3
+ 64
+ 8
+ 100
+SVTCA[y-axis]
+RTG
+MIAP[rnd]
+SMD
+FLIPON
+MIRP[min,rnd,black]
+MIAP[rnd]
+MIRP[min,rnd,black]
+SRP2
+IP
+MDAP[rnd]
+IP
+MDRP[min,rnd,black]
+MIRP[min,rnd,black]
+IUP[x]
+IUP[y]
+EIF
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+1022 731 m 0,0,1
+ 1022 577 1022 577 996 462.5 c 128,-1,2
+ 970 348 970 348 922.5 267 c 128,-1,3
+ 875 186 875 186 809 134 c 128,-1,4
+ 743 82 743 82 662.5 52 c 128,-1,5
+ 582 22 582 22 490.5 11 c 128,-1,6
+ 399 0 399 0 301 0 c 2,7,-1
+ 150 0 l 1,8,-1
+ 150 209 l 1,9,-1
+ 328 209 l 2,10,11
+ 445 209 445 209 523.5 229.5 c 128,-1,12
+ 602 250 602 250 650.5 289.5 c 128,-1,13
+ 699 329 699 329 722.5 388 c 128,-1,14
+ 746 447 746 447 754 524 c 2,15,-1
+ 756 549 l 1,16,17
+ 703 524 703 524 635 508 c 128,-1,18
+ 567 492 567 492 498 492 c 0,19,20
+ 403 492 403 492 325 514 c 128,-1,21
+ 247 536 247 536 190.5 584 c 128,-1,22
+ 134 632 134 632 103 708.5 c 128,-1,23
+ 72 785 72 785 72 893 c 0,24,25
+ 72 991 72 991 107.5 1071.5 c 128,-1,26
+ 143 1152 143 1152 206.5 1209 c 128,-1,27
+ 270 1266 270 1266 357.5 1297.5 c 128,-1,28
+ 445 1329 445 1329 549 1329 c 0,29,30
+ 651 1329 651 1329 737.5 1300 c 128,-1,31
+ 824 1271 824 1271 887.5 1201.5 c 128,-1,32
+ 951 1132 951 1132 986.5 1017 c 128,-1,33
+ 1022 902 1022 902 1022 731 c 0,0,1
+537 1124 m 0,34,35
+ 489 1124 489 1124 450 1108 c 128,-1,36
+ 411 1092 411 1092 383.5 1063 c 128,-1,37
+ 356 1034 356 1034 341 993.5 c 128,-1,38
+ 326 953 326 953 326 903 c 0,39,40
+ 326 797 326 797 382 745.5 c 128,-1,41
+ 438 694 438 694 537 694 c 0,42,43
+ 564 694 564 694 594.5 699 c 128,-1,44
+ 625 704 625 704 655.5 713 c 128,-1,45
+ 686 722 686 722 713.5 733.5 c 128,-1,46
+ 741 745 741 745 762 758 c 1,47,48
+ 762 847 762 847 750.5 915 c 128,-1,49
+ 739 983 739 983 712.5 1029.5 c 128,-1,50
+ 686 1076 686 1076 643 1100 c 128,-1,51
+ 600 1124 600 1124 537 1124 c 0,34,35
+EndSplineSet
+Substitution2: "'subs' Subscript lookup 22 subtable" uni2089
+Substitution2: "'onum' Oldstyle Figures lookup 21 subtable" nine.oldstyle
+Substitution2: "'numr' Numerators lookup 20 subtable" uni2079
+Substitution2: "'dnom' Denominators lookup 6 subtable" nine.dnom
+EndChar

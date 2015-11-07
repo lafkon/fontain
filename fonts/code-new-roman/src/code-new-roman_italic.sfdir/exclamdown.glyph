@@ -1,0 +1,75 @@
+StartChar: exclamdown
+Encoding: 161 161 353
+Width: 1126
+Flags: W
+TtInstrs:
+PUSHW_2
+ 1
+ 330
+PUSHB_4
+ 2
+ 2
+ 19
+ 0
+PUSHW_4
+ 386
+ 3
+ 9
+ 396
+PUSHB_3
+ 19
+ 2
+ 4
+PUSHW_1
+ 284
+PUSHB_4
+ 14
+ 80
+ 3
+ 85
+SVTCA[y-axis]
+MIAP[rnd]
+MIAP[rnd]
+MIRP[rp0,min,rnd,black]
+MDRP[min,rnd,white]
+SVTCA[x-axis]
+MDAP[rnd]
+MIRP[min,rnd,black]
+MDRP[rp0,rnd,grey]
+MIRP[min,rnd,black]
+SRP2
+IP
+SRP0
+MIRP[min,rnd,black]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+274 -410 m 1,0,-1
+ 508 621 l 1,1,-1
+ 662 621 l 1,2,-1
+ 485 -410 l 1,3,-1
+ 274 -410 l 1,0,-1
+635 758 m 256,4,5
+ 607 758 607 758 584 768.5 c 128,-1,6
+ 561 779 561 779 544 796.5 c 128,-1,7
+ 527 814 527 814 517.5 837.5 c 128,-1,8
+ 508 861 508 861 508 887 c 0,9,10
+ 508 915 508 915 519 940 c 128,-1,11
+ 530 965 530 965 548.5 983 c 128,-1,12
+ 567 1001 567 1001 591.5 1011.5 c 128,-1,13
+ 616 1022 616 1022 643 1022 c 0,14,15
+ 671 1022 671 1022 695 1011.5 c 128,-1,16
+ 719 1001 719 1001 736 984 c 128,-1,17
+ 753 967 753 967 762.5 943.5 c 128,-1,18
+ 772 920 772 920 772 895 c 0,19,20
+ 772 866 772 866 761 841 c 128,-1,21
+ 750 816 750 816 731 797.5 c 128,-1,22
+ 712 779 712 779 687.5 768.5 c 128,-1,23
+ 663 758 663 758 635 758 c 256,4,5
+EndSplineSet
+Substitution2: "'case' Case-Sensitive Forms lookup 0 subtable" exclamdown.case
+EndChar

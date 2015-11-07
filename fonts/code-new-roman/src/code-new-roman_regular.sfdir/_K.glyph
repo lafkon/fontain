@@ -1,0 +1,104 @@
+StartChar: K
+Encoding: 75 75 14
+Width: 1126
+GlyphClass: 2
+Flags: W
+TtInstrs:
+PUSHB_4
+ 10
+ 7
+ 2
+ 3
+PUSHW_1
+ 420
+PUSHB_7
+ 4
+ 11
+ 9
+ 8
+ 0
+ 1
+ 10
+PUSHW_1
+ -16
+PUSHB_3
+ 10
+ 9
+ 7
+PUSHW_1
+ -32
+NPUSHB
+ 13
+ 7
+ 2
+ 4
+ 5
+ 5
+ 8
+ 9
+ 65
+ 0
+ 1
+ 1
+ 4
+ 67
+SVTCA[y-axis]
+MIAP[rnd]
+SHP[rp1]
+SRP1
+SHP[rp1]
+MIAP[rnd]
+SHP[rp1]
+SHP[rp1]
+MDAP[rnd]
+SRP2
+IP
+IP
+SHPIX
+SRP1
+IP
+SHPIX
+SVTCA[x-axis]
+MDAP[rnd]
+SHP[rp1]
+MDAP[rnd]
+SHP[rp1]
+SRP0
+MDRP[rp0,rnd,white]
+MIRP[rp0,black]
+MDRP[rnd,black]
+MDRP[rnd,black]
+SHP[rp2]
+IUP[x]
+IUP[y]
+EndTTInstrs
+AnchorPoint: "Anchor-11" 0 1700 basechar 0
+AnchorPoint: "Anchor-10" 1126 1700 basechar 0
+AnchorPoint: "Anchor-9" 980 0 basechar 0
+AnchorPoint: "Anchor-8" 563 -50 basechar 0
+AnchorPoint: "Anchor-7" 840 1300 basechar 0
+AnchorPoint: "Anchor-6" 1126 -350 basechar 0
+AnchorPoint: "Anchor-5" 1126 1700 basechar 0
+AnchorPoint: "Anchor-4" 830 1300 basechar 0
+AnchorPoint: "Anchor-2" 563 -180 basechar 0
+AnchorPoint: "Anchor-1" 1077 1390 basechar 0
+AnchorPoint: "Anchor-0" 563 1430 basechar 0
+LayerCount: 2
+Back
+Fore
+SplineSet
+1047 0 m 1,0,-1
+ 823 0 l 1,1,-1
+ 334 641 l 1,2,-1
+ 334 0 l 1,3,-1
+ 156 0 l 1,4,-1
+ 156 1307 l 1,5,-1
+ 334 1307 l 1,6,-1
+ 334 700 l 1,7,-1
+ 813 1307 l 1,8,-1
+ 1024 1307 l 1,9,-1
+ 508 686 l 1,10,-1
+ 1047 0 l 1,0,-1
+EndSplineSet
+Substitution2: "'sups' Superscript lookup 34 subtable" K.superior
+EndChar

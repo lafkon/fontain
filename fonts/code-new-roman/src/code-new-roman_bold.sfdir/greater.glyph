@@ -1,0 +1,39 @@
+StartChar: greater
+Encoding: 62 62 692
+Width: 1126
+Flags: W
+TtInstrs:
+PUSHW_2
+ 4
+ 579
+PUSHB_6
+ 1
+ 3
+ 5
+ 0
+ 2
+ 82
+SVTCA[y-axis]
+MIAP[rnd]
+MDRP[rnd,grey]
+SVTCA[x-axis]
+MDAP[rnd]
+MDRP[rnd,grey]
+MDRP[rp0,min,rnd,black]
+MIRP[min,rnd,black]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+350 1112 m 1,0,-1
+ 1024 545 l 1,1,-1
+ 350 -23 l 1,2,-1
+ 195 135 l 1,3,-1
+ 690 543 l 1,4,-1
+ 195 954 l 1,5,-1
+ 350 1112 l 1,0,-1
+EndSplineSet
+EndChar

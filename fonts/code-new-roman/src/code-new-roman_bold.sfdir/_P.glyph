@@ -1,0 +1,129 @@
+StartChar: P
+Encoding: 80 80 19
+Width: 1126
+GlyphClass: 2
+Flags: W
+TtInstrs:
+PUSHB_2
+ 1
+ 2
+RS
+NEQ
+IF
+PUSHB_2
+ 6
+ 22
+PUSHW_4
+ 503
+ 8
+ 0
+ 512
+NPUSHB
+ 14
+ 15
+ 8
+ 22
+ 225
+ 6
+ 6
+ 8
+ 21
+ 225
+ 64
+ 9
+ 65
+ 8
+ 67
+SVTCA[y-axis]
+RTG
+MIAP[rnd]
+MIAP[rnd]
+SMD
+FLIPON
+MIRP[min,rnd,black]
+SRP2
+IP
+MDAP[rnd]
+MIRP[min,rnd,black]
+SVTCA[x-axis]
+MDAP[rnd]
+MDRP[rp0,rnd,grey]
+MIRP[min,rnd,black]
+SRP0
+MIRP[rp0,min,rnd,black]
+MDRP[rnd,grey]
+IUP[x]
+IUP[y]
+ELSE
+NPUSHB
+ 12
+ 22
+ 225
+ 6
+ 6
+ 8
+ 21
+ 225
+ 64
+ 9
+ 65
+ 8
+ 67
+SVTCA[y-axis]
+RTG
+MIAP[rnd]
+MIAP[rnd]
+SMD
+FLIPON
+MIRP[min,rnd,black]
+SRP2
+IP
+MDAP[rnd]
+MIRP[min,rnd,black]
+IUP[x]
+IUP[y]
+EIF
+EndTTInstrs
+AnchorPoint: "Anchor-11" 0 1700 basechar 0
+AnchorPoint: "Anchor-10" 1126 1700 basechar 0
+AnchorPoint: "Anchor-9" 300 0 basechar 0
+AnchorPoint: "Anchor-7" 770 1250 basechar 0
+AnchorPoint: "Anchor-6" 1126 -350 basechar 0
+AnchorPoint: "Anchor-5" 1126 1700 basechar 0
+AnchorPoint: "Anchor-4" 900 1200 basechar 0
+AnchorPoint: "Anchor-2" 563 -180 basechar 0
+AnchorPoint: "Anchor-1" 1016 1390 basechar 0
+AnchorPoint: "Anchor-0" 563 1430 basechar 0
+LayerCount: 2
+Back
+Fore
+SplineSet
+1042 891 m 0,0,1
+ 1042 789 1042 789 1008 702.5 c 128,-1,2
+ 974 616 974 616 907 553 c 128,-1,3
+ 840 490 840 490 740 455 c 128,-1,4
+ 640 420 640 420 508 420 c 2,5,-1
+ 383 420 l 1,6,-1
+ 383 0 l 1,7,-1
+ 135 0 l 1,8,-1
+ 135 1307 l 1,9,-1
+ 518 1307 l 2,10,11
+ 645 1307 645 1307 742.5 1279.5 c 128,-1,12
+ 840 1252 840 1252 906.5 1199 c 128,-1,13
+ 973 1146 973 1146 1007.5 1068.5 c 128,-1,14
+ 1042 991 1042 991 1042 891 c 0,0,1
+784 874 m 0,15,16
+ 784 926 784 926 767.5 968.5 c 128,-1,17
+ 751 1011 751 1011 717.5 1041 c 128,-1,18
+ 684 1071 684 1071 633 1087 c 128,-1,19
+ 582 1103 582 1103 512 1103 c 2,20,-1
+ 383 1103 l 1,21,-1
+ 383 624 l 1,22,-1
+ 520 624 l 2,23,24
+ 584 624 584 624 633 641.5 c 128,-1,25
+ 682 659 682 659 715.5 692 c 128,-1,26
+ 749 725 749 725 766.5 771 c 128,-1,27
+ 784 817 784 817 784 874 c 0,15,16
+EndSplineSet
+Substitution2: "'sups' Superscript lookup 34 subtable" P.superior
+EndChar

@@ -1,0 +1,233 @@
+StartChar: r
+Encoding: 114 114 84
+Width: 1229
+Flags: W
+TtInstrs:
+MPPEM
+PUSHB_1
+ 10
+LT
+IF
+NPUSHB
+ 12
+ 3
+ 1
+ 1
+ 0
+ 16
+ 10
+ 4
+ 3
+ 2
+ 1
+ 2
+ 74
+ELSE
+MPPEM
+PUSHB_1
+ 18
+LT
+IF
+NPUSHB
+ 12
+ 3
+ 1
+ 1
+ 3
+ 16
+ 10
+ 4
+ 3
+ 2
+ 1
+ 2
+ 74
+ELSE
+MPPEM
+PUSHB_1
+ 20
+LT
+IF
+NPUSHB
+ 12
+ 3
+ 1
+ 1
+ 0
+ 16
+ 10
+ 4
+ 3
+ 2
+ 1
+ 2
+ 74
+ELSE
+NPUSHB
+ 12
+ 3
+ 1
+ 1
+ 3
+ 16
+ 10
+ 4
+ 3
+ 2
+ 1
+ 2
+ 74
+EIF
+EIF
+EIF
+MPPEM
+PUSHB_1
+ 10
+LT
+IF
+NPUSHB
+ 18
+ 0
+ 1
+ 1
+ 0
+ 91
+ 3
+ 4
+ 2
+ 0
+ 0
+ 71
+ 75
+ 0
+ 2
+ 2
+ 61
+ 2
+ 76
+ELSE
+MPPEM
+PUSHB_1
+ 18
+LT
+IF
+NPUSHB
+ 22
+ 0
+ 3
+ 3
+ 63
+ 75
+ 0
+ 1
+ 1
+ 0
+ 91
+ 4
+ 1
+ 0
+ 0
+ 71
+ 75
+ 0
+ 2
+ 2
+ 61
+ 2
+ 76
+ELSE
+MPPEM
+PUSHB_1
+ 20
+LT
+IF
+NPUSHB
+ 18
+ 0
+ 1
+ 1
+ 0
+ 91
+ 3
+ 4
+ 2
+ 0
+ 0
+ 71
+ 75
+ 0
+ 2
+ 2
+ 61
+ 2
+ 76
+ELSE
+NPUSHB
+ 22
+ 0
+ 3
+ 3
+ 63
+ 75
+ 0
+ 1
+ 1
+ 0
+ 91
+ 4
+ 1
+ 0
+ 0
+ 71
+ 75
+ 0
+ 2
+ 2
+ 61
+ 2
+ 76
+EIF
+EIF
+EIF
+NPUSHB
+ 15
+ 1
+ 0
+ 14
+ 13
+ 12
+ 11
+ 8
+ 6
+ 0
+ 18
+ 1
+ 18
+ 5
+ 8
+ 20
+CALL
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+909 1102 m 0,0,1
+ 954 1102 954 1102 999 1096.5 c 128,-1,2
+ 1044 1091 1044 1091 1074 1081 c 1,3,-1
+ 1059 966 l 1,4,5
+ 1017 975 1017 975 975 980 c 128,-1,6
+ 933 985 933 985 889 985 c 0,7,8
+ 737 985 737 985 631 913 c 128,-1,9
+ 525 841 525 841 482 692 c 1,10,-1
+ 483 0 l 1,11,-1
+ 359 0 l 1,12,-1
+ 359 1082 l 1,13,-1
+ 474 1082 l 1,14,-1
+ 482 894 l 1,15,-1
+ 482 872 l 1,16,17
+ 548 979 548 979 657 1040.5 c 128,-1,18
+ 766 1102 766 1102 909 1102 c 0,0,1
+EndSplineSet
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 0 subtable" R.smcp
+EndChar

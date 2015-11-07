@@ -1,0 +1,73 @@
+StartChar: iota
+Encoding: 953 953 443
+Width: 1126
+Flags: W
+TtInstrs:
+PUSHB_2
+ 11
+ 13
+PUSHW_1
+ 431
+NPUSHB
+ 18
+ 19
+ 8
+ 8
+ 20
+ 21
+ 13
+ 3
+ 9
+ 247
+ 11
+ 79
+ 0
+ 250
+ 19
+ 16
+ 247
+ 3
+ 82
+SVTCA[y-axis]
+MIAP[rnd]
+MIRP[rp0,min,rnd,black]
+MDRP[rp0,rnd,white]
+MIRP[min,rnd,black]
+MIAP[rnd]
+MIRP[min,rnd,black]
+SRP2
+IP
+SRP1
+SRP2
+SVTCA[x-axis]
+IP
+MDAP[rnd]
+MDRP[rnd,grey]
+MIRP[rp0,black]
+MDRP[rnd,grey]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+989 8 m 1,0,1
+ 952 -4 952 -4 904.5 -9 c 128,-1,2
+ 857 -14 857 -14 805 -14 c 0,3,4
+ 733 -14 733 -14 673 3 c 128,-1,5
+ 613 20 613 20 569.5 58.5 c 128,-1,6
+ 526 97 526 97 501.5 158.5 c 128,-1,7
+ 477 220 477 220 477 309 c 2,8,-1
+ 477 858 l 1,9,-1
+ 137 858 l 1,10,-1
+ 137 1004 l 1,11,-1
+ 651 1004 l 1,12,-1
+ 651 337 l 2,13,14
+ 651 231 651 231 696.5 181.5 c 128,-1,15
+ 742 132 742 132 831 132 c 0,16,17
+ 873 132 873 132 914 139 c 128,-1,18
+ 955 146 955 146 989 157 c 1,19,-1
+ 989 8 l 1,0,1
+EndSplineSet
+EndChar

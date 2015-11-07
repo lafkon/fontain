@@ -21,4 +21,12 @@ LICENSE
 [SIL Open Font License (OFL)](http://scripts.sil.org/OFL)
 
 
+TEX CONFIGURATION
+=================
+KARLBERRYNAME:oun
+FOUNDRY:omnibus
+TEXSRCREGULAR:unna_regular
+TEXSRCITALIC:unna_italic
+TEXSRCBOLD:unna_bold
+TEXSRCBOLD-ITALIC:unna_bold-italic
 

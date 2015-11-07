@@ -1,0 +1,74 @@
+StartChar: house
+Encoding: 8962 8962 855
+Width: 1126
+Flags: W
+TtInstrs:
+NPUSHB
+ 25
+ 1
+ 8
+ 0
+ 7
+ 2
+ 11
+ 9
+ 0
+ 10
+ 5
+ 4
+ 9
+ 7
+ 2
+ 0
+ 8
+ 24
+ 14
+ 2
+ 77
+ 96
+ 8
+ 1
+ 8
+ 1
+SVTCA[y-axis]
+MDAP[rnd]
+MDRP[min,rnd,black]
+DELTAP2
+CALL
+SHP[rp2]
+SHP[rp2]
+SHP[rp2]
+SHP[rp2]
+MDAP[rnd]
+MDRP[min,rnd,black]
+SVTCA[x-axis]
+SRP0
+MDRP[rp0,rnd,white]
+MDRP[min,rnd,black]
+SRP0
+MDRP[rp0,rnd,white]
+MDRP[min,rnd,black]
+SRP2
+IP
+IP
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+105 657 m 1,0,-1
+ 563 1049 l 1,1,-1
+ 1022 657 l 1,2,-1
+ 1022 0 l 1,3,-1
+ 105 0 l 1,4,-1
+ 105 657 l 1,0,-1
+275 170 m 1,5,-1
+ 852 170 l 1,6,-1
+ 852 582 l 1,7,-1
+ 563 829 l 1,8,-1
+ 275 582 l 1,9,-1
+ 275 170 l 1,5,-1
+EndSplineSet
+EndChar

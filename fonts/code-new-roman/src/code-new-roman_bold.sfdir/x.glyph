@@ -1,0 +1,231 @@
+StartChar: x
+Encoding: 120 120 154
+Width: 1126
+GlyphClass: 2
+Flags: W
+TtInstrs:
+PUSHB_2
+ 1
+ 2
+RS
+NEQ
+IF
+NPUSHB
+ 38
+ 6
+ 5
+ 10
+ 9
+ 2
+ 35
+ 82
+ 9
+ 4
+ 8
+ 3
+ 35
+ 82
+ 8
+ 8
+ 9
+ 5
+ 9
+ 5
+ 9
+ 3
+ 0
+ 11
+ 7
+ 2
+ 3
+ 32
+ 1
+ 1
+ 12
+ 13
+ 10
+ 7
+ 26
+ 7
+ 2
+ 3
+ 7
+PUSHW_1
+ -16
+NPUSHB
+ 26
+ 0
+ 1
+ 16
+ 1
+ 2
+ 15
+ 5
+ 1
+ 32
+ 1
+ 4
+ 10
+ 7
+ 4
+ 11
+ 9
+ 8
+ 6
+ 5
+ 79
+ 11
+ 11
+ 2
+ 0
+ 3
+ 81
+SVTCA[y-axis]
+RTG
+MIAP[rnd]
+SHP[rp1]
+SHP[rp1]
+SHP[rp1]
+MDAP[rnd]
+MIAP[rnd]
+SHP[rp1]
+SHP[rp1]
+SHP[rp1]
+SRP2
+SLOOP
+IP
+SHPIX
+SDS
+SDB
+DELTAP1
+SHPIX
+SDS
+DELTAP1
+SRP1
+SRP2
+SVTCA[x-axis]
+IP
+RTHG
+MDAP[rnd]
+SMD
+RTG
+MDRP[min,rnd,black]
+SHP[rp2]
+RTHG
+MDRP[rp0,rnd,black]
+RTG
+MDRP[min,rnd,black]
+SHP[rp2]
+SRP1
+IP
+IP
+MDAP[rnd]
+MDAP[rnd]
+SRP1
+SHP[rp1]
+SRP0
+CALL
+SDPVTL[orthog]
+MDRP[rnd,grey]
+SRP0
+CALL
+SDPVTL[orthog]
+MDRP[rnd,grey]
+SRP1
+SVTCA[x-axis]
+SHP[rp1]
+IUP[x]
+IUP[y]
+ELSE
+PUSHB_7
+ 10
+ 7
+ 26
+ 7
+ 2
+ 3
+ 7
+PUSHW_1
+ -16
+NPUSHB
+ 26
+ 0
+ 1
+ 16
+ 1
+ 2
+ 15
+ 5
+ 1
+ 32
+ 1
+ 4
+ 10
+ 7
+ 4
+ 11
+ 9
+ 8
+ 6
+ 5
+ 79
+ 11
+ 11
+ 2
+ 0
+ 3
+ 81
+SVTCA[y-axis]
+RTG
+MIAP[rnd]
+SHP[rp1]
+SHP[rp1]
+SHP[rp1]
+MDAP[rnd]
+MIAP[rnd]
+SHP[rp1]
+SHP[rp1]
+SHP[rp1]
+SRP2
+SLOOP
+IP
+SHPIX
+SDS
+SDB
+DELTAP1
+SHPIX
+SDS
+DELTAP1
+IUP[x]
+IUP[y]
+EIF
+EndTTInstrs
+AnchorPoint: "Anchor-11" 0 1700 basechar 0
+AnchorPoint: "Anchor-10" 1126 1700 basechar 0
+AnchorPoint: "Anchor-9" 1000 0 basechar 0
+AnchorPoint: "Anchor-7" 860 1000 basechar 0
+AnchorPoint: "Anchor-6" 1126 -350 basechar 0
+AnchorPoint: "Anchor-5" 1126 1700 basechar 0
+AnchorPoint: "Anchor-4" 850 1000 basechar 0
+AnchorPoint: "Anchor-2" 563 -180 basechar 0
+AnchorPoint: "Anchor-1" 1095 1160 basechar 0
+AnchorPoint: "Anchor-0" 563 1200 basechar 0
+LayerCount: 2
+Back
+Fore
+SplineSet
+793 0 m 1,0,-1
+ 561 342 l 1,1,-1
+ 328 0 l 1,2,-1
+ 33 0 l 1,3,-1
+ 414 512 l 1,4,-1
+ 53 1016 l 1,5,-1
+ 350 1016 l 1,6,-1
+ 578 682 l 1,7,-1
+ 803 1016 l 1,8,-1
+ 1077 1016 l 1,9,-1
+ 727 514 l 1,10,-1
+ 1096 0 l 1,11,-1
+ 793 0 l 1,0,-1
+EndSplineSet
+EndChar

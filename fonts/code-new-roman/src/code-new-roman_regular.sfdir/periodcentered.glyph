@@ -1,0 +1,53 @@
+StartChar: periodcentered
+Encoding: 183 183 381
+AltUni2: 002219.ffffffff.0
+Width: 1126
+Flags: W
+TtInstrs:
+PUSHW_5
+ 5
+ 515
+ 15
+ 0
+ 301
+PUSHB_6
+ 10
+ 64
+ 20
+ 23
+ 72
+ 10
+SVTCA[y-axis]
+MDAP[rnd]
+CALL
+MIRP[min,rnd,black]
+SVTCA[x-axis]
+MDAP[rnd]
+MIRP[black]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+563 733 m 0,0,1
+ 597 733 597 733 627.5 719.5 c 128,-1,2
+ 658 706 658 706 680.5 683.5 c 128,-1,3
+ 703 661 703 661 716 630 c 128,-1,4
+ 729 599 729 599 729 565 c 256,5,6
+ 729 531 729 531 716 501 c 128,-1,7
+ 703 471 703 471 680.5 448.5 c 128,-1,8
+ 658 426 658 426 627.5 412.5 c 128,-1,9
+ 597 399 597 399 563 399 c 0,10,11
+ 528 399 528 399 498 412.5 c 128,-1,12
+ 468 426 468 426 445.5 448.5 c 128,-1,13
+ 423 471 423 471 410 501 c 128,-1,14
+ 397 531 397 531 397 565 c 256,15,16
+ 397 599 397 599 410 630 c 128,-1,17
+ 423 661 423 661 445.5 683.5 c 128,-1,18
+ 468 706 468 706 498 719.5 c 128,-1,19
+ 528 733 528 733 563 733 c 0,0,1
+EndSplineSet
+Substitution2: "'case' Case-Sensitive Forms lookup 0 subtable" periodcentered.case
+EndChar

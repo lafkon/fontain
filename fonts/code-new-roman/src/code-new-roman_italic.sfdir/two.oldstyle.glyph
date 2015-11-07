@@ -1,0 +1,92 @@
+StartChar: two.oldstyle
+Encoding: 65639 -1 635
+Width: 1126
+Flags: W
+TtInstrs:
+PUSHB_8
+ 30
+ 31
+ 15
+ 31
+ 15
+ 31
+ 1
+ 23
+PUSHW_1
+ 373
+NPUSHB
+ 11
+ 8
+ 1
+ 8
+ 28
+ 1
+ 11
+ 255
+ 18
+ 103
+ 2
+ 31
+PUSHW_1
+ 259
+PUSHB_2
+ 1
+ 100
+SVTCA[y-axis]
+MIAP[rnd]
+MIRP[min,rnd,black]
+SHP[rp2]
+MIAP[rnd]
+MIRP[min,rnd,black]
+SRP2
+IP
+IP
+SVTCA[x-axis]
+MDAP[rnd]
+MDRP[rp0,rnd,grey]
+MIRP[min,rnd,black]
+SRP1
+IP
+IP
+MDAP[rnd]
+MDAP[rnd]
+SRP2
+IP
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+891 0 m 1,0,-1
+ 45 0 l 1,1,-1
+ 76 156 l 1,2,-1
+ 461 422 l 2,3,4
+ 555 486 555 486 619.5 538.5 c 128,-1,5
+ 684 591 684 591 724 640.5 c 128,-1,6
+ 764 690 764 690 781.5 739.5 c 128,-1,7
+ 799 789 799 789 799 848 c 0,8,9
+ 799 920 799 920 755 967 c 128,-1,10
+ 711 1014 711 1014 621 1014 c 0,11,12
+ 539 1014 539 1014 468.5 978.5 c 128,-1,13
+ 398 943 398 943 330 887 c 1,14,-1
+ 242 1004 l 1,15,16
+ 333 1081 333 1081 433 1123 c 128,-1,17
+ 533 1165 533 1165 645 1165 c 0,18,19
+ 720 1165 720 1165 782.5 1144.5 c 128,-1,20
+ 845 1124 845 1124 890.5 1085 c 128,-1,21
+ 936 1046 936 1046 961.5 990 c 128,-1,22
+ 987 934 987 934 987 862 c 0,23,24
+ 987 785 987 785 965 718.5 c 128,-1,25
+ 943 652 943 652 894.5 588.5 c 128,-1,26
+ 846 525 846 525 770 461.5 c 128,-1,27
+ 694 398 694 398 586 328 c 2,28,-1
+ 356 178 l 1,29,-1
+ 322 156 l 1,30,-1
+ 922 156 l 1,31,-1
+ 891 0 l 1,0,-1
+EndSplineSet
+Substitution2: "'sups' Superscript lookup 34 subtable" uni00B2
+Substitution2: "'subs' Subscript lookup 22 subtable" uni2082
+EndChar

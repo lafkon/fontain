@@ -1,0 +1,161 @@
+StartChar: c
+Encoding: 99 99 133
+Width: 1126
+GlyphClass: 2
+Flags: W
+TtInstrs:
+PUSHB_2
+ 1
+ 2
+RS
+NEQ
+IF
+PUSHB_4
+ 29
+ 29
+ 14
+ 23
+PUSHW_1
+ 369
+NPUSHB
+ 26
+ 6
+ 14
+ 233
+ 0
+ 15
+ 1
+ 15
+ 18
+ 223
+ 11
+ 80
+ 0
+ 222
+ 15
+ 29
+ 31
+ 29
+ 2
+ 17
+ 3
+ 29
+ 26
+ 222
+ 64
+ 3
+ 82
+SVTCA[y-axis]
+RTG
+MIAP[rnd]
+SMD
+FLIPON
+MIRP[rp0,min,rnd,black]
+MDRP[rp0,rnd,white]
+SDS
+SDB
+DELTAP1
+MIRP[min,rnd,black]
+MIAP[rnd]
+MIRP[rp0,min,rnd,black]
+MDRP[rp0,rnd,white]
+DELTAP1
+MIRP[min,rnd,black]
+SVTCA[x-axis]
+MDAP[rnd]
+MIRP[min,rnd,black]
+MDRP[rnd,grey]
+IP
+MDAP[rnd]
+IUP[x]
+IUP[y]
+ELSE
+NPUSHB
+ 25
+ 14
+ 233
+ 0
+ 15
+ 1
+ 15
+ 18
+ 223
+ 11
+ 80
+ 0
+ 222
+ 15
+ 29
+ 31
+ 29
+ 2
+ 17
+ 3
+ 29
+ 26
+ 222
+ 64
+ 3
+ 82
+SVTCA[y-axis]
+RTG
+MIAP[rnd]
+SMD
+FLIPON
+MIRP[rp0,min,rnd,black]
+MDRP[rp0,rnd,white]
+SDS
+SDB
+DELTAP1
+MIRP[min,rnd,black]
+MIAP[rnd]
+MIRP[rp0,min,rnd,black]
+MDRP[rp0,rnd,white]
+DELTAP1
+MIRP[min,rnd,black]
+IUP[x]
+IUP[y]
+EIF
+EndTTInstrs
+AnchorPoint: "Anchor-11" 0 1700 basechar 0
+AnchorPoint: "Anchor-10" 1126 1700 basechar 0
+AnchorPoint: "Anchor-9" 780 0 basechar 0
+AnchorPoint: "Anchor-8" 640 0 basechar 0
+AnchorPoint: "Anchor-7" 800 970 basechar 0
+AnchorPoint: "Anchor-6" 1126 -350 basechar 0
+AnchorPoint: "Anchor-5" 1126 1700 basechar 0
+AnchorPoint: "Anchor-4" 800 970 basechar 0
+AnchorPoint: "Anchor-2" 623 -180 basechar 0
+AnchorPoint: "Anchor-1" 990 1160 basechar 0
+AnchorPoint: "Anchor-0" 623 1200 basechar 0
+LayerCount: 2
+Back
+Fore
+SplineSet
+860 41 m 1,0,1
+ 776 12 776 12 704 -1 c 128,-1,2
+ 632 -14 632 -14 557 -14 c 0,3,4
+ 357 -14 357 -14 249 78.5 c 128,-1,5
+ 141 171 141 171 141 356 c 0,6,7
+ 141 508 141 508 189 630.5 c 128,-1,8
+ 237 753 237 753 320 839 c 128,-1,9
+ 403 925 403 925 514 971.5 c 128,-1,10
+ 625 1018 625 1018 750 1018 c 0,11,12
+ 822 1018 822 1018 894.5 1007 c 128,-1,13
+ 967 996 967 996 1032 971 c 1,14,-1
+ 1001 813 l 1,15,16
+ 946 839 946 839 876 854.5 c 128,-1,17
+ 806 870 806 870 741 870 c 0,18,19
+ 640 870 640 870 562.5 828 c 128,-1,20
+ 485 786 485 786 432 716.5 c 128,-1,21
+ 379 647 379 647 351.5 558.5 c 128,-1,22
+ 324 470 324 470 324 377 c 0,23,24
+ 324 255 324 255 390 194 c 128,-1,25
+ 456 133 456 133 584 133 c 0,26,27
+ 650 133 650 133 722.5 147 c 128,-1,28
+ 795 161 795 161 860 188 c 1,29,-1
+ 860 41 l 1,0,1
+EndSplineSet
+Substitution2: "'ordn' Ordinals in Latin lookup 38 subtable" uni1D9C
+Substitution2: "'sups' Superscript lookup 34 subtable" uni1D9C
+EndChar

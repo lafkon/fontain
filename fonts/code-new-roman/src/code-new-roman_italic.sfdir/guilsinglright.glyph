@@ -1,0 +1,50 @@
+StartChar: guilsinglright
+Encoding: 8250 8250 366
+Width: 1126
+Flags: W
+TtInstrs:
+PUSHB_4
+ 2
+ 2
+ 0
+ 4
+PUSHW_1
+ 385
+PUSHB_6
+ 1
+ 4
+ 1
+ 1
+ 3
+ 5
+SVTCA[y-axis]
+MDAP[rnd]
+MDRP[rnd,grey]
+IP
+RTHG
+MDAP[rnd]
+MDRP[rnd,black]
+SVTCA[x-axis]
+RTG
+MDAP[rnd]
+MIRP[min,rnd,black]
+MDRP[min,rnd,black]
+IP
+MDAP[rnd]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+283 201 m 1,0,-1
+ 645 549 l 1,1,-1
+ 422 899 l 1,2,-1
+ 569 991 l 1,3,-1
+ 845 539 l 1,4,-1
+ 403 98 l 1,5,-1
+ 283 201 l 1,0,-1
+EndSplineSet
+Substitution2: "'case' Case-Sensitive Forms lookup 0 subtable" guilsinglright.case
+EndChar

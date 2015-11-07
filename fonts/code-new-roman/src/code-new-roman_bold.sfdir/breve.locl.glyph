@@ -1,0 +1,66 @@
+StartChar: breve.locl
+Encoding: 65623 -1 585
+Width: 1126
+Flags: W
+TtInstrs:
+PUSHW_5
+ 0
+ 468
+ 19
+ 8
+ 468
+NPUSHB
+ 13
+ 9
+ 0
+ 9
+ 64
+ 17
+ 20
+ 72
+ 9
+ 14
+ 172
+ 3
+ 20
+ 79
+SVTCA[y-axis]
+MIAP[rnd]
+MDRP[rp0,rnd,white]
+MIRP[rp0,min,rnd,black]
+MDRP[min,rnd,white]
+CALL
+SHP[rp2]
+SVTCA[x-axis]
+MDAP[rnd]
+MIRP[min,rnd,black]
+MDRP[rp0,rnd,white]
+MIRP[min,rnd,black]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+905 1413 m 1,0,1
+ 905 1276 905 1276 811.5 1200 c 128,-1,2
+ 718 1124 718 1124 559 1124 c 0,3,4
+ 467 1124 467 1124 403 1146 c 128,-1,5
+ 339 1168 339 1168 298.5 1207 c 128,-1,6
+ 258 1246 258 1246 239.5 1298.5 c 128,-1,7
+ 221 1351 221 1351 221 1413 c 1,8,-1
+ 444 1413 l 1,9,10
+ 444 1380 444 1380 450.5 1352.5 c 128,-1,11
+ 457 1325 457 1325 471 1306 c 128,-1,12
+ 485 1287 485 1287 507 1276.5 c 128,-1,13
+ 529 1266 529 1266 562 1266 c 0,14,15
+ 594 1266 594 1266 617 1278 c 128,-1,16
+ 640 1290 640 1290 654 1310 c 128,-1,17
+ 668 1330 668 1330 675 1357.5 c 128,-1,18
+ 682 1385 682 1385 682 1413 c 1,19,-1
+ 905 1413 l 1,0,1
+0 1016 m 1024,20,-1
+EndSplineSet
+Substitution2: "Single Substitution lookup 13 subtable" glyph586
+EndChar

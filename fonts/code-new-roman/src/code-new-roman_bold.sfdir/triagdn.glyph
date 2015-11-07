@@ -1,0 +1,36 @@
+StartChar: triagdn
+Encoding: 9660 9660 856
+Width: 1126
+Flags: W
+TtInstrs:
+PUSHB_7
+ 1
+ 1
+ 0
+ 2
+ 0
+ 1
+ 2
+SVTCA[y-axis]
+MDAP[rnd]
+MDRP[min,rnd,black]
+SVTCA[x-axis]
+MDAP[rnd]
+MDAP[rnd]
+SRP2
+IP
+RTDG
+MDAP[rnd]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+1126 1126 m 1,0,-1
+ 563 0 l 1,1,-1
+ 0 1126 l 1,2,-1
+ 1126 1126 l 1,0,-1
+EndSplineSet
+EndChar

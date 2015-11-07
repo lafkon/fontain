@@ -37,12 +37,15 @@ span.divlink {
   color: inherit;
   padding: 6px 6px 4px 6px;  
 }
+.accordion-section-header:hover > .accordion-section-title.active {
+   background-color: #0ECCAA;
+}
 
 .accordion-section-header:hover > .accordion-section-title.active > span.divlink {
    transition: color .25s ease-in-out;
    -moz-transition: color .25s ease-in-out;
    -webkit-transition: color .25s ease-in-out;
-   color: #111;
+   color: #DDDDDD;
 }
 
 .accordion-section-header:hover > .accordion-section-title > span.divlink {
@@ -137,7 +140,8 @@ h1, h2, h3, h4,h5, h6 {
 }
 .templatecontent h6 {
   font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin-left:-14px;
+  margin-bottom: 10px;
+  margin-left:0px;
 }
 
 pre {
@@ -148,7 +152,21 @@ pre {
 
 .templatecontent p {
   margin-top: 20px 0px 0px 0px;
+  padding: 0px 2% 0px 2%;
+
+  font-size: 16px; 
+  line-height: 24px; 
+
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
 }
+
+.templatecontent li {
+  padding: 0px 2% 0px 2%;
+
+}
+
+
 .templatecontent p:first-of-type {
   margin: 0px 0px 0px 0px;
 }
@@ -158,20 +176,19 @@ pre {
 }
 
 .templatecontent blockquote {
- margin-top: 5px;
- padding-top: 0px; 
- margin-left: -14px;
- padding-left: 14px;
+ margin-top: 10px;
+ border-left: 0px solid #ddd;
+ padding: 20px 4% 20px 4%;
   
 }
 
 .templatecontent {
   font-family: "Georgia", "Times New Roman", serif;
   font-weight: normal;
-  font-size: 28px; 
-  line-height: 34px; 
-  margin-bottom: 8px;
-  border-left: 1px solid #ddd;
+  font-size: 12px; 
+  line-height: 18px; 
+  margin-bottom: 18px;
+  border-left: 0px solid #ddd;
 }
 
 .fontlog {
@@ -189,6 +206,14 @@ pre {
   width: 100%;
 }
 
+.author,
+.license {
+
+  font-size: 16px; 
+  line-height: 22px; 
+  padding-bottom: 50px;
+}
+
 
 #downloads span.button:hover {
     background: #0ECCAA;
@@ -199,8 +224,8 @@ pre {
 
 
 @media only screen and (min-width:768px) and (max-width:1019px) {
-  .templatecontent h6 { margin-left: -14px; }
-  .templatecontent {  border-left: 1px solid #ddd; }
+  .templatecontent h6 { margin-left: 0px; }
+  .templatecontent {  border-left: 0px solid #ddd; }
 }
 @media only screen and (max-width:827px) {
   .templatecontent h6 { margin-left: 0px; }

@@ -1,0 +1,55 @@
+StartChar: acutecomb
+Encoding: 769 769 166
+Width: 0
+Flags: W
+TtInstrs:
+MPPEM
+PUSHB_1
+ 29
+LT
+IF
+NPUSHB
+ 11
+ 0
+ 1
+ 0
+ 1
+ 115
+ 0
+ 0
+ 0
+ 62
+ 0
+ 76
+ELSE
+NPUSHB
+ 9
+ 0
+ 0
+ 1
+ 0
+ 114
+ 0
+ 1
+ 1
+ 105
+EIF
+PUSHB_5
+ 17
+ 16
+ 2
+ 8
+ 22
+CALL
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+-552 1536 m 1,0,-1
+ -483 1536 l 1,1,-1
+ -652 1245 l 1,2,-1
+ -715 1245 l 1,3,-1
+ -552 1536 l 1,0,-1
+EndSplineSet
+EndChar

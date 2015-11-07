@@ -1,0 +1,48 @@
+StartChar: uni02F5
+Encoding: 757 757 2020
+Width: 1126
+Flags: W
+TtInstrs:
+NPUSHB
+ 10
+ 1
+ 3
+ 5
+ 64
+ 7
+ 7
+ 0
+ 128
+ 6
+ 1
+SVTCA[y-axis]
+MDAP[rnd]
+SHP[rp1]
+SMD
+MDRP[min,rnd,black]
+SHP[rp2]
+SVTCA[x-axis]
+MDAP[rnd]
+SMD
+MDRP[rp0,min,rnd,black]
+MDRP[rp0,rnd,grey]
+MDRP[min,rnd,black]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+688 673 m 1,0,-1
+ 895 431 l 1,1,-1
+ 720 431 l 1,2,-1
+ 477 673 l 1,3,-1
+ 688 673 l 1,0,-1
+256 673 m 1,4,-1
+ 477 431 l 1,5,-1
+ 303 431 l 1,6,-1
+ 24 673 l 1,7,-1
+ 256 673 l 1,4,-1
+EndSplineSet
+EndChar

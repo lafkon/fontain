@@ -1,0 +1,159 @@
+StartChar: cedilla
+Encoding: 184 184 121
+Width: 500
+Flags: W
+TtInstrs:
+PUSHB_1
+ 9
+MDAP[rnd]
+PUSHB_1
+ 0
+MDRP[rp0,min,rnd,grey]
+PUSHB_3
+ 32
+ 0
+ 1
+DELTAP2
+PUSHB_1
+ 9
+SRP0
+PUSHB_1
+ 4
+MDRP[rp0,min,rnd,grey]
+PUSHB_3
+ 95
+ 4
+ 1
+DELTAP1
+PUSHB_1
+ 5
+MDRP[rp0,min,rnd,grey]
+PUSHB_1
+ 9
+SRP0
+PUSHB_1
+ 14
+MDRP[rp0,min,rnd,grey]
+SVTCA[y-axis]
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 12
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 12
+ 10
+MIAP[no-rnd]
+EIF
+PUSHB_1
+ 0
+RCVT
+IF
+PUSHB_1
+ 5
+MDAP[rnd]
+ELSE
+PUSHB_2
+ 5
+ 8
+MIAP[no-rnd]
+EIF
+PUSHB_3
+ 2
+ 5
+ 12
+SRP1
+SRP2
+IP
+PUSHB_1
+ 2
+MDAP[rnd]
+PUSHB_1
+ 6
+MDRP[rp0,min,rnd,grey]
+PUSHB_1
+ 12
+SRP0
+PUSHB_1
+ 15
+MDRP[rp0,min,rnd,grey]
+PUSHB_1
+ 12
+SRP0
+PUSHB_1
+ 17
+MDRP[rp0,min,rnd,grey]
+IUP[y]
+IUP[x]
+SVTCA[x-axis]
+PUSHB_5
+ 100
+ 8
+ 116
+ 8
+ 2
+DELTAP1
+PUSHB_5
+ 103
+ 11
+ 119
+ 11
+ 2
+DELTAP1
+PUSHB_3
+ 22
+ 16
+ 1
+DELTAP2
+SVTCA[y-axis]
+PUSHB_5
+ 102
+ 7
+ 118
+ 7
+ 2
+DELTAP1
+PUSHB_5
+ 102
+ 8
+ 118
+ 8
+ 2
+DELTAP1
+PUSHB_5
+ 105
+ 11
+ 121
+ 11
+ 2
+DELTAP1
+PUSHB_3
+ 22
+ 16
+ 1
+DELTAP2
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+327 -109 m 0,0,1
+ 327 -85 327 -85 280 -85 c 2,2,-1
+ 250 -85 l 1,3,-1
+ 261 0 l 1,4,-1
+ 305 0 l 1,5,-1
+ 299 -47 l 1,6,-1
+ 316 -48 l 2,7,8
+ 384 -53 384 -53 384 -103 c 0,9,10
+ 384 -131 384 -131 355.5 -154 c 128,-1,11
+ 327 -177 327 -177 268 -177 c 256,12,13
+ 209 -177 209 -177 157 -140 c 1,14,-1
+ 182 -98 l 1,15,16
+ 225 -134 225 -134 281 -134 c 0,17,18
+ 307 -134 307 -134 317 -126.5 c 128,-1,19
+ 327 -119 327 -119 327 -109 c 0,0,1
+EndSplineSet
+EndChar

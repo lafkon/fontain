@@ -1,0 +1,34 @@
+StartChar: hyphen
+Encoding: 45 45 350
+AltUni2: 0000ad.ffffffff.0 002010.ffffffff.0
+Width: 1126
+Flags: W
+TtInstrs:
+PUSHB_3
+ 3
+ 1
+ 3
+PUSHW_2
+ 264
+ 1
+SVTCA[y-axis]
+MDAP[rnd]
+MIRP[min,rnd,black]
+SVTCA[x-axis]
+MDAP[rnd]
+MDRP[min,rnd,black]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+862 463 m 1,0,-1
+ 264 463 l 1,1,-1
+ 264 627 l 1,2,-1
+ 862 627 l 1,3,-1
+ 862 463 l 1,0,-1
+EndSplineSet
+Substitution2: "'case' Case-Sensitive Forms lookup 0 subtable" hyphen.case
+EndChar

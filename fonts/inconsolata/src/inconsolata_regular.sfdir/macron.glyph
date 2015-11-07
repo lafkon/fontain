@@ -1,0 +1,33 @@
+StartChar: macron
+Encoding: 175 175 112
+Width: 500
+Flags: W
+TtInstrs:
+PUSHB_1
+ 3
+MDAP[rnd]
+PUSHB_1
+ 2
+MDRP[rp0,min,rnd,grey]
+SVTCA[y-axis]
+PUSHB_1
+ 3
+MDAP[rnd]
+PUSHB_2
+ 0
+ 1
+MIRP[rp0,rnd,grey]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+123 621 m 1,0,-1
+ 377 621 l 1,1,-1
+ 377 565 l 1,2,-1
+ 123 565 l 1,3,-1
+ 123 621 l 1,0,-1
+EndSplineSet
+EndChar

@@ -1,0 +1,118 @@
+StartChar: Lacute
+Encoding: 313 313 213
+Width: 1024
+Flags: W
+TtInstrs:
+NPUSHB
+ 13
+ 10
+ 1
+ 2
+ 1
+ 1
+ 62
+ 15
+ 14
+ 13
+ 12
+ 4
+ 1
+ 60
+MPPEM
+PUSHB_1
+ 43
+LT
+IF
+NPUSHB
+ 17
+ 0
+ 1
+ 1
+ 11
+ 63
+ 3
+ 1
+ 2
+ 2
+ 0
+ 78
+ 0
+ 0
+ 0
+ 12
+ 0
+ 64
+ELSE
+MPPEM
+PUSHB_1
+ 47
+LT
+IF
+NPUSHB
+ 17
+ 0
+ 1
+ 1
+ 11
+ 63
+ 3
+ 1
+ 2
+ 2
+ 0
+ 78
+ 0
+ 0
+ 0
+ 15
+ 0
+ 64
+ELSE
+NPUSHB
+ 23
+ 0
+ 1
+ 2
+ 1
+ 102
+ 3
+ 1
+ 2
+ 0
+ 0
+ 2
+ 73
+ 3
+ 1
+ 2
+ 2
+ 0
+ 78
+ 0
+ 0
+ 2
+ 0
+ 66
+EIF
+EIF
+NPUSHB
+ 10
+ 1
+ 1
+ 1
+ 11
+ 1
+ 11
+ 17
+ 18
+ 4
+ 25
+CALL
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+Refer: 303 -1 N 1 0 0 1 125 0 0
+Refer: 47 76 N 1 0 0 1 0 0 3
+Refer: 293 -1 N 1 0 0 1 -34 0 2
+EndChar
