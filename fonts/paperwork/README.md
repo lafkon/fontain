@@ -24,7 +24,7 @@ LICENSE
 Personal or commercial use is free.
 
 
-TEX CONFIGURATION
+T!EX CONFIGURATION
 =================
 KARLBERRYNAME:ypa
 FOUNDRY:yosukemasaki
