@@ -17,7 +17,7 @@ GENERAL INFORMATION
 
 AUTHOR
 ======
-[Alfredo Marco Pradil](http://behance.net/pradil)
+[Alfredo Marco Pradil](http://alfredomarcopradil.com/)
 
 
 
