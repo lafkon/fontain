@@ -1,270 +1,374 @@
 StartChar: V
-Encoding: 86 86 57
+Encoding: 86 86 56
 Width: 674
-GlyphClass: 2
 Flags: W
 TtInstrs:
-SVTCA[y-axis]
-PUSHB_3
+NPUSHB
+ 28
+ 0
+ 0
+ 0
+ 81
+ 0
+ 81
+ 66
+ 65
+ 62
+ 61
+ 60
+ 59
+ 58
+ 51
+ 48
+ 47
+ 29
+ 28
+ 25
+ 18
+ 17
+ 16
+ 15
+ 14
+ 11
+ 10
+ 12
+ 8
+CALL
+MPPEM
+PUSHB_1
+ 71
+LT
+IF
+NPUSHB
+ 41
+ 63
+ 50
+ 26
+ 13
+ 4
+ 0
+ 1
+ 38
+ 1
+ 10
+ 0
+ 2
+ 33
+ 9
+ 5
+ 4
+ 3
+ 0
+ 0
  1
  1
  0
-CALL
-PUSHB_1
+ 39
  8
-MDAP[rnd]
-PUSHB_3
- 22
- 45
- 59
-SHP[rp1]
-SHP[rp1]
-SHP[rp1]
-PUSHB_2
- 14
+ 7
  6
-MIRP[min,black]
-PUSHB_5
+ 3
+ 2
+ 5
+ 1
+ 1
+ 12
+ 34
  11
- 19
- 48
- 52
- 56
-DEPTH
-SLOOP
-SHP[rp2]
-SVTCA[x-axis]
-PUSHB_1
- 70
-MDAP[rnd]
-PUSHB_2
- 71
  1
-CALL
-PUSHB_1
- 54
-SMD
-PUSHW_3
- -15391
- -5618
- 21
-CALL
-SPVFS
-PUSHB_1
- 1
-MDAP[no-rnd]
-SFVTPV
-PUSHB_1
- 4
-MDRP[grey]
-PUSHB_2
- 34
- 23
-MIRP[rp0,min,black]
-PUSHB_1
- 27
-MDRP[grey]
-PUSHB_1
- 4
-SRP0
-PUSHB_4
- 2
- 4
- 1
- 19
-CALL
-PUSHB_1
- 27
-SRP0
-PUSHB_4
- 28
- 27
- 34
- 19
-CALL
-PUSHB_4
- 29
- 27
- 34
- 19
-CALL
-PUSHB_4
- 30
- 27
- 34
- 19
-CALL
-PUSHB_4
- 31
- 27
- 34
- 19
-CALL
-PUSHB_4
- 32
- 27
- 34
- 19
-CALL
-PUSHB_3
- 28
- 27
- 34
-DUP
-ROLL
-DUP
-ROLL
-SWAP
-SPVTL[parallel]
-SFVTPV
-SRP1
-SRP2
-IP
-PUSHB_1
- 29
-IP
-PUSHB_1
- 30
-IP
-PUSHB_1
- 31
-IP
-PUSHB_1
- 32
-IP
-PUSHB_3
- 2
- 4
- 1
-SRP1
-SRP2
-IP
-SVTCA[y-axis]
-NPUSHB
- 9
- 2
- 4
- 29
- 30
- 31
- 32
- 34
- 27
- 28
-MDAP[no-rnd]
-MDAP[no-rnd]
-MDAP[no-rnd]
-MDAP[no-rnd]
-MDAP[no-rnd]
-MDAP[no-rnd]
-MDAP[no-rnd]
-MDAP[no-rnd]
-MDAP[no-rnd]
-SVTCA[x-axis]
-NPUSHB
  10
+ 10
+ 13
+ 10
+ 35
+ 4
+ELSE
+MPPEM
+PUSHB_1
+ 98
+LT
+IF
+NPUSHB
+ 43
+ 63
+ 50
+ 26
+ 13
+ 4
+ 0
+ 2
+ 38
+ 1
+ 10
+ 0
+ 2
+ 33
+ 7
+ 6
+ 3
+ 3
+ 2
+ 9
+ 5
+ 4
+ 3
+ 0
+ 10
+ 2
+ 0
+ 1
+ 0
+ 41
+ 8
+ 1
+ 1
+ 1
+ 12
+ 34
+ 11
+ 1
+ 10
+ 10
+ 13
+ 10
+ 35
+ 4
+ELSE
+MPPEM
+PUSHB_1
+ 244
+LT
+IF
+NPUSHB
+ 57
+ 63
+ 50
+ 26
+ 13
+ 4
+ 0
+ 2
+ 38
+ 1
+ 10
+ 0
+ 2
+ 33
+ 8
+ 1
  1
  2
- 4
- 29
- 30
- 31
- 32
- 34
- 27
- 28
-MDAP[no-rnd]
-MDAP[no-rnd]
-MDAP[no-rnd]
-MDAP[no-rnd]
-MDAP[no-rnd]
-MDAP[no-rnd]
-MDAP[no-rnd]
-MDAP[no-rnd]
-MDAP[no-rnd]
-MDAP[no-rnd]
-PUSHB_1
- 64
-SMD
-SVTCA[x-axis]
-SVTCA[y-axis]
-PUSHB_2
- 14
- 8
-SRP1
-SRP2
-PUSHB_4
+ 1
+ 55
+ 11
+ 1
+ 10
+ 0
+ 10
+ 56
+ 7
+ 6
+ 3
+ 3
+ 2
+ 0
+ 0
+ 2
+ 1
+ 0
+ 38
+ 7
+ 6
+ 3
+ 3
+ 2
+ 2
+ 0
+ 1
+ 0
+ 39
  9
- 21
- 46
- 58
-DEPTH
-SLOOP
-IP
-IUP[y]
-IUP[x]
+ 5
+ 4
+ 3
+ 0
+ 2
+ 0
+ 1
+ 0
+ 36
+ 6
+ELSE
+NPUSHB
+ 89
+ 63
+ 50
+ 26
+ 13
+ 4
+ 9
+ 7
+ 38
+ 1
+ 10
+ 0
+ 2
+ 33
+ 0
+ 1
+ 8
+ 1
+ 55
+ 0
+ 8
+ 2
+ 8
+ 55
+ 0
+ 2
+ 3
+ 2
+ 55
+ 0
+ 7
+ 6
+ 9
+ 6
+ 7
+ 9
+ 53
+ 0
+ 9
+ 5
+ 6
+ 9
+ 5
+ 51
+ 0
+ 0
+ 4
+ 10
+ 4
+ 0
+ 10
+ 53
+ 11
+ 1
+ 10
+ 10
+ 54
+ 0
+ 3
+ 6
+ 4
+ 3
+ 1
+ 0
+ 38
+ 0
+ 6
+ 0
+ 5
+ 4
+ 6
+ 5
+ 1
+ 0
+ 41
+ 0
+ 3
+ 3
+ 4
+ 1
+ 0
+ 39
+ 0
+ 4
+ 3
+ 4
+ 1
+ 0
+ 36
+ 12
+EIF
+EIF
+EIF
+PUSHB_1
+ 59
+CALL
 EndTTInstrs
 LayerCount: 2
 Back
 Fore
 SplineSet
-314 -11 m 1,0,-1
- 302 -11 l 1,1,-1
- 139 443 l 2,2,3
- 104 537 104 537 91 567 c 0,4,5
- 77 598 77 598 59.5 614 c 128,-1,6
- 42 630 42 630 30 632 c 128,-1,7
- 18 634 18 634 -5 634 c 1,8,-1
- -10 638 l 1,9,-1
- -12 656 l 1,10,-1
- -11 660 l 2,11,12
- -9 660 -9 660 34 657 c 128,-1,13
- 77 654 77 654 88 654 c 2,14,-1
- 122 654 l 2,15,16
- 130 654 130 654 153.5 655 c 128,-1,17
- 177 656 177 656 204 658 c 128,-1,18
- 231 660 231 660 235 660 c 2,19,-1
- 237 656 l 1,20,-1
- 234 638 l 1,21,-1
- 229 634 l 1,22,23
- 197 634 197 634 182.5 626 c 128,-1,24
- 168 618 168 618 168 592 c 0,25,26
- 168 583 168 583 170.5 571.5 c 128,-1,27
- 173 560 173 560 178.5 542.5 c 128,-1,28
- 184 525 184 525 190 510 c 2,29,-1
- 205 468 l 1,30,-1
- 222 423 l 1,31,-1
- 290 239 l 2,32,33
- 348 80 348 80 350 74 c 2,34,-1
- 412 239 l 1,35,-1
- 480 423 l 1,36,-1
- 497 468 l 1,37,-1
- 512 510 l 2,38,39
- 518 525 518 525 523.5 542.5 c 128,-1,40
- 529 560 529 560 531.5 571.5 c 128,-1,41
- 534 583 534 583 534 592 c 0,42,43
- 534 618 534 618 519.5 626 c 128,-1,44
- 505 634 505 634 473 634 c 1,45,-1
- 468 638 l 1,46,-1
- 466 656 l 1,47,-1
- 468 660 l 1,48,49
- 474 660 474 660 498 658 c 128,-1,50
- 522 656 522 656 544 655 c 128,-1,51
- 566 654 566 654 574 654 c 2,52,-1
- 593 654 l 2,53,54
- 604 654 604 654 647 657 c 128,-1,55
- 690 660 690 660 692 660 c 2,56,-1
- 694 656 l 1,57,-1
- 691 638 l 1,58,-1
- 686 634 l 1,59,60
- 664 634 664 634 652 631.5 c 128,-1,61
- 640 629 640 629 622.5 613.5 c 128,-1,62
- 605 598 605 598 590 567 c 0,63,64
- 572 526 572 526 460 240 c 2,65,-1
- 424 147 l 1,66,-1
- 386 52 l 2,67,68
- 370 13 370 13 366 0 c 1,69,-1
- 314 -11 l 1,0,-1
+302 -11 m 1,0,-1
+ 139 443 l 2,1,2
+ 128 473 128 473 120.5 493 c 128,-1,3
+ 113 513 113 513 107.5 527 c 128,-1,4
+ 102 541 102 541 98 550 c 128,-1,5
+ 94 559 94 559 91 567 c 0,6,7
+ 80 592 80 592 68.5 605.5 c 128,-1,8
+ 57 619 57 619 45 625.5 c 128,-1,9
+ 33 632 33 632 20.5 633 c 128,-1,10
+ 8 634 8 634 -5 634 c 1,11,-1
+ -10 638 l 1,12,-1
+ -12 656 l 1,13,-1
+ -11 660 l 1,14,15
+ -4 660 -4 660 9.5 659 c 128,-1,16
+ 23 658 23 658 38 657 c 128,-1,17
+ 53 656 53 656 67 655 c 128,-1,18
+ 81 654 81 654 88 654 c 2,19,-1
+ 122 654 l 2,20,21
+ 129 654 129 654 145 655 c 128,-1,22
+ 161 656 161 656 178.5 657 c 128,-1,23
+ 196 658 196 658 212 659 c 128,-1,24
+ 228 660 228 660 235 660 c 1,25,-1
+ 237 656 l 1,26,-1
+ 234 638 l 1,27,-1
+ 229 634 l 1,28,29
+ 200 634 200 634 184 627.5 c 128,-1,30
+ 168 621 168 621 168 592 c 0,31,32
+ 168 569 168 569 183.5 527.5 c 128,-1,33
+ 199 486 199 486 222 423 c 2,34,-1
+ 290 239 l 2,35,36
+ 309 187 309 187 323.5 145.5 c 128,-1,37
+ 338 104 338 104 350 74 c 1,38,39
+ 361 103 361 103 376.5 143 c 128,-1,40
+ 392 183 392 183 412 239 c 2,41,-1
+ 480 423 l 2,42,43
+ 503 486 503 486 518.5 527.5 c 128,-1,44
+ 534 569 534 569 534 592 c 0,45,46
+ 534 621 534 621 518 627.5 c 128,-1,47
+ 502 634 502 634 473 634 c 1,48,-1
+ 468 638 l 1,49,-1
+ 466 656 l 1,50,-1
+ 468 660 l 1,51,52
+ 475 660 475 660 490 659 c 128,-1,53
+ 505 658 505 658 521 657 c 128,-1,54
+ 537 656 537 656 552 655 c 128,-1,55
+ 567 654 567 654 574 654 c 2,56,-1
+ 593 654 l 2,57,58
+ 600 654 600 654 613.5 655 c 128,-1,59
+ 627 656 627 656 642 657 c 128,-1,60
+ 657 658 657 658 671 659 c 128,-1,61
+ 685 660 685 660 692 660 c 1,62,-1
+ 694 656 l 1,63,-1
+ 691 638 l 1,64,-1
+ 686 634 l 1,65,66
+ 673 634 673 634 661 633 c 128,-1,67
+ 649 632 649 632 637 625.5 c 128,-1,68
+ 625 619 625 619 613.5 605.5 c 128,-1,69
+ 602 592 602 592 590 567 c 0,70,71
+ 587 559 587 559 581.5 547 c 128,-1,72
+ 576 535 576 535 563 502 c 128,-1,73
+ 550 469 550 469 525.5 407.5 c 128,-1,74
+ 501 346 501 346 460 240 c 0,75,76
+ 446 205 446 205 431.5 167.5 c 128,-1,77
+ 417 130 417 130 403.5 96.5 c 128,-1,78
+ 390 63 390 63 380 37 c 128,-1,79
+ 370 11 370 11 366 0 c 1,80,-1
+ 314 -11 l 1,81,-1
+ 302 -11 l 1,0,-1
 EndSplineSet
-Kerns2: 215 13 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 197 -59 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 176 23 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 173 62 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 164 -41 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 161 -63 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"
+Kerns2: 241 -66 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 218 -30 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 217 -23 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 216 -23 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 206 34 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 200 -12 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 198 -39 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 197 -33 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 195 9 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 192 -45 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 191 -67 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 178 19 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 167 -37 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 140 65 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 139 37 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 126 -64 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 124 -22 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 105 -38 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 80 12 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 78 -46 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 77 -35 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 76 36 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 71 -61 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 69 -59 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 49 7 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 2 -86 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"
 EndChar

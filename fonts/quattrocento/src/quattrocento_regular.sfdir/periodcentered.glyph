@@ -1,63 +1,59 @@
 StartChar: periodcentered
-Encoding: 183 183 120
+Encoding: 183 183 173
 Width: 227
-GlyphClass: 2
 Flags: W
 TtInstrs:
-SVTCA[y-axis]
-PUSHB_1
- 9
-MDAP[rnd]
-PUSHB_5
- 3
- 11
- 0
- 22
- 4
-CALL
-PUSHB_5
- 3
- 11
- 0
- 22
- 4
-CALL
-SVTCA[x-axis]
-PUSHB_1
- 11
-MDAP[rnd]
-PUSHB_1
- 1
-MDRP[rp0,rnd,white]
-PUSHB_2
+NPUSHB
  6
- 20
-MIRP[min,black]
-PUSHB_2
- 6
- 20
-MIRP[min,black]
-PUSHB_2
- 12
- 1
+ 10
+ 8
+ 4
+ 2
+ 2
+ 8
 CALL
-SVTCA[y-axis]
-IUP[y]
-IUP[x]
+NPUSHB
+ 23
+ 0
+ 0
+ 1
+ 1
+ 0
+ 1
+ 0
+ 38
+ 0
+ 0
+ 0
+ 1
+ 1
+ 0
+ 39
+ 0
+ 1
+ 0
+ 1
+ 1
+ 0
+ 36
+ 3
+PUSHB_1
+ 59
+CALL
 EndTTInstrs
 LayerCount: 2
 Back
 Fore
 SplineSet
-67 243 m 128,-1,1
- 67 262 67 262 81 276.5 c 128,-1,2
- 95 291 95 291 114 291 c 0,3,4
+67 243 m 256,0,1
+ 67 262 67 262 80.5 276.5 c 128,-1,2
+ 94 291 94 291 114 291 c 0,3,4
  132 291 132 291 146.5 276.5 c 128,-1,5
- 161 262 161 262 161 243 c 0,6,7
- 161 225 161 225 146.5 211 c 128,-1,8
+ 161 262 161 262 161 243 c 256,6,7
+ 161 224 161 224 146.5 210.5 c 128,-1,8
  132 197 132 197 114 197 c 0,9,10
- 95 197 95 197 81 210.5 c 128,-1,0
- 67 224 67 224 67 243 c 128,-1,1
+ 94 197 94 197 80.5 210.5 c 128,-1,11
+ 67 224 67 224 67 243 c 256,0,1
 EndSplineSet
-Kerns2: 79 -59 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 47 -8 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 26 -27 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 21 -25 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 20 -15 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"
+Kerns2: 207 -20 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 195 -30 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 159 -24 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 150 -11 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 143 -65 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 30 -21 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"
 EndChar

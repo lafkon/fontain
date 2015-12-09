@@ -1,0 +1,75 @@
+StartChar: asciicircum
+Encoding: 94 94 37
+Width: 348
+Flags: W
+TtInstrs:
+NPUSHB
+ 8
+ 0
+ 0
+ 0
+ 10
+ 0
+ 10
+ 2
+ 8
+CALL
+MPPEM
+PUSHB_1
+ 62
+LT
+IF
+NPUSHB
+ 14
+ 8
+ 5
+ 2
+ 3
+ 0
+ 30
+ 1
+ 1
+ 0
+ 0
+ 12
+ 0
+ 35
+ 2
+ELSE
+NPUSHB
+ 12
+ 8
+ 5
+ 2
+ 3
+ 0
+ 30
+ 1
+ 1
+ 0
+ 0
+ 46
+ 2
+EIF
+PUSHB_1
+ 59
+CALL
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+178 673 m 1,0,-1
+ 288 574 l 1,1,-1
+ 291 567 l 1,2,-1
+ 282 538 l 1,3,-1
+ 275 535 l 1,4,-1
+ 174 576 l 1,5,-1
+ 73 535 l 1,6,-1
+ 66 538 l 1,7,-1
+ 57 567 l 1,8,-1
+ 60 574 l 1,9,-1
+ 170 673 l 1,10,-1
+ 178 673 l 1,0,-1
+EndSplineSet
+EndChar

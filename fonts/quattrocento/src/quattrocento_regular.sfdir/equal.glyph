@@ -1,50 +1,84 @@
 StartChar: equal
-Encoding: 61 61 32
+Encoding: 61 61 115
 Width: 488
-GlyphClass: 2
 Flags: W
 TtInstrs:
-SVTCA[y-axis]
-PUSHB_1
- 3
-MDAP[rnd]
-PUSHB_2
- 0
- 10
-MIRP[min,black]
-PUSHB_1
- 7
-MDAP[rnd]
-PUSHB_2
+NPUSHB
+ 18
  4
- 10
-MIRP[min,black]
-SVTCA[x-axis]
-PUSHB_1
- 8
-MDAP[rnd]
-PUSHB_2
- 9
+ 4
+ 0
+ 0
+ 4
+ 7
+ 4
+ 7
+ 6
+ 5
+ 0
+ 3
+ 0
+ 3
+ 2
  1
+ 6
+ 8
 CALL
-SVTCA[y-axis]
-IUP[y]
-IUP[x]
+NPUSHB
+ 36
+ 5
+ 1
+ 3
+ 0
+ 2
+ 1
+ 3
+ 2
+ 0
+ 0
+ 41
+ 4
+ 1
+ 1
+ 0
+ 0
+ 1
+ 0
+ 0
+ 38
+ 4
+ 1
+ 1
+ 1
+ 0
+ 0
+ 0
+ 39
+ 0
+ 0
+ 1
+ 0
+ 0
+ 0
+ 36
+ 4
+PUSHB_1
+ 59
+CALL
 EndTTInstrs
 LayerCount: 2
 Back
 Fore
 SplineSet
-84 189 m 1,0,-1
- 413 189 l 1,1,-1
- 403 137 l 1,2,-1
- 75 137 l 1,3,-1
- 84 189 l 1,0,-1
-84 341 m 1,4,-1
- 413 341 l 1,5,-1
- 403 289 l 1,6,-1
- 75 289 l 1,7,-1
- 84 341 l 1,4,-1
+413 189 m 1,0,-1
+ 403 137 l 1,1,-1
+ 75 137 l 1,2,-1
+ 84 189 l 1,3,-1
+ 413 189 l 1,0,-1
+413 341 m 1,4,-1
+ 403 289 l 1,5,-1
+ 75 289 l 1,6,-1
+ 84 341 l 1,7,-1
+ 413 341 l 1,4,-1
 EndSplineSet
-Kerns2: 26 -11 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"
 EndChar

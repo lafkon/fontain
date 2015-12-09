@@ -1,133 +1,64 @@
 StartChar: slash
-Encoding: 47 47 18
-Width: 430
-GlyphClass: 2
+Encoding: 47 47 197
+Width: 434
 Flags: W
 TtInstrs:
-SVTCA[y-axis]
-SVTCA[x-axis]
-PUSHB_1
- 16
-MDAP[rnd]
-PUSHB_2
- 17
- 1
-CALL
-PUSHB_1
- 54
-SMD
-PUSHW_3
- 15368
- -5680
- 21
-CALL
-SPVFS
-SFVTPV
-PUSHB_1
- 3
-SRP0
-PUSHB_1
- 7
-MDRP[grey]
-PUSHB_2
- 15
+NPUSHB
+ 6
+ 23
+ 22
+ 11
  10
-MIRP[rp0,min,black]
-PUSHB_1
- 11
-MDRP[grey]
-PUSHB_1
- 3
-SRP0
-PUSHB_4
- 4
- 3
- 7
- 19
+ 2
+ 8
 CALL
+NPUSHB
+ 16
+ 0
+ 1
+ 1
+ 0
+ 1
+ 33
+ 0
+ 0
+ 1
+ 0
+ 55
+ 0
+ 1
+ 1
+ 46
+ 3
 PUSHB_1
- 15
-SRP0
-PUSHB_4
- 12
- 15
- 11
- 19
+ 59
 CALL
-PUSHB_3
- 4
- 3
- 7
-DUP
-ROLL
-DUP
-ROLL
-SWAP
-SPVTL[parallel]
-SFVTPV
-SRP1
-SRP2
-IP
-PUSHB_3
- 12
- 15
- 11
-SRP1
-SRP2
-IP
-SVTCA[y-axis]
-PUSHB_6
- 3
- 4
- 7
- 11
- 12
- 15
-MDAP[no-rnd]
-MDAP[no-rnd]
-MDAP[no-rnd]
-MDAP[no-rnd]
-MDAP[no-rnd]
-MDAP[no-rnd]
-SVTCA[x-axis]
-PUSHB_6
- 3
- 4
- 7
- 11
- 12
- 15
-MDAP[no-rnd]
-MDAP[no-rnd]
-MDAP[no-rnd]
-MDAP[no-rnd]
-MDAP[no-rnd]
-MDAP[no-rnd]
-PUSHB_1
- 64
-SMD
-SVTCA[x-axis]
-SVTCA[y-axis]
-IUP[y]
-IUP[x]
 EndTTInstrs
 LayerCount: 2
 Back
 Fore
 SplineSet
-37 -57 m 1,0,-1
- 37 -53 l 1,1,2
- 83 40 83 40 159 249 c 2,3,-1
- 226 433 l 2,4,5
- 291 609 291 609 310 698 c 1,6,-1
- 313 702 l 1,7,-1
- 391 702 l 1,8,-1
- 392 698 l 1,9,10
- 361 640 361 640 284 433 c 2,11,-1
- 216 249 l 2,12,13
- 143 55 143 55 118 -53 c 1,14,-1
- 115 -57 l 1,15,-1
- 37 -57 l 1,0,-1
+40 -53 m 1,0,1
+ 73 14 73 14 104 94 c 128,-1,2
+ 135 174 135 174 162 249 c 2,3,-1
+ 229 433 l 2,4,5
+ 238 458 238 458 250 491 c 128,-1,6
+ 262 524 262 524 273.5 559.5 c 128,-1,7
+ 285 595 285 595 295.5 631 c 128,-1,8
+ 306 667 306 667 313 698 c 1,9,-1
+ 316 702 l 1,10,-1
+ 394 702 l 1,11,-1
+ 395 698 l 1,12,13
+ 378 667 378 667 363 631 c 128,-1,14
+ 348 595 348 595 334 559.5 c 128,-1,15
+ 320 524 320 524 308 491 c 128,-1,16
+ 296 458 296 458 287 433 c 2,17,-1
+ 219 249 l 2,18,19
+ 191 174 191 174 164 94 c 128,-1,20
+ 137 14 137 14 121 -53 c 1,21,-1
+ 118 -57 l 1,22,-1
+ 40 -57 l 1,23,-1
+ 40 -53 l 1,0,1
 EndSplineSet
-Kerns2: 135 -27 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 74 -23 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 23 -12 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 18 -143 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"
+Kerns2: 197 -116 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 126 -23 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 124 -18 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 58 6 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 57 5 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 56 5 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 2 -32 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"
 EndChar

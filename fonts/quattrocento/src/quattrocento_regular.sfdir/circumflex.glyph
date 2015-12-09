@@ -1,65 +1,75 @@
 StartChar: circumflex
-Encoding: 710 710 202
+Encoding: 710 710 93
 Width: 234
-GlyphClass: 2
 Flags: W
 TtInstrs:
-SVTCA[y-axis]
-PUSHB_1
- 6
-MDAP[rnd]
-PUSHB_5
+NPUSHB
+ 8
  0
- 11
+ 0
+ 0
+ 10
+ 0
+ 10
+ 2
+ 8
+CALL
+MPPEM
+PUSHB_1
+ 62
+LT
+IF
+NPUSHB
+ 14
+ 8
+ 5
+ 2
+ 3
  0
  30
- 4
-CALL
-SVTCA[x-axis]
-PUSHB_1
- 11
-MDAP[rnd]
-PUSHB_1
- 10
-MDRP[rp0,rnd,white]
-PUSHB_5
- 2
- 20
- 0
- 9
- 4
-CALL
-PUSHB_2
- 12
  1
-CALL
-PUSHB_2
+ 1
+ 0
+ 0
+ 12
+ 0
+ 35
  2
- 10
-SRP1
-SRP2
+ELSE
+NPUSHB
+ 12
+ 8
+ 5
+ 2
+ 3
+ 0
+ 30
+ 1
+ 1
+ 0
+ 0
+ 46
+ 2
+EIF
 PUSHB_1
- 4
-IP
-SVTCA[y-axis]
-IUP[y]
-IUP[x]
+ 59
+CALL
 EndTTInstrs
 LayerCount: 2
 Back
 Fore
 SplineSet
-113 673 m 1,0,-1
- 121 673 l 1,1,-1
- 231 574 l 1,2,-1
- 234 567 l 1,3,-1
- 228 548 l 1,4,-1
- 221 545 l 1,5,-1
- 117 606 l 1,6,-1
- 13 545 l 1,7,-1
- 6 548 l 1,8,-1
- 0 567 l 1,9,-1
- 3 574 l 1,10,-1
- 113 673 l 1,0,-1
+121 673 m 1,0,-1
+ 231 574 l 1,1,-1
+ 234 567 l 1,2,-1
+ 228 548 l 1,3,-1
+ 221 545 l 1,4,-1
+ 117 606 l 1,5,-1
+ 13 545 l 1,6,-1
+ 6 548 l 1,7,-1
+ 0 567 l 1,8,-1
+ 3 574 l 1,9,-1
+ 113 673 l 1,10,-1
+ 121 673 l 1,0,-1
 EndSplineSet
 EndChar

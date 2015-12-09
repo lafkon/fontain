@@ -1,126 +1,81 @@
 StartChar: exclamdown
-Encoding: 161 161 99
-Width: 233
-GlyphClass: 2
+Encoding: 161 161 118
+Width: 225
 Flags: W
 TtInstrs:
-SVTCA[y-axis]
-PUSHB_3
- 3
- 2
- 0
-CALL
-PUSHB_5
- 9
- 11
- 0
- 22
+NPUSHB
+ 6
+ 10
+ 8
  4
-CALL
-SVTCA[x-axis]
-PUSHB_1
- 27
-MDAP[rnd]
-PUSHB_1
- 1
-MDRP[rp0,rnd,white]
-PUSHB_1
- 14
-SHP[rp2]
-PUSHB_2
- 6
- 20
-MIRP[min,black]
-PUSHB_1
- 24
-SHP[rp2]
-PUSHB_2
- 6
- 20
-MIRP[min,black]
-PUSHB_1
- 11
-SHP[rp2]
-PUSHB_4
- 19
- 6
- 1
+ 2
+ 2
  8
 CALL
-PUSHB_5
- 16
+NPUSHB
+ 24
+ 34
+ 31
+ 24
+ 22
+ 21
  14
- 0
- 38
- 4
-CALL
-PUSHB_1
- 16
-MDAP[rnd]
-PUSHB_5
- 19
- 14
- 0
- 38
- 4
-CALL
-PUSHB_2
- 28
- 1
-CALL
-PUSHB_2
- 16
- 1
-SRP1
-SRP2
-PUSHB_1
- 13
-IP
-PUSHB_1
- 19
-SRP1
-PUSHB_2
- 9
- 3
-IP
-IP
-PUSHB_1
- 6
-SRP2
-PUSHB_1
  12
-IP
-SVTCA[y-axis]
-IUP[y]
-IUP[x]
+ 7
+ 1
+ 30
+ 0
+ 1
+ 1
+ 0
+ 1
+ 0
+ 39
+ 0
+ 0
+ 0
+ 15
+ 1
+ 35
+ 3
+PUSHB_1
+ 59
+CALL
 EndTTInstrs
 LayerCount: 2
 Back
 Fore
 SplineSet
-69 429 m 128,-1,1
- 69 448 69 448 83 461.5 c 128,-1,2
- 97 475 97 475 116 475 c 0,3,4
- 134 475 134 475 148.5 461 c 128,-1,5
- 163 447 163 447 163 429 c 0,6,7
- 163 410 163 410 148.5 395.5 c 128,-1,8
- 134 381 134 381 116 381 c 0,9,10
- 97 381 97 381 83 395.5 c 128,-1,0
- 69 410 69 410 69 429 c 128,-1,1
-162 -219 m 1,11,-1
- 157 -222 l 1,12,-1
- 75 -196 l 1,13,-1
- 71 -187 l 1,14,15
- 86 24 86 24 93 311 c 1,16,-1
- 99 315 l 1,17,-1
- 134 298 l 1,18,-1
- 139 292 l 1,19,20
- 142 148 142 148 146 47 c 128,-1,21
- 150 -54 150 -54 152.5 -89 c 128,-1,22
- 155 -124 155 -124 158 -155.5 c 128,-1,23
- 161 -187 161 -187 161 -190 c 0,24,25
- 161 -192 161 -192 161.5 -202 c 128,-1,26
- 162 -212 162 -212 162 -219 c 1,11,-1
+65 429 m 256,0,1
+ 65 448 65 448 78.5 461.5 c 128,-1,2
+ 92 475 92 475 112 475 c 0,3,4
+ 130 475 130 475 144.5 461.5 c 128,-1,5
+ 159 448 159 448 159 429 c 256,6,7
+ 159 410 159 410 144.5 395.5 c 128,-1,8
+ 130 381 130 381 112 381 c 0,9,10
+ 92 381 92 381 78.5 395.5 c 128,-1,11
+ 65 410 65 410 65 429 c 256,0,1
+153 -222 m 1,12,-1
+ 71 -196 l 1,13,-1
+ 67 -187 l 1,14,15
+ 68 -177 68 -177 69 -163.5 c 128,-1,16
+ 70 -150 70 -150 72 -127.5 c 128,-1,17
+ 74 -105 74 -105 76 -70.5 c 128,-1,18
+ 78 -36 78 -36 80 15.5 c 128,-1,19
+ 82 67 82 67 84.5 139.5 c 128,-1,20
+ 87 212 87 212 89 311 c 1,21,-1
+ 95 315 l 1,22,-1
+ 130 298 l 1,23,-1
+ 135 292 l 1,24,25
+ 137 188 137 188 139.5 114.5 c 128,-1,26
+ 142 41 142 41 144.5 -9 c 128,-1,27
+ 147 -59 147 -59 149 -89.5 c 128,-1,28
+ 151 -120 151 -120 152.5 -138.5 c 128,-1,29
+ 154 -157 154 -157 155 -168 c 128,-1,30
+ 156 -179 156 -179 157 -190 c 0,31,32
+ 157 -195 157 -195 157.5 -202.5 c 128,-1,33
+ 158 -210 158 -210 158 -219 c 1,34,-1
+ 153 -222 l 1,12,-1
 EndSplineSet
-Kerns2: 55 -30 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 45 -14 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"
+Kerns2: 58 -26 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 57 -28 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 56 -28 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 49 -24 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"
 EndChar

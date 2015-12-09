@@ -1,101 +1,360 @@
 StartChar: one
-Encoding: 49 49 20
-Width: 365
-GlyphClass: 2
+Encoding: 49 49 159
+Width: 354
 Flags: W
 TtInstrs:
-SVTCA[y-axis]
-PUSHB_3
- 27
- 1
- 0
-CALL
-PUSHB_1
- 22
-SHP[rp1]
-PUSHB_2
- 30
- 6
-MIRP[min,black]
-PUSHB_1
- 19
-SHP[rp2]
-PUSHB_3
- 4
- 3
- 0
-CALL
-SVTCA[x-axis]
-PUSHB_1
- 41
-MDAP[rnd]
-PUSHB_1
- 36
-MDRP[rp0,rnd,white]
-PUSHB_2
- 13
- 17
-MIRP[min,black]
-PUSHB_2
+NPUSHB
+ 14
+ 46
+ 45
  42
- 1
-CALL
-PUSHB_2
- 13
- 36
-SRP1
-SRP2
-PUSHB_2
+ 41
+ 40
+ 33
+ 32
+ 31
+ 28
+ 27
  5
  4
-IP
-IP
-SVTCA[y-axis]
-PUSHB_2
- 30
- 27
-SRP1
-SRP2
+ 6
+ 8
+CALL
+MPPEM
 PUSHB_1
- 24
-IP
-IUP[y]
-IUP[x]
+ 71
+LT
+IF
+NPUSHB
+ 37
+ 64
+ 63
+ 62
+ 6
+ 0
+ 5
+ 1
+ 0
+ 43
+ 30
+ 2
+ 2
+ 1
+ 2
+ 33
+ 0
+ 0
+ 0
+ 12
+ 34
+ 5
+ 1
+ 1
+ 1
+ 2
+ 1
+ 0
+ 39
+ 4
+ 3
+ 2
+ 2
+ 2
+ 16
+ 2
+ 35
+ 4
+ELSE
+MPPEM
+PUSHB_1
+ 109
+LT
+IF
+NPUSHB
+ 41
+ 64
+ 63
+ 62
+ 6
+ 0
+ 5
+ 1
+ 0
+ 43
+ 30
+ 2
+ 3
+ 1
+ 2
+ 33
+ 0
+ 0
+ 0
+ 12
+ 34
+ 0
+ 3
+ 3
+ 16
+ 34
+ 5
+ 1
+ 1
+ 1
+ 2
+ 1
+ 0
+ 39
+ 4
+ 1
+ 2
+ 2
+ 16
+ 2
+ 35
+ 5
+ELSE
+MPPEM
+PUSHB_1
+ 245
+LT
+IF
+NPUSHB
+ 43
+ 64
+ 63
+ 62
+ 6
+ 0
+ 5
+ 1
+ 0
+ 43
+ 30
+ 2
+ 3
+ 1
+ 2
+ 33
+ 0
+ 3
+ 3
+ 0
+ 0
+ 0
+ 39
+ 0
+ 0
+ 0
+ 12
+ 34
+ 5
+ 1
+ 1
+ 1
+ 2
+ 1
+ 0
+ 39
+ 4
+ 1
+ 2
+ 2
+ 13
+ 2
+ 35
+ 5
+ELSE
+MPPEM
+PUSHB_1
+ 244
+LT
+IF
+NPUSHB
+ 51
+ 64
+ 63
+ 62
+ 6
+ 0
+ 5
+ 1
+ 0
+ 43
+ 30
+ 2
+ 3
+ 1
+ 2
+ 33
+ 5
+ 1
+ 1
+ 3
+ 2
+ 1
+ 1
+ 0
+ 38
+ 0
+ 0
+ 0
+ 3
+ 2
+ 0
+ 3
+ 1
+ 0
+ 41
+ 5
+ 1
+ 1
+ 1
+ 2
+ 1
+ 0
+ 39
+ 4
+ 1
+ 2
+ 1
+ 2
+ 1
+ 0
+ 36
+ 5
+ELSE
+NPUSHB
+ 61
+ 64
+ 63
+ 62
+ 6
+ 0
+ 5
+ 1
+ 0
+ 43
+ 30
+ 2
+ 3
+ 5
+ 2
+ 33
+ 0
+ 1
+ 0
+ 5
+ 0
+ 1
+ 5
+ 53
+ 0
+ 2
+ 4
+ 2
+ 56
+ 0
+ 5
+ 3
+ 4
+ 5
+ 1
+ 0
+ 38
+ 0
+ 0
+ 0
+ 3
+ 4
+ 0
+ 3
+ 1
+ 0
+ 41
+ 0
+ 5
+ 5
+ 4
+ 1
+ 0
+ 39
+ 0
+ 4
+ 5
+ 4
+ 1
+ 0
+ 36
+ 7
+EIF
+EIF
+EIF
+EIF
+PUSHB_1
+ 59
+CALL
 EndTTInstrs
 LayerCount: 2
 Back
 Fore
 SplineSet
-45 541 m 1,0,-1
- 45 554 l 1,1,-1
- 48 560 l 1,2,3
- 152 611 152 611 207 663 c 1,4,-1
- 214 663 l 1,5,-1
- 236 654 l 1,6,7
- 235 645 235 645 234 629.5 c 128,-1,8
- 233 614 233 614 232.5 598 c 128,-1,9
- 232 582 232 582 232 577 c 0,10,11
- 229 534 229 534 229 399 c 2,12,-1
- 229 258 l 2,13,14
- 229 128 229 128 233 82 c 0,15,16
- 235 53 235 53 257 33 c 0,17,18
- 277 18 277 18 319 18 c 1,19,-1
- 324 13 l 1,20,-1
- 326 0 l 1,21,-1
- 324 -4 l 1,22,23
- 248 0 248 0 222 0 c 2,24,-1
- 165 0 l 2,25,26
- 139 0 139 0 63 -4 c 1,27,-1
- 61 0 l 1,28,-1
- 63 14 l 1,29,-1
- 66 18 l 1,30,31
- 114 18 114 18 131 33 c 0,32,33
- 153 53 153 53 155 82 c 0,34,35
- 159 127 159 127 159 234 c 2,36,-1
- 159 397 l 2,37,38
- 159 521 159 521 155 564 c 1,39,-1
- 48 537 l 1,40,-1
- 45 541 l 1,0,-1
+42 554 m 1,0,-1
+ 45 560 l 1,1,2
+ 88 581 88 581 127 604.5 c 128,-1,3
+ 166 628 166 628 204 663 c 1,4,-1
+ 211 663 l 1,5,-1
+ 233 654 l 1,6,7
+ 232 646 232 646 231.5 635.5 c 128,-1,8
+ 231 625 231 625 230.5 614 c 128,-1,9
+ 230 603 230 603 229.5 593 c 128,-1,10
+ 229 583 229 583 229 577 c 0,11,12
+ 228 561 228 561 227.5 547 c 128,-1,13
+ 227 533 227 533 226.5 514 c 128,-1,14
+ 226 495 226 495 226 468 c 128,-1,15
+ 226 441 226 441 226 399 c 2,16,-1
+ 226 258 l 2,17,18
+ 226 216 226 216 226 189.5 c 128,-1,19
+ 226 163 226 163 226.5 145 c 128,-1,20
+ 227 127 227 127 227.5 113 c 128,-1,21
+ 228 99 228 99 230 82 c 0,22,23
+ 232 61 232 61 239 50.5 c 128,-1,24
+ 246 40 246 40 254 33 c 0,25,26
+ 263 26 263 26 282 22 c 128,-1,27
+ 301 18 301 18 316 18 c 1,28,-1
+ 321 13 l 1,29,-1
+ 323 0 l 1,30,-1
+ 321 -4 l 1,31,32
+ 314 -4 314 -4 300 -3 c 128,-1,33
+ 286 -2 286 -2 270 -1.5 c 128,-1,34
+ 254 -1 254 -1 240 -0.5 c 128,-1,35
+ 226 0 226 0 219 0 c 2,36,-1
+ 162 0 l 2,37,38
+ 155 0 155 0 141 -0.5 c 128,-1,39
+ 127 -1 127 -1 111 -1.5 c 128,-1,40
+ 95 -2 95 -2 81 -3 c 128,-1,41
+ 67 -4 67 -4 60 -4 c 1,42,-1
+ 58 0 l 1,43,-1
+ 60 14 l 1,44,-1
+ 63 18 l 1,45,46
+ 79 18 79 18 99.5 21.5 c 128,-1,47
+ 120 25 120 25 128 33 c 0,48,49
+ 136 40 136 40 143 51 c 128,-1,50
+ 150 62 150 62 152 82 c 0,51,52
+ 153 95 153 95 154 107.5 c 128,-1,53
+ 155 120 155 120 155.5 136.5 c 128,-1,54
+ 156 153 156 153 156 176 c 128,-1,55
+ 156 199 156 199 156 234 c 2,56,-1
+ 156 397 l 2,57,58
+ 156 438 156 438 156 463.5 c 128,-1,59
+ 156 489 156 489 155.5 506 c 128,-1,60
+ 155 523 155 523 154 535.5 c 128,-1,61
+ 153 548 153 548 152 564 c 1,62,-1
+ 45 537 l 1,63,-1
+ 42 541 l 1,64,-1
+ 42 554 l 1,0,-1
 EndSplineSet
-Kerns2: 113 -14 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 59 7 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 56 -12 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 45 -10 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 36 21 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 14 -13 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"
+Kerns2: 226 24 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 173 -17 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 135 -11 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 59 13 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 2 39 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 1 28 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"
+Substitution2: "'sups' Superscript in Latin lookup 4 subtable" onesuperior
+Substitution2: "'aalt' Access All Alternates in Latin lookup 0 subtable" onesuperior
 EndChar
