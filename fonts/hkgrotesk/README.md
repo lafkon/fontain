@@ -23,7 +23,7 @@ AUTHOR
 
 LICENSE
 =======
-[Creative Commons Attribution 3.0 Unported](http://creativecommons.org/licenses/by/3.0/)
+[SIL Open Font License (OFL)](http://scripts.sil.org/OFL)
 
 
 TEX CONFIGURATION
