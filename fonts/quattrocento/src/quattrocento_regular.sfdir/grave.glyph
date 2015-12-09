@@ -1,0 +1,62 @@
+StartChar: grave
+Encoding: 96 96 67
+Width: 219
+GlyphClass: 2
+Flags: W
+TtInstrs:
+SVTCA[y-axis]
+PUSHB_1
+ 0
+MDAP[rnd]
+PUSHB_5
+ 6
+ 11
+ 0
+ 16
+ 4
+CALL
+SVTCA[x-axis]
+PUSHB_1
+ 9
+MDAP[rnd]
+PUSHB_2
+ 4
+ 11
+CALL
+PUSHB_5
+ 8
+ 20
+ 0
+ 10
+ 4
+CALL
+PUSHB_2
+ 10
+ 1
+CALL
+SVTCA[y-axis]
+PUSHB_2
+ 6
+ 0
+SRP1
+SRP2
+PUSHB_1
+ 2
+IP
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+213 552 m 1,0,-1
+ 205 549 l 1,1,-1
+ 4 626 l 1,2,3
+ 0 635 0 635 0 645 c 0,4,5
+ 0 678 0 678 35 680 c 1,6,-1
+ 216 579 l 1,7,-1
+ 219 572 l 1,8,-1
+ 213 552 l 1,0,-1
+EndSplineSet
+EndChar

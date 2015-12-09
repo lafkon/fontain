@@ -1,0 +1,133 @@
+StartChar: backslash
+Encoding: 92 92 63
+Width: 432
+GlyphClass: 2
+Flags: W
+TtInstrs:
+SVTCA[y-axis]
+SVTCA[x-axis]
+PUSHB_1
+ 16
+MDAP[rnd]
+PUSHB_2
+ 17
+ 1
+CALL
+PUSHB_1
+ 54
+SMD
+PUSHW_3
+ -15422
+ -5532
+ 21
+CALL
+SPVFS
+SFVTPV
+PUSHB_1
+ 6
+SRP0
+PUSHB_1
+ 2
+MDRP[grey]
+PUSHB_2
+ 10
+ 10
+MIRP[rp0,min,black]
+PUSHB_1
+ 14
+MDRP[grey]
+PUSHB_1
+ 6
+SRP0
+PUSHB_4
+ 5
+ 6
+ 2
+ 19
+CALL
+PUSHB_1
+ 10
+SRP0
+PUSHB_4
+ 13
+ 10
+ 14
+ 19
+CALL
+PUSHB_3
+ 13
+ 10
+ 14
+DUP
+ROLL
+DUP
+ROLL
+SWAP
+SPVTL[parallel]
+SFVTPV
+SRP1
+SRP2
+IP
+PUSHB_3
+ 5
+ 6
+ 2
+SRP1
+SRP2
+IP
+SVTCA[y-axis]
+PUSHB_6
+ 2
+ 5
+ 6
+ 10
+ 13
+ 14
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+SVTCA[x-axis]
+PUSHB_6
+ 2
+ 5
+ 6
+ 10
+ 13
+ 14
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+PUSHB_1
+ 64
+SMD
+SVTCA[x-axis]
+SVTCA[y-axis]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+394 -53 m 1,0,-1
+ 393 -57 l 1,1,-1
+ 315 -57 l 1,2,-1
+ 312 -53 l 1,3,4
+ 290 40 290 40 214 249 c 2,5,-1
+ 147 433 l 2,6,7
+ 74 629 74 629 39 698 c 1,8,-1
+ 39 702 l 1,9,-1
+ 117 702 l 1,10,-1
+ 120 698 l 1,11,12
+ 135 628 135 628 205 433 c 2,13,-1
+ 271 249 l 2,14,15
+ 344 48 344 48 394 -53 c 1,0,-1
+EndSplineSet
+Kerns2: 212 -35 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 135 34 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 90 -13 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 89 -13 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 55 -19 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"
+EndChar

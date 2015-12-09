@@ -1,0 +1,68 @@
+StartChar: bullet
+Encoding: 8226 8226 219
+Width: 266
+GlyphClass: 2
+Flags: W
+TtInstrs:
+SVTCA[y-axis]
+PUSHB_1
+ 9
+MDAP[rnd]
+PUSHB_5
+ 3
+ 11
+ 0
+ 15
+ 4
+CALL
+PUSHB_5
+ 3
+ 11
+ 0
+ 15
+ 4
+CALL
+SVTCA[x-axis]
+PUSHB_1
+ 12
+MDAP[rnd]
+PUSHB_1
+ 0
+MDRP[rp0,rnd,white]
+PUSHB_5
+ 6
+ 20
+ 0
+ 15
+ 4
+CALL
+PUSHB_5
+ 6
+ 20
+ 0
+ 15
+ 4
+CALL
+PUSHB_2
+ 13
+ 1
+CALL
+SVTCA[y-axis]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+65 243 m 0,0,1
+ 65 270 65 270 85 291 c 128,-1,2
+ 105 312 105 312 133 312 c 0,3,4
+ 159 312 159 312 180 291 c 128,-1,5
+ 201 270 201 270 201 243 c 0,6,7
+ 201 215 201 215 180.5 195.5 c 128,-1,8
+ 160 176 160 176 133 176 c 0,9,10
+ 104 176 104 176 84.5 195.5 c 128,-1,11
+ 65 215 65 215 65 243 c 0,0,1
+EndSplineSet
+EndChar

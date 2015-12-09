@@ -1,0 +1,60 @@
+StartChar: bar
+Encoding: 124 124 95
+Width: 236
+GlyphClass: 2
+Flags: W
+TtInstrs:
+SVTCA[y-axis]
+SVTCA[x-axis]
+PUSHB_1
+ 16
+MDAP[rnd]
+PUSHB_1
+ 3
+MDRP[rp0,rnd,white]
+PUSHB_2
+ 12
+ 14
+MIRP[min,black]
+PUSHB_3
+ 12
+ 3
+ 10
+CALL
+PUSHB_4
+ 64
+ 12
+ 14
+ 9
+CALL
+PUSHB_1
+ 9
+SHP[rp2]
+PUSHB_2
+ 17
+ 1
+CALL
+SVTCA[y-axis]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+80 -114 m 1,0,-1
+ 79 -110 l 1,1,2
+ 91 -13 91 -13 91 192 c 2,3,-1
+ 91 500 l 2,4,5
+ 91 682 91 682 79 764 c 1,6,-1
+ 80 768 l 1,7,-1
+ 156 768 l 1,8,-1
+ 158 764 l 1,9,10
+ 146 682 146 682 146 500 c 2,11,-1
+ 146 192 l 2,12,13
+ 146 -13 146 -13 158 -110 c 1,14,-1
+ 156 -114 l 1,15,-1
+ 80 -114 l 1,0,-1
+EndSplineSet
+Kerns2: 212 -11 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"
+EndChar
