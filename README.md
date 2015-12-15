@@ -170,6 +170,8 @@ and use an apache web server add this to you `.htaccess`:
 FONT STYLES
 ===========
 
+quattrocento_regular
+hkgrotesk_regular
   courier-prime_bold-italic
   courier-prime_bold
 courier-prime_italic
