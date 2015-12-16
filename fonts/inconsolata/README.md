@@ -30,10 +30,11 @@ LICENSE
 [SIL Open Font License (OFL)](http://scripts.sil.org/OFL)
 
 
-
-T!EX CONFIGURATION
+TEX CONFIGURATION
 =================
-KARLBERRYNAME:
-FOUNDRY:
-TEXSRCREGULAR:
+KARLBERRYNAME:lin
+FOUNDRY:levien
+TEXSRCBOLD:inconsolata_bold
+TEXSRCREGULAR:inconsolata_regular
+
 
