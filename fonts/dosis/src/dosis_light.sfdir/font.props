@@ -4,6 +4,7 @@ FullName: Dosis Light
 FamilyName: Dosis
 Weight: Light
 Copyright: Copyright (c) 2011 by EdgarTolentino, PabloImpallari, IginoMarini. All rights reserved.
+FontLog: "This file provides detailed information on the Dosis Font Software.+AAoA-This information should be distributed along with the Dosis fonts and any derivative works.+AAoACgAA-Dosis Prime Font Information+AAoACgAA-Dosis is a Unicode typeface family that supports languages that use the Latin script and its variants, and could be expanded to support other scripts.+AAoACgAA-More specifically, this release supports the following Unicode ranges: Latin-1, Latin-1 Supplement, Latin Extended-A, Latin Extended-B+AAoACgAA-Documentation can be found at www.impallari.com/dosis To contribute to the project contact Pablo Impallari at impallari@gmail.com+AAoACgAK-ChangeLog+AAoACgAA-4 Nov 2015 (Christoph Haag)+AAoA-- created fontforge sources as base to work on GNU/Linux+AAoA-- added FONTLOG to .sfdir+AAoA-- Mastered Font from Fontforge SFDIR to UFO,OTF,TTF,EOT,WOFF,SVG+AAoACgAA-18 March 2012 (Pablo Impallari, Edgar Tolentino & Igino Marini) Dosis Family v1.007+AAoA-- Renamed family to +ACIA-Dosis+ACIA to avoid a trademark dispute+AAoACgAA-04 Sept 2011 (Pablo Impallari, Edgar Tolentino & Igino Marini) Dosis Family v1.006+AAoA-- Light weight is now Extra-Light+AAoA-- 6 more weights added+AAoA-- Charset expansion+AAoA-- TTF Hinting+AAoACgAA-25 Mar 2011 (Pablo Impallari, Edgar Tolentino & Igino Marini) Dosis Light v1.005+AAoA-- Spacing and Kerning+AAoA-- Charset expansion+AAoA-- TTF Hinting+AAoACgAA-02 Nov 2010 (Pablo Impallari & Edgar Tolentino) Dosis Light v1.003+AAoA-- Initial release+AAoACgAA-Acknowledgements+AAoACgAA-If you make modifications be sure to add your name (N), email (E), web-address (if you have one) (W) and description (D). This list is in alphabetical order.+AAoACgAA-N: Igino Marini+AAoA-E: mail@iginomarini.com+AAoA-W: http://www.ikern.com+AAoA-D: Spacing and Kerning+AAoACgAA-N: Pablo Impallari+AAoA-E: impallari@gmail.com+AAoA-W: http://www.impallari.com+AAoA-D: Designer+AAoACgAA-N: Edgar Tolentino+AAoA-E: dosis.creativa@gmail.com+AAoA-D: Designer+AAoACgAA-N: Christoph Haag+AAoA-E: christoph@lafkon.net+AAoA-W: www.lafkon.net+AAoA-D: Transformer"
 Version: 1.007
 ItalicAngle: 0
 UnderlinePosition: -51
@@ -22,7 +23,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1332666960
-ModificationTime: 1332658323
+ModificationTime: 1451750311
 PfmFamily: 17
 TTFWeight: 300
 TTFWidth: 5
@@ -69,6 +70,7 @@ Lookup: 1 0 0 "'ss05' Style Set 5 in Latin lookup 7" { "'ss05' Style Set 5 in La
 Lookup: 1 0 0 "'lnum' Lining Figures in Latin lookup 8" { "'lnum' Lining Figures in Latin lookup 8 subtable"  } ['lnum' ('latn' <'dflt' > ) ]
 Lookup: 4 0 0 "'frac' Diagonal Fractions in Latin lookup 9" { "'frac' Diagonal Fractions in Latin lookup 9 subtable"  } ['frac' ('latn' <'dflt' > ) ]
 Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 0" { "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  "'kern' Horizontal Kerning in Latin lookup 0 kerning class 1"  } ['kern' ('latn' <'dflt' > ) ]
+MarkAttachClasses: 1
 DEI: 91125
 KernClass2: 71+ 57 "'kern' Horizontal Kerning in Latin lookup 0 kerning class 1"
  5 slash
@@ -2204,4 +2206,6 @@ DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
 WinInfo: 60 20 5
+BeginPrivate: 0
+EndPrivate
 EndSplineFont
