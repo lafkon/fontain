@@ -529,14 +529,26 @@
                     sed 's/[^a-zA-Z0-9 ]//g'`
         if [ X$FLCHECKNOW != X$FLCHECKPREV ]; then
          echo ""                                               >> $FONTLOG
-         grep ^FontLog: $FONTPROPS    | \
-         cut -d ":" -f 2-             | \
-         sed 's/^ "//g'               | sed 's/" $//g'     | \
-         sed 's/+AAoA-/\n/g'          | sed 's/CgAA-/\n/g' | \
-         sed 's/+AAoA/\n/g'           | sed 's/CgAK-/\n/g' | \
-         fold -s -w 60                | \
-         sed '/^-/!s/^/  /'           | \
-         sed 's/^//'                                           >> $FONTLOG
+
+       # grep ^FontLog: $FONTPROPS    | \
+       # cut -d ":" -f 2-             | \
+       # sed 's/^ "//g'               | sed 's/" $//g'     | \
+       # sed 's/+AAoA-/\n/g'          | sed 's/CgAA-/\n/g' | \
+       # sed 's/+AAoA/\n/g'           | sed 's/CgAK-/\n/g' | \
+       # fold -s -w 60                | \
+       # sed '/^-/!s/^/  /'           | \
+       # sed 's/^//'                                           >> $FONTLOG
+
+         grep ^FontLog: $FONTPROPS | \
+         cut -d ":" -f 2-           | \
+         sed 's/^[ ]*"//g'              | sed 's/"[ ]*$//g' | \
+         iconv -c -f utf7 -t utf8//TRANSLIT  | # RECODE (SOMETHING GOES WRONG) 
+         recode utf-8..h0                    | # HACK
+         sed 's/&#0;//g'                     | # TO FIX
+         recode h0..utf-8                    | # ENCODING    
+         fold -s -w 60 | sed '/^-/!s/^/  /'  | #
+         tee                                                   >> $FONTLOG
+
          echo -e "\n"                                          >> $FONTLOG
          FLCHECKPREV=$FLCHECKNOW
         else
