@@ -1,24 +1,26 @@
-
 StartChar: Amacron
-Encoding: 256 256 7
+Encoding: 256 256 27
 Width: 574
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G<-42 94 -42 -42 405 405 405 542> 160 100<198 373 198 385 158 373> 595 96<332 332> 671 20G<267 428 428 428> 787 91<230 505 217 517>
+HStem: 0 21G<-42 94 -42 -42 405 542 405 405> 160 100<198 373 198 386 158 373> 595 96<332 332> 671 20G<267 428 428 428> 787 91<230 505 218 517>
 VStem: -42 584<0 0>
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 118 529 basechar 0
-AnchorPoint: "Anchor-9" 348 691 basechar 0
-AnchorPoint: "Anchor-8" 493 0 basechar 0
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 369 878 basechar 0
+AnchorPoint: "Anchor-11" 493 0 basechar 0
+AnchorPoint: "Anchor-10" 249 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-505 787 m 1xdc
- 217 787 l 1
+517 878 m 1xdc
+ 505 787 l 1
+ 218 787 l 1
  230 878 l 1
- 517 878 l 1
- 505 787 l 1xdc
-385 160 m 1
+ 517 878 l 1xdc
+405 0 m 1
+ 386 160 l 1
  158 160 l 1
  94 0 l 1
  -42 0 l 1
@@ -26,13 +28,12 @@ SplineSet
  428 691 l 1
  542 0 l 1
  405 0 l 1
- 385 160 l 1
-373 260 m 1
+198 260 m 1
+ 373 260 l 1
  332 595 l 1xec
  198 260 l 1
- 373 260 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" amacron.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" amacron.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" amacron.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

@@ -1,34 +1,42 @@
-
 StartChar: Eng
-Encoding: 330 330 69
+Encoding: 330 330 169
 Width: 658
 GlyphClass: 2
 Flags: MW
-HStem: -193.15 21G 0 16.71 664.14 16.72
-VStem: 125.71 14 518.57 13.99
+HStem: -195 13<422 462.5 422 467> 0 16<515 520 515 520> 0 21G<126 140 126 126 515 518 515 515> 665 16<138 138>
+VStem: 126 14<0 516 0 681> 518 15<-90 0 0 0>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 334 681 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 326 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-532.57 680.85 m 1
- 532.561 3.98926 l 2
- 532.561 -120.581 499.711 -154.861 425.991 -193.151 c 1
- 421.562 -183.001 l 1
- 489.552 -147.041 519.102 -113.991 519.842 -0.000976562 c 1
- 513.142 -0.000976562 l 1
- 138.991 664.139 l 1
- 137.991 664.139 l 1
- 139.281 634.289 139.711 594.139 139.711 516.289 c 2
- 139.711 -0.000976562 l 1
- 125.711 -0.000976562 l 1
- 125.711 680.859 l 1
- 145.561 680.859 l 1
- 519.28 16.709 l 1
- 520.28 16.709 l 1
- 519.42 57.2793 518.57 114.279 518.57 177.14 c 2
- 518.57 680.85 l 1
- 532.57 680.85 l 1
+533 -91 m 2xbc
+ 533 -160 494 -195 440 -195 c 0
+ 401 -195 375 -181 356 -166 c 1
+ 363 -156 l 1
+ 382 -170 404 -182 440 -182 c 0
+ 485 -182 518 -154 518 -90 c 2
+ 518 0 l 1
+ 515 0 l 1
+ 138 665 l 1
+ 139 635 140 594 140 516 c 2
+ 140 0 l 1
+ 126 0 l 1
+ 126 681 l 1
+ 144 681 l 1
+ 520 16 l 1xdc
+ 519 57 519 114 519 177 c 2
+ 519 681 l 1
+ 533 681 l 1
+ 533 -91 l 2xbc
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" eng.sc
-Substitution2: "'aalt' Access All Alternates lookup 0 subtable" eng.sc
+Substitution2: "'ss01' Style Set 1 lookup 33 subtable" Eng.ss01
+Substitution2: "'salt' Stylistic Alternatives lookup 32 subtable" Eng.ss01
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" eng.sc
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" eng.sc Eng.ss01
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

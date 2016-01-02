@@ -1,27 +1,28 @@
-
 StartChar: Gamma
-Encoding: 915 915 695
+Encoding: 915 915 1501
 Width: 500
 GlyphClass: 2
 Flags: MW
 HStem: 0 21G<6 208 6 6> 538 158<283 525 283 283>
 VStem: 6 560
+AnchorPoint: "Anchor-9" 0 0 basechar 0
+AnchorPoint: "Anchor-8" 0 0 basechar 0
 AnchorPoint: "Anchor-7" 0 0 basechar 0
 AnchorPoint: "Anchor-6" 0 0 basechar 0
-AnchorPoint: "Anchor-5" 0 0 basechar 0
-AnchorPoint: "Anchor-4" 341 696 basechar 0
+AnchorPoint: "Anchor-5" 341 696 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-525 538 m 1
+566 696 m 1
+ 525 538 l 1
  283 538 l 1
  208 0 l 1
  6 0 l 1
  103 696 l 1
  566 696 l 1
- 525 538 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" gamma.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" gamma.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" gamma.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

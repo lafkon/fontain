@@ -1,14 +1,16 @@
-
 StartChar: plus
-Encoding: 43 43 1115
+Encoding: 43 43 2273
 Width: 536
+GlyphClass: 2
 Flags: MW
 HStem: 257 150<58 189 37 210 366 497 58 345>
 VStem: 37 481<257 407>
 LayerCount: 2
+Back
 Fore
 SplineSet
-366 407 m 1
+388 567 m 1
+ 366 407 l 1
  518 407 l 1
  497 257 l 1
  345 257 l 1
@@ -20,13 +22,12 @@ SplineSet
  210 407 l 1
  231 567 l 1
  388 567 l 1
- 366 407 l 1
 EndSplineSet
-Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" plus.osf
-Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" plus.tf
-Substitution2: "'dnom' Denominators lookup 14 subtable" plus.dnom
-Substitution2: "'numr' Numerators lookup 13 subtable" plus.numr
-Substitution2: "'sups' Superscript lookup 12 subtable" plussuperior
-Substitution2: "'subs' Subscript lookup 11 subtable" uni208A
-AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" uni208A plussuperior plus.numr plus.dnom plus.tf plus.osf
+Substitution2: "'onum' Oldstyle Figures lookup 26 subtable" plus.osf
+Substitution2: "'tnum' Tabular Numbers lookup 25 subtable" plus.tf
+Substitution2: "'dnom' Denominators lookup 17 subtable" plus.dnom
+Substitution2: "'numr' Numerators lookup 16 subtable" plus.numr
+Substitution2: "'sups' Superscript lookup 15 subtable" uni207A
+Substitution2: "'subs' Subscript lookup 14 subtable" uni208A
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" uni208A uni207A plus.numr plus.dnom plus.tf plus.osf
 EndChar

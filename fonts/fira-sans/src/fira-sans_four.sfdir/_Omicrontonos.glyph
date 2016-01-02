@@ -1,35 +1,37 @@
-
 StartChar: Omicrontonos
-Encoding: 908 908 719
-Width: 687
+Encoding: 908 908 1521
+Width: 701
 GlyphClass: 2
 Flags: MW
-HStem: -9.07001 21G 660.71 20G 670.14 20G
-VStem: 57.35 545.58
-AnchorPoint: "Anchor-7" 0 0 basechar 0
-AnchorPoint: "Anchor-6" 102 680 basechar 0
-AnchorPoint: "Anchor-5" 0 0 basechar 0
-AnchorPoint: "Anchor-4" 341 680 basechar 0
+HStem: -9 21G<276.5 439.5> 661 20G<60 60> 670 20G<278.5 436.5>
+VStem: 30 586<230 571>
+AnchorPoint: "Anchor-9" 531 680 basechar 0
+AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-7" 436 0 basechar 0
+AnchorPoint: "Anchor-6" 357 0 basechar 0
+AnchorPoint: "Anchor-5" 357 680 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-343.14 690.14 m 0xb0
- 504.14 690.14 602.93 563.569 602.93 339.999 c 0
- 602.93 119.859 510.069 -9.07031 343.14 -9.07031 c 0
- 184.069 -9.07031 84.2891 118.64 84.2891 338.069 c 0
- 84.2891 557.569 187.859 690.14 343.14 690.14 c 0xb0
-343.14 686.21 m 0
- 190.069 686.21 88.4199 554.919 88.4199 338.069 c 0
- 88.4199 121.569 186.42 -5.15039 343.14 -5.15039 c 0
- 507.85 -5.15039 598.779 122.5 598.779 340 c 0
- 598.779 560.64 501.93 686.21 343.14 686.21 c 0
-92.0703 680.139 m 1xd0
- 60.7793 570.489 l 1
- 57.3496 570.779 l 1
- 87.5 680.709 l 1
- 92.0703 680.139 l 1xd0
+356 690 m 0xb0
+ 517 690 616 564 616 340 c 0
+ 616 120 523 -9 356 -9 c 0
+ 197 -9 97 119 97 338 c 0
+ 97 558 201 690 356 690 c 0xb0
+356 686 m 0
+ 203 686 101 555 101 338 c 0
+ 101 122 199 -5 356 -5 c 0
+ 521 -5 612 123 612 340 c 0
+ 612 561 515 686 356 686 c 0
+60 681 m 1xd0
+ 65 680 l 1
+ 33 571 l 1
+ 30 571 l 1
+ 60 681 l 1xd0
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" omicrontonos.sc
-Substitution2: "'aalt' Access All Alternates lookup 0 subtable" omicrontonos.sc
+Substitution2: "Single Substitution lookup 41 subtable" Omicron
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" omicrontonos.sc
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" omicrontonos.sc Omicron
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

@@ -1,28 +1,30 @@
-
 StartChar: utilde
-Encoding: 361 361 249
+Encoding: 361 361 684
 Width: 576
 GlyphClass: 2
 Flags: MW
-HStem: -12 67<194.5 239.5> 0 21G<372 442 372 372> 506 20G<129 212 212 212 433 516 516 516> 658 65<389 417 389 426.5> 669 20G<185 185> 706 64<283 312> 719 20G<517 517>
+HStem: -12 67<194.5 239.5> 0 21G<372 442 372 372> 506 20G<129 212 212 212 433 516 516 516> 658 65<388 415.5 388 425> 669 20G<184 184> 706 64<282 311> 719 20G<515 515>
 VStem: 73.57 83.79
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 325 526 basechar 0
-AnchorPoint: "Anchor-8" 452 0 basechar 0
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 526 526 basechar 0
+AnchorPoint: "Anchor-12" 352 770 basechar 0
+AnchorPoint: "Anchor-11" 452 0 basechar 0
+AnchorPoint: "Anchor-10" 251 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-408 658 m 0xb1
- 349 658 328 706 296 706 c 0
- 270 706 254 689 233 659 c 1
- 185 689 l 1
- 215 736 252 770 298 770 c 0xad
- 353 770 372 723 406 723 c 0
- 428 723 446 738 467 769 c 1xb1
- 517 739 l 1xab
- 483 684 445 658 408 658 c 0xb1
-442 0 m 1x6b
+406 658 m 0xb1
+ 348 658 327 706 295 706 c 0
+ 269 706 252 689 232 659 c 1
+ 184 689 l 1
+ 214 736 251 770 296 770 c 0xad
+ 352 770 371 723 405 723 c 0
+ 426 723 444 738 466 769 c 1xb1
+ 515 739 l 1xab
+ 482 684 444 658 406 658 c 0xb1
+516 526 m 1xab
+ 442 0 l 1
  372 0 l 1x6b
  380 105 l 1
  332 35 277 -12 202 -12 c 0
@@ -30,12 +32,11 @@ SplineSet
  129 526 l 1
  212 526 l 1
  160 155 l 2
- 149 81 170 55 219 55 c 0xab
+ 149 81 170 55 219 55 c 0
  288 55 344 121 386 189 c 1
  433 526 l 1
- 516 526 l 1
- 442 0 l 1x6b
+ 516 526 l 1xab
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" utilde.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 28 subtable" utilde.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" utilde.sc
 EndChar

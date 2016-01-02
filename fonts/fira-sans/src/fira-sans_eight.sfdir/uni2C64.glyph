@@ -1,0 +1,44 @@
+StartChar: uni2C64
+Encoding: 11364 11364 233
+Width: 564
+GlyphClass: 2
+Flags: MW
+HStem: -194 8<192.5 234.5 192.5 235.5> 0 21G<502 513 502 502> 331 8<136 300 300 312 136 300> 673 7<136 268 136 136>
+VStem: 128 8<-94 -93 -93 331 339 673> 478 8<445.5 556.5>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 283 680 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 302 0 basechar 0
+LayerCount: 2
+Back
+Fore
+SplineSet
+136 -93 m 2
+ 136 -156 169 -186 216 -186 c 0
+ 253 -186 275 -174 294 -159 c 1
+ 298 -165 l 1
+ 279 -180 255 -194 216 -194 c 0
+ 164 -194 128 -159 128 -94 c 2
+ 128 680 l 1
+ 269 680 l 2
+ 428 680 486 613 486 505 c 0
+ 486 386 405 339 321 332 c 1
+ 513 0 l 1
+ 502 0 l 1
+ 312 331 l 1
+ 136 331 l 1
+ 136 -93 l 2
+268 673 m 2
+ 136 673 l 1
+ 136 339 l 1
+ 300 339 l 2
+ 394 339 478 386 478 505 c 0
+ 478 608 424 673 268 673 c 2
+EndSplineSet
+Substitution2: "'ss01' Style Set 1 lookup 33 subtable" uni2C64.ss01
+Substitution2: "'salt' Stylistic Alternatives lookup 32 subtable" uni2C64.ss01
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" uni2C64.sc
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" uni2C64.sc uni2C64.ss01
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
+EndChar

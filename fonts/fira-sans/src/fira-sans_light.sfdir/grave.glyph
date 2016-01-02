@@ -1,21 +1,22 @@
-
 StartChar: grave
-Encoding: 96 96 1257
+Encoding: 96 96 2531
 Width: 274
 Flags: MW
 HStem: 645 137
 VStem: 30 214<679 730>
 LayerCount: 2
+Back
 Fore
 SplineSet
-244 679 m 1
+56 782 m 1
+ 244 679 l 1
  226 645 l 1
  30 730 l 1
  56 782 l 1
- 244 679 l 1
 EndSplineSet
-Substitution2: "'case' Case-Sensitive Forms lookup 25 subtable" grave.case
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" grave.sc
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" grave.sc
+Substitution2: "Single Substitution lookup 41 subtable" grave.case
+Substitution2: "'case' Case-Sensitive Forms lookup 28 subtable" grave.case
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" grave.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" grave.sc
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" grave.sc grave.case
 EndChar

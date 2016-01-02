@@ -1,32 +1,32 @@
-
 StartChar: two
-Encoding: 50 50 881
+Encoding: 50 50 2019
 Width: 463
 Flags: MW
-HStem: 0 21G
-VStem: 14.58 409.78
+HStem: 0 21G<15 359 15 15>
+VStem: 15 409
 LayerCount: 2
+Back
 Fore
 SplineSet
-277.64 670.28 m 0
- 368.35 670.28 424.359 608.5 424.359 527.86 c 0
- 424.359 405.57 364.649 343.221 20.499 3.93066 c 1
- 359.429 4.00098 l 1
- 358.648 0.000976562 l 1
- 14.5781 0.000976562 l 1
- 14.8584 4.00098 l 1
- 364.288 348.291 420.288 409.221 420.288 527.791 c 0
- 420.288 606.641 365.788 666.431 277.578 666.431 c 0
- 203.858 666.431 152.929 636.28 99.5791 585.57 c 1
- 96.1494 587.851 l 1
- 150.499 639.641 202.859 670.28 277.64 670.28 c 0
+278 670 m 0
+ 368 670 424 609 424 528 c 0
+ 424 406 365 343 21 4 c 1
+ 359 4 l 1
+ 359 0 l 1
+ 15 0 l 1
+ 15 4 l 1
+ 364 348 420 409 420 528 c 0
+ 420 607 366 666 278 666 c 0
+ 204 666 153 636 100 586 c 1
+ 96 588 l 1
+ 151 640 203 670 278 670 c 0
 EndSplineSet
-Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" two.osf
-Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" two.tf
-Substitution2: "'frac' Diagonal Fractions lookup 16 subtable" two.numr
-Substitution2: "'dnom' Denominators lookup 14 subtable" two.dnom
-Substitution2: "'numr' Numerators lookup 13 subtable" two.numr
-Substitution2: "'sups' Superscript lookup 12 subtable" twosuperior
-Substitution2: "'subs' Subscript lookup 11 subtable" twoinferior
-AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" twoinferior twosuperior two.numr two.dnom two.tf two.osf
+Substitution2: "'onum' Oldstyle Figures lookup 26 subtable" two.osf
+Substitution2: "'tnum' Tabular Numbers lookup 25 subtable" two.tf
+Substitution2: "'frac' Diagonal Fractions lookup 19 subtable" two.numr
+Substitution2: "'dnom' Denominators lookup 17 subtable" two.dnom
+Substitution2: "'numr' Numerators lookup 16 subtable" two.numr
+Substitution2: "'sups' Superscript lookup 15 subtable" uni00B2
+Substitution2: "'subs' Subscript lookup 14 subtable" uni2082
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" uni2082 uni00B2 two.numr two.dnom two.tf two.osf
 EndChar

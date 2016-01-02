@@ -1,20 +1,27 @@
-
 StartChar: eng
-Encoding: 331 331 206
+Encoding: 331 331 547
 Width: 572
 GlyphClass: 2
 Flags: MW
-HStem: -227 21G<293 293> 0 21G<42 240 42 42> 410 124<42 316> 514 20G<42 215 215 215> 534 20G
-VStem: 42 198<0 357 0 534 0 534> 337 198<65 77 77 358 358 379>
+HStem: -227 140<273.5 301.5 271 376.5> 0 21G<42 240 42 42> 410 124<42 316> 514 20G<42 215 215 215> 534 20G
+VStem: 42 198<0 357 0 534 0 534> 337 198<-34 -16 -16 358 358 379>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 291 534 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 296 -215 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 391 554 m 0xce
  480 554 535 496 535 394 c 2
- 535 77 l 2
- 535 -111 425 -184 293 -227 c 1
- 225 -83 l 1
- 292 -52 337 -22 337 65 c 2
+ 535 -16 l 2
+ 535 -157 444 -227 309 -227 c 0
+ 238 -227 189 -208 153 -182 c 1
+ 217 -67 l 1
+ 241 -79 257 -87 285 -87 c 0
+ 318 -87 337 -69 337 -34 c 2
  337 358 l 2
  337 400 325 410 307 410 c 0
  286 410 263 393 240 357 c 1xe6
@@ -25,6 +32,6 @@ SplineSet
  229 479 l 1
  278 531 327 554 391 554 c 0xce
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" eng.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" eng.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" eng.sc
 EndChar

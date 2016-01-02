@@ -1,12 +1,17 @@
-
 StartChar: Beta
-Encoding: 914 914 694
+Encoding: 914 914 1500
 Width: 612
 GlyphClass: 2
 Flags: MW
 HStem: 0 161<241 245> 291 143<279 293 259 298> 542 156<294 306 306 307 294 294>
-VStem: 366 232<220 258.5> 378 235<492 515>
+VStem: 366 232<220 258.5> 378 235<493 515.5>
+AnchorPoint: "Anchor-9" 0 0 basechar 0
+AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-7" 0 0 basechar 0
+AnchorPoint: "Anchor-6" 0 0 basechar 0
+AnchorPoint: "Anchor-5" 338 698 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 463 369 m 1xf0
@@ -16,9 +21,9 @@ SplineSet
  90 698 l 1
  306 698 l 2
  495 698 613 661 613 535 c 0xe8
- 613 432 535 389 463 369 c 1xf0
+ 613 432 535 388 463 369 c 1xf0
 298 434 m 2xe8
- 384 434 378 481 378 503 c 0
+ 384 434 378 482 378 504 c 0
  378 527 365 542 307 542 c 2
  294 542 l 1
  279 434 l 1
@@ -30,7 +35,7 @@ SplineSet
  241 161 l 1
  268 161 l 2xf0
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" beta.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" beta.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" beta.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

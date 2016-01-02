@@ -1,15 +1,16 @@
-
 StartChar: currency
-Encoding: 164 164 1061
+Encoding: 164 164 2199
 Width: 560
+GlyphClass: 2
 Flags: MW
-HStem: 135 67<256 301.5> 481 65<256 301.5 256 322> 521 20G<34 34 526 526>
+HStem: 135 67<256 301.5> 481 65<256 301.5 256 322>
 VStem: 75 80<318.5 363.5> 406 81<318 364 318 385>
 LayerCount: 2
+Back
 Fore
 SplineSet
-487 341 m 0xb8
- 487 295 474 252 449 218 c 1
+487 341 m 0
+ 487 295 474 252 450 217 c 1
  526 142 l 1
  476 91 l 1
  397 168 l 1
@@ -18,24 +19,24 @@ SplineSet
  84 91 l 1
  34 142 l 1
  112 220 l 1
- 88 254 75 296 75 341 c 0
- 75 386 88 427 111 461 c 1
+ 89 254 75 296 75 341 c 0
+ 75 386 88 427 112 461 c 1
  34 541 l 1
- 84 591 l 1xb8
- 162 511 l 1
- 194 533 234 546 278 546 c 0
- 325 546 365 534 398 513 c 1
- 476 591 l 1xd8
+ 84 591 l 1
+ 163 511 l 1
+ 195 533 234 546 278 546 c 0
+ 325 546 365 534 397 513 c 1
+ 476 591 l 1
  526 541 l 1
- 449 464 l 1
- 474 429 487 387 487 341 c 0xb8
+ 450 464 l 1
+ 474 429 487 387 487 341 c 0
 281 202 m 0
  363 202 406 255 406 342 c 0
- 406 428 363 481 281 481 c 0xd8
+ 406 428 363 481 281 481 c 0
  199 481 155 428 155 342 c 0
  155 255 199 202 281 202 c 0
 EndSplineSet
-Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" currency.osf
-Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" currency.tf
+Substitution2: "'onum' Oldstyle Figures lookup 25 subtable" currency.osf
+Substitution2: "'tnum' Tabular Numbers lookup 24 subtable" currency.tf
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" currency.tf currency.osf
 EndChar

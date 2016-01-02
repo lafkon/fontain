@@ -1,30 +1,31 @@
-
 StartChar: odieresis
-Encoding: 246 246 212
+Encoding: 246 246 563
 Width: 575
 GlyphClass: 2
 Flags: MW
-HStem: -16 106<232.5 316 232.5 360.5> 440 106<258.5 342> 644 148<217 243 440.5 466.5>
-VStem: 34 144<160.5 241 160.5 280> 156 147 380 146 397 144<289 322 251 369.5>
+HStem: -16 106<232.5 316 232.5 360.5> 440 106<258.5 342> 644 148<221.5 248.5 444.5 472>
+VStem: 34 144<160.5 241 160.5 280> 161 147 385 146 397 144<289 322 251 369.5>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 527 530 basechar 0
+AnchorPoint: "Anchor-12" 349 792 basechar 0
 AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 341 720 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 253 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-237 792 m 0xec
- 281 792 310 757 303 714 c 1
- 298 675 263 644 223 644 c 0
- 180 644 151 679 156 722 c 1
- 162 761 197 792 237 792 c 0xec
-460 792 m 0
- 504 792 533 757 526 714 c 1
- 521 675 487 644 446 644 c 0
- 403 644 374 679 380 722 c 0
- 385 761 421 792 460 792 c 0
+242 792 m 0xec
+ 286 792 315 757 308 714 c 0
+ 303 675 269 644 228 644 c 0
+ 185 644 156 679 161 722 c 0
+ 167 761 201 792 242 792 c 0xec
+465 792 m 0
+ 509 792 538 757 531 714 c 0
+ 526 675 493 644 451 644 c 0
+ 408 644 379 679 385 722 c 0
+ 390 761 424 792 465 792 c 0
 324 546 m 0xd2
- 463 546 542 460 541 322 c 1
+ 463 546 542 460 541 322 c 0
  541 180 470 -16 251 -16 c 0
  112 -16 34 69 34 208 c 0
  34 352 105 546 324 546 c 0xd2
@@ -34,6 +35,6 @@ SplineSet
  372 90 397 246 397 332 c 0
  397 407 369 440 315 440 c 0
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" odieresis.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 28 subtable" odieresis.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" odieresis.sc
 EndChar

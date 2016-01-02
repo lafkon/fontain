@@ -1,14 +1,15 @@
-
 StartChar: section.tf
-Encoding: 1114602 -1 1244
+Encoding: 1114968 -1 2404
 Width: 560
+GlyphClass: 2
 Flags: MW
 HStem: -91 132<185.5 234 185.5 281> 584 132<335 380>
 VStem: 103.92 186.08 285 186.32
 LayerCount: 2
+Back
 Fore
 SplineSet
-392 477 m 1xd0
+392 477 m 0xd0
  481 453 539 414 526 322 c 0
  518 264 478 222 429 195 c 1
  466 167 477 134 469 78 c 0
@@ -17,7 +18,7 @@ SplineSet
  83 83 l 1
  124 56 163 41 208 41 c 0
  260 41 282 54 285 80 c 0xd0
- 289 106 285 117 175 150 c 1
+ 289 106 285 117 175 150 c 0
  91 173 34 214 46 303 c 0
  54 359 97 399 144 426 c 1
  108 457 99 495 106 545 c 0
@@ -25,17 +26,17 @@ SplineSet
  438 716 511 694 561 658 c 1
  484 549 l 1
  446 575 401 584 359 584 c 0
- 311 584 293 571 290 544 c 1xe0
- 285 516 292 507 392 477 c 1xd0
+ 311 584 293 571 290 544 c 0xe0
+ 285 516 292 507 392 477 c 0xd0
 275 266 m 2
  331 244 l 1
  346 263 355 284 358 301 c 0
- 362 325 348 341 273 365 c 0
- 260 369 247 373 235 377 c 1
+ 362 325 348 341 273 365 c 2
+ 235 377 l 1
  223 360 217 341 215 326 c 0
  211 303 221 288 275 266 c 2
 EndSplineSet
-Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" section.tosf
-Substitution2: "'pnum' Proportional Numbers lookup 20 subtable" section
+Substitution2: "'onum' Oldstyle Figures lookup 26 subtable" section.tosf
+Substitution2: "'pnum' Proportional Numbers lookup 24 subtable" section
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" section section.tosf
 EndChar

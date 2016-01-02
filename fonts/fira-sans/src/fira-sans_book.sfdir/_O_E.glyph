@@ -1,16 +1,17 @@
-
 StartChar: OE
-Encoding: 338 338 82
+Encoding: 338 338 217
 Width: 900
 GlyphClass: 2
 Flags: MW
-HStem: -12 72<283 345.5> 0 60<283 838 283 406> 0 70<513 838 513 838> 316 70<613 785 613 785> 618 70<518 821 518 518> 628 60<282 831> 628 72<282 346 254.5 391.5>
+HStem: -12 72<283 345.5> 0 60<283 838 283 405> 0 70<513 838 513 838> 316 70<613 785 613 785> 618 70<518 821 518 518> 628 60<282 831> 628 72<282 346 254.5 391.5>
 VStem: 58 92<242 443 242 455.5> 522 91<316 316 316 386 316 444.5>
 LayerCount: 2
+Back
 Fore
 SplineSet
-838 0 m 1x3980
- 406 0 l 1x3980
+838 70 m 1x3980
+ 838 0 l 1
+ 405 0 l 1x3980
  383 -8 358 -12 333 -12 c 0
  175 -12 58 112 58 342 c 0
  58 569 176 700 333 700 c 0x9380
@@ -23,15 +24,14 @@ SplineSet
  785 316 l 1
  613 316 l 1
  608 211 573 125 513 70 c 1
- 838 70 l 1
- 838 0 l 1x3980
+ 838 70 l 1x3980
 150 342 m 0x5580
  150 142 230 60 336 60 c 0
  446 60 522 142 522 345 c 0
  522 544 447 628 336 628 c 0
  228 628 150 544 150 342 c 0x5580
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" oe.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" oe.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" oe.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

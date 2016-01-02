@@ -1,23 +1,24 @@
-
 StartChar: Omacron
-Encoding: 332 332 78
+Encoding: 332 332 206
 Width: 691
 GlyphClass: 2
 Flags: MW
-HStem: -11 42<278.5 415 278.5 429> 653 41<278 413.5> 803 39<220 449 220 449>
-VStem: 70 50<236.5 445.5 236.5 453> 220 229<803 842 803 842> 571 50<237 446.5>
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 106 684 basechar 0
-AnchorPoint: "Anchor-9" 335 684 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+HStem: -11 42<278.5 415 278.5 429> 653 41<278 413.5> 805 39<231 460 231 460>
+VStem: 70 50<236.5 445.5 236.5 453> 231 229<805 844 805 844> 571 50<237 446.5>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 539 684 basechar 0
+AnchorPoint: "Anchor-12" 348 844 basechar 0
+AnchorPoint: "Anchor-11" 434 0 basechar 0
+AnchorPoint: "Anchor-10" 345 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-220 803 m 1
- 220 842 l 1
- 449 842 l 1
- 449 803 l 1
- 220 803 l 1
+460 805 m 1
+ 231 805 l 1
+ 231 844 l 1
+ 460 844 l 1
+ 460 805 l 1
 345 694 m 0
  509 694 621 572 621 341 c 0
  621 117 513 -11 345 -11 c 0
@@ -29,7 +30,7 @@ SplineSet
  485 31 571 133 571 341 c 0
  571 552 482 653 345 653 c 0
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" omacron.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" omacron.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" omacron.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

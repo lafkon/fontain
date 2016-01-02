@@ -1,23 +1,24 @@
-
 StartChar: gdotaccent
-Encoding: 289 289 172
+Encoding: 289 289 457
 Width: 549
 GlyphClass: 2
 Flags: MW
-HStem: -191 193<179.5 254> 0 21G<179 260> 507 20G<238 362> 694 12<339 343>
+HStem: -191 193<179.5 254> 0 21G<179 260> 507 20G<238 362> 694 12<340 344>
 VStem: 52 410
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 343 706 basechar 0
 AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 316 517 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 211 -188 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-341 706 m 0x78
- 345 706 347 703 347 700 c 0
- 347 697 345 694 341 694 c 0
- 337 694 335 697 335 700 c 0
- 335 703 337 706 341 706 c 0x78
+342 706 m 0x78
+ 346 706 348 703 348 700 c 0
+ 348 697 346 694 342 694 c 0
+ 338 694 336 697 336 700 c 0
+ 336 703 338 706 342 706 c 0x78
 337 527 m 0
  387 527 428 511 462 487 c 1
  388 -11 l 2
@@ -37,6 +38,6 @@ SplineSet
  460 486 l 1
  426 510 386 525 337 525 c 0
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" gdotaccent.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 28 subtable" gdotaccent.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" gdotaccent.sc
 EndChar

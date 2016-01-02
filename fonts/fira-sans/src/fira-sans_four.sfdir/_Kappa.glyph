@@ -1,32 +1,33 @@
-
 StartChar: Kappa
-Encoding: 922 922 700
+Encoding: 922 922 1502
 Width: 505
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G 0.929993 21G 660.14 20G
-VStem: 129.28 12.72
-AnchorPoint: "Anchor-7" 285 0 basechar 0
-AnchorPoint: "Anchor-6" 0 0 basechar 0
-AnchorPoint: "Anchor-5" 0 0 basechar 0
-AnchorPoint: "Anchor-4" 284 680 basechar 0
+HStem: 0 21G<485 491 485 485> 660 20G<129 133 133 133 469 475 475 475>
+VStem: 129 13<366 366 366 680>
+AnchorPoint: "Anchor-9" 0 0 basechar 0
+AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-7" 0 0 basechar 0
+AnchorPoint: "Anchor-6" 285 0 basechar 0
+AnchorPoint: "Anchor-5" 284 680 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-133.35 0.929688 m 1x70
- 129.279 0.929688 l 1
- 129.279 680.14 l 1
- 133.35 680.14 l 1
- 133.35 0.929688 l 1x70
-141.999 366.069 m 1
- 490.71 -0.000976562 l 1
- 485.21 -0.000976562 l 1xb0
- 136.35 366.069 l 1
- 469.279 680.14 l 1
- 474.709 680.14 l 1
- 141.999 366.069 l 1
+133 680 m 1
+ 133 1 l 1
+ 129 1 l 1
+ 129 680 l 1
+ 133 680 l 1
+475 680 m 1
+ 142 366 l 1
+ 491 0 l 1
+ 485 0 l 1
+ 136 366 l 1
+ 469 680 l 1
+ 475 680 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" kappa.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" kappa.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" kappa.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

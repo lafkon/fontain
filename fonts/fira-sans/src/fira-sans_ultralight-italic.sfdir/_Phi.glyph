@@ -1,12 +1,12 @@
-
 StartChar: Phi
-Encoding: 934 934 713
+Encoding: 934 934 1519
 Width: 777
 GlyphClass: 2
 Flags: MW
-HStem: 0 103<350 350 350 369 334 350> 72 31<345 350 350 380> 582 30<417 420> 582 100<417 465 450 450>
-VStem: 53 36<237.5 363.5 237.5 371> 425 35 711 35<320.5 446>
+HStem: 0 103<350 350 350 369 334 350> 72 31<345 350 350 380> 582 29 582 100<450 450>
+VStem: 53 36<237.5 363.5 237.5 370.5> 425 35 711 35<320 446.5>
 LayerCount: 2
+Back
 Fore
 SplineSet
 746 385 m 0x9e
@@ -15,21 +15,21 @@ SplineSet
  334 0 l 1x9e
  345 72 l 1
  149 78 53 163 53 298 c 0
- 53 444 128 599 420 612 c 1x6e
+ 53 443 127 599 420 611 c 1x6e
  430 682 l 1
  465 682 l 1x9e
- 455 612 l 1xae
- 648 605 746 521 746 385 c 0x9e
-383 102 m 1
- 652 117 711 256 711 385 c 0
- 711 507 625 578 450 582 c 1
- 383 102 l 1
-417 582 m 1
+ 455 611 l 1xae
+ 649 606 746 521 746 385 c 0x9e
+383 103 m 1
+ 653 118 711 255 711 385 c 0
+ 711 508 624 578 450 582 c 1
+ 383 103 l 1
+350 103 m 1
+ 417 581 l 1xae
  148 567 89 428 89 299 c 0
- 89 176 175 107 350 103 c 1
- 417 582 l 1
+ 89 176 176 107 350 103 c 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" phi.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" phi.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" phi.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

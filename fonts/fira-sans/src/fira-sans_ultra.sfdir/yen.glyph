@@ -1,14 +1,16 @@
-
 StartChar: yen
-Encoding: 165 165 1066
+Encoding: 165 165 2238
 Width: 600
+GlyphClass: 2
 Flags: MW
 HStem: 0 203<66 411 66 192> 100 103<66 192 66 192 411 539> 256 102<66 147 66 192 66 147 455 539>
 VStem: 192 219<0 100 0 100 203 256 0 256>
 LayerCount: 2
+Back
 Fore
 SplineSet
-455 358 m 1xb0
+619 682 m 1xb0
+ 455 358 l 1
  539 358 l 1
  539 256 l 1
  411 256 l 1
@@ -30,10 +32,9 @@ SplineSet
  212 682 l 1
  304 414 l 1
  392 682 l 1
- 619 682 l 1
- 455 358 l 1xb0
+ 619 682 l 1xb0
 EndSplineSet
-Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" yen.osf
-Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" yen.tf
+Substitution2: "'onum' Oldstyle Figures lookup 25 subtable" yen.osf
+Substitution2: "'tnum' Tabular Numbers lookup 24 subtable" yen.tf
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" yen.tf yen.osf
 EndChar

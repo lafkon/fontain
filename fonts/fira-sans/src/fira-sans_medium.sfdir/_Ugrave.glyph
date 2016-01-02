@@ -1,24 +1,26 @@
-
 StartChar: Ugrave
-Encoding: 217 217 106
+Encoding: 217 217 275
 Width: 656
 GlyphClass: 2
 Flags: MW
 HStem: -15 103<284.5 370 284.5 411.5> 671 20G<71 203 203 203 452 585 585 585>
 VStem: 71 132<226 233 233 691> 452 133<233 691>
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 328 691 basechar 0
-AnchorPoint: "Anchor-8" 439 0 basechar 0
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 595 691 basechar 0
+AnchorPoint: "Anchor-12" 328 936 basechar 0
+AnchorPoint: "Anchor-11" 439 0 basechar 0
+AnchorPoint: "Anchor-10" 328 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-451 819 m 1
- 418 753 l 1
- 189 836 l 1
- 240 936 l 1
- 451 819 l 1
-585 226 m 2
+241 936 m 1
+ 452 819 l 1
+ 419 753 l 1
+ 190 836 l 1
+ 241 936 l 1
+585 691 m 1
+ 585 226 l 2
  585 87 496 -15 327 -15 c 0
  157 -15 71 84 71 226 c 2
  71 691 l 1
@@ -28,9 +30,8 @@ SplineSet
  413 88 452 136 452 233 c 2
  452 691 l 1
  585 691 l 1
- 585 226 l 2
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" ugrave.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" ugrave.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" ugrave.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

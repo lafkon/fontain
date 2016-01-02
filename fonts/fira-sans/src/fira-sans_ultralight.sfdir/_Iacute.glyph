@@ -1,30 +1,31 @@
-
 StartChar: Iacute
-Encoding: 205 205 45
+Encoding: 205 205 120
 Width: 273
 GlyphClass: 2
 Flags: MW
 HStem: 0 21G<119 154 119 119> 662 20G<119 154 154 154>
-VStem: 119 35<0 682>
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 90 682 basechar 0
-AnchorPoint: "Anchor-9" 136 682 basechar 0
-AnchorPoint: "Anchor-8" 164 0 basechar 0
+VStem: 119 35<0 682 0 682>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 137 872 basechar 0
+AnchorPoint: "Anchor-11" 164 0 basechar 0
+AnchorPoint: "Anchor-10" 137 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-239 837 m 1
- 53 761 l 1
- 43 783 l 1
- 221 872 l 1
- 239 837 l 1
-154 0 m 1
+215 872 m 1
+ 233 837 l 1
+ 47 761 l 1
+ 37 783 l 1
+ 215 872 l 1
+154 682 m 1
+ 154 0 l 1
  119 0 l 1
  119 682 l 1
  154 682 l 1
- 154 0 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" iacute.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" iacute.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" iacute.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

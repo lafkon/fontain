@@ -1,14 +1,15 @@
-
 StartChar: five.tf
-Encoding: 1114438 -1 904
+Encoding: 1114791 -1 2042
 Width: 560
 Flags: MW
 HStem: -22 162<196.5 259 196.5 337.5> 327 145<251.5 422> 545 153<291 519 291 291>
-VStem: 317 224<228 282>
+VStem: -25 588 317 224<228 282>
 LayerCount: 2
+Back
 Fore
 SplineSet
-519 545 m 1
+563 698 m 1xf0
+ 519 545 l 1
  291 545 l 1
  279 453 l 1
  313 467 348 472 374 472 c 0
@@ -18,14 +19,13 @@ SplineSet
  107 200 l 1
  130 164 172 140 221 140 c 0
  297 140 317 198 317 258 c 0
- 317 306 296 327 260 327 c 0
+ 317 306 296 327 260 327 c 0xe8
  243 327 219 320 187 302 c 1
  49 303 l 1
  104 698 l 1
- 563 698 l 1
- 519 545 l 1
+ 563 698 l 1xf0
 EndSplineSet
-Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" five.tosf
-Substitution2: "'pnum' Proportional Numbers lookup 20 subtable" five
+Substitution2: "'onum' Oldstyle Figures lookup 26 subtable" five.tosf
+Substitution2: "'pnum' Proportional Numbers lookup 24 subtable" five
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" five five.tosf
 EndChar

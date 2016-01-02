@@ -1,23 +1,24 @@
-
 StartChar: Sacute
-Encoding: 346 346 91
+Encoding: 346 346 236
 Width: 598
 GlyphClass: 2
 Flags: MW
 HStem: -22 164<243.5 302.5 243.5 379.5> 558 161<303 353>
-VStem: 24 238<503.5 530.5 503.5 568> 348 240<178.5 209>
-AnchorPoint: "Anchor-11" 299 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 314 698 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+VStem: -6 594<87 273.5> 24 238<503.5 530.5 503.5 568> 348 240<178.5 209>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 316 1001 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 299 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-466 841 m 1
- 204 748 l 1
- 148 858 l 1
- 386 1001 l 1
- 466 841 l 1
+393 1001 m 1xe0
+ 473 841 l 1
+ 211 748 l 1
+ 155 858 l 1
+ 393 1001 l 1xe0
 306 719 m 0
  421 719 508 684 573 621 c 1
  473 503 l 1
@@ -27,14 +28,14 @@ SplineSet
  531 401 588 335 588 212 c 0
  588 74 474 -22 285 -22 c 0
  144 -22 51 32 -6 87 c 1
- 106 209 l 1
+ 106 210 l 1
  156 167 212 142 275 142 c 0
  330 142 348 166 348 191 c 0
  348 227 329 242 244 268 c 0
- 68 324 24 399 24 499 c 0
+ 68 324 24 399 24 499 c 0xd8
  24 637 145 719 306 719 c 0
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" sacute.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" sacute.sc
 Substitution2: "'locl' Localized Forms in Latin lookup 7 subtable" Sacute.loclPLK
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" Sacute.loclPLK sacute.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0

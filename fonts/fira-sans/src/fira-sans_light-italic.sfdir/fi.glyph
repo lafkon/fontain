@@ -1,12 +1,12 @@
-
 StartChar: fi
-Encoding: 64257 64257 273
+Encoding: 64257 64257 731
 Width: 565
 GlyphClass: 3
 Flags: MW
-HStem: -204 21G<-34 -34> 0 21G<365 423 365 365> 476 47<57 141 50 148 204 432> 696 47<298 352.5>
+HStem: -204 21G<-34 -34> 0 21G<365 423 365 365> 476 47<57 141 50 148 205 432> 696 47<298 352.5>
 VStem: -51 548
 LayerCount: 2
+Back
 Fore
 SplineSet
 497 523 m 1
@@ -28,10 +28,11 @@ SplineSet
  446 662 l 1
  413 683 372 696 333 696 c 0
  263 696 225 667 216 606 c 2
- 204 523 l 1
+ 205 523 l 1
  497 523 l 1
 EndSplineSet
-Ligature2: "'liga' Standard Ligatures lookup 27 subtable" f i
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" fi.sc
-Substitution2: "'aalt' Access All Alternates lookup 0 subtable" fi.sc
+Ligature2: "'liga' Standard Ligatures lookup 31 subtable" f i
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 28 subtable" fi.sc
+Substitution2: "'locl' Localized Forms in Latin lookup 11 subtable" fi.loclEWE
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" fi.loclEWE fi.sc
 EndChar

@@ -1,24 +1,26 @@
-
 StartChar: uni04E3.sc
-Encoding: 1114344 -1 680
+Encoding: 1114551 -1 1455
 Width: 588
 GlyphClass: 2
 Flags: MW
 HStem: 0 21G<43 275 43 43 358 545 358 358> 551 20G<43 232 232 232 320 545 545 545> 678 134<131 456 131 456>
-VStem: 43 189<367.5 420 420 571 367.5 571> 131 325<678 812 678 812> 358 187<0 144 144 199.5>
+VStem: 43 189<367.5 420 420 571 367.5 571> 358 187<0 144 144 199.5>
+AnchorPoint: "Anchor-4" 0 0 basechar 0
 AnchorPoint: "Anchor-3" 0 0 basechar 0
-AnchorPoint: "Anchor-2" 0 0 basechar 0
-AnchorPoint: "Anchor-1" 294 571 basechar 0
+AnchorPoint: "Anchor-2" 294 780 basechar 0
+AnchorPoint: "Anchor-1" 0 0 basechar 0
 AnchorPoint: "Anchor-0" 0 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-131 678 m 1xf4
- 131 812 l 1xf4
+456 678 m 1
+ 131 678 l 1
+ 131 812 l 1
  456 812 l 1
- 456 678 l 1xe8
- 131 678 l 1xf4
-545 0 m 1
+ 456 678 l 1
+545 571 m 1
+ 545 0 l 1
  358 0 l 1
  358 144 l 2
  358 255 373 313 387 384 c 1
@@ -30,6 +32,5 @@ SplineSet
  232 315 215 251 202 189 c 1
  320 571 l 1
  545 571 l 1
- 545 0 l 1
 EndSplineSet
 EndChar

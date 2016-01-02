@@ -1,16 +1,17 @@
-
 StartChar: i
-Encoding: 105 105 176
+Encoding: 105 105 478
 Width: 266
 GlyphClass: 2
 Flags: MW
 HStem: 0 21G<110 156 110 110> 502 20G<110 156 156 156> 674 70<122 144>
-VStem: 97 72<699.5 718.5> 110 46<0 522>
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 133 522 basechar 0
-AnchorPoint: "Anchor-8" 166 0 basechar 0
+VStem: 97 72<699.5 718.5> 110 46<0 522 0 522>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 134 680 basechar 0
+AnchorPoint: "Anchor-11" 166 0 basechar 0
+AnchorPoint: "Anchor-10" 133 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 133 744 m 0xf0
@@ -18,13 +19,13 @@ SplineSet
  169 690 155 674 133 674 c 0
  111 674 97 690 97 709 c 0
  97 728 111 744 133 744 c 0xf0
-156 0 m 1xe8
+156 522 m 1xe8
+ 156 0 l 1
  110 0 l 1
  110 522 l 1
- 156 522 l 1
- 156 0 l 1xe8
+ 156 522 l 1xe8
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" i.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" i.sc
 Substitution2: "'locl' Localized Forms in Latin lookup 10 subtable" i.loclTRK
 Substitution2: "'locl' Localized Forms in Latin lookup 8 subtable" i.loclTRK
 Substitution2: "'locl' Localized Forms in Latin lookup 6 subtable" i.loclTRK

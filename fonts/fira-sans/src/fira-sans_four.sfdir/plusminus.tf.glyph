@@ -1,33 +1,34 @@
-
 StartChar: plusminus.tf
-Encoding: 1114567 -1 1167
+Encoding: 1114929 -1 2321
 Width: 560
+GlyphClass: 2
 Flags: MW
-HStem: 0 332.93 173.14 159.79 329 159.78
-VStem: 120.21 157.14 273.28 157.07
+HStem: 0 333<120 273 120 273 277 430 120 430> 173 160<120 277 120 273> 329 160<120 277 120 277 273 430 273 277>
+VStem: 120 157<173 333 173 333> 273 157<329 329 333 333>
 LayerCount: 2
+Back
 Fore
 SplineSet
-277.35 332.93 m 1x90
- 430.35 332.93 l 1
- 430.35 329 l 1x28
- 277.35 329 l 1x30
- 277.35 173.14 l 1
- 273.279 173.14 l 1x48
- 273.279 329 l 1x28
- 120.209 329 l 1
- 120.209 332.93 l 1x90
- 273.279 332.93 l 1x88
- 273.279 488.779 l 1
- 277.35 488.779 l 1x30
- 277.35 332.93 l 1x90
-119.279 3.92969 m 1x90
- 429.43 3.92969 l 1
- 429.43 0 l 1
- 119.279 -0 l 1
- 119.279 3.92969 l 1x90
+277 489 m 1x30
+ 277 333 l 1x90
+ 430 333 l 1
+ 430 329 l 1x28
+ 277 329 l 1x30
+ 277 173 l 1
+ 273 173 l 1x48
+ 273 329 l 1x28
+ 120 329 l 1
+ 120 333 l 1x90
+ 273 333 l 1x88
+ 273 489 l 1
+ 277 489 l 1x30
+120 0 m 1
+ 120 4 l 1
+ 430 4 l 1
+ 430 0 l 1
+ 120 0 l 1
 EndSplineSet
-Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" plusminus.tosf
-Substitution2: "'pnum' Proportional Numbers lookup 20 subtable" plusminus
+Substitution2: "'onum' Oldstyle Figures lookup 25 subtable" plusminus.tosf
+Substitution2: "'pnum' Proportional Numbers lookup 23 subtable" plusminus
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" plusminus plusminus.tosf
 EndChar

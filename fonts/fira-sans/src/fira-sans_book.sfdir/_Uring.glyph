@@ -1,29 +1,31 @@
-
 StartChar: Uring
-Encoding: 366 366 110
+Encoding: 366 366 288
 Width: 660
 GlyphClass: 2
 Flags: MW
-HStem: -12 74<278 380.5 278 406> 668 20G<93 179 179 179 479 567 567 567> 752 47<313.5 346.5 313.5 362.5> 912 46<313.5 347>
-VStem: 93 86<219 226 226 688> 220 57<837.5 873 837.5 884> 384 57<837.5 873> 479 88<226 688>
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 330 688 basechar 0
-AnchorPoint: "Anchor-8" 425 0 basechar 0
+HStem: -12 74<278 380.5 278 406> 668 20G<93 179 179 179 479 567 567 567> 752 47<312.5 345.5 312.5 361.5> 912 46<312.5 346>
+VStem: 93 86<219 226 226 688> 219 57<837.5 873 837.5 884> 383 57<837.5 873> 479 88<226 688>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 577 688 basechar 0
+AnchorPoint: "Anchor-12" 331 958 basechar 0
+AnchorPoint: "Anchor-11" 425 0 basechar 0
+AnchorPoint: "Anchor-10" 330 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-330 958 m 0
- 395 958 441 913 441 855 c 0
- 441 797 395 752 330 752 c 0
- 265 752 220 797 220 855 c 0
- 220 913 265 958 330 958 c 0
-330 912 m 0
- 297 912 277 891 277 855 c 0
- 277 820 297 799 330 799 c 0
- 363 799 384 820 384 855 c 0
- 384 891 364 912 330 912 c 0
-567 219 m 2
+329 958 m 0
+ 394 958 440 913 440 855 c 0
+ 440 797 394 752 329 752 c 0
+ 264 752 219 797 219 855 c 0
+ 219 913 264 958 329 958 c 0
+329 912 m 0
+ 296 912 276 891 276 855 c 0
+ 276 820 296 799 329 799 c 0
+ 362 799 383 820 383 855 c 0
+ 383 891 363 912 329 912 c 0
+567 688 m 1
+ 567 219 l 2
  567 84 483 -12 329 -12 c 0
  173 -12 93 84 93 219 c 2
  93 688 l 1
@@ -33,9 +35,8 @@ SplineSet
  432 62 479 118 479 226 c 2
  479 688 l 1
  567 688 l 1
- 567 219 l 2
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" uring.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" uring.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uring.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

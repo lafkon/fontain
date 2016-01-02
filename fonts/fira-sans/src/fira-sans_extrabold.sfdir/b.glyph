@@ -1,12 +1,17 @@
-
 StartChar: b
-Encoding: 98 98 146
+Encoding: 98 98 371
 Width: 598
 GlyphClass: 2
 Flags: MW
-HStem: -18 128<326.5 328.5 289.5 423> 0 110<52 328.5> 422 129<295 435> 723 20G<52 52> 741 20G<230 230>
+HStem: -18 128<326.5 328.5 289 423> 0 110<52 328.5> 422 129<295 435> 723 20G<52 52> 741 20G<230 230>
 VStem: 52 178<155 366 482 743 743 743> 385 184<207 330.5>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 320 743 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 308 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 368 551 m 0xae
@@ -22,10 +27,10 @@ SplineSet
 305 110 m 0
  352 110 385 148 385 266 c 0
  385 395 353 422 311 422 c 0
- 279 422 252 403 230 366 c 1
+ 279 422 252 404 230 366 c 1
  230 155 l 1
- 248 125 274 110 305 110 c 0
+ 248 125 273 110 305 110 c 0
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" b.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" b.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" b.sc
 EndChar

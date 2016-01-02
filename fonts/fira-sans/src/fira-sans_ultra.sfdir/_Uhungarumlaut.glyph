@@ -1,29 +1,31 @@
-
 StartChar: Uhungarumlaut
-Encoding: 368 368 107
+Encoding: 368 368 283
 Width: 640
 GlyphClass: 2
 Flags: MW
 HStem: -22 164<294.5 345.5 294.5 422.5> 678 20G<20 251 251 251 389 620 620 620>
 VStem: 20 231<239 245 245 698> 389 231<245 698>
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 320 698 basechar 0
-AnchorPoint: "Anchor-8" 467 0 basechar 0
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 630 698 basechar 0
+AnchorPoint: "Anchor-12" 320 698 basechar 0
+AnchorPoint: "Anchor-11" 467 0 basechar 0
+AnchorPoint: "Anchor-10" 320 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-404 954 m 1
+269 1013 m 1
+ 404 954 l 1
  275 747 l 1
  168 789 l 1
  269 1013 l 1
- 404 954 l 1
-600 948 m 1
+467 1013 m 1
+ 600 948 l 1
  464 743 l 1
  359 794 l 1
  467 1013 l 1
- 600 948 l 1
-620 239 m 2
+620 698 m 1
+ 620 239 l 2
  620 96 525 -22 320 -22 c 0
  115 -22 20 84 20 239 c 2
  20 698 l 1
@@ -33,9 +35,8 @@ SplineSet
  371 142 389 175 389 245 c 2
  389 698 l 1
  620 698 l 1
- 620 239 l 2
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" uhungarumlaut.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" uhungarumlaut.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uhungarumlaut.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

@@ -1,16 +1,17 @@
-
 StartChar: eogonek
-Encoding: 281 281 166
+Encoding: 281 281 429
 Width: 534
 GlyphClass: 2
 Flags: MW
-HStem: -208 41<293.5 321> -11 41<239 284> 241 37<115 426 115 469 115 426> 493 39<231.5 326>
+HStem: -208 41<293.5 321> -11 41<239 284 284 286> 241 37<115 426 115 469 115 426> 493 39<231.5 326>
 VStem: 67 48<241 241 241 278 241 341> 204 45<-130 -96.5> 426 45<278 297 297 355.5>
-AnchorPoint: "Anchor-11" 288 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 275 522 basechar 0
-AnchorPoint: "Anchor-8" 381 5 basechar 0
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 275 522 basechar 0
+AnchorPoint: "Anchor-11" 381 5 basechar 0
+AnchorPoint: "Anchor-10" 288 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 471 282 m 0
@@ -19,23 +20,24 @@ SplineSet
  122 93 192 30 286 30 c 0
  345 30 383 48 428 83 c 1
  451 53 l 1
- 424 30 395 12 363 2 c 1
- 285 -35 249 -65 249 -114 c 0
+ 424 30 397 13 366 3 c 0
+ 285 -34 249 -64 249 -114 c 0
  249 -146 271 -167 316 -167 c 0
  335 -167 350 -165 372 -161 c 1
  367 -201 l 1
  347 -205 331 -208 311 -208 c 0
  239 -208 204 -169 204 -119 c 0
- 204 -74 231 -39 284 -11 c 1
+ 204 -74 231 -39 286 -11 c 1
+ 284 -11 l 2
  150 -11 67 89 67 257 c 0
  67 425 147 532 272 532 c 0
  405 532 471 433 471 282 c 0
 426 278 m 1
  426 297 l 2
  426 414 378 493 274 493 c 0
- 189 493 121 429 115 278 c 1
+ 189 493 120 428 115 278 c 1
  426 278 l 1
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" eogonek.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" eogonek.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" eogonek.sc
 EndChar

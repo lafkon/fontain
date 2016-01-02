@@ -1,38 +1,39 @@
-
 StartChar: Nacute
-Encoding: 323 323 66
+Encoding: 323 323 161
 Width: 655
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G 660.14 20G 660.15 20G
-VStem: 129.29 396.14
-AnchorPoint: "Anchor-11" 322 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 332 680 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+HStem: 0 21G<129 133 129 129 520 525 520 520> 660 20G<129 135 135 135 521 525 525 525>
+VStem: 129 396<0 680 0 680>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 332 844 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 322 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-422.43 839.78 m 1xb0
- 255.14 770.291 l 1
- 253.569 773.641 l 1
- 420.359 843.931 l 1
- 422.43 839.78 l 1xb0
-525.43 0.000976562 m 1
- 519.938 0.00390625 l 1xb0
- 133.009 675.794 l 1
- 133.219 651.644 133.289 617.363 133.289 565.213 c 2
- 133.289 0.00292969 l 1
- 129.289 0.00292969 l 1
- 129.289 680.143 l 1
- 134.859 680.143 l 1xd0
- 521.72 4.3623 l 1
- 521.569 45.292 521.43 98.2217 521.43 142.861 c 2
- 521.43 680.151 l 1
- 525.43 680.151 l 1
- 525.43 0.000976562 l 1
+412 844 m 1
+ 414 840 l 1
+ 247 770 l 1
+ 245 774 l 1
+ 412 844 l 1
+525 680 m 1
+ 525 0 l 1
+ 520 0 l 1
+ 133 676 l 1
+ 133 565 l 1
+ 133 0 l 1
+ 129 0 l 1
+ 129 680 l 1
+ 135 680 l 1
+ 522 4 l 1
+ 522 45 521 98 521 143 c 2
+ 521 680 l 1
+ 525 680 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" nacute.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" nacute.sc
 Substitution2: "'locl' Localized Forms in Latin lookup 7 subtable" Nacute.loclPLK
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" Nacute.loclPLK nacute.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0

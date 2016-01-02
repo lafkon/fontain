@@ -1,34 +1,38 @@
-
 StartChar: uni0462
-Encoding: 1122 1122 466
-Width: 728
+Encoding: 1122 1122 1122
+Width: 680
 GlyphClass: 2
 Flags: MW
-HStem: 0 132<366 420 420 441> 325 126<366 417 366 435> 557 138<7 181 7 549 366 366 366 530>
-VStem: 181 185<132 325 451 557> 522 192<198 259.5>
+HStem: 0 132<319 374 374 394> 325 126<319 370 319 388> 518 107<0 134 0 134 319 470> 518 177<0 319 0 319 134 319 134 470>
+VStem: 134 185<132 325 451 518 625 695> 475 193<198 259.5>
 LayerCount: 2
+Back
 Fore
 SplineSet
-435 451 m 2
- 612 451 714 378 714 232 c 0
- 714 76 599 0 441 0 c 2
- 181 0 l 1
- 181 557 l 1
- 7 557 l 1
- 7 695 l 1
- 549 695 l 1
- 530 557 l 1
- 366 557 l 1
- 366 451 l 1
- 435 451 l 2
-420 132 m 2
- 487 132 522 166 522 230 c 0
- 522 289 491 325 417 325 c 2
- 366 325 l 1
- 366 132 l 1
- 420 132 l 2
+388 451 m 2xdc
+ 562 451 668 378 668 232 c 0
+ 668 76 553 0 394 0 c 2
+ 134 0 l 1
+ 134 518 l 1
+ 0 518 l 1xdc
+ 0 625 l 1
+ 134 625 l 1xec
+ 134 695 l 1
+ 319 695 l 1xdc
+ 319 625 l 1
+ 470 625 l 1xec
+ 470 518 l 1
+ 319 518 l 1
+ 319 451 l 1
+ 388 451 l 2xdc
+374 132 m 2
+ 440 132 475 166 475 230 c 0
+ 475 289 444 325 370 325 c 2
+ 319 325 l 1
+ 319 132 l 1
+ 374 132 l 2
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" uni0463.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" uni0463.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uni0463.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

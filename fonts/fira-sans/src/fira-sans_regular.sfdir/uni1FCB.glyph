@@ -1,38 +1,40 @@
-
 StartChar: uni1FCB
-Encoding: 8139 8139 731
-Width: 680
+Encoding: 8139 8139 1583
+Width: 782
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G<100 195 100 100 485 485 485 580> 323 78<195 485 195 485> 669 20G<100 195 195 195 485 580 580 580>
-VStem: 100 95<0 323 0 401 401 689> 485 95<0 323 323 323 401 689 0 689>
+HStem: 0 21G<202 297 202 202 587 682 587 587> 323 78<297 587 297 587> 669 20G<172 172 202 297 297 297 587 682 682 682>
+VStem: 202 95<0 323 0 401 401 689> 587 95<0 323 323 323 401 689 0 689>
+AnchorPoint: "Anchor-9" 0 0 basechar 0
+AnchorPoint: "Anchor-8" 442 345 basechar 0
 AnchorPoint: "Anchor-7" 0 0 basechar 0
-AnchorPoint: "Anchor-6" 90 689 basechar 0
-AnchorPoint: "Anchor-5" 0 0 basechar 0
-AnchorPoint: "Anchor-4" 340 689 basechar 0
+AnchorPoint: "Anchor-6" 442 0 basechar 0
+AnchorPoint: "Anchor-5" 442 689 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-462 834 m 1
- 246 755 l 1
- 222 804 l 1
- 422 911 l 1
- 462 834 l 1
-485 323 m 1
- 195 323 l 1
- 195 0 l 1
- 100 0 l 1
- 100 689 l 1
- 195 689 l 1
- 195 401 l 1
- 485 401 l 1
- 485 689 l 1
- 580 689 l 1
- 580 0 l 1
- 485 0 l 1
- 485 323 l 1
+67 707 m 1
+ 172 689 l 1
+ 99 490 l 1
+ 30 501 l 1
+ 67 707 l 1
+587 0 m 1
+ 587 323 l 1
+ 297 323 l 1
+ 297 0 l 1
+ 202 0 l 1
+ 202 689 l 1
+ 297 689 l 1
+ 297 401 l 1
+ 587 401 l 1
+ 587 689 l 1
+ 682 689 l 1
+ 682 0 l 1
+ 587 0 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" uni1F75.sc
-Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uni1F75.sc
+Substitution2: "Single Substitution lookup 41 subtable" Eta
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" uni1F75.sc
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" uni1F75.sc Eta
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

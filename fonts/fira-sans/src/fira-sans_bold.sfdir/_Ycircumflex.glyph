@@ -1,27 +1,29 @@
-
 StartChar: Ycircumflex
-Encoding: 374 374 121
+Encoding: 374 374 304
 Width: 594
 GlyphClass: 2
 Flags: MW
 HStem: 0 21G<215 379 215 215> 673 20G<-7 172 172 172 428 601 601 601>
 VStem: 215 164<0 259 259 259>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 404 830 basechar 0
+AnchorPoint: "Anchor-12" 297 949 basechar 0
 AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" -4 693 basechar 0
-AnchorPoint: "Anchor-9" 298 693 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 297 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-298 839 m 1
- 165 755 l 1
- 108 820 l 1
- 250 949 l 1
- 346 949 l 1
- 487 820 l 1
- 431 755 l 1
- 298 839 l 1
-379 260 m 1
+430 755 m 1
+ 297 839 l 1
+ 164 755 l 1
+ 107 820 l 1
+ 249 949 l 1
+ 345 949 l 1
+ 486 820 l 1
+ 430 755 l 1
+601 693 m 1
+ 379 260 l 1
  379 0 l 1
  215 0 l 1
  215 259 l 1
@@ -30,9 +32,8 @@ SplineSet
  300 388 l 1
  428 693 l 1
  601 693 l 1
- 379 260 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" ycircumflex.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" ycircumflex.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" ycircumflex.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

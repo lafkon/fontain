@@ -1,42 +1,43 @@
-
 StartChar: uring
-Encoding: 367 367 248
+Encoding: 367 367 683
 Width: 558
 GlyphClass: 2
 Flags: MW
-HStem: -18 21G<104 188> 0 21G<318 470 318 318> 0 123<226.5 470 226.5 318> 513 20G<83 258 258 258 370 544 544 544> 599 90<323 348 323 370> 788 89<339 364>
-VStem: 26.2 183.8 387 100
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 314 533 basechar 0
-AnchorPoint: "Anchor-8" 478 0 basechar 0
+HStem: -18 21G<104 188> 0 21G<318 470 318 318> 0 123<226.5 470 226.5 318> 513 20G<83 258 258 258 370 544 544 544> 599 90<322.5 351 322.5 375> 788 89<333.5 362>
+VStem: 26.2 183.8 197 100<715 742 715 762.5> 387 101<732.5 760.5>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 554 533 basechar 0
+AnchorPoint: "Anchor-12" 355 877 basechar 0
+AnchorPoint: "Anchor-11" 478 0 basechar 0
+AnchorPoint: "Anchor-10" 251 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-360 877 m 0x5f
- 451 877 497 811 487 735 c 0
- 477 662 414 599 326 599 c 0
- 235 599 189 665 200 741 c 0
- 210 814 272 877 360 877 c 0x5f
-352 788 m 0
- 326 788 304 770 299 735 c 0
- 294 705 311 689 335 689 c 0
- 361 689 381 707 387 741 c 1
- 391 772 376 788 352 788 c 0
-470 0 m 1
- 318 0 l 1x5f
+360 877 m 0x5d80
+ 442 877 488 823 488 751 c 0
+ 488 673 425 599 325 599 c 0
+ 243 599 197 652 197 724 c 0
+ 197 801 262 877 360 877 c 0x5d80
+351 788 m 0
+ 316 788 297 756 297 728 c 0
+ 297 702 312 689 333 689 c 0
+ 369 689 387 718 387 747 c 0
+ 387 774 373 788 351 788 c 0
+544 533 m 1
+ 470 0 l 1
+ 318 0 l 1x5d80
  321 73 l 1
- 276 18 221 -18 155 -18 c 0x9f
+ 276 18 221 -18 155 -18 c 0x9e80
  53 -18 15 49 29 151 c 2
  83 533 l 1
  258 533 l 1
  210 183 l 2
  203 135 215 123 238 123 c 0
- 267 123 297 156 323 198 c 1x3f
+ 267 123 297 156 323 198 c 1x3e80
  370 533 l 1
  544 533 l 1
- 470 0 l 1
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" uring.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 28 subtable" uring.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uring.sc
 EndChar

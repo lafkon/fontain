@@ -1,16 +1,17 @@
-
 StartChar: rcommaaccent
-Encoding: 343 343 226
+Encoding: 343 343 607
 Width: 392
 GlyphClass: 2
 Flags: MW
 HStem: -208 21G<31 31> 0 21G<24 179 24 24> 393 138<98 353> 511 20G<98 233 233 233> 518 20G<434 434> 526 20G<353.5 391.5>
-VStem: -14 448 4 156<-153 -128>
-AnchorPoint: "Anchor-11" 102 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 267 531 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+VStem: -14 448 4 156<-153 -128.5>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 267 531 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 102 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 381 546 m 0xc6
@@ -24,15 +25,15 @@ SplineSet
  233 531 l 1xd2
  231 432 l 1
  267 505 326 546 381 546 c 0xc6
-91 -68 m 0xc5
- 133 -68 160 -98 160 -137 c 0
+88 -68 m 0xc5
+ 131 -68 160 -98 160 -137 c 0
  160 -169 149 -192 122 -233 c 2
  63 -325 l 1
  -14 -325 l 1
  31 -208 l 1
  15 -195 4 -178 4 -154 c 0
- 4 -102 44 -68 91 -68 c 0xc5
+ 4 -103 42 -68 88 -68 c 0xc5
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" rcommaaccent.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 28 subtable" rcommaaccent.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" rcommaaccent.sc
 EndChar

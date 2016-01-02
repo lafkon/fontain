@@ -1,29 +1,31 @@
-
 StartChar: Adieresis
-Encoding: 196 196 5
+Encoding: 196 196 18
 Width: 607
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G<-32 210 -32 -32 395 395 395 639> 126 160<258 345 258 373 231 345> 539 159<301 301> 678 20G<167 441 441 441> 754 201<149 206.5 401.5 459.5>
-VStem: 73 207<827 883> 326 207<827 883>
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 152 698 basechar 0
-AnchorPoint: "Anchor-9" 299 883 basechar 0
-AnchorPoint: "Anchor-8" 524 0 basechar 0
+HStem: 0 21G<-32 210 -32 -32 395 639 395 395> 126 160<258 345 258 373 231 345> 539 159<301 301> 678 20G<167 441 441 441> 754 201<149 206.5 401.5 459.5>
+VStem: -32 671<0 0> 73 207<827 883> 326 207<827 883>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 306 955 basechar 0
+AnchorPoint: "Anchor-11" 524 0 basechar 0
+AnchorPoint: "Anchor-10" 304 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-177 754 m 0xde
+177 754 m 0xdb
  121 754 73 799 73 855 c 0
  73 911 121 955 177 955 c 0
  236 955 280 911 280 855 c 0
- 280 799 236 754 177 754 c 0xde
+ 280 799 236 754 177 754 c 0xdb
 430 754 m 0
  373 754 326 799 326 855 c 0
  326 911 373 955 430 955 c 0
  489 955 533 911 533 855 c 0
  533 799 489 754 430 754 c 0
-373 126 m 1
+395 0 m 1
+ 373 126 l 1
  231 126 l 1
  210 0 l 1
  -32 0 l 1
@@ -31,13 +33,12 @@ SplineSet
  441 698 l 1
  639 0 l 1
  395 0 l 1
- 373 126 l 1
-345 286 m 1
- 301 539 l 1xee
- 258 286 l 1
+258 286 m 1
  345 286 l 1
+ 301 539 l 1xe4
+ 258 286 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" adieresis.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" adieresis.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" adieresis.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

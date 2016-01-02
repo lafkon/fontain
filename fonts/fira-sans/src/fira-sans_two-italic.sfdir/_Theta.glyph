@@ -1,16 +1,16 @@
-
 StartChar: Theta
-Encoding: 920 920 700
-Width: 686
+Encoding: 920 920 1506
+Width: 687
 GlyphClass: 2
 Flags: MW
 HStem: -9 21G<226.5 389.5> 349 341<325.5 483.5 325.5 496 217 483.5> 670 20G<325.5 483.5>
 VStem: 89.59 530.84
 LayerCount: 2
+Back
 Fore
 SplineSet
 403 690 m 0xb0
- 564 690 645 563 614 340 c 1
+ 564 690 645 563 614 340 c 0
  582 120 473 -9 306 -9 c 0
  147 -9 65 119 96 338 c 0
  126 557 248 690 403 690 c 0xb0
@@ -19,13 +19,13 @@ SplineSet
  68 121 148 -7 306 -7 c 0
  472 -7 581 122 612 340 c 0
  643 561 563 688 403 688 c 0
-496 349 m 1xd0
+496 351 m 1xd0
+ 496 349 l 1
  217 349 l 1
  217 351 l 1
- 496 351 l 1
- 496 349 l 1xd0
+ 496 351 l 1xd0
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" theta.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" theta.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" theta.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

@@ -1,24 +1,26 @@
-
 StartChar: zacute
-Encoding: 378 378 263
+Encoding: 378 378 713
 Width: 441
 GlyphClass: 2
 Flags: MW
 HStem: 0 100<150 370> 429 100<76 282 62 452>
 VStem: -20 472
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 294 820 basechar 0
 AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 259 529 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 175 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-406 720 m 1
- 172 630 l 1
- 145 695 l 1
- 368 820 l 1
- 406 720 l 1
-440 437 m 1
+384 820 m 1
+ 422 720 l 1
+ 188 630 l 1
+ 161 695 l 1
+ 384 820 l 1
+452 529 m 1
+ 440 437 l 1
  150 100 l 1
  396 100 l 1
  370 0 l 1
@@ -28,9 +30,8 @@ SplineSet
  62 429 l 1
  76 529 l 1
  452 529 l 1
- 440 437 l 1
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" zacute.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 28 subtable" zacute.sc
 Substitution2: "'locl' Localized Forms in Latin lookup 7 subtable" zacute.loclPLK
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" zacute.loclPLK zacute.sc
 EndChar

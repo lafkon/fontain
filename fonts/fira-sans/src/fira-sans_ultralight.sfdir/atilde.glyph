@@ -1,49 +1,50 @@
-
 StartChar: atilde
-Encoding: 227 227 143
+Encoding: 227 227 366
 Width: 531
 GlyphClass: 2
 Flags: MW
-HStem: -10 31<186 259> 281 30<270 277 277 384> 500 31<232.5 303.5> 674 30<295.5 326 295.5 332> 715 20G<394 394> 717 30<182 214>
-VStem: 64 36<105.5 190.5 105.5 198> 384 34<122 281 281 281 311 368 368 371>
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 256 520 basechar 0
-AnchorPoint: "Anchor-8" 464 -10 basechar 0
+HStem: -10 31<186 259> 281 29<270 277 277 384> 500 31<232.5 303.5> 673 20G<117 117> 674 30<295 325.5 295 330> 715 20G<394 394> 717 30<185.5 213.5>
+VStem: 64 36<105.5 190.5 105.5 198> 384 34<123 281 281 281 310 368 368 371>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 256 704 basechar 0
+AnchorPoint: "Anchor-11" 464 -10 basechar 0
+AnchorPoint: "Anchor-10" 256 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-197 717 m 0xe7
- 167 717 158 707 138 681 c 1
+197 717 m 0xf380
+ 174 717 158 707 138 681 c 1
  117 693 l 1
- 138 727 162 747 197 747 c 0xe7
- 237 747 275 704 316 704 c 0xf7
- 336 704 351 715 373 747 c 1xe7
+ 138 727 165 747 197 747 c 0xf380
+ 237 747 275 704 315 704 c 0
+ 336 704 351 715 373 747 c 1
  394 735 l 1
- 372 691 345 674 319 674 c 0xfb
- 263 674 231 717 197 717 c 0xe7
-418 111 m 2
+ 372 691 345 674 315 674 c 0xed80
+ 266 674 230 717 197 717 c 0xf380
+418 111 m 2xf580
  418 44 432 26 462 14 c 1
  454 -10 l 1
- 413 1 391 26 388 83 c 1
+ 413 2 391 27 389 84 c 1
  351 22 296 -10 222 -10 c 0
  123 -10 64 51 64 144 c 0
- 64 252 146 311 270 311 c 2
- 384 311 l 1
+ 64 252 146 310 270 310 c 2
+ 384 310 l 1
  384 368 l 2
  384 456 352 500 255 500 c 0
  210 500 164 488 113 468 c 1
  104 496 l 1
  156 518 204 531 257 531 c 0
  370 531 418 476 418 371 c 2
- 418 111 l 2
+ 418 111 l 2xf580
 224 21 m 0
- 299 21 350 59 384 122 c 1
+ 300 21 350 59 384 123 c 1
  384 281 l 1
  277 281 l 2
  167 281 100 236 100 145 c 0
  100 66 148 21 224 21 c 0
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" atilde.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" atilde.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" atilde.sc
 EndChar

@@ -1,28 +1,29 @@
-
 StartChar: equal
-Encoding: 61 61 1093
+Encoding: 61 61 2251
 Width: 482
+GlyphClass: 2
 Flags: MW
-HStem: 246.86 13.57 401.14 13.57
-VStem: 80.71 320.86
+HStem: 247 13<81 402 81 402> 401 14<81 402 81 402>
+VStem: 81 321<247 260 247 260 401 415 247 415>
 LayerCount: 2
+Back
 Fore
 SplineSet
-80.71 414.71 m 1
- 401.57 414.71 l 1
- 401.57 401.14 l 1
- 80.71 401.14 l 1
- 80.71 414.71 l 1
-80.71 260.43 m 1
- 401.57 260.43 l 1
- 401.57 246.859 l 1
- 80.71 246.859 l 1
- 80.71 260.43 l 1
+81 401 m 1
+ 81 415 l 1
+ 402 415 l 1
+ 402 401 l 1
+ 81 401 l 1
+81 247 m 1
+ 81 260 l 1
+ 402 260 l 1
+ 402 247 l 1
+ 81 247 l 1
 EndSplineSet
-Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" equal.osf
-Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" equal.tf
-Substitution2: "'dnom' Denominators lookup 14 subtable" equal.dnom
-Substitution2: "'numr' Numerators lookup 13 subtable" equal.numr
-Substitution2: "'sups' Superscript lookup 12 subtable" equalsuperior
-AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" equalsuperior equal.numr equal.dnom equal.tf equal.osf
+Substitution2: "'onum' Oldstyle Figures lookup 25 subtable" equal.osf
+Substitution2: "'tnum' Tabular Numbers lookup 24 subtable" equal.tf
+Substitution2: "'dnom' Denominators lookup 16 subtable" equal.dnom
+Substitution2: "'numr' Numerators lookup 15 subtable" equal.numr
+Substitution2: "'sups' Superscript lookup 14 subtable" uni207C
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" uni207C equal.numr equal.dnom equal.tf equal.osf
 EndChar

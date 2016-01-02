@@ -1,27 +1,29 @@
-
 StartChar: zcaron
-Encoding: 382 382 264
+Encoding: 382 382 719
 Width: 410
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G<35 359 35 35> 497 20G<66 370 370 370> 515 135<217 217 217 367> 713 20G<111 111 325 325>
+HStem: 0 21G<35 359 35 35> 497 20G<66 370 370 370> 515 135<215 215 215 367> 713 20G<109 109 323 323>
 VStem: 35 335
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 218 733 basechar 0
 AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 215 517 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 207 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-327 732 m 1xd8
- 218 648 l 1
+323 733 m 1xd8
+ 325 732 l 1xd8
  216 648 l 1
- 109 732 l 1
- 111 733 l 1
- 217 650 l 1xb8
- 325 733 l 1
- 327 732 l 1xd8
-370 515 m 1xd8
+ 214 648 l 1
+ 107 732 l 1
+ 109 733 l 1
+ 215 650 l 1xb8
+ 323 733 l 1xd8
+370 517 m 1
+ 370 515 l 1xd8
  38 2 l 1
  359 2 l 1
  359 0 l 1
@@ -31,8 +33,7 @@ SplineSet
  66 515 l 1
  66 517 l 1
  370 517 l 1
- 370 515 l 1xd8
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" zcaron.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" zcaron.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" zcaron.sc
 EndChar

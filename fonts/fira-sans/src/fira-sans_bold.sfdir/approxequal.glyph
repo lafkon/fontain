@@ -1,33 +1,34 @@
-
 StartChar: approxequal
-Encoding: 8776 8776 1086
+Encoding: 8776 8776 2240
 Width: 514
+GlyphClass: 2
 Flags: MW
 HStem: 130 118<320.5 362.5 320.5 380> 191 117<152 194> 338 118<320.5 362.5 320.5 380> 399 117<152 194>
 VStem: 16 482<181 254 254 389>
 LayerCount: 2
+Back
 Fore
 SplineSet
-177 516 m 0x58
- 266 516 296 456 345 456 c 0
- 380 456 395 479 411 509 c 1
- 498 463 l 1
- 467 401 422 338 338 338 c 0x68
+338 338 m 0x68
  248 338 218 399 170 399 c 0
- 134 399 119 373 103 344 c 1
+ 134 399 118 373 100 347 c 1
  16 389 l 1
  47 451 93 516 177 516 c 0x58
-177 308 m 0
+ 266 516 296 456 345 456 c 0
+ 380 456 397 479 415 504 c 1
+ 498 463 l 1
+ 467 401 422 338 338 338 c 0x68
+338 130 m 0x98
+ 248 130 218 191 170 191 c 0
+ 134 191 118 165 100 139 c 1
+ 16 181 l 1
+ 47 243 93 308 177 308 c 0x58
  266 308 296 248 345 248 c 0
- 380 248 395 271 411 301 c 1
+ 380 248 397 271 415 296 c 1
  498 254 l 1
  467 193 422 130 338 130 c 0x98
- 248 130 218 191 170 191 c 0
- 134 191 119 165 103 135 c 1
- 16 181 l 1
- 47 243 93 308 177 308 c 0
 EndSplineSet
-Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" approxequal.osf
-Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" approxequal.tf
+Substitution2: "'onum' Oldstyle Figures lookup 25 subtable" approxequal.osf
+Substitution2: "'tnum' Tabular Numbers lookup 24 subtable" approxequal.tf
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" approxequal.tf approxequal.osf
 EndChar

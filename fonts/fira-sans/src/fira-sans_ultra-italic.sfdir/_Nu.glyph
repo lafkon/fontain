@@ -1,33 +1,34 @@
-
 StartChar: Nu
-Encoding: 925 925 705
+Encoding: 925 925 1511
 Width: 630
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G<-7 189 -7 -7 279 563 279 279> 0 189<433 433 433 563 279 433> 509 189<220 220> 678 20G<90 369 369 369 464 660 660 660>
+HStem: 0 21G<-7 189 -7 -7 279 563 279 279> 678 20G<90 369 369 369 464 660 660 660>
 VStem: -7 667
-AnchorPoint: "Anchor-7" 278 0 basechar 0
-AnchorPoint: "Anchor-6" 0 0 basechar 0
-AnchorPoint: "Anchor-5" 0 0 basechar 0
-AnchorPoint: "Anchor-4" 373 698 basechar 0
+AnchorPoint: "Anchor-9" 0 0 basechar 0
+AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-7" 0 0 basechar 0
+AnchorPoint: "Anchor-6" 278 0 basechar 0
+AnchorPoint: "Anchor-5" 373 698 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-563 0 m 1x98
+660 698 m 1
+ 563 0 l 1
  279 0 l 1
- 220 509 l 1xa8
- 226 421 234 322 215 181 c 1
+ 220 509 l 1
+ 226 421 234 322 215 181 c 2
  189 0 l 1
  -7 0 l 1
  90 698 l 1
  369 698 l 1
- 433 189 l 1x58
+ 433 189 l 1
  425 290 419 374 440 522 c 2
  464 698 l 1
  660 698 l 1
- 563 0 l 1x98
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" nu.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" nu.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" nu.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

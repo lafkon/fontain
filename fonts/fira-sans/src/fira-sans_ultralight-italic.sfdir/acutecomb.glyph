@@ -1,22 +1,28 @@
-
 StartChar: acutecomb
-Encoding: 769 769 1280
+Encoding: 769 769 2430
 Width: 0
 GlyphClass: 4
 Flags: MW
-HStem: 726 20G<303 303>
-VStem: 112 204<657 711>
-AnchorPoint: "Anchor-12" 190 520 mark 0
-AnchorPoint: "Anchor-9" 190 520 mark 0
-AnchorPoint: "Anchor-4" 190 520 mark 0
-AnchorPoint: "Anchor-1" 190 520 mark 0
+HStem: 650 119
+VStem: -170 205<673 734>
+AnchorPoint: "Anchor-19" -94 520 mark 0
+AnchorPoint: "Anchor-16" -65 769 basemark 0
+AnchorPoint: "Anchor-16" -94 520 mark 0
+AnchorPoint: "Anchor-12" -94 520 mark 0
+AnchorPoint: "Anchor-5" -94 520 mark 0
+AnchorPoint: "Anchor-2" -94 520 mark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-316 711 m 1
- 119 635 l 1
- 112 657 l 1
- 303 746 l 1
- 316 711 l 1
+23 769 m 1
+ 35 734 l 1
+ -161 650 l 1
+ -170 673 l 1
+ 23 769 l 1
 EndSplineSet
+Substitution2: "'case' Case-Sensitive Forms lookup 29 subtable" acutecomb.case
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 28 subtable" acutecomb.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" acutecomb.sc
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" acutecomb.sc acutecomb.case
 EndChar

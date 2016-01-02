@@ -1,19 +1,24 @@
-
 StartChar: q
-Encoding: 113 113 222
+Encoding: 113 113 599
 Width: 573
 GlyphClass: 2
 Flags: MW
 HStem: -214 21G<330 330> -12 67<207 250.5> 471 67<262.5 351.5>
 VStem: 52 89<144 249 144 262>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 329 526 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 205 -201 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 330 538 m 0
  394 538 447 526 514 493 c 1
  415 -204 l 1
  330 -214 l 1
- 371 68 l 1
+ 370 67 l 1
  337 24 282 -12 219 -12 c 0
  110 -12 52 68 52 190 c 0
  52 334 127 538 330 538 c 0
@@ -24,6 +29,6 @@ SplineSet
  425 452 l 1
  395 466 371 471 332 471 c 0
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" q.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 28 subtable" q.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" q.sc
 EndChar

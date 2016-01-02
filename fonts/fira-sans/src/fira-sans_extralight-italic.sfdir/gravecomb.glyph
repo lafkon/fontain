@@ -1,22 +1,28 @@
-
 StartChar: gravecomb
-Encoding: 768 768 1291
+Encoding: 768 768 2457
 Width: 0
 GlyphClass: 4
 Flags: MW
-HStem: 633 121
-VStem: 119 198<662 710>
-AnchorPoint: "Anchor-12" 194 522 mark 0
-AnchorPoint: "Anchor-9" 194 522 mark 0
-AnchorPoint: "Anchor-4" 194 522 mark 0
-AnchorPoint: "Anchor-1" 194 522 mark 0
+HStem: 648 128
+VStem: -168 195<675 732>
+AnchorPoint: "Anchor-19" -107 522 mark 0
+AnchorPoint: "Anchor-16" -68 776 basemark 0
+AnchorPoint: "Anchor-16" -107 522 mark 0
+AnchorPoint: "Anchor-12" -107 522 mark 0
+AnchorPoint: "Anchor-5" -107 522 mark 0
+AnchorPoint: "Anchor-2" -107 522 mark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-317 662 m 1
- 300 633 l 1
- 119 710 l 1
- 147 754 l 1
- 317 662 l 1
+-142 776 m 1
+ 27 675 l 1
+ 9 648 l 1
+ -168 732 l 1
+ -142 776 l 1
 EndSplineSet
+Substitution2: "'case' Case-Sensitive Forms lookup 29 subtable" gravecomb.case
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 28 subtable" gravecomb.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" gravecomb.sc
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" gravecomb.sc gravecomb.case
 EndChar

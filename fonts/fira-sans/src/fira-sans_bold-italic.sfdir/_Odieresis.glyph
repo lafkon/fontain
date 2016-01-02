@@ -1,40 +1,41 @@
-
 StartChar: Odieresis
-Encoding: 214 214 75
+Encoding: 214 214 183
 Width: 681
 GlyphClass: 2
 Flags: MW
-HStem: -17 120<280 390.5 280 442> 590 120<313.5 425> 767 158<296.5 323 525 551.5>
-VStem: 39 166<197.5 309 197.5 359.5> 231 158 459 158 499 166<385.5 497>
+HStem: -17 120<280 390.5 280 442> 590 120<313.5 425> 767 158<292.5 320.5 520.5 549>
+VStem: 39 166<200.5 312 200.5 359.5> 227 159 455 158 499 166<382 493.5>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 629 693 basechar 0
+AnchorPoint: "Anchor-12" 428 925 basechar 0
 AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 16 534 basechar 0
-AnchorPoint: "Anchor-9" 424 857 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 303 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-318 925 m 0xec
- 364 925 396 888 389 843 c 0
- 383 800 345 767 301 767 c 0
- 256 767 224 804 231 850 c 1
- 236 892 275 925 318 925 c 0xec
-546 925 m 0
- 593 925 624 888 617 843 c 0
- 611 800 574 767 529 767 c 0
- 484 767 452 804 459 850 c 1
- 464 892 504 925 546 925 c 0
-401 710 m 0xfa
+315 925 m 0xfc
+ 361 925 392 888 386 843 c 0
+ 380 800 343 767 298 767 c 0
+ 252 767 221 804 227 850 c 0
+ 233 892 270 925 315 925 c 0xfc
+543 925 m 0
+ 590 925 620 888 613 843 c 0
+ 608 800 572 767 526 767 c 0
+ 481 767 449 804 455 850 c 0
+ 461 892 498 925 543 925 c 0
+401 710 m 0xd2
  569 710 665 607 665 426 c 0
  665 240 580 -17 304 -17 c 0
  135 -17 39 87 39 267 c 0
- 39 452 125 710 401 710 c 0xfa
+ 39 452 125 710 401 710 c 0xd2
 389 590 m 0
- 238 590 205 369 205 249 c 0
+ 238 590 205 369 205 255 c 0
  205 146 245 103 315 103 c 0
- 466 103 499 324 499 447 c 0
+ 466 103 499 324 499 440 c 0
  499 547 461 590 389 590 c 0
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" odieresis.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" odieresis.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" odieresis.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

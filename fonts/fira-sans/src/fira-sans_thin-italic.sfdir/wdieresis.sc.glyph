@@ -1,29 +1,31 @@
-
 StartChar: wdieresis.sc
-Encoding: 1114255 -1 403
+Encoding: 1114427 -1 1027
 Width: 697
 GlyphClass: 2
 Flags: MW
-HStem: 0 24<476 476 476 485 460 476> 537 22<388 388> 703 39<327.5 336.5 493 502.5>
+HStem: 0 24<475 475 475 486 460 475> 537 22<388 388> 703 39<327.5 336.5 493 502.5>
 VStem: 312 40 477 40
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 417 742 basechar 0
 AnchorPoint: "Anchor-11" 0 0 basechar 0
 AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 407 661 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 333 742 m 0
- 346 742 353 732 352 721 c 1
+ 346 742 353 732 352 721 c 0
  350 711 342 703 331 703 c 0
  318 703 310 712 312 724 c 0
  313 734 322 742 333 742 c 0
 499 742 m 0
  511 742 518 732 517 721 c 0
  516 711 508 703 497 703 c 0
- 483 703 476 712 477 724 c 1
+ 483 703 476 712 477 724 c 0
  479 734 487 742 499 742 c 0
-485 0 m 1
+701 559 m 1
+ 486 0 l 1
  460 0 l 1
  388 537 l 1
  165 0 l 1
@@ -33,9 +35,8 @@ SplineSet
  157 25 l 1
  377 559 l 1
  404 559 l 1
- 476 24 l 1
+ 475 24 l 1
  678 559 l 1
  701 559 l 1
- 485 0 l 1
 EndSplineSet
 EndChar

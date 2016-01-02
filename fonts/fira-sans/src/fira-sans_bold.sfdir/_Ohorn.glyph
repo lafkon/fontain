@@ -1,0 +1,37 @@
+StartChar: Ohorn
+Encoding: 416 416 197
+Width: 715
+GlyphClass: 2
+Flags: MW
+HStem: -17 120<300 392 300 443> 590 120<299 389 247.5 391.5>
+VStem: 33 172<259 434.5 259 460> 486 172<259 390 233.5 434.5> 605 108<673 705>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 626 693 basechar 0
+AnchorPoint: "Anchor-12" 345 693 basechar 0
+AnchorPoint: "Anchor-11" 468 0 basechar 0
+AnchorPoint: "Anchor-10" 345 0 basechar 0
+LayerCount: 2
+Back
+Fore
+SplineSet
+713 685 m 0xe8
+ 713 620 675 577 611 563 c 1
+ 641 506 658 433 658 347 c 0xf0
+ 658 120 541 -17 345 -17 c 0
+ 150 -17 33 116 33 347 c 0
+ 33 573 150 710 345 710 c 0
+ 433 710 504 684 557 634 c 1
+ 592 638 605 656 605 690 c 0
+ 605 720 599 738 591 758 c 1
+ 694 773 l 1
+ 704 754 713 727 713 685 c 0xe8
+345 103 m 0xf0
+ 439 103 486 171 486 347 c 0
+ 486 522 438 590 345 590 c 0
+ 253 590 205 522 205 347 c 0
+ 205 171 255 103 345 103 c 0xf0
+EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" ohorn.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" ohorn.sc
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
+EndChar

@@ -1,24 +1,26 @@
-
 StartChar: Ygrave
-Encoding: 7922 7922 123
+Encoding: 7922 7922 298
 Width: 503
 GlyphClass: 2
 Flags: MW
 HStem: 0 21G<198 233 198 198> 662 20G<78 116 116 116 503 543 543 543>
 VStem: 78 465<682 682>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 328 872 basechar 0
 AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 15 521 basechar 0
-AnchorPoint: "Anchor-9" 307 682 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 216 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-420 783 m 1
+255 872 m 1
+ 420 783 l 1
  407 761 l 1
  232 837 l 1
  255 872 l 1
- 420 783 l 1
-272 271 m 1
+543 682 m 1
+ 272 271 l 1
  233 0 l 1
  198 0 l 1
  236 270 l 1
@@ -27,9 +29,8 @@ SplineSet
  257 304 l 1
  503 682 l 1
  543 682 l 1
- 272 271 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" ygrave.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" ygrave.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" ygrave.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

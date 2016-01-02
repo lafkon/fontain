@@ -1,20 +1,21 @@
-
 StartChar: Scedilla
-Encoding: 350 350 93
+Encoding: 350 350 240
 Width: 580
 GlyphClass: 2
 Flags: MW
-HStem: -269 94<259 282 256 333> -16 21G<234 234> -16 132<234 301> -15 21G<333 333> 580 133<281 335.5>
+HStem: -269 94<259 282 256 333> -17 21G<234 234> -17 133<234 301> -15 21G<333 333> 580 133<281 335.5>
 VStem: 34 190<501 540 501 569.5> 314 126<-157.5 -136> 368 192<168.5 214>
-AnchorPoint: "Anchor-11" 288 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 301 695 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 301 695 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 305 -269 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 560 205 m 0x9d
- 560 89 476 3 333 -15 c 1
+ 560 88 476 3 333 -15 c 1
  333 -45 l 1x9e
  405 -54 440 -91 440 -149 c 0
  440 -218 382 -269 284 -269 c 0
@@ -23,22 +24,22 @@ SplineSet
  224 -168 244 -175 268 -175 c 0
  296 -175 314 -168 314 -147 c 0
  314 -125 286 -116 221 -116 c 1
- 234 -16 l 1xce
- 129 -7 55 34 5 83 c 1
+ 234 -17 l 1xce
+ 130 -8 55 35 5 83 c 1
  97 185 l 1
- 146 142 202 116 269 116 c 0
+ 147 142 202 116 269 116 c 0
  333 116 368 146 368 191 c 0xad
- 368 237 344 257 248 286 c 1
+ 368 237 344 257 248 286 c 0
  86 337 34 404 34 506 c 0
  34 633 145 713 294 713 c 0
  402 713 480 680 542 621 c 1
- 458 523 l 1
+ 459 523 l 1
  411 561 363 580 308 580 c 0
  254 580 224 559 224 521 c 0
- 224 481 250 467 354 433 c 1
+ 224 481 250 467 354 433 c 0
  491 390 560 331 560 205 c 0x9d
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" scedilla.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" scedilla.sc
 Substitution2: "'locl' Localized Forms in Latin lookup 5 subtable" Scommaaccent
 Substitution2: "'locl' Localized Forms in Latin lookup 4 subtable" Scommaaccent
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" Scommaaccent scedilla.sc

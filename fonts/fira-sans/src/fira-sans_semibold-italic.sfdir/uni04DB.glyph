@@ -1,42 +1,43 @@
-
 StartChar: uni04DB
-Encoding: 1243 1243 587
+Encoding: 1243 1243 1312
 Width: 532
 GlyphClass: 2
 Flags: MW
-HStem: -16 97<194 258 194 314> 439 107<235.5 286> 644 148<192 218 415.5 441.5>
-VStem: 16 142<122 162 122 201.5> 131 147 357 142
-AnchorPoint: "Anchor-3" 217 0 basechar 0
-AnchorPoint: "Anchor-2" 0 0 basechar 0
-AnchorPoint: "Anchor-1" 316 720 basechar 0
-AnchorPoint: "Anchor-0" 147 522 basechar 0
+HStem: -16 97<194 258 194 314> 439 107<235.5 286> 644 148<198.5 225.5 421.5 449>
+VStem: 16 142<122 162 122 201.5> 138 147 357 142 362 146
+AnchorPoint: "Anchor-4" 0 0 basechar 0
+AnchorPoint: "Anchor-3" 147 522 basechar 0
+AnchorPoint: "Anchor-2" 326 792 basechar 0
+AnchorPoint: "Anchor-1" 0 0 basechar 0
+AnchorPoint: "Anchor-0" 228 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-198 644 m 0xec
- 155 644 126 679 131 722 c 1
- 137 761 172 792 212 792 c 0
- 256 792 285 757 278 714 c 1
- 273 675 238 644 198 644 c 0xec
-435 792 m 0
- 479 792 508 757 501 714 c 1
- 496 675 462 644 421 644 c 0
- 378 644 349 679 355 722 c 0
- 360 761 396 792 435 792 c 0
-275 546 m 0
+205 644 m 0xea
+ 162 644 133 679 138 722 c 0
+ 144 761 178 792 219 792 c 0
+ 263 792 292 757 285 714 c 0
+ 280 675 246 644 205 644 c 0xea
+442 792 m 0
+ 486 792 515 757 508 714 c 0
+ 503 675 470 644 428 644 c 0
+ 385 644 356 679 362 722 c 0
+ 367 761 401 792 442 792 c 0
+275 546 m 0xf4
  424 546 499 458 499 324 c 0
  499 179 423 -16 205 -16 c 0
- 80 -16 16 49 16 127 c 0xf4
+ 80 -16 16 49 16 127 c 0
  16 276 187 319 357 336 c 1
  353 413 314 439 258 439 c 0
  212 439 170 423 121 390 c 1
  69 476 l 1
- 127 518 196 546 275 546 c 0
-217 81 m 0xf4
+ 127 518 196 546 275 546 c 0xf4
+217 81 m 0
  299 81 337 166 350 247 c 1
  213 235 158 190 158 134 c 0
- 158 110 171 81 217 81 c 0xf4
+ 158 110 171 81 217 81 c 0
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" uni04DB.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 28 subtable" uni04DB.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uni04DB.sc
 EndChar

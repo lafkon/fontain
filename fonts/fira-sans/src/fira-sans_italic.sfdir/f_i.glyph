@@ -1,12 +1,12 @@
-
 StartChar: f_i
-Encoding: 1114125 -1 271
+Encoding: 1114131 -1 729
 Width: 580
 GlyphClass: 3
 Flags: MW
 HStem: -213 21G<-37 -37> 0 21G<357 449 357 357> 456 71<46 129 36 139 230 421> 676 74<310.5 363>
 VStem: -63 586
 LayerCount: 2
+Back
 Fore
 SplineSet
 523 527 m 1
@@ -31,7 +31,8 @@ SplineSet
  230 527 l 1
  523 527 l 1
 EndSplineSet
-Ligature2: "'dlig' Discretionary Ligatures lookup 26 subtable" f i
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" f_i.sc
-Substitution2: "'aalt' Access All Alternates lookup 0 subtable" f_i.sc
+Ligature2: "'dlig' Discretionary Ligatures lookup 30 subtable" f i
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 28 subtable" f_i.sc
+Substitution2: "'locl' Localized Forms in Latin lookup 11 subtable" f_i.loclEWE
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" f_i.loclEWE f_i.sc
 EndChar

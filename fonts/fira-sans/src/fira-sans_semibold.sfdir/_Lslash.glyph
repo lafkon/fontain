@@ -1,19 +1,21 @@
-
 StartChar: Lslash
-Encoding: 321 321 63
+Encoding: 321 321 154
 Width: 543
 GlyphClass: 2
 Flags: MW
 HStem: 0 118<254 512> 672 20G<107 254 254 254>
-VStem: 107 147<118 232 232 232 434 692>
-AnchorPoint: "Anchor-11" 310 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 181 692 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+VStem: 107 147<118 118 118 232 232 232 434 692>
+AnchorPoint: "Anchor-14" 430 397 basechar 0
+AnchorPoint: "Anchor-13" 270 692 basechar 0
+AnchorPoint: "Anchor-12" 181 692 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 310 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-528 118 m 1
+254 118 m 1
+ 528 118 l 1
  512 0 l 1
  107 0 l 1
  107 232 l 1
@@ -27,9 +29,8 @@ SplineSet
  440 438 l 1
  254 323 l 1
  254 118 l 1
- 528 118 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" lslash.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" lslash.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" lslash.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

@@ -1,36 +1,43 @@
-
 StartChar: Eng
-Encoding: 330 330 69
-Width: 658
+Encoding: 330 330 165
+Width: 659
 GlyphClass: 2
 Flags: MW
-HStem: -193.14 21G 0 16.86 0 21G<89.2803 103.28 89.2803 89.2803 478.141 483.581 478.141 478.141 496.14 496.14> 665.86 15
-VStem: 184.71 10.14
-AnchorPoint: "Anchor-11" 289 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 393 681 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+HStem: -195 13<359 399.5 359 403.5> 0 17<478 486 478 486 486 496> 0 21G<89 103 89 89 478 482 478 478 496 496> 666 15<195 195>
+VStem: 185 10
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 393 681 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 289 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-496.14 0 m 2xb8
- 478.71 -120.72 442.71 -154.85 362.99 -193.14 c 1
- 358.561 -181.71 l 1
- 431.961 -145.79 466.871 -113.62 483.581 0 c 1
- 478.141 0 l 1
- 194.851 665.86 l 1
- 191.711 631.57 186.851 593.721 175.57 514.15 c 2
- 103.28 0 l 1
- 89.2803 0 l 1
- 184.71 680.86 l 1
- 203.14 680.86 l 1
- 486.43 16.8604 l 1xd8
- 491.14 58.29 498.14 114.29 507.14 177.57 c 2
- 577.569 680.86 l 1
- 591.569 680.86 l 1
- 496.14 0 l 2xb8
+578 681 m 1xb8
+ 592 681 l 1
+ 496 0 l 1
+ 484 -91 l 2
+ 473 -161 430 -195 377 -195 c 0
+ 337 -195 313 -180 296 -165 c 1
+ 304 -156 l 1
+ 321 -170 341 -182 377 -182 c 0
+ 422 -182 460 -154 469 -89 c 2
+ 482 0 l 1
+ 478 0 l 1
+ 195 666 l 1
+ 192 632 187 594 176 514 c 2
+ 103 0 l 1
+ 89 0 l 1
+ 185 681 l 1
+ 203 681 l 1
+ 486 17 l 1xd8
+ 491 58 498 115 507 178 c 2
+ 578 681 l 1xb8
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" eng.sc
-Substitution2: "'aalt' Access All Alternates lookup 0 subtable" eng.sc
+Substitution2: "'ss01' Style Set 1 lookup 34 subtable" Eng.ss01
+Substitution2: "'salt' Stylistic Alternatives lookup 33 subtable" Eng.ss01
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" eng.sc
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" eng.sc Eng.ss01
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

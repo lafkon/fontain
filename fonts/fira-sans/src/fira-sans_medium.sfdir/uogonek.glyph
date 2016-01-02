@@ -1,20 +1,20 @@
-
 StartChar: uogonek
-Encoding: 371 371 247
+Encoding: 371 371 685
 Width: 577
 GlyphClass: 2
 Flags: MW
 HStem: -239 85<415 431.5> -15 97<243 256> 0 21G<500 500> 509 20G<72 200 200 200 372 500 500 500>
-VStem: 72 128<149 165 165 529> 281 99<-123 -99.5> 372 128<157 529>
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 286 529 basechar 0
-AnchorPoint: "Anchor-8" 510 0 basechar 0
+VStem: 72 128<149 165 165 529> 281 99<-123 -99.5> 372 128<157 529 0 529>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 510 529 basechar 0
+AnchorPoint: "Anchor-12" 286 529 basechar 0
+AnchorPoint: "Anchor-11" 510 0 basechar 0
+AnchorPoint: "Anchor-10" 286 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-500 0 m 1xba
- 400 -40 380 -76 380 -108 c 0
+380 -108 m 0xbc
  380 -138 396 -154 434 -154 c 0
  454 -154 472 -152 495 -147 c 1
  485 -232 l 1
@@ -32,7 +32,8 @@ SplineSet
  372 529 l 1
  500 529 l 1
  500 0 l 1xba
+ 400 -40 380 -76 380 -108 c 0xbc
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" uogonek.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" uogonek.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uogonek.sc
 EndChar

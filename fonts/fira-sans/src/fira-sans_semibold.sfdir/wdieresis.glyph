@@ -1,16 +1,17 @@
-
 StartChar: wdieresis
-Encoding: 7813 7813 254
+Encoding: 7813 7813 697
 Width: 741
 GlyphClass: 2
 Flags: MW
 HStem: 0 105<216 216 216 295 124 216> 403 127<371 371> 510 20G<8 151 151 151 304 446 446 446 597 733 733 733> 644 148<236 278.5 462.5 504.5>
 VStem: 182 150<697.5 738.5> 408 151<697.5 738.5>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 373 792 basechar 0
 AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 369 708 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 371 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 257 792 m 0xbc
@@ -23,7 +24,8 @@ SplineSet
  559 677 526 644 483 644 c 0
  442 644 408 677 408 718 c 0
  408 759 442 792 483 792 c 0
-620 0 m 1
+733 530 m 1
+ 620 0 l 1
  447 0 l 1
  371 403 l 1xdc
  295 0 l 1
@@ -36,8 +38,7 @@ SplineSet
  525 105 l 1
  597 530 l 1
  733 530 l 1
- 620 0 l 1
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" wdieresis.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" wdieresis.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" wdieresis.sc
 EndChar

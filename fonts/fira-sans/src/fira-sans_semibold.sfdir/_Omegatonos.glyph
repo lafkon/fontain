@@ -1,42 +1,44 @@
-
 StartChar: Omegatonos
-Encoding: 911 911 721
-Width: 691
+Encoding: 911 911 1523
+Width: 847
 GlyphClass: 2
 Flags: MW
-HStem: 0 109<59 169 59 303 59 169 519 631> 598 110<297 395.5> 672 20G<90 90>
-VStem: 38 155<306 448 291.5 469.5> 59 244<0 105 0 109 0 109> 387 244<0 105 105 105> 498 155<308 448.5>
+HStem: 0 109<215 325 215 459 215 325 675 787> 598 110<453 551.5> 672 20G<222 222>
+VStem: 194 155<306 448 291.5 469.5> 215 244<0 105 0 109 0 109> 543 244<0 105 105 105> 654 155<308 448.5>
+AnchorPoint: "Anchor-9" 0 0 basechar 0
+AnchorPoint: "Anchor-8" 0 0 basechar 0
 AnchorPoint: "Anchor-7" 0 0 basechar 0
-AnchorPoint: "Anchor-6" 0 0 basechar 0
-AnchorPoint: "Anchor-5" 0 0 basechar 0
-AnchorPoint: "Anchor-4" 344 692 basechar 0
+AnchorPoint: "Anchor-6" 502 0 basechar 0
+AnchorPoint: "Anchor-5" 500 692 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-90 692 m 1xb2
- 6 473 l 1
- -88 488 l 1
- -50 720 l 1
- 90 692 l 1xb2
-346 708 m 0xd2
- 538 708 653 571 653 372 c 0xd2
- 653 244 612 162 519 109 c 1
- 631 109 l 1
- 631 0 l 1
- 387 0 l 1xd4
- 387 105 l 1
- 475 140 498 220 498 372 c 0
- 498 525 445 598 346 598 c 0
- 248 598 193 525 193 371 c 0xd2
- 193 212 220 141 303 105 c 1
- 303 0 l 1
- 59 0 l 1
- 59 109 l 1xca
- 169 109 l 1
- 81 158 38 241 38 371 c 0
- 38 568 156 708 346 708 c 0xd2
+82 720 m 1xd2
+ 222 692 l 1xb2
+ 138 473 l 1
+ 44 488 l 1
+ 82 720 l 1xd2
+502 708 m 0xd2
+ 694 708 809 571 809 372 c 0xd2
+ 809 244 768 162 675 109 c 1
+ 787 109 l 1
+ 787 0 l 1
+ 543 0 l 1xd4
+ 543 105 l 1
+ 631 140 654 220 654 372 c 0
+ 654 525 601 598 502 598 c 0
+ 404 598 349 525 349 371 c 0xd2
+ 349 212 376 141 459 105 c 1
+ 459 0 l 1
+ 215 0 l 1
+ 215 109 l 1xca
+ 325 109 l 1
+ 237 158 194 241 194 371 c 0
+ 194 568 312 708 502 708 c 0xd2
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" omegatonos.sc
-Substitution2: "'aalt' Access All Alternates lookup 0 subtable" omegatonos.sc
+Substitution2: "Single Substitution lookup 41 subtable" uni03A9
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" omegatonos.sc
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" omegatonos.sc uni03A9
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

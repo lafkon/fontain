@@ -1,38 +1,39 @@
-
 StartChar: Edotaccent
-Encoding: 278 278 30
+Encoding: 278 278 80
 Width: 495
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G<129.28 445.57 129.28 129.28> 358.93 321.21 819.06 14.72
-VStem: 129.28 263.5 129.28 316.29
-AnchorPoint: "Anchor-11" 284 0 basechar 0
-AnchorPoint: "Anchor-10" 81 680 basechar 0
-AnchorPoint: "Anchor-9" 284 680 basechar 0
-AnchorPoint: "Anchor-8" 426 0 basechar 0
+HStem: 0 21G<129 446 129 129> 359 321<133 393 133 133> 819 15<282 286.5>
+VStem: 129 264<359 363 359 680> 129 317<0 4 0 680>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 286 834 basechar 0
+AnchorPoint: "Anchor-11" 426 0 basechar 0
+AnchorPoint: "Anchor-10" 284 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-284.28 833.78 m 0xe8
- 289.21 833.78 291.71 830.141 291.71 826.421 c 0
- 291.71 822.711 289.21 819.061 284.28 819.061 c 0
- 279.431 819.061 276.86 822.711 276.86 826.421 c 0
- 276.86 830.141 279.431 833.78 284.28 833.78 c 0xe8
-435.57 676.21 m 1
- 133.351 676.209 l 1
- 133.351 362.779 l 1
- 392.78 362.779 l 1
- 392.78 358.93 l 1
- 133.351 358.93 l 1
- 133.351 3.92969 l 1
- 445.57 3.92969 l 1
- 445.57 0 l 1
- 129.28 -0 l 1
- 129.28 680.14 l 1xf0
- 435.851 680.14 l 1
- 435.57 676.21 l 1
+284 834 m 0xe8
+ 289 834 292 830 292 826 c 0
+ 292 823 289 819 284 819 c 0
+ 280 819 277 823 277 826 c 0
+ 277 830 280 834 284 834 c 0xe8
+436 680 m 1
+ 436 676 l 1xe8
+ 133 676 l 1
+ 133 363 l 1
+ 393 363 l 1
+ 393 359 l 1
+ 133 359 l 1
+ 133 4 l 1
+ 446 4 l 1
+ 446 0 l 1
+ 129 0 l 1
+ 129 680 l 1xf0
+ 436 680 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" edotaccent.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" edotaccent.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" edotaccent.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

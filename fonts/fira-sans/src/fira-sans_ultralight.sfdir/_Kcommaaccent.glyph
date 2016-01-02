@@ -1,40 +1,41 @@
-
 StartChar: Kcommaaccent
-Encoding: 310 310 57
+Encoding: 310 310 142
 Width: 518
 GlyphClass: 2
 Flags: MW
 HStem: 0 21G<119 154 119 119 475 475 475 518> 662 20G<119 154 154 154 460 502 502 502>
-VStem: 119 35<0 682> 265 68<-131 -114>
-AnchorPoint: "Anchor-11" 301 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 292 682 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+VStem: 119 35<0 682 0 682> 265 68<-131 -114>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 292 682 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 301 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-154 0 m 1
+154 682 m 1
+ 154 0 l 1
  119 0 l 1
  119 682 l 1
  154 682 l 1
- 154 0 l 1
-201 367 m 1
+502 682 m 1
+ 201 367 l 1
  518 0 l 1
  475 0 l 1
  157 367 l 1
  460 682 l 1
  502 682 l 1
- 201 367 l 1
 299 -90 m 0
  321 -90 333 -105 333 -123 c 0
  333 -139 328 -149 314 -181 c 2
  275 -267 l 1
  251 -267 l 1
  285 -154 l 1
- 269 -148 265 -139 265 -123 c 0
- 265 -105 278 -90 299 -90 c 0
+ 272 -148 265 -139 265 -123 c 0
+ 265 -105 279 -90 299 -90 c 0
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" kcommaaccent.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" kcommaaccent.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" kcommaaccent.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

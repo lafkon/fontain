@@ -1,25 +1,26 @@
-
 StartChar: tilde
-Encoding: 732 732 1262
+Encoding: 732 732 2538
 Width: 386
 Flags: MW
-HStem: 658 65<232.5 261 232.5 274> 667 20G<30 30> 706 64<123 153> 721 20G<356 356>
+HStem: 658 65<232.5 261 232.5 272.5> 706 64<123 153> 721 20G<356 356>
 VStem: 30 326<687 741>
 LayerCount: 2
+Back
 Fore
 SplineSet
-254 658 m 0x88
- 196 658 171 706 135 706 c 0
+251 658 m 0x90
+ 199 658 171 706 135 706 c 0
  111 706 98 691 81 661 c 1
  30 687 l 1
- 53 734 87 770 136 770 c 0x68
- 188 770 214 723 251 723 c 0
- 271 723 286 737 305 767 c 1x88
- 356 741 l 1x58
- 331 686 294 658 254 658 c 0x88
+ 53 734 87 770 135 770 c 0x50
+ 189 770 214 723 251 723 c 0
+ 271 723 286 737 305 767 c 1x90
+ 356 741 l 1x30
+ 331 686 294 658 251 658 c 0x90
 EndSplineSet
-Substitution2: "'case' Case-Sensitive Forms lookup 25 subtable" tilde.case
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" tilde.sc
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" tilde.sc
+Substitution2: "Single Substitution lookup 41 subtable" tilde.case
+Substitution2: "'case' Case-Sensitive Forms lookup 28 subtable" tilde.case
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" tilde.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" tilde.sc
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" tilde.sc tilde.case
 EndChar

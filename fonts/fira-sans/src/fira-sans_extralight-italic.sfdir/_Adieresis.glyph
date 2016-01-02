@@ -1,16 +1,17 @@
-
 StartChar: Adieresis
-Encoding: 196 196 5
+Encoding: 196 196 18
 Width: 560
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G<-17 32 -17 -17 454 454 454 503> 192 42<142 410 142 418 122 410> 645 39<334 334> 792 66<262 276.5 443.5 458>
+HStem: 0 21G<-17 32 -17 -17 454 503 454 454> 192 42<141 411 141 419 122 411> 645 39<334 334> 792 66<262 276.5 443.5 458>
 VStem: 236 66 417 66
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 184 522 basechar 0
-AnchorPoint: "Anchor-9" 353 778 basechar 0
-AnchorPoint: "Anchor-8" 503 0 basechar 0
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 362 858 basechar 0
+AnchorPoint: "Anchor-11" 503 0 basechar 0
+AnchorPoint: "Anchor-10" 243 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 267 792 m 0
@@ -23,7 +24,8 @@ SplineSet
  419 845 434 858 453 858 c 0
  474 858 486 842 483 822 c 0
  481 805 467 792 449 792 c 0
-418 192 m 1
+454 0 m 1
+ 419 192 l 1
  122 192 l 1
  32 0 l 1
  -17 0 l 1
@@ -31,13 +33,12 @@ SplineSet
  369 684 l 1
  503 0 l 1
  454 0 l 1
- 418 192 l 1
-410 234 m 1
+141 234 m 1
+ 411 234 l 1
  334 645 l 1
- 142 234 l 1
- 410 234 l 1
+ 141 234 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" adieresis.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" adieresis.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" adieresis.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

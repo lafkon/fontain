@@ -1,24 +1,26 @@
-
 StartChar: Amacron
-Encoding: 256 256 7
+Encoding: 256 256 27
 Width: 560
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G<-17 32 -17 -17 454 454 454 503> 192 42<142 410 142 418 122 410> 645 39<334 334> 805 39<247 470 241 476>
+HStem: 0 21G<-17 32 -17 -17 454 503 454 454> 192 42<141 411 141 419 122 411> 645 39<334 334> 805 39<248 471 242 477>
 VStem: -17 520<0 0>
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 184 522 basechar 0
-AnchorPoint: "Anchor-9" 340 684 basechar 0
-AnchorPoint: "Anchor-8" 503 0 basechar 0
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 361 844 basechar 0
+AnchorPoint: "Anchor-11" 503 0 basechar 0
+AnchorPoint: "Anchor-10" 243 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-470 805 m 1
- 241 805 l 1
- 247 844 l 1
- 476 844 l 1
- 470 805 l 1
-418 192 m 1
+477 844 m 1
+ 471 805 l 1
+ 242 805 l 1
+ 248 844 l 1
+ 477 844 l 1
+454 0 m 1
+ 419 192 l 1
  122 192 l 1
  32 0 l 1
  -17 0 l 1
@@ -26,13 +28,12 @@ SplineSet
  369 684 l 1
  503 0 l 1
  454 0 l 1
- 418 192 l 1
-410 234 m 1
+141 234 m 1
+ 411 234 l 1
  334 645 l 1
- 142 234 l 1
- 410 234 l 1
+ 141 234 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" amacron.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" amacron.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" amacron.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

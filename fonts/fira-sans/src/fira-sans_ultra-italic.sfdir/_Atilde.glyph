@@ -1,16 +1,17 @@
-
 StartChar: Atilde
-Encoding: 195 195 10
+Encoding: 195 195 32
 Width: 594
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G<-69 168 -69 -69 349 349 349 589> 126 160<252 340 252 345 205 340> 557 141<332 332> 678 20G<223 493 493 493> 740 154<424 450 424 458> 782 154<305.5 332>
+HStem: 0 21G<-69 168 -69 -69 349 589 349 349> 126 160<252 340 252 345 205 340> 557 141<332 332> 678 20G<223 493 493 493> 740 154<424 450 424 458> 782 154<305.5 332>
 VStem: -69 658<0 0>
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 48 536 basechar 0
-AnchorPoint: "Anchor-9" 357 698 basechar 0
-AnchorPoint: "Anchor-8" 488 0 basechar 0
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 380 937 basechar 0
+AnchorPoint: "Anchor-11" 488 0 basechar 0
+AnchorPoint: "Anchor-10" 258 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 318 782 m 0xd6
@@ -22,7 +23,8 @@ SplineSet
  588 887 l 1
  553 810 492 740 424 740 c 0xda
  380 740 346 782 318 782 c 0xd6
-345 126 m 1
+349 0 m 1
+ 345 126 l 1
  205 126 l 1
  168 0 l 1
  -69 0 l 1
@@ -30,13 +32,12 @@ SplineSet
  493 698 l 1
  589 0 l 1
  349 0 l 1
- 345 126 l 1
-340 286 m 1
+252 286 m 1
+ 340 286 l 1
  332 557 l 1xe6
  252 286 l 1
- 340 286 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" atilde.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" atilde.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" atilde.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

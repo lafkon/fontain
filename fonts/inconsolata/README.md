@@ -34,6 +34,6 @@ TEX CONFIGURATION
 =================
 KARLBERRYNAME:lin
 FOUNDRY:levien
-TEXSRCREGULAR:inconsolata_bold
-TEXSRCBOLD:inconsolata_regular
+TEXSRCBOLD:inconsolata_bold
+TEXSRCREGULAR:inconsolata_regular
 

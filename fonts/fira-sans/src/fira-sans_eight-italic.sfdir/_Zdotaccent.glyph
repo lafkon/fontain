@@ -1,36 +1,37 @@
-
 StartChar: Zdotaccent
-Encoding: 379 379 127
+Encoding: 379 379 309
 Width: 506
 GlyphClass: 2
 Flags: MW
-HStem: 0 8<19.29 402.5> 672.64 7.78999 817.21 20.15
-VStem: 8.14 11.15 323.36 20.35 503.14 11.04
+HStem: 0 8<8 9 9 9 19 403> 673 7<140 503 139 515 514 514> 817 20<332 337.5>
+VStem: 8.5 10.5 324 21<827 828> 503 11.5
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 335 837 basechar 0
 AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 313 680 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 208 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-333.86 837.36 m 0
- 340.86 837.36 344.141 832.431 343.711 826.86 c 0
- 343.281 821.71 339.781 817.21 333.211 817.21 c 0
- 326.431 817.21 322.931 822.14 323.36 827.71 c 0
- 323.79 832.86 327.5 837.36 333.86 837.36 c 0
-513.86 673.07 m 1
- 19.29 8 l 1
- 404.43 8 l 1
- 402.5 0 l 1
- 7.71973 0 l 1
- 8.56934 7.57031 l 1
- 503.14 672.641 l 1
- 139.29 672.641 l 1
- 140.14 680.431 l 1
- 514.5 680.431 l 1
- 513.86 673.07 l 1
+335 837 m 0
+ 342 837 345 832 345 827 c 0
+ 344 822 341 817 334 817 c 0
+ 328 817 324 822 324 828 c 0
+ 325 833 329 837 335 837 c 0
+8 0 m 1
+ 9 8 l 1
+ 503 673 l 1
+ 139 673 l 1
+ 140 680 l 1
+ 515 680 l 1
+ 514 673 l 1
+ 19 8 l 1
+ 404 8 l 1
+ 403 0 l 1
+ 8 0 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" zdotaccent.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" zdotaccent.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" zdotaccent.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

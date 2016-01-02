@@ -1,18 +1,19 @@
-
 StartChar: four.dnom
-Encoding: 1114459 -1 942
+Encoding: 1114809 -1 2076
 Width: 400
 Flags: MW
-HStem: 0 175<213 214 152 335 213 213> 81 94<152 213 335 380>
-VStem: 213 122<0 81 0 81>
+HStem: 0 175<213 214 152 335 213 213> 81 94<152 212 335 380>
+VStem: 212.5 122.5
 LayerCount: 2
+Back
 Fore
 SplineSet
-380 81 m 1x60
+380 175 m 1xa0
+ 380 81 l 1
  335 81 l 1x60
  335 0 l 1
  213 0 l 1xa0
- 213 81 l 1
+ 212 81 l 1
  19 81 l 1
  19 166 l 1x60
  138 433 l 1
@@ -23,6 +24,5 @@ SplineSet
  335 266 l 1
  335 175 l 1
  380 175 l 1xa0
- 380 81 l 1x60
 EndSplineSet
 EndChar

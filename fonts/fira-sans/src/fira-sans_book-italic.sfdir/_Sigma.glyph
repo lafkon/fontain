@@ -1,30 +1,31 @@
-
 StartChar: Sigma
-Encoding: 931 931 710
+Encoding: 931 931 1516
 Width: 496
 GlyphClass: 2
 Flags: MW
 HStem: 0 72<113 418> 616 72<188 505 188 188>
 VStem: 3 512
 LayerCount: 2
+Back
 Fore
 SplineSet
-505 616 m 1
+515 688 m 1
+ 505 616 l 1
  188 616 l 1
- 354 369 l 1
- 348 313 l 1
+ 354 363 l 1
+ 348 307 l 1
  113 72 l 1
  428 72 l 1
  418 0 l 1
  3 0 l 1
  13 70 l 1
- 274 339 l 1
+ 274 340 l 1
  91 618 l 1
  100 688 l 1
  515 688 l 1
- 505 616 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" sigma.sc
-Substitution2: "'aalt' Access All Alternates lookup 0 subtable" sigma.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" sigma.sc
+Substitution2: "'mgrk' Mathematical Greek lookup 13 subtable" summation
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" summation sigma.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

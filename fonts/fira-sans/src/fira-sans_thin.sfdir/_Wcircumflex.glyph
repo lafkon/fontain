@@ -1,27 +1,29 @@
-
 StartChar: Wcircumflex
-Encoding: 372 372 115
+Encoding: 372 372 296
 Width: 790
 GlyphClass: 2
 Flags: MW
 HStem: 0 23<212 212 212 223 197 212> 659 22<395 395> 845 24<395 395>
 VStem: 38 714<681 681>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 475 721 basechar 0
+AnchorPoint: "Anchor-12" 394 869 basechar 0
 AnchorPoint: "Anchor-11" 0 0 basechar 0
 AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 395 681 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-395 845 m 1
+509 766 m 1
+ 395 845 l 1
  280 766 l 1
  269 780 l 1
  389 869 l 1
  401 869 l 1
  521 780 l 1
  509 766 l 1
- 395 845 l 1
-593 0 m 1
+752 681 m 1
+ 593 0 l 1
  567 0 l 1
  395 659 l 1
  223 0 l 1
@@ -34,9 +36,8 @@ SplineSet
  580 24 l 1
  729 681 l 1
  752 681 l 1
- 593 0 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" wcircumflex.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" wcircumflex.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" wcircumflex.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

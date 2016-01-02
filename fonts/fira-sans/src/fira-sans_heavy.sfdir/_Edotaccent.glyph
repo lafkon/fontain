@@ -1,16 +1,17 @@
-
 StartChar: Edotaccent
-Encoding: 278 278 30
+Encoding: 278 278 80
 Width: 520
 GlyphClass: 2
 Flags: MW
 HStem: 0 144<249 495 249 495> 284 139<249 451 249 451> 553 143<249 479 249 249> 743 212<239.5 304.5>
 VStem: 43 206<144 284 423 553> 161 222<819 879>
-AnchorPoint: "Anchor-11" 269 0 basechar 0
-AnchorPoint: "Anchor-10" 43 696 basechar 0
-AnchorPoint: "Anchor-9" 272 696 basechar 0
-AnchorPoint: "Anchor-8" 465 0 basechar 0
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 274 955 basechar 0
+AnchorPoint: "Anchor-11" 465 0 basechar 0
+AnchorPoint: "Anchor-10" 269 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 272 955 m 0xf4
@@ -18,7 +19,8 @@ SplineSet
  383 789 337 743 272 743 c 0
  207 743 161 789 161 849 c 0
  161 909 207 955 272 955 c 0xf4
-479 553 m 1
+500 696 m 1
+ 479 553 l 1
  249 553 l 1
  249 423 l 1
  451 423 l 1
@@ -30,9 +32,8 @@ SplineSet
  43 0 l 1
  43 696 l 1xe8
  500 696 l 1
- 479 553 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" edotaccent.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" edotaccent.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" edotaccent.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

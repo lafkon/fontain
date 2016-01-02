@@ -1,25 +1,25 @@
-
 StartChar: parenleft
-Encoding: 40 40 1009
+Encoding: 40 40 2150
 Width: 329
 Flags: MW
-HStem: -125.36 950.86
-VStem: 83.19 245.45
+HStem: -125 951<193 326>
+VStem: 83.26 245.74
 LayerCount: 2
+Back
 Fore
 SplineSet
-328.64 823.57 m 1
- 221.64 692.57 126.859 576.43 95.8594 349.859 c 0
- 63.999 123.43 125.719 7.29004 196.719 -123.71 c 1
- 193.289 -125.36 l 1
- 120.929 6.85938 59.9287 122.93 91.9287 350.14 c 0
- 122.999 577.21 216.999 693.28 326.359 825.5 c 1
- 328.64 823.57 l 1
+326 826 m 1
+ 329 824 l 1
+ 222 693 127 576 96 350 c 0
+ 64 123 126 7 197 -124 c 1
+ 193 -125 l 1
+ 121 7 60 123 92 350 c 0
+ 123 577 217 693 326 826 c 1
 EndSplineSet
-Substitution2: "'case' Case-Sensitive Forms lookup 25 subtable" parenleft.case
-Substitution2: "'dnom' Denominators lookup 14 subtable" parenleft.dnom
-Substitution2: "'numr' Numerators lookup 13 subtable" parenleft.numr
-Substitution2: "'sups' Superscript lookup 12 subtable" parenleftsuperior
-Substitution2: "'subs' Subscript lookup 11 subtable" uni208D
-AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" uni208D parenleftsuperior parenleft.numr parenleft.dnom parenleft.case
+Substitution2: "'case' Case-Sensitive Forms lookup 29 subtable" parenleft.case
+Substitution2: "'dnom' Denominators lookup 17 subtable" parenleft.dnom
+Substitution2: "'numr' Numerators lookup 16 subtable" parenleft.numr
+Substitution2: "'sups' Superscript lookup 15 subtable" uni207D
+Substitution2: "'subs' Subscript lookup 14 subtable" uni208D
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" uni208D uni207D parenleft.numr parenleft.dnom parenleft.case
 EndChar

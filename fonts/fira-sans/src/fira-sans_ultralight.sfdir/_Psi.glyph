@@ -1,21 +1,22 @@
-
 StartChar: Psi
-Encoding: 936 936 713
+Encoding: 936 936 1515
 Width: 654
 GlyphClass: 2
 Flags: MW
 HStem: 0 21G<309 344 309 309> 206 32<309 309> 662 20G<44 79 79 79 309 344 344 344 574 609 609 609>
 VStem: 44 35<426 429 429 682> 309 35<0 206 0 206 238 682> 574 35<429 682>
 LayerCount: 2
+Back
 Fore
 SplineSet
-609 682 m 1
+574 682 m 1
+ 609 682 l 1
  609 426 l 2
- 609 287 518 211 344 206 c 1
+ 609 287 517 211 344 206 c 1
  344 0 l 1
  309 0 l 1
  309 206 l 1
- 137 211 44 288 44 426 c 2
+ 138 211 44 287 44 426 c 2
  44 682 l 1
  79 682 l 1
  79 429 l 2
@@ -25,9 +26,8 @@ SplineSet
  344 238 l 1
  497 243 574 308 574 429 c 2
  574 682 l 1
- 609 682 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" psi.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" psi.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" psi.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

@@ -1,38 +1,40 @@
-
 StartChar: Alphatonos
-Encoding: 902 902 717
+Encoding: 902 902 1523
 Width: 557
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G<-10 15 -10 -10 469 469 469 493> 203 21<123 424 123 428 113 424> 540 20G<160 160> 662 19<335 335> 667 20G<209 209>
-VStem: -10 503<0 0>
-AnchorPoint: "Anchor-7" 0 0 basechar 0
-AnchorPoint: "Anchor-6" 198 519 basechar 0
-AnchorPoint: "Anchor-5" 503 0 basechar 0
-AnchorPoint: "Anchor-4" 338 681 basechar 0
+HStem: 0 21G<-9 15 -9 -9 469 493 469 469> 203 21<123 424 123 428 113 424> 540 20G<110 110> 662 19<335 335> 667 20G<159 159>
+VStem: -9 502<0 0>
+AnchorPoint: "Anchor-9" 0 0 basechar 0
+AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-7" 503 0 basechar 0
+AnchorPoint: "Anchor-6" 242 0 basechar 0
+AnchorPoint: "Anchor-5" 338 681 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-176 557 m 1xf4
- 160 560 l 1
- 209 687 l 1xec
- 236 681 l 1
- 176 557 l 1xf4
-428 203 m 1
+186 681 m 1xf4
+ 126 557 l 1
+ 110 560 l 1
+ 159 687 l 1xec
+ 186 681 l 1xf4
+469 0 m 1
+ 428 203 l 1
  113 203 l 1
  15 0 l 1
- -10 0 l 1
+ -9 0 l 1
  324 681 l 1
  351 681 l 1xf4
  493 0 l 1
  469 0 l 1
- 428 203 l 1
-424 224 m 1
+123 224 m 1
+ 424 224 l 1
  335 662 l 1
  123 224 l 1
- 424 224 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" alphatonos.sc
-Substitution2: "'aalt' Access All Alternates lookup 0 subtable" alphatonos.sc
+Substitution2: "Single Substitution lookup 41 subtable" Alpha
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" alphatonos.sc
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" alphatonos.sc Alpha
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

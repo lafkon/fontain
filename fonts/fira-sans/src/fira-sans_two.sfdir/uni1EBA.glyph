@@ -1,0 +1,45 @@
+StartChar: uni1EBA
+Encoding: 7866 7866 83
+Width: 495
+GlyphClass: 2
+Flags: MW
+HStem: 0 21G<130 445 130 130> 360 320<132 392 132 132> 678 140<280 280 280 435> 816 114<282 282>
+VStem: 130 152<0 816 680 816> 280 69<778 892.5 818 892.5>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 291 930 basechar 0
+AnchorPoint: "Anchor-11" 425 0 basechar 0
+AnchorPoint: "Anchor-10" 284 0 basechar 0
+LayerCount: 2
+Back
+Fore
+SplineSet
+280 778 m 1xd4
+ 280 818 l 1
+ 317 821 347 833 347 875 c 0xa4
+ 347 909 323 928 288 928 c 0
+ 264 928 245 919 231 911 c 1
+ 230 913 l 1
+ 244 921 263 930 288 930 c 0
+ 324 930 349 910 349 875 c 0xd4
+ 349 832 318 819 282 816 c 1xd8
+ 282 778 l 1
+ 280 778 l 1xd4
+435 680 m 1
+ 435 678 l 1xa4
+ 132 678 l 1xa8
+ 132 362 l 1
+ 392 362 l 1
+ 392 360 l 1
+ 132 360 l 1
+ 132 2 l 1
+ 445 2 l 1
+ 445 0 l 1
+ 130 0 l 1
+ 130 680 l 1xd8
+ 435 680 l 1
+EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" uni1EBB.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uni1EBB.sc
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
+EndChar

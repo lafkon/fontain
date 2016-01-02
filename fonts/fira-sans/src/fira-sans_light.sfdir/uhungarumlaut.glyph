@@ -1,29 +1,31 @@
-
 StartChar: uhungarumlaut
-Encoding: 369 369 245
+Encoding: 369 369 682
 Width: 579
 GlyphClass: 2
 Flags: MW
 HStem: -11 48<228 289.5> 0 21G<423 473 423 423> 503 20G<101 159 159 159 415 473 473 473>
-VStem: 101 58<149 155 155 523> 415 58<144 523>
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 287 523 basechar 0
-AnchorPoint: "Anchor-8" 483 0 basechar 0
+VStem: 101 58<149 155 155 523> 415 58<144 523 0 523>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 483 523 basechar 0
+AnchorPoint: "Anchor-12" 287 523 basechar 0
+AnchorPoint: "Anchor-11" 483 0 basechar 0
+AnchorPoint: "Anchor-10" 287 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-325 783 m 1xb8
+273 811 m 1xb8
+ 325 783 l 1
  240 647 l 1
  202 664 l 1
- 273 811 l 1
- 325 783 l 1xb8
-454 784 m 1
+ 273 811 l 1xb8
+402 811 m 1
+ 454 784 l 1
  361 642 l 1
  323 660 l 1
  402 811 l 1
- 454 784 l 1
-473 0 m 1x78
+473 523 m 1
+ 473 0 l 1
  423 0 l 1x78
  420 93 l 1
  383 31 330 -11 249 -11 c 0
@@ -31,12 +33,11 @@ SplineSet
  101 523 l 1
  159 523 l 1
  159 155 l 2
- 159 72 194 37 262 37 c 0xb8
+ 159 72 194 37 262 37 c 0
  331 37 379 82 415 144 c 1
  415 523 l 1
  473 523 l 1
- 473 0 l 1x78
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" uhungarumlaut.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" uhungarumlaut.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uhungarumlaut.sc
 EndChar

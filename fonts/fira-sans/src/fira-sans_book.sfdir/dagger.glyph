@@ -1,14 +1,16 @@
-
 StartChar: dagger
-Encoding: 8224 8224 1229
+Encoding: 8224 8224 2384
 Width: 509
+GlyphClass: 2
 Flags: MW
 HStem: 0 21G<214 295 214 214> 449 71<44 214 44 214 295 465>
 VStem: 214 81<0 449 0 449 520 668>
 LayerCount: 2
+Back
 Fore
 SplineSet
-295 520 m 1
+295 668 m 1
+ 295 520 l 1
  465 520 l 1
  465 449 l 1
  295 449 l 1
@@ -20,9 +22,8 @@ SplineSet
  214 520 l 1
  214 668 l 1
  295 668 l 1
- 295 520 l 1
 EndSplineSet
-Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" dagger.osf
-Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" dagger.tf
+Substitution2: "'onum' Oldstyle Figures lookup 25 subtable" dagger.osf
+Substitution2: "'tnum' Tabular Numbers lookup 24 subtable" dagger.tf
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" dagger.tf dagger.osf
 EndChar

@@ -1,19 +1,21 @@
-
 StartChar: Zeta
-Encoding: 918 918 696
+Encoding: 918 918 1498
 Width: 557
 GlyphClass: 2
 Flags: MW
 HStem: 0 161<256 522> 540 156<38 296 38 533>
 VStem: 10 532<0 161 151 161>
+AnchorPoint: "Anchor-9" 0 0 basechar 0
+AnchorPoint: "Anchor-8" 0 0 basechar 0
 AnchorPoint: "Anchor-7" 0 0 basechar 0
-AnchorPoint: "Anchor-6" 0 0 basechar 0
-AnchorPoint: "Anchor-5" 0 0 basechar 0
-AnchorPoint: "Anchor-4" 279 696 basechar 0
+AnchorPoint: "Anchor-6" 268 0 basechar 0
+AnchorPoint: "Anchor-5" 279 696 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-533 543 m 1
+533 696 m 1
+ 533 543 l 1
  256 161 l 1
  542 161 l 1
  522 0 l 1
@@ -23,9 +25,8 @@ SplineSet
  38 540 l 1
  38 696 l 1
  533 696 l 1
- 533 543 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" zeta.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" zeta.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" zeta.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

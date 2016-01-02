@@ -1,35 +1,36 @@
-
 StartChar: Lcommaaccent
-Encoding: 315 315 61
+Encoding: 315 315 147
 Width: 457
 GlyphClass: 2
 Flags: MW
 HStem: 0 33<122 399> 662 20G<178 213 213 213>
-VStem: 82 329<0 33> 194 68<-129 -116>
-AnchorPoint: "Anchor-11" 244 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 196 682 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+VStem: 82 329<0 33> 190 68<-129 -116>
+AnchorPoint: "Anchor-14" 368 356 basechar 0
+AnchorPoint: "Anchor-13" 252 682 basechar 0
+AnchorPoint: "Anchor-12" 196 682 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 240 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-122 33 m 1xe0
+213 682 m 1xe0
+ 122 33 l 1
  411 33 l 1
  399 0 l 1
  82 0 l 1
  178 682 l 1
- 213 682 l 1
- 122 33 l 1xe0
-230 -90 m 0xd0
- 249 -90 262 -103 262 -120 c 0
- 262 -138 256 -148 235 -182 c 2
- 183 -267 l 1
- 160 -267 l 1
- 211 -154 l 1
- 199 -147 194 -135 194 -126 c 0
- 194 -106 208 -90 230 -90 c 0xd0
+ 213 682 l 1xe0
+226 -90 m 0xd0
+ 245 -90 258 -103 258 -120 c 0
+ 258 -138 252 -148 231 -182 c 2
+ 179 -267 l 1
+ 156 -267 l 1
+ 207 -154 l 1
+ 195 -147 190 -135 190 -126 c 0
+ 190 -106 204 -90 226 -90 c 0xd0
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" lcommaaccent.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" lcommaaccent.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" lcommaaccent.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

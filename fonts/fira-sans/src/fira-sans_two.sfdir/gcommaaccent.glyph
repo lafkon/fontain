@@ -1,27 +1,29 @@
-
 StartChar: gcommaaccent
-Encoding: 291 291 171
+Encoding: 291 291 457
 Width: 487
 GlyphClass: 2
 Flags: MW
-HStem: -192 248<217 308 308 319.5> 54 142<208 217 217 299 208 308> 507 20G<193 319> 624 10<236 238 236 238.5>
-VStem: 232 10<627.5 630>
-AnchorPoint: "Anchor-11" 246 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 246 517 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+HStem: -192 248<217 308 308 319.5> 54 142<208 217 217 299 208 308> 507 20G<193 319> 525 82<241 243 241 285 241 325> 709 20G<263 264 264 264>
+VStem: 237 10<600.5 603>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 244 517 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 252 -188 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-237 624 m 0xb8
- 234 624 232 626 232 629 c 0
- 232 631 232 632 233 637 c 2
- 258 756 l 1
- 259 756 l 1
- 236 634 l 1
- 240 634 242 632 242 629 c 0
- 242 626 240 624 237 624 c 0xb8
-462 542 m 1
+242 597 m 0x9c
+ 239 597 237 599 237 602 c 0
+ 237 604 237 605 238 610 c 2
+ 263 729 l 1
+ 264 729 l 1
+ 241 607 l 2
+ 245 607 247 605 247 602 c 0
+ 247 599 245 597 242 597 c 0x9c
+462 544 m 1x6c
+ 462 542 l 1x6c
  428 532 378 525 272 525 c 1
  371 513 419 445 419 356 c 0
  419 252 351 194 249 194 c 0
@@ -30,25 +32,24 @@ SplineSet
  108 83 144 56 217 56 c 2
  308 56 l 2
  400 56 452 10 452 -59 c 0
- 452 -146 387 -192 252 -192 c 0xb8
+ 452 -146 387 -192 252 -192 c 0xac
  115 -192 55 -158 55 -60 c 1
  57 -60 l 1
  57 -157 117 -190 252 -190 c 0
  385 -190 450 -145 450 -59 c 0
  450 10 397 54 308 54 c 2
  217 54 l 2
- 143 54 106 82 106 128 c 0x78
+ 143 54 106 82 106 128 c 0
  106 168 132 195 162 215 c 1
  112 241 75 286 75 357 c 0
  75 460 145 527 241 527 c 0
- 397 527 424 534 462 544 c 1
- 462 542 l 1
-241 525 m 0
+ 397 527 424 534 462 544 c 1x6c
+241 525 m 0x5c
  143 525 77 455 77 357 c 0
- 77 250 167 196 249 196 c 0x78
+ 77 250 167 196 249 196 c 0
  349 196 417 253 417 356 c 0
- 417 481 329 525 241 525 c 0
+ 417 481 329 525 241 525 c 0x5c
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" gcommaaccent.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" gcommaaccent.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" gcommaaccent.sc
 EndChar

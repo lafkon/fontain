@@ -1,16 +1,17 @@
-
 StartChar: abreve
-Encoding: 259 259 136
+Encoding: 259 259 337
 Width: 550
 GlyphClass: 2
 Flags: MW
 HStem: -18 125<142 264> -15 21G<492 492> 236 95<274 290 290 320> 423 128<234 267.5> 629 122<250.5 296 250.5 329.5>
-VStem: 21 175<148 189.5 148 207.5> 320 174<150 164 164 236 236 236 331 349 349 358>
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 274 533 basechar 0
-AnchorPoint: "Anchor-8" 502 -15 basechar 0
+VStem: 21 175<148 189.5 148 207.5> 320 174<149 164 164 236 236 236 331 349 349 358>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 276 830 basechar 0
+AnchorPoint: "Anchor-11" 502 -15 basechar 0
+AnchorPoint: "Anchor-10" 274 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 273 629 m 0x7e
@@ -23,8 +24,8 @@ SplineSet
 494 164 m 2
  494 124 504 109 528 100 c 1
  492 -15 l 1x7e
- 426 -10 383 9 356 60 c 1
- 318 2 258 -18 195 -18 c 0xbe
+ 426 -10 383 9 355 60 c 1
+ 317 2 257 -18 195 -18 c 0xbe
  89 -18 21 51 21 149 c 0
  21 266 110 331 274 331 c 2
  320 331 l 1
@@ -36,12 +37,12 @@ SplineSet
  426 551 494 486 494 358 c 2
  494 164 l 2
 249 107 m 0xbe
- 279 107 304 124 320 150 c 1
+ 279 107 304 124 320 149 c 1
  320 236 l 1
  290 236 l 2
  226 236 196 213 196 166 c 0
  196 130 215 107 249 107 c 0xbe
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" abreve.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" abreve.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" abreve.sc
 EndChar

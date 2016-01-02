@@ -1,28 +1,29 @@
-
 StartChar: product
-Encoding: 8719 8719 1117
+Encoding: 8719 8719 2300
 Width: 590
+GlyphClass: 2
 Flags: MW
-HStem: -194.43 21G -192.14 21G 647.71 13.15 647.72 13.14
-VStem: 162.57 14 413.42 14
+HStem: -194 21G<177 177 413 413> -192 21G<427 427> 648 13<86 163 86 504 177 413 177 177 427 504 427 427>
+VStem: 163 14<-194 648 -194 648 -194 648> 413 14<-192 648 -192 648 -192 648>
 LayerCount: 2
+Back
 Fore
 SplineSet
-427.43 647.71 m 1x6c
- 427.419 -192.14 l 1
- 413.419 -193.85 l 1
- 413.419 647.721 l 1
- 176.569 647.721 l 1x5c
- 176.569 -194.43 l 1
- 162.569 -196.14 l 1
- 162.569 647.71 l 1
- 85.709 647.71 l 1xac
- 85.709 660.86 l 1
- 504.279 660.86 l 1x5c
- 504.279 647.71 l 1
- 427.43 647.71 l 1x6c
+504 648 m 1x78
+ 427 648 l 1
+ 427 -192 l 1
+ 413 -194 l 1x78
+ 413 648 l 1
+ 177 648 l 1
+ 177 -194 l 1
+ 163 -196 l 1xb8
+ 163 648 l 1
+ 86 648 l 1
+ 86 661 l 1
+ 504 661 l 1
+ 504 648 l 1x78
 EndSplineSet
-Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" product.osf
-Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" product.tf
+Substitution2: "'onum' Oldstyle Figures lookup 25 subtable" product.osf
+Substitution2: "'tnum' Tabular Numbers lookup 24 subtable" product.tf
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" product.tf product.osf
 EndChar

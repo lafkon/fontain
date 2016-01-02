@@ -1,26 +1,27 @@
-
 StartChar: dollar.osf
-Encoding: 1114504 -1 1069
+Encoding: 1114854 -1 2207
 Width: 528
+GlyphClass: 2
 Flags: MW
-HStem: -144 137<254 256 254 254> -9 21G<209.5 254> -8.99001 21G
-VStem: 65 383<67 226> 254 194<-144 226 -9 226>
+HStem: -144 137<254 256 254 254> -9 21G<209.5 254 256 256>
+VStem: 65 383<67 226>
 LayerCount: 2
+Back
 Fore
 SplineSet
-261 669 m 1x30
+261 805 m 1x60
+ 261 669 l 1
  259 669 l 1
  259 805 l 1
- 261 805 l 1
- 261 669 l 1x30
-448 173 m 0x28
- 448 66.6104 371.87 -8.14062 256 -8.99023 c 1x28
+ 261 805 l 1x60
+448 173 m 0
+ 448 67 372 -8 256 -9 c 1x60
  256 -144 l 1
- 254 -144 l 1x88
- 254 -9 l 1x48
+ 254 -144 l 1xa0
+ 254 -9 l 1x60
  165 -9 113 21 65 67 c 1
  66 69 l 1
- 114 23 165 -7 254 -7 c 0x88
+ 114 23 165 -7 254 -7 c 0xa0
  369 -7 446 67 446 173 c 0
  446 278 387 317 263 357 c 0
  130 400 87 434 87 521 c 0
@@ -30,9 +31,9 @@ SplineSet
  382 642 335 667 256 667 c 0
  154 667 89 603 89 521 c 0
  89 436 130 402 264 359 c 0
- 389 319 448 279 448 173 c 0x28
+ 389 319 448 279 448 173 c 0
 EndSplineSet
-Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" dollar.tosf
-Substitution2: "'lnum' Lining Figures lookup 19 subtable" dollar
+Substitution2: "'tnum' Tabular Numbers lookup 24 subtable" dollar.tosf
+Substitution2: "'lnum' Lining Figures lookup 22 subtable" dollar
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" dollar dollar.tosf
 EndChar

@@ -1,26 +1,27 @@
-
 StartChar: iota
-Encoding: 953 953 754
+Encoding: 953 953 1655
 Width: 258
 GlyphClass: 2
 Flags: MW
 HStem: -7 21G<147 147> 502 20G<142 187 187 187>
 VStem: 81.81 45.77
+AnchorPoint: "Anchor-9" 0 0 basechar 0
+AnchorPoint: "Anchor-8" 0 0 basechar 0
 AnchorPoint: "Anchor-7" 0 0 basechar 0
 AnchorPoint: "Anchor-6" 0 0 basechar 0
-AnchorPoint: "Anchor-5" 0 0 basechar 0
-AnchorPoint: "Anchor-4" 164 522 basechar 0
+AnchorPoint: "Anchor-5" 165 522 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-130 116 m 2
+187 522 m 1
+ 130 116 l 2
  122 62 133 44 165 28 c 1
  147 -7 l 1
- 91 12 75 46 84 117 c 1
+ 91 13 75 46 84 117 c 2
  142 522 l 1
  187 522 l 1
- 130 116 l 2
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" iota.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 28 subtable" iota.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" iota.sc
 EndChar

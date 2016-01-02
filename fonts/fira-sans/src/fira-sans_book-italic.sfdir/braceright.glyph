@@ -1,14 +1,15 @@
-
 StartChar: braceright
-Encoding: 125 125 1006
+Encoding: 125 125 2147
 Width: 317
 Flags: MW
 HStem: -134 64<-1 32 -1 56.5> 316 70<280.5 299> 769 65<126 153.5>
 VStem: 123 157.03 164.89 81.11
 LayerCount: 2
+Back
 Fore
 SplineSet
--1 -70 m 1xe8
+-6 -134 m 1xe8
+ -1 -70 l 1
  65 -70 96 -47 103 4 c 2
  137 246 l 2
  147 318 176 336 227 352 c 1
@@ -22,9 +23,8 @@ SplineSet
  299 316 l 1
  247 316 222 291 214 236 c 2
  182 6 l 2
- 168 -95 119 -134 -6 -134 c 1
- -1 -70 l 1xe8
+ 168 -95 119 -134 -6 -134 c 1xe8
 EndSplineSet
-Substitution2: "'case' Case-Sensitive Forms lookup 25 subtable" braceright.case
+Substitution2: "'case' Case-Sensitive Forms lookup 29 subtable" braceright.case
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" braceright.case
 EndChar

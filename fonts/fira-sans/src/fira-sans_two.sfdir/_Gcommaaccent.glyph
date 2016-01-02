@@ -1,16 +1,17 @@
-
 StartChar: Gcommaaccent
-Encoding: 290 290 38
+Encoding: 290 290 104
 Width: 599
 GlyphClass: 2
 Flags: MW
 HStem: -117 10<346 348> -9 21G<271.5 388> 670 20G<280 374>
 VStem: 342 10<-113 -110.5 -113 -110.5> 366 153<340 342 39 342>
-AnchorPoint: "Anchor-11" 338 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 337 680 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 337 680 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 338 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 343 690 m 0
@@ -33,11 +34,11 @@ SplineSet
  352 -114 352 -115 351 -120 c 2
  326 -239 l 1
  325 -239 l 1
- 348 -117 l 1
+ 348 -117 l 2
  344 -117 342 -115 342 -112 c 0
  342 -109 344 -107 347 -107 c 0
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" gcommaaccent.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" gcommaaccent.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" gcommaaccent.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

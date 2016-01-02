@@ -1,26 +1,32 @@
-
 StartChar: tildecomb
-Encoding: 771 771 1295
+Encoding: 771 771 2483
 Width: 0
 GlyphClass: 4
 Flags: MW
-HStem: 670 38<263 293.5 263 299> 673 20G<79 79> 714 38<156 171> 715 20G<373 373>
-VStem: 79 294<693 735>
-AnchorPoint: "Anchor-12" 199 522 mark 0
-AnchorPoint: "Anchor-9" 199 522 mark 0
-AnchorPoint: "Anchor-4" 199 522 mark 0
-AnchorPoint: "Anchor-1" 199 522 mark 0
+HStem: 670 38<-73.5 -43.5 -73.5 -38.5> 673 20G<-257 -257> 714 38<-180.5 -148.5> 715 20G<36 36>
+VStem: -257 293<693 735>
+AnchorPoint: "Anchor-19" -137 522 mark 0
+AnchorPoint: "Anchor-16" -108 753 basemark 0
+AnchorPoint: "Anchor-16" -137 522 mark 0
+AnchorPoint: "Anchor-12" -137 522 mark 0
+AnchorPoint: "Anchor-5" -137 522 mark 0
+AnchorPoint: "Anchor-2" -137 522 mark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-285 670 m 0x88
- 228 670 206 715 171 714 c 0x68
- 141 714 129 702 106 675 c 1x58
- 79 693 l 1
- 106 730 134 752 171 752 c 0x68
- 216 752 243 708 283 708 c 0
- 304 708 322 721 346 753 c 1x88
- 373 735 l 1x58
- 344 688 313 670 285 670 c 0x88
+-54 670 m 0x88
+ -107 670 -130 714 -167 714 c 0x68
+ -194 714 -208 702 -230 675 c 1x58
+ -257 693 l 1
+ -230 730 -201 752 -167 752 c 0x68
+ -120 752 -93 708 -54 708 c 0
+ -33 708 -15 721 9 753 c 1x88
+ 36 735 l 1x58
+ 7 688 -23 670 -54 670 c 0x88
 EndSplineSet
+Substitution2: "'case' Case-Sensitive Forms lookup 29 subtable" tildecomb.case
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 28 subtable" tildecomb.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" tildecomb.sc
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" tildecomb.sc tildecomb.case
 EndChar

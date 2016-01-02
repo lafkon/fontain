@@ -1,23 +1,24 @@
-
 StartChar: nacute
-Encoding: 324 324 202
+Encoding: 324 324 537
 Width: 582
 GlyphClass: 2
 Flags: MW
 HStem: 0 21G<114 148 114 114 440 474 440 440> 500 20G<114 143 143 143> 501 30<292.5 366.5>
 VStem: 114 34<0 382 0 520> 440 34<0 366 366 371 0 412>
-AnchorPoint: "Anchor-11" 289 0 basechar 0
-AnchorPoint: "Anchor-10" 104 520 basechar 0
-AnchorPoint: "Anchor-9" 297 520 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 297 769 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 289 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-201 650 m 1xb8
+385 734 m 1xb8
+ 201 650 l 1
  189 673 l 1
  369 769 l 1
- 385 734 l 1
- 201 650 l 1xb8
+ 385 734 l 1xb8
 333 531 m 0
  427 531 474 472 474 371 c 2
  474 0 l 1
@@ -30,9 +31,9 @@ SplineSet
  114 520 l 1
  143 520 l 1xd8
  147 423 l 1
- 193 487 252 531 333 531 c 0
+ 192 487 252 531 333 531 c 0
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" nacute.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" nacute.sc
 Substitution2: "'locl' Localized Forms in Latin lookup 7 subtable" nacute.loclPLK
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" nacute.loclPLK nacute.sc
 EndChar

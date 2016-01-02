@@ -1,32 +1,33 @@
-
 StartChar: cent
-Encoding: 162 162 1062
-Width: 466
+Encoding: 162 162 2204
+Width: 468
+GlyphClass: 2
 Flags: MW
 HStem: -19 21G<303 303> -8 21G<160 160> 679 20G<259 402 402 402>
-VStem: 2 227<187 252 187 279.5>
+VStem: 3 227<187 252 187 279.5> 3 512<164 480>
 LayerCount: 2
+Back
 Fore
 SplineSet
-456 44 m 1xb0
- 412 13 363 -11 303 -19 c 1xb0
+379 182 m 1x68
+ 457 44 l 1
+ 413 12 364 -11 303 -19 c 1xa8
  281 -167 l 1
  136 -167 l 1
- 160 -8 l 1x70
- 59 23 2 107 2 220 c 0
- 2 339 68 502 237 546 c 1
+ 160 -8 l 1
+ 59 24 3 108 3 220 c 0
+ 3 339 69 502 237 546 c 1
  259 699 l 1
  402 699 l 1
  382 552 l 1
- 434 542 479 516 514 480 c 1
- 411 357 l 1
- 384 382 356 392 329 392 c 0
- 245 392 229 288 229 216 c 0
- 229 158 255 148 289 148 c 0
- 319 148 342 159 378 182 c 1
- 456 44 l 1xb0
+ 435 542 480 517 515 480 c 1
+ 412 357 l 1
+ 385 382 357 392 330 392 c 0
+ 246 392 230 288 230 216 c 0
+ 230 158 257 148 291 148 c 0x70
+ 321 148 344 159 379 182 c 1x68
 EndSplineSet
-Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" cent.osf
-Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" cent.tf
+Substitution2: "'onum' Oldstyle Figures lookup 26 subtable" cent.osf
+Substitution2: "'tnum' Tabular Numbers lookup 25 subtable" cent.tf
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" cent.tf cent.osf
 EndChar

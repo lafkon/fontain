@@ -1,38 +1,39 @@
-
 StartChar: rcaron
-Encoding: 345 345 225
+Encoding: 345 345 610
 Width: 361
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G 497.21 20G 502.14 20G 518.36 8.85001 712.64 20G 714.86 20G
-VStem: 122.35 221.36
-AnchorPoint: "Anchor-11" 126 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 230 517 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+HStem: 0 21G<124 128 124 124> 497 20G<124 128 128 128> 518 9 712 20G<120 120 341 341> 715 20G<123 123 338 338>
+VStem: 120 221<732 732>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 233 735 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 126 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-230.64 647.5 m 1xaa
- 122.351 732.64 l 1
- 125.28 734.859 l 1
- 232.141 651.709 l 1x96
- 340.78 734.859 l 1
- 343.71 732.64 l 1
- 233.64 647.5 l 1
- 230.64 647.5 l 1xaa
-128.07 376.739 m 1
- 160.71 484.839 209.359 527.209 290.43 527.209 c 0
- 310.72 527.209 324 525.139 336.86 522.139 c 1
- 336.431 518.358 l 1
- 323.431 521.429 310.211 523.429 290.431 523.429 c 0x96
- 209.44 523.429 162.12 480.099 128.28 365.789 c 1
- 128.28 -0.000976562 l 1
- 124.28 -0.000976562 l 1
- 124.28 517.209 l 1
- 128 517.209 l 1xc6
- 128.07 376.739 l 1
+231 647 m 1xb4
+ 228 647 l 1xb4
+ 120 732 l 1
+ 123 735 l 1
+ 230 652 l 1xac
+ 338 735 l 1
+ 341 732 l 1
+ 231 647 l 1xb4
+128 377 m 1xac
+ 161 485 209 527 290 527 c 0
+ 311 527 324 525 337 522 c 1
+ 336 518 l 1
+ 323 521 310 523 290 523 c 0xac
+ 209 523 162 480 128 366 c 1
+ 128 0 l 1
+ 124 0 l 1
+ 124 517 l 1
+ 128 517 l 1xcc
+ 128 377 l 1xac
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" rcaron.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" rcaron.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" rcaron.sc
 EndChar

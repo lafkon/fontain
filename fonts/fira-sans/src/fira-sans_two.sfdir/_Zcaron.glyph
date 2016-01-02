@@ -1,27 +1,29 @@
-
 StartChar: Zcaron
-Encoding: 381 381 126
+Encoding: 381 381 318
 Width: 504
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G<45 437 45 45> 660 20G<82 454 454 454> 678 89<256 256 256 451>
+HStem: 0 21G<45 437 45 45> 660 20G<82 454 454 454> 678 89<253 253 253 451>
 VStem: 45 409
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 256 845 basechar 0
 AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 254 680 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 258 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-366 844 m 1xb0
- 257 765 l 1
- 255 765 l 1
- 148 844 l 1
- 150 845 l 1
- 256 767 l 1
- 364 845 l 1
- 366 844 l 1xb0
-454 678 m 1xd0
+361 845 m 1xb0
+ 363 844 l 1
+ 254 765 l 1
+ 252 765 l 1
+ 145 844 l 1
+ 147 845 l 1
+ 253 767 l 1
+ 361 845 l 1xb0
+454 680 m 1xd0
+ 454 678 l 1xd0
  48 2 l 1
  437 2 l 1
  437 0 l 1
@@ -30,10 +32,9 @@ SplineSet
  451 678 l 1xb0
  82 678 l 1
  82 680 l 1
- 454 680 l 1
- 454 678 l 1xd0
+ 454 680 l 1xd0
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" zcaron.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" zcaron.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" zcaron.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

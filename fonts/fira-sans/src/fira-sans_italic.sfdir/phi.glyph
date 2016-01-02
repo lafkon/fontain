@@ -1,17 +1,17 @@
-
 StartChar: phi
-Encoding: 966 966 767
+Encoding: 966 966 1668
 Width: 726
 GlyphClass: 2
 Flags: MW
 HStem: -216 21G<247 247> -11 21G<276 276 363 363> -11 69<276 285> 467 72<493 538.5> 507 20G<160 252 252 252>
-VStem: 58 90<148 241.5 148 243.5> 581 91<299 407>
+VStem: 58 90<148 241.5 148 243.5> 581 91<361 361>
 LayerCount: 2
+Back
 Fore
 SplineSet
 517 539 m 0xd6
- 613 539 672 484 672 350 c 0
- 672 184 625 5 363 -11 c 1
+ 613 539 673 484 672 360 c 0
+ 670 184 625 5 363 -11 c 1
  336 -204 l 1
  247 -216 l 1
  276 -11 l 1
@@ -23,11 +23,12 @@ SplineSet
  325 341 l 2
  343 473 416 539 517 539 c 0xd6
 517 467 m 0
- 469 467 427 445 410 331 c 1
+ 469 467 427 445 410 331 c 2
  372 59 l 1
- 564 78 581 227 581 371 c 0
- 581 443 560 467 517 467 c 0
+ 564 78 581 227 581 361 c 0
+ 581 441 560 467 517 467 c 0
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" phi.sc
-Substitution2: "'aalt' Access All Alternates lookup 0 subtable" phi.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 28 subtable" phi.sc
+Substitution2: "'mgrk' Mathematical Greek lookup 13 subtable" uni03D5
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" uni03D5 phi.sc
 EndChar

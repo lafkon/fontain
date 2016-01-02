@@ -1,28 +1,30 @@
-
 StartChar: ncaron.sc
-Encoding: 1114205 -1 353
+Encoding: 1114299 -1 898
 Width: 607
 GlyphClass: 2
 Flags: MW
-HStem: 0 22<466 466 466 485 456 466> 538 21<141 141> 671 24<305 305 305 311 299 305>
-VStem: 123 21<0 376 0 559> 463 22<179 559>
-AnchorPoint: "Anchor-11" 304 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 305 559 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+HStem: 0 22<466 466 466 485 455 466> 538 21<141 141> 671 24<305 305 305 311 299 305>
+VStem: 123 21<0 376 0 559> 463 22<179 559 0 559>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 307 779 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 304 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-431 766 m 1
+419 779 m 1
+ 431 766 l 1
  311 671 l 1
  299 671 l 1
  179 766 l 1
  190 779 l 1
  305 695 l 1
  419 779 l 1
- 431 766 l 1
-485 0 m 1
- 456 0 l 1
+485 559 m 1
+ 485 0 l 1
+ 455 0 l 1
  141 538 l 1
  143 504 144 465 144 376 c 2
  144 0 l 1
@@ -33,6 +35,5 @@ SplineSet
  465 56 463 110 463 179 c 2
  463 559 l 1
  485 559 l 1
- 485 0 l 1
 EndSplineSet
 EndChar

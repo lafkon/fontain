@@ -1,31 +1,32 @@
-
 StartChar: iotatonos
-Encoding: 943 943 771
+Encoding: 943 943 1672
 Width: 254
 GlyphClass: 2
 Flags: MW
-HStem: -5 21G<144 144> 500 20G<146 180 180 180> 719 20G<253 253> 727 20G<215 215>
+HStem: -5 21G<144 144> 500 20G<146 180 180 180> 719 20G<253 253>
 VStem: 85.72 33.86
+AnchorPoint: "Anchor-9" 0 0 basechar 0
+AnchorPoint: "Anchor-8" 0 0 basechar 0
 AnchorPoint: "Anchor-7" 0 0 basechar 0
 AnchorPoint: "Anchor-6" 0 0 basechar 0
-AnchorPoint: "Anchor-5" 0 0 basechar 0
-AnchorPoint: "Anchor-4" 163 520 basechar 0
+AnchorPoint: "Anchor-5" 163 520 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-253 739 m 1xe8
+215 747 m 1
+ 253 739 l 1
  186 603 l 1
  163 608 l 1
- 215 747 l 1xd8
- 253 739 l 1xe8
-122 111 m 2
+ 215 747 l 1
+180 520 m 1
+ 122 111 l 2
  114 55 125 37 157 21 c 1
  144 -5 l 1
  93 14 79 45 88 112 c 2
  146 520 l 1
  180 520 l 1
- 122 111 l 2
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" iotatonos.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 28 subtable" iotatonos.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" iotatonos.sc
 EndChar

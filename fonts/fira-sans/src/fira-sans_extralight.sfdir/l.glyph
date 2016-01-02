@@ -1,28 +1,30 @@
-
 StartChar: l
-Encoding: 108 108 194
+Encoding: 108 108 512
 Width: 281
 GlyphClass: 2
 Flags: MW
-HStem: -11 41<180.5 200> 715 20G<105 105> 721 20G<151 151>
-VStem: 105 46<85 735 735 735>
-AnchorPoint: "Anchor-11" 134 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 0 0 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+HStem: -11 41<181 201> 715 20G<105 105> 721 20G<151 151>
+VStem: 105 46<82 84 84 735 735 735>
+AnchorPoint: "Anchor-14" 271 376 basechar 0
+AnchorPoint: "Anchor-13" 176 735 basechar 0
+AnchorPoint: "Anchor-12" 128 735 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 179 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-151 84 m 2xb0
- 151 48 164 30 197 30 c 0
- 209 30 222 33 233 37 c 1
- 246 2 l 1
- 230 -5 210 -11 190 -11 c 0
- 137 -11 105 19 105 85 c 2
+191 -11 m 0xb0
+ 140 -11 105 19 105 82 c 2
  105 735 l 1xd0
  151 741 l 1
- 151 84 l 2xb0
+ 151 84 l 2
+ 151 48 166 30 196 30 c 0
+ 209 30 222 33 233 37 c 1
+ 246 2 l 1
+ 231 -5 211 -11 191 -11 c 0xb0
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" l.sc
-Substitution2: "'aalt' Access All Alternates lookup 0 subtable" l.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" l.sc
+Substitution2: "'sups' Superscript lookup 14 subtable" uni02E1
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" uni02E1 l.sc
 EndChar

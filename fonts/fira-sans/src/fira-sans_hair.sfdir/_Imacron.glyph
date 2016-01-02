@@ -1,30 +1,31 @@
-
 StartChar: Imacron
-Encoding: 298 298 51
+Encoding: 298 298 132
 Width: 266
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G<125.711 140.141 125.711 125.711> 660.85 20G 812.43 13.57
-VStem: 125.71 14.43
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 84 681 basechar 0
-AnchorPoint: "Anchor-9" 133 681 basechar 0
-AnchorPoint: "Anchor-8" 150 0 basechar 0
+HStem: 0 21G<126 140 126 126> 661 20G<126 140 140 140> 812 14<33 233 33 233>
+VStem: 126 14<0 681 0 681>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 135 826 basechar 0
+AnchorPoint: "Anchor-11" 150 0 basechar 0
+AnchorPoint: "Anchor-10" 133 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-32.5703 812.43 m 1
- 32.5703 826 l 1
- 232.851 826 l 1
- 232.851 812.43 l 1
- 32.5703 812.43 l 1
-140.141 0 m 1
- 125.711 -0 l 1
- 125.711 680.85 l 1
- 140.141 680.85 l 1
- 140.141 0 l 1
+233 812 m 1
+ 33 812 l 1
+ 33 826 l 1
+ 233 826 l 1
+ 233 812 l 1
+140 681 m 1
+ 140 0 l 1
+ 126 0 l 1
+ 126 681 l 1
+ 140 681 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" imacron.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" imacron.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" imacron.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

@@ -1,16 +1,17 @@
-
 StartChar: ydieresis
-Encoding: 255 255 260
+Encoding: 255 255 706
 Width: 526
 GlyphClass: 2
 Flags: MW
 HStem: -225 21G<55 55> 0 21G<146 207 146 146 370 370> 513 20G<-10 179 179 179 353 536 536 536> 637 172<119.5 168.5 358 407>
 VStem: 56 175<699 747> 294 176<699 747>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 265 809 basechar 0
 AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 260 730 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 260 -213 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 144 809 m 0
@@ -23,7 +24,8 @@ SplineSet
  470 675 432 637 382 637 c 0
  334 637 294 675 294 723 c 0
  294 771 334 809 382 809 c 0
-370 0 m 2
+536 533 m 1
+ 370 0 l 2
  327 -141 227 -218 55 -225 c 1
  36 -102 l 1
  139 -91 179 -64 207 0 c 1
@@ -33,8 +35,7 @@ SplineSet
  260 111 l 1
  353 533 l 1
  536 533 l 1
- 370 0 l 2
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" ydieresis.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" ydieresis.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" ydieresis.sc
 EndChar

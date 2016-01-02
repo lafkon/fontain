@@ -1,20 +1,22 @@
-
 StartChar: napostrophe.sc
-Encoding: 1114204 -1 352
+Encoding: 1114298 -1 897
 Width: 607
 GlyphClass: 2
 Flags: MW
-HStem: 0 22<466 466 466 485 456 466> 538 21<141 141>
-VStem: 123 21<0 376 0 559> 463 22<179 559>
-AnchorPoint: "Anchor-11" 304 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 305 559 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+HStem: 0 22<466 466 466 485 455 466> 538 21<141 141>
+VStem: 123 21<0 376 0 559> 463 22<179 559 0 559>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 305 559 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 304 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-485 0 m 1
- 456 0 l 1
+485 559 m 1
+ 485 0 l 1
+ 455 0 l 1
  141 538 l 1
  143 504 144 465 144 376 c 2
  144 0 l 1
@@ -25,6 +27,5 @@ SplineSet
  465 56 463 110 463 179 c 2
  463 559 l 1
  485 559 l 1
- 485 0 l 1
 EndSplineSet
 EndChar

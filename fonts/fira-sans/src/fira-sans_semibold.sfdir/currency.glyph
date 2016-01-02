@@ -1,30 +1,31 @@
-
 StartChar: currency
-Encoding: 164 164 1061
+Encoding: 164 164 2199
 Width: 560
+GlyphClass: 2
 Flags: MW
 HStem: 126 99<257.5 301.5> 458 98<257.5 301.5 257.5 315> 517 20G<20 20 540 540>
 VStem: 63 114<319 363> 384 115<319 363.5 319 378.5>
 LayerCount: 2
+Back
 Fore
 SplineSet
 499 341 m 0xb8
- 499 297 487 255 465 221 c 1
+ 499 297 487 256 465 222 c 1
  540 147 l 1
  474 80 l 1
- 397 156 l 1
- 364 137 324 126 279 126 c 0
- 236 126 197 137 164 157 c 1
+ 396 156 l 1
+ 363 137 324 126 279 126 c 0
+ 236 126 197 138 164 157 c 1
  86 80 l 1
  20 147 l 1
  97 223 l 1
- 75 257 63 297 63 341 c 0
- 63 385 75 425 96 459 c 1
+ 76 257 63 297 63 341 c 0
+ 63 385 75 425 96 458 c 1
  20 537 l 1
  86 603 l 1xb8
  164 525 l 1
  197 545 236 556 279 556 c 0
- 324 556 364 545 397 525 c 1
+ 324 556 364 545 397 526 c 1
  474 603 l 1xd8
  540 537 l 1
  465 461 l 1
@@ -35,7 +36,7 @@ SplineSet
  213 458 177 415 177 342 c 0
  177 268 213 225 281 225 c 0
 EndSplineSet
-Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" currency.osf
-Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" currency.tf
+Substitution2: "'onum' Oldstyle Figures lookup 25 subtable" currency.osf
+Substitution2: "'tnum' Tabular Numbers lookup 24 subtable" currency.tf
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" currency.tf currency.osf
 EndChar

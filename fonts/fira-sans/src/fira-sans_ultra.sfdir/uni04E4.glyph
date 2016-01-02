@@ -1,16 +1,17 @@
-
 StartChar: uni04E4
-Encoding: 1252 1252 497
+Encoding: 1252 1252 1174
 Width: 644
 GlyphClass: 2
 Flags: MW
 HStem: 0 21G<30 302 30 30 389 614 389 389> 678 20G<30 255 255 255 347 614 614 614> 754 201<167 224.5 419.5 477.5>
 VStem: 30 225<439 503 503 698 439 698> 91 207<827 883> 344 207<827 883> 389 225<0 185 185 252>
+AnchorPoint: "Anchor-4" 0 0 basechar 0
 AnchorPoint: "Anchor-3" 0 0 basechar 0
-AnchorPoint: "Anchor-2" 0 0 basechar 0
-AnchorPoint: "Anchor-1" 317 883 basechar 0
+AnchorPoint: "Anchor-2" 324 955 basechar 0
+AnchorPoint: "Anchor-1" 0 0 basechar 0
 AnchorPoint: "Anchor-0" 0 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 195 955 m 0xec
@@ -23,7 +24,8 @@ SplineSet
  551 799 507 754 448 754 c 0
  391 754 344 799 344 855 c 0
  344 911 391 955 448 955 c 0
-614 0 m 1xf2
+614 698 m 1xf2
+ 614 0 l 1
  389 0 l 1
  389 185 l 2
  389 319 405 409 423 482 c 2
@@ -32,10 +34,9 @@ SplineSet
  30 698 l 1
  255 698 l 1
  255 503 l 2
- 255 375 237 297 221 222 c 1
+ 255 375 237 297 221 222 c 2
  347 698 l 1
- 614 698 l 1
- 614 0 l 1xf2
+ 614 698 l 1xf2
 EndSplineSet
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

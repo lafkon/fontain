@@ -1,28 +1,29 @@
-
 StartChar: lessequal
-Encoding: 8804 8804 1102
+Encoding: 8804 8804 2260
 Width: 501
+GlyphClass: 2
 Flags: MW
-HStem: 0 21G<90 398 90 90>
+HStem: 0 21G<90 90 90 398>
 VStem: 90 321<0 177 2 177>
 LayerCount: 2
+Back
 Fore
 SplineSet
-411 485 m 1
+410 487 m 1
+ 411 485 l 1
  97 333 l 1
  411 177 l 1
  410 175 l 1
  95 332 l 1
  95 334 l 1
  410 487 l 1
- 411 485 l 1
-90 2 m 1
+90 0 m 1
+ 90 2 l 1
  398 2 l 1
  398 0 l 1
  90 0 l 1
- 90 2 l 1
 EndSplineSet
-Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" lessequal.osf
-Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" lessequal.tf
+Substitution2: "'onum' Oldstyle Figures lookup 25 subtable" lessequal.osf
+Substitution2: "'tnum' Tabular Numbers lookup 24 subtable" lessequal.tf
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" lessequal.tf lessequal.osf
 EndChar

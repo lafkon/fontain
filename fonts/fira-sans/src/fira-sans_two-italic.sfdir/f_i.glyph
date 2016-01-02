@@ -1,37 +1,38 @@
-
 StartChar: f_i
-Encoding: 1114125 -1 271
+Encoding: 1114131 -1 729
 Width: 539
 GlyphClass: 3
 Flags: MW
-HStem: -190 21G<-33 -33> 0 21G<376 378 376 376> 497 20G<71 163.76 163.76 163.76 165.76 450 450 450> 515 218<71 338 71 338 276 338 276 447.72 165.47 338>
+HStem: -190 21G<-33 -33> 0 21G<376 378 376 376> 497 20G<71 164 164 164 166 450 450 450> 515 218<71 338 71 338 276 338 276 448 165 338>
 VStem: -33 483
 LayerCount: 2
+Back
 Fore
 SplineSet
 450 517 m 1xe8
  378 0 l 1
  376 0 l 1
- 447.72 515 l 1
- 165.47 515 l 1
+ 448 515 l 1
+ 165 515 l 1
  93 1 l 2
  76 -118 43 -154 -32 -191 c 1
  -33 -190 l 1
  41 -153 75 -117 91 1 c 2
- 163.47 515 l 1xd8
+ 163 515 l 1xd8
  71 515 l 1
  71 517 l 1
- 163.76 517 l 1xe8
+ 164 517 l 1xe8
  178 618 l 2
  189 694 240 733 312 733 c 0
  364 733 397 720 435 695 c 1
  433 694 l 1
  396 718 364 731 312 731 c 0xd8
  241 731 191 693 180 618 c 2
- 165.76 517 l 1
+ 166 517 l 1
  450 517 l 1xe8
 EndSplineSet
-Ligature2: "'dlig' Discretionary Ligatures lookup 26 subtable" f i
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" f_i.sc
-Substitution2: "'aalt' Access All Alternates lookup 0 subtable" f_i.sc
+Ligature2: "'dlig' Discretionary Ligatures lookup 30 subtable" f i
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 28 subtable" f_i.sc
+Substitution2: "'locl' Localized Forms in Latin lookup 11 subtable" f_i.loclEWE
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" f_i.loclEWE f_i.sc
 EndChar

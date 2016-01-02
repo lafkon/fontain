@@ -1,23 +1,29 @@
-
 StartChar: Eng
-Encoding: 330 330 69
+Encoding: 330 330 165
 Width: 670
 GlyphClass: 2
 Flags: MW
-HStem: -204 21G<356 356> 0 21G<74 130 74 74 446 471 446 446 522 522> 631 54<209 209>
-VStem: 74 545
-AnchorPoint: "Anchor-11" 299 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 403 685 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+HStem: -205 49<353.5 390.5 353.5 407.5> 0 21G<74 130 74 74 446 463 446 446 522 522> 631 54<209 209>
+VStem: 458 59
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 403 685 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 299 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-619 685 m 1
+562 685 m 1
+ 619 685 l 1
  522 0 l 1
- 503 -123 458 -162 356 -204 c 1
- 341 -160 l 1
- 415 -128 453 -101 471 0 c 1
+ 512 -73 l 2
+ 499 -164 444 -205 371 -205 c 0
+ 324 -205 293 -187 273 -170 c 1
+ 300 -133 l 1
+ 319 -146 337 -156 370 -156 c 0
+ 411 -156 444 -132 453 -70 c 2
+ 463 0 l 1
  446 0 l 1
  209 631 l 1
  208 569 201 504 184 381 c 2
@@ -28,9 +34,10 @@ SplineSet
  484 55 l 1
  486 119 492 182 504 270 c 2
  562 685 l 1
- 619 685 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" eng.sc
-Substitution2: "'aalt' Access All Alternates lookup 0 subtable" eng.sc
+Substitution2: "'ss01' Style Set 1 lookup 34 subtable" Eng.ss01
+Substitution2: "'salt' Stylistic Alternatives lookup 33 subtable" Eng.ss01
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" eng.sc
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" eng.sc Eng.ss01
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

@@ -1,38 +1,39 @@
-
 StartChar: etatonos
-Encoding: 942 942 779
+Encoding: 942 942 1676
 Width: 579
 GlyphClass: 2
 Flags: MW
-HStem: -190 21G 0 21G 497 20G 507 20G<281.305 372.5>
-VStem: 124 335
+HStem: -190 21G<457 459 457 457> 0 21G<124 126 124 124> 497 20G<105 107 107 107> 507 20G<281.5 372.5>
+VStem: 124 335<0 368 -190 385 -190 409.5>
+AnchorPoint: "Anchor-9" 0 0 basechar 0
+AnchorPoint: "Anchor-8" 0 0 basechar 0
 AnchorPoint: "Anchor-7" 0 0 basechar 0
-AnchorPoint: "Anchor-6" 0 0 basechar 0
-AnchorPoint: "Anchor-5" 0 0 basechar 0
-AnchorPoint: "Anchor-4" 295 517 basechar 0
+AnchorPoint: "Anchor-6" 125 0 basechar 0
+AnchorPoint: "Anchor-5" 295 517 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-296 608 m 1xd8
+326 716 m 1xd8
+ 296 608 l 1
  294 608 l 1
  324 716 l 1
- 326 716 l 1
- 296 608 l 1xd8
+ 326 716 l 1xd8
 325 527 m 0
- 420 527 459.001 467.001 459.001 368.001 c 2
- 459.001 -189.999 l 1
- 457.001 -189.999 l 1
- 457.001 368.001 l 2
- 457.001 466.001 419.001 525.001 325.001 525.001 c 0
- 238.001 525.001 174.001 473.001 126.001 387.001 c 1
- 126.001 0.000976562 l 1
- 124.001 0.000976562 l 1
- 124.001 385.001 l 2
- 124.001 434.001 118.001 480.001 105.001 517.001 c 1
- 107.001 517.001 l 1xe8
- 119.921 480.211 125.931 435.521 126.001 390.78 c 1
- 173.891 475.71 237.61 527 325 527 c 0
+ 420 527 459 467 459 368 c 2
+ 459 -190 l 1
+ 457 -190 l 1
+ 457 368 l 2
+ 457 466 419 525 325 525 c 0
+ 238 525 174 473 126 387 c 1
+ 126 0 l 1
+ 124 0 l 1
+ 124 385 l 2
+ 124 434 118 480 105 517 c 1
+ 107 517 l 1xe8
+ 120 480 126 436 126 391 c 1
+ 173 475 238 527 325 527 c 0
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" etatonos.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" etatonos.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" etatonos.sc
 EndChar

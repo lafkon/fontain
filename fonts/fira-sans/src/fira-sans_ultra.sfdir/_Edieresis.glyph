@@ -1,29 +1,31 @@
-
 StartChar: Edieresis
-Encoding: 203 203 29
+Encoding: 203 203 79
 Width: 517
 GlyphClass: 2
 Flags: MW
 HStem: 0 159<261 498 261 498> 278 153<261 456 261 456> 539 159<261 483 261 261> 754 201<113 170.5 365.5 423.5>
 VStem: 30 231<159 278 431 539> 37 207<827 883> 290 207<827 883>
-AnchorPoint: "Anchor-11" 264 0 basechar 0
-AnchorPoint: "Anchor-10" 32 698 basechar 0
-AnchorPoint: "Anchor-9" 263 883 basechar 0
-AnchorPoint: "Anchor-8" 468 0 basechar 0
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 270 955 basechar 0
+AnchorPoint: "Anchor-11" 468 0 basechar 0
+AnchorPoint: "Anchor-10" 264 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-141 955 m 0xf8
- 200 955 244 911 244 855 c 0xf8
+141 955 m 0xf6
+ 200 955 244 911 244 855 c 0
  244 799 200 754 141 754 c 0
- 85 754 37 799 37 855 c 0xf4
- 37 911 85 955 141 955 c 0xf8
-394 955 m 0xfa
+ 85 754 37 799 37 855 c 0
+ 37 911 85 955 141 955 c 0xf6
+394 955 m 0
  453 955 497 911 497 855 c 0
  497 799 453 754 394 754 c 0
  337 754 290 799 290 855 c 0
- 290 911 337 955 394 955 c 0xfa
-483 539 m 1
+ 290 911 337 955 394 955 c 0
+506 698 m 1
+ 483 539 l 1
  261 539 l 1
  261 431 l 1
  456 431 l 1
@@ -33,11 +35,10 @@ SplineSet
  498 159 l 1
  498 0 l 1
  30 0 l 1
- 30 698 l 1xf8
+ 30 698 l 1xe8
  506 698 l 1
- 483 539 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" edieresis.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" edieresis.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" edieresis.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

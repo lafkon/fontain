@@ -1,29 +1,31 @@
-
 StartChar: Ydieresis
-Encoding: 376 376 122
+Encoding: 376 376 296
 Width: 584
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G<174 336 174 174> 673 20G<53 225 225 225 478 652 652 652> 767 158<247.5 274 476 502.5>
-VStem: 182 158 410 158
+HStem: 0 21G<174 336 174 174> 673 20G<53 225 225 225 478 652 652 652> 767 158<243.5 271.5 471.5 500>
+VStem: 178 159 406 158
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 379 925 basechar 0
 AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" -76 534 basechar 0
-AnchorPoint: "Anchor-9" 375 857 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 255 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-269 925 m 0
- 315 925 347 888 340 843 c 0
- 334 800 296 767 252 767 c 0
- 207 767 175 804 182 850 c 1
- 187 892 226 925 269 925 c 0
-497 925 m 0
- 544 925 575 888 568 843 c 0
- 562 800 525 767 480 767 c 0
- 435 767 403 804 410 850 c 1
- 415 892 455 925 497 925 c 0
-372 260 m 1
+266 925 m 0
+ 312 925 343 888 337 843 c 0
+ 331 800 294 767 249 767 c 0
+ 203 767 172 804 178 850 c 0
+ 184 892 221 925 266 925 c 0
+494 925 m 0
+ 541 925 571 888 564 843 c 0
+ 559 800 523 767 477 767 c 0
+ 432 767 400 804 406 850 c 0
+ 412 892 449 925 494 925 c 0
+652 693 m 1
+ 372 260 l 1
  336 0 l 1
  174 0 l 1
  211 259 l 1
@@ -32,9 +34,8 @@ SplineSet
  309 388 l 1
  478 693 l 1
  652 693 l 1
- 372 260 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" ydieresis.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" ydieresis.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" ydieresis.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

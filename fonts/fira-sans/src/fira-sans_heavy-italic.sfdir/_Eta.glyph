@@ -1,23 +1,25 @@
-
 StartChar: Eta
-Encoding: 919 919 699
+Encoding: 919 919 1505
 Width: 645
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G<6 208 6 6 363 363 363 565> 281 158<269 401 247 424> 676 20G<103 305 305 305 460 662 662 662>
+HStem: 0 21G<6 208 6 6 363 565 363 363> 281 158<269 401 247 424> 676 20G<104 305 305 305 460 662 662 662>
 VStem: 6 656
+AnchorPoint: "Anchor-9" 0 0 basechar 0
+AnchorPoint: "Anchor-8" 335 348 basechar 0
 AnchorPoint: "Anchor-7" 0 0 basechar 0
-AnchorPoint: "Anchor-6" -50 534 basechar 0
-AnchorPoint: "Anchor-5" 0 0 basechar 0
-AnchorPoint: "Anchor-4" 383 696 basechar 0
+AnchorPoint: "Anchor-6" 285 0 basechar 0
+AnchorPoint: "Anchor-5" 383 696 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-401 281 m 1
+363 0 m 1
+ 401 281 l 1
  247 281 l 1
  208 0 l 1
  6 0 l 1
- 103 696 l 1
+ 104 696 l 1
  305 696 l 1
  269 439 l 1
  424 439 l 1
@@ -25,9 +27,8 @@ SplineSet
  662 696 l 1
  565 0 l 1
  363 0 l 1
- 401 281 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" eta.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" eta.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" eta.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

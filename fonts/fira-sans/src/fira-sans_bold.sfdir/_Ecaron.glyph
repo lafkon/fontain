@@ -1,27 +1,29 @@
-
 StartChar: Ecaron
-Encoding: 282 282 27
+Encoding: 282 282 70
 Width: 526
 GlyphClass: 2
 Flags: MW
 HStem: 0 118<229 490 229 490> 295 115<229 442 229 442> 576 117<229 473 229 229>
 VStem: 65 164<118 295 410 576>
-AnchorPoint: "Anchor-11" 277 0 basechar 0
-AnchorPoint: "Anchor-10" 61 693 basechar 0
-AnchorPoint: "Anchor-9" 279 693 basechar 0
-AnchorPoint: "Anchor-8" 460 0 basechar 0
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 281 944 basechar 0
+AnchorPoint: "Anchor-11" 460 0 basechar 0
+AnchorPoint: "Anchor-10" 277 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-468 879 m 1
+412 944 m 1
+ 468 879 l 1
  327 750 l 1
  231 750 l 1
  89 879 l 1
  146 944 l 1
  279 860 l 1
  412 944 l 1
- 468 879 l 1
-473 576 m 1
+490 693 m 1
+ 473 576 l 1
  229 576 l 1
  229 410 l 1
  442 410 l 1
@@ -33,9 +35,8 @@ SplineSet
  65 0 l 1
  65 693 l 1
  490 693 l 1
- 473 576 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" ecaron.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" ecaron.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" ecaron.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

@@ -1,16 +1,17 @@
-
 StartChar: Dcroat
-Encoding: 272 272 23
+Encoding: 272 272 57
 Width: 629
 GlyphClass: 2
 Flags: MW
 HStem: 0 50<140 221> 330 46<39 120 33 126 186 357> 635 50<222 303 303 307 222 222>
 VStem: 520 61<340.5 519.5>
+AnchorPoint: "Anchor-14" 329 343 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 357 685 basechar 0
 AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 357 685 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 251 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 303 685 m 2
@@ -34,7 +35,7 @@ SplineSet
  140 50 l 1
  230 50 l 2
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" dcroat.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" dcroat.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" dcroat.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

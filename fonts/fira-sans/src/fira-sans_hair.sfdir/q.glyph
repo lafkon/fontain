@@ -1,31 +1,36 @@
-
 StartChar: q
-Encoding: 113 113 222
+Encoding: 113 113 603
 Width: 568
 GlyphClass: 2
 Flags: MW
-HStem: -193.86 21G -191.29 21G -9.44 13.15 498.28 20G 515.14 13.14
-VStem: 75.71 14.43 433.57 14
+HStem: -194 21G<448 448> -191 21G<434 434> -9 13<212.5 309 212.5 310.5> 498 20G<435 448 448 448> 515 13<219 316>
+VStem: 76 14<257 335.5 257 337.5> 434 14<-191 93 93 93 115 419 419 419 438 438>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 284 518 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 284 -190 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-447.57 518.28 m 1x76
- 447.569 -193.858 l 1xae
- 433.569 -191.288 l 1
- 433.569 93.1719 l 1
- 401.979 37.2617 354.27 -9.43848 265.71 -9.43848 c 0
- 151 -9.43848 75.71 88.2812 75.71 257.421 c 0
- 75.71 417.851 148.86 528.28 275.57 528.28 c 0
- 358.78 528.28 407.811 481.03 434.07 437.66 c 1x6e
- 435.28 518.28 l 1
- 447.57 518.28 l 1x76
-266.14 3.71191 m 0
- 351.729 3.71191 398.13 48.3018 433.57 114.972 c 1
- 433.57 419.302 l 1
- 405.11 468.361 355.561 515.142 276.001 515.142 c 0
- 161.571 515.142 89.7109 413.712 90.1406 257.422 c 0
- 90.5703 96.2822 159.29 3.71191 266.14 3.71191 c 0
+435 518 m 1x76
+ 448 518 l 1
+ 448 -194 l 1xb6
+ 434 -191 l 1
+ 434 93 l 1
+ 403 38 355 -9 266 -9 c 0
+ 151 -9 76 89 76 257 c 0
+ 76 418 149 528 276 528 c 0
+ 359 528 408 481 434 438 c 1x6e
+ 435 518 l 1x76
+266 4 m 0
+ 352 4 398 48 434 115 c 1
+ 434 419 l 1
+ 405 468 356 515 276 515 c 0x6e
+ 162 515 90 414 90 257 c 0
+ 91 96 159 4 266 4 c 0
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" q.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" q.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" q.sc
 EndChar

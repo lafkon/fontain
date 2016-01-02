@@ -1,20 +1,21 @@
-
 StartChar: minus.osf
-Encoding: 1114538 -1 1138
+Encoding: 1114900 -1 2282
 Width: 491
+GlyphClass: 2
 Flags: MW
 HStem: 310 42<72 419 72 419>
 VStem: 72 347<310 352 310 352>
 LayerCount: 2
+Back
 Fore
 SplineSet
-72 352 m 1
+72 310 m 1
+ 72 352 l 1
  419 352 l 1
  419 310 l 1
  72 310 l 1
- 72 352 l 1
 EndSplineSet
-Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" minus.tosf
-Substitution2: "'lnum' Lining Figures lookup 19 subtable" minus
+Substitution2: "'tnum' Tabular Numbers lookup 24 subtable" minus.tosf
+Substitution2: "'lnum' Lining Figures lookup 22 subtable" minus
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" minus minus.tosf
 EndChar

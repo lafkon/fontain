@@ -1,27 +1,28 @@
-
 StartChar: obreve
-Encoding: 335 335 210
+Encoding: 335 335 554
 Width: 575
 GlyphClass: 2
 Flags: MW
-HStem: -16 106<232.5 316 232.5 360.5> 440 106<258.5 342> 635 100<323 368 323 385.5>
-VStem: 34 144<160.5 241 160.5 280> 193 81<800 811> 397 144<289 322 251 369.5>
+HStem: -16 106<232.5 316 232.5 360.5> 440 106<258.5 342> 635 100<316 361 316 378.5>
+VStem: 34 144<160.5 241 160.5 280> 186 81<800 811> 397 144<289 322 251 369.5>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 527 530 basechar 0
+AnchorPoint: "Anchor-12" 353 814 basechar 0
 AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 320 530 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 253 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-337 635 m 0
- 238 635 188 707 193 800 c 1
- 274 811 l 1
- 279 762 301 735 345 735 c 0
- 391 735 426 766 444 814 c 1
- 522 796 l 1
- 502 703 434 635 337 635 c 0
+330 635 m 0
+ 231 635 181 707 186 800 c 1
+ 267 811 l 1
+ 272 762 294 735 338 735 c 0
+ 384 735 419 766 437 814 c 1
+ 515 796 l 1
+ 495 703 427 635 330 635 c 0
 324 546 m 0
- 463 546 542 460 541 322 c 1
+ 463 546 542 460 541 322 c 0
  541 180 470 -16 251 -16 c 0
  112 -16 34 69 34 208 c 0xf4
  34 352 105 546 324 546 c 0
@@ -31,6 +32,6 @@ SplineSet
  372 90 397 246 397 332 c 0
  397 407 369 440 315 440 c 0xf4
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" obreve.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 28 subtable" obreve.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" obreve.sc
 EndChar

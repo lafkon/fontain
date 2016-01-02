@@ -1,19 +1,21 @@
-
 StartChar: Epsilon
-Encoding: 917 917 695
+Encoding: 917 917 1497
 Width: 517
 GlyphClass: 2
 Flags: MW
 HStem: 0 159<261 498 261 498> 278 153<261 456 261 456> 539 159<261 483 261 261>
 VStem: 30 231<159 278 431 539>
-AnchorPoint: "Anchor-7" 264 0 basechar 0
-AnchorPoint: "Anchor-6" 32 698 basechar 0
-AnchorPoint: "Anchor-5" 468 0 basechar 0
-AnchorPoint: "Anchor-4" 268 698 basechar 0
+AnchorPoint: "Anchor-9" 0 0 basechar 0
+AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-7" 468 0 basechar 0
+AnchorPoint: "Anchor-6" 264 0 basechar 0
+AnchorPoint: "Anchor-5" 268 698 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-483 539 m 1
+506 698 m 1
+ 483 539 l 1
  261 539 l 1
  261 431 l 1
  456 431 l 1
@@ -25,9 +27,8 @@ SplineSet
  30 0 l 1
  30 698 l 1
  506 698 l 1
- 483 539 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" epsilon.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" epsilon.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" epsilon.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

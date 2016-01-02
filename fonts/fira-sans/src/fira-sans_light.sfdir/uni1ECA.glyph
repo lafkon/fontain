@@ -1,0 +1,31 @@
+StartChar: uni1ECA
+Encoding: 7882 7882 128
+Width: 282
+GlyphClass: 2
+Flags: MW
+HStem: -170 84<127.5 154> 0 21G<111 171 111 111> 665 20G<111 171 171 171>
+VStem: 97 87<-139.5 -116.5> 111 60<0 685 0 685>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 140 685 basechar 0
+AnchorPoint: "Anchor-11" 181 0 basechar 0
+AnchorPoint: "Anchor-10" 142 -197 basechar 0
+LayerCount: 2
+Back
+Fore
+SplineSet
+171 685 m 1xe8
+ 171 0 l 1
+ 111 0 l 1
+ 111 685 l 1
+ 171 685 l 1xe8
+141 -170 m 0xf0
+ 114 -170 97 -151 97 -128 c 0
+ 97 -105 114 -86 141 -86 c 0
+ 167 -86 184 -105 184 -128 c 0
+ 184 -151 167 -170 141 -170 c 0xf0
+EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" uni1ECB.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uni1ECB.sc
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
+EndChar

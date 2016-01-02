@@ -1,19 +1,20 @@
-
 StartChar: ccedilla
-Encoding: 231 231 150
+Encoding: 231 231 384
 Width: 478
 GlyphClass: 2
 Flags: MW
-HStem: -253 75<256.5 283 256.5 318> -14 21G<316 316> -14 103<316 316> -11 21G<239 239> 443 101<261 318>
-VStem: 43 136<198 325.5 198 344.5> 318 97<-156.5 -131>
-AnchorPoint: "Anchor-11" 282 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 290 529 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+HStem: -253 75<256.5 283 256.5 318> -14 21G<316 316> -14 103<316 316> -10 21G<239 239> 443 101<261 318>
+VStem: 43 136<198 325.5 198 344.5> 233 83 318 97<-156.5 -131>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 290 529 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 298 -253 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-462 46 m 1xae
+462 46 m 1xad
  420 12 373 -9 316 -14 c 1
  316 -52 l 1xce
  386 -59 415 -96 415 -144 c 0
@@ -21,19 +22,19 @@ SplineSet
  235 -253 198 -241 175 -225 c 1
  206 -162 l 1
  225 -172 244 -178 269 -178 c 0
- 297 -178 318 -169 318 -144 c 0
+ 297 -178 318 -169 318 -144 c 0x9d
  318 -118 291 -106 227 -106 c 1
- 239 -11 l 1x9e
- 117 11 43 111 43 260 c 0
+ 239 -10 l 1x9e
+ 117 12 43 112 43 260 c 0
  43 429 138 544 290 544 c 0
  359 544 412 525 462 482 c 1
- 404 404 l 1
+ 405 405 l 1
  370 431 338 443 298 443 c 0
  224 443 179 389 179 262 c 0
  179 134 226 89 298 89 c 0
- 338 89 366 102 403 130 c 1
- 462 46 l 1xae
+ 338 89 366 102 405 127 c 1
+ 462 46 l 1xad
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" ccedilla.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" ccedilla.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" ccedilla.sc
 EndChar

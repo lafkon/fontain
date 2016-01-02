@@ -1,22 +1,25 @@
-
 StartChar: iota.sc
-Encoding: 1114363 -1 819
+Encoding: 1114596 -1 1831
 Width: 262
 GlyphClass: 2
 Flags: MW
 HStem: 0 21G<130 132 130 130> 537 20G<130 132 132 132>
-VStem: 130 2<0 557>
-AnchorPoint: "Anchor-7" 0 0 basechar 0
-AnchorPoint: "Anchor-6" 87 557 basechar 0
-AnchorPoint: "Anchor-5" 142 0 basechar 0
-AnchorPoint: "Anchor-4" 131 557 basechar 0
+VStem: 130 2<0 557 0 557>
+AnchorPoint: "Anchor-9" 0 0 basechar 0
+AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-7" 142 0 basechar 0
+AnchorPoint: "Anchor-6" 131 0 basechar 0
+AnchorPoint: "Anchor-5" 131 557 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-132 0 m 1
+132 557 m 1
+ 132 0 l 1
  130 0 l 1
  130 557 l 1
  132 557 l 1
- 132 0 l 1
 EndSplineSet
+Substitution2: "Single Substitution lookup 41 subtable" iotadieresis.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" iotadieresis.sc
 EndChar

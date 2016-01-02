@@ -1,11 +1,11 @@
-
 StartChar: two
-Encoding: 50 50 879
+Encoding: 50 50 2013
 Width: 473
 Flags: MW
 HStem: 0 42<99 412> 635 40<188.5 262>
 VStem: 353 48<440 541.5>
 LayerCount: 2
+Back
 Fore
 SplineSet
 224 675 m 0
@@ -21,12 +21,12 @@ SplineSet
  36 582 l 1
  88 645 145 675 224 675 c 0
 EndSplineSet
-Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" two.osf
-Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" two.tf
-Substitution2: "'frac' Diagonal Fractions lookup 16 subtable" two.numr
-Substitution2: "'dnom' Denominators lookup 14 subtable" two.dnom
-Substitution2: "'numr' Numerators lookup 13 subtable" two.numr
-Substitution2: "'sups' Superscript lookup 12 subtable" twosuperior
-Substitution2: "'subs' Subscript lookup 11 subtable" twoinferior
-AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" twoinferior twosuperior two.numr two.dnom two.tf two.osf
+Substitution2: "'onum' Oldstyle Figures lookup 25 subtable" two.osf
+Substitution2: "'tnum' Tabular Numbers lookup 24 subtable" two.tf
+Substitution2: "'frac' Diagonal Fractions lookup 18 subtable" two.numr
+Substitution2: "'dnom' Denominators lookup 16 subtable" two.dnom
+Substitution2: "'numr' Numerators lookup 15 subtable" two.numr
+Substitution2: "'sups' Superscript lookup 14 subtable" uni00B2
+Substitution2: "'subs' Subscript lookup 13 subtable" uni2082
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" uni2082 uni00B2 two.numr two.dnom two.tf two.osf
 EndChar

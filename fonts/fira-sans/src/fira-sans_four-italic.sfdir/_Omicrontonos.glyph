@@ -1,35 +1,37 @@
-
 StartChar: Omicrontonos
-Encoding: 908 908 721
-Width: 687
+Encoding: 908 908 1527
+Width: 701
 GlyphClass: 2
 Flags: MW
-HStem: -9.07001 21G 660.7 20G 670.14 20G
-VStem: 80.44 541.42
+HStem: -9 21G<250.5 441.5> 661 20G<119 119> 670 20G<299 485>
+VStem: 74 561<344.5 571>
+AnchorPoint: "Anchor-9" 591 680 basechar 0
+AnchorPoint: "Anchor-8" 0 0 basechar 0
 AnchorPoint: "Anchor-7" 0 0 basechar 0
-AnchorPoint: "Anchor-6" 106 517 basechar 0
-AnchorPoint: "Anchor-5" 0 0 basechar 0
-AnchorPoint: "Anchor-4" 400 680 basechar 0
+AnchorPoint: "Anchor-6" 319 0 basechar 0
+AnchorPoint: "Anchor-5" 414 680 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-403.14 690.14 m 0xb0
- 541.21 690.14 621.858 596.351 621.858 428.78 c 0
- 621.858 260.21 551.219 -9.07031 306.219 -9.07031 c 0
- 168.999 -9.07031 89.2891 85.9297 89.2891 251.569 c 0
- 89.2891 418.859 168.569 690.14 403.14 690.14 c 0xb0
-403.078 686.28 m 0
- 170.868 686.28 93.4385 414.99 93.4385 253.2 c 0
- 93.4385 88.8506 171.368 -5.14941 306.218 -5.14941 c 0
- 549.147 -5.14941 617.718 265.351 617.718 428.851 c 0
- 617.718 594.28 539.008 686.28 403.078 686.28 c 0
-130.368 680.131 m 1xd0
- 83.8682 570.481 l 1
- 80.4385 570.771 l 1
- 125.868 680.701 l 1
- 130.368 680.131 l 1xd0
+416 690 m 0xb0
+ 554 690 635 596 635 429 c 0
+ 635 260 564 -9 319 -9 c 0
+ 182 -9 102 86 102 252 c 0
+ 102 419 182 690 416 690 c 0xb0
+416 686 m 0
+ 184 686 106 417 106 252 c 0
+ 106 88 184 -5 319 -5 c 0
+ 562 -5 631 263 631 429 c 0
+ 631 594 552 686 416 686 c 0
+119 681 m 1xd0
+ 124 680 l 1
+ 77 571 l 1
+ 74 571 l 1
+ 119 681 l 1xd0
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" omicrontonos.sc
-Substitution2: "'aalt' Access All Alternates lookup 0 subtable" omicrontonos.sc
+Substitution2: "Single Substitution lookup 41 subtable" Omicron
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" omicrontonos.sc
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" omicrontonos.sc Omicron
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

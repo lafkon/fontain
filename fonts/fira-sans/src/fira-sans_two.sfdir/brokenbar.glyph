@@ -1,22 +1,23 @@
-
 StartChar: brokenbar
-Encoding: 166 166 1217
+Encoding: 166 166 2371
 Width: 420
+GlyphClass: 2
 Flags: MW
 HStem: -97 897<209 211 209 211>
-VStem: 209 2<-97 262 443 800>
+VStem: 209 2<-97 262 -97 262 443 800>
 LayerCount: 2
+Back
 Fore
 SplineSet
-211 443 m 1
+211 800 m 1
+ 211 443 l 1
  209 443 l 1
  209 800 l 1
  211 800 l 1
- 211 443 l 1
-211 -97 m 1
+211 262 m 1
+ 211 -97 l 1
  209 -97 l 1
  209 262 l 1
  211 262 l 1
- 211 -97 l 1
 EndSplineSet
 EndChar

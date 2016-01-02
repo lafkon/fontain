@@ -1,19 +1,21 @@
-
 StartChar: AE
-Encoding: 198 198 11
+Encoding: 198 198 33
 Width: 826
 GlyphClass: 2
 Flags: MW
-HStem: 0 108<541 752> 155 109<227 398 227 403 174 398> 297 106<527 748 527 527> 585 107<505 505 505 782>
-VStem: 389 123 407.5 126.5
+HStem: 0 108<541 752> 155 109<227 397 227 403 174 397> 297 106<527 748 527 527> 585 107<505 782 505 505>
+VStem: 388.5 123.5 407.5 126.5
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 535 692 basechar 0
 AnchorPoint: "Anchor-11" 0 0 basechar 0
 AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 535 692 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-505 585 m 1xf8
+782 585 m 1xf8
+ 505 585 l 1
  519 403 l 1xf8
  762 403 l 1
  748 297 l 1
@@ -28,14 +30,13 @@ SplineSet
  -56 0 l 1
  303 692 l 1
  812 692 l 1
- 782 585 l 1
- 505 585 l 1xf8
-398 264 m 1
+ 782 585 l 1xf8
+227 264 m 1
+ 397 264 l 1
  380 583 l 1
  227 264 l 1
- 398 264 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" ae.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" ae.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" ae.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

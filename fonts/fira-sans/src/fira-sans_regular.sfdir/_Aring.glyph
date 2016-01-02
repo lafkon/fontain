@@ -1,16 +1,17 @@
-
 StartChar: Aring
-Encoding: 197 197 9
+Encoding: 197 197 29
 Width: 573
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G<6 102 6 6 467 467 467 567> 173 77<177 392 177 415 154 392> 610 79<285 285> 669 20G<227 347 347 347> 750 50<270.5 303 270.5 320.5> 912 50<270.5 303.5>
+HStem: 0 21G<6 102 6 6 467 567 467 467> 173 77<177 392 177 415 154 392> 610 79<285 285> 669 20G<227 347 347 347> 750 50<270.5 303 270.5 320.5> 912 50<270.5 303.5>
 VStem: 173 61<838.5 873.5 838.5 885.5> 340 61<838.5 873.5>
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 140 689 basechar 0
-AnchorPoint: "Anchor-9" 287 689 basechar 0
-AnchorPoint: "Anchor-8" 537 0 basechar 0
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 289 962 basechar 0
+AnchorPoint: "Anchor-11" 537 0 basechar 0
+AnchorPoint: "Anchor-10" 287 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 287 750 m 0xdf
@@ -23,7 +24,8 @@ SplineSet
  234 821 254 800 287 800 c 0
  319 800 340 821 340 856 c 0
  340 891 320 912 287 912 c 0
-415 173 m 1
+467 0 m 1
+ 415 173 l 1
  154 173 l 1
  102 0 l 1
  6 0 l 1
@@ -31,13 +33,12 @@ SplineSet
  347 689 l 1
  567 0 l 1
  467 0 l 1
- 415 173 l 1
-392 250 m 1
+177 250 m 1
+ 392 250 l 1
  285 610 l 1xef
  177 250 l 1
- 392 250 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" aring.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" aring.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" aring.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

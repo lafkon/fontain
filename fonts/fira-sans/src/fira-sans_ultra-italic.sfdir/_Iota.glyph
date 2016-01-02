@@ -1,25 +1,27 @@
-
 StartChar: Iota
-Encoding: 921 921 701
+Encoding: 921 921 1507
 Width: 287
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G<-7 219 -7 -7> 678 20G<90 316 316 316>
-VStem: -7 323
-AnchorPoint: "Anchor-7" 0 0 basechar 0
-AnchorPoint: "Anchor-6" -71 534 basechar 0
-AnchorPoint: "Anchor-5" 174 0 basechar 0
-AnchorPoint: "Anchor-4" 203 698 basechar 0
+HStem: 0 21G<-7 220 -7 -7> 678 20G<90 317 317 317>
+VStem: -7 324
+AnchorPoint: "Anchor-9" 0 0 basechar 0
+AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-7" 180 0 basechar 0
+AnchorPoint: "Anchor-6" 107 0 basechar 0
+AnchorPoint: "Anchor-5" 204 698 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-219 0 m 1
+317 698 m 1
+ 220 0 l 1
  -7 0 l 1
  90 698 l 1
- 316 698 l 1
- 219 0 l 1
+ 317 698 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" iota.sc
-Substitution2: "'aalt' Access All Alternates lookup 0 subtable" iota.sc
+Substitution2: "Single Substitution lookup 41 subtable" Iotadieresis
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" iota.sc
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" iota.sc Iotadieresis
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

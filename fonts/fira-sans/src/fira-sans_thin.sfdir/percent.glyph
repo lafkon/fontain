@@ -1,18 +1,19 @@
-
 StartChar: percent
-Encoding: 37 37 1111
+Encoding: 37 37 2294
 Width: 760
+GlyphClass: 2
 Flags: MW
 HStem: -10 19<524 600.5 524 604.5> -4 21G<144 144> 283 19<524 600> 361 19<160 236 160 240> 654 19<159.5 235.5> 664 20G<624 624>
 VStem: 63 23<478 555.5 478 564> 310 22<479.5 557.5> 428 22<107 184.5 107 193> 674 23<108.5 186.5>
 LayerCount: 2
+Back
 Fore
 SplineSet
-624 684 m 1x77c0
+606 695 m 1xbbc0
+ 624 684 l 1
  163 -15 l 1
- 144 -4 l 1
- 606 695 l 1
- 624 684 l 1x77c0
+ 144 -4 l 1x77c0
+ 606 695 l 1xbbc0
 198 673 m 0xbbc0
  279 673 332 614 332 519 c 0
  332 424 282 361 198 361 c 0
@@ -34,7 +35,7 @@ SplineSet
  639 9 674 69 674 148 c 0
  674 225 638 283 562 283 c 0
 EndSplineSet
-Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" percent.osf
-Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" percent.tf
+Substitution2: "'onum' Oldstyle Figures lookup 25 subtable" percent.osf
+Substitution2: "'tnum' Tabular Numbers lookup 24 subtable" percent.tf
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" percent.tf percent.osf
 EndChar

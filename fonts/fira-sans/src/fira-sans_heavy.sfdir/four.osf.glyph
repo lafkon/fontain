@@ -1,14 +1,15 @@
-
 StartChar: four.osf
-Encoding: 1114425 -1 891
+Encoding: 1114775 -1 2025
 Width: 565
 Flags: MW
 HStem: 22 143<213 306 495 565> 567 20G<197 197>
 VStem: 306 189<-112 22 -112 22>
 LayerCount: 2
+Back
 Fore
 SplineSet
-565 22 m 1
+565 165 m 1
+ 565 22 l 1
  495 22 l 1
  495 -112 l 1
  306 -112 l 1
@@ -23,9 +24,8 @@ SplineSet
  495 316 l 1
  495 165 l 1
  565 165 l 1
- 565 22 l 1
 EndSplineSet
-Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" four.tosf
-Substitution2: "'lnum' Lining Figures lookup 19 subtable" four
+Substitution2: "'tnum' Tabular Numbers lookup 24 subtable" four.tosf
+Substitution2: "'lnum' Lining Figures lookup 22 subtable" four
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" four four.tosf
 EndChar

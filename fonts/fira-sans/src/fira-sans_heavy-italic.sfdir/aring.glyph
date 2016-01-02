@@ -1,45 +1,46 @@
-
 StartChar: aring
-Encoding: 229 229 142
-Width: 573
+Encoding: 229 229 363
+Width: 574
 GlyphClass: 2
 Flags: MW
-HStem: -20 21G<128 224> -20 142<128 265> -16 21G<485 485> 418 136<278.5 329> 593 100<356 379 356 403> 788 98<372 395>
-VStem: 10 199<165 245 165 275.5>
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 346 534 basechar 0
-AnchorPoint: "Anchor-8" 493 -16 basechar 0
+HStem: -20 21G<129 225> -20 142<129 266> -16 21G<486 486> 418 136<279.5 330> 593 100<356 383 356 409.5> 788 98<367 394.5>
+VStem: 11 199<165 245 165 275.5> 223 109<717 743 717 765> 418 110<734.5 762>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 388 886 basechar 0
+AnchorPoint: "Anchor-11" 494 -16 basechar 0
+AnchorPoint: "Anchor-10" 277 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-394 886 m 0x3e
- 490 886 537 817 526 737 c 0
- 516 661 450 593 356 593 c 0
- 260 593 213 663 225 743 c 1
- 235 819 300 886 394 886 c 0x3e
+394 886 m 0x3d80
+ 481 886 528 830 528 754 c 0
+ 528 672 463 593 356 593 c 0
+ 270 593 223 649 223 725 c 0
+ 223 805 290 886 394 886 c 0x3d80
 384 788 m 0
- 360 788 338 771 333 737 c 0
- 328 707 345 693 367 693 c 0
- 391 693 411 709 417 743 c 1
- 421 773 406 788 384 788 c 0
-329 554 m 0
- 404 554 491 535 565 491 c 1
- 519 172 l 2
- 518 163 517 155 517 148 c 0
- 517 127 524 117 541 110 c 1
- 485 -16 l 1x3e
- 423 -12 365 15 344 72 c 1
- 310 19 261 -20 187 -20 c 0x9e
- 69 -20 10 64 10 197 c 0
- 10 354 93 554 329 554 c 0
-321 418 m 0
- 236 418 209 292 209 198 c 0
- 209 132 230 122 252 122 c 0
- 278 122 305 141 329 182 c 1x5e
- 363 412 l 1
- 348 416 337 418 321 418 c 0
+ 350 788 332 756 332 730 c 0
+ 332 704 346 693 366 693 c 0
+ 400 693 418 720 418 749 c 0
+ 418 775 405 788 384 788 c 0
+330 554 m 0
+ 405 554 492 535 566 491 c 1
+ 520 172 l 2
+ 519 163 518 155 518 148 c 0
+ 518 127 525 117 542 110 c 1
+ 486 -16 l 1x3d80
+ 424 -12 366 15 345 72 c 1
+ 311 19 262 -20 188 -20 c 0
+ 70 -20 11 64 11 197 c 0x9f80
+ 11 354 94 554 330 554 c 0
+322 418 m 0x5f80
+ 237 418 210 292 210 198 c 0
+ 210 132 231 122 253 122 c 0
+ 279 122 306 141 330 182 c 1
+ 364 412 l 1
+ 349 416 338 418 322 418 c 0x5f80
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" aring.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 28 subtable" aring.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" aring.sc
 EndChar

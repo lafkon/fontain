@@ -1,27 +1,29 @@
-
 StartChar: Ncaron
-Encoding: 327 327 67
+Encoding: 327 327 163
 Width: 669
 GlyphClass: 2
 Flags: MW
 HStem: 0 53<515 515 515 554 493 515> 631 53<154 154>
-VStem: 115 45<0 407 0 684> 509 45<253 684>
-AnchorPoint: "Anchor-11" 335 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 343 684 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+VStem: 115 45<0 407 0 684> 509 45<253 684 0 684>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 345 880 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 335 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-487 855 m 1
- 360 757 l 1
- 333 757 l 1
- 205 855 l 1
- 226 880 l 1
- 347 801 l 1
- 466 880 l 1
- 487 855 l 1
-554 0 m 1
+462 880 m 1
+ 483 855 l 1
+ 356 757 l 1
+ 329 757 l 1
+ 201 855 l 1
+ 222 880 l 1
+ 343 801 l 1
+ 462 880 l 1
+554 684 m 1
+ 554 0 l 1
  493 0 l 1
  154 631 l 1
  157 587 160 528 160 407 c 2
@@ -33,9 +35,8 @@ SplineSet
  513 86 509 163 509 253 c 2
  509 684 l 1
  554 684 l 1
- 554 0 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" ncaron.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" ncaron.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" ncaron.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

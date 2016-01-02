@@ -1,24 +1,26 @@
-
 StartChar: Egrave
-Encoding: 200 200 31
+Encoding: 200 200 82
 Width: 528
 GlyphClass: 2
 Flags: MW
 HStem: 0 108<220 488 220 488> 299 106<220 438 220 438> 585 107<220 470 220 220>
 VStem: 73 147<108 299 405 585>
-AnchorPoint: "Anchor-11" 281 0 basechar 0
-AnchorPoint: "Anchor-10" 68 692 basechar 0
-AnchorPoint: "Anchor-9" 282 692 basechar 0
-AnchorPoint: "Anchor-8" 458 0 basechar 0
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 282 945 basechar 0
+AnchorPoint: "Anchor-11" 458 0 basechar 0
+AnchorPoint: "Anchor-10" 281 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-409 825 m 1
- 373 752 l 1
- 139 837 l 1
- 194 945 l 1
- 409 825 l 1
-470 585 m 1
+196 945 m 1
+ 411 825 l 1
+ 375 752 l 1
+ 141 837 l 1
+ 196 945 l 1
+486 692 m 1
+ 470 585 l 1
  220 585 l 1
  220 405 l 1
  438 405 l 1
@@ -30,9 +32,8 @@ SplineSet
  73 0 l 1
  73 692 l 1
  486 692 l 1
- 470 585 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" egrave.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" egrave.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" egrave.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

@@ -1,28 +1,30 @@
-
 StartChar: uogonek.sc
-Encoding: 1114248 -1 396
+Encoding: 1114416 -1 1015
 Width: 590
 GlyphClass: 2
 Flags: MW
-HStem: -208 33<287.5 316> -202 21G<361 361> -8 31<241.5 295 295 301> 540 20G<109 143 143 143 447 481 481 481>
+HStem: -208 33<287.5 316> -202 21G<361 361> -8 31<241.5 295 295 300> 540 20G<109 143 143 143 447 481 481 481>
 VStem: 109 34<172 175 175 560> 205 36<-137 -98.5> 447 34<175 560>
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 296 560 basechar 0
-AnchorPoint: "Anchor-8" 372 0 basechar 0
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 491 560 basechar 0
+AnchorPoint: "Anchor-12" 296 560 basechar 0
+AnchorPoint: "Anchor-11" 372 0 basechar 0
+AnchorPoint: "Anchor-10" 295 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-481 560 m 1xbe
+447 560 m 1x7e
+ 481 560 l 1
  481 172 l 2
- 481 87 444 22 362 0 c 1
+ 481 86 444 21 361 0 c 1
  283 -37 241 -66 241 -121 c 0
  241 -153 264 -175 311 -175 c 0
  329 -175 343 -173 364 -169 c 1xbe
  361 -202 l 1x7e
  341 -206 326 -208 306 -208 c 0
- 236 -208 205 -170 205 -123 c 0
- 205 -74 237 -38 301 -8 c 1
+ 236 -208 205 -170 205 -123 c 0xbe
+ 205 -74 237 -38 300 -8 c 1
  295 -8 l 2
  166 -8 109 66 109 172 c 2
  109 560 l 1
@@ -30,7 +32,6 @@ SplineSet
  143 175 l 2
  143 83 188 23 295 23 c 0
  405 23 447 85 447 175 c 2
- 447 560 l 1
- 481 560 l 1xbe
+ 447 560 l 1x7e
 EndSplineSet
 EndChar

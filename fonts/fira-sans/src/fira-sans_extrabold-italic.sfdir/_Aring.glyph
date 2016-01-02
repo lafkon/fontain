@@ -1,43 +1,44 @@
-
 StartChar: Aring
-Encoding: 197 197 9
+Encoding: 197 197 29
 Width: 585
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G<-56 133 -56 -56 375 375 375 567> 142 132<228 355 228 364 182 355> 575 120<332 332> 675 20G<243 462 462 462> 725 90<356 381 356 403> 914 89<372 397>
-VStem: 420 100
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 81 533 basechar 0
-AnchorPoint: "Anchor-9" 353 695 basechar 0
-AnchorPoint: "Anchor-8" 490 0 basechar 0
+HStem: 0 21G<-56 133 -56 -56 375 567 375 375> 142 132<228 355 228 364 182 355> 575 120<332 332> 675 20G<243 462 462 462> 725 90<356.5 385 356.5 409> 914 89<367.5 396>
+VStem: 231 100<841 868 841 888.5> 421 101<858.5 886.5>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 394 1003 basechar 0
+AnchorPoint: "Anchor-11" 490 0 basechar 0
+AnchorPoint: "Anchor-10" 254 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-359 725 m 0xde
- 268 725 222 791 233 867 c 0
- 243 940 305 1003 393 1003 c 0
- 484 1003 530 937 520 861 c 0
- 510 788 447 725 359 725 c 0xde
-332 861 m 0
- 327 831 344 815 368 815 c 0
- 394 815 414 833 420 867 c 1
- 424 898 409 914 385 914 c 0
- 359 914 337 896 332 861 c 0
-364 142 m 1
+359 725 m 0xdf
+ 277 725 231 778 231 850 c 0
+ 231 927 296 1003 394 1003 c 0
+ 476 1003 522 949 522 877 c 0
+ 522 799 459 725 359 725 c 0xdf
+385 914 m 0
+ 350 914 331 882 331 854 c 0
+ 331 828 346 815 367 815 c 0
+ 403 815 421 844 421 873 c 0
+ 421 900 407 914 385 914 c 0
+375 0 m 1
+ 364 142 l 1
  182 142 l 1
  133 0 l 1
  -56 0 l 1
  243 695 l 1
- 462 695 l 1xd6
+ 462 695 l 1xd7
  567 0 l 1
  375 0 l 1
- 364 142 l 1
-355 274 m 1
- 332 575 l 1xe6
- 228 274 l 1
+228 274 m 1
  355 274 l 1
+ 332 575 l 1xe7
+ 228 274 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" aring.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" aring.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" aring.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

@@ -1,28 +1,30 @@
-
 StartChar: Uogonek
-Encoding: 370 370 109
+Encoding: 370 370 277
 Width: 645
 GlyphClass: 2
 Flags: MW
-HStem: -208 33<286.5 315> -202 21G<360 360> -10 32<224.5 286 286 296> 662 20G<168 203 203 203 559 594 594 594>
+HStem: -208 33<286.5 315> -202 21G<360 360> -10 32<224.5 286 286 295> 662 20G<168 203 203 203 559 594 594 594>
 VStem: 98.58 35.14 204 36<-137 -99>
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 384 682 basechar 0
-AnchorPoint: "Anchor-8" 371 0 basechar 0
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 604 682 basechar 0
+AnchorPoint: "Anchor-12" 381 682 basechar 0
+AnchorPoint: "Anchor-11" 371 0 basechar 0
+AnchorPoint: "Anchor-10" 286 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-594 682 m 1xbc
+559 682 m 1x7c
+ 594 682 l 1
  528 208 l 2
- 513 102 458 23 357 -2 c 1
+ 513 102 458 22 356 -2 c 1
  280 -38 240 -67 240 -121 c 0
  240 -153 263 -175 310 -175 c 0
  328 -175 342 -173 363 -169 c 1xbc
  360 -202 l 1x7c
  340 -206 325 -208 305 -208 c 0
- 235 -208 204 -170 204 -123 c 0
- 204 -75 235 -40 296 -10 c 1
+ 235 -208 204 -170 204 -123 c 0xbc
+ 204 -75 234 -40 295 -10 c 1
  286 -10 l 2
  136 -10 84 82 102 210 c 2
  168 682 l 1
@@ -30,10 +32,9 @@ SplineSet
  137 211 l 2
  121 97 162 22 287 22 c 0
  415 22 478 102 493 213 c 2
- 559 682 l 1
- 594 682 l 1xbc
+ 559 682 l 1x7c
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" uogonek.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" uogonek.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uogonek.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

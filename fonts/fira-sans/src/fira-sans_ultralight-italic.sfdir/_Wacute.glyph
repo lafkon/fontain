@@ -1,24 +1,26 @@
-
 StartChar: Wacute
-Encoding: 7810 7810 114
+Encoding: 7810 7810 286
 Width: 798
 GlyphClass: 2
 Flags: MW
 HStem: 0 36<552 552 552 568 527 552> 646 36<453 453>
 VStem: 93 729<682 682>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 479 872 basechar 0
 AnchorPoint: "Anchor-11" 0 0 basechar 0
 AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 458 682 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-579 837 m 1
+566 872 m 1
+ 579 837 l 1
  382 761 l 1
  375 783 l 1
  566 872 l 1
- 579 837 l 1
-568 0 m 1
+822 682 m 1
+ 568 0 l 1
  527 0 l 1
  453 646 l 1
  196 0 l 1
@@ -31,9 +33,8 @@ SplineSet
  552 36 l 1
  787 682 l 1
  822 682 l 1
- 568 0 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" wacute.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" wacute.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" wacute.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

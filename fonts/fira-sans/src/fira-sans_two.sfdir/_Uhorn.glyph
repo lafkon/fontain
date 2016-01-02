@@ -1,0 +1,38 @@
+StartChar: Uhorn
+Encoding: 431 431 277
+Width: 634
+GlyphClass: 2
+Flags: MW
+HStem: -9 21G<244 389> 660 20G<120 122 122 122 512 514 514 514>
+VStem: 512 65<667 680 680 680>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 576 680 basechar 0
+AnchorPoint: "Anchor-12" 317 680 basechar 0
+AnchorPoint: "Anchor-11" 397 0 basechar 0
+AnchorPoint: "Anchor-10" 317 0 basechar 0
+LayerCount: 2
+Back
+Fore
+SplineSet
+563 759 m 1
+ 571 739 577 716 577 687 c 0
+ 577 647 554 628 514 625 c 1
+ 514 206 l 2
+ 514 83 461 -9 317 -9 c 0
+ 171 -9 120 83 120 206 c 2
+ 120 680 l 1
+ 122 680 l 1
+ 122 206 l 2
+ 122 84 173 -7 317 -7 c 0
+ 460 -7 512 84 512 206 c 2
+ 512 680 l 1
+ 514 680 l 1
+ 514 627 l 1
+ 553 630 575 648 575 687 c 0
+ 575 716 569 739 561 759 c 1
+ 563 759 l 1
+EndSplineSet
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" uhorn.sc
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uhorn.sc
+Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
+EndChar

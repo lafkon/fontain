@@ -1,35 +1,37 @@
-
 StartChar: Omicrontonos
-Encoding: 908 908 721
-Width: 687
+Encoding: 908 908 1527
+Width: 699
 GlyphClass: 2
 Flags: MW
-HStem: -9 21G<237.5 428.5> 660 20G<129 131 131 131> 670 20G<286 472>
-VStem: 84 537<345 572>
+HStem: -9 21G<249.5 440.5> 660 20G<119 121 121 121> 670 20G<298 484>
+VStem: 74 559<345 572>
+AnchorPoint: "Anchor-9" 589 680 basechar 0
+AnchorPoint: "Anchor-8" 0 0 basechar 0
 AnchorPoint: "Anchor-7" 0 0 basechar 0
-AnchorPoint: "Anchor-6" 108 517 basechar 0
-AnchorPoint: "Anchor-5" 0 0 basechar 0
-AnchorPoint: "Anchor-4" 401 680 basechar 0
+AnchorPoint: "Anchor-6" 318 0 basechar 0
+AnchorPoint: "Anchor-5" 413 680 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-403 690 m 0xb0
- 541 690 621 596 621 429 c 0
- 621 261 551 -9 306 -9 c 0
- 169 -9 90 86 90 251 c 0
- 90 418 169 690 403 690 c 0xb0
-403 688 m 0
- 170 688 92 415 92 253 c 0
- 92 88 170 -7 306 -7 c 0
- 550 -7 619 265 619 429 c 0
- 619 595 540 688 403 688 c 0
-131 680 m 1xd0
- 86 572 l 1
- 84 572 l 1
- 129 680 l 1
- 131 680 l 1xd0
+415 690 m 0xb0
+ 553 690 633 596 633 429 c 0
+ 633 261 563 -9 318 -9 c 0
+ 181 -9 102 86 102 251 c 0
+ 102 418 181 690 415 690 c 0xb0
+415 688 m 0
+ 182 688 104 417 104 251 c 0
+ 104 87 182 -7 318 -7 c 0
+ 562 -7 631 262 631 429 c 0
+ 631 595 552 688 415 688 c 0
+119 680 m 1xd0
+ 121 680 l 1
+ 76 572 l 1
+ 74 572 l 1
+ 119 680 l 1xd0
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" omicrontonos.sc
-Substitution2: "'aalt' Access All Alternates lookup 0 subtable" omicrontonos.sc
+Substitution2: "Single Substitution lookup 41 subtable" Omicron
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" omicrontonos.sc
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" omicrontonos.sc Omicron
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

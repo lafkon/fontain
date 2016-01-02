@@ -1,18 +1,19 @@
-
 StartChar: percent
-Encoding: 37 37 1111
+Encoding: 37 37 2294
 Width: 781
+GlyphClass: 2
 Flags: MW
-HStem: -11 36<544 617 544 624.5> 1 21G<146 146> 275 35<544 617> 354 36<164.5 237.5 164.5 245.5> 640 35<164.5 237.5>
+HStem: -11 36<544 617 544 624.5> 275 35<544 617> 354 36<164.5 237.5 164.5 245.5> 640 35<164.5 237.5>
 VStem: 56 44<481 548 481 563> 302 44<482 548.5> 435 44<116 183 116 198> 681 44<117 183.5>
 LayerCount: 2
+Back
 Fore
 SplineSet
-644 678 m 1xbf80
+609 701 m 1
+ 644 678 l 1
  181 -21 l 1
- 146 1 l 1x7f80
+ 146 1 l 1
  609 701 l 1
- 644 678 l 1xbf80
 201 675 m 0
  287 675 346 613 346 516 c 0
  346 418 290 354 201 354 c 0
@@ -25,16 +26,16 @@ SplineSet
  302 581 274 640 201 640 c 0
 580 310 m 0
  666 310 725 248 725 151 c 0
- 725 53 669 -11 580 -11 c 0xbf80
+ 725 53 669 -11 580 -11 c 0
  495 -11 435 52 435 149 c 0
  435 247 492 310 580 310 c 0
 580 275 m 0
  508 275 479 217 479 149 c 0
- 479 83 508 25 580 25 c 0xbf80
+ 479 83 508 25 580 25 c 0
  654 25 681 83 681 151 c 0
  681 216 654 275 580 275 c 0
 EndSplineSet
-Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" percent.osf
-Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" percent.tf
+Substitution2: "'onum' Oldstyle Figures lookup 25 subtable" percent.osf
+Substitution2: "'tnum' Tabular Numbers lookup 24 subtable" percent.tf
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" percent.tf percent.osf
 EndChar

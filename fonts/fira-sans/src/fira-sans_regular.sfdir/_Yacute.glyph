@@ -1,24 +1,26 @@
-
 StartChar: Yacute
-Encoding: 221 221 120
+Encoding: 221 221 303
 Width: 550
 GlyphClass: 2
 Flags: MW
 HStem: 0 21G<227 323 227 227> 669 20G<5 110 110 110 446 545 545 545>
 VStem: 227 96<0 264 264 264>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 277 911 basechar 0
 AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 5 689 basechar 0
-AnchorPoint: "Anchor-9" 278 689 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 275 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-400 834 m 1
- 184 755 l 1
- 160 804 l 1
- 360 911 l 1
- 400 834 l 1
-323 265 m 1
+355 911 m 1
+ 395 834 l 1
+ 179 755 l 1
+ 155 804 l 1
+ 355 911 l 1
+545 689 m 1
+ 323 265 l 1
  323 0 l 1
  227 0 l 1
  227 264 l 1
@@ -27,9 +29,8 @@ SplineSet
  278 348 l 1
  446 689 l 1
  545 689 l 1
- 323 265 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" yacute.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" yacute.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" yacute.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

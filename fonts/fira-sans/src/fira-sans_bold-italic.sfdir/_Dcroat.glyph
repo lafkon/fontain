@@ -1,16 +1,17 @@
-
 StartChar: Dcroat
-Encoding: 272 272 23
-Width: 652
+Encoding: 272 272 57
+Width: 651
 GlyphClass: 2
 Flags: MW
-HStem: 0 119<214 243> 304 98<33 80 20 93 254 377> 574 119<278 322 322 331 278 278>
+HStem: 0 119<214 243> 304 98<29 80 16 93 254 373> 574 119<278 322 322 331 278 278>
 VStem: 470 166<363 489.5>
+AnchorPoint: "Anchor-14" 342 347 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 361 693 basechar 0
 AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 361 693 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 261 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 322 693 m 2
@@ -18,8 +19,8 @@ SplineSet
  636 205 539 0 243 0 c 2
  37 0 l 1
  80 304 l 1
- 20 304 l 1
- 33 402 l 1
+ 16 304 l 1
+ 29 402 l 1
  93 402 l 1
  134 693 l 1
  322 693 l 2
@@ -28,13 +29,13 @@ SplineSet
  470 549 411 574 331 574 c 2
  278 574 l 1
  254 402 l 1
- 390 402 l 1
- 377 304 l 1
+ 387 402 l 1
+ 373 304 l 1
  240 304 l 1
  214 119 l 1
  267 119 l 2
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" dcroat.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" dcroat.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" dcroat.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

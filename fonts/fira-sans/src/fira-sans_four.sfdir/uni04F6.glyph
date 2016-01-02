@@ -1,31 +1,36 @@
-
 StartChar: uni04F6
-Encoding: 1270 1270 506
+Encoding: 1270 1270 1183
 Width: 520
 GlyphClass: 2
 Flags: MW
-HStem: -131.72 135.65 0 21G<129.28 184.71 129.28 129.28> 660.14 20G
-VStem: 129.28 59.64
+HStem: -132 136<186 189 186 186> 0 21G<129 133 129 129 134 185 134 134> 660 20G<129 501 501 501>
+VStem: 129 60<0 4 -132 680>
+AnchorPoint: "Anchor-4" 0 0 basechar 0
 AnchorPoint: "Anchor-3" 0 0 basechar 0
-AnchorPoint: "Anchor-2" 0 0 basechar 0
-AnchorPoint: "Anchor-1" 330 680 basechar 0
+AnchorPoint: "Anchor-2" 330 680 basechar 0
+AnchorPoint: "Anchor-1" 0 0 basechar 0
 AnchorPoint: "Anchor-0" 0 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-133.35 676.14 m 1x70
- 133.35 3.93066 l 1
- 188.92 3.93066 l 1
- 188.92 -131.72 l 1
- 185.49 -131.72 l 1xb0
- 184.71 0 l 1
- 129.28 -0 l 1
- 129.28 680.14 l 1
- 500.78 680.14 l 1
- 500.42 676.14 l 1
- 133.35 676.14 l 1x70
+500 676 m 1x70
+ 133 676 l 1
+ 133 4 l 1
+ 189 4 l 1
+ 189 -132 l 1
+ 186 -132 l 1xb0
+ 185 0 l 1
+ 134 0 l 1
+ 133 1 l 1
+ 133 0 l 1
+ 129 0 l 1
+ 129 680 l 1
+ 501 680 l 1
+ 500 676 l 1x70
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" uni04F7.sc
+Kerns2: 1209 -40 "'kern' Horizontal Kerning lookup 2 per glyph data 0"
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" uni04F7.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uni04F7.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

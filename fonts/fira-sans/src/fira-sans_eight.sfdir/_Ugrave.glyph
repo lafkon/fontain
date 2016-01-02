@@ -1,36 +1,37 @@
-
 StartChar: Ugrave
-Encoding: 217 217 106
+Encoding: 217 217 275
 Width: 636
 GlyphClass: 2
 Flags: MW
-HStem: -9.21001 7.78 660.43 20G
-VStem: 117.85 8.22 509.85 8.22
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 323 680 basechar 0
-AnchorPoint: "Anchor-8" 399 0 basechar 0
+HStem: -9 8<248 388 248 390.5> 660 20G<118 126 126 126 510 518 518 518>
+VStem: 118 8<206 207 207 680> 510 8<207 680>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 528 680 basechar 0
+AnchorPoint: "Anchor-12" 320 848 basechar 0
+AnchorPoint: "Anchor-11" 399 0 basechar 0
+AnchorPoint: "Anchor-10" 318 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-412.85 774.93 m 1
- 410.141 768.86 l 1
- 240.28 839.36 l 1
- 244.5 847.79 l 1
- 412.85 774.93 l 1
-518.07 206.431 m 2
- 518.07 82.5703 462.711 -9.20996 318.071 -9.20996 c 0
- 171.421 -9.20996 117.851 82.5703 117.851 206.431 c 2
- 117.851 680.431 l 1
- 126.07 680.431 l 1
- 126.07 207.07 l 2
- 126.07 86.79 177.5 -1.42969 318.07 -1.42969 c 0
- 458.07 -1.42969 509.851 87.4307 509.851 207.07 c 2
- 509.851 680.431 l 1
- 518.07 680.431 l 1
- 518.07 206.431 l 2
+241 848 m 1
+ 410 775 l 1
+ 407 769 l 1
+ 237 839 l 1
+ 241 848 l 1
+518 680 m 1
+ 518 206 l 2
+ 518 83 463 -9 318 -9 c 0
+ 172 -9 118 83 118 206 c 2
+ 118 680 l 1
+ 126 680 l 1
+ 126 207 l 2
+ 126 87 178 -1 318 -1 c 0
+ 458 -1 510 87 510 207 c 2
+ 510 680 l 1
+ 518 680 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" ugrave.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" ugrave.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" ugrave.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

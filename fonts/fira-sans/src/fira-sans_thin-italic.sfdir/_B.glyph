@@ -1,28 +1,33 @@
-
 StartChar: B
-Encoding: 66 66 13
+Encoding: 66 66 36
 Width: 587
 GlyphClass: 2
 Flags: MW
-HStem: 0 21<112 263> 350 20<161 327 327 331 158 327> 660 21<202 329 329 331 202 202>
-VStem: 494 23<169.5 260.5> 505 22<495 577.5>
+HStem: 0 21<112 263> 350 20<161 327 327 331 158 327> 660 21<202 202 202 329 329 331>
+VStem: 494 23<169.5 260.5> 505 22<489 577.5>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 338 681 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 0 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 371 361 m 1xf0
  453 354 517 309 517 215 c 0xf0
- 517 116 461 0 263 0 c 2
+ 517 116 460 0 263 0 c 2
  86 0 l 1
  182 681 l 1
  329 681 l 2
  453 681 527 633 527 536 c 0xe8
- 527 454 481 379 371 361 c 1xf0
-161 370 m 1
- 327 370 l 2
- 444 370 505 450 505 535 c 0xe8
- 505 620 441 660 331 660 c 2
- 202 660 l 1
+ 527 440 464 373 371 361 c 1xf0
+202 660 m 1xe8
  161 370 l 1
+ 327 370 l 2
+ 437 370 505 443 505 535 c 0
+ 505 620 441 660 331 660 c 2
+ 202 660 l 1xe8
 266 21 m 2xf0
  443 21 494 123 494 216 c 0
  494 305 429 350 331 350 c 2
@@ -30,7 +35,7 @@ SplineSet
  112 21 l 1
  266 21 l 2xf0
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" b.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" b.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" b.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

@@ -1,14 +1,16 @@
-
 StartChar: summation.tf
-Encoding: 1114570 -1 1170
+Encoding: 1114932 -1 2324
 Width: 560
+GlyphClass: 2
 Flags: MW
 HStem: 0 109<207 509 207 509> 583 109<207 509 207 207>
 VStem: 50 459<0 105 105 105 587 692>
 LayerCount: 2
+Back
 Fore
 SplineSet
-509 583 m 1
+509 692 m 1
+ 509 583 l 1
  207 583 l 1
  392 375 l 1
  392 320 l 1
@@ -21,9 +23,8 @@ SplineSet
  50 587 l 1
  50 692 l 1
  509 692 l 1
- 509 583 l 1
 EndSplineSet
-Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" summation.tosf
-Substitution2: "'pnum' Proportional Numbers lookup 20 subtable" summation
+Substitution2: "'onum' Oldstyle Figures lookup 25 subtable" summation.tosf
+Substitution2: "'pnum' Proportional Numbers lookup 23 subtable" summation
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" summation summation.tosf
 EndChar

@@ -1,33 +1,34 @@
-
 StartChar: itilde
-Encoding: 297 297 187
+Encoding: 297 297 497
 Width: 282
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G<95 187 95 95> 507 20G<95 187 187 187> 656 70<180.5 209 180.5 223> 704 70<71.5 101> 722 20G<308 308>
-VStem: 95 92<0 527>
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 141 527 basechar 0
-AnchorPoint: "Anchor-8" 197 0 basechar 0
+HStem: 0 21G<95 187 95 95> 507 20G<95 187 187 187> 656 70<180.5 209 180.5 221.5> 704 70<71.5 101> 722 20G<308 308>
+VStem: 95 92<0 527 0 527>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 141 730 basechar 0
+AnchorPoint: "Anchor-11" 197 0 basechar 0
+AnchorPoint: "Anchor-10" 141 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-202 656 m 0xe4
- 143 656 119 704 83 704 c 0
+199 656 m 0xe4
+ 146 656 119 704 83 704 c 0
  60 704 46 688 30 658 c 1
  -26 686 l 1
- -3 735 33 774 84 774 c 0xd4
- 138 774 162 726 199 726 c 0
+ -3 735 33 774 83 774 c 0xd4
+ 139 774 162 726 199 726 c 0
  219 726 234 740 252 770 c 1xe4
  308 742 l 1xcc
- 282 685 244 656 202 656 c 0xe4
-187 0 m 1xcc
+ 282 685 244 656 199 656 c 0xe4
+187 527 m 1xcc
+ 187 0 l 1
  95 0 l 1
  95 527 l 1
- 187 527 l 1
- 187 0 l 1xcc
+ 187 527 l 1xcc
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" itilde.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" itilde.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" itilde.sc
 EndChar

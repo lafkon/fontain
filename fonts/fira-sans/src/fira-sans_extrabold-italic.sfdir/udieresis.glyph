@@ -1,29 +1,31 @@
-
 StartChar: udieresis
-Encoding: 252 252 243
+Encoding: 252 252 664
 Width: 558
 GlyphClass: 2
 Flags: MW
-HStem: -18 21G<104 188> 0 21G<318 470 318 318> 0 123<226.5 470 226.5 318> 513 20G<83 258 258 258 370 544 544 544> 637 172<205.5 233 440 468>
-VStem: 26.2 183.8 133 172 367 172
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 338 745 basechar 0
-AnchorPoint: "Anchor-8" 478 0 basechar 0
+HStem: -18 21G<104 188> 0 21G<318 470 318 318> 0 123<226.5 470 226.5 318> 513 20G<83 258 258 258 370 544 544 544> 637 172<208.5 238 442.5 473>
+VStem: 26.2 183.8 137 172 371 172
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 554 533 basechar 0
+AnchorPoint: "Anchor-12" 343 809 basechar 0
+AnchorPoint: "Anchor-11" 478 0 basechar 0
+AnchorPoint: "Anchor-10" 251 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-229 809 m 0x5b
- 279 809 313 769 305 720 c 1
- 299 674 257 637 209 637 c 0
- 160 637 126 676 133 727 c 0
- 139 772 182 809 229 809 c 0x5b
-463 809 m 0
- 514 809 547 769 539 720 c 1
- 533 674 492 637 444 637 c 0
- 395 637 360 676 367 727 c 0
- 373 772 417 809 463 809 c 0
-470 0 m 1
+233 809 m 0x3b
+ 283 809 317 769 309 720 c 0
+ 303 674 263 637 213 637 c 0
+ 164 637 130 676 137 727 c 0
+ 143 772 184 809 233 809 c 0x3b
+467 809 m 0
+ 518 809 551 769 543 720 c 0
+ 537 674 498 637 448 637 c 0
+ 399 637 364 676 371 727 c 0
+ 377 772 418 809 467 809 c 0
+544 533 m 1
+ 470 0 l 1
  318 0 l 1x5d
  321 73 l 1
  276 18 221 -18 155 -18 c 0x9d
@@ -31,12 +33,11 @@ SplineSet
  83 533 l 1
  258 533 l 1
  210 183 l 2
- 203 135 215 123 238 123 c 0
- 267 123 297 156 323 198 c 1x3d
+ 203 135 215 123 238 123 c 0x3d
+ 267 123 297 156 323 198 c 1
  370 533 l 1
  544 533 l 1
- 470 0 l 1
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" udieresis.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 28 subtable" udieresis.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" udieresis.sc
 EndChar

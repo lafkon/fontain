@@ -1,24 +1,25 @@
-
 StartChar: dotlessi
-Encoding: 305 305 177
+Encoding: 305 305 479
 Width: 255
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G<120.71 134.71 120.71 120.71> 498.28 20G
-VStem: 120.71 14
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 128 518 basechar 0
-AnchorPoint: "Anchor-8" 145 0 basechar 0
+HStem: 0 21G<121 135 121 121> 498 20G<121 135 135 135>
+VStem: 121 14<0 518 0 518>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 128 518 basechar 0
+AnchorPoint: "Anchor-11" 145 0 basechar 0
+AnchorPoint: "Anchor-10" 128 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-134.71 0 m 1
- 120.71 0 l 1
- 120.71 518.28 l 1
- 134.71 518.28 l 1
- 134.71 0 l 1
+135 518 m 1
+ 135 0 l 1
+ 121 0 l 1
+ 121 518 l 1
+ 135 518 l 1
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" dotlessi.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" dotlessi.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" dotlessi.sc
 EndChar

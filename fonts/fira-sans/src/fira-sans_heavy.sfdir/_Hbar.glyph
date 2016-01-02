@@ -1,19 +1,21 @@
-
 StartChar: Hbar
-Encoding: 294 294 41
+Encoding: 294 294 110
 Width: 671
 GlyphClass: 2
 Flags: MW
 HStem: 0 21G<50 256 50 50 415 621 415 415> 281 158<256 415 256 415> 495 106<0 50 0 50 256 415 621 671> 495 201<0 256 0 256 50 256 50 415>
 VStem: 50 206<0 281 0 439 439 495 601 696> 415 206<0 281 281 281 439 495 0 495 601 696 0 696>
+AnchorPoint: "Anchor-14" 336 348 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 336 696 basechar 0
 AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 50 696 basechar 0
-AnchorPoint: "Anchor-9" 336 696 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 336 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-671 495 m 1xdc
+671 601 m 1xec
+ 671 495 l 1
  621 495 l 1
  621 0 l 1
  415 0 l 1
@@ -33,14 +35,13 @@ SplineSet
  621 696 l 1xdc
  621 601 l 1
  671 601 l 1xec
- 671 495 l 1xdc
-415 495 m 1
+415 439 m 1
+ 415 495 l 1
  256 495 l 1
  256 439 l 1
  415 439 l 1
- 415 495 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" hbar.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" hbar.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" hbar.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

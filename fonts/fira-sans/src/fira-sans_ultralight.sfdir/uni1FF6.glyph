@@ -1,36 +1,37 @@
-
 StartChar: uni1FF6
-Encoding: 8182 8182 810
+Encoding: 8182 8182 1807
 Width: 771
 GlyphClass: 2
 Flags: MW
-HStem: -10 31<217 282.5 217 285 486 548.5> 500 20G<140 175 175 175 598 633 633 633> 674 30<427.5 458 427.5 464> 715 20G<526 526> 717 30<314 346>
-VStem: 84 35<152.5 288.5 152.5 299.5> 367 35<178 351 351 351> 652 35<146.5 289 137.5 295>
+HStem: -10 31<217 282.5 217 285 486 548.5> 500 20G<140 175 175 175 598 633 633 633> 673 20G<249 249> 674 30<427 457.5 427 462> 715 20G<526 526> 717 30<317.5 345.5>
+VStem: 84 35<152 288 152 299.5> 367 35<178 351 351 351> 652 35<146.5 287>
+AnchorPoint: "Anchor-9" 0 0 basechar 0
+AnchorPoint: "Anchor-8" 0 0 basechar 0
 AnchorPoint: "Anchor-7" 0 0 basechar 0
-AnchorPoint: "Anchor-6" 0 0 basechar 0
-AnchorPoint: "Anchor-5" 0 0 basechar 0
-AnchorPoint: "Anchor-4" 388 520 basechar 0
+AnchorPoint: "Anchor-6" 387 0 basechar 0
+AnchorPoint: "Anchor-5" 388 704 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-451 674 m 0xf7
- 395 674 363 717 329 717 c 0
- 299 717 290 707 270 681 c 1
+447 674 m 0xdb80
+ 398 674 362 717 329 717 c 0
+ 306 717 290 707 270 681 c 1
  249 693 l 1
- 270 727 294 747 329 747 c 0xcf
- 369 747 407 704 448 704 c 0xef
- 468 704 483 715 505 747 c 1xcf
+ 270 727 297 747 329 747 c 0xe780
+ 369 747 407 704 447 704 c 0
+ 468 704 483 715 505 747 c 1
  526 735 l 1
- 504 691 477 674 451 674 c 0xf7
-633 520 m 1xcf
- 663 447 687 343 687 235 c 0
+ 504 691 477 674 447 674 c 0xdb80
+633 520 m 1xeb80
+ 656 464 687 362 687 235 c 0
  687 40 601 -10 519 -10 c 0
- 449 -10 394 27 385 116 c 1
- 372 27 319 -10 251 -10 c 0
+ 447 -10 395 27 385 112 c 1
+ 371 27 319 -10 251 -10 c 0
  152 -10 84 63 84 237 c 0
  84 362 114 453 140 520 c 1
  175 520 l 1
- 141 434 119 341 119 236 c 0
+ 141 434 119 341 119 235 c 0
  119 69 183 21 251 21 c 0
  314 21 367 59 367 178 c 2
  367 351 l 1
@@ -38,9 +39,9 @@ SplineSet
  402 177 l 2
  402 57 457 21 515 21 c 0
  582 21 652 60 652 233 c 0
- 652 357 624 457 598 520 c 1
- 633 520 l 1xcf
+ 652 341 628 434 598 520 c 1
+ 633 520 l 1xeb80
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" uni1FF6.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" uni1FF6.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uni1FF6.sc
 EndChar

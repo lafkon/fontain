@@ -1,38 +1,43 @@
-
 StartChar: eth
-Encoding: 240 240 154
-Width: 573
+Encoding: 240 240 391
+Width: 576
 GlyphClass: 2
 Flags: MW
-HStem: -22 157<252.5 291 252.5 340.5> 336 148<266.5 271.5 165 306.5> 557 20G<122 122> 746 20G<160 160>
-VStem: -1 221<169.5 217 169.5 265.5> 349 222
+HStem: -22 157<253.5 292.5 253.5 342> 336 148<267.5 272.5 166 308> 557 20G<123 123> 746 20G<162 162>
+VStem: 0 222<169.5 217 169.5 265.5> 0 572<128 432>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 294 745 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 248 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-420 675 m 1
- 528 592 571 492 571 372 c 0
- 571 343 569 315 564 286 c 1
- 543 127 434 -22 247 -22 c 0
- 104 -22 -1 57 -1 199 c 0
- -1 332 83 484 247 484 c 0
- 296 484 328 471 361 451 c 1
- 347 493 330 524 291 558 c 1
- 246 517 l 1
- 122 577 l 1
- 166 619 l 1
- 140 624 116 628 101 630 c 1
- 160 766 l 1
- 200 761 237 755 294 737 c 1
- 381 819 l 1
- 475 725 l 1
- 420 675 l 1
-267 135 m 0
- 315 135 327 179 338 249 c 1
- 343 274 346 300 349 326 c 1
- 334 332 316 336 297 336 c 0
- 236 336 220 242 220 192 c 0
- 220 147 238 135 267 135 c 0
+422 675 m 1xf4
+ 530 591 572 492 572 372 c 0
+ 572 343 570 315 566 286 c 0
+ 544 127 435 -22 249 -22 c 0
+ 105 -22 0 57 0 199 c 0xf8
+ 0 332 84 484 248 484 c 0
+ 297 484 330 472 362 451 c 1
+ 348 493 331 524 292 559 c 1
+ 247 517 l 1
+ 123 577 l 1
+ 167 619 l 1
+ 140 624 117 628 102 630 c 1
+ 162 766 l 1
+ 201 761 237 755 295 737 c 1
+ 382 819 l 1
+ 476 725 l 1
+ 422 675 l 1xf4
+268 135 m 0xf8
+ 317 135 328 179 340 249 c 0
+ 344 274 347 300 351 326 c 1
+ 334 331 318 336 298 336 c 0
+ 237 336 222 242 222 192 c 0
+ 222 147 239 135 268 135 c 0xf8
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" eth.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 28 subtable" eth.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" eth.sc
 EndChar

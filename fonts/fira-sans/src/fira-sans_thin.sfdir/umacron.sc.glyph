@@ -1,24 +1,26 @@
-
 StartChar: umacron.sc
-Encoding: 1114247 -1 395
+Encoding: 1114415 -1 1014
 Width: 587
 GlyphClass: 2
 Flags: MW
 HStem: -8 21<237 351.5 237 357.5> 539 20G<113 135 135 135 452 474 474 474> 715 21<190 397 190 397>
 VStem: 113 22<170 173 173 559> 452 22<173 559>
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 294 559 basechar 0
-AnchorPoint: "Anchor-8" 368 0 basechar 0
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 484 559 basechar 0
+AnchorPoint: "Anchor-12" 296 736 basechar 0
+AnchorPoint: "Anchor-11" 368 0 basechar 0
+AnchorPoint: "Anchor-10" 294 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-190 715 m 1
+397 715 m 1
+ 190 715 l 1
  190 736 l 1
  397 736 l 1
  397 715 l 1
- 190 715 l 1
-474 170 m 2
+474 559 m 1
+ 474 170 l 2
  474 67 421 -8 294 -8 c 0
  165 -8 113 67 113 170 c 2
  113 559 l 1
@@ -28,6 +30,5 @@ SplineSet
  409 13 452 80 452 173 c 2
  452 559 l 1
  474 559 l 1
- 474 170 l 2
 EndSplineSet
 EndChar

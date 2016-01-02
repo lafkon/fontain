@@ -1,33 +1,34 @@
-
 StartChar: Ldot
-Encoding: 319 319 62
+Encoding: 319 319 148
 Width: 519
 GlyphClass: 2
 Flags: MW
 HStem: 0 175<244 449> 291 232<398.5 437.5> 678 20G<90 317 317 317>
-VStem: -7 544.98 299 238
-AnchorPoint: "Anchor-11" 221 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 204 698 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+VStem: -7 544.98
+AnchorPoint: "Anchor-14" 417 407 basechar 0
+AnchorPoint: "Anchor-13" 334 698 basechar 0
+AnchorPoint: "Anchor-12" 432 523 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 222 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-244 175 m 1xf0
+317 698 m 1
+ 244 175 l 1
  496 175 l 1
  449 0 l 1
  -7 0 l 1
  90 698 l 1
  317 698 l 1
- 244 175 l 1xf0
-433 523 m 0xe8
+433 523 m 0
  503 523 546 472 537 405 c 0
  529 341 472 291 403 291 c 0
  332 291 290 342 299 410 c 0
- 307 473 364 523 433 523 c 0xe8
+ 307 473 364 523 433 523 c 0
 EndSplineSet
-Ligature2: "Ligature Substitution lookup 29 subtable" L periodcentered
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" ldot.sc
+Ligature2: "Ligature Substitution lookup 40 subtable" L periodcentered
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" ldot.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" ldot.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

@@ -1,30 +1,31 @@
-
 StartChar: Igrave
-Encoding: 204 204 50
+Encoding: 204 204 129
 Width: 292
 GlyphClass: 2
 Flags: MW
 HStem: 0 21G<43 249 43 43> 676 20G<43 249 249 249>
-VStem: 43 206<0 696>
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 43 696 basechar 0
-AnchorPoint: "Anchor-9" 146 696 basechar 0
-AnchorPoint: "Anchor-8" 213 0 basechar 0
+VStem: 43 206<0 696 0 696>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 148 984 basechar 0
+AnchorPoint: "Anchor-11" 213 0 basechar 0
+AnchorPoint: "Anchor-10" 146 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-293 848 m 1
- 243 749 l 1
- -11 840 l 1
- 62 984 l 1
- 293 848 l 1
-249 0 m 1
+67 984 m 1
+ 298 848 l 1
+ 248 749 l 1
+ -6 840 l 1
+ 67 984 l 1
+249 696 m 1
+ 249 0 l 1
  43 0 l 1
  43 696 l 1
  249 696 l 1
- 249 0 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" igrave.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" igrave.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" igrave.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

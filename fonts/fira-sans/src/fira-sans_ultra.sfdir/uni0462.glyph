@@ -1,34 +1,38 @@
-
 StartChar: uni0462
-Encoding: 1122 1122 466
-Width: 748
+Encoding: 1122 1122 1122
+Width: 706
 GlyphClass: 2
 Flags: MW
-HStem: 0 161<397 430 430 457.5 397 465> 309 153<397 426 397 455> 531 167<3 166 3 571 397 397 397 547>
-VStem: 166 231<161 309 462 531 161 531 161 531> 503 239<217.5 254.5>
+HStem: 0 161<354 387 387 414.5 354 422> 309 153<354 383 354 412> 514 125<0 123 0 123 354 496> 514 184<0 354 0 354 123 354 123 496>
+VStem: 123 231<161 309 462 514 161 514 161 514 639 698> 460 239<217.5 254.5>
 LayerCount: 2
+Back
 Fore
 SplineSet
-455 462 m 2
- 639 462 742 387 742 238 c 0
- 742 84 625 0 465 0 c 2
- 166 0 l 1
- 166 531 l 1
- 3 531 l 1
- 3 698 l 1
- 571 698 l 1
- 547 531 l 1
- 397 531 l 1
- 397 462 l 1
- 455 462 l 2
-430 161 m 2
- 485 161 503 199 503 236 c 0
- 503 273 487 309 426 309 c 2
- 397 309 l 1
- 397 161 l 1
- 430 161 l 2
+412 462 m 2xdc
+ 592 462 699 387 699 238 c 0
+ 699 84 582 0 422 0 c 2
+ 123 0 l 1
+ 123 514 l 1
+ 0 514 l 1xdc
+ 0 639 l 1
+ 123 639 l 1xec
+ 123 698 l 1
+ 354 698 l 1xdc
+ 354 639 l 1
+ 496 639 l 1xec
+ 496 514 l 1
+ 354 514 l 1
+ 354 462 l 1
+ 412 462 l 2xdc
+387 161 m 2
+ 442 161 460 199 460 236 c 0
+ 460 273 444 309 383 309 c 2
+ 354 309 l 1
+ 354 161 l 1
+ 387 161 l 2
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" uni0463.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" uni0463.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uni0463.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

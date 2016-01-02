@@ -1,14 +1,16 @@
-
 StartChar: plusminus.tf
-Encoding: 1114567 -1 1167
+Encoding: 1114929 -1 2321
 Width: 560
+GlyphClass: 2
 Flags: MW
-HStem: 0 122<69 491 69 491> 343 122<70 221 70 221 352 504>
+HStem: 0 122<76 498 76 498> 343 122<70 221 70 221 352 504>
 VStem: 221 131<188 343 188 343 465 622>
 LayerCount: 2
+Back
 Fore
 SplineSet
-352 465 m 1
+352 622 m 1
+ 352 465 l 1
  504 465 l 1
  504 343 l 1
  352 343 l 1
@@ -20,14 +22,13 @@ SplineSet
  221 465 l 1
  221 622 l 1
  352 622 l 1
- 352 465 l 1
-69 122 m 1
- 491 122 l 1
- 491 0 l 1
- 69 0 l 1
- 69 122 l 1
+76 0 m 1
+ 76 122 l 1
+ 498 122 l 1
+ 498 0 l 1
+ 76 0 l 1
 EndSplineSet
-Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" plusminus.tosf
-Substitution2: "'pnum' Proportional Numbers lookup 20 subtable" plusminus
+Substitution2: "'onum' Oldstyle Figures lookup 25 subtable" plusminus.tosf
+Substitution2: "'pnum' Proportional Numbers lookup 23 subtable" plusminus
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" plusminus plusminus.tosf
 EndChar

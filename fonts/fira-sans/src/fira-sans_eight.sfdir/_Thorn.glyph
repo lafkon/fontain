@@ -1,32 +1,32 @@
-
 StartChar: Thorn
-Encoding: 222 222 84
+Encoding: 222 222 222
 Width: 554
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G 151.85 7.78999 543.5 7.78 660.43 20G
-VStem: 127.85 8.21001 482.63 8.42999
+HStem: 0 21G<128 136 128 128> 152 8<136 251 136 252> 544 7<136 255 136 255> 660 20G<128 136 136 136>
+VStem: 128 8<0 152 160 544 551 680> 483 8<281.5 420.5>
 LayerCount: 2
+Back
 Fore
 SplineSet
-254.57 551.28 m 2
- 412.5 551.28 491.061 493.07 491.061 352.28 c 0
- 491.061 206.851 397.711 151.851 251.141 151.851 c 2
- 136.07 151.851 l 1
- 136.07 0.000976562 l 1
- 127.851 0.000976562 l 1
- 127.851 680.431 l 1
- 136.07 680.431 l 1
- 136.07 551.28 l 1
- 254.57 551.28 l 2
-251.78 159.641 m 2
- 392.061 159.641 482.631 210.852 482.631 352.071 c 0
- 482.631 489.281 407.631 543.501 254.561 543.501 c 2
- 136.061 543.501 l 1
- 136.061 159.641 l 1
- 251.78 159.641 l 2
+255 551 m 2
+ 413 551 491 493 491 352 c 0
+ 491 207 398 152 251 152 c 2
+ 136 152 l 1
+ 136 0 l 1
+ 128 0 l 1
+ 128 680 l 1
+ 136 680 l 1
+ 136 551 l 1
+ 255 551 l 2
+252 160 m 2
+ 392 160 483 211 483 352 c 0
+ 483 489 408 544 255 544 c 2
+ 136 544 l 1
+ 136 160 l 1
+ 252 160 l 2
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" thorn.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" thorn.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" thorn.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

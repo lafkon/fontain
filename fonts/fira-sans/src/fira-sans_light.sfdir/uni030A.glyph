@@ -1,27 +1,34 @@
-
 StartChar: uni030A
-Encoding: 778 778 1292
+Encoding: 778 778 2484
 Width: 0
 GlyphClass: 4
 Flags: MW
-HStem: 633 36<120 155 120 167> 785 36<120 155.5>
-VStem: 39 43<708.5 745 708.5 754> 193 43<708.5 745>
-AnchorPoint: "Anchor-12" 138 523 mark 0
-AnchorPoint: "Anchor-9" 138 523 mark 0
-AnchorPoint: "Anchor-4" 138 523 mark 0
-AnchorPoint: "Anchor-1" 138 523 mark 0
+HStem: 633 36<-144 -109 -144 -97> 785 36<-144 -108.5>
+VStem: -225 43<708.5 745 708.5 754> -71 43<708.5 745>
+AnchorPoint: "Anchor-19" -126 523 mark 0
+AnchorPoint: "Anchor-16" -124 821 basemark 0
+AnchorPoint: "Anchor-16" -126 523 mark 0
+AnchorPoint: "Anchor-12" -126 523 mark 0
+AnchorPoint: "Anchor-5" -126 523 mark 0
+AnchorPoint: "Anchor-2" -126 523 mark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-138 821 m 0
- 196 821 236 781 236 727 c 0
- 236 672 196 633 138 633 c 0
- 79 633 39 672 39 727 c 0
- 39 781 79 821 138 821 c 0
-138 785 m 0
- 102 785 82 763 82 727 c 0
- 82 690 102 669 138 669 c 0
- 172 669 193 690 193 727 c 0
- 193 763 173 785 138 785 c 0
+-126 821 m 0
+ -68 821 -28 781 -28 727 c 0
+ -28 672 -68 633 -126 633 c 0
+ -185 633 -225 672 -225 727 c 0
+ -225 781 -185 821 -126 821 c 0
+-126 785 m 0
+ -162 785 -182 763 -182 727 c 0
+ -182 690 -162 669 -126 669 c 0
+ -92 669 -71 690 -71 727 c 0
+ -71 763 -91 785 -126 785 c 0
 EndSplineSet
+Substitution2: "Single Substitution lookup 41 subtable" uni030A.case
+Substitution2: "'case' Case-Sensitive Forms lookup 28 subtable" uni030A.case
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" uni030A.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" uni030A.sc
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" uni030A.sc uni030A.case
 EndChar

@@ -1,29 +1,27 @@
-
 StartChar: breve
-Encoding: 728 728 1253
+Encoding: 728 728 2518
 Width: 254
 Flags: MW
-HStem: 670.31 20G 718.07 20G 718.21 20G
-VStem: 98.78 191.28
+HStem: 670 20G 718 20G
+VStem: 99 191<738 738>
 LayerCount: 2
+Back
 Fore
 SplineSet
-99 738.21 m 1xb0
- 101.54 718.34 109.001 702.159 120.801 690.319 c 1
- 108.261 702.76 101.181 719.34 98.7803 737.5 c 1
- 99 738.21 l 1xb0
-290.062 737.639 m 1xd0
- 285.552 727.479 279.831 717.789 272.861 709.049 c 1
- 279.512 717.549 285.172 727.259 289.712 738.068 c 1
- 290.062 737.639 l 1xd0
-184.28 667.699 m 0
- 224.36 667.699 253.472 684.74 272.861 709.04 c 1
- 251.981 682.36 221.271 667.49 184.281 667.49 c 0
- 157.091 667.49 135.551 675.51 120.801 690.31 c 1
- 134.801 676.43 155.601 667.699 184.28 667.699 c 0
+99 738 m 1
+ 102 718 109 702 121 690 c 1
+ 108 703 101 719 99 738 c 1
+290 738 m 1
+ 286 728 280 718 273 709 c 1
+ 280 718 285 727 290 738 c 1
+184 668 m 0
+ 224 668 254 685 273 709 c 1
+ 252 682 221 668 184 668 c 0
+ 157 668 136 676 121 690 c 1
+ 135 676 156 668 184 668 c 0
 EndSplineSet
-Substitution2: "'case' Case-Sensitive Forms lookup 25 subtable" breve.case
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" breve.sc
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" breve.sc
+Substitution2: "'case' Case-Sensitive Forms lookup 29 subtable" breve.case
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 28 subtable" breve.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" breve.sc
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" breve.sc breve.case
 EndChar

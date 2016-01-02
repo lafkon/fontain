@@ -1,26 +1,28 @@
-
 StartChar: Ebreve
-Encoding: 276 276 26
+Encoding: 276 276 67
 Width: 495
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G<94 409 94 94> 360 320<189 407 147 494> 678 96<324.5 379.5 324.5 494>
+HStem: 0 21G<94 409 94 94> 360 320<189 407 147 494> 678 96<325.5 380.5 325.5 494>
 VStem: 94 400
-AnchorPoint: "Anchor-11" 248 0 basechar 0
-AnchorPoint: "Anchor-10" 88 517 basechar 0
-AnchorPoint: "Anchor-9" 343 680 basechar 0
-AnchorPoint: "Anchor-8" 389 0 basechar 0
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 363 835 basechar 0
+AnchorPoint: "Anchor-11" 389 0 basechar 0
+AnchorPoint: "Anchor-10" 248 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-352 776 m 0xb0
- 304 776 274 801 266 835 c 1
- 264 834 l 1
- 271 805 297 774 352 774 c 0
- 407 774 441 805 456 834 c 1
- 454 835 l 1
- 436 801 400 776 352 776 c 0xb0
-494 678 m 1
+353 776 m 0xb0
+ 305 776 275 801 267 835 c 1
+ 265 834 l 1
+ 272 805 298 774 353 774 c 0
+ 408 774 442 805 457 834 c 1
+ 455 835 l 1
+ 437 801 401 776 353 776 c 0xb0
+494 680 m 1
+ 494 678 l 1
  191 678 l 1xb0
  147 362 l 1
  407 362 l 1
@@ -32,9 +34,8 @@ SplineSet
  94 0 l 1
  189 680 l 1xd0
  494 680 l 1
- 494 678 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" ebreve.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" ebreve.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" ebreve.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

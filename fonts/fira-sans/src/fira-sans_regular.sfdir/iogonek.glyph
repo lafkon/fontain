@@ -1,16 +1,17 @@
-
 StartChar: iogonek
-Encoding: 303 303 186
+Encoding: 303 303 494
 Width: 282
 GlyphClass: 2
 Flags: MW
 HStem: -232 70<99.5 122> 0 21G<187 187> 507 20G<95 187 187 187> 655 125<121 159.5>
 VStem: -16 80<-129 -102.5> 76 129<699.5 735> 95 92<5 527 0 527>
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 141 527 basechar 0
-AnchorPoint: "Anchor-8" 197 0 basechar 0
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 143 780 basechar 0
+AnchorPoint: "Anchor-11" 197 0 basechar 0
+AnchorPoint: "Anchor-10" 141 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 140 780 m 0xf4
@@ -18,7 +19,8 @@ SplineSet
  205 682 179 655 140 655 c 0
  102 655 76 682 76 717 c 0
  76 753 102 780 140 780 c 0xf4
-95 527 m 1xfa
+95 5 m 1xfa
+ 95 527 l 1
  187 527 l 1
  187 0 l 1
  85 -44 64 -78 64 -114 c 0
@@ -27,9 +29,8 @@ SplineSet
  172 -225 l 1
  152 -229 135 -232 109 -232 c 0
  32 -232 -16 -189 -16 -131 c 0
- -16 -74 20 -30 95 5 c 1
- 95 527 l 1xfa
+ -16 -74 20 -30 95 5 c 1xfa
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" iogonek.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" iogonek.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" iogonek.sc
 EndChar

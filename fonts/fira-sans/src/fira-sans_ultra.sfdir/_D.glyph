@@ -1,16 +1,17 @@
-
 StartChar: D
-Encoding: 68 68 20
+Encoding: 68 68 52
 Width: 659
 GlyphClass: 2
 Flags: MW
-HStem: 0 161<261 281> 537 161<261 261 261 271 271 297>
+HStem: 0 161<261 281> 537 161<261 271 271 297 261 261>
 VStem: 30 231<161 537 161 698 161 698> 410 237<280.5 422.5>
+AnchorPoint: "Anchor-14" 329 349 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 288 698 basechar 0
 AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 288 698 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 312 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 271 698 m 2
@@ -19,14 +20,14 @@ SplineSet
  30 0 l 1
  30 698 l 1
  271 698 l 2
-261 537 m 1
+297 537 m 2
+ 261 537 l 1
  261 161 l 1
  294 161 l 2
  384 161 410 209 410 352 c 0
  410 493 380 537 297 537 c 2
- 261 537 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" d.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" d.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" d.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

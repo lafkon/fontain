@@ -1,29 +1,30 @@
-
 StartChar: Tau
-Encoding: 932 932 709
+Encoding: 932 932 1511
 Width: 472
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G<234.141 238.211 234.141 234.141> 660.14 20G
-VStem: 19.64 218.57 234.14 218.75
-AnchorPoint: "Anchor-7" 236 0 basechar 0
-AnchorPoint: "Anchor-6" 0 0 basechar 0
-AnchorPoint: "Anchor-5" 0 0 basechar 0
-AnchorPoint: "Anchor-4" 223 680 basechar 0
+HStem: 0 21G<234 238 234 234> 660 20G<20 453 453 453>
+VStem: 20 218<0 680 0 680> 234 219<0 680 676 680>
+AnchorPoint: "Anchor-9" 0 0 basechar 0
+AnchorPoint: "Anchor-8" 236 341 basechar 0
+AnchorPoint: "Anchor-7" 0 0 basechar 0
+AnchorPoint: "Anchor-6" 236 0 basechar 0
+AnchorPoint: "Anchor-5" 236 680 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-452.71 676.14 m 1xd0
- 238.211 676.14 l 1xe0
- 238.211 0 l 1
- 234.141 -0 l 1
- 234.141 676.14 l 1xd0
- 19.6406 676.14 l 1
- 19.6406 680.14 l 1xe0
- 453.07 680.14 l 1
- 452.71 676.14 l 1xd0
+453 680 m 1xd0
+ 453 676 l 1xd0
+ 238 676 l 1xe0
+ 238 0 l 1
+ 234 0 l 1
+ 234 676 l 1xd0
+ 20 676 l 1
+ 20 680 l 1xe0
+ 453 680 l 1xd0
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" tau.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" tau.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" tau.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

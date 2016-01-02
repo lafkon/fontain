@@ -1,12 +1,17 @@
-
 StartChar: f
-Encoding: 102 102 167
+Encoding: 102 102 447
 Width: 342
 GlyphClass: 2
 Flags: MW
-HStem: -220 21G<-40 -40> 430 100<40 108 26 122 262 357> 651 106<324.5 361>
+HStem: -220 21G<-40 -40> 430 100<40 108 26 123 262 357> 651 106<324.5 361>
 VStem: -76 557
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 321 741 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 89 -208 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 349 651 m 0
@@ -22,13 +27,14 @@ SplineSet
  108 430 l 1
  26 430 l 1
  40 530 l 1
- 122 530 l 1
+ 123 530 l 1
  130 585 l 2
  144 684 216 757 339 757 c 0
  399 757 444 738 481 714 c 1
  431 628 l 1
  403 646 373 651 349 651 c 0
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" f.sc
-Substitution2: "'aalt' Access All Alternates lookup 0 subtable" f.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 28 subtable" f.sc
+Substitution2: "'locl' Localized Forms in Latin lookup 11 subtable" f.loclEWE
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" f.loclEWE f.sc
 EndChar

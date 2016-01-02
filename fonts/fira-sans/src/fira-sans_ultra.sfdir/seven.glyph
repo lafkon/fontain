@@ -1,28 +1,28 @@
-
 StartChar: seven
-Encoding: 55 55 884
+Encoding: 55 55 2018
 Width: 491
 Flags: MW
-HStem: -22 21G<239 239> 520 162<0 251 0 485>
-VStem: 0 485<539 539 539 682 539 682>
+HStem: 520 162<0 251 0 485>
+VStem: 0 485<539 682 539 682 539 682>
 LayerCount: 2
+Back
 Fore
 SplineSet
-485 539 m 1
+485 682 m 1
+ 485 539 l 1
  239 -22 l 1
  38 45 l 1
  251 520 l 1
  0 520 l 1
  0 682 l 1
  485 682 l 1
- 485 539 l 1
 EndSplineSet
-Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" seven.osf
-Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" seven.tf
-Substitution2: "'frac' Diagonal Fractions lookup 16 subtable" seven.numr
-Substitution2: "'dnom' Denominators lookup 14 subtable" seven.dnom
-Substitution2: "'numr' Numerators lookup 13 subtable" seven.numr
-Substitution2: "'sups' Superscript lookup 12 subtable" sevensuperior
-Substitution2: "'subs' Subscript lookup 11 subtable" seveninferior
-AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" seveninferior sevensuperior seven.numr seven.dnom seven.tf seven.osf
+Substitution2: "'onum' Oldstyle Figures lookup 25 subtable" seven.osf
+Substitution2: "'tnum' Tabular Numbers lookup 24 subtable" seven.tf
+Substitution2: "'frac' Diagonal Fractions lookup 18 subtable" seven.numr
+Substitution2: "'dnom' Denominators lookup 16 subtable" seven.dnom
+Substitution2: "'numr' Numerators lookup 15 subtable" seven.numr
+Substitution2: "'sups' Superscript lookup 14 subtable" uni2077
+Substitution2: "'subs' Subscript lookup 13 subtable" uni2087
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" uni2087 uni2077 seven.numr seven.dnom seven.tf seven.osf
 EndChar

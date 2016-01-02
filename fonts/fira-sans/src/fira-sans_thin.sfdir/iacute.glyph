@@ -1,29 +1,30 @@
-
 StartChar: iacute
-Encoding: 237 237 178
+Encoding: 237 237 480
 Width: 258
 GlyphClass: 2
 Flags: MW
 HStem: 0 21G<118 140 118 118> 499 20G<118 140 140 140>
-VStem: 118 22<0 519>
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 129 519 basechar 0
-AnchorPoint: "Anchor-8" 150 0 basechar 0
+VStem: 118 22<0 519 0 519>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 129 761 basechar 0
+AnchorPoint: "Anchor-11" 150 0 basechar 0
+AnchorPoint: "Anchor-10" 129 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-213 738 m 1
+203 761 m 1
+ 213 738 l 1
  35 654 l 1
  27 670 l 1
  203 761 l 1
- 213 738 l 1
-140 0 m 1
+140 519 m 1
+ 140 0 l 1
  118 0 l 1
  118 519 l 1
  140 519 l 1
- 140 0 l 1
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" iacute.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" iacute.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" iacute.sc
 EndChar

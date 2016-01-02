@@ -1,34 +1,35 @@
-
 StartChar: jcircumflex
-Encoding: 309 309 190
+Encoding: 309 309 501
 Width: 280
 GlyphClass: 2
 Flags: MW
-HStem: -212 21G<18 18> 507 20G<93 185 185 185> 718 74<140 140>
+HStem: -212 21G<18 18> 507 20G<93 185 185 185>
 VStem: 93 92<26 32 32 527>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 142 792 basechar 0
 AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 140 527 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 139 -202 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
--26 679 m 1
+13 634 m 1
+ -26 679 l 1
  109 792 l 1
  170 792 l 1
  306 679 l 1
  266 634 l 1
  140 718 l 1
  13 634 l 1
- -26 679 l 1
-185 32 m 2
+185 527 m 1
+ 185 32 l 2
  185 -117 130 -162 18 -212 c 1
  -9 -145 l 1
  60 -113 93 -87 93 26 c 2
  93 527 l 1
  185 527 l 1
- 185 32 l 2
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" jcircumflex.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" jcircumflex.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" jcircumflex.sc
 EndChar

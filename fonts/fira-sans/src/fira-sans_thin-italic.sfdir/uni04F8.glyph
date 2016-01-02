@@ -1,27 +1,28 @@
-
 StartChar: uni04F8
-Encoding: 1272 1272 507
+Encoding: 1272 1272 1190
 Width: 774
 GlyphClass: 2
 Flags: MW
-HStem: 0 21<112 231> 387 21<167 286 167 286 164 286> 661 20G<182 205 205 205 687 710 710 710> 799 39<377.5 386.5 543 552.5>
+HStem: 0 21<112 231> 387 21<166 286 166 286 163 286> 661 20G<182 205 205 205 687 710 710 710> 799 39<377.5 386.5 543 552.5>
 VStem: 362 40 464 23<196 290> 527 40
+AnchorPoint: "Anchor-4" 0 0 basechar 0
 AnchorPoint: "Anchor-3" 0 0 basechar 0
-AnchorPoint: "Anchor-2" 0 0 basechar 0
-AnchorPoint: "Anchor-1" 457 757 basechar 0
+AnchorPoint: "Anchor-2" 467 838 basechar 0
+AnchorPoint: "Anchor-1" 0 0 basechar 0
 AnchorPoint: "Anchor-0" 0 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 381 799 m 0
  368 799 360 808 362 820 c 0
  363 830 372 838 383 838 c 0
- 396 838 403 828 402 817 c 1
+ 396 838 403 828 402 817 c 0
  400 807 392 799 381 799 c 0
 549 838 m 0
  561 838 568 828 567 817 c 0
  566 807 558 799 547 799 c 0
- 533 799 526 808 527 820 c 1
+ 533 799 526 808 527 820 c 0
  529 830 537 838 549 838 c 0
 286 408 m 2
  414 408 487 354 487 240 c 0
@@ -29,21 +30,21 @@ SplineSet
  86 0 l 1
  182 681 l 1
  205 681 l 1
- 167 408 l 1
+ 166 408 l 1
  286 408 l 2
-710 681 m 1
+687 681 m 1
+ 710 681 l 1
  614 0 l 1
  592 0 l 1
  687 681 l 1
- 710 681 l 1
 239 21 m 2
  416 21 464 153 464 239 c 0
  464 341 400 387 286 387 c 2
- 164 387 l 1
+ 163 387 l 1
  112 21 l 1
  239 21 l 2
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" uni04F9.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" uni04F9.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uni04F9.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

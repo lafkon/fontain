@@ -1,24 +1,27 @@
-
 StartChar: eng.sc
-Encoding: 1114207 -1 355
+Encoding: 1114305 -1 904
 Width: 617
 GlyphClass: 2
 Flags: MW
-HStem: -203 21G<366 366> 0 21G<111 165 111 111 429 455 429 429 506 506> 505 57<157 157>
+HStem: -205 48<361.5 398.5 361.5 418> 0 21G<111 165 111 111 428 448 428 428> 505 57<157 157>
 VStem: 111 54<0 296 0 562> 452 54<238 562>
-AnchorPoint: "Anchor-11" 309 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 313 562 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 313 562 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 309 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-506 562 m 1
- 506 0 l 2
- 506 -119 460 -159 366 -203 c 1
- 349 -166 l 1
- 423 -130 455 -100 455 0 c 1
- 429 0 l 1
+506 -71 m 2
+ 506 -161 455 -205 381 -205 c 0
+ 334 -205 301 -188 279 -171 c 1
+ 303 -134 l 1
+ 324 -147 344 -157 379 -157 c 0
+ 418 -157 448 -136 448 -74 c 2
+ 448 0 l 1
+ 428 0 l 1
  157 505 l 1
  161 457 165 404 165 296 c 2
  165 0 l 1
@@ -29,5 +32,9 @@ SplineSet
  457 84 452 159 452 238 c 2
  452 562 l 1
  506 562 l 1
+ 506 -71 l 2
 EndSplineSet
+Substitution2: "'ss01' Style Set 1 lookup 33 subtable" eng.sc.ss01
+Substitution2: "'salt' Stylistic Alternatives lookup 32 subtable" eng.sc.ss01
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" eng.sc.ss01
 EndChar

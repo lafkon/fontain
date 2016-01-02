@@ -1,41 +1,42 @@
-
 StartChar: Udieresis
-Encoding: 220 220 105
+Encoding: 220 220 269
 Width: 652
 GlyphClass: 2
 Flags: MW
-HStem: -11 52<268.5 383.5 268.5 401> 665 20G<101 161 161 161 490 551 551 551> 789 79<221.5 244.5 410.5 433.5>
-VStem: 101 60<214 219 219 685> 193 80<817 839> 382 80<817 839> 490 61<219 685>
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 328 777 basechar 0
-AnchorPoint: "Anchor-8" 416 0 basechar 0
+HStem: -11 52<268.5 383.5 268.5 401> 665 20G<101 161 161 161 490 551 551 551> 789 79<219.5 242.5 408.5 431.5>
+VStem: 101 60<214 219 219 685> 191 80<817 839> 380 80<817 839> 490 61<219 685>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 561 685 basechar 0
+AnchorPoint: "Anchor-12" 328 868 basechar 0
+AnchorPoint: "Anchor-11" 416 0 basechar 0
+AnchorPoint: "Anchor-10" 326 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-233 868 m 0
- 256 868 273 850 273 828 c 0
- 273 806 256 789 233 789 c 0
- 210 789 193 806 193 828 c 0
- 193 850 210 868 233 868 c 0
-422 868 m 0xfe
- 445 868 462 850 462 828 c 0
- 462 806 445 789 422 789 c 0
- 399 789 382 806 382 828 c 0
- 382 850 399 868 422 868 c 0xfe
-551 214 m 2xfa
+231 868 m 0
+ 254 868 271 850 271 828 c 0
+ 271 806 254 789 231 789 c 0
+ 208 789 191 806 191 828 c 0
+ 191 850 208 868 231 868 c 0
+420 868 m 0
+ 443 868 460 850 460 828 c 0
+ 460 806 443 789 420 789 c 0
+ 397 789 380 806 380 828 c 0
+ 380 850 397 868 420 868 c 0
+551 685 m 1xf2
+ 551 214 l 2
  551 82 476 -11 326 -11 c 0
- 173 -11 101 82 101 214 c 2
+ 174 -11 101 82 101 214 c 2
  101 685 l 1
  161 685 l 1
  161 219 l 2
  161 108 211 41 326 41 c 0
  441 41 490 109 490 219 c 2
  490 685 l 1
- 551 685 l 1
- 551 214 l 2xfa
+ 551 685 l 1xf2
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" udieresis.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" udieresis.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" udieresis.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

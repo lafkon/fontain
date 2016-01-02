@@ -1,18 +1,19 @@
-
 StartChar: perthousand
-Encoding: 8240 8240 1114
+Encoding: 8240 8240 2272
 Width: 1125
+GlyphClass: 2
 Flags: MW
-HStem: -11 36<513.5 593 513.5 605 858.5 938> 1 21G<109 109> 275 35<534 614.5 879 959.5> 354 36<186.5 266 186.5 278.5> 640 35<207 287.5>
+HStem: -11 36<513.5 593 513.5 605 858.5 938> 275 35<534 614.5 879 959.5> 354 36<186.5 266 186.5 278.5> 640 35<207 287.5>
 VStem: 90 44<457.5 510.5 457.5 524.5> 340 43<520 572> 417 43<92.5 146 92.5 159.5> 667 43<155 207> 762 43<92.5 146 92.5 159.5> 1012 43<155 207>
 LayerCount: 2
+Back
 Fore
 SplineSet
-702 678 m 1xbfe0
+669 701 m 1
+ 702 678 l 1
  142 -21 l 1
- 109 1 l 1x7f80
+ 109 1 l 1
  669 701 l 1
- 702 678 l 1xbfe0
 256 675 m 0
  334 675 383 624 383 544 c 0
  383 468 340 354 217 354 c 0
@@ -25,14 +26,14 @@ SplineSet
  340 598 318 640 257 640 c 0
 583 310 m 0
  661 310 710 259 710 179 c 0
- 710 103 667 -11 543 -11 c 0x8180
+ 710 103 667 -11 543 -11 c 0
  466 -11 417 41 417 121 c 0
  417 198 461 310 583 310 c 0
-928 310 m 0xa1e0
+928 310 m 0
  1006 310 1055 259 1055 179 c 0
  1055 103 1011 -11 888 -11 c 0
  811 -11 762 41 762 121 c 0
- 762 198 806 310 928 310 c 0xa1e0
+ 762 198 806 310 928 310 c 0
 584 275 m 0
  484 275 460 173 460 119 c 0
  460 66 483 25 544 25 c 0
@@ -44,7 +45,7 @@ SplineSet
  987 25 1012 129 1012 181 c 0
  1012 233 990 275 929 275 c 0
 EndSplineSet
-Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" perthousand.osf
-Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" perthousand.tf
+Substitution2: "'onum' Oldstyle Figures lookup 26 subtable" perthousand.osf
+Substitution2: "'tnum' Tabular Numbers lookup 25 subtable" perthousand.tf
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" perthousand.tf perthousand.osf
 EndChar

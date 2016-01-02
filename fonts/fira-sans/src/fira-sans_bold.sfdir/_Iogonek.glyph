@@ -1,19 +1,21 @@
-
 StartChar: Iogonek
-Encoding: 302 302 52
-Width: 294
+Encoding: 302 302 133
+Width: 293
 GlyphClass: 2
 Flags: MW
 HStem: -246 98<117 128.5> 0 21G<200 229 200 200> 673 20G<65 229 229 229>
-VStem: -32 114<-117 -98> 65 164<8 693 0 693>
-AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 61 693 basechar 0
-AnchorPoint: "Anchor-9" 147 693 basechar 0
-AnchorPoint: "Anchor-8" 210 0 basechar 0
+VStem: -32 114<-117 -98.5> 65 164<8 693 0 693>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 146 693 basechar 0
+AnchorPoint: "Anchor-11" 210 0 basechar 0
+AnchorPoint: "Anchor-10" 146 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-229 693 m 1xe8
+65 693 m 1xe8
+ 229 693 l 1
  229 0 l 1xe8
  200 0 l 1
  102 -37 82 -74 82 -102 c 0
@@ -22,11 +24,10 @@ SplineSet
  185 -238 l 1xe8
  164 -243 142 -246 115 -246 c 0
  30 -246 -32 -201 -32 -129 c 0xf0
- -32 -67 4 -24 65 8 c 1
- 65 693 l 1
- 229 693 l 1xe8
+ -32 -68 4 -24 65 8 c 1
+ 65 693 l 1xe8
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" iogonek.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" iogonek.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" iogonek.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

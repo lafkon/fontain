@@ -1,29 +1,31 @@
-
 StartChar: Wdieresis
-Encoding: 7812 7812 116
+Encoding: 7812 7812 288
 Width: 817
 GlyphClass: 2
 Flags: MW
-HStem: 0 77<198 198 198 239 132 198> 587 101<454 454> 668 20G<87 170 170 170 420 513 513 513 771 850 850 850> 782 106<376 397 579 600.5>
-VStem: 87 763<688 688> 335 103 538 103
+HStem: 0 77<198 198 198 239 132 198> 587 101<454 454> 668 20G<87 170 170 170 420 513 513 513 771 850 850 850> 782 106<377 398 580 601.5>
+VStem: 87 763<688 688> 336 103 539 103
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 492 888 basechar 0
 AnchorPoint: "Anchor-11" 0 0 basechar 0
 AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 485 807 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-390 888 m 0xb6
- 422 888 443 862 438 830 c 0
- 434 803 411 782 383 782 c 0
- 351 782 330 808 335 840 c 1
- 338 867 362 888 390 888 c 0xb6
-593 888 m 0
- 626 888 646 862 641 830 c 1
- 638 803 615 782 586 782 c 0
- 554 782 533 808 538 840 c 0
- 542 867 565 888 593 888 c 0
-612 0 m 1
+391 888 m 0xb6
+ 423 888 444 862 439 830 c 0
+ 435 803 412 782 384 782 c 0
+ 352 782 331 808 336 840 c 0
+ 339 867 363 888 391 888 c 0xb6
+594 888 m 0
+ 627 888 647 862 642 830 c 0
+ 639 803 616 782 587 782 c 0
+ 555 782 534 808 539 840 c 0
+ 543 867 566 888 594 888 c 0
+850 688 m 1
+ 612 0 l 1
  502 0 l 1
  454 587 l 1xd8
  239 0 l 1
@@ -36,9 +38,8 @@ SplineSet
  566 77 l 1
  771 688 l 1
  850 688 l 1
- 612 0 l 1
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" wdieresis.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 27 subtable" wdieresis.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" wdieresis.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

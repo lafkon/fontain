@@ -1,27 +1,29 @@
-
 StartChar: zcaron
-Encoding: 382 382 264
+Encoding: 382 382 714
 Width: 419
 GlyphClass: 2
 Flags: MW
-HStem: 0 50<70 341> 473 50<88 344 81 423> 635 52<276 276 276 289 253 276> 667 20G<276 276> 721 20G<139 139 432 432>
-VStem: -10 442
+HStem: 0 50<70 341> 473 50<88 344 81 423> 633 52<274 274 274 287 251 274> 665 20G<274 274> 719 20G<137 137 430 430>
+VStem: -10 440
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 286 769 basechar 0
 AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 252 523 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 166 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-432 741 m 1xdc
- 289 635 l 1
- 253 635 l 1xec
- 139 741 l 1
- 166 771 l 1
- 276 687 l 1
- 409 771 l 1
- 432 741 l 1xdc
-417 478 m 1
+407 769 m 1xdc
+ 430 739 l 1
+ 287 633 l 1
+ 251 633 l 1xec
+ 137 739 l 1
+ 164 769 l 1
+ 274 685 l 1
+ 407 769 l 1xdc
+423 523 m 1
+ 417 478 l 1
  70 50 l 1
  354 50 l 1
  341 0 l 1
@@ -31,8 +33,7 @@ SplineSet
  81 473 l 1
  88 523 l 1
  423 523 l 1
- 417 478 l 1
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" zcaron.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 28 subtable" zcaron.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" zcaron.sc
 EndChar

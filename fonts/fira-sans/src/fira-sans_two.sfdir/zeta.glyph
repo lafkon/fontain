@@ -1,16 +1,17 @@
-
 StartChar: zeta
-Encoding: 950 950 749
+Encoding: 950 950 1646
 Width: 353
 GlyphClass: 2
 Flags: MW
-HStem: -188 21G<255 255> 708 20G<362 362>
-VStem: 50 312<725 727 727 727>
+HStem: -188 21G<255 255> 707 20G<50 362 362 362>
+VStem: 50 312<726 727 726 727 726 727>
 LayerCount: 2
+Back
 Fore
 SplineSet
 362 727 m 1
- 169 571 62 416 62 254 c 0
+ 362 726 l 1
+ 169 570 62 416 62 254 c 0
  62 128 122 85 218 51 c 0
  329 12 358 -13 358 -66 c 0
  358 -120 320 -156 256 -190 c 1
@@ -18,13 +19,12 @@ SplineSet
  318 -155 356 -120 356 -66 c 0
  356 -14 329 9 218 49 c 0
  122 83 60 125 60 254 c 0
- 60 417 165 571 359 727 c 1
- 329 726 308 726 260 726 c 2
+ 60 417 166 570 357 725 c 1
+ 260 725 l 1
  50 725 l 1
  50 727 l 1
- 362 728 l 1
  362 727 l 1
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" zeta.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" zeta.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" zeta.sc
 EndChar

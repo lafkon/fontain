@@ -1,14 +1,15 @@
-
 StartChar: numbersign.tf
-Encoding: 1114478 -1 999
+Encoding: 1114828 -1 2133
 Width: 560
 Flags: MW
-HStem: 0 263<29 63 -2 211 29 29 259 293 -2 442 259 259> 124 139<-2 45 -2 63 245 275 476 525> 442 139<35 85 35 103 286 316 517 562> 442 256<35 301 35 301 268 268 268 301 118 316 499 532 118 562 499 499>
-VStem: -2 564<124 581 263 581>
+HStem: 0 263<29 63 -2 211 29 29 259 293 -2 442 259 259> 124 139<-2 45 -2 63 245 275 476 525> 442 139<35 86 35 103 286 316 517 562> 442 256<35 301 35 301 268 268 268 301 118 316 499 532 118 562 499 499>
+VStem: -2 564<124 442 263 442>
 LayerCount: 2
+Back
 Fore
 SplineSet
-499 442 m 1xa8
+562 442 m 1xa8
+ 499 442 l 1
  476 263 l 1
  525 263 l 1xa8
  525 124 l 1
@@ -23,7 +24,7 @@ SplineSet
  -2 124 l 1x68
  -2 263 l 1
  63 263 l 1
- 85 442 l 1
+ 86 442 l 1
  35 442 l 1
  35 581 l 1
  103 581 l 1xa8
@@ -35,15 +36,14 @@ SplineSet
  532 698 l 1x98
  517 581 l 1
  562 581 l 1
- 562 442 l 1
- 499 442 l 1xa8
-316 442 m 1
+ 562 442 l 1xa8
+293 263 m 1
+ 316 442 l 1
  268 442 l 1
  245 263 l 1
  293 263 l 1
- 316 442 l 1
 EndSplineSet
-Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" numbersign.tosf
-Substitution2: "'pnum' Proportional Numbers lookup 20 subtable" numbersign
+Substitution2: "'onum' Oldstyle Figures lookup 25 subtable" numbersign.tosf
+Substitution2: "'pnum' Proportional Numbers lookup 23 subtable" numbersign
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" numbersign numbersign.tosf
 EndChar

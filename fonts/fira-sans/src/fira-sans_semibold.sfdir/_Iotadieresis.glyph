@@ -1,16 +1,17 @@
-
 StartChar: Iotadieresis
-Encoding: 938 938 722
+Encoding: 938 938 1524
 Width: 294
 GlyphClass: 2
 Flags: MW
-HStem: 0 21G<73 221 73 73> 672 20G<73 221 221 221> 770 148<12 54.5 238.5 280.5>
-VStem: -42 150<823.5 864.5> 73 148<0 692> 184 151<823.5 864.5>
-AnchorPoint: "Anchor-7" 0 0 basechar 0
-AnchorPoint: "Anchor-6" 68 692 basechar 0
-AnchorPoint: "Anchor-5" 209 0 basechar 0
-AnchorPoint: "Anchor-4" 145 834 basechar 0
+HStem: 0 21G<73 220 73 73> 672 20G<73 220 220 220> 770 148<12 54.5 238.5 280.5>
+VStem: -42 150<823.5 864.5> 73 147<0 692 0 692> 184 151<823.5 864.5>
+AnchorPoint: "Anchor-9" 0 0 basechar 0
+AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-7" 209 0 basechar 0
+AnchorPoint: "Anchor-6" 147 0 basechar 0
+AnchorPoint: "Anchor-5" 149 918 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 33 918 m 0xf4
@@ -23,13 +24,13 @@ SplineSet
  335 803 302 770 259 770 c 0
  218 770 184 803 184 844 c 0
  184 885 218 918 259 918 c 0
-221 0 m 1xe8
+220 692 m 1xe8
+ 220 0 l 1
  73 0 l 1
  73 692 l 1
- 221 692 l 1
- 221 0 l 1xe8
+ 220 692 l 1xe8
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" iotadieresis.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" iotadieresis.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" iotadieresis.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

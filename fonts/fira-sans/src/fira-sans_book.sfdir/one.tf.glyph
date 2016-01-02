@@ -1,14 +1,15 @@
-
 StartChar: one.tf
-Encoding: 1114432 -1 898
+Encoding: 1114782 -1 2032
 Width: 560
 Flags: MW
 HStem: 0 68<110 279 363 507 110 279> 668 20G<289 363 363 363>
 VStem: 279 84<68 598 598 598>
 LayerCount: 2
+Back
 Fore
 SplineSet
-507 68 m 1
+363 68 m 1
+ 507 68 l 1
  507 0 l 1
  110 0 l 1
  110 68 l 1
@@ -19,9 +20,8 @@ SplineSet
  289 688 l 1
  363 688 l 1
  363 68 l 1
- 507 68 l 1
 EndSplineSet
-Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" one.tosf
-Substitution2: "'pnum' Proportional Numbers lookup 20 subtable" one
+Substitution2: "'onum' Oldstyle Figures lookup 25 subtable" one.tosf
+Substitution2: "'pnum' Proportional Numbers lookup 23 subtable" one
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" one one.tosf
 EndChar

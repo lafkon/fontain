@@ -1,36 +1,41 @@
-
 StartChar: B
-Encoding: 66 66 13
+Encoding: 66 66 36
 Width: 584
 GlyphClass: 2
 Flags: MW
-HStem: 0 13.57 353.42 13.14 667.28 13.57
-VStem: 125.71 14.43 470.43 14.85 506.71 14.86
+HStem: 0 14<140 294> 353 14<140 314 314 319 140 314> 667 14<140 264 264 266 140 140>
+VStem: 126 14<14 353 367 667> 470 15<470.5 563.5> 507 15<122.5 238.5>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 285 681 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 310 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-351.42 360.85 m 1
- 442.7 355.85 521.569 298.28 521.569 183.851 c 0xf4
- 521.569 54.9902 429.85 -0.00976562 294.279 -0.00976562 c 2
- 125.709 -0.00976562 l 1
- 125.709 680.851 l 1
- 263.999 680.851 l 2
- 405.999 680.851 485.279 621.99 485.279 512.99 c 0xfc
- 485.279 425.42 428.14 372.14 351.42 360.85 c 1
-140.139 667.28 m 1
- 140.138 366.561 l 1
- 314.138 366.561 l 2
- 406.708 366.561 470.428 427.711 470.428 512.561 c 0xfc
- 470.428 613.561 398.708 667.28 266.278 667.28 c 2
- 140.139 667.28 l 1
-295.288 13.5605 m 2xf4
- 419.288 13.5605 506.708 60.9912 506.708 183.852 c 0
- 506.708 293.281 427.428 353.421 319.138 353.421 c 2
- 140.138 353.421 l 1
- 140.138 13.5605 l 1
- 295.288 13.5605 l 2xf4
+351 361 m 1
+ 443 356 522 298 522 184 c 0xf4
+ 522 55 430 0 294 0 c 2
+ 126 0 l 1
+ 126 681 l 1
+ 264 681 l 2
+ 406 681 485 622 485 513 c 0xfc
+ 485 425 428 372 351 361 c 1
+266 667 m 2
+ 140 667 l 1
+ 140 367 l 1
+ 314 367 l 2
+ 407 367 470 428 470 513 c 0xfc
+ 470 614 399 667 266 667 c 2
+295 14 m 2xf4
+ 419 14 507 61 507 184 c 0
+ 507 293 427 353 319 353 c 2
+ 140 353 l 1
+ 140 14 l 1
+ 295 14 l 2xf4
 EndSplineSet
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" b.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" b.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" b.sc
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar

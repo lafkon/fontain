@@ -1,28 +1,29 @@
-
 StartChar: upsilondieresistonos
-Encoding: 944 944 774
+Encoding: 944 944 1671
 Width: 553
 GlyphClass: 2
 Flags: MW
-HStem: -9 21G<225.5 319.5> 497 20G<120 122 122 122 424 426 426 426> 649 12<196 200 345 349>
-VStem: 120 333<169 315 169 517 169 517>
+HStem: -9 21G<225.5 320> 497 20G<120 122 122 122 424 426 426 426> 649 12<196 200 345 349> 663 20G<272 274 272 272>
+VStem: 120 333<169.5 315 169.5 517 169.5 517>
+AnchorPoint: "Anchor-9" 0 0 basechar 0
+AnchorPoint: "Anchor-8" 0 0 basechar 0
 AnchorPoint: "Anchor-7" 0 0 basechar 0
 AnchorPoint: "Anchor-6" 0 0 basechar 0
-AnchorPoint: "Anchor-5" 0 0 basechar 0
-AnchorPoint: "Anchor-4" 273 517 basechar 0
+AnchorPoint: "Anchor-5" 273 517 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-304 804 m 1
- 274 696 l 1
- 272 696 l 1
- 302 804 l 1
- 304 804 l 1
-198 661 m 0
+302 791 m 1
+ 304 791 l 1
+ 274 683 l 1
+ 272 683 l 1
+ 302 791 l 1
+198 661 m 0xe8
  202 661 204 658 204 655 c 0
  204 652 202 649 198 649 c 0
  194 649 192 652 192 655 c 0
- 192 658 194 661 198 661 c 0
+ 192 658 194 661 198 661 c 0xe8
 347 661 m 0
  351 661 353 658 353 655 c 0
  353 652 351 649 347 649 c 0
@@ -30,7 +31,7 @@ SplineSet
  341 658 343 661 347 661 c 0
 426 517 m 1
  439 448 453 362 453 268 c 0
- 453 70 372 -9 267 -9 c 0
+ 453 71 373 -9 267 -9 c 0
  184 -9 120 45 120 153 c 2
  120 517 l 1
  122 517 l 1
@@ -40,6 +41,6 @@ SplineSet
  451 362 437 448 424 517 c 1
  426 517 l 1
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" upsilondieresistonos.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" upsilondieresistonos.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" upsilondieresistonos.sc
 EndChar

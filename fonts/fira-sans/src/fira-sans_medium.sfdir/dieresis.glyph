@@ -1,27 +1,27 @@
-
 StartChar: dieresis
-Encoding: 168 168 1255
-Width: 424
+Encoding: 168 168 2529
+Width: 422
 Flags: MW
-HStem: 647 138<81.5 121 303 342.5>
-VStem: 31 140<696.5 735.5> 253 140<696.5 735.5>
-AnchorPoint: "Anchor-12" 211 699 basemark 0
+HStem: 647 138<81 120.5 302.5 342>
+VStem: 30 140<696.5 735.5> 252 140<696.5 735.5>
 LayerCount: 2
+Back
 Fore
 SplineSet
 101 785 m 0
- 141 785 171 755 171 716 c 0
- 171 677 141 647 101 647 c 0
- 62 647 31 677 31 716 c 0
- 31 755 62 785 101 785 c 0
+ 140 785 170 755 170 716 c 0
+ 170 677 140 647 101 647 c 0
+ 61 647 30 677 30 716 c 0
+ 30 755 61 785 101 785 c 0
 322 785 m 0
- 363 785 393 755 393 716 c 0
- 393 677 363 647 322 647 c 0
- 284 647 253 677 253 716 c 0
- 253 755 284 785 322 785 c 0
+ 362 785 392 755 392 716 c 0
+ 392 677 362 647 322 647 c 0
+ 283 647 252 677 252 716 c 0
+ 252 755 283 785 322 785 c 0
 EndSplineSet
-Substitution2: "'case' Case-Sensitive Forms lookup 25 subtable" dieresis.case
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" dieresis.sc
-Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" dieresis.sc
+Substitution2: "Single Substitution lookup 41 subtable" dieresis.case
+Substitution2: "'case' Case-Sensitive Forms lookup 28 subtable" dieresis.case
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" dieresis.sc
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 26 subtable" dieresis.sc
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" dieresis.sc dieresis.case
 EndChar

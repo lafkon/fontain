@@ -1,26 +1,28 @@
-
 StartChar: gbreve
-Encoding: 287 287 169
+Encoding: 287 287 454
 Width: 497
 GlyphClass: 2
 Flags: MW
-HStem: -203 40<186.5 313 186.5 325.5> 33 41<174 308 222 301> 185 36<234.5 290.5 204.5 304.5> 495 37<199 246 189 293.5> 501 31 542 20G<471 471> 656 40<226.5 273.5 226.5 282.5>
+HStem: -203 40<186.5 313 186.5 325.5> 33 41<174 308 222 301> 185 36<234.5 290.5 204.5 304.5> 495 37<199 246 189 293.5> 501 31 542 20G<471 471> 656 40<225.5 272.5 225.5 281.5>
 VStem: 36 44<-107.5 -56> 59 47<322.5 398 313.5 410> 89 45<115.5 140.5> 385 47<313 393 304.5 398> 424 47<-90.5 -29>
+AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-13" 0 0 basechar 0
+AnchorPoint: "Anchor-12" 251 766 basechar 0
 AnchorPoint: "Anchor-11" 0 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 250 522 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 252 -195 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-250 656 m 0xf260
- 184 656 136 697 127 759 c 1
- 159 766 l 1
- 172 720 203 696 250 696 c 0
- 297 696 328 720 341 766 c 1
- 373 759 l 1
- 364 697 315 656 250 656 c 0xf260
-486 516 m 1xea60
+249 656 m 0xf2a0
+ 183 656 135 697 126 759 c 1
+ 158 766 l 1
+ 171 720 202 696 249 696 c 0
+ 296 696 327 720 340 766 c 1
+ 372 759 l 1
+ 363 697 314 656 249 656 c 0xf2a0
+471 562 m 1xf6a0
+ 486 516 l 1
  453 506 409 502 344 501 c 1
  397 476 432 431 432 355 c 0
  432 254 362 185 247 185 c 0
@@ -31,7 +33,7 @@ SplineSet
  410 74 471 21 471 -55 c 0
  471 -147 400 -203 251 -203 c 0
  98 -203 36 -159 36 -56 c 1
- 80 -56 l 1xf350
+ 80 -56 l 1xf310
  81 -134 122 -163 251 -163 c 0
  375 -163 424 -123 424 -58 c 0
  424 0 378 33 301 33 c 2
@@ -40,14 +42,13 @@ SplineSet
  89 158 111 188 146 210 c 1
  87 241 59 287 59 358 c 0
  59 462 132 532 246 532 c 0xf2a0
- 390 531 424 543 471 562 c 1xf660
- 486 516 l 1xea60
+ 390 531 424 543 471 562 c 1xf6a0
 247 495 m 0xf2a0
  151 495 106 438 106 358 c 0
  106 269 163 221 246 221 c 0
  335 221 385 270 385 356 c 0
  385 440 340 495 247 495 c 0xf2a0
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" gbreve.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 27 subtable" gbreve.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" gbreve.sc
 EndChar

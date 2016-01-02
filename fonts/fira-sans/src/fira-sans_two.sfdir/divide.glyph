@@ -1,11 +1,12 @@
-
 StartChar: divide
-Encoding: 247 247 1089
+Encoding: 247 247 2244
 Width: 478
+GlyphClass: 2
 Flags: MW
 HStem: 126 14<237 241> 522 14<237 241>
 VStem: 85 308<330 332 330 332>
 LayerCount: 2
+Back
 Fore
 SplineSet
 239 536 m 0
@@ -13,18 +14,18 @@ SplineSet
  246 525 243 522 239 522 c 0
  235 522 232 525 232 529 c 0
  232 533 235 536 239 536 c 0
-85 332 m 1
+85 330 m 1
+ 85 332 l 1
  393 332 l 1
  393 330 l 1
  85 330 l 1
- 85 332 l 1
 239 140 m 0
  243 140 246 137 246 133 c 0
  246 129 243 126 239 126 c 0
  235 126 232 129 232 133 c 0
  232 137 235 140 239 140 c 0
 EndSplineSet
-Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" divide.osf
-Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" divide.tf
+Substitution2: "'onum' Oldstyle Figures lookup 25 subtable" divide.osf
+Substitution2: "'tnum' Tabular Numbers lookup 24 subtable" divide.tf
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" divide.tf divide.osf
 EndChar

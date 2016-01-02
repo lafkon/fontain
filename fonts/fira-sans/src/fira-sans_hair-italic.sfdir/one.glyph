@@ -1,28 +1,28 @@
-
 StartChar: one
-Encoding: 49 49 880
+Encoding: 49 49 2018
 Width: 390
 Flags: MW
-HStem: 0 21G<217.57 217.57> 643.86 16.99
-VStem: 95.28 214.72
+HStem: 0 21G<204 218 204 204> 644 17<294 310>
+VStem: 95 215<543 661>
 LayerCount: 2
+Back
 Fore
 SplineSet
-217.57 0 m 1
- 203.57 -0.000976562 l 1
- 293.86 643.859 l 1
- 101.431 530.709 l 1
- 95.2803 542.569 l 1
- 298.57 660.85 l 1
- 310 660.85 l 1
- 217.57 0 l 1
+310 661 m 1
+ 218 0 l 1
+ 204 0 l 1
+ 294 644 l 1
+ 101 531 l 1
+ 95 543 l 1
+ 299 661 l 1
+ 310 661 l 1
 EndSplineSet
-Substitution2: "'onum' Oldstyle Figures lookup 22 subtable" one.osf
-Substitution2: "'tnum' Tabular Numbers lookup 21 subtable" one.tf
-Substitution2: "'frac' Diagonal Fractions lookup 16 subtable" one.numr
-Substitution2: "'dnom' Denominators lookup 14 subtable" one.dnom
-Substitution2: "'numr' Numerators lookup 13 subtable" one.numr
-Substitution2: "'sups' Superscript lookup 12 subtable" onesuperior
-Substitution2: "'subs' Subscript lookup 11 subtable" oneinferior
-AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" oneinferior onesuperior one.numr one.dnom one.tf one.osf
+Substitution2: "'onum' Oldstyle Figures lookup 26 subtable" one.osf
+Substitution2: "'tnum' Tabular Numbers lookup 25 subtable" one.tf
+Substitution2: "'frac' Diagonal Fractions lookup 19 subtable" one.numr
+Substitution2: "'dnom' Denominators lookup 17 subtable" one.dnom
+Substitution2: "'numr' Numerators lookup 16 subtable" one.numr
+Substitution2: "'sups' Superscript lookup 15 subtable" uni00B9
+Substitution2: "'subs' Subscript lookup 14 subtable" uni2081
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" uni2081 uni00B9 one.numr one.dnom one.tf one.osf
 EndChar

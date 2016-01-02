@@ -1,36 +1,37 @@
-
 StartChar: lcommaaccent
-Encoding: 316 316 197
+Encoding: 316 316 518
 Width: 275
 GlyphClass: 2
 Flags: MW
 HStem: -117 10<130 132> -9 21G<124 152> -1 21G<187 187> 710 20G<186 188 188 188>
 VStem: 126 10<-113 -110.5 -113 -110.5>
-AnchorPoint: "Anchor-11" 138 0 basechar 0
-AnchorPoint: "Anchor-10" 0 0 basechar 0
-AnchorPoint: "Anchor-9" 187 730 basechar 0
-AnchorPoint: "Anchor-8" 0 0 basechar 0
+AnchorPoint: "Anchor-14" 272 375 basechar 0
+AnchorPoint: "Anchor-13" 237 727 basechar 0
+AnchorPoint: "Anchor-12" 187 730 basechar 0
+AnchorPoint: "Anchor-11" 0 0 basechar 0
+AnchorPoint: "Anchor-10" 138 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-95 64 m 2xb8
+188 730 m 1xb8
+ 95 64 l 2
  89 21 104 -7 145 -7 c 0
  159 -7 174 -4 187 1 c 1
  187 -1 l 1
  174 -6 159 -9 145 -9 c 0
  103 -9 87 19 93 64 c 2xd8
  186 730 l 1
- 188 730 l 1
- 95 64 l 2xb8
+ 188 730 l 1xb8
 131 -107 m 0
  134 -107 136 -109 136 -112 c 0
  136 -114 135 -117 133 -123 c 2
  93 -239 l 1
  92 -239 l 1
- 132 -117 l 1
+ 132 -117 l 2
  128 -117 126 -115 126 -112 c 0
  126 -109 128 -107 131 -107 c 0
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" lcommaaccent.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 28 subtable" lcommaaccent.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" lcommaaccent.sc
 EndChar

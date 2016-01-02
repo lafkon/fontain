@@ -1,19 +1,21 @@
-
 StartChar: uni051D
-Encoding: 1309 1309 602
+Encoding: 1309 1309 1345
 Width: 726
 GlyphClass: 2
 Flags: MW
 HStem: 0 94<188 188 188 248> 415 114<387 387> 509 20G<50 176 176 176 339 469 469 469 630 751 751 751>
 VStem: 397.5 82.5
+AnchorPoint: "Anchor-4" 0 0 basechar 0
 AnchorPoint: "Anchor-3" 0 0 basechar 0
-AnchorPoint: "Anchor-2" 0 0 basechar 0
-AnchorPoint: "Anchor-1" 400 529 basechar 0
-AnchorPoint: "Anchor-0" 0 0 basechar 0
+AnchorPoint: "Anchor-2" 400 529 basechar 0
+AnchorPoint: "Anchor-1" 0 0 basechar 0
+AnchorPoint: "Anchor-0" 327 0 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-565 0 m 1xb0
+751 529 m 1xb0
+ 565 0 l 1
  408 0 l 1
  387 415 l 1xd0
  248 0 l 1
@@ -25,9 +27,8 @@ SplineSet
  469 529 l 1
  491 94 l 1
  630 529 l 1
- 751 529 l 1
- 565 0 l 1xb0
+ 751 529 l 1xb0
 EndSplineSet
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" uni051D.sc
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 28 subtable" uni051D.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uni051D.sc
 EndChar
