@@ -1,0 +1,171 @@
+StartChar: r
+Encoding: 114 114 339
+Width: 319
+Flags: W
+TtInstrs:
+NPUSHB
+ 14
+ 1
+ 0
+ 25
+ 22
+ 17
+ 15
+ 10
+ 8
+ 0
+ 30
+ 1
+ 29
+ 5
+ 8
+CALL
+MPPEM
+PUSHB_1
+ 39
+LT
+IF
+NPUSHB
+ 27
+ 20
+ 1
+ 1
+ 0
+ 1
+ 33
+ 4
+ 1
+ 0
+ 0
+ 2
+ 1
+ 0
+ 39
+ 3
+ 1
+ 2
+ 2
+ 15
+ 34
+ 0
+ 1
+ 1
+ 13
+ 1
+ 35
+ 4
+ELSE
+MPPEM
+PUSHB_1
+ 83
+LT
+IF
+NPUSHB
+ 31
+ 20
+ 1
+ 1
+ 0
+ 1
+ 33
+ 0
+ 2
+ 2
+ 15
+ 34
+ 4
+ 1
+ 0
+ 0
+ 3
+ 1
+ 0
+ 39
+ 0
+ 3
+ 3
+ 15
+ 34
+ 0
+ 1
+ 1
+ 13
+ 1
+ 35
+ 5
+ELSE
+NPUSHB
+ 33
+ 20
+ 1
+ 1
+ 0
+ 1
+ 33
+ 4
+ 1
+ 0
+ 0
+ 3
+ 1
+ 0
+ 39
+ 0
+ 3
+ 3
+ 15
+ 34
+ 0
+ 2
+ 2
+ 1
+ 1
+ 0
+ 39
+ 0
+ 1
+ 1
+ 13
+ 1
+ 35
+ 5
+EIF
+EIF
+PUSHB_1
+ 59
+CALL
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+250 432 m 2,0,1
+ 224 432 224 432 200 422 c 128,-1,2
+ 176 412 176 412 157 393 c 128,-1,3
+ 138 374 138 374 126.5 347 c 128,-1,4
+ 115 320 115 320 115 286 c 2,5,-1
+ 115 22 l 2,6,7
+ 115 14 115 14 108 7 c 128,-1,8
+ 101 0 101 0 90 0 c 256,9,10
+ 79 0 79 0 72.5 7 c 128,-1,11
+ 66 14 66 14 66 22 c 2,12,-1
+ 66 452 l 2,13,14
+ 66 461 66 461 72.5 466.5 c 128,-1,15
+ 79 472 79 472 90 472 c 0,16,17
+ 100 472 100 472 107 466.5 c 128,-1,18
+ 114 461 114 461 114 452 c 2,19,-1
+ 114 401 l 1,20,21
+ 131 430 131 430 165 454 c 128,-1,22
+ 199 478 199 478 250 478 c 2,23,-1
+ 286 478 l 2,24,25
+ 295 478 295 478 301.5 471.5 c 128,-1,26
+ 308 465 308 465 308 455 c 256,27,28
+ 308 445 308 445 301.5 438.5 c 128,-1,29
+ 295 432 295 432 286 432 c 2,30,-1
+ 250 432 l 2,0,1
+EndSplineSet
+Kerns2: 153 -10 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 127 -68 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 122 -41 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 121 -43 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 116 -8 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 115 -10 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 99 -84 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 58 -93 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"
+Substitution2: "'ss04' Style Set 4 in Latin lookup 6 subtable" r.ss04
+Substitution2: "'salt' Stylistic Alternatives in Latin lookup 2 subtable" r.ss04
+Substitution2: "'aalt' Access All Alternates in Latin lookup 0 subtable" r.ss04
+EndChar

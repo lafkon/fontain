@@ -1,0 +1,114 @@
+StartChar: imacron
+Encoding: 299 299 254
+Width: 191
+Flags: W
+TtInstrs:
+NPUSHB
+ 14
+ 1
+ 0
+ 26
+ 23
+ 19
+ 16
+ 8
+ 6
+ 0
+ 13
+ 1
+ 13
+ 5
+ 8
+CALL
+MPPEM
+PUSHB_1
+ 83
+LT
+IF
+NPUSHB
+ 23
+ 0
+ 2
+ 0
+ 3
+ 0
+ 2
+ 3
+ 1
+ 0
+ 41
+ 4
+ 1
+ 0
+ 0
+ 15
+ 34
+ 0
+ 1
+ 1
+ 13
+ 1
+ 35
+ 3
+ELSE
+NPUSHB
+ 25
+ 0
+ 2
+ 0
+ 3
+ 0
+ 2
+ 3
+ 1
+ 0
+ 41
+ 4
+ 1
+ 0
+ 0
+ 1
+ 1
+ 0
+ 39
+ 0
+ 1
+ 1
+ 13
+ 1
+ 35
+ 3
+EIF
+PUSHB_1
+ 59
+CALL
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+95 473 m 256,0,1
+ 109 473 109 473 118.5 466.5 c 128,-1,2
+ 128 460 128 460 128 449 c 2,3,-1
+ 128 26 l 2,4,5
+ 128 16 128 16 118.5 8 c 128,-1,6
+ 109 0 109 0 95 0 c 256,7,8
+ 81 0 81 0 72 8 c 128,-1,9
+ 63 16 63 16 63 26 c 2,10,-1
+ 63 449 l 2,11,12
+ 63 460 63 460 72 466.5 c 128,-1,13
+ 81 473 81 473 95 473 c 256,0,1
+-38 660 m 256,14,15
+ -38 671 -38 671 -31 678.5 c 128,-1,16
+ -24 686 -24 686 -13 686 c 2,17,-1
+ 202 686 l 2,18,19
+ 211 686 211 686 219 678.5 c 128,-1,20
+ 227 671 227 671 227 660 c 256,21,22
+ 227 649 227 649 219 642 c 128,-1,23
+ 211 635 211 635 202 635 c 2,24,-1
+ -13 635 l 2,25,26
+ -24 635 -24 635 -31 642 c 128,-1,27
+ -38 649 -38 649 -38 660 c 256,14,15
+EndSplineSet
+Kerns2: 338 14 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 336 11 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 335 15 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 334 11 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 333 15 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 331 14 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 329 35 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 157 16 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"
+EndChar

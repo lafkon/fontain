@@ -1,0 +1,42 @@
+StartChar: acute
+Encoding: 180 180 791
+Width: 457
+Flags: W
+TtInstrs:
+NPUSHB
+ 12
+ 16
+ 15
+ 2
+ 0
+ 63
+ 0
+ 0
+ 0
+ 97
+ 36
+ 1
+ 16
+CALL
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+447 1486 m 0,1,2
+ 529 1597 529 1597 566 1634 c 0,3,4
+ 606 1680 606 1680 650 1680 c 0,5,6
+ 675 1680 675 1680 695 1665 c 0,7,8
+ 711 1649 711 1649 711 1625 c 0,9,10
+ 711 1584 711 1584 665 1538 c 0,11,12
+ 626 1496 626 1496 527 1425 c 0,13,14
+ 385 1321 385 1321 280 1227 c 1,15,-1
+ 259 1245 l 1,16,0
+ 344 1345 344 1345 447 1486 c 0,1,2
+EndSplineSet
+Substitution2: "'case' Case-Sensitive Forms lookup 25 subtable" acute.case
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" acute.smcp
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" acute.smcp
+Substitution2: "'locl' Localized Forms in Latin lookup 7 subtable" acute.loclPLK
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" acute.loclPLK acute.smcp acute.case
+EndChar

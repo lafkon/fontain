@@ -1,0 +1,71 @@
+StartChar: backslash
+Encoding: 92 92 157
+Width: 340
+Flags: W
+TtInstrs:
+NPUSHB
+ 6
+ 14
+ 12
+ 6
+ 4
+ 2
+ 8
+CALL
+MPPEM
+PUSHB_1
+ 35
+LT
+IF
+NPUSHB
+ 12
+ 0
+ 0
+ 0
+ 14
+ 34
+ 0
+ 1
+ 1
+ 13
+ 1
+ 35
+ 2
+ELSE
+NPUSHB
+ 12
+ 0
+ 0
+ 1
+ 0
+ 55
+ 0
+ 1
+ 1
+ 13
+ 1
+ 35
+ 2
+EIF
+PUSHB_1
+ 59
+CALL
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+29 727 m 2,0,1
+ 28 730 28 730 28 735 c 0,2,3
+ 28 744 28 744 33.5 749 c 128,-1,4
+ 39 754 39 754 46 754 c 0,5,6
+ 57 754 57 754 60 745 c 2,7,-1
+ 312 21 l 2,8,9
+ 313 19 313 19 313 15 c 0,10,11
+ 313 8 313 8 308 4 c 128,-1,12
+ 303 0 303 0 296 0 c 0,13,14
+ 283 0 283 0 279 12 c 2,15,-1
+ 29 727 l 2,0,1
+EndSplineSet
+Kerns2: 398 -14 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 336 -47 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 115 -33 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"
+EndChar

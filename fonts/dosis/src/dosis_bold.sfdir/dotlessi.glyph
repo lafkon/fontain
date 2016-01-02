@@ -1,0 +1,78 @@
+StartChar: dotlessi
+Encoding: 305 305 192
+Width: 229
+Flags: W
+TtInstrs:
+NPUSHB
+ 10
+ 1
+ 0
+ 8
+ 6
+ 0
+ 13
+ 1
+ 13
+ 3
+ 8
+CALL
+MPPEM
+PUSHB_1
+ 82
+LT
+IF
+NPUSHB
+ 13
+ 2
+ 1
+ 0
+ 0
+ 15
+ 34
+ 0
+ 1
+ 1
+ 13
+ 1
+ 35
+ 2
+ELSE
+NPUSHB
+ 15
+ 2
+ 1
+ 0
+ 0
+ 1
+ 1
+ 0
+ 39
+ 0
+ 1
+ 1
+ 13
+ 1
+ 35
+ 2
+EIF
+PUSHB_1
+ 59
+CALL
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+114 475 m 0,0,1
+ 141 475 141 475 160 464 c 128,-1,2
+ 179 453 179 453 179 435 c 2,3,-1
+ 179 41 l 2,4,5
+ 179 26 179 26 160 13 c 128,-1,6
+ 141 0 141 0 114 0 c 0,7,8
+ 86 0 86 0 68 13 c 128,-1,9
+ 50 26 50 26 50 41 c 2,10,-1
+ 50 435 l 2,11,12
+ 50 453 50 453 68 464 c 128,-1,13
+ 86 475 86 475 114 475 c 0,0,1
+EndSplineSet
+EndChar

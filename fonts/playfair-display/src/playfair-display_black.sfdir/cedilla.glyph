@@ -1,0 +1,84 @@
+StartChar: cedilla
+Encoding: 184 184 794
+Width: 467
+Flags: W
+TtInstrs:
+NPUSHB
+ 49
+ 22
+ 1
+ 3
+ 0
+ 19
+ 10
+ 2
+ 2
+ 3
+ 9
+ 1
+ 1
+ 2
+ 3
+ 66
+ 0
+ 0
+ 4
+ 3
+ 4
+ 0
+ 3
+ 104
+ 0
+ 4
+ 0
+ 3
+ 2
+ 4
+ 3
+ 91
+ 0
+ 2
+ 2
+ 1
+ 84
+ 0
+ 1
+ 1
+ 25
+ 1
+ 68
+ 18
+ 35
+ 35
+ 36
+ 32
+ 5
+ 20
+CALL
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+332 -92 m 0,1,2
+ 406 -92 406 -92 444.5 -125 c 128,-1,3
+ 483 -158 483 -158 483 -211 c 0,4,5
+ 483 -297 483 -297 394.5 -341 c 128,-1,6
+ 306 -385 306 -385 160 -385 c 0,7,8
+ 46 -385 46 -385 -25 -358 c 1,9,-1
+ -12 -322 l 1,10,11
+ 33 -332 33 -332 86 -332 c 0,12,13
+ 136 -332 136 -332 174.5 -312 c 128,-1,14
+ 213 -292 213 -292 213 -254 c 0,15,16
+ 213 -203 213 -203 156 -203 c 0,17,18
+ 113 -203 113 -203 88 -217 c 1,19,-1
+ 150 0 l 1,20,-1
+ 205 0 l 1,21,-1
+ 170 -123 l 1,22,0
+ 242 -92 242 -92 332 -92 c 0,1,2
+EndSplineSet
+Substitution2: "'case' Case-Sensitive Forms lookup 25 subtable" cedilla.case
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" cedilla.smcp
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" cedilla.smcp
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" cedilla.smcp cedilla.case
+EndChar

@@ -1,0 +1,54 @@
+StartChar: bullet
+Encoding: 8226 8226 673
+Width: 862
+Flags: W
+TtInstrs:
+NPUSHB
+ 20
+ 0
+ 0
+ 1
+ 1
+ 0
+ 79
+ 0
+ 0
+ 0
+ 1
+ 83
+ 0
+ 1
+ 0
+ 1
+ 71
+ 40
+ 34
+ 2
+ 17
+CALL
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+168.5 657 m 128,-1,1
+ 214 724 214 724 284.5 763.5 c 128,-1,2
+ 355 803 355 803 435 803 c 0,3,4
+ 509 803 509 803 569.5 769 c 128,-1,5
+ 630 735 630 735 664.5 675.5 c 128,-1,6
+ 699 616 699 616 699 544 c 0,7,8
+ 699 532 699 532 697 510 c 0,9,10
+ 689 430 689 430 643.5 363.5 c 128,-1,11
+ 598 297 598 297 527 258 c 128,-1,12
+ 456 219 456 219 376 219 c 0,13,14
+ 302 219 302 219 241.5 253 c 128,-1,15
+ 181 287 181 287 146.5 346.5 c 128,-1,16
+ 112 406 112 406 112 479 c 0,17,18
+ 112 488 112 488 114 510 c 0,19,0
+ 123 590 123 590 168.5 657 c 128,-1,1
+EndSplineSet
+Substitution2: "'case' Case-Sensitive Forms lookup 25 subtable" bullet.case
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" bullet.smcp
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" bullet.smcp
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" bullet.smcp bullet.case
+EndChar

@@ -1,0 +1,112 @@
+StartChar: one
+Encoding: 49 49 301
+Width: 233
+Flags: W
+TtInstrs:
+NPUSHB
+ 8
+ 21
+ 19
+ 14
+ 12
+ 4
+ 2
+ 3
+ 8
+CALL
+MPPEM
+PUSHB_1
+ 236
+LT
+IF
+NPUSHB
+ 26
+ 0
+ 1
+ 0
+ 1
+ 1
+ 33
+ 0
+ 0
+ 1
+ 2
+ 1
+ 0
+ 2
+ 53
+ 0
+ 1
+ 1
+ 12
+ 34
+ 0
+ 2
+ 2
+ 13
+ 2
+ 35
+ 4
+ELSE
+NPUSHB
+ 28
+ 0
+ 1
+ 0
+ 1
+ 1
+ 33
+ 0
+ 0
+ 1
+ 2
+ 1
+ 0
+ 2
+ 53
+ 0
+ 1
+ 1
+ 2
+ 1
+ 0
+ 39
+ 0
+ 2
+ 2
+ 13
+ 2
+ 35
+ 4
+EIF
+PUSHB_1
+ 59
+CALL
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+98 619 m 1,0,-1
+ 58 554 l 2,1,2
+ 50 542 50 542 39 542 c 256,3,4
+ 28 542 28 542 20.5 551 c 128,-1,5
+ 13 560 13 560 13 571 c 0,6,7
+ 13 578 13 578 18 587 c 128,-1,8
+ 23 596 23 596 28 601 c 2,9,-1
+ 110 717 l 2,10,11
+ 115 723 115 723 120 727.5 c 128,-1,12
+ 125 732 125 732 135 732 c 0,13,14
+ 146 732 146 732 155 725.5 c 128,-1,15
+ 164 719 164 719 164 707 c 2,16,-1
+ 164 26 l 2,17,18
+ 164 13 164 13 153.5 6.5 c 128,-1,19
+ 143 0 143 0 131 0 c 0,20,21
+ 118 0 118 0 108 6.5 c 128,-1,22
+ 98 13 98 13 98 26 c 2,23,-1
+ 98 619 l 1,0,-1
+EndSplineSet
+Kerns2: 227 83 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"
+Substitution2: "'lnum' Lining Figures in Latin lookup 8 subtable" one.lnum
+Substitution2: "'aalt' Access All Alternates in Latin lookup 0 subtable" one.lnum
+EndChar

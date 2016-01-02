@@ -1,0 +1,89 @@
+StartChar: period
+Encoding: 46 46 320
+Width: 176
+Flags: W
+TtInstrs:
+NPUSHB
+ 10
+ 1
+ 0
+ 7
+ 5
+ 0
+ 11
+ 1
+ 11
+ 3
+ 8
+CALL
+MPPEM
+PUSHB_1
+ 247
+LT
+IF
+NPUSHB
+ 15
+ 2
+ 1
+ 0
+ 0
+ 1
+ 1
+ 0
+ 39
+ 0
+ 1
+ 1
+ 16
+ 1
+ 35
+ 2
+ELSE
+NPUSHB
+ 25
+ 2
+ 1
+ 0
+ 1
+ 1
+ 0
+ 1
+ 0
+ 38
+ 2
+ 1
+ 0
+ 0
+ 1
+ 1
+ 0
+ 39
+ 0
+ 1
+ 0
+ 1
+ 1
+ 0
+ 36
+ 3
+EIF
+PUSHB_1
+ 59
+CALL
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+89 99 m 0,0,1
+ 110 99 110 99 125 83.5 c 128,-1,2
+ 140 68 140 68 140 46 c 0,3,4
+ 140 26 140 26 125 10 c 128,-1,5
+ 110 -6 110 -6 89 -6 c 0,6,7
+ 66 -6 66 -6 51.5 10 c 128,-1,8
+ 37 26 37 26 37 46 c 0,9,10
+ 37 68 37 68 51.5 83.5 c 128,-1,11
+ 66 99 66 99 89 99 c 0,0,1
+EndSplineSet
+Kerns2: 331 -88 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"
+EndChar

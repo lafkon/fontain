@@ -1,0 +1,170 @@
+StartChar: r
+Encoding: 114 114 339
+Width: 308
+Flags: W
+TtInstrs:
+NPUSHB
+ 14
+ 1
+ 0
+ 24
+ 21
+ 16
+ 14
+ 10
+ 8
+ 0
+ 29
+ 1
+ 28
+ 5
+ 8
+CALL
+MPPEM
+PUSHB_1
+ 39
+LT
+IF
+NPUSHB
+ 27
+ 19
+ 1
+ 1
+ 0
+ 1
+ 33
+ 4
+ 1
+ 0
+ 0
+ 2
+ 1
+ 0
+ 39
+ 3
+ 1
+ 2
+ 2
+ 15
+ 34
+ 0
+ 1
+ 1
+ 13
+ 1
+ 35
+ 4
+ELSE
+MPPEM
+PUSHB_1
+ 83
+LT
+IF
+NPUSHB
+ 31
+ 19
+ 1
+ 1
+ 0
+ 1
+ 33
+ 0
+ 2
+ 2
+ 15
+ 34
+ 4
+ 1
+ 0
+ 0
+ 3
+ 1
+ 0
+ 39
+ 0
+ 3
+ 3
+ 15
+ 34
+ 0
+ 1
+ 1
+ 13
+ 1
+ 35
+ 5
+ELSE
+NPUSHB
+ 33
+ 19
+ 1
+ 1
+ 0
+ 1
+ 33
+ 4
+ 1
+ 0
+ 0
+ 3
+ 1
+ 0
+ 39
+ 0
+ 3
+ 3
+ 15
+ 34
+ 0
+ 2
+ 2
+ 1
+ 1
+ 0
+ 39
+ 0
+ 1
+ 1
+ 13
+ 1
+ 35
+ 5
+EIF
+EIF
+PUSHB_1
+ 59
+CALL
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+242 443 m 2,0,1
+ 216 443 216 443 191 433 c 128,-1,2
+ 166 423 166 423 146.5 404.5 c 128,-1,3
+ 127 386 127 386 115 359 c 128,-1,4
+ 103 332 103 332 103 298 c 2,5,-1
+ 103 18 l 2,6,7
+ 103 11 103 11 98 5.5 c 128,-1,8
+ 93 0 93 0 85 0 c 256,9,10
+ 77 0 77 0 72.5 5.5 c 128,-1,11
+ 68 11 68 11 68 18 c 2,12,-1
+ 68 455 l 2,13,14
+ 68 472 68 472 85 472 c 0,15,16
+ 93 472 93 472 98 467.5 c 128,-1,17
+ 103 463 103 463 103 455 c 2,18,-1
+ 103 402 l 1,19,20
+ 120 431 120 431 154.5 454.5 c 128,-1,21
+ 189 478 189 478 242 478 c 2,22,-1
+ 279 478 l 2,23,24
+ 286 478 286 478 291 473 c 128,-1,25
+ 296 468 296 468 296 460 c 0,26,27
+ 296 453 296 453 291 448 c 128,-1,28
+ 286 443 286 443 279 443 c 2,29,-1
+ 242 443 l 2,0,1
+EndSplineSet
+Kerns2: 153 -11 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 127 -69 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 122 -36 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 121 -39 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 116 -7 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 115 -8 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 99 -84 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 58 -96 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"
+Substitution2: "'ss04' Style Set 4 in Latin lookup 6 subtable" r.ss04
+Substitution2: "'salt' Stylistic Alternatives in Latin lookup 2 subtable" r.ss04
+Substitution2: "'aalt' Access All Alternates in Latin lookup 0 subtable" r.ss04
+EndChar

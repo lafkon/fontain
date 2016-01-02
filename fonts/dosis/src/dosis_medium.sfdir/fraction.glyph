@@ -1,0 +1,99 @@
+StartChar: fraction
+Encoding: 8260 8260 227
+Width: 167
+Flags: W
+TtInstrs:
+NPUSHB
+ 10
+ 1
+ 0
+ 10
+ 8
+ 0
+ 17
+ 1
+ 17
+ 3
+ 8
+CALL
+MPPEM
+PUSHB_1
+ 22
+LT
+IF
+NPUSHB
+ 13
+ 2
+ 1
+ 0
+ 0
+ 14
+ 34
+ 0
+ 1
+ 1
+ 16
+ 1
+ 35
+ 2
+ELSE
+MPPEM
+PUSHB_1
+ 49
+LT
+IF
+NPUSHB
+ 13
+ 0
+ 1
+ 0
+ 1
+ 56
+ 2
+ 1
+ 0
+ 0
+ 14
+ 0
+ 35
+ 2
+ELSE
+NPUSHB
+ 11
+ 2
+ 1
+ 0
+ 1
+ 0
+ 55
+ 0
+ 1
+ 1
+ 46
+ 2
+EIF
+EIF
+PUSHB_1
+ 59
+CALL
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+268 770 m 0,0,1
+ 280 770 280 770 291 760.5 c 128,-1,2
+ 302 751 302 751 302 737 c 0,3,4
+ 302 730 302 730 299 723 c 2,5,-1
+ -75 -14 l 2,6,7
+ -79 -22 -79 -22 -86.5 -26 c 128,-1,8
+ -94 -30 -94 -30 -103 -30 c 0,9,10
+ -117 -30 -117 -30 -126 -21 c 128,-1,11
+ -135 -12 -135 -12 -135 0 c 0,12,13
+ -135 7 -135 7 -132 13 c 2,14,-1
+ 243 755 l 2,15,16
+ 247 763 247 763 253.5 766.5 c 128,-1,17
+ 260 770 260 770 268 770 c 0,0,1
+EndSplineSet
+Kerns2: 415 45 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 379 60 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 372 64 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 360 46 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 356 123 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 302 21 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 301 75 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 285 62 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 225 -37 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 218 66 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 202 57 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"
+EndChar

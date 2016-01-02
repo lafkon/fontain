@@ -1,0 +1,86 @@
+StartChar: cedilla
+Encoding: 184 184 794
+Width: 467
+Flags: W
+TtInstrs:
+NPUSHB
+ 48
+ 25
+ 1
+ 3
+ 0
+ 22
+ 12
+ 2
+ 2
+ 3
+ 11
+ 1
+ 1
+ 2
+ 3
+ 66
+ 0
+ 4
+ 0
+ 4
+ 106
+ 0
+ 0
+ 3
+ 0
+ 106
+ 0
+ 3
+ 2
+ 3
+ 106
+ 0
+ 2
+ 2
+ 1
+ 83
+ 0
+ 1
+ 1
+ 25
+ 1
+ 68
+ 18
+ 36
+ 36
+ 37
+ 32
+ 5
+ 20
+CALL
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+302 -121 m 0,1,2
+ 357 -121 357 -121 391.5 -143 c 128,-1,3
+ 426 -165 426 -165 426 -206 c 0,4,5
+ 426 -267 426 -267 377 -307 c 128,-1,6
+ 328 -347 328 -347 251 -366 c 128,-1,7
+ 174 -385 174 -385 91 -385 c 0,8,9
+ 33 -385 33 -385 -16.5 -372.5 c 128,-1,10
+ -66 -360 -66 -360 -93 -345 c 1,11,-1
+ -80 -313 l 1,12,13
+ -14 -336 -14 -336 44 -336 c 0,14,15
+ 98 -336 98 -336 151 -315 c 128,-1,16
+ 204 -294 204 -294 204 -242 c 0,17,18
+ 204 -220 204 -220 189 -207.5 c 128,-1,19
+ 174 -195 174 -195 147 -195 c 0,20,21
+ 112 -195 112 -195 83 -209 c 1,22,-1
+ 224 0 l 1,23,-1
+ 282 0 l 1,24,-1
+ 193 -141 l 1,25,0
+ 255 -121 255 -121 302 -121 c 0,1,2
+EndSplineSet
+Substitution2: "'case' Case-Sensitive Forms lookup 25 subtable" cedilla.case
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 24 subtable" cedilla.smcp
+Substitution2: "'c2sc' Capitals to Small Capitals lookup 23 subtable" cedilla.smcp
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" cedilla.smcp cedilla.case
+EndChar
