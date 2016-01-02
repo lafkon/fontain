@@ -208,8 +208,8 @@ playfair-display_regular
   manifont-grotesk_book-dot
   manifont-grotesk_book-italic
 manifont-grotesk_book
-garoa-hacker-clube_bold
-futhark-adapted
+  garoa-hacker-clube_bold
+  futhark-adapted
   dosis_bold
   dosis_book
   dosis_extra-bold
