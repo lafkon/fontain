@@ -35,7 +35,7 @@ diventerà da grande.
 
 AUTHOR
 ======
-[Accademia di Belle Arti di Urbino](www.campivisivi.net)
+[Accademia di Belle Arti di Urbino](http://www.campivisivi.net)
 
 
 LICENSE
